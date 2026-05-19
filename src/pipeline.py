@@ -53,8 +53,11 @@ SEARCH_QUERIES = {
     "pt": ["PPA assinado Europa", "contrato compra energia assinado"],
 }
 
+SEARCH_FROM_DATE = "2026-05-07" # hardcoded for testing purposes
+
 # How many days back to search (overlap intentional to catch delayed indexing)
 LOOKBACK_DAYS = 2
+SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")  # e.g. "2026-01-01"
 
 
 # ── Database ──────────────────────────────────────────────────────────────────
@@ -118,37 +121,42 @@ def fetch_newsapi(query: str, from_date: str) -> list[dict]:
 
 
 def fetch_gdelt(query: str, from_date: str) -> list[dict]:
-    """Fetch articles from GDELT for a given query."""
-    try:
-        resp = requests.get(
-            GDELT_URL,
-            params={
-                "query": query,
-                "mode": "artlist",
-                "maxrecords": 75,
-                "startdatetime": from_date.replace("-", "") + "000000",
-                "format": "json",
-            },
-            timeout=20,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        articles = data.get("articles", [])
-        log.info(f"GDELT '{query}': {len(articles)} results")
-        # Normalise to NewsAPI-like shape
-        return [
-            {
-                "title": a.get("title", ""),
-                "url": a.get("url", ""),
-                "publishedAt": a.get("seendate", ""),
-                "source": {"name": a.get("domain", "")},
-                "description": a.get("title", ""),  # GDELT rarely gives snippets
-            }
-            for a in articles
-        ]
-    except Exception as e:
-        log.warning(f"GDELT error for '{query}': {e}")
-        return []
+    for attempt in range(3):
+        try:
+            resp = requests.get(
+                GDELT_URL,
+                params={
+                    "query": query,
+                    "mode": "artlist",
+                    "maxrecords": 75,
+                    "startdatetime": from_date.replace("-", "") + "000000",
+                    "format": "json",
+                },
+                timeout=20,
+            )
+            if resp.status_code == 429:
+                wait = 60 * (attempt + 1)
+                log.warning(f"GDELT 429, waiting {wait}s before retry...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            articles = data.get("articles", [])
+            log.info(f"GDELT '{query}': {len(articles)} results")
+            return [
+                {
+                    "title": a.get("title", ""),
+                    "url": a.get("url", ""),
+                    "publishedAt": a.get("seendate", ""),
+                    "source": {"name": a.get("domain", "")},
+                    "description": a.get("title", ""),
+                }
+                for a in articles
+            ]
+        except Exception as e:
+            log.warning(f"GDELT error for '{query}': {e}")
+            time.sleep(30)
+    return []
 
 
 def fetch_full_text(url: str) -> str | None:
@@ -374,7 +382,7 @@ def run() -> None:
     conn = sqlite3.connect(DB_PATH)
     init_db(conn)
 
-    from_date = (datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+    from_date = SEARCH_FROM_DATE or (datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     log.info(f"Searching from {from_date}")
 
     # 1. Collect all articles
@@ -389,7 +397,7 @@ def run() -> None:
     for lang, queries in SEARCH_QUERIES.items():
         for query in queries:
             all_articles.extend(fetch_gdelt(query, from_date))
-            time.sleep(0.3)
+            time.sleep(5)
 
     log.info(f"Total raw articles collected: {len(all_articles)}")
 
