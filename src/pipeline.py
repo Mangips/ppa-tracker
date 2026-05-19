@@ -53,11 +53,9 @@ SEARCH_QUERIES = {
     "pt": ["PPA assinado Europa", "contrato compra energia assinado"],
 }
 
-SEARCH_FROM_DATE = "2026-05-07" # hardcoded for testing purposes
-
 # How many days back to search (overlap intentional to catch delayed indexing)
 LOOKBACK_DAYS = 2
-SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")  # e.g. "2026-01-01"
+SEARCH_FROM_DATE = "2026-05-07"  # e.g. "2026-01-01"
 
 
 # ── Database ──────────────────────────────────────────────────────────────────
