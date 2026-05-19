@@ -1,0 +1,54 @@
+name: PPA Tracker Daily Run
+
+on:
+  schedule:
+    # Runs every day at 07:00 UTC
+    - cron: "0 7 * * *"
+  workflow_dispatch:  # allows manual trigger from GitHub UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # needed to commit CSV back to repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so we can commit back cleanly
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore database from previous run
+        run: |
+          # If a cached DB exists from a previous artifact, restore it.
+          # Otherwise start fresh (init_db handles this).
+          if [ -f data/ppa_deals.db ]; then
+            echo "Existing DB found in repo."
+          else
+            echo "No existing DB, will be created fresh."
+          fi
+
+      - name: Run pipeline
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python src/pipeline.py
+
+      - name: Commit updated DB and CSV to repo
+        run: |
+          git config user.name "ppa-tracker-bot"
+          git config user.email "bot@ppa-tracker"
+          git add data/ppa_deals.db data/ppa_deals.csv
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "chore: daily update $(date -u '+%Y-%m-%d')"
+          git push
