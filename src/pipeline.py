@@ -43,14 +43,14 @@ GEMINI_URL = (
 # Search queries per language.
 # PPA is widely used as-is; we add local-language synonyms where meaningful.
 SEARCH_QUERIES = {
-    "en": ["PPA signed Europe", "power purchase agreement signed Europe", "corporate PPA deal Europe"],
-    "de": ["PPA unterzeichnet Europa", "Stromabnahmevertrag unterzeichnet"],
-    "fr": ["PPA signé Europe", "accord achat énergie signé"],
-    "es": ["PPA firmado Europa", "contrato compra energía firmado"],
-    "it": ["PPA firmato Europa", "contratto acquisto energia firmato"],
-    "pl": ["PPA podpisany Europa", "umowa zakupu energii podpisana"],
-    "nl": ["PPA ondertekend Europa", "energieafnameovereenkomst ondertekend"],
-    "pt": ["PPA assinado Europa", "contrato compra energia assinado"],
+    "en": ["PPA signed Europe", "power purchase agreement Europe signed"],
+    "de": ["PPA unterzeichnet Europa"],
+    "fr": ["PPA signé Europe"],
+    "es": ["PPA firmado Europa"],
+    "it": ["PPA firmato Europa"],
+    "pl": ["PPA podpisany Europa"],
+    "nl": ["PPA ondertekend Europa"],
+    "pt": ["PPA assinado Europa"],
 }
 
 # How many days back to search (overlap intentional to catch delayed indexing)
@@ -119,42 +119,38 @@ def fetch_newsapi(query: str, from_date: str) -> list[dict]:
 
 
 def fetch_gdelt(query: str, from_date: str) -> list[dict]:
-    for attempt in range(3):
-        try:
-            resp = requests.get(
-                GDELT_URL,
-                params={
-                    "query": query,
-                    "mode": "artlist",
-                    "maxrecords": 75,
-                    "startdatetime": from_date.replace("-", "") + "000000",
-                    "format": "json",
-                },
-                timeout=20,
-            )
-            if resp.status_code == 429:
-                wait = 60 * (attempt + 1)
-                log.warning(f"GDELT 429, waiting {wait}s before retry...")
-                time.sleep(wait)
-                continue
-            resp.raise_for_status()
-            data = resp.json()
-            articles = data.get("articles", [])
-            log.info(f"GDELT '{query}': {len(articles)} results")
-            return [
-                {
-                    "title": a.get("title", ""),
-                    "url": a.get("url", ""),
-                    "publishedAt": a.get("seendate", ""),
-                    "source": {"name": a.get("domain", "")},
-                    "description": a.get("title", ""),
-                }
-                for a in articles
-            ]
-        except Exception as e:
-            log.warning(f"GDELT error for '{query}': {e}")
-            time.sleep(30)
-    return []
+    try:
+        resp = requests.get(
+            GDELT_URL,
+            params={
+                "query": query,
+                "mode": "artlist",
+                "maxrecords": 75,
+                "startdatetime": from_date.replace("-", "") + "000000",
+                "format": "json",
+            },
+            timeout=15,
+        )
+        if resp.status_code == 429:
+            log.warning(f"GDELT 429 for '{query}', skipping.")
+            return []
+        resp.raise_for_status()
+        data = resp.json()
+        articles = data.get("articles", [])
+        log.info(f"GDELT '{query}': {len(articles)} results")
+        return [
+            {
+                "title": a.get("title", ""),
+                "url": a.get("url", ""),
+                "publishedAt": a.get("seendate", ""),
+                "source": {"name": a.get("domain", "")},
+                "description": a.get("title", ""),
+            }
+            for a in articles
+        ]
+    except Exception as e:
+        log.warning(f"GDELT error for '{query}': {e}")
+        return []
 
 
 def fetch_full_text(url: str) -> str | None:
@@ -395,7 +391,7 @@ def run() -> None:
     for lang, queries in SEARCH_QUERIES.items():
         for query in queries:
             all_articles.extend(fetch_gdelt(query, from_date))
-            time.sleep(5)
+            time.sleep(10)
 
     log.info(f"Total raw articles collected: {len(all_articles)}")
 
