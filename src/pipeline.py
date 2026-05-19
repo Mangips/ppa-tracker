@@ -426,9 +426,10 @@ def run() -> None:
         outlet = article.get("source", {}).get("name", "")
 
         # Quick pre-filter: skip if title/snippet has no PPA signal
-        combined = (title + " " + snippet).lower()
-        if not any(kw in combined for kw in ["ppa", "power purchase", "purchase agreement", "offtake", "stromabnahme", "achat énergie", "compra energía", "acquisto energia"]):
-            continue
+        # Removed as too strong filter at first
+        #combined = (title + " " + snippet).lower()
+        #if not any(kw in combined for kw in ["ppa", "power purchase", "purchase agreement", "offtake", "stromabnahme", "achat énergie", "compra energía", "acquisto energia"]):
+        #    continue
 
         # Try full text, fall back to snippet
         full_text = fetch_full_text(url) if url else None
