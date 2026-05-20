@@ -449,15 +449,6 @@ def run() -> None:
 
     log.info(f"Unique unseen articles: {len(unique_articles)}")
 
-    conn.executemany(
-        "INSERT OR IGNORE INTO seen_urls VALUES (?, ?)",
-        [
-            (a["url"], datetime.utcnow().strftime("%Y-%m-%d"))
-            for a in unique_articles if a.get("url")
-        ],
-    )
-    conn.commit()
-
     # 3. Process each article through Gemini
     new_deals = 0
     updates   = 0
@@ -488,6 +479,13 @@ def run() -> None:
         if extracted is None:
             log.warning(f"Gemini returned None — skipping: {title[:60]}")
             continue
+
+        # Mark as seen only after a valid Gemini response (not on API errors)
+        conn.execute(
+            "INSERT OR IGNORE INTO seen_urls VALUES (?, ?)",
+            (url, datetime.utcnow().strftime("%Y-%m-%d"))
+        )
+        conn.commit()
 
         if not extracted.get("is_signed_deal"):
             log.info(f"Not a signed deal — skipping: {title[:60]}")
