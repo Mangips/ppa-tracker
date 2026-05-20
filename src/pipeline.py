@@ -279,7 +279,15 @@ def extract_with_gemini(text: str, title: str, outlet: str) -> dict | None:
             timeout=30,
         )
         # Log the raw HTTP status so we can catch auth/quota errors immediately
-        log.info(f"Gemini HTTP {resp.status_code} for: {title[:60]}")
+        if resp.status_code == 429:
+            log.warning(f"Gemini 429 — waiting 60s before retry: {title[:50]}")
+            time.sleep(60)
+            resp = requests.post(
+                GEMINI_URL,
+                params={"key": GEMINI_KEY},
+                json=payload,
+                timeout=30,
+            )
         if resp.status_code != 200:
             log.warning(f"Gemini error body: {resp.text[:300]}")
             return None
@@ -513,7 +521,7 @@ def run() -> None:
                 f"{extracted.get('capacity_mw')} MW)"
             )
 
-        time.sleep(2)  # Gemini free tier: stay well within rate limits
+        time.sleep(5)  # Gemini free tier: stay well within rate limits
 
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
