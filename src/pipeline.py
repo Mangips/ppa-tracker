@@ -35,11 +35,12 @@ CSV_PATH = DATA_DIR / "ppa_deals.csv"
 
 NEWSAPI_KEY = os.environ["NEWSAPI_KEY"]
 GEMINI_KEY  = os.environ["GEMINI_KEY"]
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
-GEMINI_URL  = (
+GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-1.5-flash:generateContent"
+    f"{GEMINI_MODEL}:generateContent"
 )
 
 # Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
@@ -461,6 +462,11 @@ def run() -> None:
 
         log.info(f"Processing: {title[:80]}")
 
+        combined = (title + " " + snippet).lower()
+        if not any(kw in combined for kw in ["ppa", "power purchase", "purchase agreement"]):
+            log.info(f"Pre-filter skipped: {title[:60]}")
+            continue
+        
         # Try full text; fall back to title + snippet
         full_text          = fetch_full_text(url) if url else None
         text_for_extraction = full_text or f"{title}\n\n{snippet}"
