@@ -35,7 +35,7 @@ CSV_PATH = DATA_DIR / "ppa_deals.csv"
 
 NEWSAPI_KEY = os.environ["NEWSAPI_KEY"]
 GEMINI_KEY  = os.environ["GEMINI_KEY"]
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_MODEL = "gemini-flash-latest"
 
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 GEMINI_URL = (
