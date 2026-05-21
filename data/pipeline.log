@@ -278,3 +278,533 @@
 2026-05-21 12:17:12,113 [INFO] Pre-filter skipped: Google fecha com Shell seu maior acordo para eólica offshore
 2026-05-21 12:17:12,113 [INFO] Run complete. New deals: 0, Updates: 0
 2026-05-21 12:17:12,114 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (0 deals)
+2026-05-21 12:43:15,269 [INFO] === PPA Tracker pipeline starting ===
+2026-05-21 12:43:15,270 [INFO] Searching from 2026-05-19
+2026-05-21 12:43:15,328 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-05-21 12:43:16,420 [INFO] NewsAPI 'power purchase agreement signed Europe': 2 results
+2026-05-21 12:43:17,471 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-05-21 12:43:18,925 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 100 results
+2026-05-21 12:43:21,355 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 99 results
+2026-05-21 12:43:23,649 [INFO] Google News RSS [de] 'PPA unterzeichnet Europa erneuerbare Energie': 21 results
+2026-05-21 12:43:25,947 [INFO] Google News RSS [fr] 'PPA signé Europe énergie renouvelable': 50 results
+2026-05-21 12:43:28,230 [INFO] Google News RSS [es] 'PPA firmado Europa energía renovable': 47 results
+2026-05-21 12:43:30,501 [INFO] Google News RSS [it] 'PPA firmato Europa energia rinnovabile': 29 results
+2026-05-21 12:43:32,708 [INFO] Google News RSS [pl] 'PPA podpisany Europa energia odnawialna': 2 results
+2026-05-21 12:43:34,938 [INFO] Google News RSS [nl] 'PPA ondertekend Europa hernieuwbare energie': 3 results
+2026-05-21 12:43:37,245 [INFO] Google News RSS [pt] 'PPA assinado Europa energia renovável': 23 results
+2026-05-21 12:43:39,246 [INFO] Total raw articles collected: 376
+2026-05-21 12:43:39,246 [INFO] Unique unseen articles: 127
+2026-05-21 12:43:39,247 [INFO] Processing: Sensex today | Stock Market Highlights: Stock markets rebound; Sensex climbs 117
+2026-05-21 12:43:39,691 [INFO] Text length: 25811 chars | source: full
+2026-05-21 12:43:39,691 [INFO] Text preview: Sensex today | Stock Market Highlights: Stock markets rebound; Sensex climbs 117 points on fag-end buying - The HinduBusinessLine SENSEX 75,318.39 + 117.54 NIFTY 23,659.00 + 41.00 CRUDEOIL 9,908.00 -1...
+2026-05-21 12:43:40,658 [INFO] Mistral HTTP 200 for: Sensex today | Stock Market Highlights: Stock markets reboun
+2026-05-21 12:43:40,658 [INFO] Mistral extracted — signed=False confidence=high buyer=None seller=None | Sensex today | Stock Market Highlights: Stock mark
+2026-05-21 12:43:40,663 [INFO] Not a signed deal — skipping: Sensex today | Stock Market Highlights: Stock markets reboun
+2026-05-21 12:43:40,663 [INFO] Processing: Equinor and Eneco Sign New Long-Term Gas Supply Deal
+2026-05-21 12:43:41,487 [INFO] Text length: 14312 chars | source: full
+2026-05-21 12:43:41,487 [INFO] Text preview: Equinor and Eneco Sign New Long-Term Gas Supply Deal | OilPrice.com Type your search and press Enter Home Oil Prices Oil Futures Rig Count Energy Energy-General Oil Prices Crude Oil Heating Oil Gas Pr...
+2026-05-21 12:43:42,346 [INFO] Mistral HTTP 200 for: Equinor and Eneco Sign New Long-Term Gas Supply Deal
+2026-05-21 12:43:42,347 [INFO] Mistral extracted — signed=False confidence=low buyer=None seller=None | Equinor and Eneco Sign New Long-Term Gas Supply De
+2026-05-21 12:43:42,348 [INFO] Not a signed deal — skipping: Equinor and Eneco Sign New Long-Term Gas Supply Deal
+2026-05-21 12:43:42,348 [INFO] Processing: Gestamp and Iberdrola sign a 10-year agreement for the supply of clean energy in
+2026-05-21 12:43:42,703 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:42,703 [INFO] Text preview: Google News...
+2026-05-21 12:43:42,703 [INFO] Text too short (11 chars) — skipping: Gestamp and Iberdrola sign a 10-year agreement for the suppl
+2026-05-21 12:43:42,703 [INFO] Processing: Shell secures power deals for renewable hydrogen electrolyser in Germany - Shell
+2026-05-21 12:43:43,085 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:43,085 [INFO] Text preview: Google News...
+2026-05-21 12:43:43,085 [INFO] Text too short (11 chars) — skipping: Shell secures power deals for renewable hydrogen electrolyse
+2026-05-21 12:43:43,085 [INFO] Processing: Solaria launches a pan-European transformation plan: to triple its capacity, dou
+2026-05-21 12:43:43,416 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:43,416 [INFO] Text preview: Google News...
+2026-05-21 12:43:43,416 [INFO] Text too short (11 chars) — skipping: Solaria launches a pan-European transformation plan: to trip
+2026-05-21 12:43:43,416 [INFO] Processing: Shell Buys Offshore Wind Power for Hydrogen Electrolyzer in Germany - Offshore E
+2026-05-21 12:43:43,769 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:43,769 [INFO] Text preview: Google News...
+2026-05-21 12:43:43,769 [INFO] Text too short (11 chars) — skipping: Shell Buys Offshore Wind Power for Hydrogen Electrolyzer in 
+2026-05-21 12:43:43,769 [INFO] Processing: Iberdrola And Gestamp Sign 10-Year Renewable Power Deal To Supply 660,000 MWh To
+2026-05-21 12:43:44,108 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:44,108 [INFO] Text preview: Google News...
+2026-05-21 12:43:44,108 [INFO] Text too short (11 chars) — skipping: Iberdrola And Gestamp Sign 10-Year Renewable Power Deal To S
+2026-05-21 12:43:44,108 [INFO] Processing: Masdar and Iberdrola Announce €5.2bn UK Offshore Wind Deal and Full Energization
+2026-05-21 12:43:44,453 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:44,453 [INFO] Text preview: Google News...
+2026-05-21 12:43:44,453 [INFO] Text too short (11 chars) — skipping: Masdar and Iberdrola Announce €5.2bn UK Offshore Wind Deal a
+2026-05-21 12:43:44,454 [INFO] Processing: Europe Signed 19 GW Of Renewable Energy Deals In 2024 - TaiyangNews
+2026-05-21 12:43:44,832 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:44,832 [INFO] Text preview: Google News...
+2026-05-21 12:43:44,832 [INFO] Text too short (11 chars) — skipping: Europe Signed 19 GW Of Renewable Energy Deals In 2024 - Taiy
+2026-05-21 12:43:44,832 [INFO] Processing: The overlooked quick win for European renewables - Lightsource bp
+2026-05-21 12:43:45,200 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:45,200 [INFO] Text preview: Google News...
+2026-05-21 12:43:45,200 [INFO] Text too short (11 chars) — skipping: The overlooked quick win for European renewables - Lightsour
+2026-05-21 12:43:45,200 [INFO] Processing: Forvia boosts its renewable energy capacity to up to 70% across Europe with Rene
+2026-05-21 12:43:45,671 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:45,672 [INFO] Text preview: Google News...
+2026-05-21 12:43:45,672 [INFO] Text too short (11 chars) — skipping: Forvia boosts its renewable energy capacity to up to 70% acr
+2026-05-21 12:43:45,672 [INFO] Processing: Corporate Clean Power Buying Grew 12% to New Record in 2023, According to Bloomb
+2026-05-21 12:43:45,999 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:45,999 [INFO] Text preview: Google News...
+2026-05-21 12:43:45,999 [INFO] Text too short (11 chars) — skipping: Corporate Clean Power Buying Grew 12% to New Record in 2023,
+2026-05-21 12:43:45,999 [INFO] Processing: Iberdrola and Amazon further expand their global renewable energy partnership an
+2026-05-21 12:43:46,365 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:46,365 [INFO] Text preview: Google News...
+2026-05-21 12:43:46,365 [INFO] Text too short (11 chars) — skipping: Iberdrola and Amazon further expand their global renewable e
+2026-05-21 12:43:46,365 [INFO] Processing: Adding Green Energy to the grid - The HEINEKEN Company
+2026-05-21 12:43:46,741 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:46,741 [INFO] Text preview: Google News...
+2026-05-21 12:43:46,741 [INFO] Text too short (11 chars) — skipping: Adding Green Energy to the grid - The HEINEKEN Company
+2026-05-21 12:43:46,741 [INFO] Processing: Digital Realty & Schneider: Powering Net Zero Data Centres - Energy Digital
+2026-05-21 12:43:47,091 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:47,091 [INFO] Text preview: Google News...
+2026-05-21 12:43:47,091 [INFO] Text too short (11 chars) — skipping: Digital Realty & Schneider: Powering Net Zero Data Centres -
+2026-05-21 12:43:47,091 [INFO] Processing: Lhyfe and EDP Renewables signed a long-term contract for the supply of renewable
+2026-05-21 12:43:47,401 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:47,401 [INFO] Text preview: Google News...
+2026-05-21 12:43:47,401 [INFO] Text too short (11 chars) — skipping: Lhyfe and EDP Renewables signed a long-term contract for the
+2026-05-21 12:43:47,401 [INFO] Processing: Corporate sourcing of renewables key to meeting Europe’s 32% renewable energy ta
+2026-05-21 12:43:47,775 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:47,775 [INFO] Text preview: Google News...
+2026-05-21 12:43:47,775 [INFO] Text too short (11 chars) — skipping: Corporate sourcing of renewables key to meeting Europe’s 32%
+2026-05-21 12:43:47,775 [INFO] Processing: PepsiCo, Givaudan, Smurfit WestRock and Statkraft sign 10‑year renewable energy 
+2026-05-21 12:43:48,148 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:48,148 [INFO] Text preview: Google News...
+2026-05-21 12:43:48,148 [INFO] Text too short (11 chars) — skipping: PepsiCo, Givaudan, Smurfit WestRock and Statkraft sign 10‑ye
+2026-05-21 12:43:48,148 [INFO] Processing: PepsiCo inks 10-year renewable energy deal to cut emissions across Europe - ESG 
+2026-05-21 12:43:48,580 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:48,580 [INFO] Text preview: Google News...
+2026-05-21 12:43:48,580 [INFO] Text too short (11 chars) — skipping: PepsiCo inks 10-year renewable energy deal to cut emissions 
+2026-05-21 12:43:48,580 [INFO] Processing: PepsiCo secures 10-year renewable energy agreement with Statkraft to advance val
+2026-05-21 12:43:48,936 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:48,936 [INFO] Text preview: Google News...
+2026-05-21 12:43:48,936 [INFO] Text too short (11 chars) — skipping: PepsiCo secures 10-year renewable energy agreement with Stat
+2026-05-21 12:43:48,936 [INFO] Processing: Europe: TotalEnergies to Supply Renewable Electricity to Airbus in Germany and t
+2026-05-21 12:43:49,268 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:49,268 [INFO] Text preview: Google News...
+2026-05-21 12:43:49,268 [INFO] Text too short (11 chars) — skipping: Europe: TotalEnergies to Supply Renewable Electricity to Air
+2026-05-21 12:43:49,268 [INFO] Processing: Mars Accelerates Clean Energy Transition in Europe Through Landmark Agreement in
+2026-05-21 12:43:49,632 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:49,632 [INFO] Text preview: Google News...
+2026-05-21 12:43:49,632 [INFO] Text too short (11 chars) — skipping: Mars Accelerates Clean Energy Transition in Europe Through L
+2026-05-21 12:43:49,632 [INFO] Processing: Iberdrola, leader in the European market for long-term clean energy contracts fo
+2026-05-21 12:43:49,973 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:49,973 [INFO] Text preview: Google News...
+2026-05-21 12:43:49,973 [INFO] Text too short (11 chars) — skipping: Iberdrola, leader in the European market for long-term clean
+2026-05-21 12:43:49,973 [INFO] Processing: European Energy inaugurates 108MW Australian solar PV project - PV Tech
+2026-05-21 12:43:50,319 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:50,319 [INFO] Text preview: Google News...
+2026-05-21 12:43:50,319 [INFO] Text too short (11 chars) — skipping: European Energy inaugurates 108MW Australian solar PV projec
+2026-05-21 12:43:50,319 [INFO] Processing: Europe Solar PV News Snippets: Econergy Commissions Apple-Contracted PV Project 
+2026-05-21 12:43:50,679 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:50,679 [INFO] Text preview: Google News...
+2026-05-21 12:43:50,679 [INFO] Text too short (11 chars) — skipping: Europe Solar PV News Snippets: Econergy Commissions Apple-Co
+2026-05-21 12:43:50,679 [INFO] Processing: Sandoz Sources Renewable Energy for 90% of Europe Operations - ESG Today
+2026-05-21 12:43:51,038 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:51,039 [INFO] Text preview: Google News...
+2026-05-21 12:43:51,039 [INFO] Text too short (11 chars) — skipping: Sandoz Sources Renewable Energy for 90% of Europe Operations
+2026-05-21 12:43:51,039 [INFO] Processing: Apple expands renewable energy projects across Europe - Apple
+2026-05-21 12:43:51,388 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:51,388 [INFO] Text preview: Google News...
+2026-05-21 12:43:51,388 [INFO] Text too short (11 chars) — skipping: Apple expands renewable energy projects across Europe - Appl
+2026-05-21 12:43:51,388 [INFO] Processing: Nearly 1GW of Amazon-backed renewable projects come online in Europe - Data Cent
+2026-05-21 12:43:51,744 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:51,744 [INFO] Text preview: Google News...
+2026-05-21 12:43:51,745 [INFO] Text too short (11 chars) — skipping: Nearly 1GW of Amazon-backed renewable projects come online i
+2026-05-21 12:43:51,745 [INFO] Processing: Heineken, Rondo, and EDP drive the largest thermal storage project in the Iberia
+2026-05-21 12:43:52,098 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:52,098 [INFO] Text preview: Google News...
+2026-05-21 12:43:52,098 [INFO] Text too short (11 chars) — skipping: Heineken, Rondo, and EDP drive the largest thermal storage p
+2026-05-21 12:43:52,098 [INFO] Processing: Cisco Improves Sustainability of European Operations with New 15-Year Solar Ener
+2026-05-21 12:43:52,450 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:52,450 [INFO] Text preview: Google News...
+2026-05-21 12:43:52,450 [INFO] Text too short (11 chars) — skipping: Cisco Improves Sustainability of European Operations with Ne
+2026-05-21 12:43:52,450 [INFO] Processing: Integrated Power: TotalEnergies Closes Three International Acquisitions of Renew
+2026-05-21 12:43:52,791 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:52,791 [INFO] Text preview: Google News...
+2026-05-21 12:43:52,791 [INFO] Text too short (11 chars) — skipping: Integrated Power: TotalEnergies Closes Three International A
+2026-05-21 12:43:52,791 [INFO] Processing: Growing complexity and more hybrid projects: mitigating risk in solar offtake ag
+2026-05-21 12:43:53,258 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:53,258 [INFO] Text preview: Google News...
+2026-05-21 12:43:53,258 [INFO] Text too short (11 chars) — skipping: Growing complexity and more hybrid projects: mitigating risk
+2026-05-21 12:43:53,258 [INFO] Processing: Shell signs 15-year agreement with largest solar project in Germany - Shell Glob
+2026-05-21 12:43:53,625 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:53,625 [INFO] Text preview: Google News...
+2026-05-21 12:43:53,625 [INFO] Text too short (11 chars) — skipping: Shell signs 15-year agreement with largest solar project in 
+2026-05-21 12:43:53,625 [INFO] Processing: Amazon is named top corporate purchaser of renewable energy in Europe, having in
+2026-05-21 12:43:53,983 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:53,983 [INFO] Text preview: Google News...
+2026-05-21 12:43:53,983 [INFO] Text too short (11 chars) — skipping: Amazon is named top corporate purchaser of renewable energy 
+2026-05-21 12:43:53,983 [INFO] Processing: EDP selected by large US-based tech company to provide clean energy from project
+2026-05-21 12:43:54,358 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:54,358 [INFO] Text preview: Google News...
+2026-05-21 12:43:54,358 [INFO] Text too short (11 chars) — skipping: EDP selected by large US-based tech company to provide clean
+2026-05-21 12:43:54,358 [INFO] Processing: Apple invests $600m in European renewable energy projects - edie.net
+2026-05-21 12:43:54,801 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:54,802 [INFO] Text preview: Google News...
+2026-05-21 12:43:54,802 [INFO] Text too short (11 chars) — skipping: Apple invests $600m in European renewable energy projects - 
+2026-05-21 12:43:54,802 [INFO] Processing: Decarbonization of European Refineries: A first agreement signed between TotalEn
+2026-05-21 12:43:55,142 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:55,142 [INFO] Text preview: Google News...
+2026-05-21 12:43:55,142 [INFO] Text too short (11 chars) — skipping: Decarbonization of European Refineries: A first agreement si
+2026-05-21 12:43:55,142 [INFO] Processing: Iberdrola and Danone España join forces behind the creation of Europe's biggest 
+2026-05-21 12:43:55,496 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:55,496 [INFO] Text preview: Google News...
+2026-05-21 12:43:55,496 [INFO] Text too short (11 chars) — skipping: Iberdrola and Danone España join forces behind the creation 
+2026-05-21 12:43:55,496 [INFO] Processing: EnBW DHL green power contract offshore - EnBW
+2026-05-21 12:43:55,847 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:55,847 [INFO] Text preview: Google News...
+2026-05-21 12:43:55,847 [INFO] Text too short (11 chars) — skipping: EnBW DHL green power contract offshore - EnBW
+2026-05-21 12:43:55,847 [INFO] Processing: Nike signs agreement to use wind power in Europe - KGW
+2026-05-21 12:43:56,215 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:56,215 [INFO] Text preview: Google News...
+2026-05-21 12:43:56,216 [INFO] Text too short (11 chars) — skipping: Nike signs agreement to use wind power in Europe - KGW
+2026-05-21 12:43:56,216 [INFO] Processing: Uniper and Woodside sign LNG supply agreements - Uniper
+2026-05-21 12:43:56,570 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:56,571 [INFO] Text preview: Google News...
+2026-05-21 12:43:56,571 [INFO] Text too short (11 chars) — skipping: Uniper and Woodside sign LNG supply agreements - Uniper
+2026-05-21 12:43:56,571 [INFO] Processing: Reform of electricity market design: Council reaches agreement - consilium.europ
+2026-05-21 12:43:56,897 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:56,897 [INFO] Text preview: Google News...
+2026-05-21 12:43:56,897 [INFO] Text too short (11 chars) — skipping: Reform of electricity market design: Council reaches agreeme
+2026-05-21 12:43:56,897 [INFO] Processing: Solaria has closed a 300MW PPA with SHELL for 10 years - Solaria – Energía y Med
+2026-05-21 12:43:57,244 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:57,244 [INFO] Text preview: Google News...
+2026-05-21 12:43:57,244 [INFO] Text too short (11 chars) — skipping: Solaria has closed a 300MW PPA with SHELL for 10 years - Sol
+2026-05-21 12:43:57,244 [INFO] Processing: Solaria will invest 2,600 million euros in Europe over the next three years - So
+2026-05-21 12:43:57,596 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:57,596 [INFO] Text preview: Google News...
+2026-05-21 12:43:57,596 [INFO] Text too short (11 chars) — skipping: Solaria will invest 2,600 million euros in Europe over the n
+2026-05-21 12:43:57,597 [INFO] Processing: New ground-breaking PPA deals signed in Scandinavia - WindEurope
+2026-05-21 12:43:57,945 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:57,945 [INFO] Text preview: Google News...
+2026-05-21 12:43:57,945 [INFO] Text too short (11 chars) — skipping: New ground-breaking PPA deals signed in Scandinavia - WindEu
+2026-05-21 12:43:57,945 [INFO] Processing: Rollercoaster for the European PPA market in 2020 - pv magazine International
+2026-05-21 12:43:58,311 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:58,311 [INFO] Text preview: Google News...
+2026-05-21 12:43:58,311 [INFO] Text too short (11 chars) — skipping: Rollercoaster for the European PPA market in 2020 - pv magaz
+2026-05-21 12:43:58,311 [INFO] Processing: Mercedes-Benz deal to buy wind power is first PPA in Germany - WindEurope
+2026-05-21 12:43:58,665 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:58,665 [INFO] Text preview: Google News...
+2026-05-21 12:43:58,665 [INFO] Text too short (11 chars) — skipping: Mercedes-Benz deal to buy wind power is first PPA in Germany
+2026-05-21 12:43:58,665 [INFO] Processing: RWE agrees 10-year PPA with data centre provider - Solar Power Portal
+2026-05-21 12:43:59,004 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:59,004 [INFO] Text preview: Google News...
+2026-05-21 12:43:59,004 [INFO] Text too short (11 chars) — skipping: RWE agrees 10-year PPA with data centre provider - Solar Pow
+2026-05-21 12:43:59,004 [INFO] Processing: Asahi signs PPA to receive clean energy from 19MW solar farm - Solar Power Porta
+2026-05-21 12:43:59,333 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:59,333 [INFO] Text preview: Google News...
+2026-05-21 12:43:59,333 [INFO] Text too short (11 chars) — skipping: Asahi signs PPA to receive clean energy from 19MW solar farm
+2026-05-21 12:43:59,334 [INFO] Processing: Mercedes-Benz Cars sign power purchase agreement with Statkraft - NS Energy
+2026-05-21 12:43:59,700 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:43:59,700 [INFO] Text preview: Google News...
+2026-05-21 12:43:59,700 [INFO] Text too short (11 chars) — skipping: Mercedes-Benz Cars sign power purchase agreement with Statkr
+2026-05-21 12:43:59,700 [INFO] Processing: NKT unterzeichnet zehnjährigen Solarstromvertrag zur Versorgung deutscher Produk
+2026-05-21 12:44:00,033 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:00,033 [INFO] Text preview: Google News...
+2026-05-21 12:44:00,033 [INFO] Text too short (11 chars) — skipping: NKT unterzeichnet zehnjährigen Solarstromvertrag zur Versorg
+2026-05-21 12:44:00,033 [INFO] Processing: EnBW DHL grüner Stromvertrag Offshore - EnBW
+2026-05-21 12:44:00,383 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:00,383 [INFO] Text preview: Google News...
+2026-05-21 12:44:00,383 [INFO] Text too short (11 chars) — skipping: EnBW DHL grüner Stromvertrag Offshore - EnBW
+2026-05-21 12:44:00,383 [INFO] Processing: Cloud-Rechenzentren setzen auf erneuerbare Energie | News Center Microsoft - Mic
+2026-05-21 12:44:00,723 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:00,723 [INFO] Text preview: Google News...
+2026-05-21 12:44:00,723 [INFO] Text too short (11 chars) — skipping: Cloud-Rechenzentren setzen auf erneuerbare Energie | News Ce
+2026-05-21 12:44:00,723 [INFO] Processing: Beispielhafte Projekte - BASF
+2026-05-21 12:44:01,096 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:01,096 [INFO] Text preview: Google News...
+2026-05-21 12:44:01,096 [INFO] Text too short (11 chars) — skipping: Beispielhafte Projekte - BASF
+2026-05-21 12:44:01,096 [INFO] Processing: Amazon und RWE unterzeichnen Vereinbarung für Offshore-Windenergie - About Amazo
+2026-05-21 12:44:01,436 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:01,436 [INFO] Text preview: Google News...
+2026-05-21 12:44:01,436 [INFO] Text too short (11 chars) — skipping: Amazon und RWE unterzeichnen Vereinbarung für Offshore-Winde
+2026-05-21 12:44:01,436 [INFO] Processing: Erneuerbare Energien: Wie Unternehmen Geld sparen und Emissionen reduzieren könn
+2026-05-21 12:44:01,777 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:01,778 [INFO] Text preview: Google News...
+2026-05-21 12:44:01,778 [INFO] Text too short (11 chars) — skipping: Erneuerbare Energien: Wie Unternehmen Geld sparen und Emissi
+2026-05-21 12:44:01,778 [INFO] Processing: Henkel und IGNIS kooperieren beim Ausbau von Solarenergie - Henkel
+2026-05-21 12:44:02,153 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:02,153 [INFO] Text preview: Google News...
+2026-05-21 12:44:02,153 [INFO] Text too short (11 chars) — skipping: Henkel und IGNIS kooperieren beim Ausbau von Solarenergie - 
+2026-05-21 12:44:02,153 [INFO] Processing: Dekarbonisierung der Industrie: Tion Renewables beliefert Salz- und Chemiekonzer
+2026-05-21 12:44:02,515 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:02,515 [INFO] Text preview: Google News...
+2026-05-21 12:44:02,515 [INFO] Text too short (11 chars) — skipping: Dekarbonisierung der Industrie: Tion Renewables beliefert Sa
+2026-05-21 12:44:02,516 [INFO] Processing: Ampyr Solar Europe: Vollständige Inbetriebnahme des Photovoltaik-Clusters in Gor
+2026-05-21 12:44:02,855 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:02,856 [INFO] Text preview: Google News...
+2026-05-21 12:44:02,856 [INFO] Text too short (11 chars) — skipping: Ampyr Solar Europe: Vollständige Inbetriebnahme des Photovol
+2026-05-21 12:44:02,856 [INFO] Processing: Grüner Strom: BASF gründet neue Tochter BASF Renewable Energy GmbH - IWR
+2026-05-21 12:44:03,239 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:03,239 [INFO] Text preview: Google News...
+2026-05-21 12:44:03,239 [INFO] Text too short (11 chars) — skipping: Grüner Strom: BASF gründet neue Tochter BASF Renewable Energ
+2026-05-21 12:44:03,239 [INFO] Processing: Spanischer Versorger schließt Rekord PPA im Solarsektor ab - Solarbranche.de
+2026-05-21 12:44:03,602 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:03,602 [INFO] Text preview: Google News...
+2026-05-21 12:44:03,602 [INFO] Text too short (11 chars) — skipping: Spanischer Versorger schließt Rekord PPA im Solarsektor ab -
+2026-05-21 12:44:03,602 [INFO] Processing: Erster Vertrag für Offshore-Windstrom in Deutschland abgeschlossen - IWR
+2026-05-21 12:44:04,296 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:04,297 [INFO] Text preview: Google News...
+2026-05-21 12:44:04,297 [INFO] Text too short (11 chars) — skipping: Erster Vertrag für Offshore-Windstrom in Deutschland abgesch
+2026-05-21 12:44:04,297 [INFO] Processing: Une première en France : VALECO et 9 Entreprises de Taille Intermédiaire de Nouv
+2026-05-21 12:44:04,627 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:04,627 [INFO] Text preview: Google News...
+2026-05-21 12:44:04,627 [INFO] Text too short (11 chars) — skipping: Une première en France : VALECO et 9 Entreprises de Taille I
+2026-05-21 12:44:04,627 [INFO] Processing: Air Liquide va assurer 70% de ses besoins en électricité renouvelable au Benelux
+2026-05-21 12:44:04,966 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:04,966 [INFO] Text preview: Google News...
+2026-05-21 12:44:04,966 [INFO] Text too short (11 chars) — skipping: Air Liquide va assurer 70% de ses besoins en électricité ren
+2026-05-21 12:44:04,966 [INFO] Processing: Miser sur l’éolien et le photovoltaïque pour faire rouler les trains - Groupe SN
+2026-05-21 12:44:05,331 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:05,331 [INFO] Text preview: Google News...
+2026-05-21 12:44:05,331 [INFO] Text too short (11 chars) — skipping: Miser sur l’éolien et le photovoltaïque pour faire rouler le
+2026-05-21 12:44:05,331 [INFO] Processing: 600 milliards d’euros seront nécessaires pour soutenir le développement des éner
+2026-05-21 12:44:05,726 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:05,726 [INFO] Text preview: Google News...
+2026-05-21 12:44:05,726 [INFO] Text too short (11 chars) — skipping: 600 milliards d’euros seront nécessaires pour soutenir le dé
+2026-05-21 12:44:05,726 [INFO] Processing: Un contrat record d’achat d’électricité renouvelable - Groupe SNCF
+2026-05-21 12:44:06,072 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:06,072 [INFO] Text preview: Google News...
+2026-05-21 12:44:06,072 [INFO] Text too short (11 chars) — skipping: Un contrat record d’achat d’électricité renouvelable - Group
+2026-05-21 12:44:06,072 [INFO] Processing: Electricité renouvelable : Air Liquide renforce ses approvisionnements - Air Liq
+2026-05-21 12:44:06,616 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:06,616 [INFO] Text preview: Google News...
+2026-05-21 12:44:06,616 [INFO] Text too short (11 chars) — skipping: Electricité renouvelable : Air Liquide renforce ses approvis
+2026-05-21 12:44:06,616 [INFO] Processing: Reden signe un nouveau PPA de 25 ans avec la SNCF, portant sur 20 GWh par an - p
+2026-05-21 12:44:06,965 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:06,966 [INFO] Text preview: Google News...
+2026-05-21 12:44:06,966 [INFO] Text too short (11 chars) — skipping: Reden signe un nouveau PPA de 25 ans avec la SNCF, portant s
+2026-05-21 12:44:06,966 [INFO] Processing: Microsoft annonce le plus important achat d’énergies renouvelables par une entre
+2026-05-21 12:44:07,305 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:07,306 [INFO] Text preview: Google News...
+2026-05-21 12:44:07,306 [INFO] Text too short (11 chars) — skipping: Microsoft annonce le plus important achat d’énergies renouve
+2026-05-21 12:44:07,306 [INFO] Processing: Carrefour et SUEZ : un partenariat pour verdir l’énergie grâce au recyclage des 
+2026-05-21 12:44:07,689 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:07,690 [INFO] Text preview: Google News...
+2026-05-21 12:44:07,690 [INFO] Text too short (11 chars) — skipping: Carrefour et SUEZ : un partenariat pour verdir l’énergie grâ
+2026-05-21 12:44:07,690 [INFO] Processing: Le Groupe iliad annonce 3 nouveaux projets d’énergies renouvelables et valide sa
+2026-05-21 12:44:08,085 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:08,085 [INFO] Text preview: Google News...
+2026-05-21 12:44:08,085 [INFO] Text too short (11 chars) — skipping: Le Groupe iliad annonce 3 nouveaux projets d’énergies renouv
+2026-05-21 12:44:08,085 [INFO] Processing: Google va faire confiance au champion français de l'énergie pour alimenter son c
+2026-05-21 12:44:08,436 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:08,436 [INFO] Text preview: Google News...
+2026-05-21 12:44:08,436 [INFO] Text too short (11 chars) — skipping: Google va faire confiance au champion français de l'énergie 
+2026-05-21 12:44:08,436 [INFO] Processing: Google signe un énorme contrat d'achat d'électricité issue de l'éolien en mer en
+2026-05-21 12:44:08,776 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:08,776 [INFO] Text preview: Google News...
+2026-05-21 12:44:08,776 [INFO] Text too short (11 chars) — skipping: Google signe un énorme contrat d'achat d'électricité issue d
+2026-05-21 12:44:08,777 [INFO] Processing: Engie va fournir Google en électricité grâce à sa future centrale solaire du Tex
+2026-05-21 12:44:09,099 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:09,099 [INFO] Text preview: Google News...
+2026-05-21 12:44:09,099 [INFO] Text too short (11 chars) — skipping: Engie va fournir Google en électricité grâce à sa future cen
+2026-05-21 12:44:09,099 [INFO] Processing: Renault signe un important contrat d’électricité solaire de 350 MW avec Voltalia
+2026-05-21 12:44:09,454 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:09,454 [INFO] Text preview: Google News...
+2026-05-21 12:44:09,454 [INFO] Text too short (11 chars) — skipping: Renault signe un important contrat d’électricité solaire de 
+2026-05-21 12:44:09,454 [INFO] Processing: ZE Energy fait appel à Energy Pool pour valoriser ses actifs hybrides “solaire+s
+2026-05-21 12:44:09,838 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:09,838 [INFO] Text preview: Google News...
+2026-05-21 12:44:09,838 [INFO] Text too short (11 chars) — skipping: ZE Energy fait appel à Energy Pool pour valoriser ses actifs
+2026-05-21 12:44:09,838 [INFO] Processing: Iberdrola y Gonvarri firman un acuerdo de suministro renovable a diez años para 
+2026-05-21 12:44:10,203 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:10,203 [INFO] Text preview: Google News...
+2026-05-21 12:44:10,203 [INFO] Text too short (11 chars) — skipping: Iberdrola y Gonvarri firman un acuerdo de suministro renovab
+2026-05-21 12:44:10,203 [INFO] Processing: Gestamp e Iberdrola firman un acuerdo para el suministro de energía limpia en Eu
+2026-05-21 12:44:10,545 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:10,545 [INFO] Text preview: Google News...
+2026-05-21 12:44:10,545 [INFO] Text too short (11 chars) — skipping: Gestamp e Iberdrola firman un acuerdo para el suministro de 
+2026-05-21 12:44:10,546 [INFO] Processing: Solaria lanza un plan de transformación a escala europea: triplicará su capacida
+2026-05-21 12:44:10,897 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:10,897 [INFO] Text preview: Google News...
+2026-05-21 12:44:10,897 [INFO] Text too short (11 chars) — skipping: Solaria lanza un plan de transformación a escala europea: tr
+2026-05-21 12:44:10,897 [INFO] Processing: La electricidad renovable made in Spain, la más atractiva para los grandes compr
+2026-05-21 12:44:11,268 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:11,268 [INFO] Text preview: Google News...
+2026-05-21 12:44:11,268 [INFO] Text too short (11 chars) — skipping: La electricidad renovable made in Spain, la más atractiva pa
+2026-05-21 12:44:11,268 [INFO] Processing: Sonnedix inaugura su mayor proyecto solar europeo de 150 MW en Portugal - El Per
+2026-05-21 12:44:11,623 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:11,623 [INFO] Text preview: Google News...
+2026-05-21 12:44:11,624 [INFO] Text too short (11 chars) — skipping: Sonnedix inaugura su mayor proyecto solar europeo de 150 MW 
+2026-05-21 12:44:11,624 [INFO] Processing: Gestamp e Iberdrola firman un acuerdo para el suministro de energía limpia en Eu
+2026-05-21 12:44:11,988 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:11,988 [INFO] Text preview: Google News...
+2026-05-21 12:44:11,988 [INFO] Text too short (11 chars) — skipping: Gestamp e Iberdrola firman un acuerdo para el suministro de 
+2026-05-21 12:44:11,988 [INFO] Processing: Iberdrola amplía su alianza global en energías renovables con Amazon y AWS - Rad
+2026-05-21 12:44:12,338 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:12,338 [INFO] Text preview: Google News...
+2026-05-21 12:44:12,338 [INFO] Text too short (11 chars) — skipping: Iberdrola amplía su alianza global en energías renovables co
+2026-05-21 12:44:12,338 [INFO] Processing: Obramat llega un acuerdo con NTR para cubrir el 30% de su consumo eléctrico con 
+2026-05-21 12:44:12,681 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:12,681 [INFO] Text preview: Google News...
+2026-05-21 12:44:12,681 [INFO] Text too short (11 chars) — skipping: Obramat llega un acuerdo con NTR para cubrir el 30% de su co
+2026-05-21 12:44:12,681 [INFO] Processing: Solaria invertirá 2.500 millones a 2028, con la meta de triplicar su Ebitda y su
+2026-05-21 12:44:13,043 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:13,043 [INFO] Text preview: Google News...
+2026-05-21 12:44:13,043 [INFO] Text too short (11 chars) — skipping: Solaria invertirá 2.500 millones a 2028, con la meta de trip
+2026-05-21 12:44:13,043 [INFO] Processing: Bruc suministrará energía 'verde' a Pfizer en Europa - El Periódico de la Energí
+2026-05-21 12:44:13,387 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:13,387 [INFO] Text preview: Google News...
+2026-05-21 12:44:13,387 [INFO] Text too short (11 chars) — skipping: Bruc suministrará energía 'verde' a Pfizer en Europa - El Pe
+2026-05-21 12:44:13,387 [INFO] Processing: Iberdrola lidera el mercado europeo de contratos de energía limpia a largo plazo
+2026-05-21 12:44:13,762 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:13,763 [INFO] Text preview: Google News...
+2026-05-21 12:44:13,763 [INFO] Text too short (11 chars) — skipping: Iberdrola lidera el mercado europeo de contratos de energía 
+2026-05-21 12:44:13,763 [INFO] Processing: Iberdrola firma un acuerdo de venta de electricidad a 10 años con Gonvarri Indus
+2026-05-21 12:44:14,141 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:14,142 [INFO] Text preview: Google News...
+2026-05-21 12:44:14,142 [INFO] Text too short (11 chars) — skipping: Iberdrola firma un acuerdo de venta de electricidad a 10 año
+2026-05-21 12:44:14,142 [INFO] Processing: Iberdrola y Masdar amplían su acuerdo para invertir 5.200 millones en el parque 
+2026-05-21 12:44:14,517 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:14,517 [INFO] Text preview: Google News...
+2026-05-21 12:44:14,517 [INFO] Text too short (11 chars) — skipping: Iberdrola y Masdar amplían su acuerdo para invertir 5.200 mi
+2026-05-21 12:44:14,517 [INFO] Processing: Aludium blinda el suministro renovable con Statkraft y Fortia - Crónica Vasca
+2026-05-21 12:44:14,897 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:14,897 [INFO] Text preview: Google News...
+2026-05-21 12:44:14,897 [INFO] Text too short (11 chars) — skipping: Aludium blinda el suministro renovable con Statkraft y Forti
+2026-05-21 12:44:14,897 [INFO] Processing: Cox Energy y Audax firman el mayor contrato mundial de venta de energía solar a 
+2026-05-21 12:44:15,263 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:15,263 [INFO] Text preview: Google News...
+2026-05-21 12:44:15,263 [INFO] Text too short (11 chars) — skipping: Cox Energy y Audax firman el mayor contrato mundial de venta
+2026-05-21 12:44:15,263 [INFO] Processing: La mayor planta fotovoltaica de Europa alimentará a Danone - EcoInventos
+2026-05-21 12:44:15,629 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:15,629 [INFO] Text preview: Google News...
+2026-05-21 12:44:15,629 [INFO] Text too short (11 chars) — skipping: La mayor planta fotovoltaica de Europa alimentará a Danone -
+2026-05-21 12:44:15,629 [INFO] Processing: Cox Energy logra un contrato récord de venta de energía solar e invertirá 500 mi
+2026-05-21 12:44:15,981 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:15,981 [INFO] Text preview: Google News...
+2026-05-21 12:44:15,981 [INFO] Text too short (11 chars) — skipping: Cox Energy logra un contrato récord de venta de energía sola
+2026-05-21 12:44:15,981 [INFO] Processing: Iberdrola firma un acuerdo de venta de electricidad a 10 años con Gonvarri Indus
+2026-05-21 12:44:16,319 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:16,319 [INFO] Text preview: Google News...
+2026-05-21 12:44:16,319 [INFO] Text too short (11 chars) — skipping: Iberdrola firma un acuerdo de venta de electricidad a 10 año
+2026-05-21 12:44:16,319 [INFO] Processing: Apple punta sulle rinnovabili in Italia e in Europa - QualEnergia.it
+2026-05-21 12:44:16,699 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:16,699 [INFO] Text preview: Google News...
+2026-05-21 12:44:16,699 [INFO] Text too short (11 chars) — skipping: Apple punta sulle rinnovabili in Italia e in Europa - QualEn
+2026-05-21 12:44:16,699 [INFO] Processing: Solaria lancia un piano di trasformazione paneuropeo: triplicare la propria capa
+2026-05-21 12:44:17,044 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:17,044 [INFO] Text preview: Google News...
+2026-05-21 12:44:17,044 [INFO] Text too short (11 chars) — skipping: Solaria lancia un piano di trasformazione paneuropeo: tripli
+2026-05-21 12:44:17,044 [INFO] Processing: Microsoft firma con Enfinity mega contratto di energia green per l’AI in Italia 
+2026-05-21 12:44:17,396 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:17,396 [INFO] Text preview: Google News...
+2026-05-21 12:44:17,396 [INFO] Text too short (11 chars) — skipping: Microsoft firma con Enfinity mega contratto di energia green
+2026-05-21 12:44:17,396 [INFO] Processing: 10 contratti di acquisto di energia firmati per un totale di 1.3GW nel 2024 - Li
+2026-05-21 12:44:17,710 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:17,710 [INFO] Text preview: Google News...
+2026-05-21 12:44:17,710 [INFO] Text too short (11 chars) — skipping: 10 contratti di acquisto di energia firmati per un totale di
+2026-05-21 12:44:17,710 [INFO] Processing: Verallia e Edison Energia hanno firmato un accordo per la fornitura di energia v
+2026-05-21 12:44:18,066 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:18,066 [INFO] Text preview: Google News...
+2026-05-21 12:44:18,066 [INFO] Text too short (11 chars) — skipping: Verallia e Edison Energia hanno firmato un accordo per la fo
+2026-05-21 12:44:18,066 [INFO] Processing: Energia, aumentano in Italia i contratti di lungo termine - Il Sole 24 ORE
+2026-05-21 12:44:18,435 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:18,435 [INFO] Text preview: Google News...
+2026-05-21 12:44:18,435 [INFO] Text too short (11 chars) — skipping: Energia, aumentano in Italia i contratti di lungo termine - 
+2026-05-21 12:44:18,435 [INFO] Processing: Iberdrola e Pam Panorama accelerano l’elettrificazione e la decarbonizzazione de
+2026-05-21 12:44:18,794 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:18,794 [INFO] Text preview: Google News...
+2026-05-21 12:44:18,794 [INFO] Text too short (11 chars) — skipping: Iberdrola e Pam Panorama accelerano l’elettrificazione e la 
+2026-05-21 12:44:18,794 [INFO] Processing: BayWa r.e. presenterà una gara per 10 TWh di rinnovabili sul mercato europeo - R
+2026-05-21 12:44:19,165 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:19,165 [INFO] Text preview: Google News...
+2026-05-21 12:44:19,165 [INFO] Text too short (11 chars) — skipping: BayWa r.e. presenterà una gara per 10 TWh di rinnovabili sul
+2026-05-21 12:44:19,165 [INFO] Processing: Eolico, accordo Erg-Duferco per 500 GWh - Energia Italia NEWS
+2026-05-21 12:44:19,482 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:19,482 [INFO] Text preview: Google News...
+2026-05-21 12:44:19,482 [INFO] Text too short (11 chars) — skipping: Eolico, accordo Erg-Duferco per 500 GWh - Energia Italia NEW
+2026-05-21 12:44:19,482 [INFO] Processing: Il gruppo EEMAXX investirà oltre 700 milioni di euro in Italia: allo studio dive
+2026-05-21 12:44:19,902 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:19,903 [INFO] Text preview: Google News...
+2026-05-21 12:44:19,903 [INFO] Text too short (11 chars) — skipping: Il gruppo EEMAXX investirà oltre 700 milioni di euro in Ital
+2026-05-21 12:44:19,903 [INFO] Processing: Northland Power wzmacnia swoją obecność na Morzu Północnym - Portal Morski
+2026-05-21 12:44:20,263 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:20,263 [INFO] Text preview: Google News...
+2026-05-21 12:44:20,263 [INFO] Text too short (11 chars) — skipping: Northland Power wzmacnia swoją obecność na Morzu Północnym -
+2026-05-21 12:44:20,263 [INFO] Processing: Henkel en IGNIS tekenen overeenkomst voor productie zonne-energie - Duurzaam Ond
+2026-05-21 12:44:20,587 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:20,587 [INFO] Text preview: Google News...
+2026-05-21 12:44:20,587 [INFO] Text too short (11 chars) — skipping: Henkel en IGNIS tekenen overeenkomst voor productie zonne-en
+2026-05-21 12:44:20,587 [INFO] Processing: Groene stroom voor Europa: grote bedrijven werken samen aan nieuw windpark - Cha
+2026-05-21 12:44:20,946 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:20,946 [INFO] Text preview: Google News...
+2026-05-21 12:44:20,946 [INFO] Text too short (11 chars) — skipping: Groene stroom voor Europa: grote bedrijven werken samen aan 
+2026-05-21 12:44:20,946 [INFO] Processing: Iberdrola assina um contrato de fornecimento de energia elétrica com duração de 
+2026-05-21 12:44:21,300 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:21,300 [INFO] Text preview: Google News...
+2026-05-21 12:44:21,300 [INFO] Text too short (11 chars) — skipping: Iberdrola assina um contrato de fornecimento de energia elét
+2026-05-21 12:44:21,300 [INFO] Processing: EDP estreia-se na Alemanha com central solar de 87 MWp e anuncia expansão para e
+2026-05-21 12:44:21,613 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:21,613 [INFO] Text preview: Google News...
+2026-05-21 12:44:21,613 [INFO] Text too short (11 chars) — skipping: EDP estreia-se na Alemanha com central solar de 87 MWp e anu
+2026-05-21 12:44:21,613 [INFO] Processing: EDP assina contrato de longo prazo para projeto solar de 28 MWp no Japão - RTP
+2026-05-21 12:44:21,949 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:21,950 [INFO] Text preview: Google News...
+2026-05-21 12:44:21,950 [INFO] Text too short (11 chars) — skipping: EDP assina contrato de longo prazo para projeto solar de 28 
+2026-05-21 12:44:21,950 [INFO] Processing: EDP Renováveis assina novo contrato para fornecer energia solar a tecnológica no
+2026-05-21 12:44:22,289 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:22,289 [INFO] Text preview: Google News...
+2026-05-21 12:44:22,289 [INFO] Text too short (11 chars) — skipping: EDP Renováveis assina novo contrato para fornecer energia so
+2026-05-21 12:44:22,289 [INFO] Processing: EDP inaugura o seu primeiro projeto na Alemanha - Jornal Económico
+2026-05-21 12:44:22,651 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:22,651 [INFO] Text preview: Google News...
+2026-05-21 12:44:22,651 [INFO] Text too short (11 chars) — skipping: EDP inaugura o seu primeiro projeto na Alemanha - Jornal Eco
+2026-05-21 12:44:22,651 [INFO] Processing: Francisco Pizarro, a maior usina fotovoltaica da Europa - Iberdrola
+2026-05-21 12:44:23,013 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:23,013 [INFO] Text preview: Google News...
+2026-05-21 12:44:23,013 [INFO] Text too short (11 chars) — skipping: Francisco Pizarro, a maior usina fotovoltaica da Europa - Ib
+2026-05-21 12:44:23,013 [INFO] Processing: EDP vai fornecer 50 GWh anuais de energia na Polónia ao Carrefour - Dinheiro Viv
+2026-05-21 12:44:23,336 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:23,336 [INFO] Text preview: Google News...
+2026-05-21 12:44:23,336 [INFO] Text too short (11 chars) — skipping: EDP vai fornecer 50 GWh anuais de energia na Polónia ao Carr
+2026-05-21 12:44:23,336 [INFO] Processing: EDP inaugura primeira central solar na Alemanha e vai abastecer 28 mil famílias 
+2026-05-21 12:44:23,695 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:23,695 [INFO] Text preview: Google News...
+2026-05-21 12:44:23,695 [INFO] Text too short (11 chars) — skipping: EDP inaugura primeira central solar na Alemanha e vai abaste
+2026-05-21 12:44:23,695 [INFO] Processing: Cooperativa Arla Foods atinge 100% de eletricidade renovável na Europa - MilkPoi
+2026-05-21 12:44:24,043 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:24,043 [INFO] Text preview: Google News...
+2026-05-21 12:44:24,043 [INFO] Text too short (11 chars) — skipping: Cooperativa Arla Foods atinge 100% de eletricidade renovável
+2026-05-21 12:44:24,043 [INFO] Processing: Masdar e Iberdrola anunciam acordo de 5,2 bilhões de euros para parque eólico of
+2026-05-21 12:44:24,378 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:24,378 [INFO] Text preview: Google News...
+2026-05-21 12:44:24,378 [INFO] Text too short (11 chars) — skipping: Masdar e Iberdrola anunciam acordo de 5,2 bilhões de euros p
+2026-05-21 12:44:24,378 [INFO] Processing: Amazon compra energia do maior parque eólico em Portugal (que vai nascer em Cabe
+2026-05-21 12:44:24,730 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:24,730 [INFO] Text preview: Google News...
+2026-05-21 12:44:24,730 [INFO] Text too short (11 chars) — skipping: Amazon compra energia do maior parque eólico em Portugal (qu
+2026-05-21 12:44:24,730 [INFO] Processing: Meo vai assinar contratos de energia para melhorar “visibilidade dos custos” ene
+2026-05-21 12:44:25,089 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:25,089 [INFO] Text preview: Google News...
+2026-05-21 12:44:25,089 [INFO] Text too short (11 chars) — skipping: Meo vai assinar contratos de energia para melhorar “visibili
+2026-05-21 12:44:25,090 [INFO] Processing: Iberdrola e Amazon expandem parceria global em energias renováveis e utilizam a 
+2026-05-21 12:44:25,453 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:25,453 [INFO] Text preview: Google News...
+2026-05-21 12:44:25,453 [INFO] Text too short (11 chars) — skipping: Iberdrola e Amazon expandem parceria global em energias reno
+2026-05-21 12:44:25,454 [INFO] Processing: Sonnedix vende energia da sua primeira central solar em Portugal à americana Equ
+2026-05-21 12:44:25,811 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:25,811 [INFO] Text preview: Google News...
+2026-05-21 12:44:25,811 [INFO] Text too short (11 chars) — skipping: Sonnedix vende energia da sua primeira central solar em Port
+2026-05-21 12:44:25,811 [INFO] Processing: Americana Equinix investe 50 milhões num novo data center em Lisboa - Jornal de 
+2026-05-21 12:44:26,165 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:26,165 [INFO] Text preview: Google News...
+2026-05-21 12:44:26,165 [INFO] Text too short (11 chars) — skipping: Americana Equinix investe 50 milhões num novo data center em
+2026-05-21 12:44:26,165 [INFO] Processing: Um resultado positivo para o planeta: o acordo de compra de energia da Nike e da
+2026-05-21 12:44:26,507 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:26,507 [INFO] Text preview: Google News...
+2026-05-21 12:44:26,507 [INFO] Text too short (11 chars) — skipping: Um resultado positivo para o planeta: o acordo de compra de 
+2026-05-21 12:44:26,507 [INFO] Processing: Chegou a era das mega centrais solares. Solara4 já tem o OK final para injetar e
+2026-05-21 12:44:26,879 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:26,879 [INFO] Text preview: Google News...
+2026-05-21 12:44:26,879 [INFO] Text too short (11 chars) — skipping: Chegou a era das mega centrais solares. Solara4 já tem o OK 
+2026-05-21 12:44:26,879 [INFO] Processing: O Sarpy Data Center será 100% alimentado por energia renovável - Enel Green Powe
+2026-05-21 12:44:27,259 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:27,259 [INFO] Text preview: Google News...
+2026-05-21 12:44:27,259 [INFO] Text too short (11 chars) — skipping: O Sarpy Data Center será 100% alimentado por energia renováv
+2026-05-21 12:44:27,259 [INFO] Processing: Google fecha com Shell seu maior acordo para eólica offshore na Europa - Agência
+2026-05-21 12:44:27,611 [INFO] Text length: 11 chars | source: full
+2026-05-21 12:44:27,611 [INFO] Text preview: Google News...
+2026-05-21 12:44:27,611 [INFO] Text too short (11 chars) — skipping: Google fecha com Shell seu maior acordo para eólica offshore
+2026-05-21 12:44:27,611 [INFO] Run complete. New deals: 0, Updates: 0
+2026-05-21 12:44:27,612 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (0 deals)
