@@ -18,14 +18,6 @@ from pathlib import Path
 
 import requests
 
-# ── Logging ───────────────────────────────────────────────────────────────────
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler(sys.stdout)],
-)
-log = logging.getLogger(__name__)
-
 # ── Config ────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
@@ -39,6 +31,19 @@ NEWSAPI_URL = "https://newsapi.org/v2/everything"
 MISTRAL_KEY   = os.environ["MISTRAL_KEY"]
 MISTRAL_URL   = "https://api.mistral.ai/v1/chat/completions"
 MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+LOG_PATH = DATA_DIR / "pipeline.log"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler(LOG_PATH, encoding="utf-8"),
+    ],
+)
+log = logging.getLogger(__name__)
 
 # Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
 LOOKBACK_DAYS    = 2
@@ -228,7 +233,7 @@ def fetch_full_text(url: str) -> str | None:
         return None
 
 
-# ── Gemini Extraction ─────────────────────────────────────────────────────────
+# ── Mistral Extraction ─────────────────────────────────────────────────────────
 
 EXTRACTION_PROMPT = """\
 You are an expert energy analyst. Extract structured information about Power Purchase Agreement (PPA) deals.
@@ -441,7 +446,7 @@ def run() -> None:
 
     log.info(f"Unique unseen articles: {len(unique_articles)}")
 
-    # 3. Process each article through Gemini
+    # 3. Process each article through Mistral
     new_deals = 0
     updates   = 0
 
@@ -462,6 +467,9 @@ def run() -> None:
         full_text          = fetch_full_text(url) if url else None
         text_for_extraction = full_text or f"{title}\n\n{snippet}"
 
+        log.info(f"Text length: {len(text_for_extraction)} chars | source: {'full' if full_text else 'snippet'}")
+        log.info(f"Text preview: {text_for_extraction[:200]}")
+        
         if not text_for_extraction.strip():
             log.warning(f"No text to extract for: {url[:80]}")
             continue
@@ -469,10 +477,10 @@ def run() -> None:
         extracted = extract_with_mistral(text_for_extraction, title, outlet)
 
         if extracted is None:
-            log.warning(f"Gemini returned None — skipping: {title[:60]}")
+            log.warning(f"Mistral returned None — skipping: {title[:60]}")
             continue
 
-        # Mark as seen only after a valid Gemini response (not on API errors)
+        # Mark as seen only after a valid Mistral response (not on API errors)
         conn.execute(
             "INSERT OR IGNORE INTO seen_urls VALUES (?, ?)",
             (url, datetime.utcnow().strftime("%Y-%m-%d"))
@@ -511,7 +519,7 @@ def run() -> None:
                 f"{extracted.get('capacity_mw')} MW)"
             )
 
-        time.sleep(5)  # Gemini free tier: stay well within rate limits
+        time.sleep(5)  # Mistral free tier: stay well within rate limits
 
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
