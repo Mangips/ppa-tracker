@@ -41,7 +41,7 @@ jobs:
       - name: Run pipeline
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          GEMINI_KEY: ${{ secrets.MISTRAL_KEY }}
         run: python src/pipeline.py
 
       - name: Commit updated DB and CSV to repo
