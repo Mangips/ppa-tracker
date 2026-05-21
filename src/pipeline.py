@@ -404,19 +404,32 @@ def export_csv(conn: sqlite3.Connection) -> None:
 # ── Extract full text from google news ─────────────────────────────────────────────────────────────
 
 def resolve_google_news_url(url: str) -> str:
-    """Follow Google News redirect to get the real article URL."""
-    if not url:
+    """Decode Google News RSS URL to get the real article URL."""
+    if not url or "news.google.com" not in url:
         return url
     try:
+        # Google News RSS <link> tags contain the real URL in the <guid> tag
+        # but we only have the link here. Use the decoding endpoint instead.
         resp = requests.get(
             url,
-            headers={"User-Agent": "Mozilla/5.0 (compatible; PPA-Tracker/1.0)"},
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0 Safari/537.36"
+                )
+            },
             timeout=10,
             allow_redirects=True,
         )
-        final_url = resp.url
-        log.info(f"Resolved URL: {final_url[:80]}")
-        return final_url
+        # Look for the real URL in the response HTML
+        import re
+        match = re.search(r'<a href="(https?://(?!news\.google\.com)[^"]+)"', resp.text)
+        if match:
+            real = match.group(1)
+            log.info(f"Resolved Google News URL: {real[:80]}")
+            return real
+        return url
     except Exception as e:
         log.warning(f"URL resolution failed ({e}): {url[:80]}")
         return url
