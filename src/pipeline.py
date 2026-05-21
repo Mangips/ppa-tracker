@@ -177,7 +177,7 @@ def fetch_google_news_rss(lang: str, query: str) -> list[dict]:
                 "url":         link,
                 "publishedAt": pub_iso,
                 "source":      {"name": outlet},
-                "description": title,  # RSS rarely has a snippet; title is enough
+                "description": (item.findtext("description") or title).strip(),  # ✅ Use actual RSS description
             })
 
         log.info(f"Google News RSS [{lang}] '{query}': {len(articles)} results")
@@ -500,8 +500,12 @@ def run() -> None:
         full_text           = fetch_full_text(real_url) if real_url else None
         text_for_extraction = full_text or f"{title}\n\n{snippet}"
 
-        log.info(f"Text length: {len(text_for_extraction)} chars | source: {'full' if full_text else 'snippet'}")
-        log.info(f"Text preview: {text_for_extraction[:200]}")
+        log.info(f"Text length: {len(text_for_extraction)} chars | source: {'full' if full_text else 'fallback'}")
+        log.info(f"Text preview: {text_for_extraction[:200]}...")
+
+        if len(text_for_extraction.strip()) < 50:  # Skip if text is too short
+            log.info(f"Text too short ({len(text_for_extraction)} chars) — skipping: {title[:60]}")
+            continue
         
         if not text_for_extraction.strip():
             log.warning(f"No text to extract for: {url[:80]}")
