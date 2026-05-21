@@ -34,14 +34,11 @@ DB_PATH = DATA_DIR / "ppa_deals.db"
 CSV_PATH = DATA_DIR / "ppa_deals.csv"
 
 NEWSAPI_KEY = os.environ["NEWSAPI_KEY"]
-GEMINI_KEY  = os.environ["GEMINI_KEY"]
-GEMINI_MODEL = "gemini-2.5-flash-lite"
-
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
-GEMINI_URL = (
-    "https://generativelanguage.googleapis.com/v1beta/models/"
-    f"{GEMINI_MODEL}:generateContent"
-)
+
+MISTRAL_KEY   = os.environ["MISTRAL_KEY"]
+MISTRAL_URL   = "https://api.mistral.ai/v1/chat/completions"
+MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
 
 # Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
 LOOKBACK_DAYS    = 2
@@ -265,43 +262,39 @@ Text (any language — return all fields in English):
 ---"""
 
 
-def extract_with_gemini(text: str, title: str, outlet: str) -> dict | None:
+def extract_with_mistral(text: str, title: str, outlet: str) -> dict | None:
     prompt  = EXTRACTION_PROMPT.format(text=text[:6000])
     payload = {
-        "contents":       [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 1000},
+        "model":       MISTRAL_MODEL,
+        "temperature": 0.1,
+        "messages":    [{"role": "user", "content": prompt}],
     }
     try:
         resp = requests.post(
-            GEMINI_URL,
-            params={"key": GEMINI_KEY},
+            MISTRAL_URL,
+            headers={
+                "Authorization": f"Bearer {MISTRAL_KEY}",
+                "Content-Type":  "application/json",
+            },
             json=payload,
             timeout=30,
         )
-        # Log the raw HTTP status so we can catch auth/quota errors immediately
+        log.info(f"Mistral HTTP {resp.status_code} for: {title[:60]}")
         if resp.status_code == 429:
-            log.warning(f"Gemini 429 — waiting 60s before retry: {title[:50]}")
+            log.warning(f"Mistral 429 — waiting 60s: {title[:50]}")
             time.sleep(60)
-            resp = requests.post(
-                GEMINI_URL,
-                params={"key": GEMINI_KEY},
-                json=payload,
-                timeout=30,
-            )
+            return None  # will be retried next run since URL won't be marked seen
         if resp.status_code != 200:
-            log.warning(f"Gemini error body: {resp.text[:300]}")
+            log.warning(f"Mistral error body: {resp.text[:300]}")
             return None
 
-        raw     = resp.json()
-        content = raw["candidates"][0]["content"]["parts"][0]["text"].strip()
-
-        # Strip markdown fences if Gemini ignores the instruction
+        content = resp.json()["choices"][0]["message"]["content"].strip()
         if content.startswith("```"):
             content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
 
         parsed = json.loads(content)
         log.info(
-            f"Gemini extracted — signed={parsed.get('is_signed_deal')} "
+            f"Mistral extracted — signed={parsed.get('is_signed_deal')} "
             f"confidence={parsed.get('confidence')} "
             f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
             f"| {title[:50]}"
@@ -309,12 +302,11 @@ def extract_with_gemini(text: str, title: str, outlet: str) -> dict | None:
         return parsed
 
     except json.JSONDecodeError as e:
-        log.warning(f"Gemini JSON parse error ({outlet}): {e} | raw: {content[:200]}")
+        log.warning(f"Mistral JSON parse error ({outlet}): {e} | raw: {content[:200]}")
         return None
     except Exception as e:
-        log.warning(f"Gemini call failed ({outlet}): {e}")
+        log.warning(f"Mistral call failed ({outlet}): {e}")
         return None
-
 
 # ── Deduplication ─────────────────────────────────────────────────────────────
 
@@ -474,7 +466,7 @@ def run() -> None:
             log.warning(f"No text to extract for: {url[:80]}")
             continue
 
-        extracted = extract_with_gemini(text_for_extraction, title, outlet)
+        extracted = extract_with_mistral(text_for_extraction, title, outlet)
 
         if extracted is None:
             log.warning(f"Gemini returned None — skipping: {title[:60]}")
