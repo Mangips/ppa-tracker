@@ -401,6 +401,25 @@ def export_csv(conn: sqlite3.Connection) -> None:
 
     log.info(f"CSV exported: {CSV_PATH} ({len(rows)} deals)")
 
+# ── Extract full text from google news ─────────────────────────────────────────────────────────────
+
+def resolve_google_news_url(url: str) -> str:
+    """Follow Google News redirect to get the real article URL."""
+    if not url:
+        return url
+    try:
+        resp = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; PPA-Tracker/1.0)"},
+            timeout=10,
+            allow_redirects=True,
+        )
+        final_url = resp.url
+        log.info(f"Resolved URL: {final_url[:80]}")
+        return final_url
+    except Exception as e:
+        log.warning(f"URL resolution failed ({e}): {url[:80]}")
+        return url
 
 # ── Main Pipeline ─────────────────────────────────────────────────────────────
 
@@ -458,13 +477,14 @@ def run() -> None:
 
         log.info(f"Processing: {title[:80]}")
 
-        combined = (title + " " + snippet).lower()
-        if not any(kw in combined for kw in ["ppa", "power purchase", "purchase agreement"]):
-            log.info(f"Pre-filter skipped: {title[:60]}")
-            continue
+        # combined = (title + " " + snippet).lower()
+        # if not any(kw in combined for kw in ["ppa", "power purchase", "purchase agreement"]):
+        #     log.info(f"Pre-filter skipped: {title[:60]}")
+        #     continue
         
         # Try full text; fall back to title + snippet
-        full_text          = fetch_full_text(url) if url else None
+        real_url            = resolve_google_news_url(url)
+        full_text           = fetch_full_text(real_url) if real_url else None
         text_for_extraction = full_text or f"{title}\n\n{snippet}"
 
         log.info(f"Text length: {len(text_for_extraction)} chars | source: {'full' if full_text else 'snippet'}")
