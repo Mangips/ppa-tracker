@@ -808,3 +808,21 @@
 2026-05-21 12:44:27,611 [INFO] Text too short (11 chars) — skipping: Google fecha com Shell seu maior acordo para eólica offshore
 2026-05-21 12:44:27,611 [INFO] Run complete. New deals: 0, Updates: 0
 2026-05-21 12:44:27,612 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (0 deals)
+2026-05-21 13:41:40,816 [INFO] === PPA Tracker pipeline starting ===
+2026-05-21 13:41:40,816 [INFO] Searching from 2026-05-19
+2026-05-21 13:41:41,041 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-05-21 13:41:42,270 [INFO] NewsAPI 'power purchase agreement signed Europe': 2 results
+2026-05-21 13:41:43,492 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-05-21 13:41:51,251 [WARNING] Google News RSS error [en] 'PPA signed Europe renewable energy': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20signed%20Europe%20renewable%20energy&hl=en&gl=US&ceid=US:en
+2026-05-21 13:42:02,910 [WARNING] Google News RSS error [en] 'power purchase agreement signed Europe': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe&hl=en&gl=US&ceid=US:en
+2026-05-21 13:42:12,195 [WARNING] Google News RSS error [de] 'PPA unterzeichnet Europa erneuerbare Energie': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Europa%20erneuerbare%20Energie&hl=de&gl=DE&ceid=DE:de
+2026-05-21 13:42:19,970 [WARNING] Google News RSS error [fr] 'PPA signé Europe énergie renouvelable': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20Europe%20%C3%A9nergie%20renouvelable&hl=fr&gl=FR&ceid=FR:fr
+2026-05-21 13:42:29,274 [WARNING] Google News RSS error [es] 'PPA firmado Europa energía renovable': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20firmado%20Europa%20energ%C3%ADa%20renovable&hl=es&gl=ES&ceid=ES:es
+2026-05-21 13:42:37,888 [WARNING] Google News RSS error [it] 'PPA firmato Europa energia rinnovabile': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20firmato%20Europa%20energia%20rinnovabile&hl=it&gl=IT&ceid=IT:it
+2026-05-21 13:42:48,273 [WARNING] Google News RSS error [pl] 'PPA podpisany Europa energia odnawialna': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20podpisany%20Europa%20energia%20odnawialna&hl=pl&gl=PL&ceid=PL:pl
+2026-05-21 13:42:55,888 [WARNING] Google News RSS error [nl] 'PPA ondertekend Europa hernieuwbare energie': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20ondertekend%20Europa%20hernieuwbare%20energie&hl=nl&gl=NL&ceid=NL:nl
+2026-05-21 13:43:06,773 [WARNING] Google News RSS error [pt] 'PPA assinado Europa energia renovável': 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=PPA%20assinado%20Europa%20energia%20renov%C3%A1vel&hl=pt&gl=PT&ceid=PT:pt
+2026-05-21 13:43:08,773 [INFO] Total raw articles collected: 2
+2026-05-21 13:43:08,774 [INFO] Unique unseen articles: 0
+2026-05-21 13:43:08,774 [INFO] Run complete. New deals: 0, Updates: 0
+2026-05-21 13:43:08,775 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (0 deals)
