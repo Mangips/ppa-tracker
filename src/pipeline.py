@@ -161,7 +161,7 @@ def fetch_google_news_rss(lang: str, query: str) -> list[dict]:
         articles = []
         for item in items:
             title   = (item.findtext("title")   or "").strip()
-            link    = (item.findtext("guid") or item.findtext("link")    or "").strip()
+            link    = (item.findtext("link")    or "").strip()
             pub     = (item.findtext("pubDate") or "").strip()
             source_el = item.find("source")
             outlet  = source_el.text if source_el is not None else ""
