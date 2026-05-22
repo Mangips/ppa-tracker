@@ -6,8 +6,9 @@ DB_PATH = Path(__file__).parent.parent / "data" / "ppa_deals.db"
 CSV_PATH = Path(__file__).parent.parent / "data" / "ppa_deals.csv"
 
 conn = sqlite3.connect(DB_PATH)
-conn.execute("DELETE FROM seen_urls")  # ✅ Already does this
-conn.execute("DELETE FROM deals")     # ✅ NEW: Clear all deals
+conn.execute("DELETE FROM seen_urls")  
+conn.execute("DELETE FROM deals")    
+conn.execute("DELETE FROM sqlite_sequence WHERE name='deals'")
 conn.commit()
 
 # ✅ NEW: Delete CSV
