@@ -18,6 +18,8 @@ from pathlib import Path
 
 import requests
 
+import re as _re  
+
 # ── Config ────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
@@ -32,7 +34,7 @@ MISTRAL_KEY   = os.environ["MISTRAL_KEY"]
 MISTRAL_URL   = "https://api.mistral.ai/v1/chat/completions"
 MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
 
-MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", 100000))  # Default: no limit
+MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 LOGS_DIR = DATA_DIR / "logs"
@@ -166,7 +168,9 @@ def fetch_google_news_rss(lang: str, query: str) -> list[dict]:
         articles = []
         for item in items:
             title   = (item.findtext("title")   or "").strip()
-            link    = (item.findtext("link")    or "").strip()
+            link = (item.findtext("link") or "").strip()
+            if link and not link.startswith("http"):
+                link = f"https://news.google.com/rss/articles/{link}"
             pub     = (item.findtext("pubDate") or "").strip()
             source_el = item.find("source")
             outlet  = source_el.text if source_el is not None else ""
@@ -177,14 +181,17 @@ def fetch_google_news_rss(lang: str, query: str) -> list[dict]:
             except Exception:
                 pub_iso = pub
 
+            raw_desc = (item.findtext("description") or title).strip()
+            description = _re.sub(r"<[^>]+>", " ", raw_desc).strip()
+
             articles.append({
                 "title":       title,
                 "url":         link,
                 "publishedAt": pub_iso,
                 "source":      {"name": outlet},
-                "description": (item.findtext("description") or title).strip(),  # ✅ Use actual RSS description
+                "description": description,
             })
-
+            
         log.info(f"Google News RSS [{lang}] '{query}': {len(articles)} results")
         return articles
     except Exception as e:
@@ -198,15 +205,15 @@ class _TextExtractor(HTMLParser):
     def __init__(self):
         super().__init__()
         self.chunks = []
-        self._skip  = False
+        self._skip  = 0  # counter, not bool
 
     def handle_starttag(self, tag, attrs):
         if tag in ("script", "style", "nav", "footer", "header"):
-            self._skip = True
+            self._skip += 1
 
     def handle_endtag(self, tag):
-        if tag in ("script", "style", "nav", "footer", "header"):
-            self._skip = False
+        if tag in ("script", "style", "nav", "footer", "header") and self._skip:
+            self._skip -= 1
 
     def handle_data(self, data):
         if not self._skip:
@@ -409,12 +416,10 @@ def export_csv(conn: sqlite3.Connection) -> None:
 # ── Extract full text from google news ─────────────────────────────────────────────────────────────
 
 def resolve_google_news_url(url: str) -> str:
-    """Decode Google News RSS URL to get the real article URL."""
+    """Follow Google News redirect to get the real article URL."""
     if not url or "news.google.com" not in url:
         return url
     try:
-        # Google News RSS <link> tags contain the real URL in the <guid> tag
-        # but we only have the link here. Use the decoding endpoint instead.
         resp = requests.get(
             url,
             headers={
@@ -427,13 +432,10 @@ def resolve_google_news_url(url: str) -> str:
             timeout=10,
             allow_redirects=True,
         )
-        # Look for the real URL in the response HTML
-        import re
-        match = re.search(r'<a href="(https?://(?!news\.google\.com)[^"]+)"', resp.text)
-        if match:
-            real = match.group(1)
-            log.info(f"Resolved Google News URL: {real[:80]}")
-            return real
+        final = str(resp.url)
+        if "news.google.com" not in final:
+            log.info(f"Resolved Google News URL: {final[:80]}")
+            return final
         return url
     except Exception as e:
         log.warning(f"URL resolution failed ({e}): {url[:80]}")
