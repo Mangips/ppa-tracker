@@ -530,7 +530,8 @@ def run() -> None:
             (url, datetime.utcnow().strftime("%Y-%m-%d"))
         )
         conn.commit()
-
+        processed += 1
+        
         if not extracted.get("is_signed_deal"):
             log.info(f"Not a signed deal — skipping: {title[:60]}")
             continue
@@ -551,14 +552,12 @@ def run() -> None:
 
         if is_update:
             updates += 1
-            processed += 1
             log.info(
                 f"UPDATE recorded: {extracted.get('buyer')} / "
                 f"{extracted.get('seller')} ({extracted.get('country')})"
             )
         else:
             new_deals += 1
-            processed += 1
             log.info(
                 f"NEW deal: {extracted.get('buyer')} / "
                 f"{extracted.get('seller')} ({extracted.get('country')}, "
