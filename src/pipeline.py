@@ -19,6 +19,7 @@ from pathlib import Path
 import requests
 
 import re as _re  
+from googlenewsdecoder import gnewsdecoder
 
 # ── Config ────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
@@ -415,36 +416,21 @@ def export_csv(conn: sqlite3.Connection) -> None:
 # ── Extract full text from google news ─────────────────────────────────────────────────────────────
 
 def resolve_google_news_url(url: str) -> str:
-    """Follow tracking redirection sequences to get the real article URL."""
+    """Decode Google News RSS URL to get the real article URL."""
     if not url or "news.google.com" not in url:
         return url
+        
     try:
-        headers = {
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0 Safari/537.36"
-            )
-        }
-        # Force a GET request to evaluate the window/meta refresh redirect loop
-        resp = requests.get(
-            url,
-            headers=headers,
-            timeout=12,
-            allow_redirects=True,
-        )
+        decoded = gnewsdecoder(url)
         
-        # Fallback handling: If requests didn't auto-redirect, inspect script blocks
-        if "news.google.com" in resp.url:
-            import re
-            # Matches modern redirection schemas inside JS variables/meta fields
-            match = re.search(r'window\.location\.replace\("([^"]+)"\)', resp.text)
-            if match:
-                log.info(f"Resolved via JS Match: {match.group(1)[:80]}")
-                return match.group(1)
+        if decoded and decoded.get("status"):
+            real_url = decoded.get("decoded_url")
+            log.info(f"Resolved Google News URL: {real_url[:80]}")
+            return real_url
+            
+        log.warning(f"URL decoding failed (status false): {url[:80]}")
+        return url
         
-        log.info(f"Resolved Google News URL: {resp.url[:80]}")
-        return resp.url
     except Exception as e:
         log.warning(f"URL resolution failed ({e}): {url[:80]}")
         return url
