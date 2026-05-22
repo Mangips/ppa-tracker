@@ -507,6 +507,7 @@ def run() -> None:
         
         # Try full text; fall back to title + snippet
         real_url            = resolve_google_news_url(url)
+        log.info(f"URL: {real_url}")
         full_text           = fetch_full_text(real_url) if real_url else None
         text_for_extraction = full_text or f"{title}\n\n{snippet}"
 
@@ -554,12 +555,14 @@ def run() -> None:
 
         if is_update:
             updates += 1
+            processed += 1
             log.info(
                 f"UPDATE recorded: {extracted.get('buyer')} / "
                 f"{extracted.get('seller')} ({extracted.get('country')})"
             )
         else:
             new_deals += 1
+            processed += 1
             log.info(
                 f"NEW deal: {extracted.get('buyer')} / "
                 f"{extracted.get('seller')} ({extracted.get('country')}, "
@@ -567,8 +570,6 @@ def run() -> None:
             )
 
         time.sleep(5)  # Mistral free tier: stay well within rate limits
-
-        processed += 1
     
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
