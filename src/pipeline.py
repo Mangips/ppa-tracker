@@ -35,7 +35,10 @@ MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", 100000))  # Default: no limit
 
 # ── Logging ───────────────────────────────────────────────────────────────────
-LOG_PATH = DATA_DIR / "pipeline.log"
+LOGS_DIR = DATA_DIR / "logs"
+LOGS_DIR.mkdir(exist_ok=True)
+ENV_NAME = os.environ.get("GITHUB_ENVIRONMENT", "local")
+LOG_PATH = LOGS_DIR / f"pipeline_{datetime.utcnow().strftime('%Y-%m-%d_%H-%M-%S')}_{ENV_NAME}.log"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -48,7 +51,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
-LOOKBACK_DAYS    = os.environ.get("LOOKBACK_DAYS")
+LOOKBACK_DAYS = os.environ.get("LOOKBACK_DAYS")
 SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")
 
 # Google News RSS: one query per language.
@@ -439,12 +442,12 @@ def resolve_google_news_url(url: str) -> str:
 # ── Main Pipeline ─────────────────────────────────────────────────────────────
 
 def run() -> None:
-    log.info("=== PPA Tracker pipeline starting ===")
+    log.info(f"=== PPA Tracker pipeline starting (env: {ENV_NAME}) ===")
     conn = sqlite3.connect(DB_PATH)
     init_db(conn)
 
     from_date = SEARCH_FROM_DATE or (
-        datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)
+        datetime.utcnow() - timedelta(days=int(LOOKBACK_DAYS or 2))
     ).strftime("%Y-%m-%d")
     log.info(f"Searching from {from_date}")
 
@@ -488,7 +491,7 @@ def run() -> None:
     for article in unique_articles:
         if processed >= MAX_ARTICLES:
             log.info(f"Reached MAX_ARTICLES limit ({MAX_ARTICLES}) — stopping")
-        break
+            break
         
         url     = article.get("url", "")
         title   = article.get("title", "")
