@@ -225,25 +225,24 @@ class _TextExtractor(HTMLParser):
 def fetch_full_text(url: str) -> str | None:
     try:
         headers = {
-            "User-Agent": (
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0 Safari/537.36"
-            )
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
         }
-        resp = requests.get(url, headers=headers, timeout=12)
+        resp = requests.get(url, headers=headers, timeout=12, allow_redirects=True)
+        
         if resp.status_code == 200 and "text/html" in resp.headers.get("Content-Type", ""):
             parser = _TextExtractor()
             parser.feed(resp.text)
             text  = " ".join(parser.chunks)
             words = text.split()
             return " ".join(words[:4000]) if len(words) > 4000 else text
+            
         log.info(f"Full text skipped (status {resp.status_code}): {url[:80]}")
         return None
     except Exception as e:
         log.info(f"Full text fetch failed ({e}): {url[:80]}")
         return None
-
 
 # ── Mistral Extraction ─────────────────────────────────────────────────────────
 
@@ -416,27 +415,36 @@ def export_csv(conn: sqlite3.Connection) -> None:
 # ── Extract full text from google news ─────────────────────────────────────────────────────────────
 
 def resolve_google_news_url(url: str) -> str:
-    """Follow Google News redirect to get the real article URL."""
+    """Follow tracking redirection sequences to get the real article URL."""
     if not url or "news.google.com" not in url:
         return url
     try:
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0 Safari/537.36"
+            )
+        }
+        # Force a GET request to evaluate the window/meta refresh redirect loop
         resp = requests.get(
             url,
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/124.0 Safari/537.36"
-                )
-            },
-            timeout=10,
+            headers=headers,
+            timeout=12,
             allow_redirects=True,
         )
-        final = str(resp.url)
-        if "news.google.com" not in final:
-            log.info(f"Resolved Google News URL: {final[:80]}")
-            return final
-        return url
+        
+        # Fallback handling: If requests didn't auto-redirect, inspect script blocks
+        if "news.google.com" in resp.url:
+            import re
+            # Matches modern redirection schemas inside JS variables/meta fields
+            match = re.search(r'window\.location\.replace\("([^"]+)"\)', resp.text)
+            if match:
+                log.info(f"Resolved via JS Match: {match.group(1)[:80]}")
+                return match.group(1)
+        
+        log.info(f"Resolved Google News URL: {resp.url[:80]}")
+        return resp.url
     except Exception as e:
         log.warning(f"URL resolution failed ({e}): {url[:80]}")
         return url
