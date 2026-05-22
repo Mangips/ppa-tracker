@@ -19,7 +19,8 @@ on:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    environment: ${{ github.event.inputs.target_env }}
+    # If activated from cron (schedule) set 'Prod', otherwise take manual input
+    environment: ${{ github.event_name == 'schedule' && 'Prod' || github.event.inputs.target_env }}
     
     permissions:
       contents: write  # needed to commit CSV back to repo
@@ -48,14 +49,18 @@ jobs:
           else
             echo "No existing DB, will be created fresh."
           fi
-
+          
+      - name: Calculate today date for Prod
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.target_env == 'Prod' }}
+        run: echo "TODAY_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      
       - name: Run pipeline
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
-          SEARCH_FROM_DATE: ${{ vars.SEARCH_FROM_DATE }}
+          SEARCH_FROM_DATE: ${{ (github.event_name == 'schedule' || github.event.inputs.target_env == 'Prod') && env.TODAY_DATE || vars.SEARCH_FROM_DATE }}
         run: python src/pipeline.py
 
       - name: Commit updated DB and CSV to repo
