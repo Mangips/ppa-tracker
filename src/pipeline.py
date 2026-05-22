@@ -56,6 +56,7 @@ log = logging.getLogger(__name__)
 # Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
 LOOKBACK_DAYS = os.environ.get("LOOKBACK_DAYS")
 SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")
+SEARCH_TO_DATE = os.environ.get("SEARCH_TO_DATE")
 
 # Google News RSS: one query per language.
 # hl = UI language, gl = country, ceid = region:language
@@ -126,19 +127,24 @@ def init_db(conn: sqlite3.Connection) -> None:
 
 # ── News Fetching ─────────────────────────────────────────────────────────────
 
-def fetch_newsapi(query: str, from_date: str) -> list[dict]:
+def fetch_newsapi(query: str, from_date: str, to_date: str) -> list[dict]:
     try:
+        params = {
+            "q":        query,
+            "from":     from_date,
+            "sortBy":   "publishedAt",
+            "pageSize": 100,
+            "apiKey":   NEWSAPI_KEY,
+        }
+        if to_date:
+            params["to"] = to_date
+            
         resp = requests.get(
             NEWSAPI_URL,
-            params={
-                "q":        query,
-                "from":     from_date,
-                "sortBy":   "publishedAt",
-                "pageSize": 100,
-                "apiKey":   NEWSAPI_KEY,
-            },
+            params=params,
             timeout=15,
-        )
+        )    
+
         resp.raise_for_status()
         data     = resp.json()
         articles = data.get("articles", [])
@@ -151,14 +157,23 @@ def fetch_newsapi(query: str, from_date: str) -> list[dict]:
         return []
 
 
-def fetch_google_news_rss(lang: str, query: str) -> list[dict]:
+def fetch_google_news_rss(lang: str, query: str, from_date: str, to_date: str) -> list[dict]:
     """Fetch articles from Google News RSS. No API key required."""
     hl, gl, ceid = LANG_TO_CEID.get(lang, ("en", "US", "US:en"))
+
+    # Append date operators to the base query
+    full_query = query
+    if from_date:
+        full_query += f" after:{from_date}"
+    if to_date:
+        full_query += f" before:{to_date}"
+
     url = (
         f"https://news.google.com/rss/search"
-        f"?q={requests.utils.quote(query)}"
+        f"?q={requests.utils.quote(full_query)}"
         f"&hl={hl}&gl={gl}&ceid={ceid}"
     )
+    
     try:
         headers = {"User-Agent": "Mozilla/5.0 (compatible; PPA-Tracker/1.0)"}
         resp = requests.get(url, headers=headers, timeout=15)
@@ -445,7 +460,9 @@ def run() -> None:
     from_date = SEARCH_FROM_DATE or (
         datetime.utcnow() - timedelta(days=int(LOOKBACK_DAYS or 2))
     ).strftime("%Y-%m-%d")
-    log.info(f"Searching from {from_date}")
+    to_date = SEARCH_TO_DATE
+    
+    log.info(f"Searching from {from_date} to {to_date or 'present'}")
 
     # 1. Collect articles
     all_articles: list[dict] = []
@@ -456,12 +473,12 @@ def run() -> None:
         "power purchase agreement signed Europe",
         "corporate PPA Europe signed deal",
     ]:
-        all_articles.extend(fetch_newsapi(query, from_date))
+        all_articles.extend(fetch_newsapi(query, from_date, to_date))
         time.sleep(1)
 
     # Google News RSS (all languages)
     for lang, query in GOOGLE_NEWS_FEEDS:
-        all_articles.extend(fetch_google_news_rss(lang, query))
+        all_articles.extend(fetch_google_news_rss(lang, query, from_date, to_date))
         time.sleep(2)
 
     log.info(f"Total raw articles collected: {len(all_articles)}")
