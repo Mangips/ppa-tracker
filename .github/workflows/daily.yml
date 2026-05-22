@@ -27,13 +27,13 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
         with:
           # Fetch full history so we can commit back cleanly
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5.6.0
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -67,7 +67,7 @@ jobs:
         run: |
           git config user.name "ppa-tracker-bot"
           git config user.email "bot@ppa-tracker"
-          git add data/ppa_deals.db data/ppa_deals.csv data/pipeline.log
+          git add data/ppa_deals.db data/ppa_deals.csv data/logs/
           # Only commit if there are changes
           git diff --staged --quiet || git commit -m "chore: daily update $(date -u '+%Y-%m-%d')"
           git push
