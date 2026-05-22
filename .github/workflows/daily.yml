@@ -5,11 +5,22 @@ on:
     # Runs every day at 07:00 UTC
     - cron: "0 7 * * *"
   workflow_dispatch:  # allows manual trigger from GitHub UI
+    inputs:
+      target_env:
+        description: 'Select env'
+        required: true
+        default: 'Prod'
+        type: choice
+        options:
+          - Test
+          - Prod
+
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-
+    environment: ${{ github.event.inputs.target_env }}
+    
     permissions:
       contents: write  # needed to commit CSV back to repo
 
@@ -42,6 +53,9 @@ jobs:
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
+          LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
+          MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
+          SEARCH_FROM_DATE: ${{ vars.SEARCH_FROM_DATE }}
         run: python src/pipeline.py
 
       - name: Commit updated DB and CSV to repo
