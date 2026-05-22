@@ -32,6 +32,8 @@ MISTRAL_KEY   = os.environ["MISTRAL_KEY"]
 MISTRAL_URL   = "https://api.mistral.ai/v1/chat/completions"
 MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
 
+MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES", 100000))  # Default: no limit
+
 # ── Logging ───────────────────────────────────────────────────────────────────
 LOG_PATH = DATA_DIR / "pipeline.log"
 
@@ -46,7 +48,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 # Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
-LOOKBACK_DAYS    = 2
+LOOKBACK_DAYS    = os.environ.get("LOOKBACK_DAYS")
 SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")
 
 # Google News RSS: one query per language.
@@ -481,8 +483,13 @@ def run() -> None:
     # 3. Process each article through Mistral
     new_deals = 0
     updates   = 0
+    processed = 0
 
     for article in unique_articles:
+        if processed >= MAX_ARTICLES:
+            log.info(f"Reached MAX_ARTICLES limit ({MAX_ARTICLES}) — stopping")
+        break
+        
         url     = article.get("url", "")
         title   = article.get("title", "")
         snippet = article.get("description", "")
@@ -558,6 +565,8 @@ def run() -> None:
 
         time.sleep(5)  # Mistral free tier: stay well within rate limits
 
+        processed += 1
+    
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
     conn.close()
