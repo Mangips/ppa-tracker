@@ -498,7 +498,7 @@ def run() -> None:
         snippet = article.get("description", "")
         outlet  = article.get("source", {}).get("name", "")
 
-        log.info(f"Processing: {title[:80]}")
+        log.info(f"Processing article n. {processed}: {title[:80]}")
 
         # combined = (title + " " + snippet).lower()
         # if not any(kw in combined for kw in ["ppa", "power purchase", "purchase agreement"]):
