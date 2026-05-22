@@ -61,6 +61,7 @@ jobs:
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
           SEARCH_FROM_DATE: ${{ (github.event_name == 'schedule' || github.event.inputs.target_env == 'Prod') && env.TODAY_DATE || vars.SEARCH_FROM_DATE }}
+          SEARCH_TO_DATE: ${{ vars.SEARCH_TO_DATE }}
         run: python src/pipeline.py
 
       - name: Commit updated DB and CSV to repo
