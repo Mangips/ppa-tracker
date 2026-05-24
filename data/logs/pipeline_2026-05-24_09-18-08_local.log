@@ -1,0 +1,26 @@
+2026-05-24 09:18:08,543 [INFO] === PPA Tracker pipeline starting (env: local) ===
+2026-05-24 09:18:08,544 [INFO] Searching from 2026-05-24 to present
+2026-05-24 09:18:08,595 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-05-24 09:18:09,643 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-05-24 09:18:10,689 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-05-24 09:18:11,950 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 0 results
+2026-05-24 09:18:14,261 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 2 results
+2026-05-24 09:18:16,477 [INFO] Google News RSS [de] 'PPA unterzeichnet Europa erneuerbare Energie': 0 results
+2026-05-24 09:18:18,683 [INFO] Google News RSS [fr] 'PPA signé Europe énergie renouvelable': 0 results
+2026-05-24 09:18:20,889 [INFO] Google News RSS [es] 'PPA firmado Europa energía renovable': 0 results
+2026-05-24 09:18:23,113 [INFO] Google News RSS [it] 'PPA firmato Europa energia rinnovabile': 0 results
+2026-05-24 09:18:25,329 [INFO] Google News RSS [pl] 'PPA podpisany Europa energia odnawialna': 0 results
+2026-05-24 09:18:27,548 [INFO] Google News RSS [nl] 'PPA ondertekend Europa hernieuwbare energie': 0 results
+2026-05-24 09:18:29,791 [INFO] Google News RSS [pt] 'PPA assinado Europa energia renovável': 0 results
+2026-05-24 09:18:31,791 [INFO] Total raw articles collected: 2
+2026-05-24 09:18:31,791 [INFO] Unique unseen articles: 1
+2026-05-24 09:18:31,791 [INFO] Processing article n. 0: TotalEnergies SE stock (FR0000120271): focus on cash returns after latest earnin
+2026-05-24 09:18:31,954 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/ueberblick/totalenergies-se-stock-fr00001
+2026-05-24 09:18:31,954 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/ueberblick/totalenergies-se-stock-fr0000120271-focus-on-cash-returns-after-latest/69410911
+2026-05-24 09:18:32,799 [INFO] Text length: 15075 chars | source: full
+2026-05-24 09:18:32,799 [INFO] Text preview: TotalEnergies SE stock (FR0000120271): focus on cash returns after latest earnings News Suche Menü ein-/ausblenden Blogs Bilder News Sie befinden sind hier: Startseite > Börse > Ueberblick > TotalEner...
+2026-05-24 09:18:33,511 [INFO] Mistral HTTP 200 for: TotalEnergies SE stock (FR0000120271): focus on cash returns
+2026-05-24 09:18:33,511 [INFO] Mistral extracted — signed=False confidence=low buyer=None seller=None | TotalEnergies SE stock (FR0000120271): focus on ca
+2026-05-24 09:18:33,516 [INFO] Not a signed deal — skipping: TotalEnergies SE stock (FR0000120271): focus on cash returns
+2026-05-24 09:18:33,516 [INFO] Run complete. New deals: 0, Updates: 0
+2026-05-24 09:18:33,517 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (0 deals)
