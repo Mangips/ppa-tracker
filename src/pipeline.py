@@ -265,33 +265,37 @@ def fetch_full_text(url: str) -> str | None:
 EXTRACTION_PROMPT = """\
 You are an expert energy analyst. Extract structured information about Power Purchase Agreement (PPA) deals.
 
-Analyze the text below and answer:
-1. Does it describe a SIGNED/COMPLETED PPA deal? (Not a rumour, tender, or proposal.)
-2. If yes, extract all available fields.
-3. Does it look like an UPDATE to a deal reported earlier?
+Analyze the text below and:
+1. Identify **ALL SIGNED/COMPLETED PPA deals** described (not rumours, tenders, or proposals).
+2. For **EACH deal**, extract all fields below into a **separate JSON object**.
+3. Return a **JSON array** of these objects (one per deal).
+4. If **NO signed deals** are found, return an array with **ONE object** where `is_signed_deal` is `false` and all other fields are `null`.
+5. If signed, was it signed in Europe? 
 
-Return ONLY a JSON object — no markdown fences, no explanation, nothing else:
+Return **ONLY** a valid JSON array — no markdown fences, no explanation, nothing else.
+Each object must include **ALL fields** below (use `null` for missing values):
+
 {{
-  "is_signed_deal":   true or false,
+  "is_signed_deal": true or false,
   "is_likely_update": true or false,
-  "update_clues":     "what changed, or null",
-  "date_agreement":   "YYYY-MM-DD, YYYY-MM, or YYYY — null if unknown",
-  "buyer":            "offtaker company name(s), comma-separated",
-  "seller":           "developer / generator / IPP name(s)",
-  "capacity_mw":      number or null,
-  "energy_gwh":       number or null,
-  "tenure_years":     number or null,
-  "country":          "delivery country",
-  "technology":       "solar / wind onshore / wind offshore / hydro / mixed / other",
-  "price_eur_mwh":    number or null,
-  "notes":            "project name, grid details, special terms, or null",
-  "confidence":       "high / medium / low"
+  "update_clues": "what changed, or null",
+  "date_agreement": "YYYY-MM-DD, YYYY-MM, or YYYY — null if unknown",
+  "buyer": "offtaker company name(s), comma-separated",
+  "seller": "developer / generator / IPP name(s)",
+  "capacity_mw": number or null,
+  "energy_gwh": number or null,
+  "tenure_years": number or null,
+  "is_european":      true or false,
+  "country": "delivery country",
+  "technology": "solar / wind onshore / wind offshore / hydro / mixed / other",
+  "price_eur_mwh": number or null,
+  "notes": "project name, grid details, special terms, or null",
+  "confidence": "high / medium / low"
 }}
 
 Text (any language — return all fields in English):
 ---
-{text}
----"""
+{text}"""
 
 
 def extract_with_mistral(text: str, title: str, outlet: str) -> dict | None:
@@ -327,6 +331,7 @@ def extract_with_mistral(text: str, title: str, outlet: str) -> dict | None:
         parsed = json.loads(content)
         log.info(
             f"Mistral extracted — signed={parsed.get('is_signed_deal')} "
+            f"european={parsed.get('is_european')} "
             f"confidence={parsed.get('confidence')} "
             f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
             f"| {title[:50]}"
@@ -462,20 +467,23 @@ def run() -> None:
     ).strftime("%Y-%m-%d")
     to_date = SEARCH_TO_DATE
     
-    log.info(f"Searching from {from_date} to {to_date or 'present'}")
+    log.info(f"Searching from {from_date} to {to_date or 'present'} with {LOOKBACK_DAYS} loockback days")
 
     # 1. Collect articles
     all_articles: list[dict] = []
 
     # NewsAPI (English)
-    for query in [
-        "PPA signed Europe renewable",
-        "power purchase agreement signed Europe",
-        "corporate PPA Europe signed deal",
-    ]:
-        all_articles.extend(fetch_newsapi(query, from_date, to_date))
-        time.sleep(1)
-
+    if not to_date:
+        for query in [
+            "PPA signed Europe renewable",
+            "power purchase agreement signed Europe",
+            "corporate PPA Europe signed deal",
+        ]:
+            all_articles.extend(fetch_newsapi(query, from_date, to_date))
+            time.sleep(1)
+    else:
+    log.info("Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).")
+    
     # Google News RSS (all languages)
     for lang, query in GOOGLE_NEWS_FEEDS:
         all_articles.extend(fetch_google_news_rss(lang, query, from_date, to_date))
@@ -511,7 +519,7 @@ def run() -> None:
         snippet = article.get("description", "")
         outlet  = article.get("source", {}).get("name", "")
 
-        log.info(f"Processing article n. {processed}: {title[:80]}")
+        log.info(f"------- Processing article n. {processed}: {title[:80]} -------")
 
         # combined = (title + " " + snippet).lower()
         # if not any(kw in combined for kw in ["ppa", "power purchase", "purchase agreement"]):
@@ -541,47 +549,58 @@ def run() -> None:
             log.warning(f"Mistral returned None — skipping: {title[:60]}")
             continue
 
-        # Mark as seen only after a valid Mistral response (not on API errors)
+        # Parse as array (handle both single object and array for backward compatibility)
+        try:
+            deals = extracted if isinstance(extracted, list) else [extracted]
+        except Exception as e:
+            log.warning(f"Failed to parse Mistral response ({e}) — skipping: {title[:60]}")
+            continue
+
+        # Mark URL as seen (only once per article)
         conn.execute(
             "INSERT OR IGNORE INTO seen_urls VALUES (?, ?)",
             (url, datetime.utcnow().strftime("%Y-%m-%d"))
         )
         conn.commit()
-        processed += 1
+        seen_urls.add(url)
+
+        # Process each deal separately
+        for deal in deals:
+            # Skip non-signed deals (but still log them)
+            if not deal.get("is_signed_deal"):
+                log.info(f"Not a signed deal — skipping: {title[:60]}")
+                continue
+            
+            if not extracted.get("is_european"):
+                log.info(f"Not a European deal — skipping: {title[:60]}")
+                continue
         
-        if not extracted.get("is_signed_deal"):
-            log.info(f"Not a signed deal — skipping: {title[:60]}")
-            continue
-
-        if (
-            extracted.get("confidence") == "low"
-            and not extracted.get("buyer")
-            and not extracted.get("seller")
-        ):
-            log.info(f"Low confidence, no parties — skipping: {title[:60]}")
-            continue
-
-        deal_hash   = make_deal_hash(extracted)
-        existing_id = find_duplicate(conn, deal_hash)
-        is_update   = existing_id is not None or extracted.get("is_likely_update", False)
-
-        write_deal(conn, extracted, article, full_text, is_update, existing_id)
-
-        if is_update:
-            updates += 1
-            log.info(
-                f"UPDATE recorded: {extracted.get('buyer')} / "
-                f"{extracted.get('seller')} ({extracted.get('country')})"
-            )
-        else:
-            new_deals += 1
-            log.info(
-                f"NEW deal: {extracted.get('buyer')} / "
-                f"{extracted.get('seller')} ({extracted.get('country')}, "
-                f"{extracted.get('capacity_mw')} MW)"
-            )
-
-        time.sleep(5)  # Mistral free tier: stay well within rate limits
+            if (
+                deal.get("confidence") == "low"
+                and not deal.get("buyer")
+                and not deal.get("seller")
+            ):
+                log.info(f"Low confidence, no parties — skipping: {title[:60]}")
+                continue
+        
+            deal_hash = make_deal_hash(deal)
+            existing_id = find_duplicate(conn, deal_hash)
+            is_update = existing_id is not None or deal.get("is_likely_update", False)
+        
+            write_deal(conn, deal, article, full_text, is_update, existing_id)
+            processed += 1
+        
+            if is_update:
+                updates += 1
+                log.info(f"UPDATE recorded: {deal.get('buyer')} / {deal.get('seller')} ({deal.get('country')})")
+            else:
+                new_deals += 1
+                log.info(
+                    f"NEW deal: {deal.get('buyer')} / {deal.get('seller')} "
+                    f"({deal.get('country')}, {deal.get('capacity_mw')} MW)"
+                )
+        
+            time.sleep(5)  # Mistral free tier: stay well within rate limits
     
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
