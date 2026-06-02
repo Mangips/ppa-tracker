@@ -1,0 +1,736 @@
+2026-06-02 11:22:36,800 [INFO] === PPA Tracker pipeline starting (env: local) ===
+2026-06-02 11:22:36,800 [INFO] Searching from 2025-01-08 to 2025-01-31 with  loockback days
+2026-06-02 11:22:36,800 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-02 11:22:37,179 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 47 results
+2026-06-02 11:22:39,721 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 46 results
+2026-06-02 11:22:41,942 [INFO] Google News RSS [de] 'PPA unterzeichnet Europa erneuerbare Energie': 0 results
+2026-06-02 11:22:44,168 [INFO] Google News RSS [fr] 'PPA signé Europe énergie renouvelable': 2 results
+2026-06-02 11:22:46,375 [INFO] Google News RSS [es] 'PPA firmado Europa energía renovable': 3 results
+2026-06-02 11:22:48,599 [INFO] Google News RSS [it] 'PPA firmato Europa energia rinnovabile': 3 results
+2026-06-02 11:22:50,808 [INFO] Google News RSS [pl] 'PPA podpisany Europa energia odnawialna': 0 results
+2026-06-02 11:22:53,015 [INFO] Google News RSS [nl] 'PPA ondertekend Europa hernieuwbare energie': 0 results
+2026-06-02 11:22:55,298 [INFO] Google News RSS [pt] 'PPA assinado Europa energia renovável': 0 results
+2026-06-02 11:22:57,298 [INFO] Total raw articles collected: 101
+2026-06-02 11:22:57,299 [INFO] Unique unseen articles: 82
+2026-06-02 11:22:57,299 [INFO] ------- Processing article n. 0: Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicroelectronics in Fran -------
+2026-06-02 11:22:57,520 [INFO] Resolved Google News URL: https://totalenergies.com/newsroom/renewable-power-totalenergies-will-supply-15-
+2026-06-02 11:22:57,520 [INFO] URL: https://totalenergies.com/newsroom/renewable-power-totalenergies-will-supply-15-twh-stmicroelectronics-france-over/?lang=eng
+2026-06-02 11:22:58,998 [INFO] Text length: 8960 chars | source: full
+2026-06-02 11:22:58,998 [INFO] Text preview: Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicr Home Press Releases Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicroelectronics in France Over 15 years Renewable Power: Total...
+2026-06-02 11:23:00,222 [INFO] Mistral HTTP 200 for: Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicr
+2026-06-02 11:23:00,222 [INFO] Mistral extracted 1 deals (1 signed) | Renewable Power: TotalEnergies Will Supply 1.5 TWh
+2026-06-02 11:23:00,226 [INFO] NEW deal: STMicroelectronics / TotalEnergies (France, 75 MW)
+2026-06-02 11:23:05,226 [INFO] ------- Processing article n. 1: STMicroelectronics signs 15-year PPA with TotalEnergies in France - Data Center  -------
+2026-06-02 11:23:05,553 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/stmicroelectronics-signs-15-year-ppa-
+2026-06-02 11:23:05,553 [INFO] URL: https://www.datacenterdynamics.com/en/news/stmicroelectronics-signs-15-year-ppa-with-totalenergies-in-france/
+2026-06-02 11:23:06,377 [INFO] Text length: 2752 chars | source: full
+2026-06-02 11:23:06,377 [INFO] Text preview: STMicroelectronics signs 15-year PPA with TotalEnergies in France - DCD Home News The Energy & Sustainability Channel STMicroelectronics signs 15-year PPA with TotalEnergies in France Total will suppl...
+2026-06-02 11:23:08,743 [INFO] Mistral HTTP 200 for: STMicroelectronics signs 15-year PPA with TotalEnergies in F
+2026-06-02 11:23:08,743 [INFO] Mistral extracted 3 deals (3 signed) | STMicroelectronics signs 15-year PPA with TotalEne
+2026-06-02 11:23:08,745 [INFO] Hash collision detected (original deal ID: 10) for: STMicroelectronics signs 15-year PPA with TotalEnergies in F | Buyer: STMicroelectronics | Seller: TotalEnergies
+2026-06-02 11:23:08,746 [INFO] UPDATE recorded: STMicroelectronics / TotalEnergies (France)
+2026-06-02 11:23:13,746 [INFO] Not a European deal — skipping: STMicroelectronics signs 15-year PPA with TotalEnergies in F
+2026-06-02 11:23:13,748 [INFO] NEW deal: STMicroelectronics / Centrica Energy (Italy, None MW)
+2026-06-02 11:23:18,748 [INFO] ------- Processing article n. 3: Landmark renewable power purchase agreement - Groupe SNCF -------
+2026-06-02 11:23:18,987 [INFO] Resolved Google News URL: https://www.groupe-sncf.com/en/group/suppliers/ppa-solar-power-contract-sncf-red
+2026-06-02 11:23:18,987 [INFO] URL: https://www.groupe-sncf.com/en/group/suppliers/ppa-solar-power-contract-sncf-reden
+2026-06-02 11:23:21,742 [INFO] Text length: 2977 chars | source: full
+2026-06-02 11:23:21,742 [INFO] Text preview: Electricity procurement—a landmark contract | SNCF Group Landmark renewable power purchase agreement SNCF Énergie has signed a long-term renewable electricity purchase agreement with photovoltaic powe...
+2026-06-02 11:23:23,166 [INFO] Mistral HTTP 200 for: Landmark renewable power purchase agreement - Groupe SNCF
+2026-06-02 11:23:23,166 [INFO] Mistral extracted 1 deals (1 signed) | Landmark renewable power purchase agreement - Grou
+2026-06-02 11:23:23,169 [INFO] NEW deal: SNCF Énergie, SNCF Voyageurs / Reden (France, 146 MW)
+2026-06-02 11:23:28,169 [INFO] ------- Processing article n. 4: Deflating capture prices pull solar, wind market values down across Europe in 20 -------
+2026-06-02 11:23:28,400 [INFO] Resolved Google News URL: https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/0131
+2026-06-02 11:23:28,400 [INFO] URL: https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/013125-deflating-capture-prices-pull-solar-wind-market-values-down-across-europe-in-2024
+2026-06-02 11:23:28,455 [INFO] Full text skipped (status 403): https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/0131
+2026-06-02 11:23:28,455 [INFO] Text length: 203 chars | source: fallback
+2026-06-02 11:23:28,455 [INFO] Text preview: Deflating capture prices pull solar, wind market values down across Europe in 2024 - S&P Global
+
+Deflating capture prices pull solar, wind market values down across Europe in 2024 &nbsp;&nbsp; S&P Glo...
+2026-06-02 11:23:29,428 [INFO] Mistral HTTP 200 for: Deflating capture prices pull solar, wind market values down
+2026-06-02 11:23:29,428 [INFO] Mistral extracted 1 deals (0 signed) | Deflating capture prices pull solar, wind market v
+2026-06-02 11:23:29,429 [INFO] Not a signed deal — skipping: Deflating capture prices pull solar, wind market values down
+2026-06-02 11:23:29,429 [INFO] ------- Processing article n. 4: Low Carbon signs long-term Power Purchase Agreement with carbon removal project  -------
+2026-06-02 11:23:29,725 [INFO] Resolved Google News URL: https://www.deepskyclimate.com/blog/low-carbon-signs-long-term-power-purchase-ag
+2026-06-02 11:23:29,725 [INFO] URL: https://www.deepskyclimate.com/blog/low-carbon-signs-long-term-power-purchase-agreement-with-carbon-removal-project-developer-deep-sky
+2026-06-02 11:23:31,606 [INFO] Text length: 8723 chars | source: full
+2026-06-02 11:23:31,607 [INFO] Text preview: Low Carbon signs long-term Power Purchase Agreement with carbon removal project developer Deep Sky L O O G Menu REMOVE CARBON Subscribe to our newsletter The place for unfiltered climate news and Deep...
+2026-06-02 11:23:33,153 [INFO] Mistral HTTP 200 for: Low Carbon signs long-term Power Purchase Agreement with car
+2026-06-02 11:23:33,153 [INFO] Mistral extracted 2 deals (2 signed) | Low Carbon signs long-term Power Purchase Agreemen
+2026-06-02 11:23:33,155 [INFO] Not a European deal — skipping: Low Carbon signs long-term Power Purchase Agreement with car
+2026-06-02 11:23:33,156 [INFO] NEW deal: Lloyds Banking Group / Low Carbon (UK, None MW)
+2026-06-02 11:23:38,157 [INFO] ------- Processing article n. 5: Corporate PPAs soar in Europe in 2024, despite decline in total deal volume - pv -------
+2026-06-02 11:23:38,488 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/01/30/corporate-ppas-soar-in-europe-in-2024-des
+2026-06-02 11:23:38,488 [INFO] URL: https://www.pv-magazine.com/2025/01/30/corporate-ppas-soar-in-europe-in-2024-despite-decline-in-total-volume/
+2026-06-02 11:23:40,541 [INFO] Text length: 8057 chars | source: full
+2026-06-02 11:23:40,542 [INFO] Text preview: Corporate PPAs soar in Europe in 2024, despite decline in total deal volume - pv magazine Global Advertisement Advertisement Advertisement Advertisement Markets & Policy Corporate PPAs soar in Europe ...
+2026-06-02 11:23:41,411 [INFO] Mistral HTTP 200 for: Corporate PPAs soar in Europe in 2024, despite decline in to
+2026-06-02 11:23:41,411 [INFO] Mistral extracted 1 deals (0 signed) | Corporate PPAs soar in Europe in 2024, despite dec
+2026-06-02 11:23:41,413 [INFO] Not a signed deal — skipping: Corporate PPAs soar in Europe in 2024, despite decline in to
+2026-06-02 11:23:41,413 [INFO] ------- Processing article n. 5: “The addition of BESS can mitigate the risk of long-term PPAs” - ESS News -------
+2026-06-02 11:23:41,656 [INFO] Resolved Google News URL: https://www.ess-news.com/2025/01/31/the-addition-of-bess-can-mitigate-the-risk-o
+2026-06-02 11:23:41,656 [INFO] URL: https://www.ess-news.com/2025/01/31/the-addition-of-bess-can-mitigate-the-risk-of-long-term-ppas/
+2026-06-02 11:23:43,281 [INFO] Text length: 12313 chars | source: full
+2026-06-02 11:23:43,282 [INFO] Text preview: “The addition of BESS can mitigate the risk of long-term PPAs” - Energy Storage Advertisement Advertisement Advertisement Finance “The addition of BESS can mitigate the risk of long-term PPAs” With mo...
+2026-06-02 11:23:44,174 [INFO] Mistral HTTP 200 for: “The addition of BESS can mitigate the risk of long-term PPA
+2026-06-02 11:23:44,175 [INFO] Mistral extracted 1 deals (0 signed) | “The addition of BESS can mitigate the risk of lon
+2026-06-02 11:23:44,176 [INFO] Not a signed deal — skipping: “The addition of BESS can mitigate the risk of long-term PPA
+2026-06-02 11:23:44,176 [INFO] ------- Processing article n. 5: US solar PPA prices hold steady at US$56.76/MWh in Q4 2024 - PV Tech -------
+2026-06-02 11:23:44,404 [INFO] Resolved Google News URL: https://www.pv-tech.org/us-solar-ppa-prices-hold-steady-us56-76-mwh-q4-2024/
+2026-06-02 11:23:44,404 [INFO] URL: https://www.pv-tech.org/us-solar-ppa-prices-hold-steady-us56-76-mwh-q4-2024/
+2026-06-02 11:23:45,786 [INFO] Text length: 9468 chars | source: full
+2026-06-02 11:23:45,786 [INFO] Text preview: US solar PPA prices hold steady at US$56.76/MWh in Q4 2024 - PV Tech Skip to content News US solar PPA prices hold steady at US$56.76/MWh in Q4 2024 By JP Casey January 30, 2025 Markets & Finance , Fi...
+2026-06-02 11:23:47,373 [INFO] Mistral HTTP 200 for: US solar PPA prices hold steady at US$56.76/MWh in Q4 2024 -
+2026-06-02 11:23:47,373 [INFO] Mistral extracted 2 deals (2 signed) | US solar PPA prices hold steady at US$56.76/MWh in
+2026-06-02 11:23:47,374 [INFO] Not a European deal — skipping: US solar PPA prices hold steady at US$56.76/MWh in Q4 2024 -
+2026-06-02 11:23:47,374 [INFO] Not a European deal — skipping: US solar PPA prices hold steady at US$56.76/MWh in Q4 2024 -
+2026-06-02 11:23:47,374 [INFO] ------- Processing article n. 5: Amazon is the largest corporate purchaser of renewable energy globally for the f -------
+2026-06-02 11:23:47,667 [INFO] Resolved Google News URL: https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-solar-wi
+2026-06-02 11:23:47,668 [INFO] URL: https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-solar-wind-nuclear-climate-change
+2026-06-02 11:23:47,775 [INFO] Text length: 8256 chars | source: full
+2026-06-02 11:23:47,775 [INFO] Text preview: Amazon is the largest corporate purchaser of renewable energy globally for the fifth year in a row With more than 600 projects worldwide, Amazon is also supporting solar and wind initiatives in region...
+2026-06-02 11:23:48,650 [INFO] Mistral HTTP 200 for: Amazon is the largest corporate purchaser of renewable energ
+2026-06-02 11:23:48,650 [INFO] Mistral extracted 1 deals (0 signed) | Amazon is the largest corporate purchaser of renew
+2026-06-02 11:23:48,652 [INFO] Not a signed deal — skipping: Amazon is the largest corporate purchaser of renewable energ
+2026-06-02 11:23:48,652 [INFO] ------- Processing article n. 5: Fortum to Deliver Renewable Energy to P2X Solutions’ Green Hydrogen Plant - Fort -------
+2026-06-02 11:23:48,938 [INFO] Resolved Google News URL: https://www.fortum.com/en/media/2025/01/fortum-deliver-renewable-energy-p2x-solu
+2026-06-02 11:23:48,938 [INFO] URL: https://www.fortum.com/en/media/2025/01/fortum-deliver-renewable-energy-p2x-solutions-green-hydrogen-plant
+2026-06-02 11:24:00,978 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.fortum.com', port=443): Read timed out. (read timeout=12)): https://www.fortum.com/en/media/2025/01/fortum-deliver-renewable-energy-p2x-solu
+2026-06-02 11:24:00,978 [INFO] Text length: 177 chars | source: fallback
+2026-06-02 11:24:00,978 [INFO] Text preview: Fortum to Deliver Renewable Energy to P2X Solutions’ Green Hydrogen Plant - Fortum
+
+Fortum to Deliver Renewable Energy to P2X Solutions’ Green Hydrogen Plant &nbsp;&nbsp; Fortum...
+2026-06-02 11:24:01,881 [INFO] Mistral HTTP 200 for: Fortum to Deliver Renewable Energy to P2X Solutions’ Green H
+2026-06-02 11:24:01,881 [INFO] Mistral extracted 1 deals (1 signed) | Fortum to Deliver Renewable Energy to P2X Solution
+2026-06-02 11:24:01,884 [INFO] NEW deal: P2X Solutions / Fortum (Finland, None MW)
+2026-06-02 11:24:06,884 [INFO] ------- Processing article n. 6: Improving B2B energy propositions: Four trends reshaping the industry - McKinsey -------
+2026-06-02 11:24:07,106 [INFO] Resolved Google News URL: https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/
+2026-06-02 11:24:07,106 [INFO] URL: https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/improving-b2b-energy-propositions-four-trends-reshaping-the-industry
+2026-06-02 11:24:19,167 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.mckinsey.com', port=443): Read timed out. (read timeout=12)): https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/
+2026-06-02 11:24:19,167 [INFO] Text length: 193 chars | source: fallback
+2026-06-02 11:24:19,167 [INFO] Text preview: Improving B2B energy propositions: Four trends reshaping the industry - McKinsey & Company
+
+Improving B2B energy propositions: Four trends reshaping the industry &nbsp;&nbsp; McKinsey & Company...
+2026-06-02 11:24:20,059 [INFO] Mistral HTTP 200 for: Improving B2B energy propositions: Four trends reshaping the
+2026-06-02 11:24:20,059 [INFO] Mistral extracted 1 deals (0 signed) | Improving B2B energy propositions: Four trends res
+2026-06-02 11:24:20,061 [INFO] Not a signed deal — skipping: Improving B2B energy propositions: Four trends reshaping the
+2026-06-02 11:24:20,061 [INFO] ------- Processing article n. 6: Iberdrola France and AGRATI advance in decarbonizing industrial production - Ibe -------
+2026-06-02 11:24:20,351 [INFO] Resolved Google News URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-and-agrati-advance-in
+2026-06-02 11:24:20,351 [INFO] URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-and-agrati-advance-in-decarbonizing-industrial-production-in-france
+2026-06-02 11:24:20,528 [INFO] Full text skipped (status 403): https://www.iberdrola.com/press-room/news/detail/iberdrola-and-agrati-advance-in
+2026-06-02 11:24:20,528 [INFO] Text length: 185 chars | source: fallback
+2026-06-02 11:24:20,528 [INFO] Text preview: Iberdrola France and AGRATI advance in decarbonizing industrial production - Iberdrola
+
+Iberdrola France and AGRATI advance in decarbonizing industrial production &nbsp;&nbsp; Iberdrola...
+2026-06-02 11:24:21,696 [INFO] Mistral HTTP 200 for: Iberdrola France and AGRATI advance in decarbonizing industr
+2026-06-02 11:24:21,696 [INFO] Mistral extracted 1 deals (0 signed) | Iberdrola France and AGRATI advance in decarbonizi
+2026-06-02 11:24:21,698 [INFO] Not a signed deal — skipping: Iberdrola France and AGRATI advance in decarbonizing industr
+2026-06-02 11:24:21,698 [INFO] ------- Processing article n. 6: Avery Dennison, Zelestra sign solar PPA - reNEWS.BIZ -------
+2026-06-02 11:24:22,069 [INFO] Resolved Google News URL: https://renews.biz/98217/avery-dennison-zelestra-sign-solar-ppa/
+2026-06-02 11:24:22,069 [INFO] URL: https://renews.biz/98217/avery-dennison-zelestra-sign-solar-ppa/
+2026-06-02 11:24:23,719 [INFO] Text length: 4005 chars | source: full
+2026-06-02 11:24:23,719 [INFO] Text preview: Avery Dennison, Zelestra sign solar PPA - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Eur...
+2026-06-02 11:24:24,872 [INFO] Mistral HTTP 200 for: Avery Dennison, Zelestra sign solar PPA - reNEWS.BIZ
+2026-06-02 11:24:24,872 [INFO] Mistral extracted 1 deals (1 signed) | Avery Dennison, Zelestra sign solar PPA - reNEWS.B
+2026-06-02 11:24:24,875 [INFO] NEW deal: Avery Dennison / Zelestra (Spain, 44 MW)
+2026-06-02 11:24:29,875 [INFO] ------- Processing article n. 7: EDP signs Power Purchase Agreement with Amazon in Japan - EDP Global -------
+2026-06-02 11:24:30,230 [INFO] Resolved Google News URL: https://edp.com/en/media/news/edp-signs-power-purchase-agreement-amazon-japan
+2026-06-02 11:24:30,230 [INFO] URL: https://edp.com/en/media/news/edp-signs-power-purchase-agreement-amazon-japan
+2026-06-02 11:24:32,709 [INFO] Text length: 3136 chars | source: full
+2026-06-02 11:24:32,710 [INFO] Text preview: EDP signs Power Purchase Agreement with Amazon in Japan | edp Skip to main content What are you looking for? I'm listening... EDP signs Power Purchase Agreement with Amazon in Japan Business Energy Tr...
+2026-06-02 11:24:33,973 [INFO] Mistral HTTP 200 for: EDP signs Power Purchase Agreement with Amazon in Japan - ED
+2026-06-02 11:24:33,973 [INFO] Mistral extracted 1 deals (1 signed) | EDP signs Power Purchase Agreement with Amazon in 
+2026-06-02 11:24:33,975 [INFO] Not a European deal — skipping: EDP signs Power Purchase Agreement with Amazon in Japan - ED
+2026-06-02 11:24:33,975 [INFO] ------- Processing article n. 7: Hydrogen Europe - Hydrogen Europe -------
+2026-06-02 11:24:34,351 [INFO] Resolved Google News URL: https://hydrogeneurope.eu/fuelcell-energy-announces-160-million-contract-to-supp
+2026-06-02 11:24:34,351 [INFO] URL: https://hydrogeneurope.eu/fuelcell-energy-announces-160-million-contract-to-support-hartford-area-grid/
+2026-06-02 11:24:36,225 [INFO] Text length: 2476 chars | source: full
+2026-06-02 11:24:36,225 [INFO] Text preview: Hydrogen Europe FuelCell Energy announces $160 million contract to support Hartford area grid 22 January 2025 SEFE and Höegh Evi to develop international clean hydrogen supply chains 21 January 2025 S...
+2026-06-02 11:24:37,239 [INFO] Mistral HTTP 200 for: Hydrogen Europe - Hydrogen Europe
+2026-06-02 11:24:37,239 [INFO] Mistral extracted 1 deals (1 signed) | Hydrogen Europe - Hydrogen Europe
+2026-06-02 11:24:37,241 [INFO] Not a European deal — skipping: Hydrogen Europe - Hydrogen Europe
+2026-06-02 11:24:37,241 [INFO] ------- Processing article n. 7: Europe gets 20% of its electricity from wind. But not enough new wind farms bein -------
+2026-06-02 11:24:37,606 [INFO] Resolved Google News URL: https://windeurope.org/news/europe-gets-20-of-its-electricity-from-wind-but-not-
+2026-06-02 11:24:37,606 [INFO] URL: https://windeurope.org/news/europe-gets-20-of-its-electricity-from-wind-but-not-enough-new-wind-farms-being-built-urgent-action-needed-on-permitting-grids-and-electrification/
+2026-06-02 11:24:38,799 [INFO] Text length: 5558 chars | source: full
+2026-06-02 11:24:38,799 [INFO] Text preview: Europe gets 20% of its electricity from wind. But not enough new wind farms being built. Urgent action needed on permitting, grids and electrification - WindEurope News Europe gets 20% of its electric...
+2026-06-02 11:24:39,690 [INFO] Mistral HTTP 200 for: Europe gets 20% of its electricity from wind. But not enough
+2026-06-02 11:24:39,690 [INFO] Mistral extracted 1 deals (0 signed) | Europe gets 20% of its electricity from wind. But 
+2026-06-02 11:24:39,692 [INFO] Not a signed deal — skipping: Europe gets 20% of its electricity from wind. But not enough
+2026-06-02 11:24:39,692 [INFO] ------- Processing article n. 7: Diversity of power - the biggest data center energy stories of 2024 - Data Cente -------
+2026-06-02 11:24:40,348 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/analysis/diversity-of-power-the-biggest-da
+2026-06-02 11:24:40,348 [INFO] URL: https://www.datacenterdynamics.com/en/analysis/diversity-of-power-the-biggest-data-center-energy-stories-of-2024/
+2026-06-02 11:24:41,240 [INFO] Text length: 12223 chars | source: full
+2026-06-02 11:24:41,240 [INFO] Text preview: Diversity of power - the biggest data center energy stories of 2024 - DCD Home Long Reads The Energy & Sustainability Channel Diversity of power - the biggest data center energy stories of 2024 The mo...
+2026-06-02 11:24:41,678 [INFO] Mistral HTTP 200 for: Diversity of power - the biggest data center energy stories 
+2026-06-02 11:24:41,678 [INFO] Mistral extracted 0 deals (0 signed) | Diversity of power - the biggest data center energ
+2026-06-02 11:24:41,679 [INFO] ------- Processing article n. 7: Load growth to help offset headwinds for renewable project finance in 2025 - S&P -------
+2026-06-02 11:24:42,305 [INFO] Resolved Google News URL: https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/1/lo
+2026-06-02 11:24:42,305 [INFO] URL: https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/1/load-growth-to-help-offset-headwinds-for-renewable-project-finance-in-2025-86894244
+2026-06-02 11:24:42,339 [INFO] Full text skipped (status 403): https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/1/lo
+2026-06-02 11:24:42,339 [INFO] Text length: 187 chars | source: fallback
+2026-06-02 11:24:42,339 [INFO] Text preview: Load growth to help offset headwinds for renewable project finance in 2025 - S&P Global
+
+Load growth to help offset headwinds for renewable project finance in 2025 &nbsp;&nbsp; S&P Global...
+2026-06-02 11:24:43,230 [INFO] Mistral HTTP 200 for: Load growth to help offset headwinds for renewable project f
+2026-06-02 11:24:43,230 [INFO] Mistral extracted 1 deals (0 signed) | Load growth to help offset headwinds for renewable
+2026-06-02 11:24:43,232 [INFO] Not a signed deal — skipping: Load growth to help offset headwinds for renewable project f
+2026-06-02 11:24:43,232 [INFO] ------- Processing article n. 7: OData signs PPA with Atlas to power Chilean data center - Data Center Dynamics -------
+2026-06-02 11:24:44,049 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/odata-signs-ppa-with-atlas-to-power-c
+2026-06-02 11:24:44,049 [INFO] URL: https://www.datacenterdynamics.com/en/news/odata-signs-ppa-with-atlas-to-power-chilean-data-center/
+2026-06-02 11:24:44,700 [INFO] Text length: 3418 chars | source: full
+2026-06-02 11:24:44,700 [INFO] Text preview: OData signs PPA with Atlas to power Chilean data center - DCD Home News The Energy & Sustainability Channel OData signs PPA with Atlas to power Chilean data center The PPA will cover the energy requir...
+2026-06-02 11:24:46,939 [INFO] Mistral HTTP 200 for: OData signs PPA with Atlas to power Chilean data center - Da
+2026-06-02 11:24:46,939 [INFO] Mistral extracted 3 deals (3 signed) | OData signs PPA with Atlas to power Chilean data c
+2026-06-02 11:24:46,941 [INFO] Not a European deal — skipping: OData signs PPA with Atlas to power Chilean data center - Da
+2026-06-02 11:24:46,941 [INFO] Not a European deal — skipping: OData signs PPA with Atlas to power Chilean data center - Da
+2026-06-02 11:24:46,941 [INFO] Not a European deal — skipping: OData signs PPA with Atlas to power Chilean data center - Da
+2026-06-02 11:24:46,941 [INFO] ------- Processing article n. 7: Amazon was 2024's largest corporate buyer of renewables - Data Center Dynamics -------
+2026-06-02 11:24:47,734 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/amazon-was-the-largest-corporate-buye
+2026-06-02 11:24:47,734 [INFO] URL: https://www.datacenterdynamics.com/en/news/amazon-was-the-largest-corporate-buyer-of-renewables-in-2024/
+2026-06-02 11:24:48,360 [INFO] Text length: 4176 chars | source: full
+2026-06-02 11:24:48,360 [INFO] Text preview: Amazon was 2024's largest corporate buyer of renewables - DCD Home News The Energy & Sustainability Channel Amazon was 2024's largest corporate buyer of renewables Has supported over 600 wind and sola...
+2026-06-02 11:24:52,242 [INFO] Mistral HTTP 200 for: Amazon was 2024's largest corporate buyer of renewables - Da
+2026-06-02 11:24:52,243 [INFO] Mistral extracted 6 deals (6 signed) | Amazon was 2024's largest corporate buyer of renew
+2026-06-02 11:24:52,245 [INFO] NEW deal: Amazon / Iberdrola (United Kingdom, 159 MW)
+2026-06-02 11:24:57,245 [INFO] Not a European deal — skipping: Amazon was 2024's largest corporate buyer of renewables - Da
+2026-06-02 11:24:57,245 [INFO] Not a European deal — skipping: Amazon was 2024's largest corporate buyer of renewables - Da
+2026-06-02 11:24:57,247 [INFO] NEW deal: Amazon / Vortex Energy (Poland, 53 MW)
+2026-06-02 11:25:02,249 [INFO] NEW deal: Amazon / None (Greece, None MW)
+2026-06-02 11:25:07,249 [INFO] Not a European deal — skipping: Amazon was 2024's largest corporate buyer of renewables - Da
+2026-06-02 11:25:07,249 [INFO] ------- Processing article n. 10: Google signs PPA with Leeward to power Oklahoma data center operations - Data Ce -------
+2026-06-02 11:25:07,916 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-leeward-to-powe
+2026-06-02 11:25:07,917 [INFO] URL: https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-leeward-to-power-oklahoma-data-center-operations/
+2026-06-02 11:25:08,655 [INFO] Text length: 3626 chars | source: full
+2026-06-02 11:25:08,655 [INFO] Text preview: Google signs PPA with Leeward to power Oklahoma data center operations - DCD Home News The Energy & Sustainability Channel Google signs PPA with Leeward to power Oklahoma data center operations The en...
+2026-06-02 11:25:10,962 [INFO] Mistral HTTP 200 for: Google signs PPA with Leeward to power Oklahoma data center 
+2026-06-02 11:25:10,962 [INFO] Mistral extracted 2 deals (2 signed) | Google signs PPA with Leeward to power Oklahoma da
+2026-06-02 11:25:10,963 [INFO] Not a European deal — skipping: Google signs PPA with Leeward to power Oklahoma data center 
+2026-06-02 11:25:10,963 [INFO] Not a European deal — skipping: Google signs PPA with Leeward to power Oklahoma data center 
+2026-06-02 11:25:10,963 [INFO] ------- Processing article n. 10: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agreement - PR Newswire -------
+2026-06-02 11:25:11,872 [INFO] Resolved Google News URL: https://www.prnewswire.com/in/news-releases/sunsure-and-seci-sign-300-mw-solar-i
+2026-06-02 11:25:11,872 [INFO] URL: https://www.prnewswire.com/in/news-releases/sunsure-and-seci-sign-300-mw-solar-ists-power-purchase-agreement-302360667.html
+2026-06-02 11:25:12,022 [INFO] Text length: 4266 chars | source: full
+2026-06-02 11:25:12,022 [INFO] Text preview: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agreement Accessibility Statement Skip Navigation PPA marks Sunsure's foray in the Utility Scale PPAs NEW DELHI , Jan. 28, 2025 /PRNewswire/ -- S...
+2026-06-02 11:25:13,269 [INFO] Mistral HTTP 200 for: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agree
+2026-06-02 11:25:13,269 [INFO] Mistral extracted 1 deals (1 signed) | Sunsure and SECI Sign 300 MW Solar ISTS Power Purc
+2026-06-02 11:25:13,271 [INFO] Not a European deal — skipping: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agree
+2026-06-02 11:25:13,271 [INFO] ------- Processing article n. 10: De-risking can boost investment in India’s renewable energy sector - IEEFA | Ins -------
+2026-06-02 11:25:13,834 [INFO] Resolved Google News URL: https://ieefa.org/resources/de-risking-can-boost-investment-indias-renewable-ene
+2026-06-02 11:25:13,834 [INFO] URL: https://ieefa.org/resources/de-risking-can-boost-investment-indias-renewable-energy-sector
+2026-06-02 11:25:14,328 [INFO] Text length: 9450 chars | source: full
+2026-06-02 11:25:14,328 [INFO] Text preview: De-risking can boost investment in India’s renewable energy sector | IEEFA Skip to main content  Language  Language  About the Authors Insights Renewables Power & Utilities Climate Finance Renewabl...
+2026-06-02 11:25:15,202 [INFO] Mistral HTTP 200 for: De-risking can boost investment in India’s renewable energy 
+2026-06-02 11:25:15,202 [INFO] Mistral extracted 1 deals (0 signed) | De-risking can boost investment in India’s renewab
+2026-06-02 11:25:15,203 [INFO] Not a signed deal — skipping: De-risking can boost investment in India’s renewable energy 
+2026-06-02 11:25:15,204 [INFO] ------- Processing article n. 10: Solar Proponent signs PPAs for 1.6GW of solar capacity in Texas - PV Tech -------
+2026-06-02 11:25:15,897 [INFO] Resolved Google News URL: https://www.pv-tech.org/solar-proponent-signs-ppas-for-1-6gw-of-solar-capacity-i
+2026-06-02 11:25:15,897 [INFO] URL: https://www.pv-tech.org/solar-proponent-signs-ppas-for-1-6gw-of-solar-capacity-in-texas/
+2026-06-02 11:25:17,144 [INFO] Text length: 8245 chars | source: full
+2026-06-02 11:25:17,144 [INFO] Text preview: Solar Proponent signs PPAs for 1.6GW of solar capacity in Texas - PV Tech Skip to content News Solar Proponent signs PPAs for 1.6GW of solar capacity in Texas By George Heynes January 23, 2025 Markets...
+2026-06-02 11:25:18,463 [INFO] Mistral HTTP 200 for: Solar Proponent signs PPAs for 1.6GW of solar capacity in Te
+2026-06-02 11:25:18,463 [INFO] Mistral extracted 1 deals (1 signed) | Solar Proponent signs PPAs for 1.6GW of solar capa
+2026-06-02 11:25:18,465 [INFO] Not a European deal — skipping: Solar Proponent signs PPAs for 1.6GW of solar capacity in Te
+2026-06-02 11:25:18,465 [INFO] ------- Processing article n. 10: Alcazar Energy, EPCG open talks on PPA for Montenegro’s biggest wind farm - Balk -------
+2026-06-02 11:25:19,236 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/alcazar-energy-epcg-open-talks-on-ppa-for-mont
+2026-06-02 11:25:19,236 [INFO] URL: https://balkangreenenergynews.com/alcazar-energy-epcg-open-talks-on-ppa-for-montenegros-biggest-wind-farm/
+2026-06-02 11:25:21,077 [INFO] Text length: 6801 chars | source: full
+2026-06-02 11:25:21,077 [INFO] Text preview: Alcazar Energy, EPCG open talks on PPA for Montenegro’s biggest wind farm Trending: Focused Energy secures USD 240 million for world’s first commercial laser fusion plant Turning point for power marke...
+2026-06-02 11:25:22,011 [INFO] Mistral HTTP 200 for: Alcazar Energy, EPCG open talks on PPA for Montenegro’s bigg
+2026-06-02 11:25:22,011 [INFO] Mistral extracted 1 deals (0 signed) | Alcazar Energy, EPCG open talks on PPA for Montene
+2026-06-02 11:25:22,013 [INFO] Not a signed deal — skipping: Alcazar Energy, EPCG open talks on PPA for Montenegro’s bigg
+2026-06-02 11:25:22,013 [INFO] ------- Processing article n. 10: Acme Solar’s 680 MW renewables, energy storage Indian tender win - ESS News -------
+2026-06-02 11:25:22,526 [INFO] Resolved Google News URL: https://www.ess-news.com/2025/01/28/acme-solars-680-mw-renewables-energy-storage
+2026-06-02 11:25:22,526 [INFO] URL: https://www.ess-news.com/2025/01/28/acme-solars-680-mw-renewables-energy-storage-indian-tender-win/
+2026-06-02 11:25:24,195 [INFO] Text length: 7732 chars | source: full
+2026-06-02 11:25:24,196 [INFO] Text preview: Acme Solar's 680 MW renewables, energy storage Indian tender win - Energy Storage Advertisement Advertisement Advertisement Grid-scale Acme Solar’s 680 MW renewables, energy storage Indian tender win ...
+2026-06-02 11:25:25,427 [INFO] Mistral HTTP 200 for: Acme Solar’s 680 MW renewables, energy storage Indian tender
+2026-06-02 11:25:25,427 [INFO] Mistral extracted 1 deals (1 signed) | Acme Solar’s 680 MW renewables, energy storage Ind
+2026-06-02 11:25:25,429 [INFO] Not a European deal — skipping: Acme Solar’s 680 MW renewables, energy storage Indian tender
+2026-06-02 11:25:25,429 [INFO] ------- Processing article n. 10: 185MW solar-plus-storage site to supply Las Vegas Strip following US$340 million -------
+2026-06-02 11:25:26,128 [INFO] Resolved Google News URL: https://www.pv-tech.org/185mw-solar-plus-storage-site-to-supply-las-vegas-strip-
+2026-06-02 11:25:26,128 [INFO] URL: https://www.pv-tech.org/185mw-solar-plus-storage-site-to-supply-las-vegas-strip-following-us340-million-financing/
+2026-06-02 11:25:27,241 [INFO] Text length: 9046 chars | source: full
+2026-06-02 11:25:27,241 [INFO] Text preview: 185MW solar-plus-storage site to supply Las Vegas Strip secures financing - PV Tech Skip to content News 185MW solar-plus-storage site to supply Las Vegas Strip following US$340 million financing By G...
+2026-06-02 11:25:31,246 [INFO] Mistral HTTP 200 for: 185MW solar-plus-storage site to supply Las Vegas Strip foll
+2026-06-02 11:25:31,246 [INFO] Mistral extracted 5 deals (5 signed) | 185MW solar-plus-storage site to supply Las Vegas 
+2026-06-02 11:25:31,248 [INFO] Not a European deal — skipping: 185MW solar-plus-storage site to supply Las Vegas Strip foll
+2026-06-02 11:25:31,248 [INFO] Not a European deal — skipping: 185MW solar-plus-storage site to supply Las Vegas Strip foll
+2026-06-02 11:25:31,248 [INFO] Not a European deal — skipping: 185MW solar-plus-storage site to supply Las Vegas Strip foll
+2026-06-02 11:25:31,248 [INFO] Not a European deal — skipping: 185MW solar-plus-storage site to supply Las Vegas Strip foll
+2026-06-02 11:25:31,248 [INFO] Not a European deal — skipping: 185MW solar-plus-storage site to supply Las Vegas Strip foll
+2026-06-02 11:25:31,248 [INFO] ------- Processing article n. 10: KDDI and J-Power sign virtual PPA for onshore wind power plant - Telecompaper -------
+2026-06-02 11:25:32,051 [INFO] Resolved Google News URL: https://www.telecompaper.com/news/kddi-and-j-power-sign-virtual-ppa-for-onshore-
+2026-06-02 11:25:32,051 [INFO] URL: https://www.telecompaper.com/news/kddi-and-j-power-sign-virtual-ppa-for-onshore-wind-power-plant--1526175
+2026-06-02 11:25:33,208 [INFO] Text length: 3068 chars | source: full
+2026-06-02 11:25:33,208 [INFO] Text preview: KDDI and J-Power sign virtual PPA for onshore wind power plant - Telecompaper Markets Mobile Broadband Satellite Video Semiconductor IT Enterprise Solutions Network Equipment Topics MWC 2026 Data Cent...
+2026-06-02 11:25:35,056 [INFO] Mistral HTTP 200 for: KDDI and J-Power sign virtual PPA for onshore wind power pla
+2026-06-02 11:25:35,056 [INFO] Mistral extracted 1 deals (1 signed) | KDDI and J-Power sign virtual PPA for onshore wind
+2026-06-02 11:25:35,058 [INFO] Not a European deal — skipping: KDDI and J-Power sign virtual PPA for onshore wind power pla
+2026-06-02 11:25:35,058 [INFO] ------- Processing article n. 10: EDP Renewables announces another 300 MW of solar now operational in Kern County  -------
+2026-06-02 11:25:35,867 [INFO] Resolved Google News URL: https://pv-magazine-usa.com/2025/01/08/edp-renewables-announces-another-300-mw-o
+2026-06-02 11:25:35,867 [INFO] URL: https://pv-magazine-usa.com/2025/01/08/edp-renewables-announces-another-300-mw-of-solar-now-operational-in-kern-county/
+2026-06-02 11:25:37,293 [INFO] Text length: 8648 chars | source: full
+2026-06-02 11:25:37,293 [INFO] Text preview: EDP Renewables announces another 300 MW of solar now operational in Kern County - pv magazine USA Advertisement Advertisement Advertisement Advertisement Applications & Installations EDP Renewables an...
+2026-06-02 11:25:39,209 [INFO] Mistral HTTP 200 for: EDP Renewables announces another 300 MW of solar now operati
+2026-06-02 11:25:39,209 [INFO] Mistral extracted 2 deals (2 signed) | EDP Renewables announces another 300 MW of solar n
+2026-06-02 11:25:39,210 [INFO] Not a European deal — skipping: EDP Renewables announces another 300 MW of solar now operati
+2026-06-02 11:25:39,210 [INFO] Not a European deal — skipping: EDP Renewables announces another 300 MW of solar now operati
+2026-06-02 11:25:39,210 [INFO] ------- Processing article n. 10: TriSMART explains new virtual power plant PPA business model in Texas - Solar Bu -------
+2026-06-02 11:25:40,016 [INFO] Resolved Google News URL: https://solarbuildermag.com/news/trismart-explains-new-virtual-power-plant-ppa-b
+2026-06-02 11:25:40,016 [INFO] URL: https://solarbuildermag.com/news/trismart-explains-new-virtual-power-plant-ppa-business-model-in-texas/
+2026-06-02 11:25:40,513 [INFO] Text length: 9123 chars | source: full
+2026-06-02 11:25:40,513 [INFO] Text preview: TriSMART goes all in on virtual power plant sales pitch in Texas Home + Storage TriSMART explains new virtual power plant PPA business model in Texas TriSMART explains new virtual power plant PPA busi...
+2026-06-02 11:25:41,359 [INFO] Mistral HTTP 200 for: TriSMART explains new virtual power plant PPA business model
+2026-06-02 11:25:41,360 [INFO] Mistral extracted 1 deals (0 signed) | TriSMART explains new virtual power plant PPA busi
+2026-06-02 11:25:41,361 [INFO] Not a signed deal — skipping: TriSMART explains new virtual power plant PPA business model
+2026-06-02 11:25:41,361 [INFO] ------- Processing article n. 10: Sunsure to build 300-MW solar farm in India under PPA with SECI - Renewables Now -------
+2026-06-02 11:25:41,922 [INFO] Resolved Google News URL: https://renewablesnow.com/news/sunsure-to-build-300-mw-solar-farm-in-india-under
+2026-06-02 11:25:41,922 [INFO] URL: https://renewablesnow.com/news/sunsure-to-build-300-mw-solar-farm-in-india-under-ppa-with-seci-1269867/
+2026-06-02 11:25:42,843 [INFO] Text length: 4885 chars | source: full
+2026-06-02 11:25:42,843 [INFO] Text preview: Sunsure to build 300-MW solar farm in India under PPA with SECI | Solar Power News | Renewables Now Search Newsletters Search TOPICS COUNTRIES INDUSTRY Advanced search search cancel apply Sectors Regi...
+2026-06-02 11:25:45,009 [INFO] Mistral HTTP 200 for: Sunsure to build 300-MW solar farm in India under PPA with S
+2026-06-02 11:25:45,009 [INFO] Mistral extracted 3 deals (3 signed) | Sunsure to build 300-MW solar farm in India under 
+2026-06-02 11:25:45,011 [INFO] Not a European deal — skipping: Sunsure to build 300-MW solar farm in India under PPA with S
+2026-06-02 11:25:45,011 [INFO] Not a European deal — skipping: Sunsure to build 300-MW solar farm in India under PPA with S
+2026-06-02 11:25:45,013 [INFO] NEW deal: Nscale data centre / Vattenfall (Norway, None MW)
+2026-06-02 11:25:50,013 [INFO] ------- Processing article n. 11: NBN signs six year PPA with operator of Australia's largest wind farm - Data Cen -------
+2026-06-02 11:25:50,541 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/nbn-signs-six-year-ppa-with-operator-
+2026-06-02 11:25:50,541 [INFO] URL: https://www.datacenterdynamics.com/en/news/nbn-signs-six-year-ppa-with-operator-of-australias-largest-wind-farm/
+2026-06-02 11:25:51,321 [INFO] Text length: 2905 chars | source: full
+2026-06-02 11:25:51,321 [INFO] Text preview: NBN signs six year PPA with operator of Australia's largest wind farm - DCD Home News The Energy & Sustainability Channel NBN signs six year PPA with operator of Australia's largest wind farm NBN will...
+2026-06-02 11:25:53,623 [INFO] Mistral HTTP 200 for: NBN signs six year PPA with operator of Australia's largest 
+2026-06-02 11:25:53,624 [INFO] Mistral extracted 3 deals (3 signed) | NBN signs six year PPA with operator of Australia'
+2026-06-02 11:25:53,625 [INFO] Not a European deal — skipping: NBN signs six year PPA with operator of Australia's largest 
+2026-06-02 11:25:53,625 [INFO] Not a European deal — skipping: NBN signs six year PPA with operator of Australia's largest 
+2026-06-02 11:25:53,625 [INFO] Not a European deal — skipping: NBN signs six year PPA with operator of Australia's largest 
+2026-06-02 11:25:53,625 [INFO] ------- Processing article n. 11: Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm - Offshore Engineer Magaz -------
+2026-06-02 11:25:54,479 [INFO] Resolved Google News URL: https://www.oedigital.com/news/521650-vattenfall-pens-ppa-for-nordlicht-1-offsho
+2026-06-02 11:25:54,479 [INFO] URL: https://www.oedigital.com/news/521650-vattenfall-pens-ppa-for-nordlicht-1-offshore-wind-farm
+2026-06-02 11:25:54,959 [INFO] Text length: 2448 chars | source: full
+2026-06-02 11:25:54,959 [INFO] Text preview: Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm Subscribe Search Subscribe Menu Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm Published Jan 29, 2025 7:57 am ET (Credit: Vattenfall) Vat...
+2026-06-02 11:25:56,254 [INFO] Mistral HTTP 200 for: Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm - Off
+2026-06-02 11:25:56,254 [INFO] Mistral extracted 1 deals (1 signed) | Vattenfall Pens PPA for Nordlicht 1 Offshore Wind 
+2026-06-02 11:25:56,256 [INFO] NEW deal: LyondellBasell / Vattenfall (Germany, 980 MW)
+2026-06-02 11:26:01,256 [INFO] ------- Processing article n. 12: WPD inks Italian wind PPA - reNEWS.BIZ -------
+2026-06-02 11:26:01,963 [INFO] Resolved Google News URL: https://renews.biz/98486/wpd-inks-italian-wind-ppa/
+2026-06-02 11:26:01,963 [INFO] URL: https://renews.biz/98486/wpd-inks-italian-wind-ppa/
+2026-06-02 11:26:03,309 [INFO] Text length: 4018 chars | source: full
+2026-06-02 11:26:03,309 [INFO] Text preview: WPD inks Italian wind PPA - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Europe Americas G...
+2026-06-02 11:26:04,344 [INFO] Mistral HTTP 200 for: WPD inks Italian wind PPA - reNEWS.BIZ
+2026-06-02 11:26:04,345 [INFO] Mistral extracted 1 deals (1 signed) | WPD inks Italian wind PPA - reNEWS.BIZ
+2026-06-02 11:26:04,347 [INFO] NEW deal: LyondellBasell / WPD (Italy, 30 MW)
+2026-06-02 11:26:09,347 [INFO] ------- Processing article n. 13: Axpo signs 10-year agreement with British Solar Renewables - Solar Power Portal -------
+2026-06-02 11:26:09,929 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-projects/axpo-signs-10-year-agreement-w
+2026-06-02 11:26:09,929 [INFO] URL: https://www.solarpowerportal.co.uk/solar-projects/axpo-signs-10-year-agreement-with-british-solar-renewables
+2026-06-02 11:26:14,711 [INFO] Text length: 4293 chars | source: full
+2026-06-02 11:26:14,711 [INFO] Text preview: Axpo signs 10-year agreement with British Solar Renewables - Solar Power Portal Solar Projects News Axpo signs 10-year agreement with British Solar Renewables Swiss energy producer Axpo has signed a t...
+2026-06-02 11:26:15,953 [INFO] Mistral HTTP 200 for: Axpo signs 10-year agreement with British Solar Renewables -
+2026-06-02 11:26:15,953 [INFO] Mistral extracted 1 deals (1 signed) | Axpo signs 10-year agreement with British Solar Re
+2026-06-02 11:26:15,955 [INFO] NEW deal: Axpo / British Solar Renewables (United Kingdom, 25 MW)
+2026-06-02 11:26:20,955 [INFO] ------- Processing article n. 14: Statkraft inks hydro-wind PPA - reNEWS.BIZ -------
+2026-06-02 11:26:21,759 [INFO] Resolved Google News URL: https://renews.biz/98185/statkraft-inks-hydro-wind-ppa/
+2026-06-02 11:26:21,759 [INFO] URL: https://renews.biz/98185/statkraft-inks-hydro-wind-ppa/
+2026-06-02 11:26:23,643 [INFO] Text length: 4475 chars | source: full
+2026-06-02 11:26:23,643 [INFO] Text preview: Statkraft inks hydro-wind PPA - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Europe Americ...
+2026-06-02 11:26:24,884 [INFO] Mistral HTTP 200 for: Statkraft inks hydro-wind PPA - reNEWS.BIZ
+2026-06-02 11:26:24,884 [INFO] Mistral extracted 1 deals (1 signed) | Statkraft inks hydro-wind PPA - reNEWS.BIZ
+2026-06-02 11:26:24,888 [INFO] NEW deal: Suomen Voima / Statkraft (Sweden, 366 MW)
+2026-06-02 11:26:29,888 [INFO] ------- Processing article n. 15: WFW advises Aer Soleir companies on development and financing of 360 MW Greek wi -------
+2026-06-02 11:26:30,544 [INFO] Resolved Google News URL: https://www.wfw.com/press/wfw-advises-aer-soleir-companies-on-development-and-fi
+2026-06-02 11:26:30,544 [INFO] URL: https://www.wfw.com/press/wfw-advises-aer-soleir-companies-on-development-and-financing-of-360-mw-greek-wind-projects/
+2026-06-02 11:26:31,714 [INFO] Text length: 4758 chars | source: full
+2026-06-02 11:26:31,714 [INFO] Text preview: WFW advises Aer Soleir companies on development and financing of 360 MW Greek wind projects - Watson Farley & Williams < Back to insights hub Press WFW advises Aer Soleir companies on development and ...
+2026-06-02 11:26:32,997 [INFO] Mistral HTTP 200 for: WFW advises Aer Soleir companies on development and financin
+2026-06-02 11:26:32,997 [INFO] Mistral extracted 1 deals (1 signed) | WFW advises Aer Soleir companies on development an
+2026-06-02 11:26:33,000 [INFO] NEW deal: Amazon / Aer Soléir, 547 Energy (Greece, 360 MW)
+2026-06-02 11:26:38,000 [INFO] ------- Processing article n. 16: Austrian energy and chemicals giant plans multi-million euro facility in Antwerp -------
+2026-06-02 11:26:38,652 [INFO] Resolved Google News URL: https://www.belganewsagency.eu/austrian-energy-and-chemicals-giant-plans-multi-m
+2026-06-02 11:26:38,652 [INFO] URL: https://www.belganewsagency.eu/austrian-energy-and-chemicals-giant-plans-multi-million-euro-facility-in-antwerp-port
+2026-06-02 11:26:40,024 [INFO] Text length: 3180 chars | source: full
+2026-06-02 11:26:40,024 [INFO] Text preview: Austrian energy and chemicals giant plans multi-million euro facility in Antwerp port ECONOMY Austrian energy and chemicals giant plans multi-million euro facility in Antwerp port 24/01/2025 Austrian ...
+2026-06-02 11:26:41,135 [INFO] Mistral HTTP 200 for: Austrian energy and chemicals giant plans multi-million euro
+2026-06-02 11:26:41,135 [INFO] Mistral extracted 1 deals (1 signed) | Austrian energy and chemicals giant plans multi-mi
+2026-06-02 11:26:41,137 [INFO] NEW deal: Borealis / Aspiravi (Belgium, None MW)
+2026-06-02 11:26:46,137 [INFO] ------- Processing article n. 17: Axpo signs UK solar offtake - reNEWS.BIZ -------
+2026-06-02 11:26:46,921 [INFO] Resolved Google News URL: https://renews.biz/98253/axpo-signs-uk-solar-offtake/
+2026-06-02 11:26:46,921 [INFO] URL: https://renews.biz/98253/axpo-signs-uk-solar-offtake/
+2026-06-02 11:26:48,783 [INFO] Text length: 4601 chars | source: full
+2026-06-02 11:26:48,783 [INFO] Text preview: Axpo signs UK solar offtake - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Europe Americas...
+2026-06-02 11:26:50,017 [INFO] Mistral HTTP 200 for: Axpo signs UK solar offtake - reNEWS.BIZ
+2026-06-02 11:26:50,017 [INFO] Mistral extracted 1 deals (1 signed) | Axpo signs UK solar offtake - reNEWS.BIZ
+2026-06-02 11:26:50,019 [INFO] NEW deal: Axpo / British Solar Renewables (United Kingdom, 25 MW)
+2026-06-02 11:26:55,020 [INFO] ------- Processing article n. 18: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energy Output - WindInsid -------
+2026-06-02 11:26:55,720 [INFO] Resolved Google News URL: https://windinsider.com/2025/01/09/rwe-to-repower-muel-wind-farm-in-spain-boosti
+2026-06-02 11:26:55,720 [INFO] URL: https://windinsider.com/2025/01/09/rwe-to-repower-muel-wind-farm-in-spain-boosting-green-energy-output/
+2026-06-02 11:26:55,901 [INFO] Full text skipped (status 429): https://windinsider.com/2025/01/09/rwe-to-repower-muel-wind-farm-in-spain-boosti
+2026-06-02 11:26:55,901 [INFO] Text length: 177 chars | source: fallback
+2026-06-02 11:26:55,901 [INFO] Text preview: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energy Output - WindInsider
+
+RWE to Repower Muel Wind Farm in Spain, Boosting Green Energy Output &nbsp;&nbsp; WindInsider...
+2026-06-02 11:26:56,736 [INFO] Mistral HTTP 200 for: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energ
+2026-06-02 11:26:56,737 [INFO] Mistral extracted 1 deals (0 signed) | RWE to Repower Muel Wind Farm in Spain, Boosting G
+2026-06-02 11:26:56,738 [INFO] Not a signed deal — skipping: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energ
+2026-06-02 11:26:56,738 [INFO] ------- Processing article n. 18: Implats signs renewable energy deal to supply 90% of power to its Springs refine -------
+2026-06-02 11:26:57,525 [INFO] Resolved Google News URL: https://www.dailymaverick.co.za/article/2025-01-27-implats-signs-renewable-energ
+2026-06-02 11:26:57,525 [INFO] URL: https://www.dailymaverick.co.za/article/2025-01-27-implats-signs-renewable-energy-deal-to-supply-90-of-power-to-its-springs-refinery/
+2026-06-02 11:26:57,980 [INFO] Text length: 3604 chars | source: full
+2026-06-02 11:26:57,980 [INFO] Text preview: Implats signs renewable energy deal to supply 90% of power to Springs refinery Investigations News Maverick News Politics Business Social Justice Earth International News Sport Podcasts Webinars Views...
+2026-06-02 11:26:59,202 [INFO] Mistral HTTP 200 for: Implats signs renewable energy deal to supply 90% of power t
+2026-06-02 11:26:59,202 [INFO] Mistral extracted 1 deals (1 signed) | Implats signs renewable energy deal to supply 90% 
+2026-06-02 11:26:59,204 [INFO] Not a European deal — skipping: Implats signs renewable energy deal to supply 90% of power t
+2026-06-02 11:26:59,204 [INFO] ------- Processing article n. 18: Love Paper initiative to champion paper and sustainability - ppa.co.uk -------
+2026-06-02 11:26:59,884 [INFO] Resolved Google News URL: https://ppa.co.uk/love-paper-initiative-to-champion-paper-and-sustainability
+2026-06-02 11:26:59,884 [INFO] URL: https://ppa.co.uk/love-paper-initiative-to-champion-paper-and-sustainability
+2026-06-02 11:27:00,895 [INFO] Text length: 3693 chars | source: full
+2026-06-02 11:27:00,895 [INFO] Text preview: Love Paper initiative to champion paper and sustainability - PPA Skip to content Industry News , Sustainability Love Paper initiative to champion paper and sustainability Industry News , Sustainabilit...
+2026-06-02 11:27:01,788 [INFO] Mistral HTTP 200 for: Love Paper initiative to champion paper and sustainability -
+2026-06-02 11:27:01,788 [INFO] Mistral extracted 1 deals (0 signed) | Love Paper initiative to champion paper and sustai
+2026-06-02 11:27:01,790 [INFO] Not a signed deal — skipping: Love Paper initiative to champion paper and sustainability -
+2026-06-02 11:27:01,790 [INFO] ------- Processing article n. 18: Wind Energy Dispute: Petitioner Seeks Refund For Emission Reduction Proceeds Fro -------
+2026-06-02 11:27:02,493 [INFO] Resolved Google News URL: https://windinsider.com/2025/01/24/wind-energy-dispute-petitioner-seeks-refund-f
+2026-06-02 11:27:02,493 [INFO] URL: https://windinsider.com/2025/01/24/wind-energy-dispute-petitioner-seeks-refund-for-emission-reduction-proceeds-from-guvnl-for-88-8-mw-projects/
+2026-06-02 11:27:02,561 [INFO] Text length: 8512 chars | source: full
+2026-06-02 11:27:02,561 [INFO] Text preview: Wind Energy Dispute: Petitioner Seeks Refund For Emission Reduction Proceeds From GUVNL For 88.8 MW Projects - WindInsider News Fashion Gadgets Lifestyle Video Homepages Homepage – Fashion Homepage – ...
+2026-06-02 11:27:03,862 [INFO] Mistral HTTP 200 for: Wind Energy Dispute: Petitioner Seeks Refund For Emission Re
+2026-06-02 11:27:03,862 [INFO] Mistral extracted 1 deals (1 signed) | Wind Energy Dispute: Petitioner Seeks Refund For E
+2026-06-02 11:27:03,863 [INFO] Not a European deal — skipping: Wind Energy Dispute: Petitioner Seeks Refund For Emission Re
+2026-06-02 11:27:03,864 [INFO] ------- Processing article n. 18: RBM signs wind power deal - freightnews.co.za -------
+2026-06-02 11:27:04,398 [INFO] Resolved Google News URL: https://www.freightnews.co.za/article/rbm-signs-wind-power-deal
+2026-06-02 11:27:04,399 [INFO] URL: https://www.freightnews.co.za/article/rbm-signs-wind-power-deal
+2026-06-02 11:27:07,117 [INFO] Text length: 5076 chars | source: full
+2026-06-02 11:27:07,117 [INFO] Text preview: RBM signs wind power deal | Freight News Skip to main content Logistics Other RBM signs wind power deal 30 Jan 2025 - 
+  By
+  Staff reporter Source: Behance Comments | 0 Share to Facebook Share to Lin...
+2026-06-02 11:27:09,393 [INFO] Mistral HTTP 200 for: RBM signs wind power deal - freightnews.co.za
+2026-06-02 11:27:09,393 [INFO] Mistral extracted 3 deals (3 signed) | RBM signs wind power deal - freightnews.co.za
+2026-06-02 11:27:09,395 [INFO] Not a European deal — skipping: RBM signs wind power deal - freightnews.co.za
+2026-06-02 11:27:09,395 [INFO] Not a European deal — skipping: RBM signs wind power deal - freightnews.co.za
+2026-06-02 11:27:09,395 [INFO] Not a European deal — skipping: RBM signs wind power deal - freightnews.co.za
+2026-06-02 11:27:09,395 [INFO] ------- Processing article n. 18: O2 Power Takes The Lead With 800MWh Battery Storage Project In Rajasthan - Solar -------
+2026-06-02 11:27:09,921 [INFO] Resolved Google News URL: https://solarquarter.com/2025/01/13/o2-power-takes-the-lead-with-800mwh-battery-
+2026-06-02 11:27:09,921 [INFO] URL: https://solarquarter.com/2025/01/13/o2-power-takes-the-lead-with-800mwh-battery-storage-project-in-rajasthan/
+2026-06-02 11:27:09,972 [INFO] Full text skipped (status 429): https://solarquarter.com/2025/01/13/o2-power-takes-the-lead-with-800mwh-battery-
+2026-06-02 11:27:09,972 [INFO] Text length: 187 chars | source: fallback
+2026-06-02 11:27:09,973 [INFO] Text preview: O2 Power Takes The Lead With 800MWh Battery Storage Project In Rajasthan - SolarQuarter
+
+O2 Power Takes The Lead With 800MWh Battery Storage Project In Rajasthan &nbsp;&nbsp; SolarQuarter...
+2026-06-02 11:27:10,828 [INFO] Mistral HTTP 200 for: O2 Power Takes The Lead With 800MWh Battery Storage Project 
+2026-06-02 11:27:10,829 [INFO] Mistral extracted 1 deals (0 signed) | O2 Power Takes The Lead With 800MWh Battery Storag
+2026-06-02 11:27:10,830 [INFO] Not a signed deal — skipping: O2 Power Takes The Lead With 800MWh Battery Storage Project 
+2026-06-02 11:27:10,830 [INFO] ------- Processing article n. 18: Partners Group-backed Sunsure Energy signs 300MW power deal with SECI - Mint -------
+2026-06-02 11:27:11,599 [INFO] Resolved Google News URL: https://www.livemint.com/companies/partners-group-backed-sunsure-energy-signs-30
+2026-06-02 11:27:11,599 [INFO] URL: https://www.livemint.com/companies/partners-group-backed-sunsure-energy-signs-300-mw-power-deal-with-seci-solar-energy-corporation-of-india-ppa-11737881275192.html
+2026-06-02 11:27:11,953 [INFO] Text length: 4060 chars | source: full
+2026-06-02 11:27:11,953 [INFO] Text preview: Partners Group-backed Sunsure Energy signs 300MW power deal with SECI | Company Business News View Market Dashboard Partners Group-backed Sunsure Energy signs 300MW power deal with SECI Nehal Chaliawa...
+2026-06-02 11:27:13,110 [INFO] Mistral HTTP 200 for: Partners Group-backed Sunsure Energy signs 300MW power deal 
+2026-06-02 11:27:13,110 [INFO] Mistral extracted 1 deals (1 signed) | Partners Group-backed Sunsure Energy signs 300MW p
+2026-06-02 11:27:13,112 [INFO] Not a European deal — skipping: Partners Group-backed Sunsure Energy signs 300MW power deal 
+2026-06-02 11:27:13,112 [INFO] ------- Processing article n. 18: ACME Solar Signs 680 MW Power Purchase Agreement with NHPC for Renewable Energy  -------
+2026-06-02 11:27:13,875 [INFO] Resolved Google News URL: https://www.thehawk.in/news/economy-and-business/energy/acme-solar-signs-680-mw-
+2026-06-02 11:27:13,875 [INFO] URL: https://www.thehawk.in/news/economy-and-business/energy/acme-solar-signs-680-mw-power-purchase-agreement-with-nhpc-for-renewable-energy-project
+2026-06-02 11:27:14,253 [INFO] Text length: 2427 chars | source: full
+2026-06-02 11:27:14,253 [INFO] Text preview: ACME Solar Signs 680 MW Power Purchase Agreement with NHPC for Renewable Energy Project New Delhi: Renewable energy firm ACME Solar Holdings has signed a power purchase agreement (PPA) with state-owne...
+2026-06-02 11:27:15,315 [INFO] Mistral HTTP 200 for: ACME Solar Signs 680 MW Power Purchase Agreement with NHPC f
+2026-06-02 11:27:15,315 [INFO] Mistral extracted 1 deals (1 signed) | ACME Solar Signs 680 MW Power Purchase Agreement w
+2026-06-02 11:27:15,317 [INFO] Not a European deal — skipping: ACME Solar Signs 680 MW Power Purchase Agreement with NHPC f
+2026-06-02 11:27:15,317 [INFO] ------- Processing article n. 18: Suomen Voima and Statkraft signed a 15-year power purchase agreement in Sweden - -------
+2026-06-02 11:27:16,054 [INFO] Resolved Google News URL: https://www.europeaninterest.eu/suomen-voima-and-statkraft-signed-a-15-year-powe
+2026-06-02 11:27:16,054 [INFO] URL: https://www.europeaninterest.eu/suomen-voima-and-statkraft-signed-a-15-year-power-purchase-agreement-in-sweden/
+2026-06-02 11:27:16,580 [INFO] Text length: 80 chars | source: full
+2026-06-02 11:27:16,580 [INFO] Text preview: One moment, please... Loader Please wait while your request is being verified......
+2026-06-02 11:27:17,411 [INFO] Mistral HTTP 200 for: Suomen Voima and Statkraft signed a 15-year power purchase a
+2026-06-02 11:27:17,411 [INFO] Mistral extracted 1 deals (0 signed) | Suomen Voima and Statkraft signed a 15-year power 
+2026-06-02 11:27:17,413 [INFO] Not a signed deal — skipping: Suomen Voima and Statkraft signed a 15-year power purchase a
+2026-06-02 11:27:17,413 [INFO] ------- Processing article n. 18: Green power for all ID. models on European roads: Volkswagen supports 26 solar a -------
+2026-06-02 11:27:18,031 [INFO] Resolved Google News URL: https://www.volkswagen-group.com/en/articles/green-power-for-all-id-models-on-eu
+2026-06-02 11:27:18,031 [INFO] URL: https://www.volkswagen-group.com/en/articles/green-power-for-all-id-models-on-european-roads-volkswagen-supports-26-solar-and-wind-farms-18979
+2026-06-02 11:27:19,580 [INFO] Text length: 8874 chars | source: full
+2026-06-02 11:27:19,580 [INFO] Text preview: Green power for all ID. models on European roads: Volkswagen supports 26 solar and wind farms | Volkswagen Group Skip to content 01/16/2025 Green power for all ID. models on European roads: Volkswagen...
+2026-06-02 11:27:20,482 [INFO] Mistral HTTP 200 for: Green power for all ID. models on European roads: Volkswagen
+2026-06-02 11:27:20,482 [INFO] Mistral extracted 1 deals (0 signed) | Green power for all ID. models on European roads: 
+2026-06-02 11:27:20,484 [INFO] Not a signed deal — skipping: Green power for all ID. models on European roads: Volkswagen
+2026-06-02 11:27:20,484 [INFO] ------- Processing article n. 18: Is nuclear energy the answer to AI data centers’ power consumption? - Goldman Sa -------
+2026-06-02 11:27:21,053 [INFO] Resolved Google News URL: https://www.goldmansachs.com/insights/articles/is-nuclear-energy-the-answer-to-a
+2026-06-02 11:27:21,053 [INFO] URL: https://www.goldmansachs.com/insights/articles/is-nuclear-energy-the-answer-to-ai-data-centers-power-consumption
+2026-06-02 11:27:21,156 [INFO] Text length: 11420 chars | source: full
+2026-06-02 11:27:21,156 [INFO] Text preview: Is nuclear energy the answer to AI data centers’ power consumption? | Goldman Sachs What We Do Learn more about how we cultivate and harness world-class intellectual capital and expertise to solve our...
+2026-06-02 11:27:22,005 [INFO] Mistral HTTP 200 for: Is nuclear energy the answer to AI data centers’ power consu
+2026-06-02 11:27:22,005 [INFO] Mistral extracted 1 deals (0 signed) | Is nuclear energy the answer to AI data centers’ p
+2026-06-02 11:27:22,006 [INFO] Not a signed deal — skipping: Is nuclear energy the answer to AI data centers’ power consu
+2026-06-02 11:27:22,006 [INFO] ------- Processing article n. 18: US offshore wind vanguard Massachusetts struggles to seal deals for latest round -------
+2026-06-02 11:27:22,653 [INFO] Resolved Google News URL: https://www.rechargenews.com/wind/us-offshore-wind-vanguard-massachusetts-strugg
+2026-06-02 11:27:22,653 [INFO] URL: https://www.rechargenews.com/wind/us-offshore-wind-vanguard-massachusetts-struggles-to-seal-deals-for-latest-round/2-1-1766405
+2026-06-02 11:27:24,372 [INFO] Text length: 683 chars | source: full
+2026-06-02 11:27:24,372 [INFO] Text preview: US offshore wind vanguard Massachusetts struggles to seal deals for latest round | Recharge US offshore wind vanguard Massachusetts struggles to seal deals for latest round Pioneering state with plans...
+2026-06-02 11:27:25,216 [INFO] Mistral HTTP 200 for: US offshore wind vanguard Massachusetts struggles to seal de
+2026-06-02 11:27:25,216 [INFO] Mistral extracted 1 deals (0 signed) | US offshore wind vanguard Massachusetts struggles 
+2026-06-02 11:27:25,217 [INFO] Not a signed deal — skipping: US offshore wind vanguard Massachusetts struggles to seal de
+2026-06-02 11:27:25,218 [INFO] ------- Processing article n. 18: Tripling global nuclear energy capacity is in reach—if the world seizes the mome -------
+2026-06-02 11:27:25,936 [INFO] Resolved Google News URL: https://www.atlanticcouncil.org/blogs/energysource/tripling-global-nuclear-energ
+2026-06-02 11:27:25,936 [INFO] URL: https://www.atlanticcouncil.org/blogs/energysource/tripling-global-nuclear-energy-capacity-is-in-reach-if-the-world-seizes-the-moment/
+2026-06-02 11:27:26,034 [INFO] Text length: 8690 chars | source: full
+2026-06-02 11:27:26,034 [INFO] Text preview: Tripling global nuclear energy capacity is in reach—if the world seizes the moment - Atlantic Council Share Close Mail Facebook Twitter / X LinkedIn Energy & Environment Nuclear Energy Renewables & Ad...
+2026-06-02 11:27:26,888 [INFO] Mistral HTTP 200 for: Tripling global nuclear energy capacity is in reach—if the w
+2026-06-02 11:27:26,888 [INFO] Mistral extracted 1 deals (0 signed) | Tripling global nuclear energy capacity is in reac
+2026-06-02 11:27:26,890 [INFO] Not a signed deal — skipping: Tripling global nuclear energy capacity is in reach—if the w
+2026-06-02 11:27:26,890 [INFO] ------- Processing article n. 18: Europe’s wind power hits 20%, but 3 challenges stall progress - Electrek -------
+2026-06-02 11:27:27,656 [INFO] Resolved Google News URL: https://electrek.co/2025/01/10/europe-wind-power-hits-20-but-3-challenges-stall-
+2026-06-02 11:27:27,656 [INFO] URL: https://electrek.co/2025/01/10/europe-wind-power-hits-20-but-3-challenges-stall-progress/
+2026-06-02 11:27:28,413 [INFO] Text length: 6843 chars | source: full
+2026-06-02 11:27:28,413 [INFO] Text preview: Europe’s wind power hits 20%, but 3 challenges stall progress | Electrek Skip to main content Green Energy Electrek Green Energy Brief EGEB Wind power Offshore wind power Europe’s wind power hits 20%,...
+2026-06-02 11:27:29,273 [INFO] Mistral HTTP 200 for: Europe’s wind power hits 20%, but 3 challenges stall progres
+2026-06-02 11:27:29,273 [INFO] Mistral extracted 1 deals (0 signed) | Europe’s wind power hits 20%, but 3 challenges sta
+2026-06-02 11:27:29,275 [INFO] Not a signed deal — skipping: Europe’s wind power hits 20%, but 3 challenges stall progres
+2026-06-02 11:27:29,275 [INFO] ------- Processing article n. 18: Wind power generates 20% of Europe's electricity, but additional wind farms are  -------
+2026-06-02 11:27:30,079 [INFO] Resolved Google News URL: https://www.review-energy.com/eolico/wind-power-generates-20-of-europe-s-electri
+2026-06-02 11:27:30,080 [INFO] URL: https://www.review-energy.com/eolico/wind-power-generates-20-of-europe-s-electricity-but-additional-wind-farms-are-required
+2026-06-02 11:27:30,907 [INFO] Text length: 4494 chars | source: full
+2026-06-02 11:27:30,907 [INFO] Text preview: Wind power generates 20% of Europe's electricity, but additional wind farms are required Archivo Review Energy 10 enero 2025 0 Wind power generates 20% of Europe's electricity, but additional wind far...
+2026-06-02 11:27:31,752 [INFO] Mistral HTTP 200 for: Wind power generates 20% of Europe's electricity, but additi
+2026-06-02 11:27:31,752 [INFO] Mistral extracted 1 deals (0 signed) | Wind power generates 20% of Europe's electricity, 
+2026-06-02 11:27:31,753 [INFO] Not a signed deal — skipping: Wind power generates 20% of Europe's electricity, but additi
+2026-06-02 11:27:31,753 [INFO] ------- Processing article n. 18: Plenitude signs agreement with EDP Renewables to acquire two photovoltaic plants -------
+2026-06-02 11:27:32,362 [INFO] Resolved Google News URL: https://edp.com/en/north-america/na/media/plenitude-signs-agreement-edp-renewabl
+2026-06-02 11:27:32,362 [INFO] URL: https://edp.com/en/north-america/na/media/plenitude-signs-agreement-edp-renewables-acquire-two-photovoltaic-plants-and
+2026-06-02 11:27:33,471 [INFO] Text length: 4012 chars | source: full
+2026-06-02 11:27:33,471 [INFO] Text preview: Plenitude signs agreement with EDP Renewables to acquire two photovoltaic plants and a storage facility in the United States for a capacity of 245 MWdc | edp Skip to main content What are you looking ...
+2026-06-02 11:27:34,781 [INFO] Mistral HTTP 200 for: Plenitude signs agreement with EDP Renewables to acquire two
+2026-06-02 11:27:34,782 [INFO] Mistral extracted 1 deals (1 signed) | Plenitude signs agreement with EDP Renewables to a
+2026-06-02 11:27:34,783 [INFO] Not a European deal — skipping: Plenitude signs agreement with EDP Renewables to acquire two
+2026-06-02 11:27:34,783 [INFO] ------- Processing article n. 18: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, and Europe - Carnegi -------
+2026-06-02 11:27:35,520 [INFO] Resolved Google News URL: https://carnegieendowment.org/russia-eurasia/politika/2025/01/russia-ukraine-eur
+2026-06-02 11:27:35,521 [INFO] URL: https://carnegieendowment.org/russia-eurasia/politika/2025/01/russia-ukraine-europe-gas-transit
+2026-06-02 11:27:35,740 [INFO] Text length: 16857 chars | source: full
+2026-06-02 11:27:35,740 [INFO] Text preview: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, and Europe | Carnegie Endowment for International Peace {
+  "authors": [
+    "Sergey Vakulenko"
+  ],
+  "type": "commentary",
+  "blog": "Carn...
+2026-06-02 11:27:36,586 [INFO] Mistral HTTP 200 for: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, 
+2026-06-02 11:27:36,586 [INFO] Mistral extracted 1 deals (0 signed) | What the End of Ukraine Gas Transit Means for Kyiv
+2026-06-02 11:27:36,588 [INFO] Not a signed deal — skipping: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, 
+2026-06-02 11:27:36,588 [INFO] ------- Processing article n. 18: Clean Industrial Deal an opportunity to assert… - Renew Europe -------
+2026-06-02 11:27:37,174 [INFO] Resolved Google News URL: https://www.reneweuropegroup.eu/news/2025-01-29/clean-industrial-deal-an-opportu
+2026-06-02 11:27:37,174 [INFO] URL: https://www.reneweuropegroup.eu/news/2025-01-29/clean-industrial-deal-an-opportunity-to-assert-europes-power
+2026-06-02 11:27:42,098 [INFO] Text length: 7647 chars | source: full
+2026-06-02 11:27:42,098 [INFO] Text preview: Clean Industrial Deal an opportunity to assert… - Renew Europe Who we are What we stand for Newsroom Who we are President & Bureau Leadership at the heart of Renew Europe Members MEPs working for a st...
+2026-06-02 11:27:42,986 [INFO] Mistral HTTP 200 for: Clean Industrial Deal an opportunity to assert… - Renew Euro
+2026-06-02 11:27:42,986 [INFO] Mistral extracted 1 deals (0 signed) | Clean Industrial Deal an opportunity to assert… - 
+2026-06-02 11:27:42,987 [INFO] Not a signed deal — skipping: Clean Industrial Deal an opportunity to assert… - Renew Euro
+2026-06-02 11:27:42,987 [INFO] ------- Processing article n. 18: PGE signed an agreement to obtain control of two energy companies in Poland - Eu -------
+2026-06-02 11:27:43,748 [INFO] Resolved Google News URL: https://www.europeaninterest.eu/pge-signed-an-agreement-to-obtain-control-of-two
+2026-06-02 11:27:43,748 [INFO] URL: https://www.europeaninterest.eu/pge-signed-an-agreement-to-obtain-control-of-two-energy-companies-in-poland/
+2026-06-02 11:27:44,238 [INFO] Text length: 80 chars | source: full
+2026-06-02 11:27:44,238 [INFO] Text preview: One moment, please... Loader Please wait while your request is being verified......
+2026-06-02 11:27:45,022 [INFO] Mistral HTTP 200 for: PGE signed an agreement to obtain control of two energy comp
+2026-06-02 11:27:45,022 [INFO] Mistral extracted 1 deals (0 signed) | PGE signed an agreement to obtain control of two e
+2026-06-02 11:27:45,024 [INFO] Not a signed deal — skipping: PGE signed an agreement to obtain control of two energy comp
+2026-06-02 11:27:45,024 [INFO] ------- Processing article n. 18: BASF Performance Materials using 100% renewable energy in all European plants -  -------
+2026-06-02 11:27:45,703 [INFO] Resolved Google News URL: https://www.plasticsnews.com/news/basf-performance-materials-using-100-renewable
+2026-06-02 11:27:45,703 [INFO] URL: https://www.plasticsnews.com/news/basf-performance-materials-using-100-renewable-energy-all-european-plants/
+2026-06-02 11:27:46,678 [INFO] Text length: 688 chars | source: full
+2026-06-02 11:27:46,678 [INFO] Text preview: BASF Performance Materials using 100% renewable energy in all European plants - Plastics News Skip to main content Latest News BASF Performance Materials using 100% renewable energy in all European pl...
+2026-06-02 11:27:47,580 [INFO] Mistral HTTP 200 for: BASF Performance Materials using 100% renewable energy in al
+2026-06-02 11:27:47,580 [INFO] Mistral extracted 1 deals (0 signed) | BASF Performance Materials using 100% renewable en
+2026-06-02 11:27:47,581 [INFO] Not a signed deal — skipping: BASF Performance Materials using 100% renewable energy in al
+2026-06-02 11:27:47,581 [INFO] ------- Processing article n. 18: WindEurope: EU building less than half capacity needed for 2030 goal - Balkan Gr -------
+2026-06-02 11:27:48,234 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity
+2026-06-02 11:27:48,234 [INFO] URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity-needed-for-2030-goal/
+2026-06-02 11:27:49,771 [INFO] Text length: 8500 chars | source: full
+2026-06-02 11:27:49,771 [INFO] Text preview: WindEurope: EU building less than half capacity needed for 2030 goal Trending: Focused Energy secures USD 240 million for world’s first commercial laser fusion plant Turning point for power market as ...
+2026-06-02 11:27:50,777 [INFO] Mistral HTTP 200 for: WindEurope: EU building less than half capacity needed for 2
+2026-06-02 11:27:50,777 [INFO] Mistral extracted 1 deals (0 signed) | WindEurope: EU building less than half capacity ne
+2026-06-02 11:27:50,779 [INFO] Not a signed deal — skipping: WindEurope: EU building less than half capacity needed for 2
+2026-06-02 11:27:50,779 [INFO] ------- Processing article n. 18: EIB is making quick progress on counter-guarantee facility – total of €2bn provi -------
+2026-06-02 11:27:51,297 [INFO] Resolved Google News URL: https://windeurope.org/news/eib-is-making-quick-progress-on-counter-guarantee-fa
+2026-06-02 11:27:51,297 [INFO] URL: https://windeurope.org/news/eib-is-making-quick-progress-on-counter-guarantee-facility-total-of-e2bn-provided-so-far/
+2026-06-02 11:27:52,305 [INFO] Text length: 5237 chars | source: full
+2026-06-02 11:27:52,306 [INFO] Text preview: EIB is making quick progress on counter-guarantee facility – total of €2bn provided so far - WindEurope News EIB is making quick progress on counter-guarantee facility – total of €2bn provided so far ...
+2026-06-02 11:27:53,229 [INFO] Mistral HTTP 200 for: EIB is making quick progress on counter-guarantee facility –
+2026-06-02 11:27:53,229 [INFO] Mistral extracted 1 deals (0 signed) | EIB is making quick progress on counter-guarantee 
+2026-06-02 11:27:53,230 [INFO] Not a signed deal — skipping: EIB is making quick progress on counter-guarantee facility –
+2026-06-02 11:27:53,230 [INFO] ------- Processing article n. 18: AI goes nuclear: Can SMRs meet AI’s huge energy demands? - PreScouter -------
+2026-06-02 11:27:53,987 [INFO] Resolved Google News URL: https://www.prescouter.com/2025/01/can-small-modular-reactors-address-ai-growing
+2026-06-02 11:27:53,987 [INFO] URL: https://www.prescouter.com/2025/01/can-small-modular-reactors-address-ai-growing-energy-demands/
+2026-06-02 11:27:54,819 [INFO] Text length: 13935 chars | source: full
+2026-06-02 11:27:54,819 [INFO] Text preview: AI goes nuclear: Can small modular reactors meet AI's energy demands? AI goes nuclear: Can SMRs meet AI’s huge energy demands? Artificial intelligence drives progress, but its energy demands come at a...
+2026-06-02 11:27:55,706 [INFO] Mistral HTTP 200 for: AI goes nuclear: Can SMRs meet AI’s huge energy demands? - P
+2026-06-02 11:27:55,706 [INFO] Mistral extracted 1 deals (0 signed) | AI goes nuclear: Can SMRs meet AI’s huge energy de
+2026-06-02 11:27:55,708 [INFO] Not a signed deal — skipping: AI goes nuclear: Can SMRs meet AI’s huge energy demands? - P
+2026-06-02 11:27:55,708 [INFO] ------- Processing article n. 18: IEA predicts record nuclear growth but calls for de-risking sector - Enlit World -------
+2026-06-02 11:27:56,257 [INFO] Resolved Google News URL: https://www.enlit.world/library/iea-predicts-record-nuclear-growth-but-calls-for
+2026-06-02 11:27:56,257 [INFO] URL: https://www.enlit.world/library/iea-predicts-record-nuclear-growth-but-calls-for-de-risking-sector
+2026-06-02 11:27:57,854 [INFO] Text length: 7640 chars | source: full
+2026-06-02 11:27:57,854 [INFO] Text preview: IEA predicts record nuclear growth but calls for de-risking sector | Enlit World Enquire about or pre-register for Enlit Europe 2026 in Vienna More info Home / Library / IEA predicts record nuclear gr...
+2026-06-02 11:27:58,708 [INFO] Mistral HTTP 200 for: IEA predicts record nuclear growth but calls for de-risking 
+2026-06-02 11:27:58,708 [INFO] Mistral extracted 1 deals (0 signed) | IEA predicts record nuclear growth but calls for d
+2026-06-02 11:27:58,710 [INFO] Not a signed deal — skipping: IEA predicts record nuclear growth but calls for de-risking 
+2026-06-02 11:27:58,710 [INFO] ------- Processing article n. 18: The Energy Release Decree | Italy | Global law firm - Norton Rose Fulbright -------
+2026-06-02 11:27:59,280 [INFO] Resolved Google News URL: https://www.nortonrosefulbright.com/en-it/knowledge/publications/24d4e4b5/the-en
+2026-06-02 11:27:59,280 [INFO] URL: https://www.nortonrosefulbright.com/en-it/knowledge/publications/24d4e4b5/the-energy-release-decree
+2026-06-02 11:28:00,656 [INFO] Text length: 8308 chars | source: full
+2026-06-02 11:28:00,657 [INFO] Text preview: The Energy Release Decree | Italy | Global law firm | Norton Rose Fulbright Skip to main content Ministerial Decree no. 268/2024 (the Energy Release Decree ) introduced the “Energy Release 2.0” mechan...
+2026-06-02 11:28:01,620 [INFO] Mistral HTTP 200 for: The Energy Release Decree | Italy | Global law firm - Norton
+2026-06-02 11:28:01,620 [INFO] Mistral extracted 1 deals (0 signed) | The Energy Release Decree | Italy | Global law fir
+2026-06-02 11:28:01,621 [INFO] Not a signed deal — skipping: The Energy Release Decree | Italy | Global law firm - Norton
+2026-06-02 11:28:01,621 [INFO] ------- Processing article n. 18: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR Development - 삼성물산 -------
+2026-06-02 11:28:02,486 [INFO] Resolved Google News URL: https://news.samsungcnt.com/en/features/engineering-construction/2025-01-samsung
+2026-06-02 11:28:02,486 [INFO] URL: https://news.samsungcnt.com/en/features/engineering-construction/2025-01-samsung-campt-signs-mou-with-swedens-karnfull-next-for-smr-development/
+2026-06-02 11:28:03,671 [INFO] Text length: 3975 chars | source: full
+2026-06-02 11:28:03,671 [INFO] Text preview: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR Development - Samsung C&T Newsroom Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR Development - Samsung C&T Newsroom KO Engineering...
+2026-06-02 11:28:04,573 [INFO] Mistral HTTP 200 for: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR De
+2026-06-02 11:28:04,573 [INFO] Mistral extracted 1 deals (0 signed) | Samsung C&T Signs MOU with Sweden’s Kärnfull Next 
+2026-06-02 11:28:04,575 [INFO] Not a signed deal — skipping: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR De
+2026-06-02 11:28:04,575 [INFO] ------- Processing article n. 18: Poland's PGE in preliminary agreement to buy assets from ZE PAK - Reuters -------
+2026-06-02 11:28:05,198 [INFO] Resolved Google News URL: https://www.reuters.com/markets/deals/polands-pge-preliminary-agreement-buy-asse
+2026-06-02 11:28:05,198 [INFO] URL: https://www.reuters.com/markets/deals/polands-pge-preliminary-agreement-buy-assets-ze-pak-2025-01-23/
+2026-06-02 11:28:05,233 [INFO] Full text skipped (status 401): https://www.reuters.com/markets/deals/polands-pge-preliminary-agreement-buy-asse
+2026-06-02 11:28:05,233 [INFO] Text length: 159 chars | source: fallback
+2026-06-02 11:28:05,233 [INFO] Text preview: Poland's PGE in preliminary agreement to buy assets from ZE PAK - Reuters
+
+Poland's PGE in preliminary agreement to buy assets from ZE PAK &nbsp;&nbsp; Reuters...
+2026-06-02 11:28:06,026 [INFO] Mistral HTTP 200 for: Poland's PGE in preliminary agreement to buy assets from ZE 
+2026-06-02 11:28:06,026 [INFO] Mistral extracted 1 deals (0 signed) | Poland's PGE in preliminary agreement to buy asset
+2026-06-02 11:28:06,028 [INFO] Not a signed deal — skipping: Poland's PGE in preliminary agreement to buy assets from ZE 
+2026-06-02 11:28:06,028 [INFO] ------- Processing article n. 18: Saulteau First Nations, EDF Renewables advancing wind-energy project - BC Gov Ne -------
+2026-06-02 11:28:06,546 [INFO] Resolved Google News URL: https://news.gov.bc.ca/releases/2025ECS0004-000041
+2026-06-02 11:28:06,546 [INFO] URL: https://news.gov.bc.ca/releases/2025ECS0004-000041
+2026-06-02 11:28:06,711 [INFO] Text length: 8446 chars | source: full
+2026-06-02 11:28:06,711 [INFO] Text preview: BC Gov News Energy and Climate Solutions Saulteau First Nations, EDF Renewables advancing wind-energy project Share More from this Ministry Search Honourable Adrian Dix Honourable Adrian Dix Read Bio ...
+2026-06-02 11:28:07,815 [INFO] Mistral HTTP 200 for: Saulteau First Nations, EDF Renewables advancing wind-energy
+2026-06-02 11:28:07,815 [INFO] Mistral extracted 1 deals (1 signed) | Saulteau First Nations, EDF Renewables advancing w
+2026-06-02 11:28:07,816 [INFO] Not a European deal — skipping: Saulteau First Nations, EDF Renewables advancing wind-energy
+2026-06-02 11:28:07,816 [INFO] ------- Processing article n. 18: Niger’s Uranium Still Interests Europe - Capmad.com -------
+2026-06-02 11:28:08,585 [INFO] Resolved Google News URL: https://www.capmad.com/mining-en/nigers-uranium-still-interests-europe/
+2026-06-02 11:28:08,585 [INFO] URL: https://www.capmad.com/mining-en/nigers-uranium-still-interests-europe/
+2026-06-02 11:28:19,344 [INFO] Text length: 6380 chars | source: full
+2026-06-02 11:28:19,344 [INFO] Text preview: Niger's Uranium Still Interests Europe Niger’s Uranium Still Interests Europe Home > Blog > Mining > Niger’s Uranium Still Interests Europe Mining Niger’s Uranium Still Interests Europe Mining Mia.R J...
+2026-06-02 11:28:21,251 [INFO] Mistral HTTP 200 for: Niger’s Uranium Still Interests Europe - Capmad.com
+2026-06-02 11:28:21,252 [INFO] Mistral extracted 2 deals (2 signed) | Niger’s Uranium Still Interests Europe - Capmad.co
+2026-06-02 11:28:21,255 [INFO] NEW deal: strategic public nuclear energy service based in Europe / Global Atomic (Niger, None MW)
+2026-06-02 11:28:26,256 [INFO] NEW deal: European Union / Niger (Niger, None MW)
+2026-06-02 11:28:31,257 [INFO] ------- Processing article n. 20: Oman LNG delivers first cargo from 10-year deal to its largest offtaker Shell -  -------
+2026-06-02 11:28:31,981 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/oman-lng-delivers-first-cargo-from-10-year-deal-
+2026-06-02 11:28:31,981 [INFO] URL: https://www.offshore-energy.biz/oman-lng-delivers-first-cargo-from-10-year-deal-to-its-largest-offtaker-shell/
+2026-06-02 11:28:44,008 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.offshore-energy.biz', port=443): Read timed out. (read timeout=12)): https://www.offshore-energy.biz/oman-lng-delivers-first-cargo-from-10-year-deal-
+2026-06-02 11:28:44,009 [INFO] Text length: 211 chars | source: fallback
+2026-06-02 11:28:44,009 [INFO] Text preview: Oman LNG delivers first cargo from 10-year deal to its largest offtaker Shell - Offshore-Energy.biz
+
+Oman LNG delivers first cargo from 10-year deal to its largest offtaker Shell &nbsp;&nbsp; Offshore...
+2026-06-02 11:28:44,826 [INFO] Mistral HTTP 200 for: Oman LNG delivers first cargo from 10-year deal to its large
+2026-06-02 11:28:44,826 [INFO] Mistral extracted 1 deals (0 signed) | Oman LNG delivers first cargo from 10-year deal to
+2026-06-02 11:28:44,827 [INFO] Not a signed deal — skipping: Oman LNG delivers first cargo from 10-year deal to its large
+2026-06-02 11:28:44,828 [INFO] ------- Processing article n. 20: Swiss company Synhelion to start producing solar fuels in Spain in 2027 - pv mag -------
+2026-06-02 11:28:45,490 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/01/16/swiss-company-synhelion-to-start-producin
+2026-06-02 11:28:45,490 [INFO] URL: https://www.pv-magazine.com/2025/01/16/swiss-company-synhelion-to-start-producing-solar-fuels-in-spain-in-2027/
+2026-06-02 11:28:45,744 [INFO] Text length: 8800 chars | source: full
+2026-06-02 11:28:45,744 [INFO] Text preview: Swiss company Synhelion to start producing solar fuels in Spain in 2027 - pv magazine Global Advertisement Advertisement Advertisement Advertisement Research & Development Swiss company Synhelion to s...
+2026-06-02 11:28:46,902 [INFO] Mistral HTTP 200 for: Swiss company Synhelion to start producing solar fuels in Sp
+2026-06-02 11:28:46,902 [INFO] Mistral extracted 1 deals (1 signed) | Swiss company Synhelion to start producing solar f
+2026-06-02 11:28:46,905 [INFO] NEW deal: AMAG Group / Synhelion (Spain, None MW)
+2026-06-02 11:28:51,905 [INFO] ------- Processing article n. 21: European companies rely on Swiss cleantechs - Startupticker.ch -------
+2026-06-02 11:28:52,566 [INFO] Resolved Google News URL: https://www.startupticker.ch/en/news/european-companies-rely-on-swiss-cleantechs
+2026-06-02 11:28:52,566 [INFO] URL: https://www.startupticker.ch/en/news/european-companies-rely-on-swiss-cleantechs
+2026-06-02 11:28:53,424 [INFO] Text length: 6305 chars | source: full
+2026-06-02 11:28:53,424 [INFO] Text preview: European companies rely on Swiss cleantechs European companies rely on Swiss cleantechs Expansion Success Please login or register 31.01.2025 Major companies in the automotive, energy and agriculture ...
+2026-06-02 11:28:54,933 [INFO] Mistral HTTP 200 for: European companies rely on Swiss cleantechs - Startupticker.
+2026-06-02 11:28:54,933 [INFO] Mistral extracted 2 deals (2 signed) | European companies rely on Swiss cleantechs - Star
+2026-06-02 11:28:54,936 [INFO] NEW deal: Lenzerheide Bergbahnen AG / Synhelion (Germany, None MW)
+2026-06-02 11:28:59,938 [INFO] NEW deal: AMAG Group AG / Synhelion (Switzerland, None MW)
+2026-06-02 11:29:04,938 [INFO] ------- Processing article n. 23: Kerala Regulator Approves 500 MW Solar Power Sale Agreement With SECI - Mercomin -------
+2026-06-02 11:29:05,672 [INFO] Resolved Google News URL: https://mercomindia.com/kerala-regulator-approves-500-mw-solar-power-sale-agreem
+2026-06-02 11:29:05,672 [INFO] URL: https://mercomindia.com/kerala-regulator-approves-500-mw-solar-power-sale-agreement-with-seci
+2026-06-02 11:29:06,209 [INFO] Text length: 5064 chars | source: full
+2026-06-02 11:29:06,209 [INFO] Text preview: Kerala Regulator Approves 500 MW Solar Power Sale Agreement With SECI NEWS RESEARCH & REPORTS EVENTS NEWSLETTER ABOUT CONTACT SOLAR Tenders & Auctions Markets & Policy Utility Scale Rooftop Finance an...
+2026-06-02 11:29:07,599 [INFO] Mistral HTTP 200 for: Kerala Regulator Approves 500 MW Solar Power Sale Agreement 
+2026-06-02 11:29:07,599 [INFO] Mistral extracted 1 deals (1 signed) | Kerala Regulator Approves 500 MW Solar Power Sale 
+2026-06-02 11:29:07,601 [INFO] Not a European deal — skipping: Kerala Regulator Approves 500 MW Solar Power Sale Agreement 
+2026-06-02 11:29:07,601 [INFO] ------- Processing article n. 23: European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldo -------
+2026-06-02 11:29:08,249 [INFO] Resolved Google News URL: https://radiomoldova.md/p/46758/european-commissioner-for-enlargement-marta-kos-
+2026-06-02 11:29:08,249 [INFO] URL: https://radiomoldova.md/p/46758/european-commissioner-for-enlargement-marta-kos-comes-to-the-republic-of-moldova
+2026-06-02 11:29:09,373 [INFO] Text length: 3587 chars | source: full
+2026-06-02 11:29:09,373 [INFO] Text preview: European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldova Political European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldova Published 31.01.2025 14:...
+2026-06-02 11:29:10,272 [INFO] Mistral HTTP 200 for: European Commissioner for Enlargement, Marta Kos, comes to t
+2026-06-02 11:29:10,272 [INFO] Mistral extracted 1 deals (0 signed) | European Commissioner for Enlargement, Marta Kos, 
+2026-06-02 11:29:10,273 [INFO] Not a signed deal — skipping: European Commissioner for Enlargement, Marta Kos, comes to t
+2026-06-02 11:29:10,273 [INFO] ------- Processing article n. 23: Agreement on New Shore Power Project Finalized: Will Be Among the Most Advanced  -------
+2026-06-02 11:29:10,896 [INFO] Resolved Google News URL: https://www.portofaarhus.dk/en/nyheder/nyt-landstromsanlaeg-pa-vej-til-aarhus-ha
+2026-06-02 11:29:10,896 [INFO] URL: https://www.portofaarhus.dk/en/nyheder/nyt-landstromsanlaeg-pa-vej-til-aarhus-havn-bliver-blandt-de-mest-avancerede-i-europa
+2026-06-02 11:29:10,963 [INFO] Full text skipped (status 403): https://www.portofaarhus.dk/en/nyheder/nyt-landstromsanlaeg-pa-vej-til-aarhus-ha
+2026-06-02 11:29:10,963 [INFO] Text length: 219 chars | source: fallback
+2026-06-02 11:29:10,963 [INFO] Text preview: Agreement on New Shore Power Project Finalized: Will Be Among the Most Advanced in Europe - Aarhus Havn
+
+Agreement on New Shore Power Project Finalized: Will Be Among the Most Advanced in Europe &nbsp...
+2026-06-02 11:29:11,786 [INFO] Mistral HTTP 200 for: Agreement on New Shore Power Project Finalized: Will Be Amon
+2026-06-02 11:29:11,787 [INFO] Mistral extracted 1 deals (0 signed) | Agreement on New Shore Power Project Finalized: Wi
+2026-06-02 11:29:11,788 [INFO] Not a signed deal — skipping: Agreement on New Shore Power Project Finalized: Will Be Amon
+2026-06-02 11:29:11,788 [INFO] ------- Processing article n. 23: Electricité renouvelable : TotalEnergies fournira 1,5 TWh à STMicroelectronics e -------
+2026-06-02 11:29:12,519 [INFO] Resolved Google News URL: https://totalenergies.com/newsroom/electricite-renouvelable-totalenergies-fourni
+2026-06-02 11:29:12,519 [INFO] URL: https://totalenergies.com/newsroom/electricite-renouvelable-totalenergies-fournira-15-twh/?lang=fra
+2026-06-02 11:29:13,679 [INFO] Text length: 10146 chars | source: full
+2026-06-02 11:29:13,679 [INFO] Text preview: Electricité renouvelable : TotalEnergies fournira 1,5 TWh à Accueil Communiqués de presse Electricité renouvelable : TotalEnergies fournira 1,5 TWh à STMicroelectronics en France sur une période de 15...
+2026-06-02 11:29:14,761 [INFO] Mistral HTTP 200 for: Electricité renouvelable : TotalEnergies fournira 1,5 TWh à 
+2026-06-02 11:29:14,761 [INFO] Mistral extracted 1 deals (1 signed) | Electricité renouvelable : TotalEnergies fournira 
+2026-06-02 11:29:14,764 [INFO] NEW deal: STMicroelectronics / TotalEnergies (France, 75 MW)
+2026-06-02 11:29:19,764 [INFO] ------- Processing article n. 24: Engie : extension en Egypte du plus grand projet de parc éolien d'Afrique - Capi -------
+2026-06-02 11:29:20,495 [INFO] Resolved Google News URL: https://www.capital.fr/entreprises-marches/engie-extension-en-egypte-du-plus-gra
+2026-06-02 11:29:20,495 [INFO] URL: https://www.capital.fr/entreprises-marches/engie-extension-en-egypte-du-plus-grand-projet-de-parc-eolien-d-afrique-1507842
+2026-06-02 11:29:21,102 [INFO] Text length: 4061 chars | source: full
+2026-06-02 11:29:21,102 [INFO] Text preview: Engie : extension en Egypte du plus grand projet de parc éolien d'Afrique - Capital.fr Aller au contenu Engie : extension en Egypte du plus grand projet de parc éolien d'Afrique Le groupe français Eng...
+2026-06-02 11:29:22,568 [INFO] Mistral HTTP 200 for: Engie : extension en Egypte du plus grand projet de parc éol
+2026-06-02 11:29:22,568 [INFO] Mistral extracted 1 deals (1 signed) | Engie : extension en Egypte du plus grand projet d
+2026-06-02 11:29:22,570 [INFO] Not a European deal — skipping: Engie : extension en Egypte du plus grand projet de parc éol
+2026-06-02 11:29:22,570 [INFO] ------- Processing article n. 24: Iberdrola lidera el mercado europeo de PPA por segundo año consecutivo con más d -------
+2026-06-02 11:29:23,227 [INFO] Resolved Google News URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-lidera-me
+2026-06-02 11:29:23,227 [INFO] URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-lidera-mercado-europeo-ppa-segundo-ano-1251mw
+2026-06-02 11:29:23,393 [INFO] Full text skipped (status 403): https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-lidera-me
+2026-06-02 11:29:23,393 [INFO] Text length: 217 chars | source: fallback
+2026-06-02 11:29:23,393 [INFO] Text preview: Iberdrola lidera el mercado europeo de PPA por segundo año consecutivo con más de 1.251 MW - Iberdrola
+
+Iberdrola lidera el mercado europeo de PPA por segundo año consecutivo con más de 1.251 MW &nbsp...
+2026-06-02 11:29:24,310 [INFO] Mistral HTTP 200 for: Iberdrola lidera el mercado europeo de PPA por segundo año c
+2026-06-02 11:29:24,310 [INFO] Mistral extracted 1 deals (0 signed) | Iberdrola lidera el mercado europeo de PPA por seg
+2026-06-02 11:29:24,311 [INFO] Not a signed deal — skipping: Iberdrola lidera el mercado europeo de PPA por segundo año c
+2026-06-02 11:29:24,311 [INFO] ------- Processing article n. 24: La era del hidrógeno, cada vez mas cerca - Energías Renovables, el periodismo de -------
+2026-06-02 11:29:24,924 [INFO] Resolved Google News URL: https://www.energias-renovables.com/hidrogeno/la-era-del-hidrogeno-cada-vez-mas-
+2026-06-02 11:29:24,924 [INFO] URL: https://www.energias-renovables.com/hidrogeno/la-era-del-hidrogeno-cada-vez-mas-20250110
+2026-06-02 11:29:25,308 [INFO] Text length: 19553 chars | source: full
+2026-06-02 11:29:25,308 [INFO] Text preview: La era del hidrógeno, cada vez mas cerca hidrógeno Anuario 2024 La era del hidrógeno, cada vez mas cerca Viernes, 10 de enero de 2025 0 Pepa Mosquera El hidrógeno, especialmente el verde –esto es, el ...
+2026-06-02 11:29:25,749 [INFO] Mistral HTTP 200 for: La era del hidrógeno, cada vez mas cerca - Energías Renovabl
+2026-06-02 11:29:25,749 [INFO] Mistral extracted 0 deals (0 signed) | La era del hidrógeno, cada vez mas cerca - Energía
+2026-06-02 11:29:25,750 [INFO] ------- Processing article n. 24: Iberdrola y bp eligen a Imefy para el suministro del transformador principal de  -------
+2026-06-02 11:29:26,400 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/iberdrola-y-bp-eligen-a-imefy-para-el-suminis
+2026-06-02 11:29:26,401 [INFO] URL: https://elperiodicodelaenergia.com/iberdrola-y-bp-eligen-a-imefy-para-el-suministro-del-transformador-principal-de-su-planta-de-hidrogeno-verde/
+2026-06-02 11:29:27,122 [INFO] Text length: 5059 chars | source: full
+2026-06-02 11:29:27,122 [INFO] Text preview: Iberdrola y bp eligen a Imefy para el suministro del transformador principal de su planta de hidrógeno verde Martes, 2 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja com...
+2026-06-02 11:29:28,545 [INFO] Mistral HTTP 200 for: Iberdrola y bp eligen a Imefy para el suministro del transfo
+2026-06-02 11:29:28,545 [INFO] Mistral extracted 1 deals (1 signed) | Iberdrola y bp eligen a Imefy para el suministro d
+2026-06-02 11:29:28,547 [INFO] NEW deal: bp / Iberdrola España (Spain, 25 MW)
+2026-06-02 11:29:33,547 [INFO] ------- Processing article n. 25: Erg ed Engie: firmato un nuovo PPA per energia eolica in Italia - Energia Italia -------
+2026-06-02 11:29:34,036 [INFO] Resolved Google News URL: https://www.energiaitalia.news/news/eolico/erg-ed-engie-firmato-un-nuovo-ppa-per
+2026-06-02 11:29:34,036 [INFO] URL: https://www.energiaitalia.news/news/eolico/erg-ed-engie-firmato-un-nuovo-ppa-per-energia-eolica-in-italia/50203/
+2026-06-02 11:29:34,915 [INFO] Text length: 2886 chars | source: full
+2026-06-02 11:29:34,915 [INFO] Text preview: Erg ed Engie: firmato un nuovo PPA per energia eolica in Italia Homepage Chi siamo News Policy News da ASVIS Aziende Report Eventi Interviste Video Conferenze Next Corporate Summer Party Comunità Ener...
+2026-06-02 11:29:35,981 [INFO] Mistral HTTP 200 for: Erg ed Engie: firmato un nuovo PPA per energia eolica in Ita
+2026-06-02 11:29:35,981 [INFO] Mistral extracted 1 deals (1 signed) | Erg ed Engie: firmato un nuovo PPA per energia eol
+2026-06-02 11:29:35,983 [INFO] NEW deal: Engie / Erg (Italy, None MW)
+2026-06-02 11:29:40,984 [INFO] ------- Processing article n. 26: PPA in Italia: il mercato c’è ma si attende più stabilità - QualEnergia.it -------
+2026-06-02 11:29:41,524 [INFO] Resolved Google News URL: https://www.qualenergia.it/articoli/ppa-italia-mercato-attende-piu-stabilita/
+2026-06-02 11:29:41,524 [INFO] URL: https://www.qualenergia.it/articoli/ppa-italia-mercato-attende-piu-stabilita/
+2026-06-02 11:29:43,872 [INFO] Text length: 15645 chars | source: full
+2026-06-02 11:29:43,872 [INFO] Text preview: PPA in Italia: il mercato c’è ma si attende più stabilità | QualEnergia.it ADV INFODATA ENERGIA Rinnovabili elettriche: 61,9% (1 giu) - PUN: 136,51 €/MWh (2 giu) - Petrolio WTI: 91,47 $/b - Gas Eu TTF...
+2026-06-02 11:29:45,152 [INFO] Mistral HTTP 200 for: PPA in Italia: il mercato c’è ma si attende più stabilità - 
+2026-06-02 11:29:45,152 [INFO] Mistral extracted 1 deals (1 signed) | PPA in Italia: il mercato c’è ma si attende più st
+2026-06-02 11:29:45,156 [INFO] NEW deal: Ego Group / Ego Group (Italy, None MW)
+2026-06-02 11:29:50,156 [INFO] ------- Processing article n. 27: Caro energia, l’industria corre ai ripari coi contratti a lungo termine - Il Sol -------
+2026-06-02 11:29:50,877 [INFO] Resolved Google News URL: https://www.ilsole24ore.com/art/caro-energia-l-industria-corre-ripari-coi-contra
+2026-06-02 11:29:50,878 [INFO] URL: https://www.ilsole24ore.com/art/caro-energia-l-industria-corre-ripari-coi-contratti-lungo-termine-AGI30DfC
+2026-06-02 11:29:52,622 [INFO] Text length: 7085 chars | source: full
+2026-06-02 11:29:52,622 [INFO] Text preview: Caro energia, l’industria corre ai ripari coi contratti a lungo termine - Il Sole 24 ORE Vai alla navigazione principale Vai al contenuto Vai al footer Osservatorio sulla transizione energetica Caro e...
+2026-06-02 11:29:56,890 [INFO] Mistral HTTP 200 for: Caro energia, l’industria corre ai ripari coi contratti a lu
+2026-06-02 11:29:56,890 [WARNING] Mistral JSON parse error (Il Sole 24 ORE): Extra data: line 1 column 2294 (char 2293) | raw: [{"is_signed_deal": true, "is_likely_update": false, "update_clues": null, "date_agreement": "2024", "buyer": "Bormioli Luigi", "seller": "Axpo Italia", "capacity_mw": null, "energy_gwh": 30, "tenure_
+2026-06-02 11:29:56,891 [WARNING] Mistral returned None — skipping: Caro energia, l’industria corre ai ripari coi contratti a lu
+2026-06-02 11:29:56,891 [INFO] Run complete. New deals: 26, Updates: 1
+2026-06-02 11:29:56,892 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (35 deals)
