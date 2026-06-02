@@ -583,7 +583,7 @@ def run() -> None:
                 log.info(f"Not a signed deal — skipping: {title[:60]}")
                 continue
             
-            if not extracted.get("is_european"):
+            if not deal.get("is_european"):
                 log.info(f"Not a European deal — skipping: {title[:60]}")
                 continue
         
