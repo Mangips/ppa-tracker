@@ -298,7 +298,7 @@ Text (any language — return all fields in English):
 {text}"""
 
 
-def extract_with_mistral(text: str, title: str, outlet: str) -> dict | None:
+def extract_with_mistral(text: str, title: str, outlet: str) -> dict | list | None:
     prompt  = EXTRACTION_PROMPT.format(text=text[:6000])
     payload = {
         "model":       MISTRAL_MODEL,
@@ -329,13 +329,20 @@ def extract_with_mistral(text: str, title: str, outlet: str) -> dict | None:
             content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
 
         parsed = json.loads(content)
-        log.info(
-            f"Mistral extracted — signed={parsed.get('is_signed_deal')} "
-            f"european={parsed.get('is_european')} "
-            f"confidence={parsed.get('confidence')} "
-            f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
-            f"| {title[:50]}"
-        )
+        
+        # Log based on response type (dict or list)
+        if isinstance(parsed, dict):
+            log.info(
+                f"Mistral extracted — signed={parsed.get('is_signed_deal')} "
+                f"confidence={parsed.get('confidence')} "
+                f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
+                f"| {title[:50]}"
+            )
+        elif isinstance(parsed, list):
+            signed_deals = [d for d in parsed if d.get("is_signed_deal")]
+            log.info(
+                f"Mistral extracted {len(parsed)} deals ({len(signed_deals)} signed) | {title[:50]}"
+            )
         return parsed
 
     except json.JSONDecodeError as e:
@@ -352,8 +359,8 @@ def make_deal_hash(extracted: dict) -> str:
         (extracted.get("buyer")   or "").lower().strip(),
         (extracted.get("seller")  or "").lower().strip(),
         (extracted.get("country") or "").lower().strip(),
-        str(round(extracted.get("capacity_mw") or 0, -1)),
-        (extracted.get("date_agreement") or "")[:7],
+        str(extracted.get("capacity_mw") or 0),  # Use exact capacity (no rounding)
+        (extracted.get("date_agreement") or ""),  # Use full date (no truncation)
     ]
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
 
@@ -370,10 +377,15 @@ def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> int | None:
 def write_deal(conn, extracted, article, full_text, is_update, original_id):
     deal_hash = make_deal_hash(extracted)
     notes     = extracted.get("notes") or ""
-    if is_update and extracted.get("update_clues"):
-        notes = f"[UPDATE] {extracted['update_clues']} | {notes}".strip(" |")
+    
+    # Improve update notes
+    if is_update:
+        if extracted.get("update_clues"):
+            notes = f"[UPDATE] {extracted['update_clues']} | {notes}".strip(" |")
         if original_id:
-            notes += f" | Original deal id: {original_id}"
+            notes += f" | Original deal ID: {original_id}"
+        else:
+            notes += " | Flagged as update by LLM (no hash match)."
 
     conn.execute(
         """
@@ -586,7 +598,14 @@ def run() -> None:
             deal_hash = make_deal_hash(deal)
             existing_id = find_duplicate(conn, deal_hash)
             is_update = existing_id is not None or deal.get("is_likely_update", False)
-        
+
+            # Log hash collisions (for debugging)
+            if existing_id and not deal.get("is_likely_update", False):
+                log.info(
+                    f"Hash collision detected (original deal ID: {existing_id}) "
+                    f"for: {title[:60]} | Buyer: {deal.get('buyer')} | Seller: {deal.get('seller')}"
+                )
+                
             write_deal(conn, deal, article, full_text, is_update, existing_id)
             processed += 1
         
