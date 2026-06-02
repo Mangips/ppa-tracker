@@ -1,0 +1,290 @@
+2026-06-02 06:46:54,574 [INFO] === PPA Tracker pipeline starting (env: local) ===
+2026-06-02 06:46:54,575 [INFO] Searching from 2025-01-01 to 2025-01-31 with  loockback days
+2026-06-02 06:46:54,575 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-02 06:46:55,103 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 44 results
+2026-06-02 06:46:57,571 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 46 results
+2026-06-02 06:46:59,923 [INFO] Google News RSS [de] 'PPA unterzeichnet Europa erneuerbare Energie': 0 results
+2026-06-02 06:47:02,174 [INFO] Google News RSS [fr] 'PPA signé Europe énergie renouvelable': 2 results
+2026-06-02 06:47:04,432 [INFO] Google News RSS [es] 'PPA firmado Europa energía renovable': 3 results
+2026-06-02 06:47:06,729 [INFO] Google News RSS [it] 'PPA firmato Europa energia rinnovabile': 3 results
+2026-06-02 06:47:08,971 [INFO] Google News RSS [pl] 'PPA podpisany Europa energia odnawialna': 0 results
+2026-06-02 06:47:11,209 [INFO] Google News RSS [nl] 'PPA ondertekend Europa hernieuwbare energie': 0 results
+2026-06-02 06:47:13,562 [INFO] Google News RSS [pt] 'PPA assinado Europa energia renovável': 0 results
+2026-06-02 06:47:15,562 [INFO] Total raw articles collected: 98
+2026-06-02 06:47:15,563 [INFO] Unique unseen articles: 32
+2026-06-02 06:47:15,563 [INFO] ------- Processing article n. 0: STMicroelectronics signs 15-year PPA with TotalEnergies in France - Data Center  -------
+2026-06-02 06:47:16,015 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/stmicroelectronics-signs-15-year-ppa-
+2026-06-02 06:47:16,016 [INFO] URL: https://www.datacenterdynamics.com/en/news/stmicroelectronics-signs-15-year-ppa-with-totalenergies-in-france/
+2026-06-02 06:47:17,084 [INFO] Text length: 2812 chars | source: full
+2026-06-02 06:47:17,084 [INFO] Text preview: STMicroelectronics signs 15-year PPA with TotalEnergies in France - DCD Home News The Energy & Sustainability Channel STMicroelectronics signs 15-year PPA with TotalEnergies in France Total will suppl...
+2026-06-02 06:47:19,454 [INFO] Mistral HTTP 200 for: STMicroelectronics signs 15-year PPA with TotalEnergies in F
+2026-06-02 06:47:19,454 [WARNING] Mistral call failed (Data Center Dynamics): 'list' object has no attribute 'get'
+2026-06-02 06:47:19,454 [WARNING] Mistral returned None — skipping: STMicroelectronics signs 15-year PPA with TotalEnergies in F
+2026-06-02 06:47:19,454 [INFO] ------- Processing article n. 0: Corporate PPAs soar in Europe in 2024, despite decline in total deal volume - pv -------
+2026-06-02 06:47:19,866 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/01/30/corporate-ppas-soar-in-europe-in-2024-des
+2026-06-02 06:47:19,866 [INFO] URL: https://www.pv-magazine.com/2025/01/30/corporate-ppas-soar-in-europe-in-2024-despite-decline-in-total-volume/
+2026-06-02 06:47:20,182 [INFO] Text length: 8162 chars | source: full
+2026-06-02 06:47:20,182 [INFO] Text preview: Corporate PPAs soar in Europe in 2024, despite decline in total deal volume - pv magazine Global Advertisement Advertisement Advertisement Advertisement Markets & Policy Corporate PPAs soar in Europe ...
+2026-06-02 06:47:21,104 [INFO] Mistral HTTP 200 for: Corporate PPAs soar in Europe in 2024, despite decline in to
+2026-06-02 06:47:21,104 [WARNING] Mistral call failed (pv magazine Global): 'list' object has no attribute 'get'
+2026-06-02 06:47:21,105 [WARNING] Mistral returned None — skipping: Corporate PPAs soar in Europe in 2024, despite decline in to
+2026-06-02 06:47:21,105 [INFO] ------- Processing article n. 0: EDP Signs Power Purchase Agreement with Amazon in Japan - EDP Global -------
+2026-06-02 06:47:21,441 [INFO] Resolved Google News URL: https://edp.com/en/asia-pacific/japan/media/news/edp-signs-power-purchase-agreem
+2026-06-02 06:47:21,441 [INFO] URL: https://edp.com/en/asia-pacific/japan/media/news/edp-signs-power-purchase-agreement-amazon-japan
+2026-06-02 06:47:23,239 [INFO] Text length: 2227 chars | source: full
+2026-06-02 06:47:23,239 [INFO] Text preview: EDP Signs Power Purchase Agreement with Amazon in Japan | edp Skip to main content What are you looking for? I'm listening... EDP Signs Power Purchase Agreement with Amazon in Japan EDP Signs Power Pu...
+2026-06-02 06:47:24,922 [INFO] Mistral HTTP 200 for: EDP Signs Power Purchase Agreement with Amazon in Japan - ED
+2026-06-02 06:47:24,922 [WARNING] Mistral call failed (EDP Global): 'list' object has no attribute 'get'
+2026-06-02 06:47:24,922 [WARNING] Mistral returned None — skipping: EDP Signs Power Purchase Agreement with Amazon in Japan - ED
+2026-06-02 06:47:24,922 [INFO] ------- Processing article n. 0: Avery Dennison, Zelestra sign solar PPA - reNEWS.BIZ -------
+2026-06-02 06:47:25,326 [INFO] Resolved Google News URL: https://renews.biz/98217/avery-dennison-zelestra-sign-solar-ppa/
+2026-06-02 06:47:25,326 [INFO] URL: https://renews.biz/98217/avery-dennison-zelestra-sign-solar-ppa/
+2026-06-02 06:47:27,230 [INFO] Text length: 4007 chars | source: full
+2026-06-02 06:47:27,230 [INFO] Text preview: Avery Dennison, Zelestra sign solar PPA - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Eur...
+2026-06-02 06:47:28,421 [INFO] Mistral HTTP 200 for: Avery Dennison, Zelestra sign solar PPA - reNEWS.BIZ
+2026-06-02 06:47:28,421 [WARNING] Mistral call failed (reNEWS.BIZ): 'list' object has no attribute 'get'
+2026-06-02 06:47:28,421 [WARNING] Mistral returned None — skipping: Avery Dennison, Zelestra sign solar PPA - reNEWS.BIZ
+2026-06-02 06:47:28,421 [INFO] ------- Processing article n. 0: EDP signs Power Purchase Agreement with Amazon in Japan - EDP Global -------
+2026-06-02 06:47:28,811 [INFO] Resolved Google News URL: https://edp.com/en/media/news/edp-signs-power-purchase-agreement-amazon-japan
+2026-06-02 06:47:28,811 [INFO] URL: https://edp.com/en/media/news/edp-signs-power-purchase-agreement-amazon-japan
+2026-06-02 06:47:29,823 [INFO] Text length: 3270 chars | source: full
+2026-06-02 06:47:29,823 [INFO] Text preview: EDP signs Power Purchase Agreement with Amazon in Japan | edp Skip to main content What are you looking for? I'm listening... EDP signs Power Purchase Agreement with Amazon in Japan Business Energy Tr...
+2026-06-02 06:47:31,700 [INFO] Mistral HTTP 200 for: EDP signs Power Purchase Agreement with Amazon in Japan - ED
+2026-06-02 06:47:31,700 [WARNING] Mistral call failed (EDP Global): 'list' object has no attribute 'get'
+2026-06-02 06:47:31,700 [WARNING] Mistral returned None — skipping: EDP signs Power Purchase Agreement with Amazon in Japan - ED
+2026-06-02 06:47:31,700 [INFO] ------- Processing article n. 0: Meta signs long-term PPA with Longroad Energy in Texas - Data Center Dynamics -------
+2026-06-02 06:47:32,096 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/meta-signs-long-term-ppa-with-longroa
+2026-06-02 06:47:32,097 [INFO] URL: https://www.datacenterdynamics.com/en/news/meta-signs-long-term-ppa-with-longroad-energy-in-texas/
+2026-06-02 06:47:32,776 [INFO] Text length: 3010 chars | source: full
+2026-06-02 06:47:32,776 [INFO] Text preview: Meta signs long-term PPA with Longroad Energy in Texas - DCD Home News The Energy & Sustainability Channel Meta signs long-term PPA with Longroad Energy in Texas The project is expected to reach comme...
+2026-06-02 06:47:33,799 [INFO] Mistral HTTP 200 for: Meta signs long-term PPA with Longroad Energy in Texas - Dat
+2026-06-02 06:47:33,799 [WARNING] Mistral call failed (Data Center Dynamics): 'list' object has no attribute 'get'
+2026-06-02 06:47:33,799 [WARNING] Mistral returned None — skipping: Meta signs long-term PPA with Longroad Energy in Texas - Dat
+2026-06-02 06:47:33,799 [INFO] ------- Processing article n. 0: Google signs onshore wind PPA with Apex in Virginia - Data Center Dynamics -------
+2026-06-02 06:47:34,249 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/google-signs-onshore-wind-ppa-with-ap
+2026-06-02 06:47:34,249 [INFO] URL: https://www.datacenterdynamics.com/en/news/google-signs-onshore-wind-ppa-with-apex-in-virginia/
+2026-06-02 06:47:34,924 [INFO] Text length: 2954 chars | source: full
+2026-06-02 06:47:34,924 [INFO] Text preview: Google signs onshore wind PPA with Apex in Virginia - DCD Home News The Energy & Sustainability Channel Google signs onshore wind PPA with Apex in Virginia Rocky Forge Wind is Virginia's first onshore...
+2026-06-02 06:47:38,369 [INFO] Mistral HTTP 200 for: Google signs onshore wind PPA with Apex in Virginia - Data C
+2026-06-02 06:47:38,369 [WARNING] Mistral call failed (Data Center Dynamics): 'list' object has no attribute 'get'
+2026-06-02 06:47:38,369 [WARNING] Mistral returned None — skipping: Google signs onshore wind PPA with Apex in Virginia - Data C
+2026-06-02 06:47:38,369 [INFO] ------- Processing article n. 0: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agreement - PR Newswire -------
+2026-06-02 06:47:38,908 [INFO] Resolved Google News URL: https://www.prnewswire.com/in/news-releases/sunsure-and-seci-sign-300-mw-solar-i
+2026-06-02 06:47:38,908 [INFO] URL: https://www.prnewswire.com/in/news-releases/sunsure-and-seci-sign-300-mw-solar-ists-power-purchase-agreement-302360667.html
+2026-06-02 06:47:39,095 [INFO] Text length: 4266 chars | source: full
+2026-06-02 06:47:39,095 [INFO] Text preview: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agreement Accessibility Statement Skip Navigation PPA marks Sunsure's foray in the Utility Scale PPAs NEW DELHI , Jan. 28, 2025 /PRNewswire/ -- S...
+2026-06-02 06:47:40,415 [INFO] Mistral HTTP 200 for: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agree
+2026-06-02 06:47:40,416 [WARNING] Mistral call failed (PR Newswire): 'list' object has no attribute 'get'
+2026-06-02 06:47:40,416 [WARNING] Mistral returned None — skipping: Sunsure and SECI Sign 300 MW Solar ISTS Power Purchase Agree
+2026-06-02 06:47:40,416 [INFO] ------- Processing article n. 0: Acme Solar’s 680 MW renewables, energy storage Indian tender win - ESS News -------
+2026-06-02 06:47:40,811 [INFO] Resolved Google News URL: https://www.ess-news.com/2025/01/28/acme-solars-680-mw-renewables-energy-storage
+2026-06-02 06:47:40,812 [INFO] URL: https://www.ess-news.com/2025/01/28/acme-solars-680-mw-renewables-energy-storage-indian-tender-win/
+2026-06-02 06:47:42,307 [INFO] Text length: 7732 chars | source: full
+2026-06-02 06:47:42,307 [INFO] Text preview: Acme Solar's 680 MW renewables, energy storage Indian tender win - Energy Storage Advertisement Advertisement Advertisement Grid-scale Acme Solar’s 680 MW renewables, energy storage Indian tender win ...
+2026-06-02 06:47:43,547 [INFO] Mistral HTTP 200 for: Acme Solar’s 680 MW renewables, energy storage Indian tender
+2026-06-02 06:47:43,548 [WARNING] Mistral call failed (ESS News): 'list' object has no attribute 'get'
+2026-06-02 06:47:43,548 [WARNING] Mistral returned None — skipping: Acme Solar’s 680 MW renewables, energy storage Indian tender
+2026-06-02 06:47:43,548 [INFO] ------- Processing article n. 0: BASF powers all its performance material plants with renewable electricity - Pac -------
+2026-06-02 06:47:43,985 [INFO] Resolved Google News URL: https://packagingeurope.com/news/basf-powers-all-its-performance-material-plants
+2026-06-02 06:47:43,985 [INFO] URL: https://packagingeurope.com/news/basf-powers-all-its-performance-material-plants-with-renewable-electricity/12427.article
+2026-06-02 06:47:45,046 [INFO] Text length: 7083 chars | source: full
+2026-06-02 06:47:45,046 [INFO] Text preview: BASF transitions all its performance material plants to renewable electricity | Packaging Europe OK Skip to main content Skip to navigation News BASF powers all its performance material plants with re...
+2026-06-02 06:47:46,722 [INFO] Mistral HTTP 200 for: BASF powers all its performance material plants with renewab
+2026-06-02 06:47:46,722 [WARNING] Mistral call failed (Packaging Europe): 'list' object has no attribute 'get'
+2026-06-02 06:47:46,722 [WARNING] Mistral returned None — skipping: BASF powers all its performance material plants with renewab
+2026-06-02 06:47:46,722 [INFO] ------- Processing article n. 0: Emeren Group Signs Power Purchase Agreement for 15 MWp Solar Farm in Poland - En -------
+2026-06-02 06:47:47,126 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/emeren-group-signs-power-purchase-agreemen
+2026-06-02 06:47:47,126 [INFO] URL: https://www.energetica-india.net/news/emeren-group-signs-power-purchase-agreement-for-15-mwp-solar-farm-in-poland
+2026-06-02 06:47:48,404 [INFO] Text length: 80 chars | source: full
+2026-06-02 06:47:48,405 [INFO] Text preview: One moment, please... Loader Please wait while your request is being verified......
+2026-06-02 06:47:49,264 [INFO] Mistral HTTP 200 for: Emeren Group Signs Power Purchase Agreement for 15 MWp Solar
+2026-06-02 06:47:49,264 [WARNING] Mistral call failed (Energetica India Magazine): 'list' object has no attribute 'get'
+2026-06-02 06:47:49,264 [WARNING] Mistral returned None — skipping: Emeren Group Signs Power Purchase Agreement for 15 MWp Solar
+2026-06-02 06:47:49,264 [INFO] ------- Processing article n. 0: Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm - Offshore Engineer Magaz -------
+2026-06-02 06:47:49,766 [INFO] Resolved Google News URL: https://www.oedigital.com/news/521650-vattenfall-pens-ppa-for-nordlicht-1-offsho
+2026-06-02 06:47:49,766 [INFO] URL: https://www.oedigital.com/news/521650-vattenfall-pens-ppa-for-nordlicht-1-offshore-wind-farm
+2026-06-02 06:47:50,345 [INFO] Text length: 2430 chars | source: full
+2026-06-02 06:47:50,345 [INFO] Text preview: Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm Subscribe Search Subscribe Menu Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm Published Jan 29, 2025 7:57 am ET (Credit: Vattenfall) Vat...
+2026-06-02 06:47:51,501 [INFO] Mistral HTTP 200 for: Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm - Off
+2026-06-02 06:47:51,501 [WARNING] Mistral call failed (Offshore Engineer Magazine): 'list' object has no attribute 'get'
+2026-06-02 06:47:51,502 [WARNING] Mistral returned None — skipping: Vattenfall Pens PPA for Nordlicht 1 Offshore Wind Farm - Off
+2026-06-02 06:47:51,502 [INFO] ------- Processing article n. 0: WPD inks Italian wind PPA - reNEWS.BIZ -------
+2026-06-02 06:47:51,906 [INFO] Resolved Google News URL: https://renews.biz/98486/wpd-inks-italian-wind-ppa/
+2026-06-02 06:47:51,906 [INFO] URL: https://renews.biz/98486/wpd-inks-italian-wind-ppa/
+2026-06-02 06:47:53,227 [INFO] Text length: 4020 chars | source: full
+2026-06-02 06:47:53,228 [INFO] Text preview: WPD inks Italian wind PPA - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Europe Americas G...
+2026-06-02 06:47:54,342 [INFO] Mistral HTTP 200 for: WPD inks Italian wind PPA - reNEWS.BIZ
+2026-06-02 06:47:54,342 [WARNING] Mistral call failed (reNEWS.BIZ): 'list' object has no attribute 'get'
+2026-06-02 06:47:54,342 [WARNING] Mistral returned None — skipping: WPD inks Italian wind PPA - reNEWS.BIZ
+2026-06-02 06:47:54,342 [INFO] ------- Processing article n. 0: Statkraft inks hydro-wind PPA - reNEWS.BIZ -------
+2026-06-02 06:47:54,747 [INFO] Resolved Google News URL: https://renews.biz/98185/statkraft-inks-hydro-wind-ppa/
+2026-06-02 06:47:54,747 [INFO] URL: https://renews.biz/98185/statkraft-inks-hydro-wind-ppa/
+2026-06-02 06:47:56,595 [INFO] Text length: 4477 chars | source: full
+2026-06-02 06:47:56,596 [INFO] Text preview: Statkraft inks hydro-wind PPA - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Europe Americ...
+2026-06-02 06:47:57,943 [INFO] Mistral HTTP 200 for: Statkraft inks hydro-wind PPA - reNEWS.BIZ
+2026-06-02 06:47:57,943 [WARNING] Mistral call failed (reNEWS.BIZ): 'list' object has no attribute 'get'
+2026-06-02 06:47:57,943 [WARNING] Mistral returned None — skipping: Statkraft inks hydro-wind PPA - reNEWS.BIZ
+2026-06-02 06:47:57,943 [INFO] ------- Processing article n. 0: Wind Energy Dispute: Petitioner Seeks Refund For Emission Reduction Proceeds Fro -------
+2026-06-02 06:47:58,289 [INFO] Resolved Google News URL: https://windinsider.com/2025/01/24/wind-energy-dispute-petitioner-seeks-refund-f
+2026-06-02 06:47:58,289 [INFO] URL: https://windinsider.com/2025/01/24/wind-energy-dispute-petitioner-seeks-refund-for-emission-reduction-proceeds-from-guvnl-for-88-8-mw-projects/
+2026-06-02 06:47:59,751 [INFO] Text length: 8512 chars | source: full
+2026-06-02 06:47:59,751 [INFO] Text preview: Wind Energy Dispute: Petitioner Seeks Refund For Emission Reduction Proceeds From GUVNL For 88.8 MW Projects - WindInsider News Fashion Gadgets Lifestyle Video Homepages Homepage – Fashion Homepage – ...
+2026-06-02 06:48:01,116 [INFO] Mistral HTTP 200 for: Wind Energy Dispute: Petitioner Seeks Refund For Emission Re
+2026-06-02 06:48:01,116 [WARNING] Mistral call failed (WindInsider): 'list' object has no attribute 'get'
+2026-06-02 06:48:01,116 [WARNING] Mistral returned None — skipping: Wind Energy Dispute: Petitioner Seeks Refund For Emission Re
+2026-06-02 06:48:01,116 [INFO] ------- Processing article n. 0: RBM signs wind power deal - freightnews.co.za -------
+2026-06-02 06:48:01,531 [INFO] Resolved Google News URL: https://www.freightnews.co.za/article/rbm-signs-wind-power-deal
+2026-06-02 06:48:01,531 [INFO] URL: https://www.freightnews.co.za/article/rbm-signs-wind-power-deal
+2026-06-02 06:48:04,583 [INFO] Text length: 4981 chars | source: full
+2026-06-02 06:48:04,583 [INFO] Text preview: RBM signs wind power deal | Freight News Skip to main content Logistics Other RBM signs wind power deal 30 Jan 2025 - 
+  By
+  Staff reporter Source: Behance Comments | 0 Share to Facebook Share to Lin...
+2026-06-02 06:48:07,135 [INFO] Mistral HTTP 200 for: RBM signs wind power deal - freightnews.co.za
+2026-06-02 06:48:07,135 [WARNING] Mistral call failed (freightnews.co.za): 'list' object has no attribute 'get'
+2026-06-02 06:48:07,135 [WARNING] Mistral returned None — skipping: RBM signs wind power deal - freightnews.co.za
+2026-06-02 06:48:07,136 [INFO] ------- Processing article n. 0: CERC Grants Relief To 150 MW Wind Power Developer Recognizing GST Hike As Change -------
+2026-06-02 06:48:07,536 [INFO] Resolved Google News URL: https://windinsider.com/2025/01/06/cerc-grants-relief-to-150-mw-wind-power-devel
+2026-06-02 06:48:07,536 [INFO] URL: https://windinsider.com/2025/01/06/cerc-grants-relief-to-150-mw-wind-power-developer-recognizing-gst-hike-as-change-in-law/
+2026-06-02 06:48:07,701 [INFO] Full text skipped (status 429): https://windinsider.com/2025/01/06/cerc-grants-relief-to-150-mw-wind-power-devel
+2026-06-02 06:48:07,701 [INFO] Text length: 215 chars | source: fallback
+2026-06-02 06:48:07,701 [INFO] Text preview: CERC Grants Relief To 150 MW Wind Power Developer Recognizing GST Hike As Change In Law - WindInsider
+
+CERC Grants Relief To 150 MW Wind Power Developer Recognizing GST Hike As Change In Law &nbsp;&nb...
+2026-06-02 06:48:08,571 [INFO] Mistral HTTP 200 for: CERC Grants Relief To 150 MW Wind Power Developer Recognizin
+2026-06-02 06:48:08,571 [WARNING] Mistral call failed (WindInsider): 'list' object has no attribute 'get'
+2026-06-02 06:48:08,572 [WARNING] Mistral returned None — skipping: CERC Grants Relief To 150 MW Wind Power Developer Recognizin
+2026-06-02 06:48:08,572 [INFO] ------- Processing article n. 0: O2 Power Takes The Lead With 800MWh Battery Storage Project In Rajasthan - Solar -------
+2026-06-02 06:48:08,989 [INFO] Resolved Google News URL: https://solarquarter.com/2025/01/13/o2-power-takes-the-lead-with-800mwh-battery-
+2026-06-02 06:48:08,990 [INFO] URL: https://solarquarter.com/2025/01/13/o2-power-takes-the-lead-with-800mwh-battery-storage-project-in-rajasthan/
+2026-06-02 06:48:09,066 [INFO] Full text skipped (status 429): https://solarquarter.com/2025/01/13/o2-power-takes-the-lead-with-800mwh-battery-
+2026-06-02 06:48:09,066 [INFO] Text length: 187 chars | source: fallback
+2026-06-02 06:48:09,066 [INFO] Text preview: O2 Power Takes The Lead With 800MWh Battery Storage Project In Rajasthan - SolarQuarter
+
+O2 Power Takes The Lead With 800MWh Battery Storage Project In Rajasthan &nbsp;&nbsp; SolarQuarter...
+2026-06-02 06:48:09,928 [INFO] Mistral HTTP 200 for: O2 Power Takes The Lead With 800MWh Battery Storage Project 
+2026-06-02 06:48:09,928 [WARNING] Mistral call failed (SolarQuarter): 'list' object has no attribute 'get'
+2026-06-02 06:48:09,928 [WARNING] Mistral returned None — skipping: O2 Power Takes The Lead With 800MWh Battery Storage Project 
+2026-06-02 06:48:09,928 [INFO] ------- Processing article n. 0: Suomen Voima and Statkraft signed a 15-year power purchase agreement in Sweden - -------
+2026-06-02 06:48:10,354 [INFO] Resolved Google News URL: https://www.europeaninterest.eu/suomen-voima-and-statkraft-signed-a-15-year-powe
+2026-06-02 06:48:10,354 [INFO] URL: https://www.europeaninterest.eu/suomen-voima-and-statkraft-signed-a-15-year-power-purchase-agreement-in-sweden/
+2026-06-02 06:48:11,065 [INFO] Text length: 80 chars | source: full
+2026-06-02 06:48:11,065 [INFO] Text preview: One moment, please... Loader Please wait while your request is being verified......
+2026-06-02 06:48:11,887 [INFO] Mistral HTTP 200 for: Suomen Voima and Statkraft signed a 15-year power purchase a
+2026-06-02 06:48:11,887 [WARNING] Mistral call failed (European Interest): 'list' object has no attribute 'get'
+2026-06-02 06:48:11,887 [WARNING] Mistral returned None — skipping: Suomen Voima and Statkraft signed a 15-year power purchase a
+2026-06-02 06:48:11,887 [INFO] ------- Processing article n. 0: Is nuclear energy the answer to AI data centers’ power consumption? - Goldman Sa -------
+2026-06-02 06:48:12,429 [INFO] Resolved Google News URL: https://www.goldmansachs.com/insights/articles/is-nuclear-energy-the-answer-to-a
+2026-06-02 06:48:12,429 [INFO] URL: https://www.goldmansachs.com/insights/articles/is-nuclear-energy-the-answer-to-ai-data-centers-power-consumption
+2026-06-02 06:48:12,718 [INFO] Text length: 11420 chars | source: full
+2026-06-02 06:48:12,718 [INFO] Text preview: Is nuclear energy the answer to AI data centers’ power consumption? | Goldman Sachs What We Do Learn more about how we cultivate and harness world-class intellectual capital and expertise to solve our...
+2026-06-02 06:48:13,594 [INFO] Mistral HTTP 200 for: Is nuclear energy the answer to AI data centers’ power consu
+2026-06-02 06:48:13,594 [WARNING] Mistral call failed (Goldman Sachs): 'list' object has no attribute 'get'
+2026-06-02 06:48:13,595 [WARNING] Mistral returned None — skipping: Is nuclear energy the answer to AI data centers’ power consu
+2026-06-02 06:48:13,595 [INFO] ------- Processing article n. 0: Tripling global nuclear energy capacity is in reach—if the world seizes the mome -------
+2026-06-02 06:48:13,933 [INFO] Resolved Google News URL: https://www.atlanticcouncil.org/blogs/energysource/tripling-global-nuclear-energ
+2026-06-02 06:48:13,934 [INFO] URL: https://www.atlanticcouncil.org/blogs/energysource/tripling-global-nuclear-energy-capacity-is-in-reach-if-the-world-seizes-the-moment/
+2026-06-02 06:48:14,111 [INFO] Text length: 8690 chars | source: full
+2026-06-02 06:48:14,111 [INFO] Text preview: Tripling global nuclear energy capacity is in reach—if the world seizes the moment - Atlantic Council Share Close Mail Facebook Twitter / X LinkedIn Energy & Environment Nuclear Energy Renewables & Ad...
+2026-06-02 06:48:14,988 [INFO] Mistral HTTP 200 for: Tripling global nuclear energy capacity is in reach—if the w
+2026-06-02 06:48:14,989 [WARNING] Mistral call failed (Atlantic Council): 'list' object has no attribute 'get'
+2026-06-02 06:48:14,989 [WARNING] Mistral returned None — skipping: Tripling global nuclear energy capacity is in reach—if the w
+2026-06-02 06:48:14,989 [INFO] ------- Processing article n. 0: New Energy World magazine - Energy Institute -------
+2026-06-02 06:48:15,526 [INFO] Resolved Google News URL: https://knowledge.energyinst.org/new-energy-world/article?id=139257
+2026-06-02 06:48:15,526 [INFO] URL: https://knowledge.energyinst.org/new-energy-world/article?id=139257
+2026-06-02 06:48:16,935 [INFO] Full text skipped (status 403): https://knowledge.energyinst.org/new-energy-world/article?id=139257
+2026-06-02 06:48:16,935 [INFO] Text length: 101 chars | source: fallback
+2026-06-02 06:48:16,935 [INFO] Text preview: New Energy World magazine - Energy Institute
+
+New Energy World magazine &nbsp;&nbsp; Energy Institute...
+2026-06-02 06:48:17,797 [INFO] Mistral HTTP 200 for: New Energy World magazine - Energy Institute
+2026-06-02 06:48:17,797 [WARNING] Mistral call failed (Energy Institute): 'list' object has no attribute 'get'
+2026-06-02 06:48:17,797 [WARNING] Mistral returned None — skipping: New Energy World magazine - Energy Institute
+2026-06-02 06:48:17,797 [INFO] ------- Processing article n. 0: PGE signed an agreement to obtain control of two energy companies in Poland - Eu -------
+2026-06-02 06:48:18,203 [INFO] Resolved Google News URL: https://www.europeaninterest.eu/pge-signed-an-agreement-to-obtain-control-of-two
+2026-06-02 06:48:18,204 [INFO] URL: https://www.europeaninterest.eu/pge-signed-an-agreement-to-obtain-control-of-two-energy-companies-in-poland/
+2026-06-02 06:48:18,711 [INFO] Text length: 80 chars | source: full
+2026-06-02 06:48:18,711 [INFO] Text preview: One moment, please... Loader Please wait while your request is being verified......
+2026-06-02 06:48:19,296 [INFO] Mistral HTTP 200 for: PGE signed an agreement to obtain control of two energy comp
+2026-06-02 06:48:19,297 [WARNING] Mistral call failed (European Interest): 'list' object has no attribute 'get'
+2026-06-02 06:48:19,297 [WARNING] Mistral returned None — skipping: PGE signed an agreement to obtain control of two energy comp
+2026-06-02 06:48:19,297 [INFO] ------- Processing article n. 0: WindEurope: EU building less than half capacity needed for 2030 goal - Balkan Gr -------
+2026-06-02 06:48:19,610 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity
+2026-06-02 06:48:19,610 [INFO] URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity-needed-for-2030-goal/
+2026-06-02 06:48:21,165 [INFO] Text length: 6320 chars | source: full
+2026-06-02 06:48:21,165 [INFO] Text preview: WindEurope: EU building less than half capacity needed for 2030 goal Trending: Focused Energy secures USD 240 million for world’s first commercial laser fusion plant Bitenc: Natural gas infrastructure...
+2026-06-02 06:48:22,078 [INFO] Mistral HTTP 200 for: WindEurope: EU building less than half capacity needed for 2
+2026-06-02 06:48:22,078 [WARNING] Mistral call failed (Balkan Green Energy News): 'list' object has no attribute 'get'
+2026-06-02 06:48:22,079 [WARNING] Mistral returned None — skipping: WindEurope: EU building less than half capacity needed for 2
+2026-06-02 06:48:22,079 [INFO] ------- Processing article n. 0: AI goes nuclear: Can SMRs meet AI’s huge energy demands? - PreScouter -------
+2026-06-02 06:48:22,537 [INFO] Resolved Google News URL: https://www.prescouter.com/2025/01/can-small-modular-reactors-address-ai-growing
+2026-06-02 06:48:22,537 [INFO] URL: https://www.prescouter.com/2025/01/can-small-modular-reactors-address-ai-growing-energy-demands/
+2026-06-02 06:48:23,327 [INFO] Text length: 13935 chars | source: full
+2026-06-02 06:48:23,327 [INFO] Text preview: AI goes nuclear: Can small modular reactors meet AI's energy demands? AI goes nuclear: Can SMRs meet AI’s huge energy demands? Artificial intelligence drives progress, but its energy demands come at a...
+2026-06-02 06:48:24,180 [INFO] Mistral HTTP 200 for: AI goes nuclear: Can SMRs meet AI’s huge energy demands? - P
+2026-06-02 06:48:24,180 [WARNING] Mistral call failed (PreScouter): 'list' object has no attribute 'get'
+2026-06-02 06:48:24,180 [WARNING] Mistral returned None — skipping: AI goes nuclear: Can SMRs meet AI’s huge energy demands? - P
+2026-06-02 06:48:24,180 [INFO] ------- Processing article n. 0: Investment in Africa: Free trade area agreement powers continent's energy future -------
+2026-06-02 06:48:24,584 [INFO] Resolved Google News URL: https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-ag
+2026-06-02 06:48:24,584 [INFO] URL: https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-agreement-powers-continents-energy-future-2025-01-17/
+2026-06-02 06:48:24,786 [INFO] Full text skipped (status 401): https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-ag
+2026-06-02 06:48:24,787 [INFO] Text length: 193 chars | source: fallback
+2026-06-02 06:48:24,787 [INFO] Text preview: Investment in Africa: Free trade area agreement powers continent's energy future - Reuters
+
+Investment in Africa: Free trade area agreement powers continent's energy future &nbsp;&nbsp; Reuters...
+2026-06-02 06:48:25,688 [INFO] Mistral HTTP 200 for: Investment in Africa: Free trade area agreement powers conti
+2026-06-02 06:48:25,688 [WARNING] Mistral call failed (Reuters): 'list' object has no attribute 'get'
+2026-06-02 06:48:25,688 [WARNING] Mistral returned None — skipping: Investment in Africa: Free trade area agreement powers conti
+2026-06-02 06:48:25,689 [INFO] ------- Processing article n. 0: Provaris, Uniper and Norwegian Hydrogen move forward with hydrogen supply deal - -------
+2026-06-02 06:48:26,030 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/provaris-uniper-and-norwegian-hydrogen-move-forw
+2026-06-02 06:48:26,030 [INFO] URL: https://www.offshore-energy.biz/provaris-uniper-and-norwegian-hydrogen-move-forward-with-hydrogen-supply-deal/
+2026-06-02 06:48:38,104 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.offshore-energy.biz', port=443): Read timed out. (read timeout=12)): https://www.offshore-energy.biz/provaris-uniper-and-norwegian-hydrogen-move-forw
+2026-06-02 06:48:38,104 [INFO] Text length: 213 chars | source: fallback
+2026-06-02 06:48:38,104 [INFO] Text preview: Provaris, Uniper and Norwegian Hydrogen move forward with hydrogen supply deal - Offshore-Energy.biz
+
+Provaris, Uniper and Norwegian Hydrogen move forward with hydrogen supply deal &nbsp;&nbsp; Offsho...
+2026-06-02 06:48:38,932 [INFO] Mistral HTTP 200 for: Provaris, Uniper and Norwegian Hydrogen move forward with hy
+2026-06-02 06:48:38,932 [WARNING] Mistral call failed (Offshore-Energy.biz): 'list' object has no attribute 'get'
+2026-06-02 06:48:38,932 [WARNING] Mistral returned None — skipping: Provaris, Uniper and Norwegian Hydrogen move forward with hy
+2026-06-02 06:48:38,932 [INFO] ------- Processing article n. 0: Lancashire energy supplier enters new partnership with Shell Energy - Lancashire -------
+2026-06-02 06:48:39,261 [INFO] Resolved Google News URL: https://www.lancashiretelegraph.co.uk/news/24835515.lytham-based-evolve-energy-s
+2026-06-02 06:48:39,261 [INFO] URL: https://www.lancashiretelegraph.co.uk/news/24835515.lytham-based-evolve-energy-signs-shell-energy-deal/
+2026-06-02 06:48:41,702 [INFO] Text length: 3396 chars | source: full
+2026-06-02 06:48:41,702 [INFO] Text preview: Lytham-based Evolve Energy signs Shell Energy deal | Lancashire Telegraph Lytham-based Evolve Energy signs Shell Energy deal Energy Business Lytham By 
+            Calum Banister AI Agent Orchestrator...
+2026-06-02 06:48:43,089 [INFO] Mistral HTTP 200 for: Lancashire energy supplier enters new partnership with Shell
+2026-06-02 06:48:43,089 [WARNING] Mistral call failed (Lancashire Telegraph): 'list' object has no attribute 'get'
+2026-06-02 06:48:43,090 [WARNING] Mistral returned None — skipping: Lancashire energy supplier enters new partnership with Shell
+2026-06-02 06:48:43,090 [INFO] ------- Processing article n. 0: European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldo -------
+2026-06-02 06:48:43,913 [INFO] Resolved Google News URL: https://radiomoldova.md/p/46758/european-commissioner-for-enlargement-marta-kos-
+2026-06-02 06:48:43,913 [INFO] URL: https://radiomoldova.md/p/46758/european-commissioner-for-enlargement-marta-kos-comes-to-the-republic-of-moldova
+2026-06-02 06:48:45,069 [INFO] Text length: 3861 chars | source: full
+2026-06-02 06:48:45,069 [INFO] Text preview: European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldova Political European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldova Published 31.01.2025 14:...
+2026-06-02 06:48:45,933 [INFO] Mistral HTTP 200 for: European Commissioner for Enlargement, Marta Kos, comes to t
+2026-06-02 06:48:45,933 [WARNING] Mistral call failed (Radio Moldova): 'list' object has no attribute 'get'
+2026-06-02 06:48:45,933 [WARNING] Mistral returned None — skipping: European Commissioner for Enlargement, Marta Kos, comes to t
+2026-06-02 06:48:45,933 [INFO] ------- Processing article n. 0: Engie : extension en Egypte du plus grand projet de parc éolien d'Afrique - Capi -------
+2026-06-02 06:48:46,860 [INFO] Resolved Google News URL: https://www.capital.fr/entreprises-marches/engie-extension-en-egypte-du-plus-gra
+2026-06-02 06:48:46,860 [INFO] URL: https://www.capital.fr/entreprises-marches/engie-extension-en-egypte-du-plus-grand-projet-de-parc-eolien-d-afrique-1507842
+2026-06-02 06:48:50,376 [INFO] Text length: 5108 chars | source: full
+2026-06-02 06:48:50,377 [INFO] Text preview: Engie : extension en Egypte du plus grand projet de parc éolien d'Afrique - Capital.fr Aller au contenu Engie : extension en Egypte du plus grand projet de parc éolien d'Afrique Le groupe français Eng...
+2026-06-02 06:48:51,697 [INFO] Mistral HTTP 200 for: Engie : extension en Egypte du plus grand projet de parc éol
+2026-06-02 06:48:51,697 [WARNING] Mistral call failed (Capital.fr): 'list' object has no attribute 'get'
+2026-06-02 06:48:51,698 [WARNING] Mistral returned None — skipping: Engie : extension en Egypte du plus grand projet de parc éol
+2026-06-02 06:48:51,698 [INFO] ------- Processing article n. 0: Iberdrola y bp eligen a Imefy para el suministro del transformador principal de  -------
+2026-06-02 06:48:52,372 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/iberdrola-y-bp-eligen-a-imefy-para-el-suminis
+2026-06-02 06:48:52,372 [INFO] URL: https://elperiodicodelaenergia.com/iberdrola-y-bp-eligen-a-imefy-para-el-suministro-del-transformador-principal-de-su-planta-de-hidrogeno-verde/
+2026-06-02 06:48:53,094 [INFO] Text length: 5017 chars | source: full
+2026-06-02 06:48:53,094 [INFO] Text preview: Iberdrola y bp eligen a Imefy para el suministro del transformador principal de su planta de hidrógeno verde Martes, 2 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja com...
+2026-06-02 06:48:54,251 [INFO] Mistral HTTP 200 for: Iberdrola y bp eligen a Imefy para el suministro del transfo
+2026-06-02 06:48:54,251 [WARNING] Mistral call failed (El Periódico de la Energía): 'list' object has no attribute 'get'
+2026-06-02 06:48:54,251 [WARNING] Mistral returned None — skipping: Iberdrola y bp eligen a Imefy para el suministro del transfo
+2026-06-02 06:48:54,252 [INFO] ------- Processing article n. 0: Caro energia, l’industria corre ai ripari coi contratti a lungo termine - Il Sol -------
+2026-06-02 06:48:55,225 [INFO] Resolved Google News URL: https://www.ilsole24ore.com/art/caro-energia-l-industria-corre-ripari-coi-contra
+2026-06-02 06:48:55,225 [INFO] URL: https://www.ilsole24ore.com/art/caro-energia-l-industria-corre-ripari-coi-contratti-lungo-termine-AGI30DfC
+2026-06-02 06:48:57,120 [INFO] Text length: 7085 chars | source: full
+2026-06-02 06:48:57,120 [INFO] Text preview: Caro energia, l’industria corre ai ripari coi contratti a lungo termine - Il Sole 24 ORE Vai alla navigazione principale Vai al contenuto Vai al footer Osservatorio sulla transizione energetica Caro e...
+2026-06-02 06:49:01,796 [INFO] Mistral HTTP 200 for: Caro energia, l’industria corre ai ripari coi contratti a lu
+2026-06-02 06:49:01,796 [WARNING] Mistral call failed (Il Sole 24 ORE): 'list' object has no attribute 'get'
+2026-06-02 06:49:01,796 [WARNING] Mistral returned None — skipping: Caro energia, l’industria corre ai ripari coi contratti a lu
+2026-06-02 06:49:01,796 [INFO] Run complete. New deals: 0, Updates: 0
+2026-06-02 06:49:01,797 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (36 deals)
