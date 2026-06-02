@@ -354,38 +354,100 @@ def extract_with_mistral(text: str, title: str, outlet: str) -> dict | list | No
 
 # ── Deduplication ─────────────────────────────────────────────────────────────
 
+COUNTRY_ALIASES = {
+    "uk": "united kingdom",
+    "great britain": "united kingdom",
+    "britain": "united kingdom",
+    "czechia": "czech republic",
+    "the netherlands": "netherlands",
+    "holland": "netherlands",
+}
+
+LEGAL_SUFFIXES = _re.compile(
+    r"\b(ltd\.?|llc\.?|inc\.?|corp\.?|ag|sa|spa|bv|nv|gmbh|plc|oy|ab|as|group ag|supply ltd|energy ltd|renewables ltd)\b\.?",
+    _re.IGNORECASE,
+)
+
+def _normalize_country(country: str) -> str:
+    c = country.lower().strip()
+    return COUNTRY_ALIASES.get(c, c)
+
+def _normalize_entity(name: str) -> str:
+    n = name.lower().strip()
+    n = LEGAL_SUFFIXES.sub("", n)
+    return " ".join(n.split())  # collapse whitespace
+
 def make_deal_hash(extracted: dict) -> str:
+    date = (extracted.get("date_agreement") or "")[:7]  # truncate to YYYY-MM
     parts = [
-        (extracted.get("buyer")   or "").lower().strip(),
-        (extracted.get("seller")  or "").lower().strip(),
-        (extracted.get("country") or "").lower().strip(),
-        str(extracted.get("capacity_mw") or 0),  # Use exact capacity (no rounding)
-        (extracted.get("date_agreement") or ""),  # Use full date (no truncation)
+        _normalize_entity(extracted.get("buyer")   or ""),
+        _normalize_entity(extracted.get("seller")  or ""),
+        _normalize_country(extracted.get("country") or ""),
+        str(extracted.get("capacity_mw") or 0),
+        date,
     ]
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
 
 
-def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> int | None:
+def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> dict | None:
+    """Returns the full existing row as a dict, or None."""
     row = conn.execute(
-        "SELECT id FROM deals WHERE deal_hash = ?", (deal_hash,)
+        "SELECT id, energy_gwh, tenure_years, price_eur_mwh, technology, notes, publication_date "
+        "FROM deals WHERE deal_hash = ?", (deal_hash,)
     ).fetchone()
-    return row[0] if row else None
+    if not row:
+        return None
+    keys = ["id", "energy_gwh", "tenure_years", "price_eur_mwh", "technology", "notes", "publication_date"]
+    return dict(zip(keys, row))
 
+
+def classify_match(existing: dict, new_deal: dict, new_pub_date: str) -> str:
+    """
+    Given an existing DB row and a newly extracted deal for the same hash,
+    returns 'update' if the new article adds meaningful information,
+    or 'duplicate' if it's the same content from a different source.
+    """
+    enriching_fields = ["energy_gwh", "tenure_years", "price_eur_mwh", "technology"]
+    for field in enriching_fields:
+        existing_val = existing.get(field)
+        new_val = new_deal.get(field)
+        if new_val and not existing_val:
+            return "update"
+
+    # Longer notes = more information
+    existing_notes = existing.get("notes") or ""
+    new_notes = str(new_deal.get("notes") or "")
+    if len(new_notes) > len(existing_notes) + 20:
+        return "update"
+
+    # Later publication date on a different source article
+    existing_pub = (existing.get("publication_date") or "")[:10]
+    if new_pub_date and existing_pub and new_pub_date > existing_pub:
+        return "update"
+
+    return "duplicate"
 
 # ── Database Write ────────────────────────────────────────────────────────────
 
-def write_deal(conn, extracted, article, full_text, is_update, original_id):
+def write_deal(conn, extracted, article, full_text, match_type, original_id):
+    """
+    match_type: 'new' | 'update'
+    - 'new'    → plain insert
+    - 'update' → insert new row (with unique hash suffix) + mark original as having an update
+    """
     deal_hash = make_deal_hash(extracted)
     notes     = extracted.get("notes") or ""
-    
-    # Improve update notes
-    if is_update:
+    is_update = 1 if match_type == "update" else 0
+
+    if match_type == "update":
         if extracted.get("update_clues"):
             notes = f"[UPDATE] {extracted['update_clues']} | {notes}".strip(" |")
-        if original_id:
-            notes += f" | Original deal ID: {original_id}"
-        else:
-            notes += " | Flagged as update by LLM (no hash match)."
+        notes += f" | Original deal ID: {original_id}"
+        deal_hash = deal_hash + f"_upd_{original_id}"
+        conn.execute(
+            "UPDATE deals SET is_update = 1 WHERE id = ? AND is_update = 0",
+            (original_id,)
+        )
 
     conn.execute(
         """
@@ -412,14 +474,13 @@ def write_deal(conn, extracted, article, full_text, is_update, original_id):
             article.get("source", {}).get("name"),
             (article.get("publishedAt") or "")[:10],
             notes,
-            1 if is_update else 0,
+            is_update,
             original_id,
             (full_text or article.get("description") or "")[:500],
         ),
     )
     conn.commit()
-
-
+    
 # ── CSV Export ────────────────────────────────────────────────────────────────
 
 def export_csv(conn: sqlite3.Connection) -> None:
@@ -595,30 +656,41 @@ def run() -> None:
                 log.info(f"Low confidence, no parties — skipping: {title[:60]}")
                 continue
         
-            deal_hash = make_deal_hash(deal)
-            existing_id = find_duplicate(conn, deal_hash)
-            is_update = existing_id is not None or deal.get("is_likely_update", False)
+            deal_hash   = make_deal_hash(deal)
+            existing    = find_duplicate(conn, deal_hash)
+            new_pub     = (article.get("publishedAt") or "")[:10]
 
-            # Log hash collisions (for debugging)
-            if existing_id and not deal.get("is_likely_update", False):
-                log.info(
-                    f"Hash collision detected (original deal ID: {existing_id}) "
-                    f"for: {title[:60]} | Buyer: {deal.get('buyer')} | Seller: {deal.get('seller')}"
-                )
-                
-            write_deal(conn, deal, article, full_text, is_update, existing_id)
-            processed += 1
-        
-            if is_update:
-                updates += 1
-                log.info(f"UPDATE recorded: {deal.get('buyer')} / {deal.get('seller')} ({deal.get('country')})")
+            if existing:
+                match_type  = classify_match(existing, deal, new_pub)
+                original_id = existing["id"]
+            elif deal.get("is_likely_update", False):
+                match_type  = "update"
+                original_id = None
             else:
-                new_deals += 1
+                match_type  = "new"
+                original_id = None
+
+            if match_type == "duplicate":
                 log.info(
-                    f"NEW deal: {deal.get('buyer')} / {deal.get('seller')} "
-                    f"({deal.get('country')}, {deal.get('capacity_mw')} MW)"
+                    f"DUPLICATE skipped: {deal.get('buyer')} / {deal.get('seller')} "
+                    f"({deal.get('country')}) — same as ID: {original_id}"
                 )
-        
+                continue
+
+            log.info(
+                f"{match_type.upper()}: {deal.get('buyer')} / {deal.get('seller')} "
+                f"({deal.get('country')}, {deal.get('capacity_mw')} MW)"
+                + (f" — original ID: {original_id}" if original_id else "")
+            )
+
+            write_deal(conn, deal, article, full_text, match_type, original_id)
+            processed += 1
+
+            if match_type == "update":
+                updates += 1
+            elif match_type == "new":
+                new_deals += 1
+
             time.sleep(5)  # Mistral free tier: stay well within rate limits
     
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
