@@ -482,7 +482,7 @@ def run() -> None:
             all_articles.extend(fetch_newsapi(query, from_date, to_date))
             time.sleep(1)
     else:
-    log.info("Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).")
+        log.info("Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).")
     
     # Google News RSS (all languages)
     for lang, query in GOOGLE_NEWS_FEEDS:
