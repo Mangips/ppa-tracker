@@ -37,6 +37,12 @@ MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
 
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
 
+# Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
+LOOKBACK_DAYS = os.environ.get("LOOKBACK_DAYS")
+SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")
+SEARCH_TO_DATE = os.environ.get("SEARCH_TO_DATE")
+NOTIFY_EMAIL_ENABLED = os.environ.get("NOTIFY_EMAIL_ENABLED")
+
 # ── Logging ───────────────────────────────────────────────────────────────────
 LOGS_DIR = DATA_DIR / "logs" / f"{datetime.utcnow().strftime('%Y-%m')}"
 LOGS_DIR.mkdir(exist_ok=True)
@@ -52,12 +58,6 @@ logging.basicConfig(
     ],
 )
 log = logging.getLogger(__name__)
-
-# Override with env var for testing, e.g. SEARCH_FROM_DATE=2026-01-01
-LOOKBACK_DAYS = os.environ.get("LOOKBACK_DAYS")
-SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")
-SEARCH_TO_DATE = os.environ.get("SEARCH_TO_DATE")
-NOTIFY_EMAIL_ENABLED = os.environ.get("NOTIFY_EMAIL_ENABLED")
 
 # Google News RSS: one query per language.
 # hl = UI language, gl = country, ceid = region:language
