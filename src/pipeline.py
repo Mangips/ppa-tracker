@@ -528,6 +528,41 @@ def resolve_google_news_url(url: str) -> str:
         log.warning(f"URL resolution failed ({e}): {url[:80]}")
         return url
 
+# ── Email Notification ─────────────────────────────────────────────────────────
+
+def send_log_email(log_path: Path, new_deals: int, updates: int) -> None:
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+
+    smtp_host     = os.environ["NOTIFY_SMTP_HOST"]
+    smtp_port     = int(os.environ.get("NOTIFY_SMTP_PORT", 587))
+    smtp_user     = os.environ["NOTIFY_SMTP_USER"]
+    smtp_password = os.environ["NOTIFY_SMTP_PASSWORD"]
+    to_addr       = os.environ["NOTIFY_EMAIL_TO"]
+
+    run_date = datetime.utcnow().strftime("%Y-%m-%d")
+    subject  = f"[PPA Tracker] Daily run {run_date} — {new_deals} new, {updates} updates"
+
+    try:
+        log_content = log_path.read_text(encoding="utf-8")
+    except Exception:
+        log_content = "(log file not found)"
+
+    msg = MIMEMultipart()
+    msg["From"]    = smtp_user
+    msg["To"]      = to_addr
+    msg["Subject"] = subject
+    msg.attach(MIMEText(log_content, "plain", "utf-8"))
+
+    with smtplib.SMTP(smtp_host, smtp_port) as server:
+        server.ehlo()
+        server.starttls()
+        server.login(smtp_user, smtp_password)
+        server.sendmail(smtp_user, to_addr, msg.as_string())
+
+    log.info(f"Run summary email sent to {to_addr}")
+
 # ── Main Pipeline ─────────────────────────────────────────────────────────────
 
 def run() -> None:
@@ -695,6 +730,13 @@ def run() -> None:
     
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
+
+    if os.environ.get("NOTIFY_EMAIL_ENABLED") == "true":
+        try:
+            send_log_email(Path("pipeline.log"), new_deals, updates)
+        except Exception as e:
+            log.error(f"Failed to send email: {e}")
+    
     conn.close()
 
 
