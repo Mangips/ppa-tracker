@@ -677,11 +677,13 @@ def run() -> None:
         for deal in deals:
             # Skip non-signed deals (but still log them)
             if not deal.get("is_signed_deal"):
-                log.info(f"Not a signed deal — skipping: {title[:60]}")
+                log.info(f"Not a signed deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
+                f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
                 continue
             
             if not deal.get("is_european"):
-                log.info(f"Not a European deal — skipping: {title[:60]}")
+                log.info(f"Not a European deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
+                f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
                 continue
         
             if (
@@ -689,7 +691,8 @@ def run() -> None:
                 and not deal.get("buyer")
                 and not deal.get("seller")
             ):
-                log.info(f"Low confidence, no parties — skipping: {title[:60]}")
+                log.info(f"Low confidence, no parties — skipping: {deal.get('buyer')} / {deal.get('seller')} "
+                f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
                 continue
         
             deal_hash   = make_deal_hash(deal)
