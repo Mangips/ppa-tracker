@@ -209,8 +209,8 @@ def fetch_google_news_rss(lang: str, query: str, from_date: str, to_date: str) -
                 "description": description,
             })
             
-        log.info(f"Google News RSS [{lang}] '{query}': {len(articles)} results")
-        return articles
+        log.info(f"Google News RSS [{lang}] {url}: {len(articles)} results")
+        return articles  
     except Exception as e:
         log.warning(f"Google News RSS error [{lang}] '{query}': {e}")
         return []
