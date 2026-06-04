@@ -1,0 +1,40 @@
+2026-06-04 12:53:23,020 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-04 12:53:23,020 [INFO] Searching from 2025-01-28 to 2025-01-29 with  loockback days
+2026-06-04 12:53:23,020 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-04 12:53:23,442 [INFO] Google News RSS [en] 'PPA signed Europe': 6 results
+2026-06-04 12:53:25,821 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 9 results
+2026-06-04 12:53:28,024 [INFO] Google News RSS [de] 'PPA unterzeichnet Deutschland': 0 results
+2026-06-04 12:53:30,263 [INFO] Google News RSS [fr] 'PPA signé France': 1 results
+2026-06-04 12:53:32,514 [INFO] Google News RSS [es] 'PPA firmado Espana': 0 results
+2026-06-04 12:53:34,782 [INFO] Google News RSS [it] 'PPA firmato Italia': 1 results
+2026-06-04 12:53:37,004 [INFO] Google News RSS [pl] 'PPA podpisany Polen': 0 results
+2026-06-04 12:53:39,214 [INFO] Google News RSS [nl] 'PPA ondertekend Niederlanden': 0 results
+2026-06-04 12:53:41,518 [INFO] Google News RSS [pt] 'PPA assinado Portugal': 0 results
+2026-06-04 12:53:43,519 [INFO] Total raw articles collected: 17
+2026-06-04 12:53:43,519 [INFO] Unique unseen articles: 3
+2026-06-04 12:53:43,519 [INFO] ------- Processing article n. 0: Fincantieri: renaming ceremony of the two MPCS/PPA vessels for the Indonesian Na -------
+2026-06-04 12:53:43,826 [INFO] Resolved Google News URL: https://www.edrmagazine.eu/fincantieri-renaming-ceremony-of-the-two-mpcs-ppa-ves
+2026-06-04 12:53:43,826 [INFO] URL: https://www.edrmagazine.eu/fincantieri-renaming-ceremony-of-the-two-mpcs-ppa-vessels-for-the-indonesian-navy
+2026-06-04 12:53:46,488 [INFO] Text length: 3258 chars | source: full
+2026-06-04 12:53:46,489 [INFO] Text preview: Fincantieri: renaming ceremony of the two MPCS/PPA vessels for the Indonesian Navy - EDR Magazine Skip to content Latest: Patria completes deliveries of Patria AMV XP 8×8 ambulance vehicles to Slovaki...
+2026-06-04 12:53:47,427 [INFO] Mistral HTTP 200 for: Fincantieri: renaming ceremony of the two MPCS/PPA vessels f
+2026-06-04 12:53:47,427 [INFO] Mistral extracted 1 deals (0 signed) | Fincantieri: renaming ceremony of the two MPCS/PPA
+2026-06-04 12:53:47,431 [INFO] Not a signed deal — skipping: Fincantieri: renaming ceremony of the two MPCS/PPA vessels f
+2026-06-04 12:53:47,431 [INFO] ------- Processing article n. 0: Renaming ceremony held for Italian PPAs sold to Indonesian Navy - Euro-Sd.com -------
+2026-06-04 12:53:47,735 [INFO] Resolved Google News URL: https://euro-sd.com/2025/01/major-news/42323/ppas-for-indonesia-renamed/
+2026-06-04 12:53:47,736 [INFO] URL: https://euro-sd.com/2025/01/major-news/42323/ppas-for-indonesia-renamed/
+2026-06-04 12:53:48,862 [INFO] Text length: 8350 chars | source: full
+2026-06-04 12:53:48,862 [INFO] Text preview: Renaming ceremony held for Italian PPAs sold to Indonesian Navy - European Security & Defence Anmelden Home News Policy Air Land Sea Cyber/Coms Tactical Industry Articles Policy Armed Forces Armament ...
+2026-06-04 12:53:49,895 [INFO] Mistral HTTP 200 for: Renaming ceremony held for Italian PPAs sold to Indonesian N
+2026-06-04 12:53:49,895 [INFO] Mistral extracted 1 deals (0 signed) | Renaming ceremony held for Italian PPAs sold to In
+2026-06-04 12:53:49,897 [INFO] Not a signed deal — skipping: Renaming ceremony held for Italian PPAs sold to Indonesian N
+2026-06-04 12:53:49,897 [INFO] ------- Processing article n. 0: A Muggiano cerimonia di cambio nome per due MPCS/PPA vendute alla Marina indones -------
+2026-06-04 12:53:50,168 [INFO] Resolved Google News URL: https://www.shippingitaly.it/2025/01/29/a-muggiano-cerimonia-di-cambio-nome-per-
+2026-06-04 12:53:50,168 [INFO] URL: https://www.shippingitaly.it/2025/01/29/a-muggiano-cerimonia-di-cambio-nome-per-due-mpcs-ppa-vendute-alla-marina-indonesiana/
+2026-06-04 12:53:51,740 [INFO] Text length: 4627 chars | source: full
+2026-06-04 12:53:51,740 [INFO] Text preview: A Muggiano cerimonia di cambio nome per due MPCS/PPA vendute alla Marina indonesiana - Shipping Italy Il quotidiano online del trasporto marittimo Home Navi Porti Spedizioni Cantieri Interviste Politi...
+2026-06-04 12:53:52,669 [INFO] Mistral HTTP 200 for: A Muggiano cerimonia di cambio nome per due MPCS/PPA vendute
+2026-06-04 12:53:52,669 [INFO] Mistral extracted 1 deals (0 signed) | A Muggiano cerimonia di cambio nome per due MPCS/P
+2026-06-04 12:53:52,670 [INFO] Not a signed deal — skipping: A Muggiano cerimonia di cambio nome per due MPCS/PPA vendute
+2026-06-04 12:53:52,670 [INFO] Run complete. New deals: 0, Updates: 0
+2026-06-04 12:53:52,671 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (47 deals)
