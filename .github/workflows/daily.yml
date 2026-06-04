@@ -64,6 +64,12 @@ jobs:
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
           SEARCH_FROM_DATE: ${{ (github.event_name == 'schedule' || github.event.inputs.target_env == 'Prod') && env.TODAY_DATE || vars.SEARCH_FROM_DATE }}
           SEARCH_TO_DATE: ${{ vars.SEARCH_TO_DATE }}
+          NOTIFY_EMAIL_ENABLED: ${{ vars.NOTIFY_EMAIL_ENABLED }}
+          NOTIFY_SMTP_HOST: ${{ secrets.NOTIFY_SMTP_HOST }}
+          NOTIFY_SMTP_PORT: ${{ secrets.NOTIFY_SMTP_PORT }}
+          NOTIFY_SMTP_USER: ${{ secrets.NOTIFY_SMTP_USER }}
+          NOTIFY_SMTP_PASSWORD: ${{ secrets.NOTIFY_SMTP_PASSWORD }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
         run: python src/pipeline.py
 
       - name: Commit updated DB and CSV to repo
