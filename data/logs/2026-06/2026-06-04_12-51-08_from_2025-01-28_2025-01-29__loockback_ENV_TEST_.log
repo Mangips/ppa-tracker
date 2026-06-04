@@ -1,0 +1,16 @@
+2026-06-04 12:51:08,471 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-04 12:51:08,471 [INFO] Searching from 2025-01-28 to 2025-01-29 with  loockback days
+2026-06-04 12:51:08,471 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-04 12:51:08,784 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 8 results
+2026-06-04 12:51:11,128 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 9 results
+2026-06-04 12:51:13,339 [INFO] Google News RSS [de] 'PPA unterzeichnet Deutschland erneuerbare Energie': 0 results
+2026-06-04 12:51:15,563 [INFO] Google News RSS [fr] 'PPA signé France énergie renouvelable': 1 results
+2026-06-04 12:51:17,787 [INFO] Google News RSS [es] 'PPA firmado Espana energía renovable': 1 results
+2026-06-04 12:51:20,043 [INFO] Google News RSS [it] 'PPA firmato Italia energia rinnovabile': 0 results
+2026-06-04 12:51:22,221 [INFO] Google News RSS [pl] 'PPA podpisany Polen energia odnawialna': 0 results
+2026-06-04 12:51:24,458 [INFO] Google News RSS [nl] 'PPA ondertekend Niederlanden hernieuwbare energie': 0 results
+2026-06-04 12:51:26,729 [INFO] Google News RSS [pt] 'PPA assinado Portugal energia renovável': 0 results
+2026-06-04 12:51:28,729 [INFO] Total raw articles collected: 19
+2026-06-04 12:51:28,730 [INFO] Unique unseen articles: 0
+2026-06-04 12:51:28,730 [INFO] Run complete. New deals: 0, Updates: 0
+2026-06-04 12:51:28,731 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (47 deals)
