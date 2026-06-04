@@ -92,6 +92,38 @@ LANG_TO_CEID = {
     "pt": ("pt", "PT", "PT:pt"),
 }
 
+# Direct trade press RSS feeds — European PPA/renewables coverage
+EXTRA_RSS_FEEDS = [
+    # Pan-European
+    "https://www.rechargenews.com/rss",
+    "https://www.windeurope.org/feed/",
+    "https://www.solarpower.eu/feed/",
+    "https://renewablesnow.com/news/feed/",
+    "https://www.montelnews.com/en/rss",
+    "https://energymonitor.ai/feed/",
+    "https://www.icis.com/explore/resources/news/rss/",
+    # Italy
+    "https://www.pv-magazine.it/feed/",
+    "https://www.qualenergia.it/feed/",
+    "https://www.rinnovabili.it/feed/",
+    # Germany
+    "https://www.pv-magazine.de/feed/",
+    "https://www.energate-messenger.de/rss/news",
+    # Spain
+    "https://www.pv-magazine.es/feed/",
+    "https://elperiodicodelaenergia.com/feed/",
+    # France
+    "https://www.pv-magazine.fr/feed/",
+    "https://www.actu-environnement.com/flux/rss_actualites.xml",
+    # UK
+    "https://www.current-news.co.uk/feed",
+    "https://www.theenergyst.com/feed/",
+    # Nordics
+    "https://www.montelnews.com/en/rss",  # strong Nordic coverage
+    "https://www.nordicenergy.org/feed/",
+    # Poland / CEE
+    "https://wysokienapiecie.pl/feed/",
+]
 
 # ── Database ──────────────────────────────────────────────────────────────────
 
@@ -213,6 +245,68 @@ def fetch_google_news_rss(lang: str, query: str, from_date: str, to_date: str) -
         return articles  
     except Exception as e:
         log.warning(f"Google News RSS error [{lang}] '{query}': {e}")
+        return []
+
+def fetch_extra_rss(feed_url: str, from_date: str, to_date: str | None = None) -> list[dict]:
+    """Fetch a direct RSS feed and return articles newer than from_date."""
+    try:
+        resp = requests.get(feed_url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+
+        articles = []
+        from xml.etree.ElementTree import fromstring
+        root = fromstring(resp.text)
+        ns   = {"atom": "http://www.w3.org/2005/Atom"}
+
+        # Support both RSS <item> and Atom <entry>
+        items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+
+        cutoff = datetime.strptime(from_date, "%Y-%m-%d").date() if from_date else None
+
+        for item in items:
+            title_el = item.find("title")
+            link_el  = item.find("link") or item.find("atom:link", ns)
+            date_el  = item.find("pubDate") or item.find("atom:published", ns)
+
+            title = title_el.text.strip()         if title_el is not None else ""
+            link  = link_el.text                  if link_el  is not None else ""
+            if not link and link_el is not None:   # Atom <link href="..."/>
+                link = link_el.get("href", "")
+            pub_raw = date_el.text.strip()         if date_el  is not None else ""
+
+            # Parse publication date for cutoff filtering
+            pub_date = ""
+            for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z",
+                        "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ"):
+                try:
+                    pub_date = datetime.strptime(pub_raw, fmt).strftime("%Y-%m-%d")
+                    break
+                except ValueError:
+                    continue
+
+            if cutoff and pub_date and pub_date < from_date:
+                continue
+            if to_date and pub_date and pub_date > to_date:
+                continue
+
+            # Skip obviously irrelevant articles before hitting Mistral
+            text_lower = (title).lower()
+            if not any(kw in text_lower for kw in ["ppa", "power purchase", "offtake", "rinnovab", "erneuerbar", "renovable", "renouvelable"]):
+                continue
+
+            articles.append({
+                "title":       title,
+                "url":         link,
+                "publishedAt": pub_date,
+                "source":      {"name": feed_url.split("/")[2]},  # domain as source name
+                "description": "",
+            })
+
+        log.info(f"Extra RSS [{feed_url.split('/')[2]}]: {len(articles)} results")
+        return articles
+
+    except Exception as e:
+        log.warning(f"Extra RSS error [{feed_url}]: {e}")
         return []
 
 
@@ -600,6 +694,11 @@ def run() -> None:
 
     log.info(f"Total raw articles collected: {len(all_articles)}")
 
+    # Extra trade press RSS feeds
+    for feed_url in EXTRA_RSS_FEEDS:
+        all_articles.extend(fetch_extra_rss(feed_url, from_date, to_date))
+        time.sleep(1)
+    
     # 2. Deduplicate by URL
     seen_urls = set(
         row[0] for row in conn.execute("SELECT url FROM seen_urls").fetchall()
