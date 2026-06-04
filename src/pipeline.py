@@ -66,19 +66,19 @@ GOOGLE_NEWS_FEEDS = [
     ("en", "PPA signed Europe renewable energy"),
     ("en", "power purchase agreement signed Europe"),
     # German
-    ("de", "PPA unterzeichnet Europa erneuerbare Energie"),
+    ("de", "PPA unterzeichnet Deutschland erneuerbare Energie"),
     # French
-    ("fr", "PPA signé Europe énergie renouvelable"),
+    ("fr", "PPA signé France énergie renouvelable"),
     # Spanish
-    ("es", "PPA firmado Europa energía renovable"),
+    ("es", "PPA firmado Espana energía renovable"),
     # Italian
-    ("it", "PPA firmato Europa energia rinnovabile"),
+    ("it", "PPA firmato Italia energia rinnovabile"),
     # Polish
-    ("pl", "PPA podpisany Europa energia odnawialna"),
+    ("pl", "PPA podpisany Polen energia odnawialna"),
     # Dutch
-    ("nl", "PPA ondertekend Europa hernieuwbare energie"),
+    ("nl", "PPA ondertekend Niederlanden hernieuwbare energie"),
     # Portuguese
-    ("pt", "PPA assinado Europa energia renovável"),
+    ("pt", "PPA assinado Portugal energia renovável"),
 ]
 
 LANG_TO_CEID = {
@@ -267,7 +267,7 @@ EXTRACTION_PROMPT = """\
 You are an expert energy analyst. Extract structured information about Power Purchase Agreement (PPA) deals.
 
 Analyze the text below and:
-1. Identify **ALL SIGNED/COMPLETED PPA deals** described (not rumours, tenders, or proposals).
+1. Identify **ALL SIGNED/COMPLETED PPA deals** described (not rumours, tenders, negotiations or proposals).
 2. For **EACH deal**, extract all fields below into a **separate JSON object**.
 3. Return a **JSON array** of these objects (one per deal).
 4. If **NO signed deals** are found, return an array with **ONE object** where `is_signed_deal` is `false` and all other fields are `null`.
@@ -677,8 +677,7 @@ def run() -> None:
         for deal in deals:
             # Skip non-signed deals (but still log them)
             if not deal.get("is_signed_deal"):
-                log.info(f"Not a signed deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
-                f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
+                log.info(f"Not a signed deal — skipping: {title[:60]}")
                 continue
             
             if not deal.get("is_european"):
