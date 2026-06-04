@@ -1,0 +1,43 @@
+2026-06-04 11:55:04,952 [INFO] === PPA Tracker pipeline starting (env: local) ===
+2026-06-04 11:55:04,952 [INFO] Searching from 2025-01-01 to 2025-01-31 with  loockback days
+2026-06-04 11:55:04,952 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-04 11:55:05,334 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 47 results
+2026-06-04 11:55:07,725 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 45 results
+2026-06-04 11:55:09,910 [INFO] Google News RSS [de] 'PPA unterzeichnet Europa erneuerbare Energie': 0 results
+2026-06-04 11:55:12,141 [INFO] Google News RSS [fr] 'PPA signé Europe énergie renouvelable': 2 results
+2026-06-04 11:55:14,414 [INFO] Google News RSS [es] 'PPA firmado Europa energía renovable': 4 results
+2026-06-04 11:55:16,647 [INFO] Google News RSS [it] 'PPA firmato Europa energia rinnovabile': 2 results
+2026-06-04 11:55:18,867 [INFO] Google News RSS [pl] 'PPA podpisany Europa energia odnawialna': 0 results
+2026-06-04 11:55:21,090 [INFO] Google News RSS [nl] 'PPA ondertekend Europa hernieuwbare energie': 0 results
+2026-06-04 11:55:23,353 [INFO] Google News RSS [pt] 'PPA assinado Europa energia renovável': 0 results
+2026-06-04 11:55:25,353 [INFO] Total raw articles collected: 100
+2026-06-04 11:55:25,354 [INFO] Unique unseen articles: 3
+2026-06-04 11:55:25,354 [INFO] ------- Processing article n. 0: KPI Green Energy Eyes Early Completion of 240 MWp IPP Solar Project in Khavda, G -------
+2026-06-04 11:55:25,574 [INFO] Resolved Google News URL: https://energetica-india.net/news/kpi-green-energy-eyes-early-completion-of-240-
+2026-06-04 11:55:25,574 [INFO] URL: https://energetica-india.net/news/kpi-green-energy-eyes-early-completion-of-240-mwp-ipp-solar-project-in-khavda-gujarat
+2026-06-04 11:55:26,515 [INFO] Text length: 6723 chars | source: full
+2026-06-04 11:55:26,515 [INFO] Text preview: KPI Green Energy Eyes Early Completion of 240 MWp IPP Solar Project in Khavda, Gujarat - Asia Pacific | Energetica India Magazine Energy Guide Guide online Free signup Advertise my Company Magazine Fr...
+2026-06-04 11:55:27,764 [INFO] Mistral HTTP 200 for: KPI Green Energy Eyes Early Completion of 240 MWp IPP Solar 
+2026-06-04 11:55:27,764 [INFO] Mistral extracted 1 deals (1 signed) | KPI Green Energy Eyes Early Completion of 240 MWp 
+2026-06-04 11:55:27,768 [INFO] Not a European deal — skipping: Gujarat Urja Vikas Nigam Ltd. (GUVNL) / KPI Green Energy (India, 200 MW)
+2026-06-04 11:55:27,768 [INFO] ------- Processing article n. 0: Investment in Africa: Free trade area agreement powers continent's energy future -------
+2026-06-04 11:55:27,977 [INFO] Resolved Google News URL: https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-ag
+2026-06-04 11:55:27,977 [INFO] URL: https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-agreement-powers-continents-energy-future-2025-01-17/
+2026-06-04 11:55:28,316 [INFO] Full text skipped (status 401): https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-ag
+2026-06-04 11:55:28,316 [INFO] Text length: 193 chars | source: fallback
+2026-06-04 11:55:28,316 [INFO] Text preview: Investment in Africa: Free trade area agreement powers continent's energy future - Reuters
+
+Investment in Africa: Free trade area agreement powers continent's energy future &nbsp;&nbsp; Reuters...
+2026-06-04 11:55:29,740 [INFO] Mistral HTTP 200 for: Investment in Africa: Free trade area agreement powers conti
+2026-06-04 11:55:29,740 [INFO] Mistral extracted 1 deals (0 signed) | Investment in Africa: Free trade area agreement po
+2026-06-04 11:55:29,742 [INFO] Not a signed deal — skipping: None / None (None, None MW)
+2026-06-04 11:55:29,742 [INFO] ------- Processing article n. 0: Swiss company Synhelion to start producing solar fuels in Spain in 2027 - pv mag -------
+2026-06-04 11:55:29,940 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/01/16/swiss-company-synhelion-to-start-producin
+2026-06-04 11:55:29,940 [INFO] URL: https://www.pv-magazine.com/2025/01/16/swiss-company-synhelion-to-start-producing-solar-fuels-in-spain-in-2027/
+2026-06-04 11:55:30,206 [INFO] Text length: 9425 chars | source: full
+2026-06-04 11:55:30,206 [INFO] Text preview: Swiss company Synhelion to start producing solar fuels in Spain in 2027 - pv magazine Global Advertisement Advertisement Advertisement Advertisement Research & Development Swiss company Synhelion to s...
+2026-06-04 11:55:31,862 [INFO] Mistral HTTP 200 for: Swiss company Synhelion to start producing solar fuels in Sp
+2026-06-04 11:55:31,862 [INFO] Mistral extracted 1 deals (1 signed) | Swiss company Synhelion to start producing solar f
+2026-06-04 11:55:31,866 [INFO] NEW: AMAG Group / Synhelion (Spain, None MW)
+2026-06-04 11:55:36,868 [INFO] Run complete. New deals: 1, Updates: 0
+2026-06-04 11:55:36,869 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (43 deals)
