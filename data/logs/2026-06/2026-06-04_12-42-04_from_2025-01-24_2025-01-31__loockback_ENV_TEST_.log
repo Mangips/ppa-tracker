@@ -1,0 +1,99 @@
+2026-06-04 12:42:04,580 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-04 12:42:04,581 [INFO] Searching from 2025-01-24 to 2025-01-31 with  loockback days
+2026-06-04 12:42:04,581 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-04 12:42:05,008 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 15 results
+2026-06-04 12:42:07,491 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 24 results
+2026-06-04 12:42:09,725 [INFO] Google News RSS [de] 'PPA unterzeichnet Europa erneuerbare Energie': 0 results
+2026-06-04 12:42:11,977 [INFO] Google News RSS [fr] 'PPA signé Europe énergie renouvelable': 1 results
+2026-06-04 12:42:14,241 [INFO] Google News RSS [es] 'PPA firmado Europa energía renovable': 2 results
+2026-06-04 12:42:16,467 [INFO] Google News RSS [it] 'PPA firmato Europa energia rinnovabile': 1 results
+2026-06-04 12:42:18,692 [INFO] Google News RSS [pl] 'PPA podpisany Europa energia odnawialna': 0 results
+2026-06-04 12:42:20,977 [INFO] Google News RSS [nl] 'PPA ondertekend Europa hernieuwbare energie': 0 results
+2026-06-04 12:42:23,285 [INFO] Google News RSS [pt] 'PPA assinado Europa energia renovável': 0 results
+2026-06-04 12:42:25,285 [INFO] Total raw articles collected: 43
+2026-06-04 12:42:25,285 [INFO] Unique unseen articles: 10
+2026-06-04 12:42:25,286 [INFO] ------- Processing article n. 0: Meta strikes renewable supply agreement with Zelestra to power Texas data center -------
+2026-06-04 12:42:25,667 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/meta-strikes-renewable-supply-agreeme
+2026-06-04 12:42:25,667 [INFO] URL: https://www.datacenterdynamics.com/en/news/meta-strikes-renewable-supply-agreement-with-zelestra-to-power-texas-data-centers/
+2026-06-04 12:42:26,429 [INFO] Text length: 4031 chars | source: full
+2026-06-04 12:42:26,429 [INFO] Text preview: Meta strikes renewable supply agreement with Zelestra to power Texas data centers - DCD Stream Now: DCD>Broadcast - HPC and AI for capital markets Home News The Energy & Sustainability Channel Meta st...
+2026-06-04 12:42:29,479 [INFO] Mistral HTTP 200 for: Meta strikes renewable supply agreement with Zelestra to pow
+2026-06-04 12:42:29,480 [INFO] Mistral extracted 4 deals (4 signed) | Meta strikes renewable supply agreement with Zeles
+2026-06-04 12:42:29,485 [INFO] Not a European deal — skipping: Meta / Zelestra (United States, 595 MW)
+2026-06-04 12:42:29,485 [INFO] Not a European deal — skipping: Meta / Zelestra (United States, 210 MW)
+2026-06-04 12:42:29,485 [INFO] Not a European deal — skipping: Meta / Engie North America (United States, 260 MW)
+2026-06-04 12:42:29,486 [INFO] Not a European deal — skipping: Meta / Longroad Energy (United States, 300 MW)
+2026-06-04 12:42:29,486 [INFO] ------- Processing article n. 0: Partners Group-backed Sunsure Energy signs 300MW power deal with SECI - Mint -------
+2026-06-04 12:42:29,898 [INFO] Resolved Google News URL: https://www.livemint.com/companies/partners-group-backed-sunsure-energy-signs-30
+2026-06-04 12:42:29,898 [INFO] URL: https://www.livemint.com/companies/partners-group-backed-sunsure-energy-signs-300-mw-power-deal-with-seci-solar-energy-corporation-of-india-ppa-11737881275192.html
+2026-06-04 12:42:31,399 [INFO] Text length: 4060 chars | source: full
+2026-06-04 12:42:31,399 [INFO] Text preview: Partners Group-backed Sunsure Energy signs 300MW power deal with SECI | Company Business News View Market Dashboard Partners Group-backed Sunsure Energy signs 300MW power deal with SECI Nehal Chaliawa...
+2026-06-04 12:42:32,794 [INFO] Mistral HTTP 200 for: Partners Group-backed Sunsure Energy signs 300MW power deal 
+2026-06-04 12:42:32,794 [INFO] Mistral extracted 1 deals (1 signed) | Partners Group-backed Sunsure Energy signs 300MW p
+2026-06-04 12:42:32,797 [INFO] Not a European deal — skipping: Solar Energy Corporation of India (SECI) / Sunsure Energy (India, 300 MW)
+2026-06-04 12:42:32,797 [INFO] ------- Processing article n. 0: EDP Signs Power Purchase Agreement with Amazon in Japan - EDP Global -------
+2026-06-04 12:42:33,194 [INFO] Resolved Google News URL: https://edp.com/en/asia-pacific/japan/media/news/edp-signs-power-purchase-agreem
+2026-06-04 12:42:33,194 [INFO] URL: https://edp.com/en/asia-pacific/japan/media/news/edp-signs-power-purchase-agreement-amazon-japan
+2026-06-04 12:42:34,931 [INFO] Text length: 2227 chars | source: full
+2026-06-04 12:42:34,932 [INFO] Text preview: EDP Signs Power Purchase Agreement with Amazon in Japan | edp Skip to main content What are you looking for? I'm listening... EDP Signs Power Purchase Agreement with Amazon in Japan EDP Signs Power Pu...
+2026-06-04 12:42:36,575 [INFO] Mistral HTTP 200 for: EDP Signs Power Purchase Agreement with Amazon in Japan - ED
+2026-06-04 12:42:36,576 [INFO] Mistral extracted 2 deals (2 signed) | EDP Signs Power Purchase Agreement with Amazon in 
+2026-06-04 12:42:36,577 [INFO] Not a European deal — skipping: Amazon / EDP Renewables (Japan, 35 MW)
+2026-06-04 12:42:36,577 [INFO] Not a European deal — skipping: Amazon / EDP Renewables (Singapore, None MW)
+2026-06-04 12:42:36,577 [INFO] ------- Processing article n. 0: BASF Performance Materials using 100% renewable energy in all European plants -  -------
+2026-06-04 12:42:36,976 [INFO] Resolved Google News URL: https://www.plasticsnews.com/news/basf-performance-materials-using-100-renewable
+2026-06-04 12:42:36,976 [INFO] URL: https://www.plasticsnews.com/news/basf-performance-materials-using-100-renewable-energy-all-european-plants/
+2026-06-04 12:42:38,168 [INFO] Text length: 688 chars | source: full
+2026-06-04 12:42:38,168 [INFO] Text preview: BASF Performance Materials using 100% renewable energy in all European plants - Plastics News Skip to main content Latest News BASF Performance Materials using 100% renewable energy in all European pl...
+2026-06-04 12:42:39,060 [INFO] Mistral HTTP 200 for: BASF Performance Materials using 100% renewable energy in al
+2026-06-04 12:42:39,060 [INFO] Mistral extracted 1 deals (0 signed) | BASF Performance Materials using 100% renewable en
+2026-06-04 12:42:39,062 [INFO] Not a signed deal — skipping: None / None (None, None MW)
+2026-06-04 12:42:39,062 [INFO] ------- Processing article n. 0: The Energy Release Decree | Italy | Global law firm - Norton Rose Fulbright -------
+2026-06-04 12:42:39,444 [INFO] Resolved Google News URL: https://www.nortonrosefulbright.com/en-it/knowledge/publications/24d4e4b5/the-en
+2026-06-04 12:42:39,444 [INFO] URL: https://www.nortonrosefulbright.com/en-it/knowledge/publications/24d4e4b5/the-energy-release-decree
+2026-06-04 12:42:40,967 [INFO] Text length: 8103 chars | source: full
+2026-06-04 12:42:40,967 [INFO] Text preview: The Energy Release Decree | Italy | Global law firm | Norton Rose Fulbright Skip to main content Ministerial Decree no. 268/2024 (the Energy Release Decree ) introduced the “Energy Release 2.0” mechan...
+2026-06-04 12:42:41,874 [INFO] Mistral HTTP 200 for: The Energy Release Decree | Italy | Global law firm - Norton
+2026-06-04 12:42:41,874 [INFO] Mistral extracted 1 deals (0 signed) | The Energy Release Decree | Italy | Global law fir
+2026-06-04 12:42:41,876 [INFO] Not a signed deal — skipping: None / None (None, None MW)
+2026-06-04 12:42:41,876 [INFO] ------- Processing article n. 0: Euronext to Buy Nasdaq’s Nordic Power Futures Business - Markets Media -------
+2026-06-04 12:42:42,281 [INFO] Resolved Google News URL: https://www.marketsmedia.com/euronext-to-buy-nasdaqs-nordic-power-futures-busine
+2026-06-04 12:42:42,281 [INFO] URL: https://www.marketsmedia.com/euronext-to-buy-nasdaqs-nordic-power-futures-business/
+2026-06-04 12:42:47,537 [INFO] Text length: 7379 chars | source: full
+2026-06-04 12:42:47,537 [INFO] Text preview: Euronext to Buy Nasdaq’s Nordic Power Futures Business - Markets Media Want the latest news on securities markets -- FREE? Sign up to receive exclusive articles on topics including: Equity market stru...
+2026-06-04 12:42:48,433 [INFO] Mistral HTTP 200 for: Euronext to Buy Nasdaq’s Nordic Power Futures Business - Mar
+2026-06-04 12:42:48,433 [INFO] Mistral extracted 1 deals (0 signed) | Euronext to Buy Nasdaq’s Nordic Power Futures Busi
+2026-06-04 12:42:48,434 [INFO] Not a signed deal — skipping: None / None (None, None MW)
+2026-06-04 12:42:48,434 [INFO] ------- Processing article n. 0: European Commission signs contract with Moderna for Covid-19 vaccines - The Brus -------
+2026-06-04 12:42:48,788 [INFO] Resolved Google News URL: https://www.brusselstimes.com/belgium/1409349/european-commission-signs-contract
+2026-06-04 12:42:48,788 [INFO] URL: https://www.brusselstimes.com/belgium/1409349/european-commission-signs-contract-with-moderna-for-covid-19-vaccines/
+2026-06-04 12:42:49,418 [INFO] Text length: 18 chars | source: full
+2026-06-04 12:42:49,419 [INFO] Text preview: The Brussels Times...
+2026-06-04 12:42:49,419 [INFO] Text too short (18 chars) — skipping: European Commission signs contract with Moderna for Covid-19
+2026-06-04 12:42:49,419 [INFO] ------- Processing article n. 0: ITM secures FEED contract for green hydrogen - Inspenet -------
+2026-06-04 12:42:49,736 [INFO] Resolved Google News URL: https://inspenet.com/en/news/itm-obtains-feed-contract-to-develop-a-10-mw-green-
+2026-06-04 12:42:49,737 [INFO] URL: https://inspenet.com/en/news/itm-obtains-feed-contract-to-develop-a-10-mw-green-hydrogen-plant/
+2026-06-04 12:42:49,921 [INFO] Text length: 4881 chars | source: full
+2026-06-04 12:42:49,921 [INFO] Text preview: ITM secures FEED contract for green hydrogen Skip to content The global knowledge network for professionals in the energy and industry EN ES ITM obtains FEED contract to develop a 10 MW green hydrogen...
+2026-06-04 12:42:50,792 [INFO] Mistral HTTP 200 for: ITM secures FEED contract for green hydrogen - Inspenet
+2026-06-04 12:42:50,792 [INFO] Mistral extracted 1 deals (0 signed) | ITM secures FEED contract for green hydrogen - Ins
+2026-06-04 12:42:50,794 [INFO] Not a signed deal — skipping: None / None (None, None MW)
+2026-06-04 12:42:50,794 [INFO] ------- Processing article n. 0: European companies rely on Swiss cleantechs - Startupticker.ch -------
+2026-06-04 12:42:51,181 [INFO] Resolved Google News URL: https://www.startupticker.ch/en/news/european-companies-rely-on-swiss-cleantechs
+2026-06-04 12:42:51,181 [INFO] URL: https://www.startupticker.ch/en/news/european-companies-rely-on-swiss-cleantechs
+2026-06-04 12:42:52,091 [INFO] Text length: 6305 chars | source: full
+2026-06-04 12:42:52,091 [INFO] Text preview: European companies rely on Swiss cleantechs European companies rely on Swiss cleantechs Expansion Success Please login or register 31.01.2025 Major companies in the automotive, energy and agriculture ...
+2026-06-04 12:42:53,973 [INFO] Mistral HTTP 200 for: European companies rely on Swiss cleantechs - Startupticker.
+2026-06-04 12:42:53,973 [INFO] Mistral extracted 2 deals (2 signed) | European companies rely on Swiss cleantechs - Star
+2026-06-04 12:42:53,975 [INFO] NEW: Lenzerheide Bergbahnen AG / Synhelion (Germany, None MW)
+2026-06-04 12:42:58,976 [INFO] NEW: AMAG Group AG / Synhelion (Switzerland, None MW)
+2026-06-04 12:43:03,978 [INFO] ------- Processing article n. 2: Una empresa de Toledo creará el transformador para la mayor planta de hidrógeno  -------
+2026-06-04 12:43:04,326 [INFO] Resolved Google News URL: https://www.elespanol.com/eldigitalcastillalamancha/economia/empresas/20250131/e
+2026-06-04 12:43:04,326 [INFO] URL: https://www.elespanol.com/eldigitalcastillalamancha/economia/empresas/20250131/empresa-toledo-creara-transformador-mayor-planta-hidrogeno-verde-espana/920658004_0.html
+2026-06-04 12:43:04,477 [INFO] Text length: 4946 chars | source: full
+2026-06-04 12:43:04,477 [INFO] Text preview: Una empresa de Toledo creará el transformador para la mayor planta de hidrógeno verde de España ES NOTICIA: Últimas noticias Mapa de noticias Guardia Civil en las cloacas del PSOE Lazos de Leire con l...
+2026-06-04 12:43:05,794 [INFO] Mistral HTTP 200 for: Una empresa de Toledo creará el transformador para la mayor 
+2026-06-04 12:43:05,794 [INFO] Mistral extracted 1 deals (1 signed) | Una empresa de Toledo creará el transformador para
+2026-06-04 12:43:05,796 [INFO] NEW: bp, Castellón Green Hydrogen / Iberdrola España (Spain, 25 MW)
+2026-06-04 12:43:10,798 [INFO] Run complete. New deals: 3, Updates: 0
+2026-06-04 12:43:10,799 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (46 deals)
