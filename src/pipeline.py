@@ -63,22 +63,22 @@ log = logging.getLogger(__name__)
 # hl = UI language, gl = country, ceid = region:language
 GOOGLE_NEWS_FEEDS = [
     # English
-    ("en", "PPA signed Europe renewable energy"),
+    ("en", "PPA signed Europe"),
     ("en", "power purchase agreement signed Europe"),
     # German
-    ("de", "PPA unterzeichnet Deutschland erneuerbare Energie"),
+    ("de", "PPA unterzeichnet Deutschland"),
     # French
-    ("fr", "PPA signé France énergie renouvelable"),
+    ("fr", "PPA signé France"),
     # Spanish
-    ("es", "PPA firmado Espana energía renovable"),
+    ("es", "PPA firmado Espana"),
     # Italian
-    ("it", "PPA firmato Italia energia rinnovabile"),
+    ("it", "PPA firmato Italia"),
     # Polish
-    ("pl", "PPA podpisany Polen energia odnawialna"),
+    ("pl", "PPA podpisany Polen"),
     # Dutch
-    ("nl", "PPA ondertekend Niederlanden hernieuwbare energie"),
+    ("nl", "PPA ondertekend Niederlanden"),
     # Portuguese
-    ("pt", "PPA assinado Portugal energia renovável"),
+    ("pt", "PPA assinado Portugal"),
 ]
 
 LANG_TO_CEID = {
