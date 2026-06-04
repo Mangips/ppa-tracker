@@ -57,6 +57,7 @@ log = logging.getLogger(__name__)
 LOOKBACK_DAYS = os.environ.get("LOOKBACK_DAYS")
 SEARCH_FROM_DATE = os.environ.get("SEARCH_FROM_DATE")
 SEARCH_TO_DATE = os.environ.get("SEARCH_TO_DATE")
+NOTIFY_EMAIL_ENABLED = os.environ.get("NOTIFY_EMAIL_ENABLED")
 
 # Google News RSS: one query per language.
 # hl = UI language, gl = country, ceid = region:language
@@ -731,7 +732,7 @@ def run() -> None:
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
 
-    if os.environ.get("NOTIFY_EMAIL_ENABLED") == "true":
+    if NOTIFY_EMAIL_ENABLED:
         try:
             send_log_email(Path("pipeline.log"), new_deals, updates)
         except Exception as e:
