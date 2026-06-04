@@ -1,0 +1,41 @@
+2026-06-04 12:47:35,526 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-04 12:47:35,526 [INFO] Searching from 2025-01-24 to 2025-01-31 with  loockback days
+2026-06-04 12:47:35,526 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-04 12:47:35,883 [INFO] Google News RSS [en] 'PPA signed Europe renewable energy': 16 results
+2026-06-04 12:47:38,251 [INFO] Google News RSS [en] 'power purchase agreement signed Europe': 24 results
+2026-06-04 12:47:40,462 [INFO] Google News RSS [de] 'PPA unterzeichnet Deutschland erneuerbare Energie': 0 results
+2026-06-04 12:47:42,791 [INFO] Google News RSS [fr] 'PPA signé France énergie renouvelable': 1 results
+2026-06-04 12:47:45,052 [INFO] Google News RSS [es] 'PPA firmado Espana energía renovable': 4 results
+2026-06-04 12:47:47,304 [INFO] Google News RSS [it] 'PPA firmato Italia energia rinnovabile': 1 results
+2026-06-04 12:47:49,521 [INFO] Google News RSS [pl] 'PPA podpisany Polen energia odnawialna': 0 results
+2026-06-04 12:47:51,741 [INFO] Google News RSS [nl] 'PPA ondertekend Niederlanden hernieuwbare energie': 0 results
+2026-06-04 12:47:54,013 [INFO] Google News RSS [pt] 'PPA assinado Portugal energia renovável': 0 results
+2026-06-04 12:47:56,014 [INFO] Total raw articles collected: 46
+2026-06-04 12:47:56,014 [INFO] Unique unseen articles: 3
+2026-06-04 12:47:56,014 [INFO] ------- Processing article n. 0: European Commission signs contract with Moderna for Covid-19 vaccines - The Brus -------
+2026-06-04 12:47:56,184 [INFO] Resolved Google News URL: https://www.brusselstimes.com/belgium/1409349/european-commission-signs-contract
+2026-06-04 12:47:56,185 [INFO] URL: https://www.brusselstimes.com/belgium/1409349/european-commission-signs-contract-with-moderna-for-covid-19-vaccines/
+2026-06-04 12:47:56,347 [INFO] Text length: 18 chars | source: full
+2026-06-04 12:47:56,347 [INFO] Text preview: The Brussels Times...
+2026-06-04 12:47:56,347 [INFO] Text too short (18 chars) — skipping: European Commission signs contract with Moderna for Covid-19
+2026-06-04 12:47:56,347 [INFO] ------- Processing article n. 0: Iberdrola France suministrará energía verde al fabricante italiano de piezas de  -------
+2026-06-04 12:47:56,595 [INFO] Resolved Google News URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-suministr
+2026-06-04 12:47:56,595 [INFO] URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-suministrara-energia-verde-al-fabricante-italiano-de-piezas-de-automoviles-agrati-en-francia
+2026-06-04 12:47:56,719 [INFO] Full text skipped (status 403): https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-suministr
+2026-06-04 12:47:56,719 [INFO] Text length: 233 chars | source: fallback
+2026-06-04 12:47:56,719 [INFO] Text preview: Iberdrola France suministrará energía verde al fabricante italiano de piezas de automóviles Agrati - Iberdrola
+
+Iberdrola France suministrará energía verde al fabricante italiano de piezas de automóvi...
+2026-06-04 12:47:57,682 [INFO] Mistral HTTP 200 for: Iberdrola France suministrará energía verde al fabricante it
+2026-06-04 12:47:57,683 [INFO] Mistral extracted 1 deals (1 signed) | Iberdrola France suministrará energía verde al fab
+2026-06-04 12:47:57,688 [INFO] NEW: Agrati / Iberdrola France (France, None MW)
+2026-06-04 12:48:02,689 [INFO] ------- Processing article n. 1: Repsol impulsa la producción de hidrógeno verde en Puertollano con un proyecto d -------
+2026-06-04 12:48:02,927 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/repsol-impulsa-la-produccion-de-hidrogeno-ver
+2026-06-04 12:48:02,927 [INFO] URL: https://elperiodicodelaenergia.com/repsol-impulsa-la-produccion-de-hidrogeno-verde-en-puertollano-con-un-proyecto-de-200-mw/
+2026-06-04 12:48:03,420 [INFO] Text length: 5781 chars | source: full
+2026-06-04 12:48:03,420 [INFO] Text preview: Repsol impulsa la producción de hidrógeno verde en Puertollano con un proyecto de 200 MW Jueves, 4 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja competitiva en España a...
+2026-06-04 12:48:04,351 [INFO] Mistral HTTP 200 for: Repsol impulsa la producción de hidrógeno verde en Puertolla
+2026-06-04 12:48:04,351 [INFO] Mistral extracted 1 deals (0 signed) | Repsol impulsa la producción de hidrógeno verde en
+2026-06-04 12:48:04,352 [INFO] Not a signed deal — skipping: Repsol impulsa la producción de hidrógeno verde en Puertolla
+2026-06-04 12:48:04,353 [INFO] Run complete. New deals: 1, Updates: 0
+2026-06-04 12:48:04,354 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (47 deals)
