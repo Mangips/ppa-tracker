@@ -40,7 +40,7 @@ MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limi
 # ── Logging ───────────────────────────────────────────────────────────────────
 LOGS_DIR = DATA_DIR / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
-ENV_NAME = os.environ.get("GITHUB_ENVIRONMENT", "local")
+ENV_NAME = os.environ.get("ENVIRONMENT", "local")
 LOG_PATH = LOGS_DIR / f"pipeline_{datetime.utcnow().strftime('%Y-%m-%d_%H-%M-%S')}_{ENV_NAME}.log"
 
 logging.basicConfig(
