@@ -70,6 +70,7 @@ jobs:
           NOTIFY_SMTP_USER: ${{ secrets.NOTIFY_SMTP_USER }}
           NOTIFY_SMTP_PASSWORD: ${{ secrets.NOTIFY_SMTP_PASSWORD }}
           NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+          ENVIRONMENT: ${{ vars.ENVIRONMENT }}
         run: python src/pipeline.py
 
       - name: Commit updated DB and CSV to repo
