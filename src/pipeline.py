@@ -95,34 +95,9 @@ LANG_TO_CEID = {
 # Direct trade press RSS feeds — European PPA/renewables coverage
 EXTRA_RSS_FEEDS = [
     # Pan-European
-    "https://www.rechargenews.com/rss",
-    "https://www.windeurope.org/feed/",
-    "https://www.solarpower.eu/feed/",
-    "https://renewablesnow.com/news/feed/",
-    "https://www.montelnews.com/en/rss",
     "https://energymonitor.ai/feed/",
-    "https://www.icis.com/explore/resources/news/rss/",
-    # Italy
-    "https://www.pv-magazine.it/feed/",
-    "https://www.qualenergia.it/feed/",
-    "https://www.rinnovabili.it/feed/",
-    # Germany
-    "https://www.pv-magazine.de/feed/",
-    "https://www.energate-messenger.de/rss/news",
     # Spain
-    "https://www.pv-magazine.es/feed/",
     "https://elperiodicodelaenergia.com/feed/",
-    # France
-    "https://www.pv-magazine.fr/feed/",
-    "https://www.actu-environnement.com/flux/rss_actualites.xml",
-    # UK
-    "https://www.current-news.co.uk/feed",
-    "https://www.theenergyst.com/feed/",
-    # Nordics
-    "https://www.montelnews.com/en/rss",  # strong Nordic coverage
-    "https://www.nordicenergy.org/feed/",
-    # Poland / CEE
-    "https://wysokienapiecie.pl/feed/",
 ]
 
 # ── Database ──────────────────────────────────────────────────────────────────
