@@ -38,7 +38,7 @@ MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
 
 # ── Logging ───────────────────────────────────────────────────────────────────
-LOGS_DIR = DATA_DIR / "logs" / datetime.utcnow().strftime('%Y-%m')}
+LOGS_DIR = DATA_DIR / "logs" / "{datetime.utcnow().strftime('%Y-%m')}"
 LOGS_DIR.mkdir(exist_ok=True)
 ENV_NAME = os.environ.get("ENVIRONMENT", "ENV_NOT_SET")
 
