@@ -94,8 +94,8 @@ jobs:
           echo "$LAST_WEEK_END" > historical_progress.txt
           git config user.name "ppa-tracker-bot"
           git config user.email "bot@ppa-tracker"
-          git add historical_progress.txt
           git pull --rebase origin main  
+          git add historical_progress.txt
           git commit -m "chore: update historical progress to $LAST_WEEK_END"
           git push
 
