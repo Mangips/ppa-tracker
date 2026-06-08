@@ -811,7 +811,7 @@ def run() -> None:
                 + (f" — canonical ID: {canonical_id}" if canonical_id else "")
             )
 
-            write_deal(conn, extracted, real_url, article, full_text, match_type, canonical_id)
+            write_deal(conn, deal, real_url, article, full_text, match_type, canonical_id)
             processed += 1
 
             if match_type == "U":
