@@ -1,0 +1,102 @@
+name: Historical Smart Trigger (With Progress Tracking)
+
+on:
+  workflow_dispatch:
+    inputs:
+      end_date:
+        description: 'Last end date (YYYY-MM-DD)'
+        required: true
+        default: '2026-06-08'
+      mistral_requests_per_run:
+        description: 'Estimated Mistral requests per run (default 50)'
+        required: true
+        default: '50'
+
+jobs:
+  check-and-trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Needed to commit back the progress file
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Read last processed date
+        id: read_progress
+        run: |
+          if [ -f historical_progress.txt ]; then
+            LAST_PROCESSED=$(cat historical_progress.txt)
+          else
+            LAST_PROCESSED="2025-01-01"  # Default start
+          fi
+          echo "last_processed=$LAST_PROCESSED" >> $GITHUB_OUTPUT
+
+      - name: Check GitHub Actions usage this month
+        id: check_actions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          NOW=$(date +%Y-%m)
+          FIRST_DAY="${NOW}-01T00:00:00Z"
+          RUN_DATA=$(gh api -H "Accept: application/vnd.github+json" "/repos/$REPO/actions/runs?created=$FIRST_DAY&per_page=100" | jq '[.workflow_runs[] | select(.status == "completed") | .run_duration_ms]')
+          TOTAL_MS=$(echo "$RUN_DATA" | jq 'add // 0')
+          TOTAL_MINUTES=$((TOTAL_MS / 60000))
+          REMAINING_MINUTES=$((2000 - TOTAL_MINUTES))
+          MAX_RUNS_BY_ACTIONS=$((REMAINING_MINUTES / 5))
+          MAX_RUNS_BY_MISTRAL=$((1500 / ${{ inputs.mistral_requests_per_run }}))
+          SAFE_RUNS=$((MAX_RUNS_BY_ACTIONS < MAX_RUNS_BY_MISTRAL ? MAX_RUNS_BY_ACTIONS : MAX_RUNS_BY_MISTRAL))
+          if [ $SAFE_RUNS -lt 1 ]; then
+            echo "::error::No safe runs remaining!"
+            exit 1
+          fi
+          echo "safe_runs=$SAFE_RUNS" >> $GITHUB_OUTPUT
+          echo "remaining_actions_minutes=$REMAINING_MINUTES" >> $GITHUB_OUTPUT
+
+      - name: Trigger workflows for unprocessed weeks
+        id: trigger
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          WORKFLOW_FILE: daily.yml
+          END_DATE: ${{ inputs.end_date }}
+          SAFE_RUNS: ${{ steps.check_actions.outputs.safe_runs }}
+          LAST_PROCESSED: ${{ steps.read_progress.outputs.last_processed }}
+        run: |
+          # Calculate the next start date (1 week after last processed)
+          NEXT_START=$(date -d "$LAST_PROCESSED +7 days" +%Y-%m-%d)
+          TOTAL_WEEKS=$(( ($(date -d "$END_DATE" +%s) - $(date -d "$NEXT_START" +%s)) / (60*60*24*7) + 1 ))
+          BATCH_SIZE=$(( TOTAL_WEEKS < SAFE_RUNS ? TOTAL_WEEKS : SAFE_RUNS ))
+
+          if [ $BATCH_SIZE -lt 1 ]; then
+            echo "::notice::No weeks left to process!"
+            exit 0
+          fi
+
+          for (( i=0; i<BATCH_SIZE; i++ )); do
+            WEEK_START=$(date -d "$NEXT_START +$((i*7)) days" +%Y-%m-%d)
+            WEEK_END=$(date -d "$WEEK_START +6 days" +%Y-%m-%d)
+            if [[ "$WEEK_END" > "$END_DATE" ]]; then WEEK_END="$END_DATE"; fi
+
+            gh workflow run "$WORKFLOW_FILE" --repo "$REPO" -f start_date="$WEEK_START" -f end_date="$WEEK_END" -f target_env="Prod"
+            sleep 10
+          done
+
+          # Update progress file with the last processed week's end date
+          LAST_WEEK_END=$(date -d "$NEXT_START +$((($BATCH_SIZE-1)*7)) days +6 days" +%Y-%m-%d)
+          if [[ "$LAST_WEEK_END" > "$END_DATE" ]]; then LAST_WEEK_END="$END_DATE"; fi
+          echo "$LAST_WEEK_END" > historical_progress.txt
+          git config user.name "ppa-tracker-bot"
+          git config user.email "bot@ppa-tracker"
+          git add historical_progress.txt
+          git commit -m "chore: update historical progress to $LAST_WEEK_END"
+          git push
+
+          echo "last_processed_end=$LAST_WEEK_END" >> $GITHUB_OUTPUT
+
+      - name: Log progress
+        run: |
+          echo "::notice::Processed up to ${{ steps.trigger.outputs.last_processed_end }}. Re-trigger this workflow tomorrow to continue."
