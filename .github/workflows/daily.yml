@@ -86,6 +86,7 @@ jobs:
           git config user.name "ppa-tracker-bot"
           git config user.email "bot@ppa-tracker"
           git add data/ppa_deals.db data/ppa_deals.csv data/logs/
+          git pull --rebase origin main 
           # Only commit if there are changes
           git diff --staged --quiet || git commit -m "chore: daily update $(date -u '+%Y-%m-%d')"
           git push
