@@ -1,0 +1,32 @@
+2026-06-08 11:46:12,694 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-06-08 11:46:12,695 [INFO] Searching from 2026-06-08 to present with 3 loockback days
+2026-06-08 11:46:12,771 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-06-08 11:46:13,844 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-06-08 11:46:14,927 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-06-08 11:46:16,195 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2026-06-08&hl=en&gl=US&ceid=US:en: 0 results
+2026-06-08 11:46:18,630 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-06-08&hl=en&gl=US&ceid=US:en: 10 results
+2026-06-08 11:46:20,864 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2026-06-08&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-08 11:46:23,087 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2026-06-08&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-08 11:46:25,311 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2026-06-08&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-06-08 11:46:27,529 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2026-06-08&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-08 11:46:29,739 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2026-06-08&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-08 11:46:31,951 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2026-06-08&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-08 11:46:34,194 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2026-06-08&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-08 11:46:36,194 [INFO] Total raw articles collected: 10
+2026-06-08 11:46:36,542 [INFO] Extra RSS [energymonitor.ai]: 2 results
+2026-06-08 11:46:38,028 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-06-08 11:46:39,029 [INFO] Unique unseen articles: 1
+2026-06-08 11:46:39,029 [INFO] ------- Processing article n. 0: From Abu Dhabi to Eastern Europe: Etihad’s latest deal opens the door to 10 new  -------
+2026-06-08 11:46:39,257 [INFO] Resolved Google News URL: https://gulfbusiness.com/en/2026/aviation/from-abu-dhabi-to-eastern-europe-etiha
+2026-06-08 11:46:39,257 [INFO] URL: https://gulfbusiness.com/en/2026/aviation/from-abu-dhabi-to-eastern-europe-etihads-latest-deal-opens-the-door-to-10-new-destinations
+2026-06-08 11:46:39,308 [INFO] Full text skipped (status 403): https://gulfbusiness.com/en/2026/aviation/from-abu-dhabi-to-eastern-europe-etiha
+2026-06-08 11:46:39,308 [INFO] Text length: 229 chars | source: fallback
+2026-06-08 11:46:39,308 [INFO] Text preview: From Abu Dhabi to Eastern Europe: Etihad’s latest deal opens the door to 10 new destinations - Gulf Business
+
+From Abu Dhabi to Eastern Europe: Etihad’s latest deal opens the door to 10 new destinatio...
+2026-06-08 11:46:40,242 [INFO] Mistral HTTP 200 for: From Abu Dhabi to Eastern Europe: Etihad’s latest deal opens
+2026-06-08 11:46:40,242 [INFO] Mistral extracted 1 deals (0 signed) | From Abu Dhabi to Eastern Europe: Etihad’s latest 
+2026-06-08 11:46:40,245 [INFO] Not a signed deal — skipping: From Abu Dhabi to Eastern Europe: Etihad’s latest deal opens
+2026-06-08 11:46:40,245 [INFO] Run complete. New deals: 0, Updates: 0
+2026-06-08 11:46:40,245 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (2 deals)
+2026-06-08 11:46:41,125 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
