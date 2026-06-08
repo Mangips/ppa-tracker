@@ -21,6 +21,10 @@ import requests
 import re as _re  
 from googlenewsdecoder import gnewsdecoder
 
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
 # ── Config ────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
@@ -601,9 +605,7 @@ def resolve_google_news_url(url: str) -> str:
 # ── Email Notification ─────────────────────────────────────────────────────────
 
 def send_log_email(log_path: Path, new_deals: int, updates: int) -> None:
-    import smtplib
-    from email.mime.multipart import MIMEMultipart
-    from email.mime.text import MIMEText
+
 
     smtp_host     = os.environ["NOTIFY_SMTP_HOST"]
     smtp_port     = int(os.environ.get("NOTIFY_SMTP_PORT", 587))
@@ -810,7 +812,7 @@ def run() -> None:
 
     if NOTIFY_EMAIL_ENABLED:
         try:
-            send_log_email(Path("pipeline.log"), new_deals, updates)
+            send_log_email(LOG_PATH, new_deals, updates)
         except Exception as e:
             log.error(f"Failed to send email: {e}")
     
