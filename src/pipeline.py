@@ -111,6 +111,8 @@ def init_db(conn: sqlite3.Connection) -> None:
         CREATE TABLE IF NOT EXISTS deals (
             id               INTEGER PRIMARY KEY AUTOINCREMENT,
             deal_hash        TEXT UNIQUE,
+            event_type       TEXT NOT NULL DEFAULT 'N', -- N=new, U=update, D=duplicate
+            canonical_id     INTEGER,                   -- for U rows: points to original N row
             date_agreement   TEXT,
             date_found       TEXT,
             buyer            TEXT,
@@ -125,17 +127,24 @@ def init_db(conn: sqlite3.Connection) -> None:
             source_outlet    TEXT,
             publication_date TEXT,
             notes            TEXT,
-            is_update        INTEGER DEFAULT 0,
-            original_deal_id INTEGER,
             raw_snippet      TEXT
         );
+
         CREATE TABLE IF NOT EXISTS seen_urls (
             url     TEXT PRIMARY KEY,
             seen_at TEXT
         );
+
+        CREATE VIEW IF NOT EXISTS latest_deals AS
+        SELECT * FROM deals
+        WHERE event_type != 'D'
+          AND id IN (
+            SELECT COALESCE(MAX(CASE WHEN event_type='U' THEN id END), MIN(id))
+            FROM deals
+            GROUP BY COALESCE(canonical_id, id)
+          );
     """)
     conn.commit()
-
 
 # ── News Fetching ─────────────────────────────────────────────────────────────
 
@@ -512,37 +521,34 @@ def classify_match(existing: dict, new_deal: dict, new_pub_date: str) -> str:
 
 # ── Database Write ────────────────────────────────────────────────────────────
 
-def write_deal(conn, extracted, article, real_url, full_text, match_type, original_id):
+def write_deal(conn, extracted, real_url, article, full_text, match_type, canonical_id):
     """
-    match_type: 'new' | 'update'
-    - 'new'    → plain insert
-    - 'update' → insert new row (with unique hash suffix) + mark original as having an update
+    match_type: 'N' | 'U'
+    Duplicates are skipped before reaching this function.
     """
     deal_hash = make_deal_hash(extracted)
     notes     = extracted.get("notes") or ""
-    is_update = 1 if match_type == "update" else 0
 
-    if match_type == "update":
+    if match_type == "U":
         if extracted.get("update_clues"):
             notes = f"[UPDATE] {extracted['update_clues']} | {notes}".strip(" |")
-        notes += f" | Original deal ID: {original_id}"
-        deal_hash = deal_hash + f"_upd_{original_id}"
-        conn.execute(
-            "UPDATE deals SET is_update = 1 WHERE id = ? AND is_update = 0",
-            (original_id,)
-        )
+        notes += f" | Original deal ID: {canonical_id}"
+        deal_hash = deal_hash + f"_upd_{canonical_id}"
 
     conn.execute(
         """
         INSERT OR IGNORE INTO deals (
-            deal_hash, date_agreement, date_found, buyer, seller,
+            deal_hash, event_type, canonical_id,
+            date_agreement, date_found, buyer, seller,
             capacity_mw, energy_gwh, tenure_years, country, technology,
             price_eur_mwh, source_url, source_outlet, publication_date,
-            notes, is_update, original_deal_id, raw_snippet
+            notes, raw_snippet
         ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         """,
         (
             deal_hash,
+            match_type,
+            canonical_id,
             extracted.get("date_agreement"),
             datetime.utcnow().strftime("%Y-%m-%d"),
             extracted.get("buyer"),
@@ -557,30 +563,28 @@ def write_deal(conn, extracted, article, real_url, full_text, match_type, origin
             article.get("source", {}).get("name"),
             (article.get("publishedAt") or "")[:10],
             notes,
-            is_update,
-            original_id,
             (full_text or article.get("description") or "")[:500],
         ),
     )
     conn.commit()
-    
+
 # ── CSV Export ────────────────────────────────────────────────────────────────
 
 def export_csv(conn: sqlite3.Connection) -> None:
     rows = conn.execute("""
-        SELECT id, date_agreement, date_found, buyer, seller,
+        SELECT id, event_type, canonical_id,
+               date_agreement, date_found, buyer, seller,
                capacity_mw, energy_gwh, tenure_years, country, technology,
-               price_eur_mwh, source_url, source_outlet, publication_date,
-               notes, is_update, original_deal_id
-        FROM deals
+               price_eur_mwh, source_url, source_outlet, publication_date, notes
+        FROM latest_deals
         ORDER BY date_found DESC, id DESC
     """).fetchall()
 
     headers = [
-        "id", "date_agreement", "date_found", "buyer", "seller",
+        "id", "event_type", "canonical_id",
+        "date_agreement", "date_found", "buyer", "seller",
         "capacity_mw", "energy_gwh", "tenure_years", "country", "technology",
-        "price_eur_mwh", "source_url", "source_outlet", "publication_date",
-        "notes", "is_update", "original_deal_id",
+        "price_eur_mwh", "source_url", "source_outlet", "publication_date", "notes",
     ]
     with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -785,33 +789,34 @@ def run() -> None:
 
             if existing:
                 match_type  = classify_match(existing, deal, new_pub)
-                original_id = existing["id"]
+                canonical_id = existing["id"]
             elif deal.get("is_likely_update", False):
-                match_type  = "update"
-                original_id = None
+                match_type  = "U"
+                canonical_id = None
             else:
-                match_type  = "new"
-                original_id = None
+                match_type  = "N"
+                canonical_id = None
 
-            if match_type == "duplicate":
+            if match_type == "D":
                 log.info(
                     f"DUPLICATE skipped: {deal.get('buyer')} / {deal.get('seller')} "
-                    f"({deal.get('country')}) — same as ID: {original_id}"
+                    f"({deal.get('country')}) — same as ID: {canonical_id}"
                 )
                 continue
 
             log.info(
-                f"{match_type.upper()}: {deal.get('buyer')} / {deal.get('seller')} "
+                f"{'NEW' if match_type == 'N' else 'UPDATE'}: "
+                f"{deal.get('buyer')} / {deal.get('seller')} "
                 f"({deal.get('country')}, {deal.get('capacity_mw')} MW)"
-                + (f" — original ID: {original_id}" if original_id else "")
+                + (f" — canonical ID: {canonical_id}" if canonical_id else "")
             )
 
-            write_deal(conn, deal, article, real_url, full_text, match_type, original_id)
+            write_deal(conn, deal, article, real_url, full_text, match_type, canonical_id)
             processed += 1
 
-            if match_type == "update":
+            if match_type == "U":
                 updates += 1
-            elif match_type == "new":
+            else:
                 new_deals += 1
 
             time.sleep(5)  # Mistral free tier: stay well within rate limits
