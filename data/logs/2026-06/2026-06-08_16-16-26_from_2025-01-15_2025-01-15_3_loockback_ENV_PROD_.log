@@ -1,0 +1,19 @@
+2026-06-08 16:16:26,961 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-06-08 16:16:26,961 [INFO] Searching from 2025-01-15 to 2025-01-15 with 3 loockback days
+2026-06-08 16:16:26,961 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-08 16:16:27,274 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-15%20before%3A2025-01-15&hl=en&gl=US&ceid=US:en: 0 results
+2026-06-08 16:16:29,616 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-15%20before%3A2025-01-15&hl=en&gl=US&ceid=US:en: 0 results
+2026-06-08 16:16:31,883 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-15%20before%3A2025-01-15&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-08 16:16:34,146 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-15%20before%3A2025-01-15&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-08 16:16:36,415 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-15%20before%3A2025-01-15&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-06-08 16:16:38,666 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-15%20before%3A2025-01-15&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-08 16:16:40,898 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-15%20before%3A2025-01-15&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-08 16:16:43,202 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-15%20before%3A2025-01-15&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-08 16:16:48,573 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-15%20before%3A2025-01-15&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-08 16:16:50,574 [INFO] Total raw articles collected: 0
+2026-06-08 16:16:50,721 [INFO] Extra RSS [energymonitor.ai]: 2 results
+2026-06-08 16:16:52,228 [INFO] Extra RSS [elperiodicodelaenergia.com]: 5 results
+2026-06-08 16:16:53,228 [INFO] Unique unseen articles: 0
+2026-06-08 16:16:53,229 [INFO] Run complete. New deals: 0, Updates: 0
+2026-06-08 16:16:53,229 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (0 deals)
+2026-06-08 16:16:54,005 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
