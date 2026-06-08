@@ -70,7 +70,7 @@ jobs:
           LAST_PROCESSED: ${{ steps.read_progress.outputs.last_processed }}
         run: |
           # Calculate the next start date (1 week after last processed)
-          NEXT_START=$(date -d "$LAST_PROCESSED +7 days" +%Y-%m-%d)
+          NEXT_START=$LAST_PROCESSED
           TOTAL_WEEKS=$(( ($(date -d "$END_DATE" +%s) - $(date -d "$NEXT_START" +%s)) / (60*60*24*7) + 1 ))
           BATCH_SIZE=$(( TOTAL_WEEKS < SAFE_RUNS ? TOTAL_WEEKS : SAFE_RUNS ))
 
