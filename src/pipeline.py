@@ -373,58 +373,67 @@ Text (any language — return all fields in English):
 
 
 def extract_with_mistral(text: str, title: str, outlet: str) -> dict | list | None:
-    prompt  = EXTRACTION_PROMPT.format(text=text[:6000])
-    payload = {
-        "model":       MISTRAL_MODEL,
-        "temperature": 0.1,
-        "messages":    [{"role": "user", "content": prompt}],
-    }
-    try:
-        resp = requests.post(
-            MISTRAL_URL,
-            headers={
-                "Authorization": f"Bearer {MISTRAL_KEY}",
-                "Content-Type":  "application/json",
-            },
-            json=payload,
-            timeout=30,
-        )
-        log.info(f"Mistral HTTP {resp.status_code} for: {title[:60]}")
-        if resp.status_code == 429:
-            log.warning(f"Mistral 429 — waiting 60s: {title[:50]}")
-            time.sleep(60)
-            return None  # will be retried next run since URL won't be marked seen
-        if resp.status_code != 200:
-            log.warning(f"Mistral error body: {resp.text[:300]}")
+    for attempt, text_limit in enumerate([6000, 3000]):
+        prompt  = EXTRACTION_PROMPT.format(text=text[:text_limit])
+        payload = {
+            "model":       MISTRAL_MODEL,
+            "temperature": 0.1,
+            "max_tokens":  1024,
+            "messages":    [{"role": "user", "content": prompt}],
+        }
+        try:
+            resp = requests.post(
+                MISTRAL_URL,
+                headers={
+                    "Authorization": f"Bearer {MISTRAL_KEY}",
+                    "Content-Type":  "application/json",
+                },
+                json=payload,
+                timeout=30,
+            )
+            log.info(f"Mistral HTTP {resp.status_code} for: {title[:60]}")
+            if resp.status_code == 429:
+                log.warning(f"Mistral 429 — waiting 60s: {title[:50]}")
+                time.sleep(60)
+                return None
+            if resp.status_code != 200:
+                log.warning(f"Mistral error body: {resp.text[:300]}")
+                return None
+
+            content = resp.json()["choices"][0]["message"]["content"].strip()
+            if content.startswith("```"):
+                content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+
+            parsed = json.loads(content)
+
+            if isinstance(parsed, dict):
+                log.info(
+                    f"Mistral extracted — signed={parsed.get('is_signed_deal')} "
+                    f"confidence={parsed.get('confidence')} "
+                    f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
+                    f"| {title[:50]}"
+                )
+            elif isinstance(parsed, list):
+                signed_deals = [d for d in parsed if d.get("is_signed_deal")]
+                log.info(
+                    f"Mistral extracted {len(parsed)} deals ({len(signed_deals)} signed) | {title[:50]}"
+                )
+            return parsed
+
+        except json.JSONDecodeError as e:
+            log.warning(
+                f"Mistral JSON parse error (attempt {attempt+1}, {outlet}): {e} "
+                f"| raw: {content[:200]}"
+            )
+            if attempt == 0:
+                log.info("Retrying with shorter input...")
+                continue  # retry with 3000 chars
+            return None
+        except Exception as e:
+            log.warning(f"Mistral call failed ({outlet}): {e}")
             return None
 
-        content = resp.json()["choices"][0]["message"]["content"].strip()
-        if content.startswith("```"):
-            content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-
-        parsed = json.loads(content)
-        
-        # Log based on response type (dict or list)
-        if isinstance(parsed, dict):
-            log.info(
-                f"Mistral extracted — signed={parsed.get('is_signed_deal')} "
-                f"confidence={parsed.get('confidence')} "
-                f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
-                f"| {title[:50]}"
-            )
-        elif isinstance(parsed, list):
-            signed_deals = [d for d in parsed if d.get("is_signed_deal")]
-            log.info(
-                f"Mistral extracted {len(parsed)} deals ({len(signed_deals)} signed) | {title[:50]}"
-            )
-        return parsed
-
-    except json.JSONDecodeError as e:
-        log.warning(f"Mistral JSON parse error ({outlet}): {e} | raw: {content[:200]}")
-        return None
-    except Exception as e:
-        log.warning(f"Mistral call failed ({outlet}): {e}")
-        return None
+    return None
 
 # ── Deduplication ─────────────────────────────────────────────────────────────
 
