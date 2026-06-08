@@ -544,7 +544,7 @@ def write_deal(conn, extracted, article, real_url, full_text, match_type, origin
             extracted.get("country"),
             extracted.get("technology"),
             extracted.get("price_eur_mwh"),
-            article.get("url"),
+            real_url,
             article.get("source", {}).get("name"),
             (article.get("publishedAt") or "")[:10],
             notes,
