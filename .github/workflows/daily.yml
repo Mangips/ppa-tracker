@@ -7,13 +7,21 @@ on:
   workflow_dispatch:  # allows manual trigger from GitHub UI
     inputs:
       target_env:
-        description: 'Select env'
+        description: 'Select environment'
         required: true
         default: 'Prod'
         type: choice
         options:
           - Test
           - Prod
+      start_date:
+        description: 'Start date (YYYY-MM-DD) for historical runs'
+        required: false
+        default: ''
+      end_date:
+        description: 'End date (YYYY-MM-DD) for historical runs'
+        required: false
+        default: ''
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -62,8 +70,8 @@ jobs:
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
-          SEARCH_FROM_DATE: ${{ (github.event_name == 'schedule' || github.event.inputs.target_env == 'Prod') && env.TODAY_DATE || vars.SEARCH_FROM_DATE }}
-          SEARCH_TO_DATE: ${{ vars.SEARCH_TO_DATE }}
+          SEARCH_FROM_DATE: ${{ github.event.inputs.start_date || (github.event_name == 'schedule' && env.TODAY_DATE) || vars.SEARCH_FROM_DATE }}
+          SEARCH_TO_DATE: ${{ github.event.inputs.end_date || vars.SEARCH_TO_DATE }}
           NOTIFY_EMAIL_ENABLED: ${{ vars.NOTIFY_EMAIL_ENABLED }}
           NOTIFY_SMTP_HOST: ${{ secrets.NOTIFY_SMTP_HOST }}
           NOTIFY_SMTP_PORT: ${{ secrets.NOTIFY_SMTP_PORT }}
