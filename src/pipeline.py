@@ -503,7 +503,7 @@ def classify_match(existing: dict, new_deal: dict, new_pub_date: str) -> str:
 
 # ── Database Write ────────────────────────────────────────────────────────────
 
-def write_deal(conn, extracted, article, full_text, match_type, original_id):
+def write_deal(conn, extracted, article, real_url, full_text, match_type, original_id):
     """
     match_type: 'new' | 'update'
     - 'new'    → plain insert
@@ -797,7 +797,7 @@ def run() -> None:
                 + (f" — original ID: {original_id}" if original_id else "")
             )
 
-            write_deal(conn, deal, article, full_text, match_type, original_id)
+            write_deal(conn, deal, article, real_url, full_text, match_type, original_id)
             processed += 1
 
             if match_type == "update":
