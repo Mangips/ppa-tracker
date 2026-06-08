@@ -60,7 +60,7 @@ jobs:
       - name: Trigger workflows for unprocessed weeks
         id: trigger
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
           REPO: ${{ github.repository }}
           WORKFLOW_FILE: daily.yml
           END_DATE: ${{ inputs.end_date }}
