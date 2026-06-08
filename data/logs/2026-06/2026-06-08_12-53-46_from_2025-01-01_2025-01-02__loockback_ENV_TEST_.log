@@ -1,0 +1,97 @@
+2026-06-08 12:53:46,163 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-08 12:53:46,168 [INFO] Searching from 2025-01-01 to 2025-01-02 with  loockback days
+2026-06-08 12:53:46,168 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-08 12:53:46,686 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-01%20before%3A2025-01-02&hl=en&gl=US&ceid=US:en: 3 results
+2026-06-08 12:53:49,115 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-01%20before%3A2025-01-02&hl=en&gl=US&ceid=US:en: 9 results
+2026-06-08 12:53:51,335 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-01%20before%3A2025-01-02&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-08 12:53:53,607 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-01%20before%3A2025-01-02&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-08 12:53:55,853 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-01%20before%3A2025-01-02&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-06-08 12:53:58,082 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-01%20before%3A2025-01-02&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-08 12:54:00,331 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-01%20before%3A2025-01-02&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-08 12:54:02,591 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-01%20before%3A2025-01-02&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-08 12:54:04,961 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-01%20before%3A2025-01-02&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-08 12:54:06,962 [INFO] Total raw articles collected: 12
+2026-06-08 12:54:07,283 [INFO] Extra RSS [energymonitor.ai]: 2 results
+2026-06-08 12:54:09,041 [INFO] Extra RSS [elperiodicodelaenergia.com]: 5 results
+2026-06-08 12:54:10,042 [INFO] Unique unseen articles: 9
+2026-06-08 12:54:10,042 [INFO] ------- Processing article n. 0: Amazon Supports Three New Wind Farms in Greece - POWER Magazine -------
+2026-06-08 12:54:10,414 [INFO] Resolved Google News URL: https://www.powermag.com/amazon-supports-three-new-wind-farms-in-greece/
+2026-06-08 12:54:10,414 [INFO] URL: https://www.powermag.com/amazon-supports-three-new-wind-farms-in-greece/
+2026-06-08 12:54:10,555 [INFO] Text length: 10472 chars | source: full
+2026-06-08 12:54:10,555 [INFO] Text preview: Amazon Supports Three New Wind Farms in Greece Energy & Engineering Group: Search Sign In Email or Username Password Forgot Password? Please contact our Customer Service Team if you are unable to log ...
+2026-06-08 12:54:12,634 [INFO] Mistral HTTP 200 for: Amazon Supports Three New Wind Farms in Greece - POWER Magaz
+2026-06-08 12:54:12,634 [INFO] Mistral extracted 2 deals (2 signed) | Amazon Supports Three New Wind Farms in Greece - P
+2026-06-08 12:54:12,636 [INFO] NEW: Amazon / Aer Soléir (Greece, 109.3 MW)
+2026-06-08 12:54:17,637 [INFO] NEW: Amazon / Iberdrola (United Kingdom, 159 MW)
+2026-06-08 12:54:22,639 [INFO] ------- Processing article n. 2: Hydrogen Europe - Hydrogen Europe -------
+2026-06-08 12:54:23,029 [INFO] Resolved Google News URL: https://hydrogeneurope.eu/trig-will-power-the-hydocc-h2-project-with-electricity
+2026-06-08 12:54:23,029 [INFO] URL: https://hydrogeneurope.eu/trig-will-power-the-hydocc-h2-project-with-electricity-from-two-of-its-french-wind-farms/
+2026-06-08 12:54:24,522 [INFO] Text length: 2299 chars | source: full
+2026-06-08 12:54:24,522 [INFO] Text preview: Hydrogen Europe TRIG will power the Hyd’Occ H2 project with electricity from two of its French wind farms 2 January 2025 Scaling production of green H2 with water electrolysis 2 January 2025 Hydrogen-...
+2026-06-08 12:54:25,660 [INFO] Mistral HTTP 200 for: Hydrogen Europe - Hydrogen Europe
+2026-06-08 12:54:25,660 [INFO] Mistral extracted 1 deals (1 signed) | Hydrogen Europe - Hydrogen Europe
+2026-06-08 12:54:25,662 [INFO] NEW: Qair France / Renewables Infrastructure Group (TRIG) (France, None MW)
+2026-06-08 12:54:30,663 [INFO] ------- Processing article n. 3: Emeren Group Signs Power Purchase Agreement for 15 MWp Solar Farm in Poland - En -------
+2026-06-08 12:54:31,045 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/emeren-group-signs-power-purchase-agreemen
+2026-06-08 12:54:31,046 [INFO] URL: https://www.energetica-india.net/news/emeren-group-signs-power-purchase-agreement-for-15-mwp-solar-farm-in-poland
+2026-06-08 12:54:32,235 [INFO] Text length: 80 chars | source: full
+2026-06-08 12:54:32,235 [INFO] Text preview: One moment, please... Loader Please wait while your request is being verified......
+2026-06-08 12:54:33,044 [INFO] Mistral HTTP 200 for: Emeren Group Signs Power Purchase Agreement for 15 MWp Solar
+2026-06-08 12:54:33,044 [INFO] Mistral extracted 1 deals (0 signed) | Emeren Group Signs Power Purchase Agreement for 15
+2026-06-08 12:54:33,046 [INFO] Not a signed deal — skipping: Emeren Group Signs Power Purchase Agreement for 15 MWp Solar
+2026-06-08 12:54:33,046 [INFO] ------- Processing article n. 3: Meta signs long-term PPA with Longroad Energy in Texas - Data Center Dynamics -------
+2026-06-08 12:54:33,418 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/meta-signs-long-term-ppa-with-longroa
+2026-06-08 12:54:33,418 [INFO] URL: https://www.datacenterdynamics.com/en/news/meta-signs-long-term-ppa-with-longroad-energy-in-texas/
+2026-06-08 12:54:34,091 [INFO] Text length: 3121 chars | source: full
+2026-06-08 12:54:34,091 [INFO] Text preview: Meta signs long-term PPA with Longroad Energy in Texas - DCD Stream Now: DCD>Broadcast - Strengthening network & data center parternships Home News The Energy & Sustainability Channel Meta signs long-...
+2026-06-08 12:54:35,112 [INFO] Mistral HTTP 200 for: Meta signs long-term PPA with Longroad Energy in Texas - Dat
+2026-06-08 12:54:35,113 [INFO] Mistral extracted 1 deals (1 signed) | Meta signs long-term PPA with Longroad Energy in T
+2026-06-08 12:54:35,114 [INFO] Not a European deal — skipping: Meta / Longroad Energy (United States, 300 MW)
+2026-06-08 12:54:35,114 [INFO] ------- Processing article n. 3: Russian gas era in Europe ends as Ukraine stops transit - Reuters -------
+2026-06-08 12:54:35,453 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/russia-halts-gas-exports-europe-via-ukra
+2026-06-08 12:54:35,453 [INFO] URL: https://www.reuters.com/business/energy/russia-halts-gas-exports-europe-via-ukraine-2025-01-01/
+2026-06-08 12:54:35,694 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/russia-halts-gas-exports-europe-via-ukra
+2026-06-08 12:54:35,694 [INFO] Text length: 143 chars | source: fallback
+2026-06-08 12:54:35,694 [INFO] Text preview: Russian gas era in Europe ends as Ukraine stops transit - Reuters
+
+Russian gas era in Europe ends as Ukraine stops transit &nbsp;&nbsp; Reuters...
+2026-06-08 12:54:36,533 [INFO] Mistral HTTP 200 for: Russian gas era in Europe ends as Ukraine stops transit - Re
+2026-06-08 12:54:36,534 [INFO] Mistral extracted 1 deals (0 signed) | Russian gas era in Europe ends as Ukraine stops tr
+2026-06-08 12:54:36,535 [INFO] Not a signed deal — skipping: Russian gas era in Europe ends as Ukraine stops transit - Re
+2026-06-08 12:54:36,535 [INFO] ------- Processing article n. 3: Eurelectric: EU achieved the cleanest power generation mix yet in 2024 - INSIGHT -------
+2026-06-08 12:54:36,929 [INFO] Resolved Google News URL: https://ieu-monitoring.com/editorial/eurelectric-eu-achieved-the-cleanest-power-
+2026-06-08 12:54:36,929 [INFO] URL: https://ieu-monitoring.com/editorial/eurelectric-eu-achieved-the-cleanest-power-generation-mix-yet-in-2024/528531?utm_source=ieu-portal
+2026-06-08 12:54:38,418 [INFO] Text length: 7880 chars | source: full
+2026-06-08 12:54:38,418 [INFO] Text preview: Eurelectric: EU achieved the cleanest power generation mix yet in 2024 – INSIGHT EU MONITORING Skip to content Eurelectric: EU achieved the cleanest power generation mix yet in 2024 Jan 2, 2025 carbon...
+2026-06-08 12:54:39,256 [INFO] Mistral HTTP 200 for: Eurelectric: EU achieved the cleanest power generation mix y
+2026-06-08 12:54:39,256 [INFO] Mistral extracted 1 deals (0 signed) | Eurelectric: EU achieved the cleanest power genera
+2026-06-08 12:54:39,258 [INFO] Not a signed deal — skipping: Eurelectric: EU achieved the cleanest power generation mix y
+2026-06-08 12:54:39,258 [INFO] ------- Processing article n. 3: Russian gas flows to Europe via Ukraine cease as transit agreement expires - The -------
+2026-06-08 12:54:39,630 [INFO] Resolved Google News URL: https://www.theguardian.com/world/2025/jan/01/breakaway-moldovan-region-cuts-hea
+2026-06-08 12:54:39,630 [INFO] URL: https://www.theguardian.com/world/2025/jan/01/breakaway-moldovan-region-cuts-heating-and-hot-water-as-russia-stops-gas-flow
+2026-06-08 12:54:39,852 [INFO] Text length: 8349 chars | source: full
+2026-06-08 12:54:39,852 [INFO] Text preview: Russian gas flows to Europe via Ukraine cease as transit agreement expires | Russia | The Guardian Skip to main content Skip to navigation A Russian worker stands by a gas pipe segment at a constructi...
+2026-06-08 12:54:41,310 [INFO] Mistral HTTP 200 for: Russian gas flows to Europe via Ukraine cease as transit agr
+2026-06-08 12:54:41,310 [INFO] Mistral extracted 1 deals (0 signed) | Russian gas flows to Europe via Ukraine cease as t
+2026-06-08 12:54:41,312 [INFO] Not a signed deal — skipping: Russian gas flows to Europe via Ukraine cease as transit agr
+2026-06-08 12:54:41,312 [INFO] ------- Processing article n. 3: Short Stories: 2025 - T&D India -------
+2026-06-08 12:54:41,745 [INFO] Resolved Google News URL: https://www.tndindia.com/short-stories-2025/
+2026-06-08 12:54:41,745 [INFO] URL: https://www.tndindia.com/short-stories-2025/
+2026-06-08 12:54:42,275 [INFO] Text length: 25993 chars | source: full
+2026-06-08 12:54:42,275 [INFO] Text preview: Short Stories: 2025 - Your Gateway to Power Transmission & Distribution About Us Reach Us Amber Media LLP Sign Up member login News Short Stories: 2025 T&D India January 1, 2025 Share Here is an ongoi...
+2026-06-08 12:54:43,147 [INFO] Mistral HTTP 200 for: Short Stories: 2025 - T&D India
+2026-06-08 12:54:43,147 [INFO] Mistral extracted 1 deals (0 signed) | Short Stories: 2025 - T&D India
+2026-06-08 12:54:43,148 [INFO] Not a signed deal — skipping: Short Stories: 2025 - T&D India
+2026-06-08 12:54:43,148 [INFO] ------- Processing article n. 3: Constellation inks $1 billion deal to supply US government with nuclear power -  -------
+2026-06-08 12:54:43,526 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/constellation-secures-1-bln-contracts-su
+2026-06-08 12:54:43,526 [INFO] URL: https://www.reuters.com/business/energy/constellation-secures-1-bln-contracts-supply-us-government-with-nuclear-power-2025-01-02/
+2026-06-08 12:54:43,622 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/constellation-secures-1-bln-contracts-su
+2026-06-08 12:54:43,622 [INFO] Text length: 187 chars | source: fallback
+2026-06-08 12:54:43,622 [INFO] Text preview: Constellation inks $1 billion deal to supply US government with nuclear power - Reuters
+
+Constellation inks $1 billion deal to supply US government with nuclear power &nbsp;&nbsp; Reuters...
+2026-06-08 12:54:44,514 [INFO] Mistral HTTP 200 for: Constellation inks $1 billion deal to supply US government w
+2026-06-08 12:54:44,515 [INFO] Mistral extracted 1 deals (0 signed) | Constellation inks $1 billion deal to supply US go
+2026-06-08 12:54:44,516 [INFO] Not a signed deal — skipping: Constellation inks $1 billion deal to supply US government w
+2026-06-08 12:54:44,516 [INFO] Run complete. New deals: 3, Updates: 0
+2026-06-08 12:54:44,516 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (3 deals)
