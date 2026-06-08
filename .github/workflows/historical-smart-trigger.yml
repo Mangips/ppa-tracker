@@ -8,9 +8,9 @@ on:
         required: true
         default: '2026-06-08'
       mistral_requests_per_run:
-        description: 'Estimated Mistral requests per run (default 50)'
+        description: 'Estimated Mistral requests per run (default 200)'
         required: true
-        default: '50'
+        default: '200'
 
 jobs:
   check-and-trigger:
