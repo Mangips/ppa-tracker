@@ -35,9 +35,9 @@ CSV_PATH = DATA_DIR / "ppa_deals.csv"
 NEWSAPI_KEY = os.environ["NEWSAPI_KEY"]
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 
-MISTRAL_KEY   = os.environ["GROQ_KEY"]
-MISTRAL_URL   = "https://api.groq.com/openai/v1/chat/completions"
-MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "llama-3.3-70b-versatile")
+llm_KEY   = os.environ["GROQ_KEY"]
+llm_URL   = "https://api.groq.com/openai/v1/chat/completions"
+llm_MODEL = os.environ.get("llm_MODEL", "llama-3.3-70b-versatile")
 
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
 
@@ -277,7 +277,7 @@ def fetch_extra_rss(feed_url: str, from_date: str, to_date: str | None = None) -
             if to_date and pub_date and pub_date > to_date:
                 continue
 
-            # Skip obviously irrelevant articles before hitting Mistral
+            # Skip obviously irrelevant articles before hitting llm
             text_lower = (title).lower()
             if not any(kw in text_lower for kw in ["ppa", "power purchase", "offtake", "rinnovab", "erneuerbar", "renovable", "renouvelable"]):
                 continue
@@ -343,7 +343,7 @@ def fetch_full_text(url: str) -> str | None:
         log.info(f"Full text fetch failed ({e}): {url[:80]}")
         return None
 
-# ── Mistral Extraction ─────────────────────────────────────────────────────────
+# ── llm Extraction ─────────────────────────────────────────────────────────
 
 EXTRACTION_PROMPT = """\
 You are an expert energy analyst. Extract structured information about Power Purchase Agreement (PPA) deals.
@@ -381,32 +381,32 @@ Text (any language — return all fields in English):
 {text}"""
 
 
-def extract_with_mistral(text: str, title: str, outlet: str) -> dict | list | None:
+def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
     for attempt, text_limit in enumerate([6000, 3000]):
         prompt  = EXTRACTION_PROMPT.format(text=text[:text_limit])
         payload = {
-            "model":       MISTRAL_MODEL,
+            "model":       llm_MODEL,
             "temperature": 0.1,
             "max_tokens":  1024,
             "messages":    [{"role": "user", "content": prompt}],
         }
         try:
             resp = requests.post(
-                MISTRAL_URL,
+                llm_URL,
                 headers={
-                    "Authorization": f"Bearer {MISTRAL_KEY}",
+                    "Authorization": f"Bearer {llm_KEY}",
                     "Content-Type":  "application/json",
                 },
                 json=payload,
                 timeout=30,
             )
-            log.info(f"Mistral HTTP {resp.status_code} for: {title[:60]}")
+            log.info(f"LLM HTTP {resp.status_code} for: {title[:60]}")
             if resp.status_code == 429:
-                log.warning(f"Mistral 429 — waiting 60s: {title[:50]}")
+                log.warning(f"LLM 429 — waiting 60s: {title[:50]}")
                 time.sleep(60)
                 return None
             if resp.status_code != 200:
-                log.warning(f"Mistral error body: {resp.text[:300]}")
+                log.warning(f"LLM error body: {resp.text[:300]}")
                 return None
 
             content = resp.json()["choices"][0]["message"]["content"].strip()
@@ -417,7 +417,7 @@ def extract_with_mistral(text: str, title: str, outlet: str) -> dict | list | No
 
             if isinstance(parsed, dict):
                 log.info(
-                    f"Mistral extracted — signed={parsed.get('is_signed_deal')} "
+                    f"LLM extracted — signed={parsed.get('is_signed_deal')} "
                     f"confidence={parsed.get('confidence')} "
                     f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
                     f"| {title[:50]}"
@@ -425,13 +425,13 @@ def extract_with_mistral(text: str, title: str, outlet: str) -> dict | list | No
             elif isinstance(parsed, list):
                 signed_deals = [d for d in parsed if d.get("is_signed_deal")]
                 log.info(
-                    f"Mistral extracted {len(parsed)} deals ({len(signed_deals)} signed) | {title[:50]}"
+                    f"LLM extracted {len(parsed)} deals ({len(signed_deals)} signed) | {title[:50]}"
                 )
             return parsed
 
         except json.JSONDecodeError as e:
             log.warning(
-                f"Mistral JSON parse error (attempt {attempt+1}, {outlet}): {e} "
+                f"LLM JSON parse error (attempt {attempt+1}, {outlet}): {e} "
                 f"| raw: {content[:200]}"
             )
             if attempt == 0:
@@ -439,7 +439,7 @@ def extract_with_mistral(text: str, title: str, outlet: str) -> dict | list | No
                 continue  # retry with 3000 chars
             return None
         except Exception as e:
-            log.warning(f"Mistral call failed ({outlet}): {e}")
+            log.warning(f"LLM call failed ({outlet}): {e}")
             return None
 
     return None
@@ -702,7 +702,7 @@ def run() -> None:
 
     log.info(f"Unique unseen articles: {len(unique_articles)}")
 
-    # 3. Process each article through Mistral
+    # 3. Process each article through LLM
     new_deals = 0
     updates   = 0
     processed = 0
@@ -741,17 +741,17 @@ def run() -> None:
             log.warning(f"No text to extract for: {url[:80]}")
             continue
 
-        extracted = extract_with_mistral(text_for_extraction, title, outlet)
+        extracted = extract_with_llm(text_for_extraction, title, outlet)
 
         if extracted is None:
-            log.warning(f"Mistral returned None — skipping: {title[:60]}")
+            log.warning(f"LLM returned None — skipping: {title[:60]}")
             continue
 
         # Parse as array (handle both single object and array for backward compatibility)
         try:
             deals = extracted if isinstance(extracted, list) else [extracted]
         except Exception as e:
-            log.warning(f"Failed to parse Mistral response ({e}) — skipping: {title[:60]}")
+            log.warning(f"Failed to parse LLM response ({e}) — skipping: {title[:60]}")
             continue
 
         # Mark URL as seen (only once per article)
@@ -819,7 +819,7 @@ def run() -> None:
             else:
                 new_deals += 1
 
-            time.sleep(5)  # Mistral free tier: stay well within rate limits
+            time.sleep(5)  # LLM free tier: stay well within rate limits
     
     log.info(f"Run complete. New deals: {new_deals}, Updates: {updates}")
     export_csv(conn)
