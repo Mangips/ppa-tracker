@@ -35,9 +35,9 @@ CSV_PATH = DATA_DIR / "ppa_deals.csv"
 NEWSAPI_KEY = os.environ["NEWSAPI_KEY"]
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 
-MISTRAL_KEY   = os.environ["MISTRAL_KEY"]
-MISTRAL_URL   = "https://api.mistral.ai/v1/chat/completions"
-MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "mistral-small-latest")
+MISTRAL_KEY   = os.environ["GROQ_KEY"]
+MISTRAL_URL   = "https://api.groq.com/openai/v1/chat/completions"
+MISTRAL_MODEL = os.environ.get("MISTRAL_MODEL", "llama-3.3-70b-versatile")
 
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
 
