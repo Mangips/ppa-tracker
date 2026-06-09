@@ -1,0 +1,154 @@
+2026-06-09 15:44:32,872 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-06-09 15:44:32,872 [INFO] Searching from 2025-01-02 to 2025-01-08 with 3 loockback days
+2026-06-09 15:44:32,872 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-09 15:44:33,271 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-02%20before%3A2025-01-08&hl=en&gl=US&ceid=US:en: 5 results
+2026-06-09 15:44:35,604 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-02%20before%3A2025-01-08&hl=en&gl=US&ceid=US:en: 15 results
+2026-06-09 15:44:37,819 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-02%20before%3A2025-01-08&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-09 15:44:40,077 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-02%20before%3A2025-01-08&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-09 15:44:42,304 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-02%20before%3A2025-01-08&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-06-09 15:44:44,543 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-02%20before%3A2025-01-08&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-09 15:44:46,744 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-02%20before%3A2025-01-08&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-09 15:44:48,981 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-02%20before%3A2025-01-08&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-09 15:44:51,247 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-02%20before%3A2025-01-08&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-09 15:44:53,247 [INFO] Total raw articles collected: 21
+2026-06-09 15:44:53,413 [INFO] Extra RSS [energymonitor.ai]: 2 results
+2026-06-09 15:44:55,217 [INFO] Extra RSS [elperiodicodelaenergia.com]: 6 results
+2026-06-09 15:44:56,217 [INFO] Unique unseen articles: 16
+2026-06-09 15:44:56,217 [INFO] ------- Processing article n. 0: Low Carbon signs long-term Power Purchase Agreement with carbon removal project  -------
+2026-06-09 15:44:56,445 [INFO] Resolved Google News URL: https://www.deepskyclimate.com/blog/low-carbon-signs-long-term-power-purchase-ag
+2026-06-09 15:44:56,445 [INFO] URL: https://www.deepskyclimate.com/blog/low-carbon-signs-long-term-power-purchase-agreement-with-carbon-removal-project-developer-deep-sky
+2026-06-09 15:44:56,520 [INFO] Text length: 8854 chars | source: full
+2026-06-09 15:44:56,520 [INFO] Text preview: Low Carbon signs long-term Power Purchase Agreement with carbon removal project developer Deep Sky L O O G Menu REMOVE CARBON Subscribe to our newsletter The place for unfiltered climate news and Deep...
+2026-06-09 15:44:58,681 [INFO] Mistral HTTP 200 for: Low Carbon signs long-term Power Purchase Agreement with car
+2026-06-09 15:44:58,681 [INFO] Mistral extracted 2 deals (2 signed) | Low Carbon signs long-term Power Purchase Agreemen
+2026-06-09 15:44:58,684 [INFO] Not a European deal — skipping: Deep Sky / Low Carbon (Canada, None MW)
+2026-06-09 15:44:58,685 [INFO] NEW: Lloyds Banking Group / Low Carbon (UK, None MW)
+2026-06-09 15:45:03,686 [INFO] ------- Processing article n. 1: Deep Sky, Low Carbon to Power Carbon Removal Project with 100% Renewable Energy  -------
+2026-06-09 15:45:03,917 [INFO] Resolved Google News URL: https://www.esgtoday.com/deep-sky-low-carbon-to-power-carbon-removal-project-wit
+2026-06-09 15:45:03,917 [INFO] URL: https://www.esgtoday.com/deep-sky-low-carbon-to-power-carbon-removal-project-with-100-renewable-energy/
+2026-06-09 15:45:04,036 [INFO] Text length: 12285 chars | source: full
+2026-06-09 15:45:04,036 [INFO] Text preview: Deep Sky, Low Carbon to Power Carbon Removal Project with 100% Renewable Energy - ESG Today Energy Transition / Environment Deep Sky, Low Carbon to Power Carbon Removal Project with 100% Renewable Ene...
+2026-06-09 15:45:05,093 [INFO] Mistral HTTP 200 for: Deep Sky, Low Carbon to Power Carbon Removal Project with 10
+2026-06-09 15:45:05,093 [INFO] Mistral extracted 1 deals (1 signed) | Deep Sky, Low Carbon to Power Carbon Removal Proje
+2026-06-09 15:45:05,094 [INFO] Not a European deal — skipping: Deep Sky / Low Carbon (Canada, None MW)
+2026-06-09 15:45:05,094 [INFO] ------- Processing article n. 1: Amazon Supports Three New Wind Farms in Greece - POWER Magazine -------
+2026-06-09 15:45:05,291 [INFO] Resolved Google News URL: https://www.powermag.com/amazon-supports-three-new-wind-farms-in-greece/
+2026-06-09 15:45:05,292 [INFO] URL: https://www.powermag.com/amazon-supports-three-new-wind-farms-in-greece/
+2026-06-09 15:45:05,347 [INFO] Text length: 10491 chars | source: full
+2026-06-09 15:45:05,347 [INFO] Text preview: Amazon Supports Three New Wind Farms in Greece Energy & Engineering Group: Search Sign In Email or Username Password Forgot Password? Please contact our Customer Service Team if you are unable to log ...
+2026-06-09 15:45:07,344 [INFO] Mistral HTTP 200 for: Amazon Supports Three New Wind Farms in Greece - POWER Magaz
+2026-06-09 15:45:07,344 [INFO] Mistral extracted 2 deals (2 signed) | Amazon Supports Three New Wind Farms in Greece - P
+2026-06-09 15:45:07,345 [INFO] NEW: Amazon / Aer Soléir (Greece, 109.3 MW)
+2026-06-09 15:45:12,350 [INFO] NEW: Amazon / Iberdrola (United Kingdom, 159 MW)
+2026-06-09 15:45:17,352 [INFO] ------- Processing article n. 3: Hydrogen Europe - Hydrogen Europe -------
+2026-06-09 15:45:17,561 [INFO] Resolved Google News URL: https://hydrogeneurope.eu/trig-will-power-the-hydocc-h2-project-with-electricity
+2026-06-09 15:45:17,561 [INFO] URL: https://hydrogeneurope.eu/trig-will-power-the-hydocc-h2-project-with-electricity-from-two-of-its-french-wind-farms/
+2026-06-09 15:45:19,187 [INFO] Text length: 2299 chars | source: full
+2026-06-09 15:45:19,187 [INFO] Text preview: Hydrogen Europe TRIG will power the Hyd’Occ H2 project with electricity from two of its French wind farms 2 January 2025 Scaling production of green H2 with water electrolysis 2 January 2025 Hydrogen-...
+2026-06-09 15:45:20,425 [INFO] Mistral HTTP 200 for: Hydrogen Europe - Hydrogen Europe
+2026-06-09 15:45:20,426 [INFO] Mistral extracted 1 deals (1 signed) | Hydrogen Europe - Hydrogen Europe
+2026-06-09 15:45:20,427 [INFO] NEW: Qair France / Renewables Infrastructure Group (TRIG) (France, None MW)
+2026-06-09 15:45:25,428 [INFO] ------- Processing article n. 4: NBN signs six year PPA with operator of Australia's largest wind farm - Data Cen -------
+2026-06-09 15:45:25,634 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/nbn-signs-six-year-ppa-with-operator-
+2026-06-09 15:45:25,634 [INFO] URL: https://www.datacenterdynamics.com/en/news/nbn-signs-six-year-ppa-with-operator-of-australias-largest-wind-farm/
+2026-06-09 15:45:26,464 [INFO] Text length: 3126 chars | source: full
+2026-06-09 15:45:26,464 [INFO] Text preview: NBN signs six year PPA with operator of Australia's largest wind farm - DCD Stream Now: DCD Broadcast - Don’t let tubing fail the rack: Two-phase fluid conveyance Home News The Energy & Sustainability...
+2026-06-09 15:45:28,924 [INFO] Mistral HTTP 200 for: NBN signs six year PPA with operator of Australia's largest 
+2026-06-09 15:45:28,924 [INFO] Mistral extracted 3 deals (3 signed) | NBN signs six year PPA with operator of Australia'
+2026-06-09 15:45:28,925 [INFO] Not a European deal — skipping: NBN Co / AGL Energy (Australia, 420 MW)
+2026-06-09 15:45:28,925 [INFO] Not a European deal — skipping: NBN Co / unknown (Australia, 75 MW)
+2026-06-09 15:45:28,925 [INFO] Not a European deal — skipping: NBN Co / unknown (Australia, 120 MW)
+2026-06-09 15:45:28,926 [INFO] ------- Processing article n. 4: Meta signs long-term PPA with Longroad Energy in Texas - Data Center Dynamics -------
+2026-06-09 15:45:29,219 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/meta-signs-long-term-ppa-with-longroa
+2026-06-09 15:45:29,219 [INFO] URL: https://www.datacenterdynamics.com/en/news/meta-signs-long-term-ppa-with-longroad-energy-in-texas/
+2026-06-09 15:45:29,928 [INFO] Text length: 3151 chars | source: full
+2026-06-09 15:45:29,928 [INFO] Text preview: Meta signs long-term PPA with Longroad Energy in Texas - DCD Stream Now: DCD Broadcast - Don’t let tubing fail the rack: Two-phase fluid conveyance Home News The Energy & Sustainability Channel Meta s...
+2026-06-09 15:45:31,022 [INFO] Mistral HTTP 200 for: Meta signs long-term PPA with Longroad Energy in Texas - Dat
+2026-06-09 15:45:31,022 [INFO] Mistral extracted 1 deals (1 signed) | Meta signs long-term PPA with Longroad Energy in T
+2026-06-09 15:45:31,023 [INFO] Not a European deal — skipping: Meta / Longroad Energy (United States, 300 MW)
+2026-06-09 15:45:31,024 [INFO] ------- Processing article n. 4: Evolve Energy joins forces with Shell Energy Europe - Solar Power Portal -------
+2026-06-09 15:45:31,288 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-finance/evolve-energy-joins-forces-with
+2026-06-09 15:45:31,288 [INFO] URL: https://www.solarpowerportal.co.uk/solar-finance/evolve-energy-joins-forces-with-shell-energy-europe
+2026-06-09 15:45:32,406 [INFO] Text length: 3727 chars | source: full
+2026-06-09 15:45:32,406 [INFO] Text preview: Evolve Energy joins forces with Shell Energy Europe - Solar Power Portal Solar Finance Solar Investment Energy Policy Solar Technology News Evolve Energy joins forces with Shell Energy Europe Renewabl...
+2026-06-09 15:45:33,619 [INFO] Mistral HTTP 200 for: Evolve Energy joins forces with Shell Energy Europe - Solar 
+2026-06-09 15:45:33,619 [INFO] Mistral extracted 1 deals (1 signed) | Evolve Energy joins forces with Shell Energy Europ
+2026-06-09 15:45:33,621 [INFO] NEW: Evolve Energy / Shell Energy Europe Ltd (United Kingdom, None MW)
+2026-06-09 15:45:38,622 [INFO] ------- Processing article n. 5: EDP Renewables announces another 300 MW of solar now operational in Kern County  -------
+2026-06-09 15:45:38,923 [INFO] Resolved Google News URL: https://pv-magazine-usa.com/2025/01/08/edp-renewables-announces-another-300-mw-o
+2026-06-09 15:45:38,924 [INFO] URL: https://pv-magazine-usa.com/2025/01/08/edp-renewables-announces-another-300-mw-of-solar-now-operational-in-kern-county/
+2026-06-09 15:45:40,861 [INFO] Text length: 9326 chars | source: full
+2026-06-09 15:45:40,861 [INFO] Text preview: EDP Renewables announces another 300 MW of solar now operational in Kern County - pv magazine USA Advertisement Advertisement Advertisement Advertisement Applications & Installations EDP Renewables an...
+2026-06-09 15:45:42,628 [INFO] Mistral HTTP 200 for: EDP Renewables announces another 300 MW of solar now operati
+2026-06-09 15:45:42,628 [INFO] Mistral extracted 2 deals (2 signed) | EDP Renewables announces another 300 MW of solar n
+2026-06-09 15:45:42,629 [INFO] Not a European deal — skipping: Shell Energy North America / EDP Renewables North America LLC (United States, 200 MW)
+2026-06-09 15:45:42,630 [INFO] Not a European deal — skipping: Redwood Coast Energy Authority / EDP Renewables North America LLC (United States, 100 MW)
+2026-06-09 15:45:42,630 [INFO] ------- Processing article n. 5: Constellation inks $1 billion deal to supply US government with nuclear power -  -------
+2026-06-09 15:45:42,863 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/constellation-secures-1-bln-contracts-su
+2026-06-09 15:45:42,863 [INFO] URL: https://www.reuters.com/business/energy/constellation-secures-1-bln-contracts-supply-us-government-with-nuclear-power-2025-01-02/
+2026-06-09 15:45:42,930 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/constellation-secures-1-bln-contracts-su
+2026-06-09 15:45:42,931 [INFO] Text length: 187 chars | source: fallback
+2026-06-09 15:45:42,931 [INFO] Text preview: Constellation inks $1 billion deal to supply US government with nuclear power - Reuters
+
+Constellation inks $1 billion deal to supply US government with nuclear power &nbsp;&nbsp; Reuters...
+2026-06-09 15:45:43,820 [INFO] Mistral HTTP 200 for: Constellation inks $1 billion deal to supply US government w
+2026-06-09 15:45:43,820 [INFO] Mistral extracted 1 deals (0 signed) | Constellation inks $1 billion deal to supply US go
+2026-06-09 15:45:43,822 [INFO] Not a signed deal — skipping: Constellation inks $1 billion deal to supply US government w
+2026-06-09 15:45:43,822 [INFO] ------- Processing article n. 5: Eurelectric: EU achieved the cleanest power generation mix yet in 2024 - INSIGHT -------
+2026-06-09 15:45:44,057 [INFO] Resolved Google News URL: https://ieu-monitoring.com/editorial/eurelectric-eu-achieved-the-cleanest-power-
+2026-06-09 15:45:44,058 [INFO] URL: https://ieu-monitoring.com/editorial/eurelectric-eu-achieved-the-cleanest-power-generation-mix-yet-in-2024/528531?utm_source=ieu-portal
+2026-06-09 15:45:45,408 [INFO] Text length: 7880 chars | source: full
+2026-06-09 15:45:45,409 [INFO] Text preview: Eurelectric: EU achieved the cleanest power generation mix yet in 2024 – INSIGHT EU MONITORING Skip to content Eurelectric: EU achieved the cleanest power generation mix yet in 2024 Jan 2, 2025 carbon...
+2026-06-09 15:45:46,297 [INFO] Mistral HTTP 200 for: Eurelectric: EU achieved the cleanest power generation mix y
+2026-06-09 15:45:46,297 [INFO] Mistral extracted 1 deals (0 signed) | Eurelectric: EU achieved the cleanest power genera
+2026-06-09 15:45:46,298 [INFO] Not a signed deal — skipping: Eurelectric: EU achieved the cleanest power generation mix y
+2026-06-09 15:45:46,298 [INFO] ------- Processing article n. 5: Renewables Accounted For 48% Of EU Power Mix In 2024 - TaiyangNews -------
+2026-06-09 15:45:46,545 [INFO] Resolved Google News URL: https://taiyangnews.info/markets/eurelectric-2024-european-union-energy-mix
+2026-06-09 15:45:46,545 [INFO] URL: https://taiyangnews.info/markets/eurelectric-2024-european-union-energy-mix
+2026-06-09 15:45:46,836 [INFO] Text length: 3997 chars | source: full
+2026-06-09 15:45:46,836 [INFO] Text preview: Renewables Accounted For 48% Of EU Power Mix In 2024, Says Eurelectric Markets Business People Opinion Opinion TaiyangNews Executive Interviews Technology Storage+ Reports Our Events Tenders Price Ind...
+2026-06-09 15:45:47,725 [INFO] Mistral HTTP 200 for: Renewables Accounted For 48% Of EU Power Mix In 2024 - Taiya
+2026-06-09 15:45:47,725 [INFO] Mistral extracted 1 deals (0 signed) | Renewables Accounted For 48% Of EU Power Mix In 20
+2026-06-09 15:45:47,727 [INFO] Not a signed deal — skipping: Renewables Accounted For 48% Of EU Power Mix In 2024 - Taiya
+2026-06-09 15:45:47,727 [INFO] ------- Processing article n. 5: RWE takes final investment decision for repowering of Muel wind farm in Spain -  -------
+2026-06-09 15:45:47,954 [INFO] Resolved Google News URL: https://www.rwe.com/en/press/rwe-renewables-europe-australia/2025-01-08-rwe-take
+2026-06-09 15:45:47,954 [INFO] URL: https://www.rwe.com/en/press/rwe-renewables-europe-australia/2025-01-08-rwe-takes-final-investment-decision-for-repowering-of-muel-wind-farm-in-spain/
+2026-06-09 15:45:50,405 [INFO] Text length: 3391 chars | source: full
+2026-06-09 15:45:50,405 [INFO] Text preview: RWE takes final investment decision for repowering of  Muel wind farm in Spain From 27 to 3 turbines / total installed capacity to increase from 16.2 MW to 19.8 MW Construction due to start in spring,...
+2026-06-09 15:45:51,697 [INFO] Mistral HTTP 200 for: RWE takes final investment decision for repowering of Muel w
+2026-06-09 15:45:51,697 [INFO] Mistral extracted 1 deals (1 signed) | RWE takes final investment decision for repowering
+2026-06-09 15:45:51,699 [INFO] NEW: undisclosed offtaker / RWE Renewables Iberia (Spain, 19.8 MW)
+2026-06-09 15:45:56,700 [INFO] ------- Processing article n. 6: Term Sheet for Hydrogen Supply and Offtake with Uniper - Investing News Network -------
+2026-06-09 15:45:56,942 [INFO] Resolved Google News URL: https://investingnews.com/term-sheet-for-hydrogen-supply-and-offtake-with-uniper
+2026-06-09 15:45:56,942 [INFO] URL: https://investingnews.com/term-sheet-for-hydrogen-supply-and-offtake-with-uniper/
+2026-06-09 15:45:57,159 [INFO] Text length: 11778 chars | source: full
+2026-06-09 15:45:57,159 [INFO] Text preview: Term Sheet for Hydrogen Supply and Offtake with Uniper | INN Australia North America World Login Investing News Network Your trusted source for investing success Videos Companies Press Releases Privat...
+2026-06-09 15:45:58,022 [INFO] Mistral HTTP 200 for: Term Sheet for Hydrogen Supply and Offtake with Uniper - Inv
+2026-06-09 15:45:58,022 [INFO] Mistral extracted 1 deals (0 signed) | Term Sheet for Hydrogen Supply and Offtake with Un
+2026-06-09 15:45:58,024 [INFO] Not a signed deal — skipping: Term Sheet for Hydrogen Supply and Offtake with Uniper - Inv
+2026-06-09 15:45:58,024 [INFO] ------- Processing article n. 6: Oman LNG delivers first cargo from 10-year deal to its largest offtaker Shell -  -------
+2026-06-09 15:45:58,227 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/oman-lng-delivers-first-cargo-from-10-year-deal-
+2026-06-09 15:45:58,227 [INFO] URL: https://www.offshore-energy.biz/oman-lng-delivers-first-cargo-from-10-year-deal-to-its-largest-offtaker-shell/
+2026-06-09 15:45:59,774 [INFO] Text length: 4200 chars | source: full
+2026-06-09 15:45:59,775 [INFO] Text preview: Oman LNG delivers first cargo from 10-year deal to its largest offtaker Shell - Offshore Energy Direct naar inhoud Advertisement Back to overview Home News Oman LNG delivers first cargo from 10-year d...
+2026-06-09 15:46:00,792 [INFO] Mistral HTTP 200 for: Oman LNG delivers first cargo from 10-year deal to its large
+2026-06-09 15:46:00,792 [INFO] Mistral extracted 1 deals (1 signed) | Oman LNG delivers first cargo from 10-year deal to
+2026-06-09 15:46:00,794 [INFO] NEW: Securing Energy for Europe (SEFE) / Oman LNG (Oman, None MW)
+2026-06-09 15:46:05,796 [INFO] ------- Processing article n. 7: 3,500 jobs threatened as ArcelorMittal halts activity in South Africa - belganew -------
+2026-06-09 15:46:06,017 [INFO] Resolved Google News URL: https://www.belganewsagency.eu/arcelormittal-to-halt-activity-in-south-africa-35
+2026-06-09 15:46:06,017 [INFO] URL: https://www.belganewsagency.eu/arcelormittal-to-halt-activity-in-south-africa-3500-jobs-threatened
+2026-06-09 15:46:07,417 [INFO] Text length: 3360 chars | source: full
+2026-06-09 15:46:07,417 [INFO] Text preview: 3,500 jobs threatened as ArcelorMittal halts activity in South Africa POLITICS , ECONOMY , CLIMATE , WORLD , INNOVATION 3,500 jobs threatened as ArcelorMittal halts activity in South Africa 06/01/2025...
+2026-06-09 15:46:08,807 [INFO] Mistral HTTP 200 for: 3,500 jobs threatened as ArcelorMittal halts activity in Sou
+2026-06-09 15:46:08,807 [INFO] Mistral extracted 1 deals (1 signed) | 3,500 jobs threatened as ArcelorMittal halts activ
+2026-06-09 15:46:08,809 [INFO] NEW: federal government / ArcelorMittal Belgium (Belgium, None MW)
+2026-06-09 15:46:13,811 [INFO] ------- Processing article n. 8: El año de las incógnitas - Energías Renovables, el periodismo de las energías li -------
+2026-06-09 15:46:14,041 [INFO] Resolved Google News URL: https://www.energias-renovables.com/panorama/el-ao-de-las-incognitas-20250107
+2026-06-09 15:46:14,041 [INFO] URL: https://www.energias-renovables.com/panorama/el-ao-de-las-incognitas-20250107
+2026-06-09 15:46:14,864 [INFO] Text length: 23720 chars | source: full
+2026-06-09 15:46:14,864 [INFO] Text preview: El año de las incógnitas panorama El año de las incógnitas Martes, 07 de enero de 2025 3 Antonio Barrero F. La X de Trump. ¿Se entregará a los aranceles o se rendirá a su condición natural de ultra......
+2026-06-09 15:46:15,272 [INFO] Mistral HTTP 200 for: El año de las incógnitas - Energías Renovables, el periodism
+2026-06-09 15:46:15,272 [INFO] Mistral extracted 0 deals (0 signed) | El año de las incógnitas - Energías Renovables, el
+2026-06-09 15:46:15,274 [INFO] Run complete. New deals: 8, Updates: 0
+2026-06-09 15:46:15,275 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (8 deals)
+2026-06-09 15:46:17,067 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
