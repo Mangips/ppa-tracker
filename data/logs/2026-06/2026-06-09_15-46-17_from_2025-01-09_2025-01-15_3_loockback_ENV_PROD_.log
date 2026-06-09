@@ -1,0 +1,230 @@
+2026-06-09 15:46:17,260 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-06-09 15:46:17,261 [INFO] Searching from 2025-01-09 to 2025-01-15 with 3 loockback days
+2026-06-09 15:46:17,261 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-09 15:46:17,553 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-09%20before%3A2025-01-15&hl=en&gl=US&ceid=US:en: 4 results
+2026-06-09 15:46:19,936 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-09%20before%3A2025-01-15&hl=en&gl=US&ceid=US:en: 18 results
+2026-06-09 15:46:22,150 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-09%20before%3A2025-01-15&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-09 15:46:24,382 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-09%20before%3A2025-01-15&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-06-09 15:46:26,683 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-09%20before%3A2025-01-15&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-06-09 15:46:28,920 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-09%20before%3A2025-01-15&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-09 15:46:31,105 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-09%20before%3A2025-01-15&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-09 15:46:33,372 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-09%20before%3A2025-01-15&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-09 15:46:35,641 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-09%20before%3A2025-01-15&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-09 15:46:37,642 [INFO] Total raw articles collected: 25
+2026-06-09 15:46:37,669 [INFO] Extra RSS [energymonitor.ai]: 2 results
+2026-06-09 15:46:39,473 [INFO] Extra RSS [elperiodicodelaenergia.com]: 6 results
+2026-06-09 15:46:40,474 [INFO] Unique unseen articles: 24
+2026-06-09 15:46:40,474 [INFO] ------- Processing article n. 0: Landmark renewable power purchase agreement - Groupe SNCF -------
+2026-06-09 15:46:40,690 [INFO] Resolved Google News URL: https://www.groupe-sncf.com/en/group/suppliers/ppa-solar-power-contract-sncf-red
+2026-06-09 15:46:40,690 [INFO] URL: https://www.groupe-sncf.com/en/group/suppliers/ppa-solar-power-contract-sncf-reden
+2026-06-09 15:46:42,105 [INFO] Text length: 2977 chars | source: full
+2026-06-09 15:46:42,105 [INFO] Text preview: Electricity procurement—a landmark contract | SNCF Group Landmark renewable power purchase agreement SNCF Énergie has signed a long-term renewable electricity purchase agreement with photovoltaic powe...
+2026-06-09 15:46:43,387 [INFO] Mistral HTTP 200 for: Landmark renewable power purchase agreement - Groupe SNCF
+2026-06-09 15:46:43,387 [INFO] Mistral extracted 1 deals (1 signed) | Landmark renewable power purchase agreement - Grou
+2026-06-09 15:46:43,389 [INFO] NEW: SNCF Énergie, SNCF Voyageurs / Reden (France, 146 MW)
+2026-06-09 15:46:48,390 [INFO] ------- Processing article n. 1: VIDEO: Solar industry to face high capital cost and local opposition in 2025 - S -------
+2026-06-09 15:46:49,039 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-projects/video-solar-industry-to-face-h
+2026-06-09 15:46:49,039 [INFO] URL: https://www.solarpowerportal.co.uk/solar-projects/video-solar-industry-to-face-high-capital-cost-and-local-opposition-in-2025
+2026-06-09 15:46:50,048 [INFO] Text length: 3582 chars | source: full
+2026-06-09 15:46:50,048 [INFO] Text preview: VIDEO: Solar industry to face high capital cost and local opposition in 2025 -  Solar Power Portal Solar Projects News VIDEO: Solar industry to face high capital cost and local opposition in 2025 Grow...
+2026-06-09 15:46:51,156 [INFO] Mistral HTTP 200 for: VIDEO: Solar industry to face high capital cost and local op
+2026-06-09 15:46:51,156 [INFO] Mistral extracted 1 deals (0 signed) | VIDEO: Solar industry to face high capital cost an
+2026-06-09 15:46:51,157 [INFO] Not a signed deal — skipping: VIDEO: Solar industry to face high capital cost and local op
+2026-06-09 15:46:51,158 [INFO] ------- Processing article n. 1: DTEK’s subsidiary DRI completes Glodeni 2 solar park in Romania - Balkan Green E -------
+2026-06-09 15:46:51,811 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/dteks-subsidiary-dri-completes-glodeni-2-solar
+2026-06-09 15:46:51,811 [INFO] URL: https://balkangreenenergynews.com/dteks-subsidiary-dri-completes-glodeni-2-solar-park-in-romania/
+2026-06-09 15:46:53,516 [INFO] Text length: 6877 chars | source: full
+2026-06-09 15:46:53,516 [INFO] Text preview: DTEK's subsidiary DRI completes Glodeni 2 solar park in Romania Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share China o...
+2026-06-09 15:46:54,770 [INFO] Mistral HTTP 200 for: DTEK’s subsidiary DRI completes Glodeni 2 solar park in Roma
+2026-06-09 15:46:54,770 [INFO] Mistral extracted 1 deals (1 signed) | DTEK’s subsidiary DRI completes Glodeni 2 solar pa
+2026-06-09 15:46:54,772 [INFO] NEW: OMV Petrom / DTEK Renewables International (DRI) (Romania, 113 MW)
+2026-06-09 15:46:59,773 [INFO] ------- Processing article n. 2: Bauer Media to Acquire Clear Channel Europe - ppa.co.uk -------
+2026-06-09 15:47:00,488 [INFO] Resolved Google News URL: https://ppa.co.uk/bauer-media-to-acquire-clear-channel-europe
+2026-06-09 15:47:00,488 [INFO] URL: https://ppa.co.uk/bauer-media-to-acquire-clear-channel-europe
+2026-06-09 15:47:03,185 [INFO] Text length: 4270 chars | source: full
+2026-06-09 15:47:03,185 [INFO] Text preview: Bauer Media to Acquire Clear Channel Europe - PPA Skip to content Industry News Bauer Media to Acquire Clear Channel Europe Industry News Bauer Media to Acquire Clear Channel Europe 10 January 2025 De...
+2026-06-09 15:47:04,037 [INFO] Mistral HTTP 200 for: Bauer Media to Acquire Clear Channel Europe - ppa.co.uk
+2026-06-09 15:47:04,037 [INFO] Mistral extracted 1 deals (0 signed) | Bauer Media to Acquire Clear Channel Europe - ppa.
+2026-06-09 15:47:04,039 [INFO] Not a signed deal — skipping: Bauer Media to Acquire Clear Channel Europe - ppa.co.uk
+2026-06-09 15:47:04,039 [INFO] ------- Processing article n. 2: Italy and Saudi Arabia sign energy cooperation agreement - Reuters -------
+2026-06-09 15:47:04,736 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/italy-saudi-arabia-sign-energy-cooperati
+2026-06-09 15:47:04,736 [INFO] URL: https://www.reuters.com/business/energy/italy-saudi-arabia-sign-energy-cooperation-agreement-2025-01-14/
+2026-06-09 15:47:04,791 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/italy-saudi-arabia-sign-energy-cooperati
+2026-06-09 15:47:04,791 [INFO] Text length: 145 chars | source: fallback
+2026-06-09 15:47:04,792 [INFO] Text preview: Italy and Saudi Arabia sign energy cooperation agreement - Reuters
+
+Italy and Saudi Arabia sign energy cooperation agreement &nbsp;&nbsp; Reuters...
+2026-06-09 15:47:05,613 [INFO] Mistral HTTP 200 for: Italy and Saudi Arabia sign energy cooperation agreement - R
+2026-06-09 15:47:05,613 [INFO] Mistral extracted 1 deals (0 signed) | Italy and Saudi Arabia sign energy cooperation agr
+2026-06-09 15:47:05,614 [INFO] Not a signed deal — skipping: Italy and Saudi Arabia sign energy cooperation agreement - R
+2026-06-09 15:47:05,614 [INFO] ------- Processing article n. 2: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, and Europe - Carnegi -------
+2026-06-09 15:47:06,383 [INFO] Resolved Google News URL: https://carnegieendowment.org/russia-eurasia/politika/2025/01/russia-ukraine-eur
+2026-06-09 15:47:06,383 [INFO] URL: https://carnegieendowment.org/russia-eurasia/politika/2025/01/russia-ukraine-europe-gas-transit
+2026-06-09 15:47:06,562 [INFO] Text length: 16761 chars | source: full
+2026-06-09 15:47:06,562 [INFO] Text preview: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, and Europe | Carnegie Endowment for International Peace {
+  "authors": [
+    "Sergey Vakulenko"
+  ],
+  "type": "commentary",
+  "blog": "Carn...
+2026-06-09 15:47:07,488 [INFO] Mistral HTTP 200 for: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, 
+2026-06-09 15:47:07,488 [INFO] Mistral extracted 1 deals (0 signed) | What the End of Ukraine Gas Transit Means for Kyiv
+2026-06-09 15:47:07,489 [INFO] Not a signed deal — skipping: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, 
+2026-06-09 15:47:07,490 [INFO] ------- Processing article n. 2: Europe gets 20% of its electricity from wind. But not enough new wind farms bein -------
+2026-06-09 15:47:08,329 [INFO] Resolved Google News URL: https://windeurope.org/news/europe-gets-20-of-its-electricity-from-wind-but-not-
+2026-06-09 15:47:08,329 [INFO] URL: https://windeurope.org/news/europe-gets-20-of-its-electricity-from-wind-but-not-enough-new-wind-farms-being-built-urgent-action-needed-on-permitting-grids-and-electrification/
+2026-06-09 15:47:09,386 [INFO] Text length: 5558 chars | source: full
+2026-06-09 15:47:09,387 [INFO] Text preview: Europe gets 20% of its electricity from wind. But not enough new wind farms being built. Urgent action needed on permitting, grids and electrification - WindEurope News Europe gets 20% of its electric...
+2026-06-09 15:47:10,292 [INFO] Mistral HTTP 200 for: Europe gets 20% of its electricity from wind. But not enough
+2026-06-09 15:47:10,292 [INFO] Mistral extracted 1 deals (0 signed) | Europe gets 20% of its electricity from wind. But 
+2026-06-09 15:47:10,294 [INFO] Not a signed deal — skipping: Europe gets 20% of its electricity from wind. But not enough
+2026-06-09 15:47:10,294 [INFO] ------- Processing article n. 2: Europe’s Latest Natural Gas Supply Crunch - The Institute for Energy Research -------
+2026-06-09 15:47:10,967 [INFO] Resolved Google News URL: https://www.instituteforenergyresearch.org/fossil-fuels/gas-and-oil/europes-late
+2026-06-09 15:47:10,967 [INFO] URL: https://www.instituteforenergyresearch.org/fossil-fuels/gas-and-oil/europes-latest-natural-gas-supply-crunch/
+2026-06-09 15:47:11,044 [INFO] Text length: 7255 chars | source: full
+2026-06-09 15:47:11,044 [INFO] Text preview: Europe’s Latest Natural Gas Supply Crunch - IER IER . Commentary Key Takeaways 1 Ukraine has cut off the transit of Russian natural gas to Europe. 2 Ukraine’s failure to renew its transit agreement wi...
+2026-06-09 15:47:11,939 [INFO] Mistral HTTP 200 for: Europe’s Latest Natural Gas Supply Crunch - The Institute fo
+2026-06-09 15:47:11,939 [INFO] Mistral extracted 1 deals (0 signed) | Europe’s Latest Natural Gas Supply Crunch - The In
+2026-06-09 15:47:11,940 [INFO] Not a signed deal — skipping: Europe’s Latest Natural Gas Supply Crunch - The Institute fo
+2026-06-09 15:47:11,940 [INFO] ------- Processing article n. 2: Five Energy Transition Lessons for 2025 - BloombergNEF -------
+2026-06-09 15:47:12,627 [INFO] Resolved Google News URL: https://about.bnef.com/insights/clean-energy/five-energy-transition-lessons-for-
+2026-06-09 15:47:12,627 [INFO] URL: https://about.bnef.com/insights/clean-energy/five-energy-transition-lessons-for-2025/
+2026-06-09 15:47:14,307 [INFO] Text length: 19232 chars | source: full
+2026-06-09 15:47:14,307 [INFO] Text preview: Five Energy Transition Lessons for 2025 | BloombergNEF PRESS RELEASE Five Energy Transition Lessons for 2025 Clean Energy January 9, 2025 By Albert Cheung, Deputy CEO, Head of Global Transition Analys...
+2026-06-09 15:47:15,163 [INFO] Mistral HTTP 200 for: Five Energy Transition Lessons for 2025 - BloombergNEF
+2026-06-09 15:47:15,163 [INFO] Mistral extracted 1 deals (0 signed) | Five Energy Transition Lessons for 2025 - Bloomber
+2026-06-09 15:47:15,165 [INFO] Not a signed deal — skipping: Five Energy Transition Lessons for 2025 - BloombergNEF
+2026-06-09 15:47:15,165 [INFO] ------- Processing article n. 2: Europe’s wind power hits 20%, but 3 challenges stall progress - Electrek -------
+2026-06-09 15:47:15,829 [INFO] Resolved Google News URL: https://electrek.co/2025/01/10/europe-wind-power-hits-20-but-3-challenges-stall-
+2026-06-09 15:47:15,829 [INFO] URL: https://electrek.co/2025/01/10/europe-wind-power-hits-20-but-3-challenges-stall-progress/
+2026-06-09 15:47:16,429 [INFO] Text length: 6833 chars | source: full
+2026-06-09 15:47:16,429 [INFO] Text preview: Europe’s wind power hits 20%, but 3 challenges stall progress | Electrek Skip to main content Green Energy Electrek Green Energy Brief EGEB Wind power Offshore wind power Europe’s wind power hits 20%,...
+2026-06-09 15:47:17,308 [INFO] Mistral HTTP 200 for: Europe’s wind power hits 20%, but 3 challenges stall progres
+2026-06-09 15:47:17,308 [INFO] Mistral extracted 1 deals (0 signed) | Europe’s wind power hits 20%, but 3 challenges sta
+2026-06-09 15:47:17,310 [INFO] Not a signed deal — skipping: Europe’s wind power hits 20%, but 3 challenges stall progres
+2026-06-09 15:47:17,310 [INFO] ------- Processing article n. 2: Wind power generates 20% of Europe's electricity, but additional wind farms are  -------
+2026-06-09 15:47:18,058 [INFO] Resolved Google News URL: https://www.review-energy.com/eolico/wind-power-generates-20-of-europe-s-electri
+2026-06-09 15:47:18,058 [INFO] URL: https://www.review-energy.com/eolico/wind-power-generates-20-of-europe-s-electricity-but-additional-wind-farms-are-required
+2026-06-09 15:47:18,899 [INFO] Text length: 4542 chars | source: full
+2026-06-09 15:47:18,899 [INFO] Text preview: Wind power generates 20% of Europe's electricity, but additional wind farms are required Archivo Review Energy 10 enero 2025 0 Wind power generates 20% of Europe's electricity, but additional wind far...
+2026-06-09 15:47:19,851 [INFO] Mistral HTTP 200 for: Wind power generates 20% of Europe's electricity, but additi
+2026-06-09 15:47:19,851 [INFO] Mistral extracted 1 deals (0 signed) | Wind power generates 20% of Europe's electricity, 
+2026-06-09 15:47:19,853 [INFO] Not a signed deal — skipping: Wind power generates 20% of Europe's electricity, but additi
+2026-06-09 15:47:19,853 [INFO] ------- Processing article n. 2: France’s Nuclear Power Industry Makes Its Presence Felt During the Ukraine Crisi -------
+2026-06-09 15:47:20,398 [INFO] Resolved Google News URL: https://www.spf.org/iina/en/articles/takahashi_04.html
+2026-06-09 15:47:20,398 [INFO] URL: https://www.spf.org/iina/en/articles/takahashi_04.html
+2026-06-09 15:47:20,737 [INFO] Full text skipped (status 403): https://www.spf.org/iina/en/articles/takahashi_04.html
+2026-06-09 15:47:20,738 [INFO] Text length: 543 chars | source: fallback
+2026-06-09 15:47:20,738 [INFO] Text preview: France’s Nuclear Power Industry Makes Its Presence Felt During the Ukraine Crisis ― Energy Cooperation with Europe and the United States and the Future of the Procurement of Uranium from Niger | List ...
+2026-06-09 15:47:21,554 [INFO] Mistral HTTP 200 for: France’s Nuclear Power Industry Makes Its Presence Felt Duri
+2026-06-09 15:47:21,555 [INFO] Mistral extracted 1 deals (0 signed) | France’s Nuclear Power Industry Makes Its Presence
+2026-06-09 15:47:21,556 [INFO] Not a signed deal — skipping: France’s Nuclear Power Industry Makes Its Presence Felt Duri
+2026-06-09 15:47:21,556 [INFO] ------- Processing article n. 2: As AI booms, here’s how Microsoft and Amazon are coming up with energy solutions -------
+2026-06-09 15:47:22,239 [INFO] Resolved Google News URL: https://www.geekwire.com/2025/as-ai-booms-heres-how-microsoft-and-amazon-are-com
+2026-06-09 15:47:22,239 [INFO] URL: https://www.geekwire.com/2025/as-ai-booms-heres-how-microsoft-and-amazon-are-coming-up-with-energy-solutions/
+2026-06-09 15:47:22,979 [INFO] Text length: 8418 chars | source: full
+2026-06-09 15:47:22,979 [INFO] Text preview: How Microsoft and Amazon are coming up with energy solutions What happens here matters everywhere. Sustainability: News about the rapidly growing climate tech sector and other areas of innovation to p...
+2026-06-09 15:47:26,098 [INFO] Mistral HTTP 200 for: As AI booms, here’s how Microsoft and Amazon are coming up w
+2026-06-09 15:47:26,099 [INFO] Mistral extracted 4 deals (4 signed) | As AI booms, here’s how Microsoft and Amazon are c
+2026-06-09 15:47:26,111 [INFO] Not a European deal — skipping: Microsoft / Helion Energy (USA, None MW)
+2026-06-09 15:47:26,111 [INFO] Not a European deal — skipping: Amazon, Microsoft, Google, Nucor / None (USA, None MW)
+2026-06-09 15:47:26,111 [INFO] Not a European deal — skipping: Microsoft / Acadia Infrastructure Capital (USA, None MW)
+2026-06-09 15:47:26,111 [INFO] Not a European deal — skipping: Amazon / Iberdrola (None, None MW)
+2026-06-09 15:47:26,111 [INFO] ------- Processing article n. 2: WindEurope: EU building less than half capacity needed for 2030 goal - Balkan Gr -------
+2026-06-09 15:47:26,777 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity
+2026-06-09 15:47:26,777 [INFO] URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity-needed-for-2030-goal/
+2026-06-09 15:47:28,199 [INFO] Text length: 8503 chars | source: full
+2026-06-09 15:47:28,199 [INFO] Text preview: WindEurope: EU building less than half capacity needed for 2030 goal Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share Ch...
+2026-06-09 15:47:29,056 [INFO] Mistral HTTP 200 for: WindEurope: EU building less than half capacity needed for 2
+2026-06-09 15:47:29,056 [INFO] Mistral extracted 1 deals (0 signed) | WindEurope: EU building less than half capacity ne
+2026-06-09 15:47:29,059 [INFO] Not a signed deal — skipping: WindEurope: EU building less than half capacity needed for 2
+2026-06-09 15:47:29,059 [INFO] ------- Processing article n. 2: Plug Power inks final 3GW electrolyser sales agreement to supply Australian gree -------
+2026-06-09 15:47:29,616 [INFO] Resolved Google News URL: https://www.hydrogeninsight.com/electrolysers/plug-power-inks-final-3gw-electrol
+2026-06-09 15:47:29,616 [INFO] URL: https://www.hydrogeninsight.com/electrolysers/plug-power-inks-final-3gw-electrolyser-sales-agreement-to-supply-australian-green-hydrogen-project/2-1-1764970
+2026-06-09 15:47:30,460 [INFO] Text length: 528 chars | source: full
+2026-06-09 15:47:30,460 [INFO] Text preview: Plug Power inks final 3GW electrolyser sales agreement to supply Australian green hydrogen project | Hydrogen Insight Plug Power inks final 3GW electrolyser sales agreement to supply Australian green ...
+2026-06-09 15:47:31,325 [INFO] Mistral HTTP 200 for: Plug Power inks final 3GW electrolyser sales agreement to su
+2026-06-09 15:47:31,326 [INFO] Mistral extracted 1 deals (0 signed) | Plug Power inks final 3GW electrolyser sales agree
+2026-06-09 15:47:31,327 [INFO] Not a signed deal — skipping: Plug Power inks final 3GW electrolyser sales agreement to su
+2026-06-09 15:47:31,327 [INFO] ------- Processing article n. 2: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energy Output - WindInsid -------
+2026-06-09 15:47:32,030 [INFO] Resolved Google News URL: https://windinsider.com/2025/01/09/rwe-to-repower-muel-wind-farm-in-spain-boosti
+2026-06-09 15:47:32,030 [INFO] URL: https://windinsider.com/2025/01/09/rwe-to-repower-muel-wind-farm-in-spain-boosting-green-energy-output/
+2026-06-09 15:47:33,531 [INFO] Text length: 5788 chars | source: full
+2026-06-09 15:47:33,531 [INFO] Text preview: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energy Output - WindInsider News Fashion Gadgets Lifestyle Video Homepages Homepage – Fashion Homepage – Blog Homepage – Video Homepage – Tech Ho...
+2026-06-09 15:47:34,828 [INFO] Mistral HTTP 200 for: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energ
+2026-06-09 15:47:34,828 [INFO] Mistral extracted 1 deals (1 signed) | RWE to Repower Muel Wind Farm in Spain, Boosting G
+2026-06-09 15:47:34,830 [INFO] NEW: undisclosed offtaker / RWE Renewables (Spain, 19.8 MW)
+2026-06-09 15:47:39,831 [INFO] ------- Processing article n. 3: Azerbaijan halts gas deliveries to Serbia, Bulgaria - Euractiv -------
+2026-06-09 15:47:40,572 [INFO] Resolved Google News URL: https://www.euractiv.com/news/azerbaijan-halts-gas-deliveries-to-serbia-bulgaria
+2026-06-09 15:47:40,572 [INFO] URL: https://www.euractiv.com/news/azerbaijan-halts-gas-deliveries-to-serbia-bulgaria/
+2026-06-09 15:47:46,363 [INFO] Text length: 4999 chars | source: full
+2026-06-09 15:47:46,363 [INFO] Text preview: Azerbaijan halts gas deliveries to Serbia, Bulgaria | Euractiv Ga naar de hoofdinhoud A gas platform in the Shah Deniz 2 field in the Caspian Sea, from where the gas for the Southern gas corridor is p...
+2026-06-09 15:47:47,255 [INFO] Mistral HTTP 200 for: Azerbaijan halts gas deliveries to Serbia, Bulgaria - Euract
+2026-06-09 15:47:47,255 [INFO] Mistral extracted 1 deals (0 signed) | Azerbaijan halts gas deliveries to Serbia, Bulgari
+2026-06-09 15:47:47,257 [INFO] Not a signed deal — skipping: Azerbaijan halts gas deliveries to Serbia, Bulgaria - Euract
+2026-06-09 15:47:47,257 [INFO] ------- Processing article n. 3: Waaree Energies, JSW Acquire Renewable Assets In Deals Amounting to Rs 1400 Cror -------
+2026-06-09 15:47:47,761 [INFO] Resolved Google News URL: https://www.saurenergy.com/solar-energy-news/waaree-energies-jsw-acquire-renewab
+2026-06-09 15:47:47,761 [INFO] URL: https://www.saurenergy.com/solar-energy-news/waaree-energies-jsw-acquire-renewable-assets-in-deals-amounting-to-rs-1400-crores
+2026-06-09 15:47:49,185 [INFO] Text length: 2851 chars | source: full
+2026-06-09 15:47:49,185 [INFO] Text preview: Waaree Energies, JSW Acquire Renewable Assets In Deals Amounting to Rs 1400 Crores Advertisment News Waaree Energies, JSW Acquire Renewable Assets In Deals Amounting to Rs 1400 Crores Prasanna Singh 1...
+2026-06-09 15:47:51,059 [INFO] Mistral HTTP 200 for: Waaree Energies, JSW Acquire Renewable Assets In Deals Amoun
+2026-06-09 15:47:51,060 [INFO] Mistral extracted 2 deals (2 signed) | Waaree Energies, JSW Acquire Renewable Assets In D
+2026-06-09 15:47:51,061 [INFO] Not a European deal — skipping: JSW Neo Energy / Hetero Labs Limited, Hetero Drugs Limited (India, 125 MW)
+2026-06-09 15:47:51,061 [INFO] NEW: Waaree Energies Limited / Enel Green Power Development S.r.l (India, 760 MW)
+2026-06-09 15:47:56,063 [INFO] ------- Processing article n. 4: German economy contracts for second consecutive year in 2024 - Reuters -------
+2026-06-09 15:47:56,768 [INFO] Resolved Google News URL: https://www.reuters.com/markets/europe/german-economy-contracted-02-2024-2025-01
+2026-06-09 15:47:56,768 [INFO] URL: https://www.reuters.com/markets/europe/german-economy-contracted-02-2024-2025-01-15/
+2026-06-09 15:47:56,794 [INFO] Full text skipped (status 401): https://www.reuters.com/markets/europe/german-economy-contracted-02-2024-2025-01
+2026-06-09 15:47:56,794 [INFO] Text length: 153 chars | source: fallback
+2026-06-09 15:47:56,794 [INFO] Text preview: German economy contracts for second consecutive year in 2024 - Reuters
+
+German economy contracts for second consecutive year in 2024 &nbsp;&nbsp; Reuters...
+2026-06-09 15:47:57,574 [INFO] Mistral HTTP 200 for: German economy contracts for second consecutive year in 2024
+2026-06-09 15:47:57,574 [INFO] Mistral extracted 1 deals (0 signed) | German economy contracts for second consecutive ye
+2026-06-09 15:47:57,576 [INFO] Not a signed deal — skipping: German economy contracts for second consecutive year in 2024
+2026-06-09 15:47:57,576 [INFO] ------- Processing article n. 4: Waaree Energies inks pact to acquire Enel Green Power India for Rs 792 cr - Busi -------
+2026-06-09 15:47:58,362 [INFO] Resolved Google News URL: https://www.business-standard.com/companies/news/waaree-energies-inks-pact-to-ac
+2026-06-09 15:47:58,362 [INFO] URL: https://www.business-standard.com/companies/news/waaree-energies-inks-pact-to-acquire-enel-green-power-india-for-rs-792-cr-125011001291_1.html
+2026-06-09 15:47:58,434 [INFO] Full text skipped (status 403): https://www.business-standard.com/companies/news/waaree-energies-inks-pact-to-ac
+2026-06-09 15:47:58,435 [INFO] Text length: 199 chars | source: fallback
+2026-06-09 15:47:58,435 [INFO] Text preview: Waaree Energies inks pact to acquire Enel Green Power India for Rs 792 cr - Business Standard
+
+Waaree Energies inks pact to acquire Enel Green Power India for Rs 792 cr &nbsp;&nbsp; Business Standard...
+2026-06-09 15:47:59,225 [INFO] Mistral HTTP 200 for: Waaree Energies inks pact to acquire Enel Green Power India 
+2026-06-09 15:47:59,226 [INFO] Mistral extracted 1 deals (0 signed) | Waaree Energies inks pact to acquire Enel Green Po
+2026-06-09 15:47:59,227 [INFO] Not a signed deal — skipping: Waaree Energies inks pact to acquire Enel Green Power India 
+2026-06-09 15:47:59,227 [INFO] ------- Processing article n. 4: NLC India Renewables And APDCL Sign Agreement For 1000 MW Solar Power Project In -------
+2026-06-09 15:47:59,927 [INFO] Resolved Google News URL: https://northeasttoday.in/northeast/assam/nlc-india-renewables-and-apdcl-sign-ag
+2026-06-09 15:47:59,927 [INFO] URL: https://northeasttoday.in/northeast/assam/nlc-india-renewables-and-apdcl-sign-agreement-for-1000-mw-solar-power-project-in-assam/
+2026-06-09 15:48:02,098 [INFO] Text length: 3145 chars | source: full
+2026-06-09 15:48:02,098 [INFO] Text preview: NLC India Renewables And APDCL Sign Agreement For 1000 MW Solar Power Project In Assam - Northeast Today NLC India Renewables And APDCL Sign Agreement For 1000 MW Solar Power Project In Assam 11th Jan...
+2026-06-09 15:48:03,235 [INFO] Mistral HTTP 200 for: NLC India Renewables And APDCL Sign Agreement For 1000 MW So
+2026-06-09 15:48:03,235 [INFO] Mistral extracted 1 deals (1 signed) | NLC India Renewables And APDCL Sign Agreement For 
+2026-06-09 15:48:03,237 [INFO] Not a European deal — skipping: APDCL / NLC India Renewables Limited (India, 1000 MW)
+2026-06-09 15:48:03,237 [INFO] ------- Processing article n. 4: PPA : quand la suspecter ? Déclaration obligatoire et vigilance - agriculture.go -------
+2026-06-09 15:48:03,771 [INFO] Resolved Google News URL: https://agriculture.gouv.fr/ppa-quand-la-suspecter-declaration-obligatoire-et-vi
+2026-06-09 15:48:03,771 [INFO] URL: https://agriculture.gouv.fr/ppa-quand-la-suspecter-declaration-obligatoire-et-vigilance
+2026-06-09 15:48:04,604 [INFO] Text length: 3740 chars | source: full
+2026-06-09 15:48:04,604 [INFO] Text preview: PPA : quand la suspecter ? Déclaration obligatoire et vigilance | Ministère de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire agriculture.gouv.fr 09 janvier 2025 Info + PPA : q...
+2026-06-09 15:48:05,481 [INFO] Mistral HTTP 200 for: PPA : quand la suspecter ? Déclaration obligatoire et vigila
+2026-06-09 15:48:05,481 [INFO] Mistral extracted 1 deals (0 signed) | PPA : quand la suspecter ? Déclaration obligatoire
+2026-06-09 15:48:05,483 [INFO] Not a signed deal — skipping: PPA : quand la suspecter ? Déclaration obligatoire et vigila
+2026-06-09 15:48:05,483 [INFO] ------- Processing article n. 4: Bayer seguirá ampliando su planta asturiana tras celebrar su 125 aniversario - i -------
+2026-06-09 15:48:06,082 [INFO] Resolved Google News URL: https://www.investinspain.org/content/icex-invest/es/noticias-main/2025/bayer
+2026-06-09 15:48:06,083 [INFO] URL: https://www.investinspain.org/content/icex-invest/es/noticias-main/2025/bayer
+2026-06-09 15:48:09,713 [INFO] Text length: 6052 chars | source: full
+2026-06-09 15:48:09,713 [INFO] Text preview: Bayer seguirá ampliando su planta asturiana tras celebrar su 125 aniversario Noticias Actualidad Invest in Spain Realiza tu búsqueda Home Noticias Bayer seguirá ampliando su planta asturiana tras cele...
+2026-06-09 15:48:10,822 [INFO] Mistral HTTP 200 for: Bayer seguirá ampliando su planta asturiana tras celebrar su
+2026-06-09 15:48:10,822 [INFO] Mistral extracted 1 deals (1 signed) | Bayer seguirá ampliando su planta asturiana tras c
+2026-06-09 15:48:10,824 [INFO] NEW: Bayer / Iberdrola (Spain, None MW)
+2026-06-09 15:48:15,826 [INFO] ------- Processing article n. 5: Erg ed Engie: firmato un nuovo PPA per energia eolica in Italia - Energia Italia -------
+2026-06-09 15:48:16,575 [INFO] Resolved Google News URL: https://www.energiaitalia.news/news/eolico/erg-ed-engie-firmato-un-nuovo-ppa-per
+2026-06-09 15:48:16,575 [INFO] URL: https://www.energiaitalia.news/news/eolico/erg-ed-engie-firmato-un-nuovo-ppa-per-energia-eolica-in-italia/50203/
+2026-06-09 15:48:18,014 [INFO] Text length: 2886 chars | source: full
+2026-06-09 15:48:18,014 [INFO] Text preview: Erg ed Engie: firmato un nuovo PPA per energia eolica in Italia Homepage Chi siamo News Policy News da ASVIS Aziende Report Eventi Interviste Video Conferenze Next Corporate Summer Party Comunità Ener...
+2026-06-09 15:48:19,141 [INFO] Mistral HTTP 200 for: Erg ed Engie: firmato un nuovo PPA per energia eolica in Ita
+2026-06-09 15:48:19,141 [INFO] Mistral extracted 1 deals (1 signed) | Erg ed Engie: firmato un nuovo PPA per energia eol
+2026-06-09 15:48:19,143 [INFO] NEW: Engie / Erg (Italy, None MW)
+2026-06-09 15:48:24,144 [INFO] Run complete. New deals: 6, Updates: 0
+2026-06-09 15:48:24,145 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (14 deals)
+2026-06-09 15:48:25,816 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
