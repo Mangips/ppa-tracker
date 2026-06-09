@@ -11,8 +11,8 @@ on:
         description: 'Last end date (YYYY-MM-DD)'
         required: true
         default: '2026-06-08'
-      mistral_requests_per_run:
-        description: 'Estimated Mistral requests per run (default 200)'
+      llm_requests_per_run:
+        description: 'Estimated LLM requests per run (default 200)'
         required: true
         default: '200'
 env:
@@ -64,8 +64,8 @@ jobs:
           TOTAL_MINUTES=$((TOTAL_MS / 60000))
           REMAINING_MINUTES=$((2000 - TOTAL_MINUTES))
           MAX_RUNS_BY_ACTIONS=$((REMAINING_MINUTES / 5))
-          MAX_RUNS_BY_MISTRAL=$((1500 / ${{ inputs.mistral_requests_per_run }}))
-          SAFE_RUNS=$((MAX_RUNS_BY_ACTIONS < MAX_RUNS_BY_MISTRAL ? MAX_RUNS_BY_ACTIONS : MAX_RUNS_BY_MISTRAL))
+          MAX_RUNS_BY_LLM=$((14400 / ${{ inputs.llm_requests_per_run }}))
+          SAFE_RUNS=$((MAX_RUNS_BY_ACTIONS < MAX_RUNS_BY_LLM ? MAX_RUNS_BY_ACTIONS : MAX_RUNS_BY_LLM))
           if [ $SAFE_RUNS -lt 1 ]; then
             echo "::error::No safe runs remaining!"
             exit 1
