@@ -68,6 +68,7 @@ jobs:
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
+          GROQ_KEY: ${{ secrets.GROQ_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
           SEARCH_FROM_DATE: ${{ github.event.inputs.start_date || (github.event_name == 'schedule' && env.TODAY_DATE) || vars.SEARCH_FROM_DATE }}
