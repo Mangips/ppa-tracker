@@ -3,6 +3,10 @@ name: Historical Smart Trigger (With Progress Tracking)
 on:
   workflow_dispatch:
     inputs:
+      start_date:
+        description: 'Start date (YYYY-MM-DD) - ignored if historical_progress.txt exists'
+        required: false
+        default: '2025-01-01'
       end_date:
         description: 'Last end date (YYYY-MM-DD)'
         required: true
@@ -11,12 +15,16 @@ on:
         description: 'Estimated Mistral requests per run (default 200)'
         required: true
         default: '200'
-
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  
 jobs:
-  check-and-trigger:
+  run-historical:
     runs-on: ubuntu-latest
+    environment: Prod
     permissions:
       contents: write
+      
     steps:
       - name: Checkout repo
         uses: actions/checkout@v6
@@ -24,18 +32,24 @@ jobs:
           # Fetch full history so we can commit back cleanly
           fetch-depth: 0
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Read last processed date
         id: read_progress
         run: |
           if [ -f historical_progress.txt ]; then
             LAST_PROCESSED=$(cat historical_progress.txt)
+            NEXT_START=$(date -d "$LAST_PROCESSED + 1 day" +%Y-%m-%d)
           else
-            LAST_PROCESSED="2025-01-01"  # Default start
+            NEXT_START="${{ inputs.start_date }}"
           fi
-          echo "last_processed=$LAST_PROCESSED" >> $GITHUB_OUTPUT
+          echo "next_start=$NEXT_START" >> $GITHUB_OUTPUT
 
       - name: Check GitHub Actions usage this month
         id: check_actions
@@ -57,50 +71,60 @@ jobs:
             exit 1
           fi
           echo "safe_runs=$SAFE_RUNS" >> $GITHUB_OUTPUT
-          echo "remaining_actions_minutes=$REMAINING_MINUTES" >> $GITHUB_OUTPUT
-
-      - name: Trigger workflows for unprocessed weeks
-        id: trigger
+          
+      - name: Run pipeline sequentially for each week
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
-          REPO: ${{ github.repository }}
-          WORKFLOW_FILE: daily.yml
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
+          LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
+          MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
+          NOTIFY_EMAIL_ENABLED: ${{ vars.NOTIFY_EMAIL_ENABLED }}
+          NOTIFY_SMTP_HOST: ${{ secrets.NOTIFY_SMTP_HOST }}
+          NOTIFY_SMTP_PORT: ${{ secrets.NOTIFY_SMTP_PORT }}
+          NOTIFY_SMTP_USER: ${{ secrets.NOTIFY_SMTP_USER }}
+          NOTIFY_SMTP_PASSWORD: ${{ secrets.NOTIFY_SMTP_PASSWORD }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+          ENVIRONMENT: ${{ vars.ENVIRONMENT }}
           END_DATE: ${{ inputs.end_date }}
           SAFE_RUNS: ${{ steps.check_actions.outputs.safe_runs }}
-          LAST_PROCESSED: ${{ steps.read_progress.outputs.last_processed }}
+          NEXT_START: ${{ steps.read_progress.outputs.next_start }}
         run: |
-          # Calculate the next start date (1 week after last processed)
-          NEXT_START=$LAST_PROCESSED
-          TOTAL_WEEKS=$(( ($(date -d "$END_DATE" +%s) - $(date -d "$NEXT_START" +%s)) / (60*60*24*7) + 1 ))
-          BATCH_SIZE=$(( TOTAL_WEEKS < SAFE_RUNS ? TOTAL_WEEKS : SAFE_RUNS ))
-
-          if [ $BATCH_SIZE -lt 1 ]; then
-            echo "::notice::No weeks left to process!"
-            exit 0
-          fi
-
-          for (( i=0; i<BATCH_SIZE; i++ )); do
-            WEEK_START=$(date -d "$NEXT_START +$((i*7)) days" +%Y-%m-%d)
-            WEEK_END=$(date -d "$WEEK_START +6 days" +%Y-%m-%d)
-            if [[ "$WEEK_END" > "$END_DATE" ]]; then WEEK_END="$END_DATE"; fi
-
-            gh workflow run "$WORKFLOW_FILE" --repo "$REPO" -f start_date="$WEEK_START" -f end_date="$WEEK_END" -f target_env="Prod"
-            sleep 10
-          done
-
-          # Update progress file with the last processed week's end date
-          LAST_WEEK_END=$(date -d "$NEXT_START +$((($BATCH_SIZE-1)*7)) days +6 days" +%Y-%m-%d)
-          if [[ "$LAST_WEEK_END" > "$END_DATE" ]]; then LAST_WEEK_END="$END_DATE"; fi
-          echo "$LAST_WEEK_END" > historical_progress.txt
           git config user.name "ppa-tracker-bot"
           git config user.email "bot@ppa-tracker"
-          git pull --rebase origin main  
-          git add historical_progress.txt
-          git commit -m "chore: update historical progress to $LAST_WEEK_END"
+
+          WEEKS_PROCESSED=0
+
+          for (( i=0; i<SAFE_RUNS; i++ )); do
+            WEEK_START=$(date -d "$NEXT_START +$((i*7)) days" +%Y-%m-%d)
+
+            # Stop if we've passed the end date
+            if [[ "$WEEK_START" > "$END_DATE" ]]; then
+              echo "::notice::All weeks up to $END_DATE have been processed."
+              break
+            fi
+
+            WEEK_END=$(date -d "$WEEK_START +6 days" +%Y-%m-%d)
+            if [[ "$WEEK_END" > "$END_DATE" ]]; then
+              WEEK_END="$END_DATE"
+            fi
+
+            echo "--- Processing $WEEK_START to $WEEK_END ---"
+
+            SEARCH_FROM_DATE="$WEEK_START" SEARCH_TO_DATE="$WEEK_END" python src/pipeline.py
+
+            # Commit DB, CSV and logs after each week
+            git add data/ppa_deals.db data/ppa_deals.csv data/logs/
+            git diff --staged --quiet || git commit -m "chore: historical update $WEEK_START to $WEEK_END"
+
+            # Update progress file and commit it together
+            echo "$WEEK_END" > historical_progress.txt
+            git add historical_progress.txt
+            git commit -m "chore: progress → $WEEK_END"
+
+            WEEKS_PROCESSED=$((WEEKS_PROCESSED + 1))
+          done
+
+          # Single push at the end covering all weeks
           git push
 
-          echo "last_processed_end=$LAST_WEEK_END" >> $GITHUB_OUTPUT
-
-      - name: Log progress
-        run: |
-          echo "::notice::Processed up to ${{ steps.trigger.outputs.last_processed_end }}. Re-trigger this workflow tomorrow to continue."
+          echo "::notice::Processed $WEEKS_PROCESSED week(s). Last end: $WEEK_END. Re-trigger tomorrow to continue."
