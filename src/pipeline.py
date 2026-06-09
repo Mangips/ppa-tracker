@@ -402,9 +402,10 @@ def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
             )
             log.info(f"LLM HTTP {resp.status_code} for: {title[:60]}")
             if resp.status_code == 429:
-                log.warning(f"LLM 429 — waiting 60s: {title[:50]}")
-                time.sleep(60)
-                return None
+                wait = int(resp.headers.get("retry-after", 60))
+                log.warning(f"Groq 429 — waiting {wait}s: {title[:50]}")
+                time.sleep(wait)
+                return continue
             if resp.status_code != 200:
                 log.warning(f"LLM error body: {resp.text[:300]}")
                 return None
