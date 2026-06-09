@@ -76,6 +76,7 @@ jobs:
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
+          GROQ_KEY: ${{ secrets.GROQ_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
           NOTIFY_EMAIL_ENABLED: ${{ vars.NOTIFY_EMAIL_ENABLED }}
