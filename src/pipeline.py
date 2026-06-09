@@ -405,7 +405,7 @@ def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
                 wait = int(resp.headers.get("retry-after", 60))
                 log.warning(f"Groq 429 — waiting {wait}s: {title[:50]}")
                 time.sleep(wait)
-                return continue
+                continue
             if resp.status_code != 200:
                 log.warning(f"LLM error body: {resp.text[:300]}")
                 return None
