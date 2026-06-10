@@ -1,0 +1,224 @@
+2026-06-10 09:56:42,451 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 09:56:42,451 [INFO] Searching from 2025-01-15 to 2025-01-21 with  loockback days
+2026-06-10 09:56:42,451 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 09:56:42,766 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-15%20before%3A2025-01-21&hl=en&gl=US&ceid=US:en: 1 results
+2026-06-10 09:56:45,113 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-15%20before%3A2025-01-21&hl=en&gl=US&ceid=US:en: 22 results
+2026-06-10 09:56:47,373 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-15%20before%3A2025-01-21&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 09:56:49,646 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-15%20before%3A2025-01-21&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-10 09:56:51,900 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-15%20before%3A2025-01-21&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-06-10 09:56:54,457 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-15%20before%3A2025-01-21&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-10 09:56:56,675 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-15%20before%3A2025-01-21&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 09:56:58,930 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-15%20before%3A2025-01-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 09:57:01,249 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-15%20before%3A2025-01-21&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 09:57:03,249 [INFO] Total raw articles collected: 24
+2026-06-10 09:57:03,332 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 09:57:04,847 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 09:57:05,848 [INFO] Unique unseen articles: 23
+2026-06-10 09:57:05,848 [INFO] ------- Processing article n. 0: WFW advises Aer Soleir companies on development and financing of 360 MW Greek wi -------
+2026-06-10 09:57:06,525 [INFO] Resolved Google News URL: https://www.wfw.com/press/wfw-advises-aer-soleir-companies-on-development-and-fi
+2026-06-10 09:57:06,526 [INFO] URL: https://www.wfw.com/press/wfw-advises-aer-soleir-companies-on-development-and-financing-of-360-mw-greek-wind-projects/
+2026-06-10 09:57:07,073 [INFO] Text length: 4729 chars | source: full
+2026-06-10 09:57:07,073 [INFO] Text preview: WFW advises Aer Soleir companies on development and financing of 360 MW Greek wind projects - Watson Farley & Williams < Back to insights hub Press WFW advises Aer Soleir companies on development and ...
+2026-06-10 09:57:08,206 [INFO] LLM HTTP 200 for: WFW advises Aer Soleir companies on development and financin
+2026-06-10 09:57:08,206 [INFO] LLM extracted 1 deals (1 signed) | WFW advises Aer Soleir companies on development an
+2026-06-10 09:57:08,208 [INFO] NEW: Amazon / Aer Soléir, 547 Energy (Greece, 360 MW)
+2026-06-10 09:57:13,210 [INFO] ------- Processing article n. 1: Green power for all ID. models on European roads: Volkswagen supports 26 solar a -------
+2026-06-10 09:57:13,824 [INFO] Resolved Google News URL: https://www.volkswagen-group.com/en/articles/green-power-for-all-id-models-on-eu
+2026-06-10 09:57:13,824 [INFO] URL: https://www.volkswagen-group.com/en/articles/green-power-for-all-id-models-on-european-roads-volkswagen-supports-26-solar-and-wind-farms-18979
+2026-06-10 09:57:15,084 [INFO] Text length: 8874 chars | source: full
+2026-06-10 09:57:15,084 [INFO] Text preview: Green power for all ID. models on European roads: Volkswagen supports 26 solar and wind farms | Volkswagen Group Skip to content 01/16/2025 Green power for all ID. models on European roads: Volkswagen...
+2026-06-10 09:57:16,773 [INFO] LLM HTTP 200 for: Green power for all ID. models on European roads: Volkswagen
+2026-06-10 09:57:16,773 [INFO] LLM extracted 1 deals (0 signed) | Green power for all ID. models on European roads: 
+2026-06-10 09:57:16,775 [INFO] Not a signed deal — skipping: Green power for all ID. models on European roads: Volkswagen
+2026-06-10 09:57:16,775 [INFO] ------- Processing article n. 1: Plenitude signs agreement with EDP Renewables to acquire two photovoltaic plants -------
+2026-06-10 09:57:17,663 [INFO] Resolved Google News URL: https://edp.com/en/north-america/na/media/plenitude-signs-agreement-edp-renewabl
+2026-06-10 09:57:17,663 [INFO] URL: https://edp.com/en/north-america/na/media/plenitude-signs-agreement-edp-renewables-acquire-two-photovoltaic-plants-and
+2026-06-10 09:57:18,350 [INFO] Text length: 4012 chars | source: full
+2026-06-10 09:57:18,350 [INFO] Text preview: Plenitude signs agreement with EDP Renewables to acquire two photovoltaic plants and a storage facility in the United States for a capacity of 245 MWdc | edp Skip to main content What are you looking ...
+2026-06-10 09:57:19,594 [INFO] LLM HTTP 200 for: Plenitude signs agreement with EDP Renewables to acquire two
+2026-06-10 09:57:19,594 [INFO] LLM extracted 1 deals (1 signed) | Plenitude signs agreement with EDP Renewables to a
+2026-06-10 09:57:19,595 [INFO] Not a European deal — skipping: Plenitude / EDP Renewables North America LLC (United States, 245 MW)
+2026-06-10 09:57:19,595 [INFO] ------- Processing article n. 1: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, and Europe - Carnegi -------
+2026-06-10 09:57:20,380 [INFO] Resolved Google News URL: https://carnegieendowment.org/russia-eurasia/politika/2025/01/russia-ukraine-eur
+2026-06-10 09:57:20,380 [INFO] URL: https://carnegieendowment.org/russia-eurasia/politika/2025/01/russia-ukraine-europe-gas-transit
+2026-06-10 09:57:20,464 [INFO] Text length: 16761 chars | source: full
+2026-06-10 09:57:20,464 [INFO] Text preview: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, and Europe | Carnegie Endowment for International Peace {
+  "authors": [
+    "Sergey Vakulenko"
+  ],
+  "type": "commentary",
+  "blog": "Carn...
+2026-06-10 09:57:21,365 [INFO] LLM HTTP 200 for: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, 
+2026-06-10 09:57:21,365 [INFO] LLM extracted 1 deals (0 signed) | What the End of Ukraine Gas Transit Means for Kyiv
+2026-06-10 09:57:21,367 [INFO] Not a signed deal — skipping: What the End of Ukraine Gas Transit Means for Kyiv, Moscow, 
+2026-06-10 09:57:21,367 [INFO] ------- Processing article n. 1: Google signs PPA with Leeward to power Oklahoma data center operations - Data Ce -------
+2026-06-10 09:57:22,253 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-leeward-to-powe
+2026-06-10 09:57:22,253 [INFO] URL: https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-leeward-to-power-oklahoma-data-center-operations/
+2026-06-10 09:57:22,315 [INFO] Text length: 3711 chars | source: full
+2026-06-10 09:57:22,315 [INFO] Text preview: Google signs PPA with Leeward to power Oklahoma data center operations - DCD Home News The Energy & Sustainability Channel Google signs PPA with Leeward to power Oklahoma data center operations The en...
+2026-06-10 09:57:24,446 [INFO] LLM HTTP 200 for: Google signs PPA with Leeward to power Oklahoma data center 
+2026-06-10 09:57:24,446 [INFO] LLM extracted 2 deals (2 signed) | Google signs PPA with Leeward to power Oklahoma da
+2026-06-10 09:57:24,448 [INFO] Not a European deal — skipping: Google / Leeward Renewable Energy (United States, 724 MW)
+2026-06-10 09:57:24,448 [INFO] Not a European deal — skipping: Google / Apex Clean Energy (United States, 79.3 MW)
+2026-06-10 09:57:24,448 [INFO] ------- Processing article n. 1: Mongolia, EBRD partner to advance renewable energy - Reuters -------
+2026-06-10 09:57:25,243 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/mongolia-ebrd-partner-advance-renewable-
+2026-06-10 09:57:25,243 [INFO] URL: https://www.reuters.com/business/energy/mongolia-ebrd-partner-advance-renewable-energy-2025-01-21/
+2026-06-10 09:57:25,330 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/mongolia-ebrd-partner-advance-renewable-
+2026-06-10 09:57:25,331 [INFO] Text length: 133 chars | source: fallback
+2026-06-10 09:57:25,331 [INFO] Text preview: Mongolia, EBRD partner to advance renewable energy - Reuters
+
+Mongolia, EBRD partner to advance renewable energy &nbsp;&nbsp; Reuters...
+2026-06-10 09:57:26,063 [INFO] LLM HTTP 200 for: Mongolia, EBRD partner to advance renewable energy - Reuters
+2026-06-10 09:57:26,063 [INFO] LLM extracted 1 deals (0 signed) | Mongolia, EBRD partner to advance renewable energy
+2026-06-10 09:57:26,064 [INFO] Not a signed deal — skipping: Mongolia, EBRD partner to advance renewable energy - Reuters
+2026-06-10 09:57:26,064 [INFO] ------- Processing article n. 1: IEA predicts record nuclear growth but calls for de-risking sector - Enlit World -------
+2026-06-10 09:57:26,950 [INFO] Resolved Google News URL: https://www.enlit.world/library/iea-predicts-record-nuclear-growth-but-calls-for
+2026-06-10 09:57:26,951 [INFO] URL: https://www.enlit.world/library/iea-predicts-record-nuclear-growth-but-calls-for-de-risking-sector
+2026-06-10 09:57:27,814 [INFO] Text length: 7488 chars | source: full
+2026-06-10 09:57:27,814 [INFO] Text preview: IEA predicts record nuclear growth but calls for de-risking sector | Enlit World Enquire about or pre-register for Enlit Europe 2026 in Vienna More info Home / Library / IEA predicts record nuclear gr...
+2026-06-10 09:57:28,602 [INFO] LLM HTTP 200 for: IEA predicts record nuclear growth but calls for de-risking 
+2026-06-10 09:57:28,602 [INFO] LLM extracted 1 deals (0 signed) | IEA predicts record nuclear growth but calls for d
+2026-06-10 09:57:28,603 [INFO] Not a signed deal — skipping: IEA predicts record nuclear growth but calls for de-risking 
+2026-06-10 09:57:28,603 [INFO] ------- Processing article n. 1: Plug Power inks final 3GW electrolyser sales agreement to supply Australian gree -------
+2026-06-10 09:57:29,221 [INFO] Resolved Google News URL: https://www.hydrogeninsight.com/electrolysers/plug-power-inks-final-3gw-electrol
+2026-06-10 09:57:29,221 [INFO] URL: https://www.hydrogeninsight.com/electrolysers/plug-power-inks-final-3gw-electrolyser-sales-agreement-to-supply-australian-green-hydrogen-project/2-1-1764970
+2026-06-10 09:57:30,369 [INFO] Text length: 528 chars | source: full
+2026-06-10 09:57:30,369 [INFO] Text preview: Plug Power inks final 3GW electrolyser sales agreement to supply Australian green hydrogen project | Hydrogen Insight Plug Power inks final 3GW electrolyser sales agreement to supply Australian green ...
+2026-06-10 09:57:31,165 [INFO] LLM HTTP 200 for: Plug Power inks final 3GW electrolyser sales agreement to su
+2026-06-10 09:57:31,165 [INFO] LLM extracted 1 deals (0 signed) | Plug Power inks final 3GW electrolyser sales agree
+2026-06-10 09:57:31,166 [INFO] Not a signed deal — skipping: Plug Power inks final 3GW electrolyser sales agreement to su
+2026-06-10 09:57:31,166 [INFO] ------- Processing article n. 1: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR Development - 삼성물산 뉴스룸 -------
+2026-06-10 09:57:31,984 [INFO] Resolved Google News URL: https://news.samsungcnt.com/en/features/engineering-construction/2025-01-samsung
+2026-06-10 09:57:31,984 [INFO] URL: https://news.samsungcnt.com/en/features/engineering-construction/2025-01-samsung-campt-signs-mou-with-swedens-karnfull-next-for-smr-development/
+2026-06-10 09:57:33,032 [INFO] Text length: 4003 chars | source: full
+2026-06-10 09:57:33,032 [INFO] Text preview: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR Development - Samsung C&T Newsroom Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR Development - Samsung C&T Newsroom KO Engineering...
+2026-06-10 09:57:33,816 [INFO] LLM HTTP 200 for: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR De
+2026-06-10 09:57:33,816 [INFO] LLM extracted 1 deals (0 signed) | Samsung C&T Signs MOU with Sweden’s Kärnfull Next 
+2026-06-10 09:57:33,817 [INFO] Not a signed deal — skipping: Samsung C&T Signs MOU with Sweden’s Kärnfull Next for SMR De
+2026-06-10 09:57:33,817 [INFO] ------- Processing article n. 1: Norinco, Arctech sign equipment deal for solar power plant in BiH - Balkan Green -------
+2026-06-10 09:57:34,440 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/norinco-arctech-sign-equipment-deal-for-solar-
+2026-06-10 09:57:34,440 [INFO] URL: https://balkangreenenergynews.com/norinco-arctech-sign-equipment-deal-for-solar-power-plant-in-bih/
+2026-06-10 09:57:35,076 [INFO] Text length: 6876 chars | source: full
+2026-06-10 09:57:35,076 [INFO] Text preview: Norinco, Arctech sign equipment deal for solar power plant in BiH Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share China...
+2026-06-10 09:57:35,894 [INFO] LLM HTTP 200 for: Norinco, Arctech sign equipment deal for solar power plant i
+2026-06-10 09:57:35,894 [INFO] LLM extracted 1 deals (0 signed) | Norinco, Arctech sign equipment deal for solar pow
+2026-06-10 09:57:35,895 [INFO] Not a signed deal — skipping: Norinco, Arctech sign equipment deal for solar power plant i
+2026-06-10 09:57:35,895 [INFO] ------- Processing article n. 1: End of Ukraine gas transit agreement: Implications for Europe - orfonline.org -------
+2026-06-10 09:57:36,556 [INFO] Resolved Google News URL: https://www.orfonline.org/expert-speak/end-of-ukraine-gas-transit-agreement-impl
+2026-06-10 09:57:36,557 [INFO] URL: https://www.orfonline.org/expert-speak/end-of-ukraine-gas-transit-agreement-implications-for-europe
+2026-06-10 09:57:37,157 [INFO] Text length: 10887 chars | source: full
+2026-06-10 09:57:37,157 [INFO] Text preview: End of Ukraine gas transit agreement: Implications for Europe Home Research Essay Series Expert Speak End of Ukraine gas transit agreement: Implications for Europe Author : Rajoli Siddharth Jayaprakas...
+2026-06-10 09:57:37,526 [INFO] LLM HTTP 200 for: End of Ukraine gas transit agreement: Implications for Europ
+2026-06-10 09:57:37,526 [INFO] LLM extracted 0 deals (0 signed) | End of Ukraine gas transit agreement: Implications
+2026-06-10 09:57:37,528 [INFO] ------- Processing article n. 1: American GLGH Steel acquires Artrom Steel Tubes S.A. to enter new markets - GMK  -------
+2026-06-10 09:57:38,376 [INFO] Resolved Google News URL: https://gmk.center/en/news/american-glgh-steel-acquires-artrom-steel-tubes-s-a-t
+2026-06-10 09:57:38,377 [INFO] URL: https://gmk.center/en/news/american-glgh-steel-acquires-artrom-steel-tubes-s-a-to-enter-new-markets/
+2026-06-10 09:57:38,445 [INFO] Full text skipped (status 403): https://gmk.center/en/news/american-glgh-steel-acquires-artrom-steel-tubes-s-a-t
+2026-06-10 09:57:38,445 [INFO] Text length: 185 chars | source: fallback
+2026-06-10 09:57:38,446 [INFO] Text preview: American GLGH Steel acquires Artrom Steel Tubes S.A. to enter new markets - GMK Center
+
+American GLGH Steel acquires Artrom Steel Tubes S.A. to enter new markets &nbsp;&nbsp; GMK Center...
+2026-06-10 09:57:39,200 [INFO] LLM HTTP 200 for: American GLGH Steel acquires Artrom Steel Tubes S.A. to ente
+2026-06-10 09:57:39,200 [INFO] LLM extracted 1 deals (0 signed) | American GLGH Steel acquires Artrom Steel Tubes S.
+2026-06-10 09:57:39,202 [INFO] Not a signed deal — skipping: American GLGH Steel acquires Artrom Steel Tubes S.A. to ente
+2026-06-10 09:57:39,202 [INFO] ------- Processing article n. 1: Delivering decarbonisation: how the energy transition is impacting UK and EU cor -------
+2026-06-10 09:57:39,983 [INFO] Resolved Google News URL: https://www.slaughterandmay.com/horizon-scanning-2025/energy-transition-2025/del
+2026-06-10 09:57:39,983 [INFO] URL: https://www.slaughterandmay.com/horizon-scanning-2025/energy-transition-2025/delivering-decarbonisation-how-the-energy-transition-is-impacting-uk-and-eu-corporates/
+2026-06-10 09:57:40,097 [INFO] Text length: 10273 chars | source: full
+2026-06-10 09:57:40,098 [INFO] Text preview: Delivering decarbonisation: how the energy transition is impacting UK and EU corporates Skip to main content Horizon Scanning 2025 Energy Transition 2025 Delivering decarbonisation: how the energy tra...
+2026-06-10 09:57:40,919 [INFO] LLM HTTP 200 for: Delivering decarbonisation: how the energy transition is imp
+2026-06-10 09:57:40,920 [INFO] LLM extracted 1 deals (0 signed) | Delivering decarbonisation: how the energy transit
+2026-06-10 09:57:40,921 [INFO] Not a signed deal — skipping: Delivering decarbonisation: how the energy transition is imp
+2026-06-10 09:57:40,921 [INFO] ------- Processing article n. 1: Plug Power seals electrolyzer supply deal for hydrogen-to-ammonia project in Aus -------
+2026-06-10 09:57:41,665 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/plug-power-seals-electrolyzer-supply-deal-for-hy
+2026-06-10 09:57:41,665 [INFO] URL: https://www.offshore-energy.biz/plug-power-seals-electrolyzer-supply-deal-for-hydrogen-to-ammonia-project-in-australia/
+2026-06-10 09:57:41,904 [INFO] Text length: 5032 chars | source: full
+2026-06-10 09:57:41,904 [INFO] Text preview: Plug Power seals electrolyzer supply deal for hydrogen-to-ammonia project in Australia - Offshore Energy Direct naar inhoud Advertisement Back to overview Home Hydrogen Plug Power seals electrolyzer s...
+2026-06-10 09:57:42,784 [INFO] LLM HTTP 200 for: Plug Power seals electrolyzer supply deal for hydrogen-to-am
+2026-06-10 09:57:42,785 [INFO] LLM extracted 1 deals (0 signed) | Plug Power seals electrolyzer supply deal for hydr
+2026-06-10 09:57:42,786 [INFO] Not a signed deal — skipping: Plug Power seals electrolyzer supply deal for hydrogen-to-am
+2026-06-10 09:57:42,786 [INFO] ------- Processing article n. 1: ICL Signs Strategic Agreement with Dynanonic to Produce Lithium Iron Phosphate f -------
+2026-06-10 09:57:43,372 [INFO] Resolved Google News URL: https://www.businesswire.com/news/home/20250116261144/en/ICL-Signs-Strategic-Agr
+2026-06-10 09:57:43,372 [INFO] URL: https://www.businesswire.com/news/home/20250116261144/en/ICL-Signs-Strategic-Agreement-with-Dynanonic-to-Produce-Lithium-Iron-Phosphate-for-European-Battery-Market
+2026-06-10 09:57:43,449 [INFO] Full text skipped (status 403): https://www.businesswire.com/news/home/20250116261144/en/ICL-Signs-Strategic-Agr
+2026-06-10 09:57:43,449 [INFO] Text length: 257 chars | source: fallback
+2026-06-10 09:57:43,449 [INFO] Text preview: ICL Signs Strategic Agreement with Dynanonic to Produce Lithium Iron Phosphate for European Battery Market - Business Wire
+
+ICL Signs Strategic Agreement with Dynanonic to Produce Lithium Iron Phospha...
+2026-06-10 09:57:44,219 [INFO] LLM HTTP 200 for: ICL Signs Strategic Agreement with Dynanonic to Produce Lith
+2026-06-10 09:57:44,220 [INFO] LLM extracted 1 deals (0 signed) | ICL Signs Strategic Agreement with Dynanonic to Pr
+2026-06-10 09:57:44,221 [INFO] Not a signed deal — skipping: ICL Signs Strategic Agreement with Dynanonic to Produce Lith
+2026-06-10 09:57:44,221 [INFO] ------- Processing article n. 1: EU devours Russian gas at record speed despite cutoff - politico.eu -------
+2026-06-10 09:57:44,971 [INFO] Resolved Google News URL: https://www.politico.eu/article/eu-devouring-russian-gas-at-record-speed-despite
+2026-06-10 09:57:44,971 [INFO] URL: https://www.politico.eu/article/eu-devouring-russian-gas-at-record-speed-despite-cut-off-sanctions-war-ukraine/
+2026-06-10 09:57:45,644 [INFO] Text length: 4013 chars | source: full
+2026-06-10 09:57:45,644 [INFO] Text preview: EU devours Russian gas at record speed despite cutoff – POLITICO Skip to main content Advertisement Europe is buying Russian gas at an unprecedented rate in 2025, spending billions of dollars the Krem...
+2026-06-10 09:57:46,409 [INFO] LLM HTTP 200 for: EU devours Russian gas at record speed despite cutoff - poli
+2026-06-10 09:57:46,409 [INFO] LLM extracted 1 deals (0 signed) | EU devours Russian gas at record speed despite cut
+2026-06-10 09:57:46,410 [INFO] Not a signed deal — skipping: EU devours Russian gas at record speed despite cutoff - poli
+2026-06-10 09:57:46,410 [INFO] ------- Processing article n. 1: Axpo signs 10-year agreement with British Solar Renewables - Solar Power Portal -------
+2026-06-10 09:57:47,235 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-projects/axpo-signs-10-year-agreement-w
+2026-06-10 09:57:47,235 [INFO] URL: https://www.solarpowerportal.co.uk/solar-projects/axpo-signs-10-year-agreement-with-british-solar-renewables
+2026-06-10 09:57:47,323 [INFO] Text length: 4316 chars | source: full
+2026-06-10 09:57:47,323 [INFO] Text preview: Axpo signs 10-year agreement with British Solar Renewables - Solar Power Portal Solar Projects News Axpo signs 10-year agreement with British Solar Renewables Swiss energy producer Axpo has signed a t...
+2026-06-10 09:57:51,378 [INFO] LLM HTTP 200 for: Axpo signs 10-year agreement with British Solar Renewables -
+2026-06-10 09:57:51,378 [INFO] LLM extracted 1 deals (1 signed) | Axpo signs 10-year agreement with British Solar Re
+2026-06-10 09:57:51,379 [INFO] NEW: Axpo / British Solar Renewables (United Kingdom, 25 MW)
+2026-06-10 09:57:56,380 [INFO] ------- Processing article n. 2: Investment in Africa: Free trade area agreement powers continent's energy future -------
+2026-06-10 09:57:57,057 [INFO] Resolved Google News URL: https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-ag
+2026-06-10 09:57:57,057 [INFO] URL: https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-agreement-powers-continents-energy-future-2025-01-17/
+2026-06-10 09:57:57,107 [INFO] Full text skipped (status 401): https://www.reuters.com/legal/legalindustry/investment-africa-free-trade-area-ag
+2026-06-10 09:57:57,107 [INFO] Text length: 193 chars | source: fallback
+2026-06-10 09:57:57,107 [INFO] Text preview: Investment in Africa: Free trade area agreement powers continent's energy future - Reuters
+
+Investment in Africa: Free trade area agreement powers continent's energy future &nbsp;&nbsp; Reuters...
+2026-06-10 09:57:57,877 [INFO] LLM HTTP 200 for: Investment in Africa: Free trade area agreement powers conti
+2026-06-10 09:57:57,877 [INFO] LLM extracted 1 deals (0 signed) | Investment in Africa: Free trade area agreement po
+2026-06-10 09:57:57,878 [INFO] Not a signed deal — skipping: Investment in Africa: Free trade area agreement powers conti
+2026-06-10 09:57:57,878 [INFO] ------- Processing article n. 2: EU and Mexico revive stalled trade deal as Trump tariffs loom - Reuters -------
+2026-06-10 09:57:58,553 [INFO] Resolved Google News URL: https://www.reuters.com/world/eu-mexico-revive-stalled-trade-deal-trump-looms-20
+2026-06-10 09:57:58,553 [INFO] URL: https://www.reuters.com/world/eu-mexico-revive-stalled-trade-deal-trump-looms-2025-01-17/
+2026-06-10 09:57:58,606 [INFO] Full text skipped (status 401): https://www.reuters.com/world/eu-mexico-revive-stalled-trade-deal-trump-looms-20
+2026-06-10 09:57:58,607 [INFO] Text length: 155 chars | source: fallback
+2026-06-10 09:57:58,607 [INFO] Text preview: EU and Mexico revive stalled trade deal as Trump tariffs loom - Reuters
+
+EU and Mexico revive stalled trade deal as Trump tariffs loom &nbsp;&nbsp; Reuters...
+2026-06-10 09:57:59,423 [INFO] LLM HTTP 200 for: EU and Mexico revive stalled trade deal as Trump tariffs loo
+2026-06-10 09:57:59,423 [INFO] LLM extracted 1 deals (0 signed) | EU and Mexico revive stalled trade deal as Trump t
+2026-06-10 09:57:59,424 [INFO] Not a signed deal — skipping: EU and Mexico revive stalled trade deal as Trump tariffs loo
+2026-06-10 09:57:59,424 [INFO] ------- Processing article n. 2: German economy contracts for second consecutive year in 2024 - Reuters -------
+2026-06-10 09:58:00,236 [INFO] Resolved Google News URL: https://www.reuters.com/markets/europe/german-economy-contracted-02-2024-2025-01
+2026-06-10 09:58:00,236 [INFO] URL: https://www.reuters.com/markets/europe/german-economy-contracted-02-2024-2025-01-15/
+2026-06-10 09:58:00,280 [INFO] Full text skipped (status 401): https://www.reuters.com/markets/europe/german-economy-contracted-02-2024-2025-01
+2026-06-10 09:58:00,281 [INFO] Text length: 153 chars | source: fallback
+2026-06-10 09:58:00,281 [INFO] Text preview: German economy contracts for second consecutive year in 2024 - Reuters
+
+German economy contracts for second consecutive year in 2024 &nbsp;&nbsp; Reuters...
+2026-06-10 09:58:01,008 [INFO] LLM HTTP 200 for: German economy contracts for second consecutive year in 2024
+2026-06-10 09:58:01,008 [INFO] LLM extracted 1 deals (0 signed) | German economy contracts for second consecutive ye
+2026-06-10 09:58:01,010 [INFO] Not a signed deal — skipping: German economy contracts for second consecutive year in 2024
+2026-06-10 09:58:01,010 [INFO] ------- Processing article n. 2: Swiss company Synhelion to start producing solar fuels in Spain in 2027 - pv mag -------
+2026-06-10 09:58:01,710 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/01/16/swiss-company-synhelion-to-start-producin
+2026-06-10 09:58:01,710 [INFO] URL: https://www.pv-magazine.com/2025/01/16/swiss-company-synhelion-to-start-producing-solar-fuels-in-spain-in-2027/
+2026-06-10 09:58:02,034 [INFO] Text length: 9332 chars | source: full
+2026-06-10 09:58:02,034 [INFO] Text preview: Swiss company Synhelion to start producing solar fuels in Spain in 2027 - pv magazine Global Advertisement Advertisement Advertisement Advertisement Research & Development Swiss company Synhelion to s...
+2026-06-10 09:58:03,175 [INFO] LLM HTTP 200 for: Swiss company Synhelion to start producing solar fuels in Sp
+2026-06-10 09:58:03,175 [INFO] LLM extracted 1 deals (1 signed) | Swiss company Synhelion to start producing solar f
+2026-06-10 09:58:03,176 [INFO] NEW: AMAG Group / Synhelion (Spain, None MW)
+2026-06-10 09:58:08,177 [INFO] ------- Processing article n. 3: Inquest into AB InBev’s alleged abuse of power opened - RetailDetail EU -------
+2026-06-10 09:58:09,027 [INFO] Resolved Google News URL: https://www.retaildetail.eu/news/food/inquest-into-ab-inbevs-alleged-abuse-of-po
+2026-06-10 09:58:09,027 [INFO] URL: https://www.retaildetail.eu/news/food/inquest-into-ab-inbevs-alleged-abuse-of-power-opened/
+2026-06-10 09:58:10,155 [INFO] Text length: 4845 chars | source: full
+2026-06-10 09:58:10,155 [INFO] Text preview: Inquest into AB InBev's alleged abuse of power opened - RetailDetail EU Written by Maarten Reul In this article Companies AB InBev Topics Fraud Legislation Geography Belgium Share article Inquest into...
+2026-06-10 09:58:10,526 [INFO] LLM HTTP 200 for: Inquest into AB InBev’s alleged abuse of power opened - Reta
+2026-06-10 09:58:10,526 [INFO] LLM extracted 0 deals (0 signed) | Inquest into AB InBev’s alleged abuse of power ope
+2026-06-10 09:58:10,528 [INFO] ------- Processing article n. 3: Bayer seguirá ampliando su planta asturiana tras celebrar su 125 aniversario - i -------
+2026-06-10 09:58:11,261 [INFO] Resolved Google News URL: https://www.investinspain.org/content/icex-invest/es/noticias-main/2025/bayer
+2026-06-10 09:58:11,261 [INFO] URL: https://www.investinspain.org/content/icex-invest/es/noticias-main/2025/bayer
+2026-06-10 09:58:11,980 [INFO] Text length: 6052 chars | source: full
+2026-06-10 09:58:11,980 [INFO] Text preview: Bayer seguirá ampliando su planta asturiana tras celebrar su 125 aniversario Noticias Actualidad Invest in Spain Realiza tu búsqueda Home Noticias Bayer seguirá ampliando su planta asturiana tras cele...
+2026-06-10 09:58:13,017 [INFO] LLM HTTP 200 for: Bayer seguirá ampliando su planta asturiana tras celebrar su
+2026-06-10 09:58:13,017 [INFO] LLM extracted 1 deals (1 signed) | Bayer seguirá ampliando su planta asturiana tras c
+2026-06-10 09:58:13,019 [INFO] NEW: Bayer / Iberdrola (Spain, None MW)
+2026-06-10 09:58:18,020 [INFO] Run complete. New deals: 4, Updates: 0
+2026-06-10 09:58:18,021 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (12 deals)
