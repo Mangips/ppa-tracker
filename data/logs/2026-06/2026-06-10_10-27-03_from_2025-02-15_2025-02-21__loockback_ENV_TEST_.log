@@ -1,0 +1,202 @@
+2026-06-10 10:27:03,297 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 10:27:03,297 [INFO] Searching from 2025-02-15 to 2025-02-21 with  loockback days
+2026-06-10 10:27:03,297 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 10:27:03,662 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-02-15%20before%3A2025-02-21&hl=en&gl=US&ceid=US:en: 8 results
+2026-06-10 10:27:06,064 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-02-15%20before%3A2025-02-21&hl=en&gl=US&ceid=US:en: 15 results
+2026-06-10 10:27:08,302 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-02-15%20before%3A2025-02-21&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 10:27:10,638 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-02-15%20before%3A2025-02-21&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-06-10 10:27:12,920 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-02-15%20before%3A2025-02-21&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-06-10 10:27:15,213 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-02-15%20before%3A2025-02-21&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-10 10:27:17,472 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-02-15%20before%3A2025-02-21&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 10:27:19,731 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-02-15%20before%3A2025-02-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 10:27:22,190 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-02-15%20before%3A2025-02-21&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-06-10 10:27:24,190 [INFO] Total raw articles collected: 27
+2026-06-10 10:27:24,391 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 10:27:26,122 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 10:27:27,123 [INFO] Unique unseen articles: 22
+2026-06-10 10:27:27,123 [INFO] ------- Processing article n. 0: 10 Power Purchase Agreements signed and 1.3GW contracted in 2024 - Lightsource b -------
+2026-06-10 10:27:27,899 [INFO] Resolved Google News URL: https://lightsourcebp.com/news/10-power-purchase-agreements-signed-and-1-3gw-con
+2026-06-10 10:27:27,899 [INFO] URL: https://lightsourcebp.com/news/10-power-purchase-agreements-signed-and-1-3gw-contracted-in-2024/
+2026-06-10 10:27:28,590 [INFO] Text length: 5393 chars | source: full
+2026-06-10 10:27:28,590 [INFO] Text preview: 10 Power Purchase Agreements signed and 1.3GW contracted in 2024 | Lightsource bp Home › News & insights › 10 Power Purchase Agreements signed and 1.3GW contracted in 2024 19 Feb, 2025 10 Power Purcha...
+2026-06-10 10:27:29,978 [INFO] LLM HTTP 200 for: 10 Power Purchase Agreements signed and 1.3GW contracted in 
+2026-06-10 10:27:29,978 [INFO] LLM extracted 1 deals (1 signed) | 10 Power Purchase Agreements signed and 1.3GW cont
+2026-06-10 10:27:29,980 [INFO] NEW: H&M Group, Microsoft, LyondellBasell, Google, Fashion Pact members / Lightsource bp (Spain, Portugal, United Kingdom, United States, Australia, New Zealand, 1300 MW)
+2026-06-10 10:27:34,981 [INFO] ------- Processing article n. 1: Europe Solar PV News Snippets: Largest Solar Park In SE Europe Insured & More -  -------
+2026-06-10 10:27:35,703 [INFO] Resolved Google News URL: https://taiyangnews.info/markets/europe-solar-pv-news-snippets-largest-solar-par
+2026-06-10 10:27:35,703 [INFO] URL: https://taiyangnews.info/markets/europe-solar-pv-news-snippets-largest-solar-park-in-se-europe-insured-more
+2026-06-10 10:27:36,505 [INFO] Text length: 8214 chars | source: full
+2026-06-10 10:27:36,505 [INFO] Text preview: Europe Solar PV News Snippets Markets Business People Opinion Opinion TaiyangNews Executive Interviews Technology Storage+ Reports Our Events Tenders Price Index Top Modules Top Modules Monthly Top Mo...
+2026-06-10 10:27:39,306 [INFO] LLM HTTP 200 for: Europe Solar PV News Snippets: Largest Solar Park In SE Euro
+2026-06-10 10:27:39,306 [INFO] LLM extracted 4 deals (4 signed) | Europe Solar PV News Snippets: Largest Solar Park 
+2026-06-10 10:27:39,308 [INFO] NEW: Tesla / Zelestra (Spain, 57 MW)
+2026-06-10 10:27:44,309 [INFO] NEW: Meta / Zelestra (Spain, 595 MW)
+2026-06-10 10:27:49,311 [INFO] NEW: Low Carbon / UK hotel operator Maybourne (United Kingdom, None MW)
+2026-06-10 10:27:54,313 [INFO] NEW: Energy 3000 / LONGi (United Kingdom, 100 MW)
+2026-06-10 10:27:59,315 [INFO] ------- Processing article n. 5: Statkraft signs solar PPA with Unilever - Sustainability Online -------
+2026-06-10 10:28:00,290 [INFO] Resolved Google News URL: https://sustainabilityonline.net/news/statkraft-signs-solar-ppa-with-unilever/
+2026-06-10 10:28:00,290 [INFO] URL: https://sustainabilityonline.net/news/statkraft-signs-solar-ppa-with-unilever/
+2026-06-10 10:28:02,193 [INFO] Text length: 4292 chars | source: full
+2026-06-10 10:28:02,193 [INFO] Text preview: Statkraft signs solar PPA with Unilever - Sustainability Online Skip to content Home News Statkraft signs solar PPA with Unilever Statkraft, Europe’s largest renewable energy generator, has signed a l...
+2026-06-10 10:28:03,295 [INFO] LLM HTTP 200 for: Statkraft signs solar PPA with Unilever - Sustainability Onl
+2026-06-10 10:28:03,295 [INFO] LLM extracted 1 deals (1 signed) | Statkraft signs solar PPA with Unilever - Sustaina
+2026-06-10 10:28:03,297 [INFO] NEW: Unilever / Statkraft (Spain, None MW)
+2026-06-10 10:28:08,298 [INFO] ------- Processing article n. 6: Tesla and Zelestra sign PPA for 57MW of Spanish solar power - PV Tech -------
+2026-06-10 10:28:09,302 [INFO] Resolved Google News URL: https://www.pv-tech.org/tesla-zelestra-ppa-57mw-spanish-solar-power/
+2026-06-10 10:28:09,303 [INFO] URL: https://www.pv-tech.org/tesla-zelestra-ppa-57mw-spanish-solar-power/
+2026-06-10 10:28:10,208 [INFO] Text length: 8687 chars | source: full
+2026-06-10 10:28:10,208 [INFO] Text preview: Tesla and Zelestra sign PPA for 57MW of Spanish solar power - PV Tech Skip to content News Tesla and Zelestra sign PPA for 57MW of Spanish solar power By JP Casey February 17, 2025 Power Plants , Proj...
+2026-06-10 10:28:11,298 [INFO] LLM HTTP 200 for: Tesla and Zelestra sign PPA for 57MW of Spanish solar power 
+2026-06-10 10:28:11,298 [INFO] LLM extracted 1 deals (1 signed) | Tesla and Zelestra sign PPA for 57MW of Spanish so
+2026-06-10 10:28:11,300 [INFO] UPDATE: Tesla / Zelestra (Spain, 57 MW) — canonical ID: 70
+2026-06-10 10:28:16,301 [INFO] ------- Processing article n. 7: Akaysha Energy and Gunvor Group Sign Landmark Offtake Agreement for Australian L -------
+2026-06-10 10:28:17,125 [INFO] Resolved Google News URL: https://gunvorgroup.com/news/akaysha-energy-and-gunvor-group-sign-landmark-offta
+2026-06-10 10:28:17,125 [INFO] URL: https://gunvorgroup.com/news/akaysha-energy-and-gunvor-group-sign-landmark-offtake-agreement-for-australian-large-scale-battery-storage/
+2026-06-10 10:28:17,592 [INFO] Text length: 26863 chars | source: full
+2026-06-10 10:28:17,592 [INFO] Text preview: Akaysha Energy and Gunvor Group Sign Landmark Offtake Agreement for Australian Large Scale Battery Storage - Gunvor Group Skip to content Menu Moving Energy Efficiently News Home > Media > News & Stat...
+2026-06-10 10:28:18,823 [INFO] LLM HTTP 200 for: Akaysha Energy and Gunvor Group Sign Landmark Offtake Agreem
+2026-06-10 10:28:18,823 [INFO] LLM extracted 1 deals (1 signed) | Akaysha Energy and Gunvor Group Sign Landmark Offt
+2026-06-10 10:28:18,824 [INFO] Not a European deal — skipping: Gunvor Group / Akaysha Energy (Australia, 205 MW)
+2026-06-10 10:28:18,824 [INFO] ------- Processing article n. 7: Heating up: 2024 showcased the promise of geothermal energy - Wood Mackenzie -------
+2026-06-10 10:28:19,715 [INFO] Resolved Google News URL: https://www.woodmac.com/news/opinion/2024-the-promise-of-geothermal/
+2026-06-10 10:28:19,716 [INFO] URL: https://www.woodmac.com/news/opinion/2024-the-promise-of-geothermal/
+2026-06-10 10:28:20,351 [INFO] Text length: 8979 chars | source: full
+2026-06-10 10:28:20,351 [INFO] Text preview: Heating up: 2024 showcased the promise of geothermal energy | Wood Mackenzie Skip to main content Access our research platforms Sign-in to our platforms to access our extensive research, our latest in...
+2026-06-10 10:28:20,774 [INFO] LLM HTTP 200 for: Heating up: 2024 showcased the promise of geothermal energy 
+2026-06-10 10:28:20,774 [INFO] LLM extracted 0 deals (0 signed) | Heating up: 2024 showcased the promise of geotherm
+2026-06-10 10:28:20,776 [INFO] ------- Processing article n. 7: Strengthening Maritime Defence: Indonesia’s PPA Vessels and the Future of Naval  -------
+2026-06-10 10:28:21,572 [INFO] Resolved Google News URL: https://moderndiplomacy.eu/2025/02/16/strengthening-maritime-defence-indonesias-
+2026-06-10 10:28:21,572 [INFO] URL: https://moderndiplomacy.eu/2025/02/16/strengthening-maritime-defence-indonesias-ppa-vessels-and-the-future-of-naval-power/
+2026-06-10 10:28:22,430 [INFO] Text length: 13812 chars | source: full
+2026-06-10 10:28:22,430 [INFO] Text preview: Strengthening Maritime Defence: Indonesia’s PPA Vessels and the Future of Naval Power - Modern Diplomacy Facebook X Regions Europe Middle East & Africa East Asia Americas Eurasia South Asia Southeast ...
+2026-06-10 10:28:23,256 [INFO] LLM HTTP 200 for: Strengthening Maritime Defence: Indonesia’s PPA Vessels and 
+2026-06-10 10:28:23,256 [INFO] LLM extracted 1 deals (0 signed) | Strengthening Maritime Defence: Indonesia’s PPA Ve
+2026-06-10 10:28:23,258 [INFO] Not a signed deal — skipping: Strengthening Maritime Defence: Indonesia’s PPA Vessels and 
+2026-06-10 10:28:23,258 [INFO] ------- Processing article n. 7: Ashtrom Renewable Energy Announces Power Purchase Agreement (PPA) with CPS Energ -------
+2026-06-10 10:28:24,013 [INFO] Resolved Google News URL: https://www.manilatimes.net/2025/02/19/tmt-newswire/globenewswire/ashtrom-renewa
+2026-06-10 10:28:24,013 [INFO] URL: https://www.manilatimes.net/2025/02/19/tmt-newswire/globenewswire/ashtrom-renewable-energy-announces-power-purchase-agreement-ppa-with-cps-energy-for-el-patrimonio-solar-project-in-texas/2058702
+2026-06-10 10:28:24,386 [INFO] Text length: 6105 chars | source: full
+2026-06-10 10:28:24,386 [INFO] Text preview: Ashtrom Renewable Energy Announces Power Purchase Agreement (PPA) with CPS Energy for El Patrimonio Solar Project in Texas
+
+ | The Manila Times OPINION NEWS REGIONS WORLD BUSINESS SPORTS ENTERTAINMENT...
+2026-06-10 10:28:25,639 [INFO] LLM HTTP 200 for: Ashtrom Renewable Energy Announces Power Purchase Agreement 
+2026-06-10 10:28:25,639 [INFO] LLM extracted 1 deals (1 signed) | Ashtrom Renewable Energy Announces Power Purchase 
+2026-06-10 10:28:25,641 [INFO] Not a European deal — skipping: CPS Energy / Ashtrom Renewable Energy (United States, 150 MW)
+2026-06-10 10:28:25,641 [INFO] ------- Processing article n. 7: Bridging the US-EU Trade Gap with US LNG Is More Complex than It Sounds - Columb -------
+2026-06-10 10:28:26,387 [INFO] Resolved Google News URL: https://www.energypolicy.columbia.edu/bridging-the-us-eu-trade-gap-with-us-lng-i
+2026-06-10 10:28:26,388 [INFO] URL: https://www.energypolicy.columbia.edu/bridging-the-us-eu-trade-gap-with-us-lng-is-more-complex-than-it-sounds/
+2026-06-10 10:28:26,641 [INFO] Text length: 14480 chars | source: full
+2026-06-10 10:28:26,641 [INFO] Text preview: Bridging the US-EU Trade Gap with US LNG Is More Complex than It Sounds - Center on Global Energy Policy at Columbia University SIPA | CGEP % This website uses cookies as well as similar tools and tec...
+2026-06-10 10:28:27,045 [INFO] LLM HTTP 200 for: Bridging the US-EU Trade Gap with US LNG Is More Complex tha
+2026-06-10 10:28:27,045 [INFO] LLM extracted 0 deals (0 signed) | Bridging the US-EU Trade Gap with US LNG Is More C
+2026-06-10 10:28:27,046 [INFO] ------- Processing article n. 7: Air Liquide announces major investments to support European decarbonization in c -------
+2026-06-10 10:28:27,732 [INFO] Resolved Google News URL: https://www.airliquide.com/group/press-releases-news/2025-02-18/air-liquide-anno
+2026-06-10 10:28:27,732 [INFO] URL: https://www.airliquide.com/group/press-releases-news/2025-02-18/air-liquide-announces-major-investments-support-european-decarbonization-collaboration-totalenergies
+2026-06-10 10:28:28,233 [INFO] Text length: 5665 chars | source: full
+2026-06-10 10:28:28,233 [INFO] Text preview: Air Liquide announces major investments to support European decarbonization in collaboration with TotalEnergies | Air Liquide Skip to main content AL € Contact Close popin Christel des Royeries Direct...
+2026-06-10 10:28:29,060 [INFO] LLM HTTP 200 for: Air Liquide announces major investments to support European 
+2026-06-10 10:28:29,060 [INFO] LLM extracted 1 deals (0 signed) | Air Liquide announces major investments to support
+2026-06-10 10:28:29,062 [INFO] Not a signed deal — skipping: Air Liquide announces major investments to support European 
+2026-06-10 10:28:29,062 [INFO] ------- Processing article n. 7: OLAF completes investigation into suspected serious irregularities in EU-funded  -------
+2026-06-10 10:28:30,042 [INFO] Resolved Google News URL: https://anti-fraud.ec.europa.eu/media-corner/news/olaf-completes-investigation-s
+2026-06-10 10:28:30,043 [INFO] URL: https://anti-fraud.ec.europa.eu/media-corner/news/olaf-completes-investigation-suspected-serious-irregularities-eu-funded-procurement-power-generators-2025-02-18_en
+2026-06-10 10:28:30,798 [INFO] Text length: 4539 chars | source: full
+2026-06-10 10:28:30,798 [INFO] Text preview: OLAF completes investigation into suspected serious irregularities in EU-funded procurement of power generators for Ukraine - European Anti-Fraud Office Skip to main content OLAF completes investigati...
+2026-06-10 10:28:31,670 [INFO] LLM HTTP 200 for: OLAF completes investigation into suspected serious irregula
+2026-06-10 10:28:31,670 [INFO] LLM extracted 1 deals (0 signed) | OLAF completes investigation into suspected seriou
+2026-06-10 10:28:31,672 [INFO] Not a signed deal — skipping: OLAF completes investigation into suspected serious irregula
+2026-06-10 10:28:31,672 [INFO] ------- Processing article n. 7: European Commission urges tax reform in energy cost-cutting plan - Euronews.com -------
+2026-06-10 10:28:32,648 [INFO] Resolved Google News URL: https://www.euronews.com/my-europe/2025/02/19/european-commission-urges-end-to-t
+2026-06-10 10:28:32,648 [INFO] URL: https://www.euronews.com/my-europe/2025/02/19/european-commission-urges-end-to-tax-reform-deadlock-in-energy-cost-cutting-plan
+2026-06-10 10:28:32,987 [INFO] Full text skipped (status 406): https://www.euronews.com/my-europe/2025/02/19/european-commission-urges-end-to-t
+2026-06-10 10:28:32,987 [INFO] Text length: 171 chars | source: fallback
+2026-06-10 10:28:32,987 [INFO] Text preview: European Commission urges tax reform in energy cost-cutting plan - Euronews.com
+
+European Commission urges tax reform in energy cost-cutting plan &nbsp;&nbsp; Euronews.com...
+2026-06-10 10:28:33,770 [INFO] LLM HTTP 200 for: European Commission urges tax reform in energy cost-cutting 
+2026-06-10 10:28:33,770 [INFO] LLM extracted 1 deals (0 signed) | European Commission urges tax reform in energy cos
+2026-06-10 10:28:33,772 [INFO] Not a signed deal — skipping: European Commission urges tax reform in energy cost-cutting 
+2026-06-10 10:28:33,772 [INFO] ------- Processing article n. 7: Solar power developers launch projects in Albania for 235 MW - Balkan Green Ener -------
+2026-06-10 10:28:34,703 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/solar-power-developers-launch-projects-in-alba
+2026-06-10 10:28:34,703 [INFO] URL: https://balkangreenenergynews.com/solar-power-developers-launch-projects-in-albania-for-235-mw/
+2026-06-10 10:28:36,157 [INFO] Text length: 7245 chars | source: full
+2026-06-10 10:28:36,157 [INFO] Text preview: Solar power developers launch projects in Albania for 235 MW Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share China offe...
+2026-06-10 10:28:37,548 [INFO] LLM HTTP 200 for: Solar power developers launch projects in Albania for 235 MW
+2026-06-10 10:28:37,548 [INFO] LLM extracted 1 deals (1 signed) | Solar power developers launch projects in Albania 
+2026-06-10 10:28:37,550 [INFO] NEW: None / Voltalia (Albania, 140 MW)
+2026-06-10 10:28:42,551 [INFO] ------- Processing article n. 8: How is Brookfield Boosting French AI Ambitions? - AI Magazine -------
+2026-06-10 10:28:43,347 [INFO] Resolved Google News URL: https://aimagazine.com/articles/how-is-brookfield-boosting-french-ai-ambitions
+2026-06-10 10:28:43,347 [INFO] URL: https://aimagazine.com/articles/how-is-brookfield-boosting-french-ai-ambitions
+2026-06-10 10:28:44,165 [INFO] Text length: 5542 chars | source: full
+2026-06-10 10:28:44,165 [INFO] Text preview: How is Brookfield Boosting French AI Ambitions? | AI Magazine Article Cloud & Infrastructure How is Brookfield Boosting French AI Ambitions? By Matt High February 17, 2025 undefined mins Share this ar...
+2026-06-10 10:28:45,016 [INFO] LLM HTTP 200 for: How is Brookfield Boosting French AI Ambitions? - AI Magazin
+2026-06-10 10:28:45,016 [INFO] LLM extracted 1 deals (0 signed) | How is Brookfield Boosting French AI Ambitions? - 
+2026-06-10 10:28:45,018 [INFO] Not a signed deal — skipping: How is Brookfield Boosting French AI Ambitions? - AI Magazin
+2026-06-10 10:28:45,018 [INFO] ------- Processing article n. 8: Polish government "shocked" by EU’s anti-fraud office’s ruling on Ukraine aid ge -------
+2026-06-10 10:28:45,748 [INFO] Resolved Google News URL: https://www.euractiv.com/news/polish-government-shocked-by-eus-anti-fraud-office
+2026-06-10 10:28:45,748 [INFO] URL: https://www.euractiv.com/news/polish-government-shocked-by-eus-anti-fraud-offices-ruling-on-ukraine-aid-generators/
+2026-06-10 10:28:46,892 [INFO] Text length: 4764 chars | source: full
+2026-06-10 10:28:46,892 [INFO] Text preview: Polish government "shocked" by EU’s anti-fraud office’s ruling on Ukraine aid generators | Euractiv Ga naar de hoofdinhoud [EPA/JULIEN WARNAND] WARSAW – EU Commissioner for Budget Piotr Serafin and Po...
+2026-06-10 10:28:47,764 [INFO] LLM HTTP 200 for: Polish government "shocked" by EU’s anti-fraud office’s ruli
+2026-06-10 10:28:47,764 [INFO] LLM extracted 1 deals (0 signed) | Polish government "shocked" by EU’s anti-fraud off
+2026-06-10 10:28:47,766 [INFO] Not a signed deal — skipping: Polish government "shocked" by EU’s anti-fraud office’s ruli
+2026-06-10 10:28:47,766 [INFO] ------- Processing article n. 8: 2024: Building on record margin improvement and major commercial successes fueli -------
+2026-06-10 10:28:48,651 [INFO] Resolved Google News URL: https://www.airliquide.com/group/press-releases-news/2025-02-21/2024-building-re
+2026-06-10 10:28:48,651 [INFO] URL: https://www.airliquide.com/group/press-releases-news/2025-02-21/2024-building-record-margin-improvement-and-major-commercial-successes-fueling-future-growth-air
+2026-06-10 10:28:49,164 [INFO] Text length: 24774 chars | source: full
+2026-06-10 10:28:49,164 [INFO] Text preview: 2024: Building on record margin improvement and major commercial successes fueling future growth, Air Liquide is once again raising its margin ambition | Air Liquide Skip to main content AL € Contact ...
+2026-06-10 10:28:49,577 [INFO] LLM HTTP 200 for: 2024: Building on record margin improvement and major commer
+2026-06-10 10:28:49,577 [INFO] LLM extracted 0 deals (0 signed) | 2024: Building on record margin improvement and ma
+2026-06-10 10:28:49,579 [INFO] ------- Processing article n. 8: ACWA Power building hydrogen bridge between Europe and Middle East, North Africa -------
+2026-06-10 10:28:50,467 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/02/20/acwa-power-building-hydrogen-bridge-betwe
+2026-06-10 10:28:50,467 [INFO] URL: https://www.pv-magazine.com/2025/02/20/acwa-power-building-hydrogen-bridge-between-europe-and-middle-east-north-africa/
+2026-06-10 10:28:52,186 [INFO] Text length: 14507 chars | source: full
+2026-06-10 10:28:52,186 [INFO] Text preview: ACWA Power building hydrogen bridge between Europe and Middle East, North Africa - pv magazine Global Advertisement Advertisement Advertisement Advertisement Applications & Installations ACWA Power bu...
+2026-06-10 10:28:53,021 [INFO] LLM HTTP 200 for: ACWA Power building hydrogen bridge between Europe and Middl
+2026-06-10 10:28:53,021 [INFO] LLM extracted 1 deals (0 signed) | ACWA Power building hydrogen bridge between Europe
+2026-06-10 10:28:53,023 [INFO] Not a signed deal — skipping: ACWA Power building hydrogen bridge between Europe and Middl
+2026-06-10 10:28:53,023 [INFO] ------- Processing article n. 8: Kosovo* receives four applications for wind power auction - Balkan Green Energy  -------
+2026-06-10 10:28:53,937 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/kosovo-receives-four-applications-for-wind-pow
+2026-06-10 10:28:53,937 [INFO] URL: https://balkangreenenergynews.com/kosovo-receives-four-applications-for-wind-power-auction/
+2026-06-10 10:28:55,172 [INFO] Text length: 7934 chars | source: full
+2026-06-10 10:28:55,172 [INFO] Text preview: Kosovo* receives four applications for wind power auction Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share China offers ...
+2026-06-10 10:28:56,038 [INFO] LLM HTTP 200 for: Kosovo* receives four applications for wind power auction - 
+2026-06-10 10:28:56,038 [INFO] LLM extracted 1 deals (0 signed) | Kosovo* receives four applications for wind power 
+2026-06-10 10:28:56,039 [INFO] Not a signed deal — skipping: Kosovo* receives four applications for wind power auction - 
+2026-06-10 10:28:56,039 [INFO] ------- Processing article n. 8: Le Groupe BPCE renforce son engagement pour la transition énergétique en signant -------
+2026-06-10 10:28:56,812 [INFO] Resolved Google News URL: https://www.banquepopulaire.fr/bpbfc/communication/le-groupe-bpce-renforce-son-e
+2026-06-10 10:28:56,813 [INFO] URL: https://www.banquepopulaire.fr/bpbfc/communication/le-groupe-bpce-renforce-son-engagement-pour-la-transition-energetique-en-signant-un-contrat-de-20-ans-avec-opale/
+2026-06-10 10:28:58,311 [INFO] Text length: 338 chars | source: full
+2026-06-10 10:28:58,311 [INFO] Text preview: Le Groupe BPCE renforce son engagement pour la transition énergétique en signant un contrat de 20 ans avec Opale | BPBFC Nous vous proposons les offres les plus adaptées selon votre localisation. Sais...
+2026-06-10 10:28:59,156 [INFO] LLM HTTP 200 for: Le Groupe BPCE renforce son engagement pour la transition én
+2026-06-10 10:28:59,156 [INFO] LLM extracted 1 deals (0 signed) | Le Groupe BPCE renforce son engagement pour la tra
+2026-06-10 10:28:59,158 [INFO] Not a signed deal — skipping: Le Groupe BPCE renforce son engagement pour la transition én
+2026-06-10 10:28:59,158 [INFO] ------- Processing article n. 8: Datacenters IA en France : promesses contre promesses - LeMagIT -------
+2026-06-10 10:29:00,017 [INFO] Resolved Google News URL: https://www.lemagit.fr/actualites/366619359/Datacenters-IA-en-France-promesses-c
+2026-06-10 10:29:00,017 [INFO] URL: https://www.lemagit.fr/actualites/366619359/Datacenters-IA-en-France-promesses-contre-promesses
+2026-06-10 10:29:00,666 [INFO] Text length: 15565 chars | source: full
+2026-06-10 10:29:00,666 [INFO] Text preview: Datacenters IA en France : promesses contre promesses | LeMagIT Accueil HPC Guides Essentiels Voir tous les articles de ce guide Partager avec votre réseau: par Gaétan Raoul, LeMagIT Publié le: 17 fév...
+2026-06-10 10:29:01,894 [INFO] LLM HTTP 200 for: Datacenters IA en France : promesses contre promesses - LeMa
+2026-06-10 10:29:01,894 [INFO] LLM extracted 1 deals (1 signed) | Datacenters IA en France : promesses contre promes
+2026-06-10 10:29:01,896 [INFO] NEW: Equinix / None (France, 100 MW)
+2026-06-10 10:29:06,897 [INFO] ------- Processing article n. 9: Lightsource bp ofrece 500 MW de solar y almacenamiento para PPAs en España y Por -------
+2026-06-10 10:29:07,607 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/lightsource-bp-ofrece-500-mw-de-solar-y-almac
+2026-06-10 10:29:07,607 [INFO] URL: https://elperiodicodelaenergia.com/lightsource-bp-ofrece-500-mw-de-solar-y-almacenamiento-para-ppas-en-espana-y-portugal/
+2026-06-10 10:29:08,253 [INFO] Text length: 4747 chars | source: full
+2026-06-10 10:29:08,253 [INFO] Text preview: Lightsource bp ofrece 500 MW de solar y almacenamiento para PPAs en España y Portugal Miércoles, 10 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja competitiva en España ...
+2026-06-10 10:29:10,534 [INFO] LLM HTTP 200 for: Lightsource bp ofrece 500 MW de solar y almacenamiento para 
+2026-06-10 10:29:10,534 [INFO] LLM extracted 3 deals (0 signed) | Lightsource bp ofrece 500 MW de solar y almacenami
+2026-06-10 10:29:10,536 [INFO] Not a signed deal — skipping: Lightsource bp ofrece 500 MW de solar y almacenamiento para 
+2026-06-10 10:29:10,536 [INFO] Not a signed deal — skipping: Lightsource bp ofrece 500 MW de solar y almacenamiento para 
+2026-06-10 10:29:10,536 [INFO] Not a signed deal — skipping: Lightsource bp ofrece 500 MW de solar y almacenamiento para 
+2026-06-10 10:29:10,536 [INFO] ------- Processing article n. 9: Dez Contratos de Aquisição de Energia (PPA) assinados e 1,3GW contratados em 202 -------
+2026-06-10 10:29:11,432 [INFO] Resolved Google News URL: https://lightsourcebp.com/pt/news/dez-contratos-de-aquisicao-de-energia-ppa-assi
+2026-06-10 10:29:11,432 [INFO] URL: https://lightsourcebp.com/pt/news/dez-contratos-de-aquisicao-de-energia-ppa-assinados-e-13gw-contratados-em-2024/
+2026-06-10 10:29:12,056 [INFO] Text length: 4246 chars | source: full
+2026-06-10 10:29:12,056 [INFO] Text preview: Dez Contratos de Aquisição de Energia (PPA) assinados e 1,3GW contratados em 2024 | Lightsource bp Home › Notícias e insights › Dez Contratos de Aquisição de Energia (PPA) assinados e 1,3GW contratado...
+2026-06-10 10:29:14,032 [INFO] LLM HTTP 200 for: Dez Contratos de Aquisição de Energia (PPA) assinados e 1,3G
+2026-06-10 10:29:14,032 [INFO] LLM extracted 2 deals (2 signed) | Dez Contratos de Aquisição de Energia (PPA) assina
+2026-06-10 10:29:14,034 [INFO] NEW: H&M Group, Microsoft, LyondellBasell, Google / Lightsource bp (Portugal, Spain, United Kingdom, United States of America, Australia, New Zealand, 1300 MW)
+2026-06-10 10:29:19,035 [INFO] NEW: The Fashion Pact, LyondellBasell / Lightsource bp (Spain, None MW)
+2026-06-10 10:29:24,037 [INFO] Run complete. New deals: 11, Updates: 0
+2026-06-10 10:29:24,039 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (70 deals)
