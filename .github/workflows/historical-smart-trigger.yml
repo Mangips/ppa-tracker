@@ -21,7 +21,7 @@ env:
 jobs:
   run-historical:
     runs-on: ubuntu-latest
-    environment: Prod
+    environment: Test
     permissions:
       contents: write
       
