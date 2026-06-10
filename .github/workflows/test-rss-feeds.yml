@@ -1,0 +1,29 @@
+name: Test RSS Feeds
+
+on:
+  workflow_dispatch:
+    inputs:
+      feeds:
+        description: 'Comma-separated RSS feed URLs to test (leave empty to test all defaults)'
+        required: false
+        default: ''
+
+jobs:
+  test-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run RSS feed tester
+        env:
+          FEEDS_INPUT: ${{ github.event.inputs.feeds }}
+        run: python src/test_rss_feeds.py
