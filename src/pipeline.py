@@ -66,23 +66,29 @@ log = logging.getLogger(__name__)
 # Google News RSS: one query per language.
 # hl = UI language, gl = country, ceid = region:language
 GOOGLE_NEWS_FEEDS = [
-    # English
-    ("en", "PPA signed Europe"),
+    # English — two strong queries
     ("en", "power purchase agreement signed Europe"),
-    # German
-    ("de", "PPA unterzeichnet Deutschland"),
+    ("en", "corporate PPA Europe renewable energy"),
+    # German — natural phrasing
+    ("de", "Stromliefervertrag unterzeichnet"),
+    ("de", "PPA erneuerbare Energie Deutschland"),
     # French
-    ("fr", "PPA signé France"),
+    ("fr", "contrat d'achat d'électricité signé"),
+    ("fr", "PPA énergie renouvelable France"),
     # Spanish
-    ("es", "PPA firmado Espana"),
+    ("es", "acuerdo de compra de energía firmado"),
+    ("es", "PPA energía renovable España"),
     # Italian
-    ("it", "PPA firmato Italia"),
+    ("it", "accordo di acquisto energia rinnovabile"),
+    ("it", "PPA firmato energia rinnovabile Italia"),
     # Polish
-    ("pl", "PPA podpisany Polen"),
+    ("pl", "umowa zakupu energii podpisana"),
     # Dutch
-    ("nl", "PPA ondertekend Niederlanden"),
+    ("nl", "stroomafnameovereenkomst ondertekend"),
+    ("nl", "PPA hernieuwbare energie Nederland"),
     # Portuguese
-    ("pt", "PPA assinado Portugal"),
+    ("pt", "acordo de compra de energia assinado"),
+    ("pt", "PPA energia renovável Portugal"),
 ]
 
 LANG_TO_CEID = {
