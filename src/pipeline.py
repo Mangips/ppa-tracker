@@ -354,6 +354,7 @@ Analyze the text below and:
 3. Return a **JSON array** of these objects (one per deal).
 4. If **NO signed deals** are found, return an array with **ONE object** where `is_signed_deal` is `false` and all other fields are `null`.
 5. If signed, `is_european` must reflect where the ENERGY IS DELIVERED, not where the companies are based.
+6. If an article describes multiple individual deals, extract EACH separately with its own capacity. Do NOT also extract an aggregate/summary entry. If you cannot determine the capacity of an individual deal, use null — but never create a summary row that combines multiple deals into one.
 
 Return **ONLY** a valid JSON array — no markdown fences, no explanation, nothing else.
 Each object must include **ALL fields** below (use `null` for missing values):
@@ -474,12 +475,24 @@ def _normalize_entity(name: str) -> str:
     return " ".join(n.split())  # collapse whitespace
 
 def make_deal_hash(extracted: dict) -> str:
-    date = (extracted.get("date_agreement") or "")[:7]  # truncate to YYYY-MM
+    date = (extracted.get("date_agreement") or "")[:7]
+
+    buyer = _normalize_entity(extracted.get("buyer") or "")
+    seller = _normalize_entity(extracted.get("seller") or "")
+    parties = sorted([buyer, seller])
+
+    country = _normalize_country(extracted.get("country") or "")
+    country_parts = sorted([c.strip() for c in country.split(",")])
+    country_normalized = ",".join(country_parts)
+
+    capacity = extracted.get("capacity_mw")
+    capacity_str = str(round(float(capacity))) if capacity else "unknown"
+
     parts = [
-        _normalize_entity(extracted.get("buyer")   or ""),
-        _normalize_entity(extracted.get("seller")  or ""),
-        _normalize_country(extracted.get("country") or ""),
-        str(extracted.get("capacity_mw") or 0),
+        parties[0],
+        parties[1],
+        country_normalized,
+        capacity_str,
         date,
     ]
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
@@ -495,6 +508,38 @@ def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> dict | None:
     keys = ["id", "energy_gwh", "tenure_years", "price_eur_mwh", "technology", "notes", "publication_date"]
     return dict(zip(keys, row))
 
+def find_fuzzy_duplicate(conn: sqlite3.Connection, extracted: dict) -> dict | None:
+    """
+    For deals where capacity is unknown, check if a deal with same
+    buyer/seller/country/date already exists at any capacity.
+    """
+    if extracted.get("capacity_mw") is not None:
+        return None  # only apply fuzzy match when capacity is missing
+
+    buyer = _normalize_entity(extracted.get("buyer") or "")
+    seller = _normalize_entity(extracted.get("seller") or "")
+    date = (extracted.get("date_agreement") or "")[:7]
+    country = _normalize_country(extracted.get("country") or "")
+
+    row = conn.execute("""
+        SELECT id, energy_gwh, tenure_years, price_eur_mwh, technology, notes, publication_date
+        FROM deals
+        WHERE LOWER(buyer) LIKE ? 
+          AND LOWER(seller) LIKE ?
+          AND LOWER(country) LIKE ?
+          AND date_agreement LIKE ?
+        LIMIT 1
+    """, (
+        f"%{buyer[:20]}%",
+        f"%{seller[:20]}%",
+        f"%{country[:20]}%",
+        f"{date}%",
+    )).fetchone()
+
+    if not row:
+        return None
+    keys = ["id", "energy_gwh", "tenure_years", "price_eur_mwh", "technology", "notes", "publication_date"]
+    return dict(zip(keys, row))
 
 def classify_match(existing: dict, new_deal: dict, new_pub_date: str) -> str:
     """
@@ -788,6 +833,8 @@ def run() -> None:
         
             deal_hash   = make_deal_hash(deal)
             existing    = find_duplicate(conn, deal_hash)
+            if not existing:
+                existing = find_fuzzy_duplicate(conn, deal)
             new_pub     = (article.get("publishedAt") or "")[:10]
 
             if existing:
