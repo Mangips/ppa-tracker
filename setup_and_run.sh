@@ -5,7 +5,7 @@ export NEWSAPI_KEY=09dc36bc64a640e09c505edb68bf576b
 export MISTRAL_KEY=fxdBAx3SLW1zcgUat1JowUbBtT5eCo4C
 export LOOKBACK_DAYS=0
 export MAX_ARTICLES=100000
-export NOTIFY_EMAIL_ENABLED=0
+export NOTIFY_EMAIL_ENABLED=
 export ENVIRONMENT=Test
 
 # ── Step 3: Install dependencies ──
