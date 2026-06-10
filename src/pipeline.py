@@ -467,10 +467,15 @@ LEGAL_SUFFIXES = _re.compile(
 EUROPEAN_COUNTRIES = {
     "austria", "belgium", "bulgaria", "croatia", "cyprus", "czech republic",
     "denmark", "estonia", "finland", "france", "germany", "greece", "hungary",
-    "ireland", "italy", "latvia", "lithuania", "luxembourg", "malta",
+    "ireland", "ireland, northern", "northern ireland", "scotland", "england", "wales",
+    "italy", "latvia", "lithuania", "luxembourg", "malta",
     "netherlands", "poland", "portugal", "romania", "slovakia", "slovenia",
-    "spain", "sweden", "united kingdom", "norway", "switzerland", "ukraine",
+    "spain", "sweden", "united kingdom", "uk", "norway", "switzerland", "ukraine",
     "serbia", "albania", "north macedonia", "montenegro", "bosnia", "iceland",
+}
+
+EUROPEAN_VAGUE = {
+    "europe", "european", "multiple", "various", "unspecified", "none", ""
 }
 
 def _normalize_country(country: str) -> str:
@@ -494,9 +499,30 @@ def make_deal_hash(extracted: dict) -> str:
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
 
 def is_european_deal(deal: dict) -> bool:
-    country = (deal.get("country") or "").lower().strip()
-    country = COUNTRY_ALIASES.get(country, country)
-    return country in EUROPEAN_COUNTRIES
+    country_raw = (deal.get("country") or "").lower().strip()
+
+    # None or empty: include on safe side
+    if not country_raw:
+        return True
+
+    # Vague but European-sounding: include
+    if any(vague in country_raw for vague in EUROPEAN_VAGUE):
+        return True
+
+    # Split multi-country strings and check if ANY is European
+    # Handles: "Portugal, Spain", "Spain, Portugal, UK, other European markets"
+    parts = [p.strip().rstrip(")").lstrip("(") for p in country_raw.replace(";", ",").split(",")]
+    for part in parts:
+        part = part.strip()
+        # Apply aliases
+        part = COUNTRY_ALIASES.get(part, part)
+        if part in EUROPEAN_COUNTRIES:
+            return True
+        # Catch sub-region patterns like "scotland, uk" already split to "scotland"
+        if any(eu in part for eu in EUROPEAN_COUNTRIES):
+            return True
+
+    return False
 
 def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> dict | None:
     """Returns the full existing row as a dict, or None."""
