@@ -1,0 +1,154 @@
+2026-06-10 10:36:33,681 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 10:36:33,682 [INFO] Searching from 2025-03-15 to 2025-03-21 with  loockback days
+2026-06-10 10:36:33,682 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 10:36:34,027 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-03-15%20before%3A2025-03-21&hl=en&gl=US&ceid=US:en: 9 results
+2026-06-10 10:36:36,434 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-03-15%20before%3A2025-03-21&hl=en&gl=US&ceid=US:en: 8 results
+2026-06-10 10:36:38,705 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-03-15%20before%3A2025-03-21&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 10:36:40,995 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-03-15%20before%3A2025-03-21&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-10 10:36:43,286 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-03-15%20before%3A2025-03-21&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-06-10 10:36:45,561 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-03-15%20before%3A2025-03-21&hl=it&gl=IT&ceid=IT:it: 4 results
+2026-06-10 10:36:47,819 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-03-15%20before%3A2025-03-21&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 10:36:50,051 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-03-15%20before%3A2025-03-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 10:36:52,399 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-03-15%20before%3A2025-03-21&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 10:36:54,400 [INFO] Total raw articles collected: 23
+2026-06-10 10:36:54,506 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 10:36:56,176 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 10:36:57,177 [INFO] Unique unseen articles: 16
+2026-06-10 10:36:57,177 [INFO] ------- Processing article n. 0: RWE and Telehouse agree 10-year Power Purchase Agreement - RWE -------
+2026-06-10 10:36:57,943 [INFO] Resolved Google News URL: https://www.rwe.com/en/press/rwe-supply-and-trading/2025-03-17-rwe-signs-ppa-wit
+2026-06-10 10:36:57,943 [INFO] URL: https://www.rwe.com/en/press/rwe-supply-and-trading/2025-03-17-rwe-signs-ppa-with-telehouse/
+2026-06-10 10:37:00,025 [INFO] Text length: 2444 chars | source: full
+2026-06-10 10:37:00,025 [INFO] Text preview: RWE and Telehouse agree 10-year Power Purchase Agreement Source: London Array Ltd. London/Essen, 17 March 2025 RWE, the UK’s largest power generator and a world leading renewable energy company today ...
+2026-06-10 10:37:01,110 [INFO] LLM HTTP 200 for: RWE and Telehouse agree 10-year Power Purchase Agreement - R
+2026-06-10 10:37:01,111 [INFO] LLM extracted 1 deals (1 signed) | RWE and Telehouse agree 10-year Power Purchase Agr
+2026-06-10 10:37:01,112 [INFO] NEW: Telehouse International Corporation of Europe / RWE (United Kingdom, 630 MW)
+2026-06-10 10:37:06,114 [INFO] ------- Processing article n. 1: Google signs 35MW wind PPA with Exus Renewables in Spain - Data Center Dynamics -------
+2026-06-10 10:37:06,892 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/google-signs-35mw-wind-ppa-with-exus-
+2026-06-10 10:37:06,892 [INFO] URL: https://www.datacenterdynamics.com/en/news/google-signs-35mw-wind-ppa-with-exus-renewables-in-spain/
+2026-06-10 10:37:07,711 [INFO] Text length: 3172 chars | source: full
+2026-06-10 10:37:07,711 [INFO] Text preview: Google signs 35MW wind PPA with Exus Renewables in Spain - DCD Home News The Energy & Sustainability Channel Google signs 35MW wind PPA with Exus Renewables in Spain Third PPA signed by the company in...
+2026-06-10 10:37:08,802 [INFO] LLM HTTP 200 for: Google signs 35MW wind PPA with Exus Renewables in Spain - D
+2026-06-10 10:37:08,802 [INFO] LLM extracted 1 deals (1 signed) | Google signs 35MW wind PPA with Exus Renewables in
+2026-06-10 10:37:08,805 [INFO] NEW: Google / Exus Renewables (Spain, 35 MW)
+2026-06-10 10:37:13,806 [INFO] ------- Processing article n. 2: Prysmian and Edison Energia sign a multi-year agreement for the supply of renewa -------
+2026-06-10 10:37:14,542 [INFO] Resolved Google News URL: https://www.prysmian.com/en/media/press-releases/prysmian-and-edison-energia-sig
+2026-06-10 10:37:14,542 [INFO] URL: https://www.prysmian.com/en/media/press-releases/prysmian-and-edison-energia-sign-a-multi-year-agreement-for-the-supply-of-renewable-energy
+2026-06-10 10:37:15,999 [INFO] Text length: 3445 chars | source: full
+2026-06-10 10:37:16,000 [INFO] Text preview: Prysmian and Edison Energia sign a multi-year agreement for the supply of renewable energy | Prysmian Skip to main content arrow-right angle-down-sx angle-down-dx menu-hamburger search YouTube Faceboo...
+2026-06-10 10:37:17,212 [INFO] LLM HTTP 200 for: Prysmian and Edison Energia sign a multi-year agreement for 
+2026-06-10 10:37:17,212 [INFO] LLM extracted 1 deals (1 signed) | Prysmian and Edison Energia sign a multi-year agre
+2026-06-10 10:37:17,214 [INFO] NEW: Prysmian / Edison Energia (Italy, 150 MW)
+2026-06-10 10:37:22,215 [INFO] ------- Processing article n. 3: Telehouse Commits to Renewable Energy Sourcing with RWE PPA - Data Centre Magazi -------
+2026-06-10 10:37:22,955 [INFO] Resolved Google News URL: https://datacentremagazine.com/critical-environments/telehouse-commits-to-renewa
+2026-06-10 10:37:22,955 [INFO] URL: https://datacentremagazine.com/critical-environments/telehouse-commits-to-renewable-energy-sourcing-with-rwe-ppa
+2026-06-10 10:37:23,365 [INFO] Text length: 5342 chars | source: full
+2026-06-10 10:37:23,365 [INFO] Text preview: Telehouse Commits to Renewable Energy Sourcing with RWE PPA | Data Centre Magazine Article Critical Environments Telehouse Commits to Renewable Energy Sourcing with RWE PPA By Amber Jackson March 19, ...
+2026-06-10 10:37:24,495 [INFO] LLM HTTP 200 for: Telehouse Commits to Renewable Energy Sourcing with RWE PPA 
+2026-06-10 10:37:24,495 [INFO] LLM extracted 1 deals (1 signed) | Telehouse Commits to Renewable Energy Sourcing wit
+2026-06-10 10:37:24,496 [INFO] NEW: Telehouse Europe / RWE (United Kingdom, None MW)
+2026-06-10 10:37:29,498 [INFO] ------- Processing article n. 4: Learning from Europe: Accelerating the Development of Taiwan’s Renewable Power T -------
+2026-06-10 10:37:30,309 [INFO] Resolved Google News URL: https://www.ey.com/en_tw/insights/energy-resources/learning-from-europe-taiwan-r
+2026-06-10 10:37:30,309 [INFO] URL: https://www.ey.com/en_tw/insights/energy-resources/learning-from-europe-taiwan-renewable-power-trading-market
+2026-06-10 10:37:32,341 [INFO] Text length: 14835 chars | source: full
+2026-06-10 10:37:32,342 [INFO] Text preview: Learning from Europe: Accelerating the Development of Taiwan’s Renewable Power Trading Market | EY - Taiwan EY Logo Insights Read more Read less Discover the insights you need to make better decisions...
+2026-06-10 10:37:32,745 [INFO] LLM HTTP 200 for: Learning from Europe: Accelerating the Development of Taiwan
+2026-06-10 10:37:32,746 [INFO] LLM extracted 0 deals (0 signed) | Learning from Europe: Accelerating the Development
+2026-06-10 10:37:32,747 [INFO] ------- Processing article n. 4: RWE agrees 10-year PPA with data centre provider - Solar Power Portal -------
+2026-06-10 10:37:33,475 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/colocation/rwe-agrees-10-year-ppa-with-data-c
+2026-06-10 10:37:33,475 [INFO] URL: https://www.solarpowerportal.co.uk/colocation/rwe-agrees-10-year-ppa-with-data-centre-provider
+2026-06-10 10:37:34,949 [INFO] Text length: 4479 chars | source: full
+2026-06-10 10:37:34,949 [INFO] Text preview: RWE agrees 10-year PPA with data centre provider - Solar Power Portal Colocation Utility Scale Solar Solar Finance Solar Planning News RWE agrees 10-year PPA with data centre provider Telehouse Intern...
+2026-06-10 10:37:36,160 [INFO] LLM HTTP 200 for: RWE agrees 10-year PPA with data centre provider - Solar Pow
+2026-06-10 10:37:36,160 [INFO] LLM extracted 1 deals (1 signed) | RWE agrees 10-year PPA with data centre provider -
+2026-06-10 10:37:36,162 [INFO] UPDATE: Telehouse International Corporation of Europe / RWE (United Kingdom, 630 MW) — canonical ID: 110
+2026-06-10 10:37:41,164 [INFO] ------- Processing article n. 5: 5th EU-UK Parliamentary Partnership Assembly, 17-18 March 2025, Brussels - Europ -------
+2026-06-10 10:37:42,070 [INFO] Resolved Google News URL: https://www.europarl.europa.eu/delegations/en/5th-eu-uk-parliamentary-partnershi
+2026-06-10 10:37:42,070 [INFO] URL: https://www.europarl.europa.eu/delegations/en/5th-eu-uk-parliamentary-partnership-asse/product-details/20250224DPU39839
+2026-06-10 10:37:42,544 [INFO] Text length: 1625 chars | source: full
+2026-06-10 10:37:42,544 [INFO] Text preview: 5th EU-UK Parliamentary Partnership Assembly, 17-18 March 2025, Brussels | Inter-parliamentary meetings | Activities | D-UK | Delegations | European Parliament 5th EU-UK Parliamentary Partnership Asse...
+2026-06-10 10:37:43,394 [INFO] LLM HTTP 200 for: 5th EU-UK Parliamentary Partnership Assembly, 17-18 March 20
+2026-06-10 10:37:43,394 [INFO] LLM extracted 1 deals (0 signed) | 5th EU-UK Parliamentary Partnership Assembly, 17-1
+2026-06-10 10:37:43,396 [INFO] Not a signed deal — skipping: 5th EU-UK Parliamentary Partnership Assembly, 17-18 March 20
+2026-06-10 10:37:43,396 [INFO] ------- Processing article n. 5: RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm - offshoreWIND.biz -------
+2026-06-10 10:37:44,371 [INFO] Resolved Google News URL: https://www.offshorewind.biz/2025/03/17/rwe-signs-long-term-ppa-for-630-mw-uk-of
+2026-06-10 10:37:44,372 [INFO] URL: https://www.offshorewind.biz/2025/03/17/rwe-signs-long-term-ppa-for-630-mw-uk-offshore-wind-farm/
+2026-06-10 10:37:44,448 [INFO] Full text skipped (status 403): https://www.offshorewind.biz/2025/03/17/rwe-signs-long-term-ppa-for-630-mw-uk-of
+2026-06-10 10:37:44,448 [INFO] Text length: 163 chars | source: fallback
+2026-06-10 10:37:44,448 [INFO] Text preview: RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm - offshoreWIND.biz
+
+RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm &nbsp;&nbsp; offshoreWIND.biz...
+2026-06-10 10:37:45,637 [INFO] LLM HTTP 200 for: RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm - o
+2026-06-10 10:37:45,637 [INFO] LLM extracted 1 deals (1 signed) | RWE Signs Long-Term PPA for 630 MW UK Offshore Win
+2026-06-10 10:37:45,638 [INFO] NEW: RWE / None (United Kingdom, 630 MW)
+2026-06-10 10:37:50,640 [INFO] ------- Processing article n. 6: France's ENGIE eyes energy trading, corporate power pacts, green ammonia deals i -------
+2026-06-10 10:37:51,638 [INFO] Resolved Google News URL: https://www.livemint.com/companies/engie-power-trading-corporate-ppas-green-ammo
+2026-06-10 10:37:51,638 [INFO] URL: https://www.livemint.com/companies/engie-power-trading-corporate-ppas-green-ammonia-india-renewable-energy-11742393863138.html
+2026-06-10 10:37:53,145 [INFO] Text length: 4747 chars | source: full
+2026-06-10 10:37:53,145 [INFO] Text preview: France's ENGIE eyes energy trading, corporate power pacts, green ammonia deals in India | Company Business News View Market Dashboard France's ENGIE eyes energy trading, corporate power pacts, green a...
+2026-06-10 10:37:54,227 [INFO] LLM HTTP 200 for: France's ENGIE eyes energy trading, corporate power pacts, g
+2026-06-10 10:37:54,227 [INFO] LLM extracted 1 deals (0 signed) | France's ENGIE eyes energy trading, corporate powe
+2026-06-10 10:37:54,229 [INFO] Not a signed deal — skipping: France's ENGIE eyes energy trading, corporate power pacts, g
+2026-06-10 10:37:54,229 [INFO] ------- Processing article n. 6: Alight expands into Denmark with acquisition of 215 MWp solar park from European -------
+2026-06-10 10:37:55,141 [INFO] Resolved Google News URL: https://news.cision.com/alight/r/alight-expands-into-denmark-with-acquisition-of
+2026-06-10 10:37:55,141 [INFO] URL: https://news.cision.com/alight/r/alight-expands-into-denmark-with-acquisition-of-215-mwp-solar-park-from-european-energy,c4119967
+2026-06-10 10:37:55,517 [INFO] Text length: 4115 chars | source: full
+2026-06-10 10:37:55,517 [INFO] Text preview: Alight expands into Denmark with acquisition of 215 MWp solar park from European Energy - Alight news.cision.com / Alight / Alight expands into Denmark with acquisition of 215 MWp solar park from Euro...
+2026-06-10 10:37:56,579 [INFO] LLM HTTP 200 for: Alight expands into Denmark with acquisition of 215 MWp sola
+2026-06-10 10:37:56,580 [INFO] LLM extracted 1 deals (1 signed) | Alight expands into Denmark with acquisition of 21
+2026-06-10 10:37:56,581 [INFO] NEW: Alight / European Energy (Denmark, 215 MW)
+2026-06-10 10:38:01,583 [INFO] ------- Processing article n. 7: Google comprará a Exus la energía generada por el parque eólico navarro de Casca -------
+2026-06-10 10:38:02,326 [INFO] Resolved Google News URL: https://www.energias-renovables.com/eolica/google-comprar--a-exus-la-energ-20250
+2026-06-10 10:38:02,326 [INFO] URL: https://www.energias-renovables.com/eolica/google-comprar--a-exus-la-energ-20250320
+2026-06-10 10:38:02,720 [INFO] Text length: 4953 chars | source: full
+2026-06-10 10:38:02,720 [INFO] Text preview: Google comprará a Exus la energía generada por el parque eólico navarro de Cascante eólica Google comprará a Exus la energía generada por el parque eólico navarro de Cascante Jueves, 20 de marzo de 20...
+2026-06-10 10:38:03,879 [INFO] LLM HTTP 200 for: Google comprará a Exus la energía generada por el parque eól
+2026-06-10 10:38:03,880 [INFO] LLM extracted 1 deals (1 signed) | Google comprará a Exus la energía generada por el 
+2026-06-10 10:38:03,881 [INFO] UPDATE: Google / Exus Renewables (Spain, 35 MW) — canonical ID: 111
+2026-06-10 10:38:08,882 [INFO] ------- Processing article n. 8: Google adquiere la electricidad de un parque eólico en España durante los próxim -------
+2026-06-10 10:38:09,818 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/google-adquiere-la-electricidad-de-un-parque-
+2026-06-10 10:38:09,818 [INFO] URL: https://elperiodicodelaenergia.com/google-adquiere-la-electricidad-de-un-parque-eolico-en-espana-durante-los-proximos-10-anos/
+2026-06-10 10:38:10,444 [INFO] Text length: 5811 chars | source: full
+2026-06-10 10:38:10,444 [INFO] Text preview: Google adquiere la electricidad de un parque eólico en España durante los próximos 10 años Miércoles, 10 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja competitiva en Es...
+2026-06-10 10:38:11,620 [INFO] LLM HTTP 200 for: Google adquiere la electricidad de un parque eólico en Españ
+2026-06-10 10:38:11,620 [INFO] LLM extracted 1 deals (1 signed) | Google adquiere la electricidad de un parque eólic
+2026-06-10 10:38:11,622 [INFO] UPDATE: Google / Exus Renewables (Spain, 35 MW) — canonical ID: 111
+2026-06-10 10:38:16,623 [INFO] ------- Processing article n. 9: Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale - Materia Rinnovabile -------
+2026-06-10 10:38:17,424 [INFO] Resolved Google News URL: https://www.renewablematter.eu/fotovoltaico-contourglobal-a2a-ppa-decennale
+2026-06-10 10:38:17,424 [INFO] URL: https://www.renewablematter.eu/fotovoltaico-contourglobal-a2a-ppa-decennale
+2026-06-10 10:38:18,000 [INFO] Text length: 3877 chars | source: full
+2026-06-10 10:38:18,000 [INFO] Text preview: Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale Materia Rinnovabile | Renewable Matter (0) it / en News Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale L’accordo prevede un incre...
+2026-06-10 10:38:19,333 [INFO] LLM HTTP 200 for: Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale -
+2026-06-10 10:38:19,333 [INFO] LLM extracted 1 deals (1 signed) | Fotovoltaico, ContourGlobal e A2A firmano un PPA d
+2026-06-10 10:38:19,335 [INFO] NEW: A2A / ContourGlobal (Italy, 18 MW)
+2026-06-10 10:38:24,336 [INFO] ------- Processing article n. 10: Prysmian e Edison Energia firmano PPA pluriennale - Rinnovabili -------
+2026-06-10 10:38:25,312 [INFO] Resolved Google News URL: https://www.rinnovabili.it/mercato/le-aziende-informano/prysmian-edison-energia-
+2026-06-10 10:38:25,312 [INFO] URL: https://www.rinnovabili.it/mercato/le-aziende-informano/prysmian-edison-energia-ppa-pluriennale/
+2026-06-10 10:38:26,066 [INFO] Full text skipped (status 403): https://www.rinnovabili.it/mercato/le-aziende-informano/prysmian-edison-energia-
+2026-06-10 10:38:26,067 [INFO] Text length: 139 chars | source: fallback
+2026-06-10 10:38:26,067 [INFO] Text preview: Prysmian e Edison Energia firmano PPA pluriennale - Rinnovabili
+
+Prysmian e Edison Energia firmano PPA pluriennale &nbsp;&nbsp; Rinnovabili...
+2026-06-10 10:38:26,935 [INFO] LLM HTTP 200 for: Prysmian e Edison Energia firmano PPA pluriennale - Rinnovab
+2026-06-10 10:38:26,935 [INFO] LLM extracted 1 deals (1 signed) | Prysmian e Edison Energia firmano PPA pluriennale 
+2026-06-10 10:38:26,937 [INFO] NEW: Edison Energia / Prysmian (Italy, None MW)
+2026-06-10 10:38:31,938 [INFO] ------- Processing article n. 11: Edison rivende l'energia rinnovabile prodotta nella Tuscia - ViterboToday -------
+2026-06-10 10:38:32,774 [INFO] Resolved Google News URL: https://www.viterbotoday.it/economia/accordo-edison-prysmian-17-marzo-2025.html
+2026-06-10 10:38:32,775 [INFO] URL: https://www.viterbotoday.it/economia/accordo-edison-prysmian-17-marzo-2025.html
+2026-06-10 10:38:33,583 [INFO] Full text skipped (status 403): https://www.viterbotoday.it/economia/accordo-edison-prysmian-17-marzo-2025.html
+2026-06-10 10:38:33,583 [INFO] Text length: 159 chars | source: fallback
+2026-06-10 10:38:33,583 [INFO] Text preview: Edison rivende l'energia rinnovabile prodotta nella Tuscia - ViterboToday
+
+Edison rivende l'energia rinnovabile prodotta nella Tuscia &nbsp;&nbsp; ViterboToday...
+2026-06-10 10:38:34,469 [INFO] LLM HTTP 200 for: Edison rivende l'energia rinnovabile prodotta nella Tuscia -
+2026-06-10 10:38:34,469 [INFO] LLM extracted 1 deals (0 signed) | Edison rivende l'energia rinnovabile prodotta nell
+2026-06-10 10:38:34,471 [INFO] Not a signed deal — skipping: Edison rivende l'energia rinnovabile prodotta nella Tuscia -
+2026-06-10 10:38:34,471 [INFO] ------- Processing article n. 11: Rivista Italiana Difesa - shownews - Il 2024 di MBDA in Italia - Stift Melk -------
+2026-06-10 10:38:35,315 [INFO] Resolved Google News URL: https://www.rid.it/shownews/7186/il-2024-di-mbda-in-italia
+2026-06-10 10:38:35,316 [INFO] URL: https://www.rid.it/shownews/7186/il-2024-di-mbda-in-italia
+2026-06-10 10:38:36,756 [INFO] Text length: 3734 chars | source: full
+2026-06-10 10:38:36,757 [INFO] Text preview: RID - Rivista Italiana Difesa - shownews  - Il 2024 di MBDA in Italia RID NEWS RID MAGAZINE SHOP & INFO R IVISTA I TALIANA D IFES A Il 2024 di MBDA in Italia 20/03/2025 | Redazione Oggi, 20 marzo, pre...
+2026-06-10 10:38:37,604 [INFO] LLM HTTP 200 for: Rivista Italiana Difesa - shownews - Il 2024 di MBDA in Ital
+2026-06-10 10:38:37,604 [INFO] LLM extracted 1 deals (0 signed) | Rivista Italiana Difesa - shownews - Il 2024 di MB
+2026-06-10 10:38:37,606 [INFO] Not a signed deal — skipping: Rivista Italiana Difesa - shownews - Il 2024 di MBDA in Ital
+2026-06-10 10:38:37,606 [INFO] Run complete. New deals: 11, Updates: 0
+2026-06-10 10:38:37,608 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (107 deals)
