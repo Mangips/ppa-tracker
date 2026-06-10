@@ -64,7 +64,7 @@ jobs:
           TOTAL_MINUTES=$((TOTAL_MS / 60000))
           REMAINING_MINUTES=$((2000 - TOTAL_MINUTES))
           MAX_RUNS_BY_ACTIONS=$((REMAINING_MINUTES / 5))
-          MAX_RUNS_BY_LLM=$((14400 / ${{ inputs.llm_requests_per_run }}))
+          MAX_RUNS_BY_LLM=$((1500 / ${{ inputs.llm_requests_per_run }}))
           SAFE_RUNS=$((MAX_RUNS_BY_ACTIONS < MAX_RUNS_BY_LLM ? MAX_RUNS_BY_ACTIONS : MAX_RUNS_BY_LLM))
           if [ $SAFE_RUNS -lt 1 ]; then
             echo "::error::No safe runs remaining!"
