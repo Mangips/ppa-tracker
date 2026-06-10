@@ -1,0 +1,132 @@
+2026-06-10 10:41:47,426 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 10:41:47,427 [INFO] Searching from 2025-03-29 to 2025-03-31 with  loockback days
+2026-06-10 10:41:47,427 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 10:41:47,718 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-03-29%20before%3A2025-03-31&hl=en&gl=US&ceid=US:en: 2 results
+2026-06-10 10:41:50,172 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-03-29%20before%3A2025-03-31&hl=en&gl=US&ceid=US:en: 10 results
+2026-06-10 10:41:52,473 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-03-29%20before%3A2025-03-31&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 10:41:54,768 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-03-29%20before%3A2025-03-31&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-06-10 10:41:57,007 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-03-29%20before%3A2025-03-31&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-06-10 10:41:59,267 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-03-29%20before%3A2025-03-31&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-10 10:42:01,539 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-03-29%20before%3A2025-03-31&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 10:42:03,773 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-03-29%20before%3A2025-03-31&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 10:42:06,099 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-03-29%20before%3A2025-03-31&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 10:42:08,099 [INFO] Total raw articles collected: 14
+2026-06-10 10:42:08,329 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 10:42:10,020 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 10:42:11,021 [INFO] Unique unseen articles: 13
+2026-06-10 10:42:11,021 [INFO] ------- Processing article n. 0: EDP Renewables North America Achieves Milestone in PPA Procurement Across the Un -------
+2026-06-10 10:42:11,913 [INFO] Resolved Google News URL: https://edp.com/en/north-america/na/media/news/edp-renewables-north-america-achi
+2026-06-10 10:42:11,913 [INFO] URL: https://edp.com/en/north-america/na/media/news/edp-renewables-north-america-achieves-milestone-ppa-procurement-across
+2026-06-10 10:42:12,975 [INFO] Text length: 4363 chars | source: full
+2026-06-10 10:42:12,975 [INFO] Text preview: EDP Renewables North America Achieves Milestone in PPA Procurement Across the United States | edp Skip to main content What are you looking for? I'm listening... EDP Renewables North America Achieves ...
+2026-06-10 10:42:17,154 [INFO] LLM HTTP 200 for: EDP Renewables North America Achieves Milestone in PPA Procu
+2026-06-10 10:42:17,155 [INFO] LLM extracted 6 deals (6 signed) | EDP Renewables North America Achieves Milestone in
+2026-06-10 10:42:17,156 [INFO] Not a European deal — skipping: Ava Community Energy, San José Clean Energy (SJCE) / EDP Renewables North America LLC (United States, 200 MW)
+2026-06-10 10:42:17,156 [INFO] Not a European deal — skipping: Amazon / EDP Renewables North America LLC (United States, 100 MW)
+2026-06-10 10:42:17,157 [INFO] Not a European deal — skipping: Salt River Project (SRP), Meta / EDP Renewables North America LLC (United States, 200 MW)
+2026-06-10 10:42:17,157 [INFO] Not a European deal — skipping: Microsoft / EDP Renewables North America LLC (United States, 389 MW)
+2026-06-10 10:42:17,157 [INFO] Not a European deal — skipping: Shell Energy North America (SENA) / EDP Renewables North America LLC (United States, None MW)
+2026-06-10 10:42:17,157 [INFO] Not a European deal — skipping: Redwood Coast Energy Authority (RCEA) / EDP Renewables North America LLC (United States, None MW)
+2026-06-10 10:42:17,157 [INFO] ------- Processing article n. 0: Hybrid solar cuts levelized cost of electricity 10% compared to standalone proje -------
+2026-06-10 10:42:17,906 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/hybrid-solar-cuts-levelized-cost-of-electricit
+2026-06-10 10:42:17,906 [INFO] URL: https://balkangreenenergynews.com/hybrid-solar-cuts-levelized-cost-of-electricity-10-compared-to-standalone-projects/
+2026-06-10 10:42:19,338 [INFO] Text length: 8828 chars | source: full
+2026-06-10 10:42:19,338 [INFO] Text preview: Hybrid solar cuts levelized cost of electricity 10% compared to standalone projects Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery s...
+2026-06-10 10:42:20,175 [INFO] LLM HTTP 200 for: Hybrid solar cuts levelized cost of electricity 10% compared
+2026-06-10 10:42:20,176 [INFO] LLM extracted 1 deals (0 signed) | Hybrid solar cuts levelized cost of electricity 10
+2026-06-10 10:42:20,177 [INFO] Not a signed deal — skipping: Hybrid solar cuts levelized cost of electricity 10% compared
+2026-06-10 10:42:20,177 [INFO] ------- Processing article n. 0: Amazon Leads Corporate Clean Energy Contracts, Hitting Record High at 100GW - Ca -------
+2026-06-10 10:42:20,925 [INFO] Resolved Google News URL: https://carboncredits.com/amazon-leads-corporate-clean-energy-contracts-hitting-
+2026-06-10 10:42:20,925 [INFO] URL: https://carboncredits.com/amazon-leads-corporate-clean-energy-contracts-hitting-record-high-at-100gw/
+2026-06-10 10:42:22,157 [INFO] Text length: 12828 chars | source: full
+2026-06-10 10:42:22,157 [INFO] Text preview: Amazon Leads Corporate Clean Energy Contracts, Hitting Record High at 100GW Facebook Linkedin RSS Twitter Youtube CARBON PRICES SOLAR PRICES NICKEL PRICES LITHIUM PRICES TITANIUM PRICES COPPER PRICES ...
+2026-06-10 10:42:23,683 [INFO] LLM HTTP 200 for: Amazon Leads Corporate Clean Energy Contracts, Hitting Recor
+2026-06-10 10:42:23,683 [INFO] LLM extracted 1 deals (0 signed) | Amazon Leads Corporate Clean Energy Contracts, Hit
+2026-06-10 10:42:23,685 [INFO] Not a signed deal — skipping: Amazon Leads Corporate Clean Energy Contracts, Hitting Recor
+2026-06-10 10:42:23,685 [INFO] ------- Processing article n. 0: Yamaha Motor Acquires German Automotive Parts Manufacturer's e-Kit Business Subs -------
+2026-06-10 10:42:24,605 [INFO] Resolved Google News URL: https://news.yamaha-motor.co.jp/news/2025/0331/spv.html
+2026-06-10 10:42:24,605 [INFO] URL: https://news.yamaha-motor.co.jp/news/2025/0331/spv.html
+2026-06-10 10:42:26,253 [INFO] Text length: 223 chars | source: full
+2026-06-10 10:42:26,253 [INFO] Text preview: Yamaha Motor Acquires German Automotive Parts Manufacturer's e-Kit Business Subsidiary - Establishing a new company in key market of Europe to expand business - - News releases | Yamaha Motor Co., Ltd...
+2026-06-10 10:42:27,111 [INFO] LLM HTTP 200 for: Yamaha Motor Acquires German Automotive Parts Manufacturer's
+2026-06-10 10:42:27,112 [INFO] LLM extracted 1 deals (0 signed) | Yamaha Motor Acquires German Automotive Parts Manu
+2026-06-10 10:42:27,113 [INFO] Not a signed deal — skipping: Yamaha Motor Acquires German Automotive Parts Manufacturer's
+2026-06-10 10:42:27,113 [INFO] ------- Processing article n. 0: 2025: the year of infrastructure investment in Central and Eastern Europe - New  -------
+2026-06-10 10:42:28,123 [INFO] Resolved Google News URL: https://neweasterneurope.eu/2025/03/31/2025-the-year-of-infrastructure-investmen
+2026-06-10 10:42:28,124 [INFO] URL: https://neweasterneurope.eu/2025/03/31/2025-the-year-of-infrastructure-investment-in-central-and-eastern-europe/
+2026-06-10 10:42:29,126 [INFO] Text length: 15367 chars | source: full
+2026-06-10 10:42:29,126 [INFO] Text preview: 2025: the year of infrastructure investment in Central and Eastern Europe - New Eastern Europe 2025: the year of infrastructure investment in Central and Eastern Europe Worrying headlines concerning R...
+2026-06-10 10:42:29,522 [INFO] LLM HTTP 200 for: 2025: the year of infrastructure investment in Central and E
+2026-06-10 10:42:29,522 [INFO] LLM extracted 0 deals (0 signed) | 2025: the year of infrastructure investment in Cen
+2026-06-10 10:42:29,524 [INFO] ------- Processing article n. 0: Meta signs 25-year floating solar supply agreement with Sembcorp in Singapore -  -------
+2026-06-10 10:42:30,409 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/meta-signs-25-year-floating-solar-sup
+2026-06-10 10:42:30,409 [INFO] URL: https://www.datacenterdynamics.com/en/news/meta-signs-25-year-floating-solar-supply-agreement-with-sembcorp-in-singapore/
+2026-06-10 10:42:31,057 [INFO] Text length: 3434 chars | source: full
+2026-06-10 10:42:31,058 [INFO] Text preview: Meta signs 25-year floating solar supply agreement with Sembcorp in Singapore - DCD Home News The Energy & Sustainability Channel Meta signs 25-year floating solar supply agreement with Sembcorp in Si...
+2026-06-10 10:42:34,864 [INFO] LLM HTTP 200 for: Meta signs 25-year floating solar supply agreement with Semb
+2026-06-10 10:42:34,864 [INFO] LLM extracted 6 deals (6 signed) | Meta signs 25-year floating solar supply agreement
+2026-06-10 10:42:34,866 [INFO] Not a European deal — skipping: Meta / Sembcorp (Singapore, 150 MW)
+2026-06-10 10:42:34,866 [INFO] Not a European deal — skipping: Equinix / Sembcorp (Singapore, 58.5 MW)
+2026-06-10 10:42:34,866 [INFO] Not a European deal — skipping: Singtel / Sembcorp (Singapore, None MW)
+2026-06-10 10:42:34,866 [INFO] Not a European deal — skipping: Meta / Sunseap (Singapore, 5 MW)
+2026-06-10 10:42:34,866 [INFO] Not a European deal — skipping: Meta / Sunseap (Singapore, 100 MW)
+2026-06-10 10:42:34,866 [INFO] Not a European deal — skipping: Digital Realty / Tuas Power (Singapore, None MW)
+2026-06-10 10:42:34,866 [INFO] ------- Processing article n. 0: VARO acquires Preem in “transformative acquisition” - Bioenergy Insight Magazine -------
+2026-06-10 10:42:35,903 [INFO] Resolved Google News URL: https://www.bioenergy-news.com/news/varo-acquires-preem-in-transformative-acquis
+2026-06-10 10:42:35,903 [INFO] URL: https://www.bioenergy-news.com/news/varo-acquires-preem-in-transformative-acquisition/
+2026-06-10 10:42:36,599 [INFO] Text length: 14999 chars | source: full
+2026-06-10 10:42:36,599 [INFO] Text preview: VARO acquires Preem in "transformative acquisition" - Bioenergy Insight Magazine Biogas News VARO Energy (VARO) has reached agreement to acquire Preem Holding AB and Preem AB (“Preem”) through the pur...
+2026-06-10 10:42:37,011 [INFO] LLM HTTP 200 for: VARO acquires Preem in “transformative acquisition” - Bioene
+2026-06-10 10:42:37,011 [INFO] LLM extracted 0 deals (0 signed) | VARO acquires Preem in “transformative acquisition
+2026-06-10 10:42:37,013 [INFO] ------- Processing article n. 0: Ilmatar agrees sale of Finnish wind farm - reNEWS.BIZ -------
+2026-06-10 10:42:37,805 [INFO] Resolved Google News URL: https://renews.biz/99714/ilmatar-agrees-sale-of-finnish-wind-farm/
+2026-06-10 10:42:37,805 [INFO] URL: https://renews.biz/99714/ilmatar-agrees-sale-of-finnish-wind-farm/
+2026-06-10 10:42:39,993 [INFO] Text length: 4812 chars | source: full
+2026-06-10 10:42:39,993 [INFO] Text preview: Ilmatar agrees sale of Finnish wind farm - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Eu...
+2026-06-10 10:42:41,941 [INFO] LLM HTTP 200 for: Ilmatar agrees sale of Finnish wind farm - reNEWS.BIZ
+2026-06-10 10:42:41,941 [INFO] LLM extracted 1 deals (1 signed) | Ilmatar agrees sale of Finnish wind farm - reNEWS.
+2026-06-10 10:42:41,943 [INFO] NEW: Mondelēz International / Ilmatar (Finland, 38.4 MW)
+2026-06-10 10:42:46,944 [INFO] ------- Processing article n. 1: Top 5 SMR Tech to Keep an Eye on in 2025 - Nuclear Business Platform -------
+2026-06-10 10:42:47,807 [INFO] Resolved Google News URL: https://www.nuclearbusiness-platform.com/media/insights/top-5-smr-tech
+2026-06-10 10:42:47,807 [INFO] URL: https://www.nuclearbusiness-platform.com/media/insights/top-5-smr-tech
+2026-06-10 10:42:48,059 [INFO] Text length: 10101 chars | source: full
+2026-06-10 10:42:48,059 [INFO] Text preview: Top 5 SMR Tech to Keep an Eye on in 2025 Top 5 SMR Tech to Keep an Eye on in 2025 Global Mar 29 Written By Yassine El Marhraoui The small modular reactor (SMR) market is poised for steady growth, fuel...
+2026-06-10 10:42:49,081 [INFO] LLM HTTP 200 for: Top 5 SMR Tech to Keep an Eye on in 2025 - Nuclear Business 
+2026-06-10 10:42:49,081 [INFO] LLM extracted 1 deals (0 signed) | Top 5 SMR Tech to Keep an Eye on in 2025 - Nuclear
+2026-06-10 10:42:49,083 [INFO] Not a signed deal — skipping: Top 5 SMR Tech to Keep an Eye on in 2025 - Nuclear Business 
+2026-06-10 10:42:49,083 [INFO] ------- Processing article n. 1: VARO Energy signs agreement to acquire Preem - Cision News -------
+2026-06-10 10:42:49,997 [INFO] Resolved Google News URL: https://news.cision.com/preem-ab/r/varo-energy-signs-agreement-to-acquire-preem,
+2026-06-10 10:42:49,997 [INFO] URL: https://news.cision.com/preem-ab/r/varo-energy-signs-agreement-to-acquire-preem,c4127835
+2026-06-10 10:42:50,325 [INFO] Text length: 3304 chars | source: full
+2026-06-10 10:42:50,325 [INFO] Text preview: VARO Energy signs agreement to acquire Preem - Preem AB news.cision.com / Preem AB / VARO Energy signs agreement to acquire Preem English VARO Energy signs agreement to acquire Preem Mon, Mar 31, 2025...
+2026-06-10 10:42:51,285 [INFO] LLM HTTP 200 for: VARO Energy signs agreement to acquire Preem - Cision News
+2026-06-10 10:42:51,285 [INFO] LLM extracted 1 deals (0 signed) | VARO Energy signs agreement to acquire Preem - Cis
+2026-06-10 10:42:51,286 [INFO] Not a signed deal — skipping: VARO Energy signs agreement to acquire Preem - Cision News
+2026-06-10 10:42:51,286 [INFO] ------- Processing article n. 1: Record-breaking day and major NRP investment projects - Gov.pl -------
+2026-06-10 10:42:52,285 [INFO] Resolved Google News URL: https://www.gov.pl/web/funds-regional-policy/record-breaking-day-and-major-nrp-i
+2026-06-10 10:42:52,285 [INFO] URL: https://www.gov.pl/web/funds-regional-policy/record-breaking-day-and-major-nrp-investment-projects
+2026-06-10 10:42:53,303 [INFO] Text length: 5129 chars | source: full
+2026-06-10 10:42:53,303 [INFO] Text preview: Record-breaking day and major NRP investment projects - Ministry of Development Funds and Regional Policy - Gov.pl website Back Record-breaking day and major NRP investment projects 31.03.2025 Twenty-...
+2026-06-10 10:42:54,160 [INFO] LLM HTTP 200 for: Record-breaking day and major NRP investment projects - Gov.
+2026-06-10 10:42:54,160 [INFO] LLM extracted 1 deals (0 signed) | Record-breaking day and major NRP investment proje
+2026-06-10 10:42:54,162 [INFO] Not a signed deal — skipping: Record-breaking day and major NRP investment projects - Gov.
+2026-06-10 10:42:54,162 [INFO] ------- Processing article n. 1: L’acteur de la semaine : Greenvolt Next arrive en France et veut installer 125 M -------
+2026-06-10 10:42:55,058 [INFO] Resolved Google News URL: https://www.pv-magazine.fr/2025/03/31/lacteur-de-la-semaine-greenvolt-next-arriv
+2026-06-10 10:42:55,058 [INFO] URL: https://www.pv-magazine.fr/2025/03/31/lacteur-de-la-semaine-greenvolt-next-arrive-en-france-et-veut-installer-125-mw-de-capacite-dici-a-2028/
+2026-06-10 10:42:55,677 [INFO] Text length: 7512 chars | source: full
+2026-06-10 10:42:55,677 [INFO] Text preview: L'acteur de la semaine : Greenvolt Next arrive en France et veut installer 125 MW de capacité d'ici à 2028 - pv magazine France Annonces Annonces Annonces Annonces Applications L’acteur de la semaine ...
+2026-06-10 10:42:56,723 [INFO] LLM HTTP 200 for: L’acteur de la semaine : Greenvolt Next arrive en France et 
+2026-06-10 10:42:56,723 [WARNING] LLM JSON parse error (attempt 1, pv magazine France): Extra data: line 1 column 443 (char 442) | raw: [{"is_signed_deal": true, "is_likely_update": false, "update_clues": null, "date_agreement": "2025-03-31", "buyer": "Eli Lilly", "seller": "Greenvolt Next", "capacity_mw": 9.5, "energy_gwh": null, "te
+2026-06-10 10:42:56,724 [INFO] Retrying with shorter input...
+2026-06-10 10:42:57,157 [INFO] LLM HTTP 200 for: L’acteur de la semaine : Greenvolt Next arrive en France et 
+2026-06-10 10:42:57,157 [INFO] LLM extracted 0 deals (0 signed) | L’acteur de la semaine : Greenvolt Next arrive en 
+2026-06-10 10:42:57,159 [INFO] ------- Processing article n. 1: Tunisie : PPA de 25 ans signé par Scatec pour la centrale solaire de Sidi Bouzid -------
+2026-06-10 10:42:58,070 [INFO] Resolved Google News URL: https://energies-media.com/tunisie-ppa-25-ans-signe-par-ascatec-pour-centrale-so
+2026-06-10 10:42:58,071 [INFO] URL: https://energies-media.com/tunisie-ppa-25-ans-signe-par-ascatec-pour-centrale-solaire-sidi-bouzid-ii/
+2026-06-10 10:42:59,528 [INFO] Text length: 6426 chars | source: full
+2026-06-10 10:42:59,528 [INFO] Text preview: Tunisie : PPA de 25 ans signé par Scatec pour la centrale solaire de Sidi Bouzid II (120 MW) mercredi, 10 juin 2026 Rechercher : Essence RBOB Exp Juill 2026 +Haut 3,1714 +Bas 3,049 Gasoil Londres Exp ...
+2026-06-10 10:43:00,872 [INFO] LLM HTTP 200 for: Tunisie : PPA de 25 ans signé par Scatec pour la centrale so
+2026-06-10 10:43:00,872 [INFO] LLM extracted 1 deals (1 signed) | Tunisie : PPA de 25 ans signé par Scatec pour la c
+2026-06-10 10:43:00,874 [INFO] Not a European deal — skipping: Société tunisienne de l'électricité et du gaz (STEG) / Scatec, Aeolus SAS (Tunisia, 120 MW)
+2026-06-10 10:43:00,874 [INFO] Run complete. New deals: 1, Updates: 0
+2026-06-10 10:43:00,875 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (121 deals)
