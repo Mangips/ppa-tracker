@@ -353,7 +353,7 @@ Analyze the text below and:
 2. For **EACH deal**, extract all fields below into a **separate JSON object**.
 3. Return a **JSON array** of these objects (one per deal).
 4. If **NO signed deals** are found, return an array with **ONE object** where `is_signed_deal` is `false` and all other fields are `null`.
-5. If signed, was it signed in Europe? 
+5. If signed, `is_european` must reflect where the ENERGY IS DELIVERED, not where the companies are based.
 
 Return **ONLY** a valid JSON array — no markdown fences, no explanation, nothing else.
 Each object must include **ALL fields** below (use `null` for missing values):
@@ -368,8 +368,8 @@ Each object must include **ALL fields** below (use `null` for missing values):
   "capacity_mw": number or null,
   "energy_gwh": number or null,
   "tenure_years": number or null,
-  "is_european":      true or false,
-  "country": "delivery country",
+  "is_european": true or false — is the energy DELIVERED in Europe? Base this on the country field above, not on where the buyer/seller is headquartered. A US company buying European energy is still European. Oman, UAE, USA, Australia, India etc. are NOT European regardless of who is involved.,
+  "country": "delivery country of the energy — use the full country name in English, e.g. 'United Kingdom' not 'UK' or 'England'. If multiple countries, comma-separate them.",
   "technology": "solar / wind onshore / wind offshore / hydro / mixed / other",
   "price_eur_mwh": number or null,
   "notes": "project name, grid details, special terms, or null",
@@ -464,20 +464,6 @@ LEGAL_SUFFIXES = _re.compile(
     _re.IGNORECASE,
 )
 
-EUROPEAN_COUNTRIES = {
-    "austria", "belgium", "bulgaria", "croatia", "cyprus", "czech republic",
-    "denmark", "estonia", "finland", "france", "germany", "greece", "hungary",
-    "ireland", "ireland, northern", "northern ireland", "scotland", "england", "wales",
-    "italy", "latvia", "lithuania", "luxembourg", "malta",
-    "netherlands", "poland", "portugal", "romania", "slovakia", "slovenia",
-    "spain", "sweden", "united kingdom", "uk", "norway", "switzerland", "ukraine",
-    "serbia", "albania", "north macedonia", "montenegro", "bosnia", "iceland",
-}
-
-EUROPEAN_VAGUE = {
-    "europe", "european", "multiple", "various", "unspecified", "none", ""
-}
-
 def _normalize_country(country: str) -> str:
     c = country.lower().strip()
     return COUNTRY_ALIASES.get(c, c)
@@ -497,32 +483,6 @@ def make_deal_hash(extracted: dict) -> str:
         date,
     ]
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
-
-def is_european_deal(deal: dict) -> bool:
-    country_raw = (deal.get("country") or "").lower().strip()
-
-    # None or empty: include on safe side
-    if not country_raw:
-        return True
-
-    # Vague but European-sounding: include
-    if any(vague in country_raw for vague in EUROPEAN_VAGUE):
-        return True
-
-    # Split multi-country strings and check if ANY is European
-    # Handles: "Portugal, Spain", "Spain, Portugal, UK, other European markets"
-    parts = [p.strip().rstrip(")").lstrip("(") for p in country_raw.replace(";", ",").split(",")]
-    for part in parts:
-        part = part.strip()
-        # Apply aliases
-        part = COUNTRY_ALIASES.get(part, part)
-        if part in EUROPEAN_COUNTRIES:
-            return True
-        # Catch sub-region patterns like "scotland, uk" already split to "scotland"
-        if any(eu in part for eu in EUROPEAN_COUNTRIES):
-            return True
-
-    return False
 
 def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> dict | None:
     """Returns the full existing row as a dict, or None."""
@@ -812,7 +772,7 @@ def run() -> None:
                 log.info(f"Not a signed deal — skipping: {title[:60]}")
                 continue
             
-            if not is_european_deal(deal):
+            if not deal.get("is_european"):
                 log.info(f"Not a European deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
                          f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
                 continue
