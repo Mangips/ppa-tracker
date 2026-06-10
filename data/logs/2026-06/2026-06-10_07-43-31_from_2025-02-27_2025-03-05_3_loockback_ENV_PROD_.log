@@ -1,0 +1,227 @@
+2026-06-10 07:43:31,630 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-06-10 07:43:31,631 [INFO] Searching from 2025-02-27 to 2025-03-05 with 3 loockback days
+2026-06-10 07:43:31,631 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 07:43:31,902 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-02-27%20before%3A2025-03-05&hl=en&gl=US&ceid=US:en: 4 results
+2026-06-10 07:43:34,289 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-02-27%20before%3A2025-03-05&hl=en&gl=US&ceid=US:en: 21 results
+2026-06-10 07:43:36,497 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-02-27%20before%3A2025-03-05&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 07:43:38,785 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-02-27%20before%3A2025-03-05&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-06-10 07:43:41,032 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-02-27%20before%3A2025-03-05&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-06-10 07:43:43,274 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-02-27%20before%3A2025-03-05&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-10 07:43:45,469 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-02-27%20before%3A2025-03-05&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 07:43:47,676 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-02-27%20before%3A2025-03-05&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 07:43:49,972 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-02-27%20before%3A2025-03-05&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 07:43:51,972 [INFO] Total raw articles collected: 28
+2026-06-10 07:43:52,006 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 07:43:53,509 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 07:43:54,510 [INFO] Unique unseen articles: 24
+2026-06-10 07:43:54,510 [INFO] ------- Processing article n. 0: A cornerstone of the energy transition: PPAs unpacked - OMV.com -------
+2026-06-10 07:43:54,923 [INFO] Resolved Google News URL: https://www.omv.com/en/magazine/blogs/2025/a-cornerstone-of-the-energy-transitio
+2026-06-10 07:43:54,924 [INFO] URL: https://www.omv.com/en/magazine/blogs/2025/a-cornerstone-of-the-energy-transition-ppas-unpacked
+2026-06-10 07:43:55,751 [INFO] Text length: 7006 chars | source: full
+2026-06-10 07:43:55,751 [INFO] Text preview: Skip to main content Homepage Magazine Blogs A cornerstone of the energy transition: PPAs unpacked March 5, 2025 Mar 5, 2025 5 min read Related tags : Renewable energy Unlocking the potential of Power...
+2026-06-10 07:43:57,294 [INFO] LLM HTTP 200 for: A cornerstone of the energy transition: PPAs unpacked - OMV.
+2026-06-10 07:43:57,294 [INFO] LLM extracted 2 deals (2 signed) | A cornerstone of the energy transition: PPAs unpac
+2026-06-10 07:43:57,296 [INFO] NEW: OMV / Statkraft (Germany, None MW)
+2026-06-10 07:44:02,298 [INFO] NEW: OMV / Verbund, ImWind, Enery (Austria, None MW)
+2026-06-10 07:44:07,300 [INFO] ------- Processing article n. 2: Data centers drive surge in clean energy procurement in 2024 - S&P Global -------
+2026-06-10 07:44:07,926 [INFO] Resolved Google News URL: https://www.spglobal.com/energy/en/news-research/blog/energy-transition/022825-d
+2026-06-10 07:44:07,927 [INFO] URL: https://www.spglobal.com/energy/en/news-research/blog/energy-transition/022825-data-centers-drive-surge-in-clean-energy-procurement-in-2024
+2026-06-10 07:44:07,996 [INFO] Full text skipped (status 403): https://www.spglobal.com/energy/en/news-research/blog/energy-transition/022825-d
+2026-06-10 07:44:07,996 [INFO] Text length: 159 chars | source: fallback
+2026-06-10 07:44:07,996 [INFO] Text preview: Data centers drive surge in clean energy procurement in 2024 - S&P Global
+
+Data centers drive surge in clean energy procurement in 2024 &nbsp;&nbsp; S&P Global...
+2026-06-10 07:44:08,753 [INFO] LLM HTTP 200 for: Data centers drive surge in clean energy procurement in 2024
+2026-06-10 07:44:08,753 [INFO] LLM extracted 1 deals (0 signed) | Data centers drive surge in clean energy procureme
+2026-06-10 07:44:08,755 [INFO] Not a signed deal — skipping: Data centers drive surge in clean energy procurement in 2024
+2026-06-10 07:44:08,755 [INFO] ------- Processing article n. 2: Iberdrola Italia to supply green electricity to Italian distribution giant Pam P -------
+2026-06-10 07:44:09,269 [INFO] Resolved Google News URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-green-electricity-pam
+2026-06-10 07:44:09,269 [INFO] URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-green-electricity-pam-panorama
+2026-06-10 07:44:09,668 [INFO] Full text skipped (status 403): https://www.iberdrola.com/press-room/news/detail/iberdrola-green-electricity-pam
+2026-06-10 07:44:09,668 [INFO] Text length: 211 chars | source: fallback
+2026-06-10 07:44:09,668 [INFO] Text preview: Iberdrola Italia to supply green electricity to Italian distribution giant Pam Panorama - Iberdrola
+
+Iberdrola Italia to supply green electricity to Italian distribution giant Pam Panorama &nbsp;&nbsp...
+2026-06-10 07:44:10,481 [INFO] LLM HTTP 200 for: Iberdrola Italia to supply green electricity to Italian dist
+2026-06-10 07:44:10,482 [INFO] LLM extracted 1 deals (1 signed) | Iberdrola Italia to supply green electricity to It
+2026-06-10 07:44:10,484 [INFO] NEW: Pam Panorama / Iberdrola Italia (Italy, None MW)
+2026-06-10 07:44:15,485 [INFO] ------- Processing article n. 3: EDF, Masdar sign PPA to power Soluna’s 166MW Texas data center behind-the-meter  -------
+2026-06-10 07:44:15,935 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/edf-masdar-sign-ppa-to-power-solunas-
+2026-06-10 07:44:15,935 [INFO] URL: https://www.datacenterdynamics.com/en/news/edf-masdar-sign-ppa-to-power-solunas-166mw-texas-data-center-behind-the-meter/
+2026-06-10 07:44:16,998 [INFO] Text length: 3892 chars | source: full
+2026-06-10 07:44:16,998 [INFO] Text preview: EDF, Masdar sign PPA to power Soluna’s 166MW Texas data center behind-the-meter - DCD Home News The Energy & Sustainability Channel EDF, Masdar sign PPA to power Soluna’s 166MW Texas data center behin...
+2026-06-10 07:44:18,221 [INFO] LLM HTTP 200 for: EDF, Masdar sign PPA to power Soluna’s 166MW Texas data cent
+2026-06-10 07:44:18,221 [INFO] LLM extracted 1 deals (1 signed) | EDF, Masdar sign PPA to power Soluna’s 166MW Texas
+2026-06-10 07:44:18,223 [INFO] Not a European deal — skipping: Soluna Holdings / EDF Renewables North America, Masdar (United States, 166 MW)
+2026-06-10 07:44:18,223 [INFO] ------- Processing article n. 3: Kimberly-Clark: Solar Power to Make Kleenex Greener - Energy Digital -------
+2026-06-10 07:44:18,819 [INFO] Resolved Google News URL: https://energydigital.com/articles/kimberly-clark-solar-power-to-make-kleenex-gr
+2026-06-10 07:44:18,819 [INFO] URL: https://energydigital.com/articles/kimberly-clark-solar-power-to-make-kleenex-greener
+2026-06-10 07:44:19,319 [INFO] Text length: 4453 chars | source: full
+2026-06-10 07:44:19,319 [INFO] Text preview: Kimberly-Clark: Solar Power to Make Kleenex Greener | Energy Digital Article Sustainability Kimberly-Clark: Solar Power to Make Kleenex Greener By Jasmin Jessen March 05, 2025 undefined mins Share thi...
+2026-06-10 07:44:20,508 [INFO] LLM HTTP 200 for: Kimberly-Clark: Solar Power to Make Kleenex Greener - Energy
+2026-06-10 07:44:20,508 [INFO] LLM extracted 1 deals (1 signed) | Kimberly-Clark: Solar Power to Make Kleenex Greene
+2026-06-10 07:44:20,510 [INFO] Not a European deal — skipping: Kimberly-Clark / BNZ (Italy, Spain, None MW)
+2026-06-10 07:44:20,510 [INFO] ------- Processing article n. 3: Transitional FER-X Decree. A bold policy that paves the way for 2030 decarboniza -------
+2026-06-10 07:44:21,147 [INFO] Resolved Google News URL: https://www.dentons.com/en/insights/articles/2025/february/28/transitional-fer-x
+2026-06-10 07:44:21,148 [INFO] URL: https://www.dentons.com/en/insights/articles/2025/february/28/transitional-fer-x-decree
+2026-06-10 07:44:23,124 [INFO] Text length: 19420 chars | source: full
+2026-06-10 07:44:23,124 [INFO] Text preview: Dentons - Transitional FER-X Decree. A bold policy that paves the way for 2030 decarbonization goals {{BCKData.LocationHeading}} {{BCKData.GoButton}} {{ !!location.countrycode?location.countryName :lo...
+2026-06-10 07:44:23,482 [INFO] LLM HTTP 200 for: Transitional FER-X Decree. A bold policy that paves the way 
+2026-06-10 07:44:23,482 [INFO] LLM extracted 0 deals (0 signed) | Transitional FER-X Decree. A bold policy that pave
+2026-06-10 07:44:23,484 [INFO] ------- Processing article n. 3: Holtec targets first SMR-300 deployment at Michigan’s Palisades plant - Enlit Wo -------
+2026-06-10 07:44:24,159 [INFO] Resolved Google News URL: https://www.enlit.world/library/holtec-targets-first-smr-300-deployment-at-michi
+2026-06-10 07:44:24,159 [INFO] URL: https://www.enlit.world/library/holtec-targets-first-smr-300-deployment-at-michigan-s-palisades-plant
+2026-06-10 07:44:25,528 [INFO] Text length: 7526 chars | source: full
+2026-06-10 07:44:25,528 [INFO] Text preview: Holtec targets first SMR-300 deployment at Michigan’s Palisades plant | Enlit World Enquire about or pre-register for Enlit Europe 2026 in Vienna More info Home / Library / Holtec targets first SMR-30...
+2026-06-10 07:44:26,668 [INFO] LLM HTTP 200 for: Holtec targets first SMR-300 deployment at Michigan’s Palisa
+2026-06-10 07:44:26,668 [INFO] LLM extracted 1 deals (1 signed) | Holtec targets first SMR-300 deployment at Michiga
+2026-06-10 07:44:26,670 [INFO] Not a European deal — skipping: Wolverine Power Cooperative, Hoosier Energy / Holtec (United States, 800 MW)
+2026-06-10 07:44:26,670 [INFO] ------- Processing article n. 3: Green growth revisited: The EU’s Clean Industrial Deal - Sciences Po -------
+2026-06-10 07:44:27,393 [INFO] Resolved Google News URL: https://www.sciencespo.fr/chair-sustainable-development/news/green-growth-revisi
+2026-06-10 07:44:27,393 [INFO] URL: https://www.sciencespo.fr/chair-sustainable-development/news/green-growth-revisited-the-eus-clean-industrial-deal/
+2026-06-10 07:44:28,139 [INFO] Text length: 17771 chars | source: full
+2026-06-10 07:44:28,139 [INFO] Text preview: Green growth revisited: The EUâs Clean Industrial Deal | Sciences Po European Chair for Sustainable Development andÂ ClimateÂ Transition Home > Green growth revisited: The EUâs Clean Industrial De...
+2026-06-10 07:44:28,511 [INFO] LLM HTTP 200 for: Green growth revisited: The EU’s Clean Industrial Deal - Sci
+2026-06-10 07:44:28,512 [INFO] LLM extracted 0 deals (0 signed) | Green growth revisited: The EU’s Clean Industrial 
+2026-06-10 07:44:28,514 [INFO] ------- Processing article n. 3: Amazon and GE Vernova link for data centre power - Recharge News -------
+2026-06-10 07:44:29,184 [INFO] Resolved Google News URL: https://www.rechargenews.com/energy-transition/amazon-and-ge-vernova-link-for-da
+2026-06-10 07:44:29,184 [INFO] URL: https://www.rechargenews.com/energy-transition/amazon-and-ge-vernova-link-for-data-centre-power/2-1-1788203
+2026-06-10 07:44:30,054 [INFO] Text length: 507 chars | source: full
+2026-06-10 07:44:30,054 [INFO] Text preview: Amazon and GE Vernova link for data centre power | Recharge Amazon and GE Vernova link for data centre power Tech and energy giants sign strategic deal covering North America, Europe and Asia An Amazo...
+2026-06-10 07:44:30,972 [INFO] LLM HTTP 200 for: Amazon and GE Vernova link for data centre power - Recharge 
+2026-06-10 07:44:30,972 [INFO] LLM extracted 1 deals (1 signed) | Amazon and GE Vernova link for data centre power -
+2026-06-10 07:44:30,974 [INFO] Not a European deal — skipping: Amazon Web Services / GE Vernova (North America, Europe, Asia, None MW)
+2026-06-10 07:44:30,974 [INFO] ------- Processing article n. 3: U.K.'s Keir Starmer pledges $2 billion to help Ukraine buy missiles - NBC News -------
+2026-06-10 07:44:31,684 [INFO] Resolved Google News URL: https://www.nbcnews.com/news/world/ukraine-zelenskyy-europe-russia-war-rcna19438
+2026-06-10 07:44:31,684 [INFO] URL: https://www.nbcnews.com/news/world/ukraine-zelenskyy-europe-russia-war-rcna194381
+2026-06-10 07:44:32,878 [INFO] Text length: 6144 chars | source: full
+2026-06-10 07:44:32,878 [INFO] Text preview: U.K.'s Keir Starmer pledges $2 billion to help Ukraine buy missiles IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content Get more news Live on Share Add...
+2026-06-10 07:44:34,758 [INFO] LLM HTTP 200 for: U.K.'s Keir Starmer pledges $2 billion to help Ukraine buy m
+2026-06-10 07:44:34,758 [INFO] LLM extracted 1 deals (0 signed) | U.K.'s Keir Starmer pledges $2 billion to help Ukr
+2026-06-10 07:44:34,760 [INFO] Not a signed deal — skipping: U.K.'s Keir Starmer pledges $2 billion to help Ukraine buy m
+2026-06-10 07:44:34,760 [INFO] ------- Processing article n. 3: European Commission publishes Clean Industrial Deal, labels steel emissions - EU -------
+2026-06-10 07:44:35,254 [INFO] Resolved Google News URL: https://eurometal.net/eu-publishes-clean-industrial-deal-labels-steel-emissions/
+2026-06-10 07:44:35,254 [INFO] URL: https://eurometal.net/eu-publishes-clean-industrial-deal-labels-steel-emissions/
+2026-06-10 07:44:36,690 [INFO] Text length: 4763 chars | source: full
+2026-06-10 07:44:36,690 [INFO] Text preview: European Commission publishes Clean Industrial Deal, labels steel emissions - EUROMETAL Skip to content The European Commission has published its long-awaited Clean Industrial Deal. Besides the instal...
+2026-06-10 07:44:37,520 [INFO] LLM HTTP 200 for: European Commission publishes Clean Industrial Deal, labels 
+2026-06-10 07:44:37,520 [INFO] LLM extracted 1 deals (0 signed) | European Commission publishes Clean Industrial Dea
+2026-06-10 07:44:37,522 [INFO] Not a signed deal — skipping: European Commission publishes Clean Industrial Deal, labels 
+2026-06-10 07:44:37,522 [INFO] ------- Processing article n. 3: CME Solar starts installing rooftop solar power system at Estec Vina factory - V -------
+2026-06-10 07:44:38,146 [INFO] Resolved Google News URL: https://vir.com.vn/cme-solar-starts-installing-rooftop-solar-power-system-at-est
+2026-06-10 07:44:38,146 [INFO] URL: https://vir.com.vn/cme-solar-starts-installing-rooftop-solar-power-system-at-estec-vina-factory-123599.html
+2026-06-10 07:44:40,726 [INFO] Text length: 8250 chars | source: full
+2026-06-10 07:44:40,726 [INFO] Text preview: ﻿ CME Solar starts installing rooftop solar power system at Estec Vina factory Advertisement Subscribe now Log in June 10, 2026 14:44 E-Paper E-Magazine Corporate CEO Talk Biz Link PR Newswire Media O...
+2026-06-10 07:44:41,618 [INFO] LLM HTTP 200 for: CME Solar starts installing rooftop solar power system at Es
+2026-06-10 07:44:41,619 [INFO] LLM extracted 1 deals (0 signed) | CME Solar starts installing rooftop solar power sy
+2026-06-10 07:44:41,620 [INFO] Not a signed deal — skipping: CME Solar starts installing rooftop solar power system at Es
+2026-06-10 07:44:41,620 [INFO] ------- Processing article n. 3: Alight secures €46 million financing from ABN AMRO and SEB to finance a 100 MWp  -------
+2026-06-10 07:44:42,195 [INFO] Resolved Google News URL: https://news.cision.com/alight/r/alight-secures--46-million-financing-from-abn-a
+2026-06-10 07:44:42,195 [INFO] URL: https://news.cision.com/alight/r/alight-secures--46-million-financing-from-abn-amro-and-seb-to-finance-a-100-mwp-of-solar-park-in-fin,c4113834
+2026-06-10 07:44:42,468 [INFO] Text length: 4612 chars | source: full
+2026-06-10 07:44:42,469 [INFO] Text preview: Alight secures €46 million financing from ABN AMRO and SEB to finance a 100 MWp of solar park in Finland - Alight news.cision.com / Alight / Alight secures €46 million financing from ABN AMRO and SEB ...
+2026-06-10 07:44:43,273 [INFO] LLM HTTP 200 for: Alight secures €46 million financing from ABN AMRO and SEB t
+2026-06-10 07:44:43,273 [INFO] LLM extracted 1 deals (0 signed) | Alight secures €46 million financing from ABN AMRO
+2026-06-10 07:44:43,276 [INFO] Not a signed deal — skipping: Alight secures €46 million financing from ABN AMRO and SEB t
+2026-06-10 07:44:43,276 [INFO] ------- Processing article n. 3: Germany’s first tolled BESS secures project financing - ESS News -------
+2026-06-10 07:44:43,725 [INFO] Resolved Google News URL: https://www.ess-news.com/2025/03/05/germanys-first-tolled-bess-secures-project-f
+2026-06-10 07:44:43,726 [INFO] URL: https://www.ess-news.com/2025/03/05/germanys-first-tolled-bess-secures-project-financing/
+2026-06-10 07:44:44,151 [INFO] Text length: 8763 chars | source: full
+2026-06-10 07:44:44,151 [INFO] Text preview: Germany's first tolled BESS secures project financing - Energy Storage Advertisement Advertisement Advertisement Finance Germany’s first tolled BESS secures project financing The 209 MWh Stendal batte...
+2026-06-10 07:44:45,375 [INFO] LLM HTTP 200 for: Germany’s first tolled BESS secures project financing - ESS 
+2026-06-10 07:44:45,375 [INFO] LLM extracted 1 deals (1 signed) | Germany’s first tolled BESS secures project financ
+2026-06-10 07:44:45,376 [INFO] NEW: unnamed major global energy corporation / Nofar Energy (Germany, 104.5 MW)
+2026-06-10 07:44:50,378 [INFO] ------- Processing article n. 4: ADNOC Signs 15-Year LNG Supply Deal with Osaka Gas for Ruwais Project - Offshore -------
+2026-06-10 07:44:50,897 [INFO] Resolved Google News URL: https://www.oedigital.com/news/522897-adnoc-signs-15-year-lng-supply-deal-with-o
+2026-06-10 07:44:50,898 [INFO] URL: https://www.oedigital.com/news/522897-adnoc-signs-15-year-lng-supply-deal-with-osaka-gas-for-ruwais-project
+2026-06-10 07:44:51,057 [INFO] Text length: 3567 chars | source: full
+2026-06-10 07:44:51,057 [INFO] Text preview: ADNOC Signs 15-Year LNG Supply Deal with Osaka Gas for Ruwais Project Subscribe Search Subscribe Menu ADNOC Signs 15-Year LNG Supply Deal with Osaka Gas for Ruwais Project Published Feb 27, 2025 4:37 ...
+2026-06-10 07:44:51,876 [INFO] LLM HTTP 200 for: ADNOC Signs 15-Year LNG Supply Deal with Osaka Gas for Ruwai
+2026-06-10 07:44:51,877 [INFO] LLM extracted 1 deals (0 signed) | ADNOC Signs 15-Year LNG Supply Deal with Osaka Gas
+2026-06-10 07:44:51,878 [INFO] Not a signed deal — skipping: ADNOC Signs 15-Year LNG Supply Deal with Osaka Gas for Ruwai
+2026-06-10 07:44:51,878 [INFO] ------- Processing article n. 4: A multidimensional nuclear resurgence: Differing drivers and challenges - S&P Gl -------
+2026-06-10 07:44:52,341 [INFO] Resolved Google News URL: https://www.spglobal.com/en/research-insights/special-reports/look-forward/a-mul
+2026-06-10 07:44:52,341 [INFO] URL: https://www.spglobal.com/en/research-insights/special-reports/look-forward/a-multidimensional-nuclear-resurgence-differing-drivers-and-challenges
+2026-06-10 07:44:52,799 [INFO] Full text skipped (status 403): https://www.spglobal.com/en/research-insights/special-reports/look-forward/a-mul
+2026-06-10 07:44:52,800 [INFO] Text length: 181 chars | source: fallback
+2026-06-10 07:44:52,800 [INFO] Text preview: A multidimensional nuclear resurgence: Differing drivers and challenges - S&P Global
+
+A multidimensional nuclear resurgence: Differing drivers and challenges &nbsp;&nbsp; S&P Global...
+2026-06-10 07:44:53,532 [INFO] LLM HTTP 200 for: A multidimensional nuclear resurgence: Differing drivers and
+2026-06-10 07:44:53,532 [INFO] LLM extracted 1 deals (0 signed) | A multidimensional nuclear resurgence: Differing d
+2026-06-10 07:44:53,534 [INFO] Not a signed deal — skipping: A multidimensional nuclear resurgence: Differing drivers and
+2026-06-10 07:44:53,534 [INFO] ------- Processing article n. 4: The Italy-UAE Partnership: A Bridge to Europe - ISPI -------
+2026-06-10 07:44:54,265 [INFO] Resolved Google News URL: https://www.ispionline.it/en/publication/the-italy-uae-partnership-a-bridge-to-e
+2026-06-10 07:44:54,265 [INFO] URL: https://www.ispionline.it/en/publication/the-italy-uae-partnership-a-bridge-to-europe-201818
+2026-06-10 07:44:54,972 [INFO] Full text skipped (status 403): https://www.ispionline.it/en/publication/the-italy-uae-partnership-a-bridge-to-e
+2026-06-10 07:44:54,972 [INFO] Text length: 117 chars | source: fallback
+2026-06-10 07:44:54,973 [INFO] Text preview: The Italy-UAE Partnership: A Bridge to Europe - ISPI
+
+The Italy-UAE Partnership: A Bridge to Europe &nbsp;&nbsp; ISPI...
+2026-06-10 07:44:55,779 [INFO] LLM HTTP 200 for: The Italy-UAE Partnership: A Bridge to Europe - ISPI
+2026-06-10 07:44:55,779 [INFO] LLM extracted 1 deals (0 signed) | The Italy-UAE Partnership: A Bridge to Europe - IS
+2026-06-10 07:44:55,780 [INFO] Not a signed deal — skipping: The Italy-UAE Partnership: A Bridge to Europe - ISPI
+2026-06-10 07:44:55,781 [INFO] ------- Processing article n. 4: ADNOC secures fourth sales and purchase deal for Ruwais LNG - Offshore-Energy.bi -------
+2026-06-10 07:44:56,330 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/adnoc-secures-fourth-sales-and-purchase-deal-for
+2026-06-10 07:44:56,330 [INFO] URL: https://www.offshore-energy.biz/adnoc-secures-fourth-sales-and-purchase-deal-for-ruwais-lng/
+2026-06-10 07:44:57,691 [INFO] Text length: 4700 chars | source: full
+2026-06-10 07:44:57,691 [INFO] Text preview: ADNOC secures fourth sales and purchase deal for Ruwais LNG - Offshore Energy Direct naar inhoud Advertisement Back to overview Home Fossil Energy ADNOC secures fourth sales and purchase deal for Ruwa...
+2026-06-10 07:44:59,956 [INFO] LLM HTTP 200 for: ADNOC secures fourth sales and purchase deal for Ruwais LNG 
+2026-06-10 07:44:59,956 [INFO] LLM extracted 3 deals (3 signed) | ADNOC secures fourth sales and purchase deal for R
+2026-06-10 07:44:59,966 [INFO] Not a European deal — skipping: Osaka Gas / ADNOC (UAE, None MW)
+2026-06-10 07:44:59,966 [INFO] Not a European deal — skipping: Petronas / ADNOC (UAE, None MW)
+2026-06-10 07:44:59,966 [INFO] Not a European deal — skipping: SEFE, EnBW Energie Baden-Württemberg / ADNOC (UAE, None MW)
+2026-06-10 07:44:59,966 [INFO] ------- Processing article n. 4: Iberdrola España and Renault Group join forces to drive electric vehicle accessi -------
+2026-06-10 07:45:00,586 [INFO] Resolved Google News URL: https://www.iberdrolaespana.com/press-room/news/detail/iberdrola-espana-renault-
+2026-06-10 07:45:00,587 [INFO] URL: https://www.iberdrolaespana.com/press-room/news/detail/iberdrola-espana-renault-group-join-boost-electric-vehicle-spain
+2026-06-10 07:45:00,845 [INFO] Full text skipped (status 403): https://www.iberdrolaespana.com/press-room/news/detail/iberdrola-espana-renault-
+2026-06-10 07:45:00,845 [INFO] Text length: 247 chars | source: fallback
+2026-06-10 07:45:00,845 [INFO] Text preview: Iberdrola España and Renault Group join forces to drive electric vehicle accessibility in Spain - iberdrolaespana.com
+
+Iberdrola España and Renault Group join forces to drive electric vehicle accessib...
+2026-06-10 07:45:01,643 [INFO] LLM HTTP 200 for: Iberdrola España and Renault Group join forces to drive elec
+2026-06-10 07:45:01,644 [INFO] LLM extracted 1 deals (0 signed) | Iberdrola España and Renault Group join forces to 
+2026-06-10 07:45:01,645 [INFO] Not a signed deal — skipping: Iberdrola España and Renault Group join forces to drive elec
+2026-06-10 07:45:01,645 [INFO] ------- Processing article n. 4: Adnoc, Osaka Gas sign 15-year sales and purchase agreement for Ruwais LNG projec -------
+2026-06-10 07:45:02,191 [INFO] Resolved Google News URL: https://www.khaleejtimes.com/business/energy/adnoc-osaka-gas-sign-15-year-sales-
+2026-06-10 07:45:02,191 [INFO] URL: https://www.khaleejtimes.com/business/energy/adnoc-osaka-gas-sign-15-year-sales-and-purchase-agreement-for-ruwais-lng-project
+2026-06-10 07:45:02,830 [INFO] Text length: 3617 chars | source: full
+2026-06-10 07:45:02,831 [INFO] Text preview: Adnoc, Osaka Gas sign 15-year sales and purchase agreement for Ruwais LNG project | Khaleej Times Home / Business / Energy Adnoc, Osaka Gas sign 15-year sales and purchase agreement for Ruwais LNG pro...
+2026-06-10 07:45:04,180 [INFO] LLM HTTP 200 for: Adnoc, Osaka Gas sign 15-year sales and purchase agreement f
+2026-06-10 07:45:04,180 [INFO] LLM extracted 1 deals (1 signed) | Adnoc, Osaka Gas sign 15-year sales and purchase a
+2026-06-10 07:45:04,182 [INFO] Not a European deal — skipping: Osaka Gas, Osaka Gas Energy Supply and Trading Pte. Ltd. / ADNOC (United Arab Emirates, None MW)
+2026-06-10 07:45:04,183 [INFO] ------- Processing article n. 4: Kahramaa, QEWC sign Power Purchase Agreement - The Peninsula Qatar -------
+2026-06-10 07:45:04,777 [INFO] Resolved Google News URL: https://thepeninsulaqatar.com/article/27/02/2025/kahramaa-qewc-sign-power-purcha
+2026-06-10 07:45:04,778 [INFO] URL: https://thepeninsulaqatar.com/article/27/02/2025/kahramaa-qewc-sign-power-purchase-agreement
+2026-06-10 07:45:05,285 [INFO] Text length: 4890 chars | source: full
+2026-06-10 07:45:05,285 [INFO] Text preview: Kahramaa, QEWC sign Power Purchase Agreement | The Peninsula Qatar CHAIRMAN: DR. KHALID BIN THANI AL THANI EDITOR-IN-CHIEF: PROF. KHALID MUBARAK AL-SHAFI Qatar / General Kahramaa, QEWC sign Power Purc...
+2026-06-10 07:45:06,356 [INFO] LLM HTTP 200 for: Kahramaa, QEWC sign Power Purchase Agreement - The Peninsula
+2026-06-10 07:45:06,356 [INFO] LLM extracted 1 deals (1 signed) | Kahramaa, QEWC sign Power Purchase Agreement - The
+2026-06-10 07:45:06,357 [INFO] Not a European deal — skipping: Kahramaa / QEWC (Qatar, 511 MW)
+2026-06-10 07:45:06,358 [INFO] ------- Processing article n. 4: PPA-CI : Koné Gbagbo retenu par la justice française en raison d’un appel du par -------
+2026-06-10 07:45:06,807 [INFO] Resolved Google News URL: https://www.pressecotedivoire.fr/22009-ppa-ci-kone-gbagbo-retenu-par-la-justice-
+2026-06-10 07:45:06,808 [INFO] URL: https://www.pressecotedivoire.fr/22009-ppa-ci-kone-gbagbo-retenu-par-la-justice-francaise-en-raison-dun-appel-du-parquet
+2026-06-10 07:45:07,663 [INFO] Text length: 5311 chars | source: full
+2026-06-10 07:45:07,663 [INFO] Text preview: PPA-CI : Koné Gbagbo retenu par la justice française en raison d’un appel du parquet | Pressecotedivoire Vous consultez la nouvelle version du site. Pour accéder à l'ancienne version, cliquez ici . Fl...
+2026-06-10 07:45:08,445 [INFO] LLM HTTP 200 for: PPA-CI : Koné Gbagbo retenu par la justice française en rais
+2026-06-10 07:45:08,445 [INFO] LLM extracted 1 deals (0 signed) | PPA-CI : Koné Gbagbo retenu par la justice françai
+2026-06-10 07:45:08,447 [INFO] Not a signed deal — skipping: PPA-CI : Koné Gbagbo retenu par la justice française en rais
+2026-06-10 07:45:08,448 [INFO] ------- Processing article n. 4: Italia destinará 3.000 millones de euros para ayudas por los altos precios de la -------
+2026-06-10 07:45:08,874 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/italia-destinara-3-000-millones-de-euros-para
+2026-06-10 07:45:08,874 [INFO] URL: https://elperiodicodelaenergia.com/italia-destinara-3-000-millones-de-euros-para-ayudas-por-los-altos-precios-de-la-energia/
+2026-06-10 07:45:09,337 [INFO] Text length: 4536 chars | source: full
+2026-06-10 07:45:09,338 [INFO] Text preview: Italia destinará 3.000 millones de euros para ayudas por los altos precios de la energía Miércoles, 10 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja competitiva en Espa...
+2026-06-10 07:45:10,141 [INFO] LLM HTTP 200 for: Italia destinará 3.000 millones de euros para ayudas por los
+2026-06-10 07:45:10,141 [INFO] LLM extracted 1 deals (0 signed) | Italia destinará 3.000 millones de euros para ayud
+2026-06-10 07:45:10,143 [INFO] Not a signed deal — skipping: Italia destinará 3.000 millones de euros para ayudas por los
+2026-06-10 07:45:10,143 [INFO] ------- Processing article n. 4: PPA in Italia: un mercato in crescita, ma con ostacoli da superare - Materia Rin -------
+2026-06-10 07:45:10,798 [INFO] Resolved Google News URL: https://www.renewablematter.eu/ppa-power-purchase-agreement-italia-mercato-cresc
+2026-06-10 07:45:10,798 [INFO] URL: https://www.renewablematter.eu/ppa-power-purchase-agreement-italia-mercato-crescita-ostacoli
+2026-06-10 07:45:11,888 [INFO] Text length: 7993 chars | source: full
+2026-06-10 07:45:11,888 [INFO] Text preview: PPA in Italia: un mercato in crescita, ma con ostacoli da superare Materia Rinnovabile | Renewable Matter (0) it / en Approfondimenti PPA in Italia: un mercato in crescita, ma con ostacoli da superare...
+2026-06-10 07:45:13,037 [INFO] LLM HTTP 200 for: PPA in Italia: un mercato in crescita, ma con ostacoli da su
+2026-06-10 07:45:13,037 [INFO] LLM extracted 1 deals (1 signed) | PPA in Italia: un mercato in crescita, ma con osta
+2026-06-10 07:45:13,048 [INFO] NEW: Duferco Energia / ERG (Italy, 42 MW)
+2026-06-10 07:45:18,050 [INFO] Run complete. New deals: 5, Updates: 0
+2026-06-10 07:45:18,052 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (75 deals)
+2026-06-10 07:45:18,983 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
