@@ -35,9 +35,9 @@ CSV_PATH = DATA_DIR / "ppa_deals.csv"
 NEWSAPI_KEY = os.environ["NEWSAPI_KEY"]
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 
-llm_KEY   = os.environ["GROQ_KEY"]
-llm_URL   = "https://api.groq.com/openai/v1/chat/completions"
-llm_MODEL = os.environ.get("llm_MODEL", "llama-3.3-70b-versatile")
+llm_KEY   = os.environ["MISTRAL_KEY"]
+llm_URL   = "https://api.mistral.ai/v1/chat/completions"
+llm_MODEL = os.environ.get("llm_MODEL", "mistral-small-latest")
 
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
 
@@ -403,7 +403,10 @@ def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
             log.info(f"LLM HTTP {resp.status_code} for: {title[:60]}")
             if resp.status_code == 429:
                 wait = int(resp.headers.get("retry-after", 60))
-                log.warning(f"Groq 429 — waiting {wait}s: {title[:50]}")
+                if wait > 120:  # daily limit exhausted, not a transient burst
+                    log.warning(f"LLM daily limit exhausted (retry-after: {wait}s) — stopping run")
+                    return None  # let the pipeline finish cleanly with what it has
+                log.warning(f"LLM 429 — waiting {wait}s: {title[:50]}")
                 time.sleep(wait)
                 continue
             if resp.status_code != 200:
@@ -461,6 +464,15 @@ LEGAL_SUFFIXES = _re.compile(
     _re.IGNORECASE,
 )
 
+EUROPEAN_COUNTRIES = {
+    "austria", "belgium", "bulgaria", "croatia", "cyprus", "czech republic",
+    "denmark", "estonia", "finland", "france", "germany", "greece", "hungary",
+    "ireland", "italy", "latvia", "lithuania", "luxembourg", "malta",
+    "netherlands", "poland", "portugal", "romania", "slovakia", "slovenia",
+    "spain", "sweden", "united kingdom", "norway", "switzerland", "ukraine",
+    "serbia", "albania", "north macedonia", "montenegro", "bosnia", "iceland",
+}
+
 def _normalize_country(country: str) -> str:
     c = country.lower().strip()
     return COUNTRY_ALIASES.get(c, c)
@@ -481,6 +493,10 @@ def make_deal_hash(extracted: dict) -> str:
     ]
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
 
+def is_european_deal(deal: dict) -> bool:
+    country = (deal.get("country") or "").lower().strip()
+    country = COUNTRY_ALIASES.get(country, country)
+    return country in EUROPEAN_COUNTRIES
 
 def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> dict | None:
     """Returns the full existing row as a dict, or None."""
@@ -770,9 +786,9 @@ def run() -> None:
                 log.info(f"Not a signed deal — skipping: {title[:60]}")
                 continue
             
-            if not deal.get("is_european"):
+            if not is_european_deal(deal):
                 log.info(f"Not a European deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
-                f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
+                         f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
                 continue
         
             if (
