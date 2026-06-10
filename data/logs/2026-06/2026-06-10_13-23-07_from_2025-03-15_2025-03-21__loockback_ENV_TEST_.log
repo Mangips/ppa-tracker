@@ -1,0 +1,474 @@
+2026-06-10 13:23:07,198 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 13:23:07,199 [INFO] Searching from 2025-03-15 to 2025-03-21 with  loockback days
+2026-06-10 13:23:07,199 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 13:23:07,709 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-03-15%20before%3A2025-03-21&hl=en&gl=US&ceid=US:en: 9 results
+2026-06-10 13:23:10,036 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2025-03-15%20before%3A2025-03-21&hl=en&gl=US&ceid=US:en: 8 results
+2026-06-10 13:23:12,306 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2025-03-15%20before%3A2025-03-21&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-06-10 13:23:14,558 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2025-03-15%20before%3A2025-03-21&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 13:23:16,880 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2025-03-15%20before%3A2025-03-21&hl=fr&gl=FR&ceid=FR:fr: 5 results
+2026-06-10 13:23:19,134 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2025-03-15%20before%3A2025-03-21&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-10 13:23:21,451 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2025-03-15%20before%3A2025-03-21&hl=es&gl=ES&ceid=ES:es: 11 results
+2026-06-10 13:23:23,741 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2025-03-15%20before%3A2025-03-21&hl=es&gl=ES&ceid=ES:es: 7 results
+2026-06-10 13:23:26,014 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2025-03-15%20before%3A2025-03-21&hl=it&gl=IT&ceid=IT:it: 10 results
+2026-06-10 13:23:28,304 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2025-03-15%20before%3A2025-03-21&hl=it&gl=IT&ceid=IT:it: 4 results
+2026-06-10 13:23:30,675 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2025-03-15%20before%3A2025-03-21&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-06-10 13:23:32,894 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2025-03-15%20before%3A2025-03-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 13:23:35,130 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2025-03-15%20before%3A2025-03-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 13:23:37,531 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2025-03-15%20before%3A2025-03-21&hl=pt&gl=PT&ceid=PT:pt: 6 results
+2026-06-10 13:23:39,826 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2025-03-15%20before%3A2025-03-21&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 13:23:41,826 [INFO] Total raw articles collected: 63
+2026-06-10 13:23:42,011 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 13:23:43,771 [INFO] Extra RSS [elperiodicodelaenergia.com]: 5 results
+2026-06-10 13:23:44,773 [INFO] Unique unseen articles: 54
+2026-06-10 13:23:44,773 [INFO] ------- Processing article n. 0: RWE and Telehouse agree 10-year Power Purchase Agreement - RWE -------
+2026-06-10 13:23:45,576 [INFO] Resolved Google News URL: https://www.rwe.com/en/press/rwe-supply-and-trading/2025-03-17-rwe-signs-ppa-wit
+2026-06-10 13:23:45,576 [INFO] URL: https://www.rwe.com/en/press/rwe-supply-and-trading/2025-03-17-rwe-signs-ppa-with-telehouse/
+2026-06-10 13:23:47,346 [INFO] Text length: 2444 chars | source: full
+2026-06-10 13:23:47,346 [INFO] Text preview: RWE and Telehouse agree 10-year Power Purchase Agreement Source: London Array Ltd. London/Essen, 17 March 2025 RWE, the UK’s largest power generator and a world leading renewable energy company today ...
+2026-06-10 13:23:48,444 [INFO] LLM HTTP 200 for: RWE and Telehouse agree 10-year Power Purchase Agreement - R
+2026-06-10 13:23:48,444 [INFO] LLM extracted 1 deals (1 signed) | RWE and Telehouse agree 10-year Power Purchase Agr
+2026-06-10 13:23:48,446 [INFO] NEW: Telehouse International Corporation of Europe / RWE (United Kingdom, None MW)
+2026-06-10 13:23:53,447 [INFO] ------- Processing article n. 1: Prysmian and Edison Energia sign a multi-year agreement for the supply of renewa -------
+2026-06-10 13:23:54,379 [INFO] Resolved Google News URL: https://www.prysmian.com/en/media/press-releases/prysmian-and-edison-energia-sig
+2026-06-10 13:23:54,379 [INFO] URL: https://www.prysmian.com/en/media/press-releases/prysmian-and-edison-energia-sign-a-multi-year-agreement-for-the-supply-of-renewable-energy
+2026-06-10 13:23:56,123 [INFO] Text length: 3445 chars | source: full
+2026-06-10 13:23:56,123 [INFO] Text preview: Prysmian and Edison Energia sign a multi-year agreement for the supply of renewable energy | Prysmian Skip to main content arrow-right angle-down-sx angle-down-dx menu-hamburger search YouTube Faceboo...
+2026-06-10 13:23:57,278 [INFO] LLM HTTP 200 for: Prysmian and Edison Energia sign a multi-year agreement for 
+2026-06-10 13:23:57,278 [INFO] LLM extracted 1 deals (1 signed) | Prysmian and Edison Energia sign a multi-year agre
+2026-06-10 13:23:57,280 [INFO] NEW: Prysmian / Edison Energia (Italy, 150 MW)
+2026-06-10 13:24:02,281 [INFO] ------- Processing article n. 2: Green Data Centers: Pioneering Energy Efficiency and Sustainability in the EU -  -------
+2026-06-10 13:24:03,123 [INFO] Resolved Google News URL: https://www.jonesday.com/en/insights/2025/03/green-data-centers-pioneering-energ
+2026-06-10 13:24:03,123 [INFO] URL: https://www.jonesday.com/en/insights/2025/03/green-data-centers-pioneering-energy-efficiency-and-sustainability-in-the-eu
+2026-06-10 13:24:03,657 [INFO] Text length: 5764 chars | source: full
+2026-06-10 13:24:03,657 [INFO] Text preview: Green Data Centers: Pioneering Energy Efficiency and Sustainability in the EU | Insights | Jones Day Skip to content Insights Subscribe Home Insights Green Data Centers: Pioneering Energy Efficiency a...
+2026-06-10 13:24:04,563 [INFO] LLM HTTP 200 for: Green Data Centers: Pioneering Energy Efficiency and Sustain
+2026-06-10 13:24:04,563 [INFO] LLM extracted 1 deals (0 signed) | Green Data Centers: Pioneering Energy Efficiency a
+2026-06-10 13:24:04,564 [INFO] Not a signed deal — skipping: Green Data Centers: Pioneering Energy Efficiency and Sustain
+2026-06-10 13:24:04,564 [INFO] ------- Processing article n. 2: Google signs 35MW wind PPA with Exus Renewables in Spain - Data Center Dynamics -------
+2026-06-10 13:24:05,495 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/google-signs-35mw-wind-ppa-with-exus-
+2026-06-10 13:24:05,495 [INFO] URL: https://www.datacenterdynamics.com/en/news/google-signs-35mw-wind-ppa-with-exus-renewables-in-spain/
+2026-06-10 13:24:06,301 [INFO] Text length: 3214 chars | source: full
+2026-06-10 13:24:06,301 [INFO] Text preview: Google signs 35MW wind PPA with Exus Renewables in Spain - DCD Home News The Energy & Sustainability Channel Google signs 35MW wind PPA with Exus Renewables in Spain Third PPA signed by the company in...
+2026-06-10 13:24:08,681 [INFO] LLM HTTP 200 for: Google signs 35MW wind PPA with Exus Renewables in Spain - D
+2026-06-10 13:24:08,681 [INFO] LLM extracted 3 deals (3 signed) | Google signs 35MW wind PPA with Exus Renewables in
+2026-06-10 13:24:08,683 [INFO] NEW: Google / Exus Renewables (Spain, 35 MW)
+2026-06-10 13:24:13,684 [INFO] Not a European deal — skipping: Google / Leeward Energy (United States, 724 MW)
+2026-06-10 13:24:13,684 [INFO] Not a European deal — skipping: Google / Apex Clean Energy (United States, 79.3 MW)
+2026-06-10 13:24:13,684 [INFO] ------- Processing article n. 3: Learning from Europe: Accelerating the Development of Taiwan’s Renewable Power T -------
+2026-06-10 13:24:14,556 [INFO] Resolved Google News URL: https://www.ey.com/en_tw/insights/energy-resources/learning-from-europe-taiwan-r
+2026-06-10 13:24:14,556 [INFO] URL: https://www.ey.com/en_tw/insights/energy-resources/learning-from-europe-taiwan-renewable-power-trading-market
+2026-06-10 13:24:16,385 [INFO] Text length: 14835 chars | source: full
+2026-06-10 13:24:16,385 [INFO] Text preview: Learning from Europe: Accelerating the Development of Taiwan’s Renewable Power Trading Market | EY - Taiwan EY Logo Insights Read more Read less Discover the insights you need to make better decisions...
+2026-06-10 13:24:16,820 [INFO] LLM HTTP 200 for: Learning from Europe: Accelerating the Development of Taiwan
+2026-06-10 13:24:16,820 [INFO] LLM extracted 0 deals (0 signed) | Learning from Europe: Accelerating the Development
+2026-06-10 13:24:16,822 [INFO] ------- Processing article n. 3: Azerbaijan’s renewables potential: progress or empty promises? - Eurasianet -------
+2026-06-10 13:24:17,783 [INFO] Resolved Google News URL: https://eurasianet.org/azerbaijans-renewables-potential-progress-or-empty-promis
+2026-06-10 13:24:17,783 [INFO] URL: https://eurasianet.org/azerbaijans-renewables-potential-progress-or-empty-promises
+2026-06-10 13:24:18,519 [INFO] Text length: 8127 chars | source: full
+2026-06-10 13:24:18,519 [INFO] Text preview: Azerbaijan’s renewables potential: progress or empty promises? | Eurasianet Skip to main content Azerbaijan , Caucasus Azerbaijan’s renewables potential: progress or empty promises? Political will lac...
+2026-06-10 13:24:19,423 [INFO] LLM HTTP 200 for: Azerbaijan’s renewables potential: progress or empty promise
+2026-06-10 13:24:19,423 [INFO] LLM extracted 1 deals (0 signed) | Azerbaijan’s renewables potential: progress or emp
+2026-06-10 13:24:19,425 [INFO] Not a signed deal — skipping: Azerbaijan’s renewables potential: progress or empty promise
+2026-06-10 13:24:19,425 [INFO] ------- Processing article n. 3: Alight expands into Denmark with acquisition of 215 MWp solar park from European -------
+2026-06-10 13:24:20,143 [INFO] Resolved Google News URL: https://news.cision.com/alight/r/alight-expands-into-denmark-with-acquisition-of
+2026-06-10 13:24:20,143 [INFO] URL: https://news.cision.com/alight/r/alight-expands-into-denmark-with-acquisition-of-215-mwp-solar-park-from-european-energy,c4119967
+2026-06-10 13:24:20,601 [INFO] Text length: 4115 chars | source: full
+2026-06-10 13:24:20,601 [INFO] Text preview: Alight expands into Denmark with acquisition of 215 MWp solar park from European Energy - Alight news.cision.com / Alight / Alight expands into Denmark with acquisition of 215 MWp solar park from Euro...
+2026-06-10 13:24:21,781 [INFO] LLM HTTP 200 for: Alight expands into Denmark with acquisition of 215 MWp sola
+2026-06-10 13:24:21,781 [INFO] LLM extracted 1 deals (1 signed) | Alight expands into Denmark with acquisition of 21
+2026-06-10 13:24:21,783 [INFO] NEW: Two blue-chip companies / European Energy (Denmark, 215 MW)
+2026-06-10 13:24:26,784 [INFO] ------- Processing article n. 4: RWE agrees 10-year PPA with data centre provider - Solar Power Portal -------
+2026-06-10 13:24:27,447 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/colocation/rwe-agrees-10-year-ppa-with-data-c
+2026-06-10 13:24:27,447 [INFO] URL: https://www.solarpowerportal.co.uk/colocation/rwe-agrees-10-year-ppa-with-data-centre-provider
+2026-06-10 13:24:27,539 [INFO] Text length: 4479 chars | source: full
+2026-06-10 13:24:27,539 [INFO] Text preview: RWE agrees 10-year PPA with data centre provider - Solar Power Portal Colocation Utility Scale Solar Solar Finance Solar Planning News RWE agrees 10-year PPA with data centre provider Telehouse Intern...
+2026-06-10 13:24:28,968 [INFO] LLM HTTP 200 for: RWE agrees 10-year PPA with data centre provider - Solar Pow
+2026-06-10 13:24:28,968 [INFO] LLM extracted 1 deals (1 signed) | RWE agrees 10-year PPA with data centre provider -
+2026-06-10 13:24:28,970 [INFO] UPDATE: Telehouse International Corporation of Europe / RWE (United Kingdom, None MW) — canonical ID: 195
+2026-06-10 13:24:33,971 [INFO] ------- Processing article n. 5: RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm - offshoreWIND.biz -------
+2026-06-10 13:24:34,917 [INFO] Resolved Google News URL: https://www.offshorewind.biz/2025/03/17/rwe-signs-long-term-ppa-for-630-mw-uk-of
+2026-06-10 13:24:34,917 [INFO] URL: https://www.offshorewind.biz/2025/03/17/rwe-signs-long-term-ppa-for-630-mw-uk-offshore-wind-farm/
+2026-06-10 13:24:36,491 [INFO] Text length: 3306 chars | source: full
+2026-06-10 13:24:36,491 [INFO] Text preview: RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm | Offshore Wind Direct naar inhoud Advertisement Back to overview RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm Business & Finance M...
+2026-06-10 13:24:38,090 [INFO] LLM HTTP 200 for: RWE Signs Long-Term PPA for 630 MW UK Offshore Wind Farm - o
+2026-06-10 13:24:38,091 [INFO] LLM extracted 2 deals (2 signed) | RWE Signs Long-Term PPA for 630 MW UK Offshore Win
+2026-06-10 13:24:38,092 [INFO] NEW: Telehouse International Corporation Europe / RWE (United Kingdom, 630 MW)
+2026-06-10 13:24:43,093 [INFO] NEW: Lidl / RWE (United Kingdom, None MW)
+2026-06-10 13:24:48,095 [INFO] ------- Processing article n. 7: Press Release Distribution India - Business Wire India -------
+2026-06-10 13:24:48,823 [INFO] Resolved Google News URL: https://www.businesswireindia.com/zelestra-signs-a-long-term-contract-with-sjvn-
+2026-06-10 13:24:48,823 [INFO] URL: https://www.businesswireindia.com/zelestra-signs-a-long-term-contract-with-sjvn-to-supply-firm-and-dispatchable-renewable-energy-in-india-enabling-the-construction-of-a-portfolio-of-500-mw-of-wind-solar-and-battery-storage-projects-94084.html
+2026-06-10 13:24:49,179 [INFO] Text length: 232 chars | source: full
+2026-06-10 13:24:49,179 [INFO] Text preview: Press Release Distribution India | Business Wire India Business Wire is a registered trademark of Business Wire, Inc. The Resource Center is an independent entity and is not an agent, partner, or join...
+2026-06-10 13:24:50,116 [INFO] LLM HTTP 200 for: Press Release Distribution India - Business Wire India
+2026-06-10 13:24:50,116 [INFO] LLM extracted 1 deals (0 signed) | Press Release Distribution India - Business Wire I
+2026-06-10 13:24:50,118 [INFO] Not a signed deal — skipping: Press Release Distribution India - Business Wire India
+2026-06-10 13:24:50,118 [INFO] ------- Processing article n. 7: France's ENGIE eyes energy trading, corporate power pacts, green ammonia deals i -------
+2026-06-10 13:24:50,795 [INFO] Resolved Google News URL: https://www.livemint.com/companies/engie-power-trading-corporate-ppas-green-ammo
+2026-06-10 13:24:50,795 [INFO] URL: https://www.livemint.com/companies/engie-power-trading-corporate-ppas-green-ammonia-india-renewable-energy-11742393863138.html
+2026-06-10 13:24:52,303 [INFO] Text length: 4747 chars | source: full
+2026-06-10 13:24:52,303 [INFO] Text preview: France's ENGIE eyes energy trading, corporate power pacts, green ammonia deals in India | Company Business News View Market Dashboard France's ENGIE eyes energy trading, corporate power pacts, green a...
+2026-06-10 13:24:53,168 [INFO] LLM HTTP 200 for: France's ENGIE eyes energy trading, corporate power pacts, g
+2026-06-10 13:24:53,168 [INFO] LLM extracted 1 deals (0 signed) | France's ENGIE eyes energy trading, corporate powe
+2026-06-10 13:24:53,170 [INFO] Not a signed deal — skipping: France's ENGIE eyes energy trading, corporate power pacts, g
+2026-06-10 13:24:53,171 [INFO] ------- Processing article n. 7: Große Firmen wollen Atomkraft massiv ausbauen - ingenieur.de -------
+2026-06-10 13:24:54,003 [INFO] Resolved Google News URL: https://www.ingenieur.de/technik/fachbereiche/energie/microsoft-setzt-auf-atomen
+2026-06-10 13:24:54,004 [INFO] URL: https://www.ingenieur.de/technik/fachbereiche/energie/microsoft-setzt-auf-atomenergie-fuer-den-wachsenden-ki-strombedarf/
+2026-06-10 13:24:54,786 [INFO] Text length: 11721 chars | source: full
+2026-06-10 13:24:54,786 [INFO] Text preview: Große Firmen wollen Atomkraft massiv ausbauen Bis 2050 sollen die weltweiten Kernkraftkapazitäten verdreifacht werden. Eine entsprechende Erklärung haben jetzt Google, Meta, Amazon und weitere Firmen ...
+2026-06-10 13:24:56,063 [INFO] LLM HTTP 200 for: Große Firmen wollen Atomkraft massiv ausbauen - ingenieur.de
+2026-06-10 13:24:56,063 [INFO] LLM extracted 1 deals (1 signed) | Große Firmen wollen Atomkraft massiv ausbauen - in
+2026-06-10 13:24:56,066 [INFO] Not a European deal — skipping: Microsoft / Constellation Energy (United States, None MW)
+2026-06-10 13:24:56,066 [INFO] ------- Processing article n. 7: Oberösterreichs Energie AG erhält 400 Millionen Euro Kredit der EIB - DiePresse. -------
+2026-06-10 13:24:56,881 [INFO] Resolved Google News URL: https://www.diepresse.com/19487425/oberoesterreichs-energie-ag-erhaelt-400-milli
+2026-06-10 13:24:56,881 [INFO] URL: https://www.diepresse.com/19487425/oberoesterreichs-energie-ag-erhaelt-400-millionen-euro-kredit-der-eib
+2026-06-10 13:24:58,485 [INFO] Text length: 2555 chars | source: full
+2026-06-10 13:24:58,485 [INFO] Text preview: Oberösterreichs Energie AG erhält 400 Millionen Euro Kredit der EIB – DiePresse.com Oberösterreichs Energie AG erhält 400 Millionen Euro Kredit der EIB Die Europäische Investitionsbank finanziert den ...
+2026-06-10 13:24:59,421 [INFO] LLM HTTP 200 for: Oberösterreichs Energie AG erhält 400 Millionen Euro Kredit 
+2026-06-10 13:24:59,421 [INFO] LLM extracted 1 deals (0 signed) | Oberösterreichs Energie AG erhält 400 Millionen Eu
+2026-06-10 13:24:59,423 [INFO] Not a signed deal — skipping: Oberösterreichs Energie AG erhält 400 Millionen Euro Kredit 
+2026-06-10 13:24:59,423 [INFO] ------- Processing article n. 7: Eolien : le groupe BPCE signe un contrat de 20 ans avec Opale Energies Engagées  -------
+2026-06-10 13:25:00,205 [INFO] Resolved Google News URL: https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/eolien-le-groupe-bpc
+2026-06-10 13:25:00,205 [INFO] URL: https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/eolien-le-groupe-bpce-signe-un-contrat-de-20-ans-avec-opale-energies-engagees-2154704
+2026-06-10 13:25:00,537 [INFO] Full text skipped (status 403): https://www.lesechos.fr/pme-regions/bourgogne-franche-comte/eolien-le-groupe-bpc
+2026-06-10 13:25:00,538 [INFO] Text length: 195 chars | source: fallback
+2026-06-10 13:25:00,538 [INFO] Text preview: Eolien : le groupe BPCE signe un contrat de 20 ans avec Opale Energies Engagées - Les Echos
+
+Eolien : le groupe BPCE signe un contrat de 20 ans avec Opale Energies Engagées &nbsp;&nbsp; Les Echos...
+2026-06-10 13:25:01,486 [INFO] LLM HTTP 200 for: Eolien : le groupe BPCE signe un contrat de 20 ans avec Opal
+2026-06-10 13:25:01,486 [INFO] LLM extracted 1 deals (1 signed) | Eolien : le groupe BPCE signe un contrat de 20 ans
+2026-06-10 13:25:01,488 [INFO] UPDATE: BPCE / Opale Energies Engagées (France, None MW) — canonical ID: 126
+2026-06-10 13:25:06,489 [INFO] ------- Processing article n. 8: Tarifs de l’électricité : le courant ne passe plus entre le PDG de Saint-Gobain  -------
+2026-06-10 13:25:07,235 [INFO] Resolved Google News URL: https://www.capital.fr/economie-politique/tarifs-de-lelectricite-le-courant-ne-p
+2026-06-10 13:25:07,235 [INFO] URL: https://www.capital.fr/economie-politique/tarifs-de-lelectricite-le-courant-ne-passe-plus-entre-le-pdg-de-saint-gobain-et-edf-1510668
+2026-06-10 13:25:07,475 [INFO] Text length: 5892 chars | source: full
+2026-06-10 13:25:07,476 [INFO] Text preview: Tarifs de l’électricité : le courant ne passe plus entre le PDG de Saint-Gobain et EDF - Capital.fr Aller au contenu Tarifs de l’électricité : le courant ne passe plus entre le PDG de Saint-Gobain et ...
+2026-06-10 13:25:08,558 [INFO] LLM HTTP 200 for: Tarifs de l’électricité : le courant ne passe plus entre le 
+2026-06-10 13:25:08,558 [INFO] LLM extracted 1 deals (1 signed) | Tarifs de l’électricité : le courant ne passe plus
+2026-06-10 13:25:08,559 [INFO] NEW: Saint-Gobain / TotalEnergies (France, None MW)
+2026-06-10 13:25:13,560 [INFO] ------- Processing article n. 9: Mauvaise nouvelle pour les utilisateurs de panneaux solaire, il va falloir stock -------
+2026-06-10 13:25:14,448 [INFO] Resolved Google News URL: https://www.journaldugeek.com/2025/03/19/mauvaise-nouvelle-pour-les-utilisateurs
+2026-06-10 13:25:14,448 [INFO] URL: https://www.journaldugeek.com/2025/03/19/mauvaise-nouvelle-pour-les-utilisateurs-de-panneaux-solaire-il-va-falloir-stocker-et-ne-plus-vendre-son-surplus/
+2026-06-10 13:25:15,404 [INFO] Text length: 13525 chars | source: full
+2026-06-10 13:25:15,405 [INFO] Text preview: Mauvaise nouvelle pour les utilisateurs de panneaux solaire, il va falloir stocker et ne plus vendre son surplus ! Passer au contenu © Beem En 2024, près de 5 GW de nouvelles capacités solaires ont ét...
+2026-06-10 13:25:15,897 [INFO] LLM HTTP 200 for: Mauvaise nouvelle pour les utilisateurs de panneaux solaire,
+2026-06-10 13:25:15,897 [INFO] LLM extracted 0 deals (0 signed) | Mauvaise nouvelle pour les utilisateurs de panneau
+2026-06-10 13:25:15,899 [INFO] ------- Processing article n. 9: Sous-marins australiens : France trahie, fiasco américain, regrets de Canberra…  -------
+2026-06-10 13:25:16,555 [INFO] Resolved Google News URL: https://www.ladepeche.fr/2025/03/16/sous-marins-australiens-france-trahie-fiasco
+2026-06-10 13:25:16,556 [INFO] URL: https://www.ladepeche.fr/2025/03/16/sous-marins-australiens-france-trahie-fiasco-americain-regrets-de-canberra-retour-sur-laffaire-en-4-actes-12568206.php
+2026-06-10 13:25:18,007 [INFO] Text length: 13864 chars | source: full
+2026-06-10 13:25:18,007 [INFO] Text preview: Sous-marins australiens : France trahie, fiasco américain, regrets de Canberra… retour sur l'affaire en 4 actes - ladepeche.fr Accueil International Armée Sous-marins australiens : France trahie, fias...
+2026-06-10 13:25:18,905 [INFO] LLM HTTP 200 for: Sous-marins australiens : France trahie, fiasco américain, r
+2026-06-10 13:25:18,905 [INFO] LLM extracted 1 deals (0 signed) | Sous-marins australiens : France trahie, fiasco am
+2026-06-10 13:25:18,906 [INFO] Not a signed deal — skipping: Sous-marins australiens : France trahie, fiasco américain, r
+2026-06-10 13:25:18,907 [INFO] ------- Processing article n. 9: Centrale thermique de Safi : Engie cède 15,66% de sa participation à Nareva - Le -------
+2026-06-10 13:25:19,633 [INFO] Resolved Google News URL: https://lematin.ma/economie/centrale-thermique-de-safi-engie-cede-1566-de-sa-par
+2026-06-10 13:25:19,633 [INFO] URL: https://lematin.ma/economie/centrale-thermique-de-safi-engie-cede-1566-de-sa-participation-a-nareva/269443
+2026-06-10 13:25:20,289 [INFO] Text length: 7104 chars | source: full
+2026-06-10 13:25:20,290 [INFO] Text preview: Centrale thermique de Safi : Engie cède 15,66% de sa participation à Nareva - Le Matin.ma Publicité Sites du Groupe Club Avantages Le Matin Sports Assahraa Le Matin Store Le Matin Annonces Les Imprime...
+2026-06-10 13:25:21,211 [INFO] LLM HTTP 200 for: Centrale thermique de Safi : Engie cède 15,66% de sa partici
+2026-06-10 13:25:21,211 [INFO] LLM extracted 1 deals (0 signed) | Centrale thermique de Safi : Engie cède 15,66% de 
+2026-06-10 13:25:21,213 [INFO] Not a signed deal — skipping: Centrale thermique de Safi : Engie cède 15,66% de sa partici
+2026-06-10 13:25:21,213 [INFO] ------- Processing article n. 9: Google comprará a Exus la energía generada por el parque eólico navarro de Casca -------
+2026-06-10 13:25:22,167 [INFO] Resolved Google News URL: https://www.energias-renovables.com/eolica/google-comprar--a-exus-la-energ-20250
+2026-06-10 13:25:22,168 [INFO] URL: https://www.energias-renovables.com/eolica/google-comprar--a-exus-la-energ-20250320
+2026-06-10 13:25:22,879 [INFO] Text length: 4953 chars | source: full
+2026-06-10 13:25:22,879 [INFO] Text preview: Google comprará a Exus la energía generada por el parque eólico navarro de Cascante eólica Google comprará a Exus la energía generada por el parque eólico navarro de Cascante Jueves, 20 de marzo de 20...
+2026-06-10 13:25:24,051 [INFO] LLM HTTP 200 for: Google comprará a Exus la energía generada por el parque eól
+2026-06-10 13:25:24,051 [INFO] LLM extracted 1 deals (1 signed) | Google comprará a Exus la energía generada por el 
+2026-06-10 13:25:24,053 [INFO] UPDATE: Google / Exus Renewables (Spain, 35 MW) — canonical ID: 197
+2026-06-10 13:25:29,054 [INFO] ------- Processing article n. 10: La CMA aprueba la adquisición de Electricity North West por parte de Iberdrola - -------
+2026-06-10 13:25:29,874 [INFO] Resolved Google News URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/CMA-aprueba-adquisi
+2026-06-10 13:25:29,874 [INFO] URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/CMA-aprueba-adquisicion-Electricity-North-West-por-Iberdrola
+2026-06-10 13:25:30,322 [INFO] Full text skipped (status 403): https://www.iberdrola.com/sala-comunicacion/noticias/detalle/CMA-aprueba-adquisi
+2026-06-10 13:25:30,322 [INFO] Text length: 193 chars | source: fallback
+2026-06-10 13:25:30,322 [INFO] Text preview: La CMA aprueba la adquisición de Electricity North West por parte de Iberdrola - Iberdrola
+
+La CMA aprueba la adquisición de Electricity North West por parte de Iberdrola &nbsp;&nbsp; Iberdrola...
+2026-06-10 13:25:31,285 [INFO] LLM HTTP 200 for: La CMA aprueba la adquisición de Electricity North West por 
+2026-06-10 13:25:31,285 [INFO] LLM extracted 1 deals (0 signed) | La CMA aprueba la adquisición de Electricity North
+2026-06-10 13:25:31,287 [INFO] Not a signed deal — skipping: La CMA aprueba la adquisición de Electricity North West por 
+2026-06-10 13:25:31,287 [INFO] ------- Processing article n. 10: El grupo Ezentis compra el 55% de EDA Instalaciones y Energía por 8 millones - E -------
+2026-06-10 13:25:32,131 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/el-grupo-ezentis-compra-el-55-de-eda-instalac
+2026-06-10 13:25:32,131 [INFO] URL: https://elperiodicodelaenergia.com/el-grupo-ezentis-compra-el-55-de-eda-instalaciones-y-energia-por-8-millones/
+2026-06-10 13:25:32,818 [INFO] Text length: 3815 chars | source: full
+2026-06-10 13:25:32,818 [INFO] Text preview: El grupo Ezentis compra el 55% de EDA Instalaciones y Energía por 8 millones Miércoles, 10 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja competitiva en España a la que ...
+2026-06-10 13:25:33,743 [INFO] LLM HTTP 200 for: El grupo Ezentis compra el 55% de EDA Instalaciones y Energí
+2026-06-10 13:25:33,743 [INFO] LLM extracted 1 deals (0 signed) | El grupo Ezentis compra el 55% de EDA Instalacione
+2026-06-10 13:25:33,745 [INFO] Not a signed deal — skipping: El grupo Ezentis compra el 55% de EDA Instalaciones y Energí
+2026-06-10 13:25:33,745 [INFO] ------- Processing article n. 10: Gestamp blinda el suministro renovable ante la presión por descarbonizar la auto -------
+2026-06-10 13:25:34,427 [INFO] Resolved Google News URL: https://cronicavasca.elespanol.com/empresas/20250319/gestamp-suministro-renovabl
+2026-06-10 13:25:34,427 [INFO] URL: https://cronicavasca.elespanol.com/empresas/20250319/gestamp-suministro-renovable-la-presion-descarbonizar-automocion/932156796_0.html
+2026-06-10 13:25:34,946 [INFO] Text length: 4659 chars | source: full
+2026-06-10 13:25:34,947 [INFO] Text preview: Gestamp blinda el suministro renovable ante la presión por descarbonizar la automoción ES NOTICIA: Resultados Hegan Profesor Irun Puerto de Pasaia Salud Empresas tecnológicas Hidrolinera Educación Mig...
+2026-06-10 13:25:37,647 [INFO] LLM HTTP 200 for: Gestamp blinda el suministro renovable ante la presión por d
+2026-06-10 13:25:37,647 [INFO] LLM extracted 4 deals (4 signed) | Gestamp blinda el suministro renovable ante la pre
+2026-06-10 13:25:37,649 [INFO] NEW: Gestamp / None (Portugal, Hungary, Slovakia, Czech Republic, None MW)
+2026-06-10 13:25:42,651 [INFO] Not a European deal — skipping: Gestamp / None (India, None MW)
+2026-06-10 13:25:42,651 [INFO] Not a European deal — skipping: Gestamp / None (Mexico, None MW)
+2026-06-10 13:25:42,651 [INFO] Not a European deal — skipping: Gestamp / None (Brazil, None MW)
+2026-06-10 13:25:42,651 [INFO] ------- Processing article n. 11: Naturgy y Bioeco Energías se asocian para desarrollar nuevas plantas de biometan -------
+2026-06-10 13:25:43,438 [INFO] Resolved Google News URL: https://www.capitalmadrid.com/2025/3/19/69244/naturgy-y-bioeco-energias-se-asoci
+2026-06-10 13:25:43,438 [INFO] URL: https://www.capitalmadrid.com/2025/3/19/69244/naturgy-y-bioeco-energias-se-asocian-para-desarrollar-nuevas-plantas-de-biometano.html
+2026-06-10 13:25:43,591 [INFO] Full text skipped (status 403): https://www.capitalmadrid.com/2025/3/19/69244/naturgy-y-bioeco-energias-se-asoci
+2026-06-10 13:25:43,591 [INFO] Text length: 207 chars | source: fallback
+2026-06-10 13:25:43,591 [INFO] Text preview: Naturgy y Bioeco Energías se asocian para desarrollar nuevas plantas de biometano - CapitalMadrid
+
+Naturgy y Bioeco Energías se asocian para desarrollar nuevas plantas de biometano &nbsp;&nbsp; Capita...
+2026-06-10 13:25:44,475 [INFO] LLM HTTP 200 for: Naturgy y Bioeco Energías se asocian para desarrollar nuevas
+2026-06-10 13:25:44,475 [INFO] LLM extracted 1 deals (0 signed) | Naturgy y Bioeco Energías se asocian para desarrol
+2026-06-10 13:25:44,476 [INFO] Not a signed deal — skipping: Naturgy y Bioeco Energías se asocian para desarrollar nuevas
+2026-06-10 13:25:44,476 [INFO] ------- Processing article n. 11: Danone Argentina apuesta por la energía renovable con 360Energy - mercado.com.ar -------
+2026-06-10 13:25:45,231 [INFO] Resolved Google News URL: https://mercado.com.ar/gestion-sustentable/danone-argentina-apuesta-por-la-energ
+2026-06-10 13:25:45,231 [INFO] URL: https://mercado.com.ar/gestion-sustentable/danone-argentina-apuesta-por-la-energia-renovable-con-360energy
+2026-06-10 13:25:46,395 [INFO] Text length: 4610 chars | source: full
+2026-06-10 13:25:46,395 [INFO] Text preview: Danone Argentina apuesta por la energía renovable con… | Revista Mercado Ir al contenido principal Gestión Sustentable Danone Argentina apuesta por la energía renovable con 360Energy El acuerdo, el pr...
+2026-06-10 13:25:47,677 [INFO] LLM HTTP 200 for: Danone Argentina apuesta por la energía renovable con 360Ene
+2026-06-10 13:25:47,677 [INFO] LLM extracted 1 deals (1 signed) | Danone Argentina apuesta por la energía renovable 
+2026-06-10 13:25:47,678 [INFO] Not a European deal — skipping: Danone Argentina / 360Energy (Argentina, None MW)
+2026-06-10 13:25:47,678 [INFO] ------- Processing article n. 11: La empresa EDET fue adquirida por el grupo Edison Energía - La Gaceta -------
+2026-06-10 13:25:48,310 [INFO] Resolved Google News URL: https://www.lagaceta.com.ar/nota/1075629/economia/empresa-edet-fue-adquirida-gru
+2026-06-10 13:25:48,310 [INFO] URL: https://www.lagaceta.com.ar/nota/1075629/economia/empresa-edet-fue-adquirida-grupo-edison-energia.html
+2026-06-10 13:25:49,185 [INFO] Text length: 4737 chars | source: full
+2026-06-10 13:25:49,185 [INFO] Text preview: La empresa EDET fue adquirida por el grupo Edison Energía Economía Noticias económicas La empresa EDET fue adquirida por el grupo Edison Energía La firma que se hará cargo de la compañía de distribuci...
+2026-06-10 13:25:50,109 [INFO] LLM HTTP 200 for: La empresa EDET fue adquirida por el grupo Edison Energía - 
+2026-06-10 13:25:50,109 [INFO] LLM extracted 1 deals (0 signed) | La empresa EDET fue adquirida por el grupo Edison 
+2026-06-10 13:25:50,111 [INFO] Not a signed deal — skipping: La empresa EDET fue adquirida por el grupo Edison Energía - 
+2026-06-10 13:25:50,111 [INFO] ------- Processing article n. 11: Aval legislativo para la firma de un amplio convenio con YPF - El Litoral -------
+2026-06-10 13:25:51,044 [INFO] Resolved Google News URL: https://www.ellitoral.com/politica/aval-legislativo-firma-amplio-convenio-ypf_0_
+2026-06-10 13:25:51,044 [INFO] URL: https://www.ellitoral.com/politica/aval-legislativo-firma-amplio-convenio-ypf_0_1PUta0j66F.html
+2026-06-10 13:25:51,317 [INFO] Text length: 8808 chars | source: full
+2026-06-10 13:25:51,317 [INFO] Text preview: Aval legislativo para la firma de un amplio convenio con YPF #HOY: Maximiliano Pullaro Javier Milei Colón Unión POLÍTICA Expectativas en el Poder Ejecutivo Aval legislativo para la firma de un amplio ...
+2026-06-10 13:25:51,742 [INFO] LLM HTTP 200 for: Aval legislativo para la firma de un amplio convenio con YPF
+2026-06-10 13:25:51,742 [INFO] LLM extracted 0 deals (0 signed) | Aval legislativo para la firma de un amplio conven
+2026-06-10 13:25:51,743 [INFO] ------- Processing article n. 11: La Pampa: cómo funciona el proyecto de energías renovables enclavado en la capit -------
+2026-06-10 13:25:52,606 [INFO] Resolved Google News URL: https://www.letrap.com.ar/economia/la-pampa-como-funciona-el-proyecto-energias-r
+2026-06-10 13:25:52,606 [INFO] URL: https://www.letrap.com.ar/economia/la-pampa-como-funciona-el-proyecto-energias-renovables-enclavado-la-capital-provincial-del-petroleo-n5414725
+2026-06-10 13:25:54,869 [INFO] Text length: 7014 chars | source: full
+2026-06-10 13:25:54,869 [INFO] Text preview: La Pampa: cómo funciona el proyecto de energías renovables enclavado en la capital provincial del petróleo La Pampa: cómo funciona el proyecto de energías renovables enclavado en la capital provincial...
+2026-06-10 13:25:56,063 [INFO] LLM HTTP 200 for: La Pampa: cómo funciona el proyecto de energías renovables e
+2026-06-10 13:25:56,064 [INFO] LLM extracted 1 deals (1 signed) | La Pampa: cómo funciona el proyecto de energías re
+2026-06-10 13:25:56,065 [INFO] Not a European deal — skipping: Cammesa / AB Energía (Argentina, 2 MW)
+2026-06-10 13:25:56,065 [INFO] ------- Processing article n. 11: Celulares y notebooks: qué es el refurbished y por qué sirve para ahorrar energí -------
+2026-06-10 13:25:56,915 [INFO] Resolved Google News URL: https://tn.com.ar/sociedad/2025/03/16/celulares-y-notebooks-que-es-el-refurbishe
+2026-06-10 13:25:56,915 [INFO] URL: https://tn.com.ar/sociedad/2025/03/16/celulares-y-notebooks-que-es-el-refurbished-y-por-que-sirve-para-ahorrar-energia-y-generar-menos-basura/
+2026-06-10 13:25:57,700 [INFO] Text length: 11348 chars | source: full
+2026-06-10 13:25:57,700 [INFO] Text preview: Celulares y notebooks: qué es el refurbished y por qué sirve para ahorrar energía y generar menos basura | TN TN Temas de hoy : Javier Milei Dólar hoy Cristina Kirchner Selección argentina Tensión en ...
+2026-06-10 13:25:58,144 [INFO] LLM HTTP 200 for: Celulares y notebooks: qué es el refurbished y por qué sirve
+2026-06-10 13:25:58,145 [INFO] LLM extracted 0 deals (0 signed) | Celulares y notebooks: qué es el refurbished y por
+2026-06-10 13:25:58,146 [INFO] ------- Processing article n. 11: China entra con fuerza en España con la compra de este importante pedazo de terr -------
+2026-06-10 13:25:59,071 [INFO] Resolved Google News URL: https://noticiastrabajo.huffingtonpost.es/economia/china-entra-con-fuerza-en-esp
+2026-06-10 13:25:59,071 [INFO] URL: https://noticiastrabajo.huffingtonpost.es/economia/china-entra-con-fuerza-en-espana-con-la-compra-de-este-importante-pedazo-de-territorio/
+2026-06-10 13:25:59,671 [INFO] Text length: 6157 chars | source: full
+2026-06-10 13:25:59,671 [INFO] Text preview: China entra con fuerza en España con la compra de este importante pedazo de territorio Es noticia: Noticiastrabajo → Economía Hacen a la nueva Inteligencia Artificial china DeepSeek un Jailbreak ‘a lo...
+2026-06-10 13:26:00,123 [INFO] LLM HTTP 200 for: China entra con fuerza en España con la compra de este impor
+2026-06-10 13:26:00,123 [INFO] LLM extracted 0 deals (0 signed) | China entra con fuerza en España con la compra de 
+2026-06-10 13:26:00,125 [INFO] ------- Processing article n. 11: Anuncios de Ignis, Solar Steel, BNZ, Endesa, Zelestra y Acciona - pv magazine Es -------
+2026-06-10 13:26:00,915 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2025/03/19/anuncios-de-ignis-gonvarri-bnz-endesa-zele
+2026-06-10 13:26:00,915 [INFO] URL: https://www.pv-magazine.es/2025/03/19/anuncios-de-ignis-gonvarri-bnz-endesa-zelestra-y-acciona/
+2026-06-10 13:26:01,775 [INFO] Text length: 6105 chars | source: full
+2026-06-10 13:26:01,775 [INFO] Text preview: Anuncios de Ignis, Solar Steel, BNZ, Endesa, Zelestra y Acciona - pv magazine España Anuncio Anuncio Anuncio Anuncio Instalaciones Anuncios de Ignis, Solar Steel, BNZ, Endesa, Zelestra y Acciona Ignis...
+2026-06-10 13:26:03,004 [INFO] LLM HTTP 200 for: Anuncios de Ignis, Solar Steel, BNZ, Endesa, Zelestra y Acci
+2026-06-10 13:26:03,004 [WARNING] LLM JSON parse error (attempt 1, pv magazine España): Extra data: line 1 column 431 (char 430) | raw: [{"is_signed_deal": true, "is_likely_update": false, "update_clues": null, "date_agreement": "2025-03-19", "buyer": "Abastible", "seller": "Zelestra", "capacity_mw": 220, "energy_gwh": 600, "tenure_ye
+2026-06-10 13:26:03,004 [INFO] Retrying with shorter input...
+2026-06-10 13:26:04,240 [INFO] LLM HTTP 200 for: Anuncios de Ignis, Solar Steel, BNZ, Endesa, Zelestra y Acci
+2026-06-10 13:26:04,240 [INFO] LLM extracted 1 deals (1 signed) | Anuncios de Ignis, Solar Steel, BNZ, Endesa, Zeles
+2026-06-10 13:26:04,241 [INFO] Not a European deal — skipping: Abastible / Zelestra (Chile, 220 MW)
+2026-06-10 13:26:04,241 [INFO] ------- Processing article n. 11: Statkraft y bp se adhieren a CEOE como nuevos miembros - Economía Digital -------
+2026-06-10 13:26:05,076 [INFO] Resolved Google News URL: https://www.economiadigital.es/valencia/empresas/statkraft-ceoe.html
+2026-06-10 13:26:05,076 [INFO] URL: https://www.economiadigital.es/valencia/empresas/statkraft-ceoe.html
+2026-06-10 13:26:07,274 [INFO] Text length: 7919 chars | source: full
+2026-06-10 13:26:07,274 [INFO] Text preview: Statkraft y bp se adhieren a CEOE como nuevos miembros Skip to content Borja Echegaray, del Departamento de Empresas y Organizaciones de CEOE; Salvador Zaera, responsable de Asuntos Públicos de Statkr...
+2026-06-10 13:26:07,755 [INFO] LLM HTTP 200 for: Statkraft y bp se adhieren a CEOE como nuevos miembros - Eco
+2026-06-10 13:26:07,755 [INFO] LLM extracted 0 deals (0 signed) | Statkraft y bp se adhieren a CEOE como nuevos miem
+2026-06-10 13:26:07,757 [INFO] ------- Processing article n. 11: Abastible y Zelestra firman un PPA en Chile que combina 220 MW fotovoltaicos y 1 -------
+2026-06-10 13:26:08,609 [INFO] Resolved Google News URL: https://www.pv-magazine-latam.com/2025/03/20/abastible-y-zelestra-firman-un-ppa-
+2026-06-10 13:26:08,609 [INFO] URL: https://www.pv-magazine-latam.com/2025/03/20/abastible-y-zelestra-firman-un-ppa-en-chile-que-combina-220-mw-fotovoltaicos-y-1-gwh-en-bess/
+2026-06-10 13:26:09,598 [INFO] Text length: 4047 chars | source: full
+2026-06-10 13:26:09,598 [INFO] Text preview: Abastible y Zelestra firman un PPA en Chile que combina 220 MW fotovoltaicos y 1 GWh en BESS - pv magazine Latinoamérica Anuncio Anuncio Anuncio Anuncio Instalaciones Abastible y Zelestra firman un PP...
+2026-06-10 13:26:11,713 [INFO] LLM HTTP 200 for: Abastible y Zelestra firman un PPA en Chile que combina 220 
+2026-06-10 13:26:11,713 [INFO] LLM extracted 2 deals (2 signed) | Abastible y Zelestra firman un PPA en Chile que co
+2026-06-10 13:26:11,715 [INFO] Not a European deal — skipping: Abastible / Zelestra (Chile, 220 MW)
+2026-06-10 13:26:11,715 [INFO] Not a European deal — skipping: BHP / Sungrow (Chile, 195 MW)
+2026-06-10 13:26:11,715 [INFO] ------- Processing article n. 11: Cambios en las bandas horarias podrían catalizar negocios de energía solar en Gu -------
+2026-06-10 13:26:12,398 [INFO] Resolved Google News URL: https://www.energiaestrategica.com/cambios-en-las-bandas-horarias-podrian-catali
+2026-06-10 13:26:12,399 [INFO] URL: https://www.energiaestrategica.com/cambios-en-las-bandas-horarias-podrian-catalizar-negocios-de-energia-solar-en-guatemala
+2026-06-10 13:26:13,740 [INFO] Text length: 73 chars | source: full
+2026-06-10 13:26:13,740 [INFO] Text preview: Changes in time zones could catalyze solar energy businesses in Guatemala...
+2026-06-10 13:26:14,611 [INFO] LLM HTTP 200 for: Cambios en las bandas horarias podrían catalizar negocios de
+2026-06-10 13:26:14,611 [INFO] LLM extracted 1 deals (0 signed) | Cambios en las bandas horarias podrían catalizar n
+2026-06-10 13:26:14,612 [INFO] Not a signed deal — skipping: Cambios en las bandas horarias podrían catalizar negocios de
+2026-06-10 13:26:14,612 [INFO] ------- Processing article n. 11: Antonio Sieira (Ignis): "No tenemos los reinos de taifas de una gran empresa. Tr -------
+2026-06-10 13:26:15,421 [INFO] Resolved Google News URL: https://www.elmundo.es/economia/empresas/2025/03/16/67d1645efdddff600c8b458d.htm
+2026-06-10 13:26:15,421 [INFO] URL: https://www.elmundo.es/economia/empresas/2025/03/16/67d1645efdddff600c8b458d.html
+2026-06-10 13:26:15,730 [INFO] Text length: 16835 chars | source: full
+2026-06-10 13:26:15,730 [INFO] Text preview: Antonio Sieira (Ignis): "No tenemos los reinos de taifas de una gran empresa. Trabajamos en equipo, el ego hay que matarlo todos los días al salir de casa" | Empresas EMPRESAS Tip@s de interés Antonio...
+2026-06-10 13:26:16,190 [INFO] LLM HTTP 200 for: Antonio Sieira (Ignis): "No tenemos los reinos de taifas de 
+2026-06-10 13:26:16,190 [INFO] LLM extracted 0 deals (0 signed) | Antonio Sieira (Ignis): "No tenemos los reinos de 
+2026-06-10 13:26:16,192 [INFO] ------- Processing article n. 11: Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale - Materia Rinnovabile -------
+2026-06-10 13:26:17,077 [INFO] Resolved Google News URL: https://www.renewablematter.eu/fotovoltaico-contourglobal-a2a-ppa-decennale
+2026-06-10 13:26:17,078 [INFO] URL: https://www.renewablematter.eu/fotovoltaico-contourglobal-a2a-ppa-decennale
+2026-06-10 13:26:17,749 [INFO] Text length: 3877 chars | source: full
+2026-06-10 13:26:17,749 [INFO] Text preview: Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale Materia Rinnovabile | Renewable Matter (0) it / en News Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale L’accordo prevede un incre...
+2026-06-10 13:26:19,839 [INFO] LLM HTTP 200 for: Fotovoltaico, ContourGlobal e A2A firmano un PPA decennale -
+2026-06-10 13:26:19,840 [INFO] LLM extracted 2 deals (2 signed) | Fotovoltaico, ContourGlobal e A2A firmano un PPA d
+2026-06-10 13:26:19,841 [INFO] NEW: A2A / ContourGlobal (Italy, 18 MW)
+2026-06-10 13:26:24,843 [INFO] UPDATE: A2A / ContourGlobal (Italy, None MW) — canonical ID: 206
+2026-06-10 13:26:29,844 [INFO] ------- Processing article n. 13: Incentivi fotovoltaico, tutti i bonus 2025 per privati e famiglie - Rinnovabili -------
+2026-06-10 13:26:30,738 [INFO] Resolved Google News URL: https://www.rinnovabili.it/energia/fotovoltaico/incentivi-fotovoltaico-bonus-pri
+2026-06-10 13:26:30,738 [INFO] URL: https://www.rinnovabili.it/energia/fotovoltaico/incentivi-fotovoltaico-bonus-privati-famiglie/
+2026-06-10 13:26:31,608 [INFO] Full text skipped (status 403): https://www.rinnovabili.it/energia/fotovoltaico/incentivi-fotovoltaico-bonus-pri
+2026-06-10 13:26:31,609 [INFO] Text length: 171 chars | source: fallback
+2026-06-10 13:26:31,609 [INFO] Text preview: Incentivi fotovoltaico, tutti i bonus 2025 per privati e famiglie - Rinnovabili
+
+Incentivi fotovoltaico, tutti i bonus 2025 per privati e famiglie &nbsp;&nbsp; Rinnovabili...
+2026-06-10 13:26:32,015 [INFO] LLM HTTP 200 for: Incentivi fotovoltaico, tutti i bonus 2025 per privati e fam
+2026-06-10 13:26:32,015 [INFO] LLM extracted 0 deals (0 signed) | Incentivi fotovoltaico, tutti i bonus 2025 per pri
+2026-06-10 13:26:32,017 [INFO] ------- Processing article n. 13: Mercati Energetici - Tensioni tra freddo, geopolitiche e incertezze regolatorie  -------
+2026-06-10 13:26:32,721 [INFO] Resolved Google News URL: https://www.assolombarda.it/servizi/energia/informazioni/mercati-energetici-tens
+2026-06-10 13:26:32,721 [INFO] URL: https://www.assolombarda.it/servizi/energia/informazioni/mercati-energetici-tensioni-tra-freddo-geopolitiche-e-incertezze-regolatorie
+2026-06-10 13:26:34,703 [INFO] Text length: 6529 chars | source: full
+2026-06-10 13:26:34,703 [INFO] Text preview: Mercati Energetici - Tensioni tra freddo, geopolitiche e incertezze regolatorie — Assolombarda Info Chi siamo Le imprese Servizi Media Contatti Come Associarsi Lavora con noi English Mercati Energetic...
+2026-06-10 13:26:35,145 [INFO] LLM HTTP 200 for: Mercati Energetici - Tensioni tra freddo, geopolitiche e inc
+2026-06-10 13:26:35,145 [INFO] LLM extracted 0 deals (0 signed) | Mercati Energetici - Tensioni tra freddo, geopolit
+2026-06-10 13:26:35,147 [INFO] ------- Processing article n. 13: Fotovoltaico: finisce l’era dello scambio sul posto - Infobuildenergia -------
+2026-06-10 13:26:36,078 [INFO] Resolved Google News URL: https://www.infobuildenergia.it/arera-uscita-regime-scambio-sul-posto-fotovoltai
+2026-06-10 13:26:36,078 [INFO] URL: https://www.infobuildenergia.it/arera-uscita-regime-scambio-sul-posto-fotovoltaico/
+2026-06-10 13:26:36,284 [INFO] Full text skipped (status 403): https://www.infobuildenergia.it/arera-uscita-regime-scambio-sul-posto-fotovoltai
+2026-06-10 13:26:36,284 [INFO] Text length: 153 chars | source: fallback
+2026-06-10 13:26:36,284 [INFO] Text preview: Fotovoltaico: finisce l’era dello scambio sul posto - Infobuildenergia
+
+Fotovoltaico: finisce l’era dello scambio sul posto &nbsp;&nbsp; Infobuildenergia...
+2026-06-10 13:26:37,150 [INFO] LLM HTTP 200 for: Fotovoltaico: finisce l’era dello scambio sul posto - Infobu
+2026-06-10 13:26:37,150 [INFO] LLM extracted 1 deals (0 signed) | Fotovoltaico: finisce l’era dello scambio sul post
+2026-06-10 13:26:37,151 [INFO] Not a signed deal — skipping: Fotovoltaico: finisce l’era dello scambio sul posto - Infobu
+2026-06-10 13:26:37,151 [INFO] ------- Processing article n. 13: Eni protagonista nell’Africa occidentale, grazie all’accordo con Vitol - Energia -------
+2026-06-10 13:26:37,965 [INFO] Resolved Google News URL: https://www.energiaitalia.news/news/petrolio/eni-protagonista-nellafrica-occiden
+2026-06-10 13:26:37,965 [INFO] URL: https://www.energiaitalia.news/news/petrolio/eni-protagonista-nellafrica-occidentale-grazie-allaccordo-con-vitol/54646/
+2026-06-10 13:26:38,614 [INFO] Text length: 4160 chars | source: full
+2026-06-10 13:26:38,615 [INFO] Text preview: Eni protagonista nell'Africa occidentale, grazie all'accordo con Vitol Homepage Chi siamo News Policy News da ASVIS Aziende Report Eventi Interviste Video Conferenze Next Corporate Summer Party Comuni...
+2026-06-10 13:26:39,593 [INFO] LLM HTTP 200 for: Eni protagonista nell’Africa occidentale, grazie all’accordo
+2026-06-10 13:26:39,593 [INFO] LLM extracted 1 deals (0 signed) | Eni protagonista nell’Africa occidentale, grazie a
+2026-06-10 13:26:39,594 [INFO] Not a signed deal — skipping: Eni protagonista nell’Africa occidentale, grazie all’accordo
+2026-06-10 13:26:39,594 [INFO] ------- Processing article n. 13: Efficienza energetica: supporto alla diocesi - L'Eco di Bergamo -------
+2026-06-10 13:26:40,446 [INFO] Resolved Google News URL: https://www.ecodibergamo.it/stories/EcoBergamo/focus/alex-servizi-efficienza-ene
+2026-06-10 13:26:40,446 [INFO] URL: https://www.ecodibergamo.it/stories/EcoBergamo/focus/alex-servizi-efficienza-energetica-o_2912594_11/
+2026-06-10 13:26:42,467 [INFO] Text length: 5288 chars | source: full
+2026-06-10 13:26:42,467 [INFO] Text preview: Efficienza energetica: consulenza e supporto alla diocesi Cosa stai cercando? Ricerca avanzata Focus Efficienza energetica:  supporto alla diocesi Alex Servizi accompagna enti e parrocchie nel percors...
+2026-06-10 13:26:43,623 [INFO] LLM HTTP 200 for: Efficienza energetica: supporto alla diocesi - L'Eco di Berg
+2026-06-10 13:26:43,623 [INFO] LLM extracted 1 deals (0 signed) | Efficienza energetica: supporto alla diocesi - L'E
+2026-06-10 13:26:43,625 [INFO] Not a signed deal — skipping: Efficienza energetica: supporto alla diocesi - L'Eco di Berg
+2026-06-10 13:26:43,625 [INFO] ------- Processing article n. 13: Eolico offshore: secondo Aero il vademecum MASE è ottimo - HDblog.it -------
+2026-06-10 13:26:44,336 [INFO] Resolved Google News URL: https://www.hdblog.it/green/articoli/n612299/vademecum-mase-eolico-offshore-comm
+2026-06-10 13:26:44,336 [INFO] URL: https://www.hdblog.it/green/articoli/n612299/vademecum-mase-eolico-offshore-commenti/
+2026-06-10 13:26:44,557 [INFO] Full text skipped (status 429): https://www.hdblog.it/green/articoli/n612299/vademecum-mase-eolico-offshore-comm
+2026-06-10 13:26:44,557 [INFO] Text length: 149 chars | source: fallback
+2026-06-10 13:26:44,557 [INFO] Text preview: Eolico offshore: secondo Aero il vademecum MASE è ottimo - HDblog.it
+
+Eolico offshore: secondo Aero il vademecum MASE è ottimo &nbsp;&nbsp; HDblog.it...
+2026-06-10 13:26:45,415 [INFO] LLM HTTP 200 for: Eolico offshore: secondo Aero il vademecum MASE è ottimo - H
+2026-06-10 13:26:45,415 [INFO] LLM extracted 1 deals (0 signed) | Eolico offshore: secondo Aero il vademecum MASE è 
+2026-06-10 13:26:45,416 [INFO] Not a signed deal — skipping: Eolico offshore: secondo Aero il vademecum MASE è ottimo - H
+2026-06-10 13:26:45,416 [INFO] ------- Processing article n. 13: Green public procurement: a che punto è l’Italia? - La Nuova Ecologia -------
+2026-06-10 13:26:46,391 [INFO] Resolved Google News URL: https://www.lanuovaecologia.it/green-public-procurement-italia/
+2026-06-10 13:26:46,391 [INFO] URL: https://www.lanuovaecologia.it/green-public-procurement-italia/
+2026-06-10 13:26:48,885 [INFO] Text length: 19809 chars | source: full
+2026-06-10 13:26:48,885 [INFO] Text preview: Green public procurement: a che punto è l'Italia? Facebook Instagram Telegram X Youtube Clima Energia Economia circolare Mobilità Green Economy Biodiversità Inquinamento Territorio Cultura Diritti Sea...
+2026-06-10 13:26:49,732 [INFO] LLM HTTP 200 for: Green public procurement: a che punto è l’Italia? - La Nuova
+2026-06-10 13:26:49,732 [INFO] LLM extracted 0 deals (0 signed) | Green public procurement: a che punto è l’Italia? 
+2026-06-10 13:26:49,734 [INFO] ------- Processing article n. 13: Fusioni, acquisizioni, capital markets: ecco i deal più importanti di febbraio 2 -------
+2026-06-10 13:26:50,607 [INFO] Resolved Google News URL: https://www.milanofinanza.it/news/fusioni-acquisizioni-capital-markets-ecco-i-de
+2026-06-10 13:26:50,607 [INFO] URL: https://www.milanofinanza.it/news/fusioni-acquisizioni-capital-markets-ecco-i-deal-piu-importanti-di-febbraio-2025-gli-studi-legali-e-i-202503141716593608
+2026-06-10 13:26:51,950 [INFO] Text length: 27330 chars | source: full
+2026-06-10 13:26:51,951 [INFO] Text preview: Fusioni, acquisizioni, capital markets: ecco i deal più importanti di febbraio 2025. Gli studi legali e i professionisti coinvolti | MilanoFinanza News Ftse Mib 0,12% Spread 77,18 Dow Jones 0,17% Dax ...
+2026-06-10 13:26:52,492 [INFO] LLM HTTP 200 for: Fusioni, acquisizioni, capital markets: ecco i deal più impo
+2026-06-10 13:26:52,492 [INFO] LLM extracted 0 deals (0 signed) | Fusioni, acquisizioni, capital markets: ecco i dea
+2026-06-10 13:26:52,493 [INFO] ------- Processing article n. 13: Trump contro il clima e la natura - La Nuova Ecologia -------
+2026-06-10 13:26:53,352 [INFO] Resolved Google News URL: https://www.lanuovaecologia.it/scelte-contro-clima-trump/
+2026-06-10 13:26:53,352 [INFO] URL: https://www.lanuovaecologia.it/scelte-contro-clima-trump/
+2026-06-10 13:26:56,200 [INFO] Text length: 12390 chars | source: full
+2026-06-10 13:26:56,200 [INFO] Text preview: Trump contro il clima e la natura Facebook Instagram Telegram X Youtube Clima Energia Economia circolare Mobilità Green Economy Biodiversità Inquinamento Territorio Cultura Diritti Search Sign in Welc...
+2026-06-10 13:26:56,635 [INFO] LLM HTTP 200 for: Trump contro il clima e la natura - La Nuova Ecologia
+2026-06-10 13:26:56,635 [INFO] LLM extracted 0 deals (0 signed) | Trump contro il clima e la natura - La Nuova Ecolo
+2026-06-10 13:26:56,637 [INFO] ------- Processing article n. 13: Prysmian e Edison Energia firmano PPA pluriennale - Rinnovabili -------
+2026-06-10 13:26:57,422 [INFO] Resolved Google News URL: https://www.rinnovabili.it/mercato/le-aziende-informano/prysmian-edison-energia-
+2026-06-10 13:26:57,422 [INFO] URL: https://www.rinnovabili.it/mercato/le-aziende-informano/prysmian-edison-energia-ppa-pluriennale/
+2026-06-10 13:26:58,547 [INFO] Full text skipped (status 403): https://www.rinnovabili.it/mercato/le-aziende-informano/prysmian-edison-energia-
+2026-06-10 13:26:58,548 [INFO] Text length: 139 chars | source: fallback
+2026-06-10 13:26:58,548 [INFO] Text preview: Prysmian e Edison Energia firmano PPA pluriennale - Rinnovabili
+
+Prysmian e Edison Energia firmano PPA pluriennale &nbsp;&nbsp; Rinnovabili...
+2026-06-10 13:26:59,492 [INFO] LLM HTTP 200 for: Prysmian e Edison Energia firmano PPA pluriennale - Rinnovab
+2026-06-10 13:26:59,492 [INFO] LLM extracted 1 deals (1 signed) | Prysmian e Edison Energia firmano PPA pluriennale 
+2026-06-10 13:26:59,494 [INFO] NEW: Edison Energia / Prysmian (Italy, None MW)
+2026-06-10 13:27:04,495 [INFO] ------- Processing article n. 14: Edison rivende l'energia rinnovabile prodotta nella Tuscia - ViterboToday -------
+2026-06-10 13:27:05,449 [INFO] Resolved Google News URL: https://www.viterbotoday.it/economia/accordo-edison-prysmian-17-marzo-2025.html
+2026-06-10 13:27:05,449 [INFO] URL: https://www.viterbotoday.it/economia/accordo-edison-prysmian-17-marzo-2025.html
+2026-06-10 13:27:07,159 [INFO] Text length: 2926 chars | source: full
+2026-06-10 13:27:07,159 [INFO] Text preview: Edison rivende l'energia rinnovabile prodotta nella Tuscia Redazione 17 marzo 2025 12:58 Facebook WhatsApp Condividi Accordo pluriennale per la fornitura di energia 100% rinnovabile prodotta nella Tus...
+2026-06-10 13:27:08,247 [INFO] LLM HTTP 200 for: Edison rivende l'energia rinnovabile prodotta nella Tuscia -
+2026-06-10 13:27:08,247 [INFO] LLM extracted 1 deals (1 signed) | Edison rivende l'energia rinnovabile prodotta nell
+2026-06-10 13:27:08,249 [INFO] UPDATE: Prysmian / Edison Energia (Italy, 150 MW) — canonical ID: 196
+2026-06-10 13:27:13,250 [INFO] ------- Processing article n. 15: Edison fornirà energia green a Prysmian - La Provincia di Como -------
+2026-06-10 13:27:13,955 [INFO] Resolved Google News URL: https://www.laprovinciadicomo.it/stories/premium/ansa-green/edison-fornira-energ
+2026-06-10 13:27:13,955 [INFO] URL: https://www.laprovinciadicomo.it/stories/premium/ansa-green/edison-fornira-energia-green-prysmian-o_2907893_11/
+2026-06-10 13:27:15,735 [INFO] Text length: 2090 chars | source: full
+2026-06-10 13:27:15,735 [INFO] Text preview: Edison fornirà energia green a Prysmian - Ansa Green Ansa Green Lunedì 17 Marzo 2025 Edison fornirà energia green a Prysmian Lettura meno di un minuto. Accedi per ascoltare gratuitamente questo
+      ...
+2026-06-10 13:27:16,847 [INFO] LLM HTTP 200 for: Edison fornirà energia green a Prysmian - La Provincia di Co
+2026-06-10 13:27:16,847 [INFO] LLM extracted 1 deals (1 signed) | Edison fornirà energia green a Prysmian - La Provi
+2026-06-10 13:27:16,849 [INFO] UPDATE: Prysmian / Edison Energia (Italy, 150 MW) — canonical ID: 196
+2026-06-10 13:27:21,851 [INFO] ------- Processing article n. 16: Energooszczędne oprawy rozświetlą Bydgoszcz. Umowa podpisana - bydgoszcz.pl -------
+2026-06-10 13:27:22,781 [INFO] Resolved Google News URL: https://www.bydgoszcz.pl/aktualnosci/tresc/energooszczedne-oprawy-rozswietla-byd
+2026-06-10 13:27:22,781 [INFO] URL: https://www.bydgoszcz.pl/aktualnosci/tresc/energooszczedne-oprawy-rozswietla-bydgoszcz-umow/
+2026-06-10 13:27:24,813 [INFO] Text length: 9274 chars | source: full
+2026-06-10 13:27:24,813 [INFO] Text preview: Oficjalny Serwis Bydgoszczy - Energooszczędne oprawy rozświetlą Bydgoszcz. Umowa podpisana Przejdź do menu głównego Przejdź do wyszukiwarki Przejdź do treści Przejdź do sekcji kontakt Translate: Szuka...
+2026-06-10 13:27:25,806 [INFO] LLM HTTP 200 for: Energooszczędne oprawy rozświetlą Bydgoszcz. Umowa podpisana
+2026-06-10 13:27:25,806 [INFO] LLM extracted 1 deals (0 signed) | Energooszczędne oprawy rozświetlą Bydgoszcz. Umowa
+2026-06-10 13:27:25,807 [INFO] Not a signed deal — skipping: Energooszczędne oprawy rozświetlą Bydgoszcz. Umowa podpisana
+2026-06-10 13:27:25,808 [INFO] ------- Processing article n. 16: Energia por assinatura tem projeções positivas para 2025 - Valor Econômico -------
+2026-06-10 13:27:26,756 [INFO] Resolved Google News URL: https://valor.globo.com/patrocinado/dino/noticia/2025/03/19/energia-por-assinatu
+2026-06-10 13:27:26,757 [INFO] URL: https://valor.globo.com/patrocinado/dino/noticia/2025/03/19/energia-por-assinatura-tem-projecoes-positivas-para-2025.ghtml
+2026-06-10 13:27:28,926 [INFO] Text length: 7218 chars | source: full
+2026-06-10 13:27:28,926 [INFO] Text preview: Energia por assinatura tem projeções positivas para 2025 | Dino | Valor Econômico Dino PUBLICIDADE conteúdo de marca Energia por assinatura tem projeções positivas para 2025 Dados da ABSolar projetam ...
+2026-06-10 13:27:29,401 [INFO] LLM HTTP 200 for: Energia por assinatura tem projeções positivas para 2025 - V
+2026-06-10 13:27:29,402 [INFO] LLM extracted 0 deals (0 signed) | Energia por assinatura tem projeções positivas par
+2026-06-10 13:27:29,403 [INFO] ------- Processing article n. 16: Operadoras de ônibus elétricos de SP acusam Enel de não ligar carregadores nas g -------
+2026-06-10 13:27:30,170 [INFO] Resolved Google News URL: https://mobilidade.estadao.com.br/planeta-eletrico/onibus-eletricos-operadoras-a
+2026-06-10 13:27:30,171 [INFO] URL: https://mobilidade.estadao.com.br/planeta-eletrico/onibus-eletricos-operadoras-acusam-enel-de-nao-ligar-carregadores/
+2026-06-10 13:27:31,349 [INFO] Text length: 10670 chars | source: full
+2026-06-10 13:27:31,349 [INFO] Text preview: Ônibus elétricos: operadoras acusam Enel de não ligar carregadores Buscando sugestões para: Quer uma navegação personalizadsssssa? Cadastre-se aqui Voltar A+ A- COMPARTILHAR Operadoras de ônibus elétr...
+2026-06-10 13:27:31,985 [INFO] LLM HTTP 200 for: Operadoras de ônibus elétricos de SP acusam Enel de não liga
+2026-06-10 13:27:31,985 [INFO] LLM extracted 0 deals (0 signed) | Operadoras de ônibus elétricos de SP acusam Enel d
+2026-06-10 13:27:31,986 [INFO] ------- Processing article n. 16: PCH no Mato Grosso tem operação prorrogada - MegaWhat -------
+2026-06-10 13:27:32,710 [INFO] Resolved Google News URL: https://megawhat.uol.com.br/destaques-do-diario/pch-no-mato-grosso-tem-operacao-
+2026-06-10 13:27:32,710 [INFO] URL: https://megawhat.uol.com.br/destaques-do-diario/pch-no-mato-grosso-tem-operacao-prorrogada/
+2026-06-10 13:27:34,689 [INFO] Text length: 7266 chars | source: full
+2026-06-10 13:27:34,689 [INFO] Text preview: PCH no Mato Grosso tem operação prorrogada - MegaWhat Fazer login Assinar Olá, [username] Sair Cursos Últimas Notícias MegaExpresso Glossário Geração Voltar Tudo sobre Geração Biomassa Carvão Diesel E...
+2026-06-10 13:27:35,442 [INFO] LLM HTTP 200 for: PCH no Mato Grosso tem operação prorrogada - MegaWhat
+2026-06-10 13:27:35,442 [INFO] LLM extracted 0 deals (0 signed) | PCH no Mato Grosso tem operação prorrogada - MegaW
+2026-06-10 13:27:35,443 [INFO] ------- Processing article n. 16: Engie (EGIE3) compra participação de chineses em usinas hidrelétricas por R$ 2,9 -------
+2026-06-10 13:27:36,353 [INFO] Resolved Google News URL: https://euqueroinvestir.com/acoes/engie-egie3-compra-participacao-de-chineses-em
+2026-06-10 13:27:36,353 [INFO] URL: https://euqueroinvestir.com/acoes/engie-egie3-compra-participacao-de-chineses-em-usinas-hidreletricas-por-r-295-bi
+2026-06-10 13:27:37,870 [INFO] Text length: 6112 chars | source: full
+2026-06-10 13:27:37,870 [INFO] Text preview: EGIE3 compra participação em usinas hidrelétricas por R$ 2,95 bi Home Notícias Ações Engie (EGIE3) compra participação de chineses em usinas hidrelétricas por R$ 2,95 bi Ações Engie (EGIE3) compra par...
+2026-06-10 13:27:38,757 [INFO] LLM HTTP 200 for: Engie (EGIE3) compra participação de chineses em usinas hidr
+2026-06-10 13:27:38,757 [INFO] LLM extracted 1 deals (0 signed) | Engie (EGIE3) compra participação de chineses em u
+2026-06-10 13:27:38,758 [INFO] Not a signed deal — skipping: Engie (EGIE3) compra participação de chineses em usinas hidr
+2026-06-10 13:27:38,758 [INFO] ------- Processing article n. 16: Moçambique consolida sua posição no mercado regional de energia com a interligaç -------
+2026-06-10 13:27:39,415 [INFO] Resolved Google News URL: https://cartamz.com/economia-e-negocios/41717/mocambique-consolida-sua-posicao-n
+2026-06-10 13:27:39,415 [INFO] URL: https://cartamz.com/economia-e-negocios/41717/mocambique-consolida-sua-posicao-no-mercado-regional-de-energia-com-a-interligacao-com-a-zambia/
+2026-06-10 13:27:39,811 [INFO] Text length: 6493 chars | source: full
+2026-06-10 13:27:39,811 [INFO] Text preview: Moçambique consolida sua posição no mercado regional de energia com a interligação com a Zâmbia - Carta de Moçambique - Informação rigorosa e opinião de qualidade de e sobre Moçambique. Início Sobre N...
+2026-06-10 13:27:40,713 [INFO] LLM HTTP 200 for: Moçambique consolida sua posição no mercado regional de ener
+2026-06-10 13:27:40,713 [INFO] LLM extracted 1 deals (0 signed) | Moçambique consolida sua posição no mercado region
+2026-06-10 13:27:40,715 [INFO] Not a signed deal — skipping: Moçambique consolida sua posição no mercado regional de ener
+2026-06-10 13:27:40,715 [INFO] ------- Processing article n. 16: Governo de Minas firma acordo com empresa australiana para investimento privado  -------
+2026-06-10 13:27:41,503 [INFO] Resolved Google News URL: https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-firma-acordo-com-emp
+2026-06-10 13:27:41,504 [INFO] URL: https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-firma-acordo-com-empresa-australiana-para-investimento-privado-de-r-400-milhoes
+2026-06-10 13:27:43,083 [INFO] Text length: 4648 chars | source: full
+2026-06-10 13:27:43,083 [INFO] Text preview: Agência Minas Gerais | Governo de Minas firma acordo com empresa australiana para investimento privado de R$ 400 milhões buscar Desenvolvimento Econômico download  Sede-MG / Victor Fagundes download ...
+2026-06-10 13:27:44,050 [INFO] LLM HTTP 200 for: Governo de Minas firma acordo com empresa australiana para i
+2026-06-10 13:27:44,050 [INFO] LLM extracted 1 deals (0 signed) | Governo de Minas firma acordo com empresa australi
+2026-06-10 13:27:44,051 [INFO] Not a signed deal — skipping: Governo de Minas firma acordo com empresa australiana para i
+2026-06-10 13:27:44,051 [INFO] Run complete. New deals: 16, Updates: 0
+2026-06-10 13:27:44,054 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (169 deals)
