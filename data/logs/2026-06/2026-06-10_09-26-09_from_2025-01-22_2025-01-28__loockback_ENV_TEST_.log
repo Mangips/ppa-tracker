@@ -1,0 +1,259 @@
+2026-06-10 09:26:09,691 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 09:26:09,691 [INFO] Searching from 2025-01-22 to 2025-01-28 with  loockback days
+2026-06-10 09:26:09,692 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 09:26:10,021 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-22%20before%3A2025-01-28&hl=en&gl=US&ceid=US:en: 3 results
+2026-06-10 09:26:12,772 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-22%20before%3A2025-01-28&hl=en&gl=US&ceid=US:en: 26 results
+2026-06-10 09:26:15,022 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-22%20before%3A2025-01-28&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 09:26:17,306 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-22%20before%3A2025-01-28&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-06-10 09:26:19,570 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-22%20before%3A2025-01-28&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-06-10 09:26:21,848 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-22%20before%3A2025-01-28&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-10 09:26:24,057 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-22%20before%3A2025-01-28&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 09:26:26,303 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-22%20before%3A2025-01-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 09:26:28,613 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-22%20before%3A2025-01-28&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 09:26:30,614 [INFO] Total raw articles collected: 31
+2026-06-10 09:26:30,826 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 09:26:32,340 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 09:26:33,341 [INFO] Unique unseen articles: 28
+2026-06-10 09:26:33,341 [INFO] ------- Processing article n. 0: Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicroelectronics in Fran -------
+2026-06-10 09:26:34,049 [INFO] Resolved Google News URL: https://totalenergies.com/newsroom/renewable-power-totalenergies-will-supply-15-
+2026-06-10 09:26:34,050 [INFO] URL: https://totalenergies.com/newsroom/renewable-power-totalenergies-will-supply-15-twh-stmicroelectronics-france-over/?lang=eng
+2026-06-10 09:26:34,939 [INFO] Text length: 8960 chars | source: full
+2026-06-10 09:26:34,939 [INFO] Text preview: Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicr Home Press Releases Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicroelectronics in France Over 15 years Renewable Power: Total...
+2026-06-10 09:26:36,053 [INFO] LLM HTTP 200 for: Renewable Power: TotalEnergies Will Supply 1.5 TWh to STMicr
+2026-06-10 09:26:36,053 [INFO] LLM extracted 1 deals (1 signed) | Renewable Power: TotalEnergies Will Supply 1.5 TWh
+2026-06-10 09:26:36,055 [INFO] NEW: STMicroelectronics / TotalEnergies (France, 75 MW)
+2026-06-10 09:26:41,056 [INFO] ------- Processing article n. 1: Hydrogen Europe - Hydrogen Europe -------
+2026-06-10 09:26:41,767 [INFO] Resolved Google News URL: https://hydrogeneurope.eu/fuelcell-energy-announces-160-million-contract-to-supp
+2026-06-10 09:26:41,767 [INFO] URL: https://hydrogeneurope.eu/fuelcell-energy-announces-160-million-contract-to-support-hartford-area-grid/
+2026-06-10 09:26:42,907 [INFO] Text length: 2476 chars | source: full
+2026-06-10 09:26:42,907 [INFO] Text preview: Hydrogen Europe FuelCell Energy announces $160 million contract to support Hartford area grid 22 January 2025 SEFE and Höegh Evi to develop international clean hydrogen supply chains 21 January 2025 S...
+2026-06-10 09:26:43,947 [INFO] LLM HTTP 200 for: Hydrogen Europe - Hydrogen Europe
+2026-06-10 09:26:43,947 [INFO] LLM extracted 1 deals (1 signed) | Hydrogen Europe - Hydrogen Europe
+2026-06-10 09:26:43,949 [INFO] NEW: Eversource, United Illuminating / FuelCell Energy (United States, 7.4 MW)
+2026-06-10 09:26:48,950 [INFO] ------- Processing article n. 2: Iberdrola France and AGRATI advance in decarbonizing industrial production - Ibe -------
+2026-06-10 09:26:49,702 [INFO] Resolved Google News URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-and-agrati-advance-in
+2026-06-10 09:26:49,702 [INFO] URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-and-agrati-advance-in-decarbonizing-industrial-production-in-france
+2026-06-10 09:26:50,053 [INFO] Full text skipped (status 403): https://www.iberdrola.com/press-room/news/detail/iberdrola-and-agrati-advance-in
+2026-06-10 09:26:50,054 [INFO] Text length: 185 chars | source: fallback
+2026-06-10 09:26:50,054 [INFO] Text preview: Iberdrola France and AGRATI advance in decarbonizing industrial production - Iberdrola
+
+Iberdrola France and AGRATI advance in decarbonizing industrial production &nbsp;&nbsp; Iberdrola...
+2026-06-10 09:26:50,871 [INFO] LLM HTTP 200 for: Iberdrola France and AGRATI advance in decarbonizing industr
+2026-06-10 09:26:50,871 [INFO] LLM extracted 1 deals (0 signed) | Iberdrola France and AGRATI advance in decarbonizi
+2026-06-10 09:26:50,873 [INFO] Not a signed deal — skipping: Iberdrola France and AGRATI advance in decarbonizing industr
+2026-06-10 09:26:50,873 [INFO] ------- Processing article n. 2: Improving B2B energy propositions: Four trends reshaping the industry - McKinsey -------
+2026-06-10 09:26:51,473 [INFO] Resolved Google News URL: https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/
+2026-06-10 09:26:51,473 [INFO] URL: https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/improving-b2b-energy-propositions-four-trends-reshaping-the-industry
+2026-06-10 09:27:03,529 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.mckinsey.com', port=443): Read timed out. (read timeout=12)): https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/
+2026-06-10 09:27:03,529 [INFO] Text length: 193 chars | source: fallback
+2026-06-10 09:27:03,529 [INFO] Text preview: Improving B2B energy propositions: Four trends reshaping the industry - McKinsey & Company
+
+Improving B2B energy propositions: Four trends reshaping the industry &nbsp;&nbsp; McKinsey & Company...
+2026-06-10 09:27:04,298 [INFO] LLM HTTP 200 for: Improving B2B energy propositions: Four trends reshaping the
+2026-06-10 09:27:04,298 [INFO] LLM extracted 1 deals (0 signed) | Improving B2B energy propositions: Four trends res
+2026-06-10 09:27:04,300 [INFO] Not a signed deal — skipping: Improving B2B energy propositions: Four trends reshaping the
+2026-06-10 09:27:04,300 [INFO] ------- Processing article n. 2: Is nuclear energy the answer to AI data centers’ power consumption? - Goldman Sa -------
+2026-06-10 09:27:04,998 [INFO] Resolved Google News URL: https://www.goldmansachs.com/insights/articles/is-nuclear-energy-the-answer-to-a
+2026-06-10 09:27:04,998 [INFO] URL: https://www.goldmansachs.com/insights/articles/is-nuclear-energy-the-answer-to-ai-data-centers-power-consumption
+2026-06-10 09:27:05,124 [INFO] Text length: 11420 chars | source: full
+2026-06-10 09:27:05,124 [INFO] Text preview: Is nuclear energy the answer to AI data centers’ power consumption? | Goldman Sachs What We Do Learn more about how we cultivate and harness world-class intellectual capital and expertise to solve our...
+2026-06-10 09:27:05,955 [INFO] LLM HTTP 200 for: Is nuclear energy the answer to AI data centers’ power consu
+2026-06-10 09:27:05,955 [INFO] LLM extracted 1 deals (0 signed) | Is nuclear energy the answer to AI data centers’ p
+2026-06-10 09:27:05,956 [INFO] Not a signed deal — skipping: Is nuclear energy the answer to AI data centers’ power consu
+2026-06-10 09:27:05,956 [INFO] ------- Processing article n. 2: Clean Industrial Deal an opportunity to assert… - Renew Europe -------
+2026-06-10 09:27:06,597 [INFO] Resolved Google News URL: https://www.reneweuropegroup.eu/news/2025-01-29/clean-industrial-deal-an-opportu
+2026-06-10 09:27:06,598 [INFO] URL: https://www.reneweuropegroup.eu/news/2025-01-29/clean-industrial-deal-an-opportunity-to-assert-europes-power
+2026-06-10 09:27:07,644 [INFO] Full text skipped (status 503): https://www.reneweuropegroup.eu/news/2025-01-29/clean-industrial-deal-an-opportu
+2026-06-10 09:27:07,644 [INFO] Text length: 137 chars | source: fallback
+2026-06-10 09:27:07,644 [INFO] Text preview: Clean Industrial Deal an opportunity to assert… - Renew Europe
+
+Clean Industrial Deal an opportunity to assert… &nbsp;&nbsp; Renew Europe...
+2026-06-10 09:27:10,393 [INFO] LLM HTTP 200 for: Clean Industrial Deal an opportunity to assert… - Renew Euro
+2026-06-10 09:27:10,393 [INFO] LLM extracted 1 deals (0 signed) | Clean Industrial Deal an opportunity to assert… - 
+2026-06-10 09:27:10,395 [INFO] Not a signed deal — skipping: Clean Industrial Deal an opportunity to assert… - Renew Euro
+2026-06-10 09:27:10,395 [INFO] ------- Processing article n. 2: Renewable Power: Growth calls for system improvement - ING THINK economic and fi -------
+2026-06-10 09:27:11,067 [INFO] Resolved Google News URL: https://think.ing.com/articles/renewable-power-growth-calls-for-system-improveme
+2026-06-10 09:27:11,067 [INFO] URL: https://think.ing.com/articles/renewable-power-growth-calls-for-system-improvement/
+2026-06-10 09:27:12,270 [INFO] Text length: 17096 chars | source: full
+2026-06-10 09:27:12,270 [INFO] Text preview: Renewable Power: Growth calls for system improvement | articles | ING THINK Share X LinkedIn E-mail Copy link Share X LinkedIn E-mail Copy link Download The demand for renewable power is set to climb,...
+2026-06-10 09:27:13,074 [INFO] LLM HTTP 200 for: Renewable Power: Growth calls for system improvement - ING T
+2026-06-10 09:27:13,074 [INFO] LLM extracted 1 deals (0 signed) | Renewable Power: Growth calls for system improveme
+2026-06-10 09:27:13,075 [INFO] Not a signed deal — skipping: Renewable Power: Growth calls for system improvement - ING T
+2026-06-10 09:27:13,076 [INFO] ------- Processing article n. 2: EIB is making quick progress on counter-guarantee facility – total of €2bn provi -------
+2026-06-10 09:27:13,654 [INFO] Resolved Google News URL: https://windeurope.org/news/eib-is-making-quick-progress-on-counter-guarantee-fa
+2026-06-10 09:27:13,654 [INFO] URL: https://windeurope.org/news/eib-is-making-quick-progress-on-counter-guarantee-facility-total-of-e2bn-provided-so-far/
+2026-06-10 09:27:14,592 [INFO] Text length: 5237 chars | source: full
+2026-06-10 09:27:14,592 [INFO] Text preview: EIB is making quick progress on counter-guarantee facility – total of €2bn provided so far - WindEurope News EIB is making quick progress on counter-guarantee facility – total of €2bn provided so far ...
+2026-06-10 09:27:15,405 [INFO] LLM HTTP 200 for: EIB is making quick progress on counter-guarantee facility –
+2026-06-10 09:27:15,405 [INFO] LLM extracted 1 deals (0 signed) | EIB is making quick progress on counter-guarantee 
+2026-06-10 09:27:15,407 [INFO] Not a signed deal — skipping: EIB is making quick progress on counter-guarantee facility –
+2026-06-10 09:27:15,407 [INFO] ------- Processing article n. 2: The Energy Release Decree | Italy | Global law firm - Norton Rose Fulbright -------
+2026-06-10 09:27:16,166 [INFO] Resolved Google News URL: https://www.nortonrosefulbright.com/en-it/knowledge/publications/24d4e4b5/the-en
+2026-06-10 09:27:16,167 [INFO] URL: https://www.nortonrosefulbright.com/en-it/knowledge/publications/24d4e4b5/the-energy-release-decree
+2026-06-10 09:27:16,872 [INFO] Text length: 7777 chars | source: full
+2026-06-10 09:27:16,872 [INFO] Text preview: The Energy Release Decree | Italy | Global law firm | Norton Rose Fulbright Skip to main content Ministerial Decree no. 268/2024 (the Energy Release Decree ) introduced the “Energy Release 2.0” mechan...
+2026-06-10 09:27:17,677 [INFO] LLM HTTP 200 for: The Energy Release Decree | Italy | Global law firm - Norton
+2026-06-10 09:27:17,678 [INFO] LLM extracted 1 deals (0 signed) | The Energy Release Decree | Italy | Global law fir
+2026-06-10 09:27:17,679 [INFO] Not a signed deal — skipping: The Energy Release Decree | Italy | Global law firm - Norton
+2026-06-10 09:27:17,679 [INFO] ------- Processing article n. 2: Poland's PGE in preliminary agreement to buy assets from ZE PAK - Reuters -------
+2026-06-10 09:27:18,595 [INFO] Resolved Google News URL: https://www.reuters.com/markets/deals/polands-pge-preliminary-agreement-buy-asse
+2026-06-10 09:27:18,595 [INFO] URL: https://www.reuters.com/markets/deals/polands-pge-preliminary-agreement-buy-assets-ze-pak-2025-01-23/
+2026-06-10 09:27:18,783 [INFO] Full text skipped (status 401): https://www.reuters.com/markets/deals/polands-pge-preliminary-agreement-buy-asse
+2026-06-10 09:27:18,783 [INFO] Text length: 159 chars | source: fallback
+2026-06-10 09:27:18,783 [INFO] Text preview: Poland's PGE in preliminary agreement to buy assets from ZE PAK - Reuters
+
+Poland's PGE in preliminary agreement to buy assets from ZE PAK &nbsp;&nbsp; Reuters...
+2026-06-10 09:27:19,594 [INFO] LLM HTTP 200 for: Poland's PGE in preliminary agreement to buy assets from ZE 
+2026-06-10 09:27:19,595 [INFO] LLM extracted 1 deals (0 signed) | Poland's PGE in preliminary agreement to buy asset
+2026-06-10 09:27:19,596 [INFO] Not a signed deal — skipping: Poland's PGE in preliminary agreement to buy assets from ZE 
+2026-06-10 09:27:19,596 [INFO] ------- Processing article n. 2: Commission signs joint procurement contract for COVID-19 vaccines to ensure prep -------
+2026-06-10 09:27:20,403 [INFO] Resolved Google News URL: https://www.eureporter.co/politics/european-commission/2025/01/28/commission-sig
+2026-06-10 09:27:20,403 [INFO] URL: https://www.eureporter.co/politics/european-commission/2025/01/28/commission-signs-joint-procurement-contract-for-covid-19-vaccines-to-ensure-preparedness-and-continued-protection-of-citizens/
+2026-06-10 09:27:20,922 [INFO] Text length: 6532 chars | source: full
+2026-06-10 09:27:20,922 [INFO] Text preview: Commission signs joint procurement contract for COVID-19 vaccines to ensure preparedness and continued protection of citizens - EU Reporter Connect with us Signup to our weekly newsletter to receive e...
+2026-06-10 09:27:21,754 [INFO] LLM HTTP 200 for: Commission signs joint procurement contract for COVID-19 vac
+2026-06-10 09:27:21,754 [INFO] LLM extracted 1 deals (0 signed) | Commission signs joint procurement contract for CO
+2026-06-10 09:27:21,755 [INFO] Not a signed deal — skipping: Commission signs joint procurement contract for COVID-19 vac
+2026-06-10 09:27:21,755 [INFO] ------- Processing article n. 2: Europe and the global economic order - Centre for European Reform (CER) -------
+2026-06-10 09:27:22,434 [INFO] Resolved Google News URL: https://www.cer.eu/publications/archive/policy-brief/2025/europe-and-global-econ
+2026-06-10 09:27:22,434 [INFO] URL: https://www.cer.eu/publications/archive/policy-brief/2025/europe-and-global-economic-order
+2026-06-10 09:27:23,143 [INFO] Text length: 24745 chars | source: full
+2026-06-10 09:27:23,144 [INFO] Text preview: ﻿ Europe and the global economic order | Centre for European Reform Skip to main content area Centre for European Reform Twitter Bluesky LinkedIn Facebook Instagram Threads YouTube Soundcloud Soundclo...
+2026-06-10 09:27:23,534 [INFO] LLM HTTP 200 for: Europe and the global economic order - Centre for European R
+2026-06-10 09:27:23,535 [INFO] LLM extracted 0 deals (0 signed) | Europe and the global economic order - Centre for 
+2026-06-10 09:27:23,536 [INFO] ------- Processing article n. 2: Enerjisa wins biggest two wind power projects in Turkey’s auction - Balkan Green -------
+2026-06-10 09:27:24,399 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/enerjisa-wins-biggest-two-wind-power-projects-
+2026-06-10 09:27:24,399 [INFO] URL: https://balkangreenenergynews.com/enerjisa-wins-biggest-two-wind-power-projects-in-turkeys-auction/
+2026-06-10 09:27:25,653 [INFO] Text length: 9113 chars | source: full
+2026-06-10 09:27:25,653 [INFO] Text preview: Enerjisa wins biggest two wind power projects in Turkey's auction Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share China...
+2026-06-10 09:27:27,056 [INFO] LLM HTTP 200 for: Enerjisa wins biggest two wind power projects in Turkey’s au
+2026-06-10 09:27:27,057 [INFO] LLM extracted 1 deals (1 signed) | Enerjisa wins biggest two wind power projects in T
+2026-06-10 09:27:27,058 [INFO] NEW: None / Enerjisa Enerji Üretim (Turkey, 750 MW)
+2026-06-10 09:27:32,059 [INFO] ------- Processing article n. 3: European Commission signs contract with Moderna for Covid-19 vaccines - The Brus -------
+2026-06-10 09:27:32,940 [INFO] Resolved Google News URL: https://www.brusselstimes.com/1409349/european-commission-signs-contract-with-mo
+2026-06-10 09:27:32,940 [INFO] URL: https://www.brusselstimes.com/1409349/european-commission-signs-contract-with-moderna-for-covid-19-vaccines
+2026-06-10 09:27:33,166 [INFO] Text length: 18 chars | source: full
+2026-06-10 09:27:33,166 [INFO] Text preview: The Brussels Times...
+2026-06-10 09:27:33,166 [INFO] Text too short (18 chars) — skipping: European Commission signs contract with Moderna for Covid-19
+2026-06-10 09:27:33,166 [INFO] ------- Processing article n. 3: Saulteau First Nations, EDF Renewables advancing wind-energy project - BC Gov Ne -------
+2026-06-10 09:27:33,918 [INFO] Resolved Google News URL: https://news.gov.bc.ca/releases/2025ECS0004-000041
+2026-06-10 09:27:33,918 [INFO] URL: https://news.gov.bc.ca/releases/2025ECS0004-000041
+2026-06-10 09:27:34,334 [INFO] Text length: 8471 chars | source: full
+2026-06-10 09:27:34,334 [INFO] Text preview: BC Gov News Energy and Climate Solutions Saulteau First Nations, EDF Renewables advancing wind-energy project Share More from this Ministry Search Honourable Adrian Dix Honourable Adrian Dix Read Bio ...
+2026-06-10 09:27:35,452 [INFO] LLM HTTP 200 for: Saulteau First Nations, EDF Renewables advancing wind-energy
+2026-06-10 09:27:35,452 [INFO] LLM extracted 1 deals (1 signed) | Saulteau First Nations, EDF Renewables advancing w
+2026-06-10 09:27:35,454 [INFO] NEW: BC Hydro / Saulteau First Nations, EDF Renewables (Canada, 200 MW)
+2026-06-10 09:27:40,455 [INFO] ------- Processing article n. 4: Austrian energy and chemicals giant plans multi-million euro facility in Antwerp -------
+2026-06-10 09:27:41,086 [INFO] Resolved Google News URL: https://www.belganewsagency.eu/austrian-energy-and-chemicals-giant-plans-multi-m
+2026-06-10 09:27:41,086 [INFO] URL: https://www.belganewsagency.eu/austrian-energy-and-chemicals-giant-plans-multi-million-euro-facility-in-antwerp-port
+2026-06-10 09:27:42,172 [INFO] Text length: 3180 chars | source: full
+2026-06-10 09:27:42,172 [INFO] Text preview: Austrian energy and chemicals giant plans multi-million euro facility in Antwerp port ECONOMY Austrian energy and chemicals giant plans multi-million euro facility in Antwerp port 24/01/2025 Austrian ...
+2026-06-10 09:27:43,547 [INFO] LLM HTTP 200 for: Austrian energy and chemicals giant plans multi-million euro
+2026-06-10 09:27:43,548 [INFO] LLM extracted 1 deals (1 signed) | Austrian energy and chemicals giant plans multi-mi
+2026-06-10 09:27:43,549 [INFO] NEW: Borealis / Aspiravi (Belgium, None MW)
+2026-06-10 09:27:48,550 [INFO] ------- Processing article n. 5: GreenH and Luxcara Invest in Hydrogen Project in Bodø - Fuel Cells Works -------
+2026-06-10 09:27:49,396 [INFO] Resolved Google News URL: https://fuelcellsworks.com/2025/01/28/green-investment/greenh-and-luxcara-make-i
+2026-06-10 09:27:49,396 [INFO] URL: https://fuelcellsworks.com/2025/01/28/green-investment/greenh-and-luxcara-make-investment-decision-for-hydrogen-project-in-bod-backed-by-financing-package-of-nok-1-billion
+2026-06-10 09:27:49,965 [INFO] Text length: 247 chars | source: full
+2026-06-10 09:27:49,965 [INFO] Text preview: GreenH and Luxcara Invest in Hydrogen Project in Bodø Green Investment GreenH and Luxcara Make Investment Decision for Hydrogen Project in Bodø Backed by Financing Package of NOK 1 Billion By Fuel Cel...
+2026-06-10 09:27:50,736 [INFO] LLM HTTP 200 for: GreenH and Luxcara Invest in Hydrogen Project in Bodø - Fuel
+2026-06-10 09:27:50,736 [INFO] LLM extracted 1 deals (0 signed) | GreenH and Luxcara Invest in Hydrogen Project in B
+2026-06-10 09:27:50,737 [INFO] Not a signed deal — skipping: GreenH and Luxcara Invest in Hydrogen Project in Bodø - Fuel
+2026-06-10 09:27:50,737 [INFO] ------- Processing article n. 5: Poland and Canada sign nuclear power cooperation agreement - Reuters -------
+2026-06-10 09:27:51,536 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/poland-canada-sign-cooperation-agreement
+2026-06-10 09:27:51,536 [INFO] URL: https://www.reuters.com/business/energy/poland-canada-sign-cooperation-agreement-nuclear-power-2025-01-28/
+2026-06-10 09:27:51,640 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/poland-canada-sign-cooperation-agreement
+2026-06-10 09:27:51,640 [INFO] Text length: 149 chars | source: fallback
+2026-06-10 09:27:51,640 [INFO] Text preview: Poland and Canada sign nuclear power cooperation agreement - Reuters
+
+Poland and Canada sign nuclear power cooperation agreement &nbsp;&nbsp; Reuters...
+2026-06-10 09:27:52,441 [INFO] LLM HTTP 200 for: Poland and Canada sign nuclear power cooperation agreement -
+2026-06-10 09:27:52,441 [INFO] LLM extracted 1 deals (0 signed) | Poland and Canada sign nuclear power cooperation a
+2026-06-10 09:27:52,442 [INFO] Not a signed deal — skipping: Poland and Canada sign nuclear power cooperation agreement -
+2026-06-10 09:27:52,442 [INFO] ------- Processing article n. 5: European Utilities: A bittersweet year for earnings - ING THINK economic and fin -------
+2026-06-10 09:27:53,111 [INFO] Resolved Google News URL: https://think.ing.com/articles/european-utilities-in-2025-a-bittersweet-year-for
+2026-06-10 09:27:53,111 [INFO] URL: https://think.ing.com/articles/european-utilities-in-2025-a-bittersweet-year-for-earnings/
+2026-06-10 09:27:54,526 [INFO] Text length: 13694 chars | source: full
+2026-06-10 09:27:54,527 [INFO] Text preview: European Utilities: A bittersweet year for earnings | articles | ING THINK Share X LinkedIn E-mail Copy link Share X LinkedIn E-mail Copy link Download In 2025, the European utility sector’s cash flow...
+2026-06-10 09:27:55,344 [INFO] LLM HTTP 200 for: European Utilities: A bittersweet year for earnings - ING TH
+2026-06-10 09:27:55,344 [INFO] LLM extracted 1 deals (0 signed) | European Utilities: A bittersweet year for earning
+2026-06-10 09:27:55,346 [INFO] Not a signed deal — skipping: European Utilities: A bittersweet year for earnings - ING TH
+2026-06-10 09:27:55,346 [INFO] ------- Processing article n. 5: Exclusive: EU picks PwC consortium for minerals, energy platform, EU source says -------
+2026-06-10 09:27:55,974 [INFO] Resolved Google News URL: https://www.reuters.com/markets/commodities/eu-picks-pwc-consortium-minerals-ene
+2026-06-10 09:27:55,974 [INFO] URL: https://www.reuters.com/markets/commodities/eu-picks-pwc-consortium-minerals-energy-platform-eu-source-says-2025-01-22/
+2026-06-10 09:27:56,072 [INFO] Full text skipped (status 401): https://www.reuters.com/markets/commodities/eu-picks-pwc-consortium-minerals-ene
+2026-06-10 09:27:56,073 [INFO] Text length: 193 chars | source: fallback
+2026-06-10 09:27:56,073 [INFO] Text preview: Exclusive: EU picks PwC consortium for minerals, energy platform, EU source says - Reuters
+
+Exclusive: EU picks PwC consortium for minerals, energy platform, EU source says &nbsp;&nbsp; Reuters...
+2026-06-10 09:27:56,991 [INFO] LLM HTTP 200 for: Exclusive: EU picks PwC consortium for minerals, energy plat
+2026-06-10 09:27:56,991 [INFO] LLM extracted 1 deals (0 signed) | Exclusive: EU picks PwC consortium for minerals, e
+2026-06-10 09:27:56,992 [INFO] Not a signed deal — skipping: Exclusive: EU picks PwC consortium for minerals, energy plat
+2026-06-10 09:27:56,992 [INFO] ------- Processing article n. 5: Kerala Regulator Approves 500 MW Solar Power Sale Agreement With SECI - Mercomin -------
+2026-06-10 09:27:57,699 [INFO] Resolved Google News URL: https://mercomindia.com/kerala-regulator-approves-500-mw-solar-power-sale-agreem
+2026-06-10 09:27:57,699 [INFO] URL: https://mercomindia.com/kerala-regulator-approves-500-mw-solar-power-sale-agreement-with-seci
+2026-06-10 09:27:58,192 [INFO] Text length: 5064 chars | source: full
+2026-06-10 09:27:58,192 [INFO] Text preview: Kerala Regulator Approves 500 MW Solar Power Sale Agreement With SECI NEWS RESEARCH & REPORTS EVENTS NEWSLETTER ABOUT CONTACT SOLAR Tenders & Auctions Markets & Policy Utility Scale Rooftop Finance an...
+2026-06-10 09:27:59,430 [INFO] LLM HTTP 200 for: Kerala Regulator Approves 500 MW Solar Power Sale Agreement 
+2026-06-10 09:27:59,430 [INFO] LLM extracted 1 deals (1 signed) | Kerala Regulator Approves 500 MW Solar Power Sale 
+2026-06-10 09:27:59,432 [INFO] NEW: Kerala State Electricity Board (KSEBL) / Solar Energy Corporation of India (SECI) (India, 500 MW)
+2026-06-10 09:28:04,433 [INFO] ------- Processing article n. 6: Implats signs renewable energy deal to supply 90% of power to its Springs refine -------
+2026-06-10 09:28:05,128 [INFO] Resolved Google News URL: https://www.dailymaverick.co.za/article/2025-01-27-implats-signs-renewable-energ
+2026-06-10 09:28:05,128 [INFO] URL: https://www.dailymaverick.co.za/article/2025-01-27-implats-signs-renewable-energy-deal-to-supply-90-of-power-to-its-springs-refinery/
+2026-06-10 09:28:05,338 [INFO] Text length: 3604 chars | source: full
+2026-06-10 09:28:05,338 [INFO] Text preview: Implats signs renewable energy deal to supply 90% of power to Springs refinery Investigations News Maverick News Politics Business Social Justice Earth International News Sport Podcasts Webinars Views...
+2026-06-10 09:28:06,522 [INFO] LLM HTTP 200 for: Implats signs renewable energy deal to supply 90% of power t
+2026-06-10 09:28:06,522 [INFO] LLM extracted 1 deals (1 signed) | Implats signs renewable energy deal to supply 90% 
+2026-06-10 09:28:06,524 [INFO] NEW: Implats / Discovery Green (South Africa, 130 MW)
+2026-06-10 09:28:11,525 [INFO] ------- Processing article n. 7: Agreement on New Shore Power Project Finalized: Will Be Among the Most Advanced  -------
+2026-06-10 09:28:12,173 [INFO] Resolved Google News URL: https://www.portofaarhus.dk/en/nyheder/nyt-landstromsanlaeg-pa-vej-til-aarhus-ha
+2026-06-10 09:28:12,173 [INFO] URL: https://www.portofaarhus.dk/en/nyheder/nyt-landstromsanlaeg-pa-vej-til-aarhus-havn-bliver-blandt-de-mest-avancerede-i-europa
+2026-06-10 09:28:12,233 [INFO] Full text skipped (status 403): https://www.portofaarhus.dk/en/nyheder/nyt-landstromsanlaeg-pa-vej-til-aarhus-ha
+2026-06-10 09:28:12,234 [INFO] Text length: 219 chars | source: fallback
+2026-06-10 09:28:12,234 [INFO] Text preview: Agreement on New Shore Power Project Finalized: Will Be Among the Most Advanced in Europe - Aarhus Havn
+
+Agreement on New Shore Power Project Finalized: Will Be Among the Most Advanced in Europe &nbsp...
+2026-06-10 09:28:13,083 [INFO] LLM HTTP 200 for: Agreement on New Shore Power Project Finalized: Will Be Amon
+2026-06-10 09:28:13,083 [INFO] LLM extracted 1 deals (0 signed) | Agreement on New Shore Power Project Finalized: Wi
+2026-06-10 09:28:13,085 [INFO] Not a signed deal — skipping: Agreement on New Shore Power Project Finalized: Will Be Amon
+2026-06-10 09:28:13,085 [INFO] ------- Processing article n. 7: Supreme Court: Questions concerning regulation providing for compensation for el -------
+2026-06-10 09:28:13,819 [INFO] Resolved Google News URL: https://www.irishlegal.com/articles/supreme-court-questions-concerning-regulatio
+2026-06-10 09:28:13,819 [INFO] URL: https://www.irishlegal.com/articles/supreme-court-questions-concerning-regulation-providing-for-compensation-for-electricity-generators-referred-to-ecj
+2026-06-10 09:28:14,210 [INFO] Text length: 9186 chars | source: full
+2026-06-10 09:28:14,210 [INFO] Text preview: Supreme Court: Questions concerning regulation providing for compensation for electricity generators referred to ECJ | Irish Legal News Written by: Gillian O'Hanlon BL Case Reporter Supreme Court: Que...
+2026-06-10 09:28:14,556 [INFO] LLM HTTP 200 for: Supreme Court: Questions concerning regulation providing for
+2026-06-10 09:28:14,556 [INFO] LLM extracted 0 deals (0 signed) | Supreme Court: Questions concerning regulation pro
+2026-06-10 09:28:14,558 [INFO] ------- Processing article n. 7: Partners Group-backed Sunsure Energy signs 300MW power deal with SECI - Mint -------
+2026-06-10 09:28:15,450 [INFO] Resolved Google News URL: https://www.livemint.com/companies/partners-group-backed-sunsure-energy-signs-30
+2026-06-10 09:28:15,450 [INFO] URL: https://www.livemint.com/companies/partners-group-backed-sunsure-energy-signs-300-mw-power-deal-with-seci-solar-energy-corporation-of-india-ppa-11737881275192.html
+2026-06-10 09:28:15,547 [INFO] Text length: 4060 chars | source: full
+2026-06-10 09:28:15,547 [INFO] Text preview: Partners Group-backed Sunsure Energy signs 300MW power deal with SECI | Company Business News View Market Dashboard Partners Group-backed Sunsure Energy signs 300MW power deal with SECI Nehal Chaliawa...
+2026-06-10 09:28:16,828 [INFO] LLM HTTP 200 for: Partners Group-backed Sunsure Energy signs 300MW power deal 
+2026-06-10 09:28:16,828 [INFO] LLM extracted 1 deals (1 signed) | Partners Group-backed Sunsure Energy signs 300MW p
+2026-06-10 09:28:16,830 [INFO] NEW: Solar Energy Corporation of India (SECI) / Sunsure Energy (India, 300 MW)
+2026-06-10 09:28:21,831 [INFO] ------- Processing article n. 8: ACME Solar Signs 680 MW Power Purchase Agreement with NHPC for Renewable Energy  -------
+2026-06-10 09:28:22,627 [INFO] Resolved Google News URL: https://www.thehawk.in/news/economy-and-business/energy/acme-solar-signs-680-mw-
+2026-06-10 09:28:22,627 [INFO] URL: https://www.thehawk.in/news/economy-and-business/energy/acme-solar-signs-680-mw-power-purchase-agreement-with-nhpc-for-renewable-energy-project
+2026-06-10 09:28:23,025 [INFO] Text length: 2427 chars | source: full
+2026-06-10 09:28:23,025 [INFO] Text preview: ACME Solar Signs 680 MW Power Purchase Agreement with NHPC for Renewable Energy Project New Delhi: Renewable energy firm ACME Solar Holdings has signed a power purchase agreement (PPA) with state-owne...
+2026-06-10 09:28:24,027 [INFO] LLM HTTP 200 for: ACME Solar Signs 680 MW Power Purchase Agreement with NHPC f
+2026-06-10 09:28:24,027 [INFO] LLM extracted 1 deals (1 signed) | ACME Solar Signs 680 MW Power Purchase Agreement w
+2026-06-10 09:28:24,029 [INFO] NEW: NHPC / ACME Solar Holdings (India, 680 MW)
+2026-06-10 09:28:29,030 [INFO] ------- Processing article n. 9: Electricité renouvelable : TotalEnergies fournira 1,5 TWh à STMicroelectronics e -------
+2026-06-10 09:28:29,884 [INFO] Resolved Google News URL: https://totalenergies.com/newsroom/electricite-renouvelable-totalenergies-fourni
+2026-06-10 09:28:29,884 [INFO] URL: https://totalenergies.com/newsroom/electricite-renouvelable-totalenergies-fournira-15-twh/?lang=fra
+2026-06-10 09:28:30,995 [INFO] Text length: 10146 chars | source: full
+2026-06-10 09:28:30,995 [INFO] Text preview: Electricité renouvelable : TotalEnergies fournira 1,5 TWh à Accueil Communiqués de presse Electricité renouvelable : TotalEnergies fournira 1,5 TWh à STMicroelectronics en France sur une période de 15...
+2026-06-10 09:28:32,067 [INFO] LLM HTTP 200 for: Electricité renouvelable : TotalEnergies fournira 1,5 TWh à 
+2026-06-10 09:28:32,067 [INFO] LLM extracted 1 deals (1 signed) | Electricité renouvelable : TotalEnergies fournira 
+2026-06-10 09:28:32,069 [INFO] UPDATE: STMicroelectronics / TotalEnergies (France, 75 MW) — canonical ID: 35
+2026-06-10 09:28:37,077 [INFO] ------- Processing article n. 10: Acciaierie Venete firma PPA off site con Edison Next su impianto da 6,7 MW - pv  -------
+2026-06-10 09:28:37,857 [INFO] Resolved Google News URL: https://www.pv-magazine.it/2025/01/22/acciaierie-venete-firma-ppa-off-site-con-e
+2026-06-10 09:28:37,857 [INFO] URL: https://www.pv-magazine.it/2025/01/22/acciaierie-venete-firma-ppa-off-site-con-edison-next-su-impianto-da-67-mw/
+2026-06-10 09:28:38,941 [INFO] Text length: 4674 chars | source: full
+2026-06-10 09:28:38,941 [INFO] Text preview: Acciaierie Venete firma PPA off site con Edison Next su impianto da 6,7 MW - pv magazine Italia Pubblicità Pubblicità Pubblicità Pubblicità Mercati & Politica Acciaierie Venete firma PPA off site con ...
+2026-06-10 09:28:40,076 [INFO] LLM HTTP 200 for: Acciaierie Venete firma PPA off site con Edison Next su impi
+2026-06-10 09:28:40,076 [INFO] LLM extracted 1 deals (1 signed) | Acciaierie Venete firma PPA off site con Edison Ne
+2026-06-10 09:28:40,077 [INFO] NEW: Acciaierie Venete / Edison Next (Italy, 6.7 MW)
+2026-06-10 09:28:45,078 [INFO] Run complete. New deals: 11, Updates: 0
+2026-06-10 09:28:45,080 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (43 deals)
