@@ -1,0 +1,237 @@
+2026-06-10 10:38:37,810 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 10:38:37,811 [INFO] Searching from 2025-03-22 to 2025-03-28 with  loockback days
+2026-06-10 10:38:37,811 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 10:38:38,160 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-03-22%20before%3A2025-03-28&hl=en&gl=US&ceid=US:en: 7 results
+2026-06-10 10:38:40,562 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-03-22%20before%3A2025-03-28&hl=en&gl=US&ceid=US:en: 19 results
+2026-06-10 10:38:42,824 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-03-22%20before%3A2025-03-28&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 10:38:45,083 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-03-22%20before%3A2025-03-28&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-10 10:38:47,370 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-03-22%20before%3A2025-03-28&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-06-10 10:38:49,631 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-03-22%20before%3A2025-03-28&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-10 10:38:51,898 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-03-22%20before%3A2025-03-28&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-06-10 10:38:54,141 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-03-22%20before%3A2025-03-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 10:38:56,462 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-03-22%20before%3A2025-03-28&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-06-10 10:38:58,463 [INFO] Total raw articles collected: 30
+2026-06-10 10:38:58,586 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 10:39:00,276 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 10:39:01,277 [INFO] Unique unseen articles: 25
+2026-06-10 10:39:01,277 [INFO] ------- Processing article n. 0: Europe reports decline in number of PPAs signed and power capacity contracted in -------
+2026-06-10 10:39:02,255 [INFO] Resolved Google News URL: https://www.pv-tech.org/europe-decline-number-ppas-signed-power-capacity-contrac
+2026-06-10 10:39:02,256 [INFO] URL: https://www.pv-tech.org/europe-decline-number-ppas-signed-power-capacity-contracted-february/
+2026-06-10 10:39:03,135 [INFO] Text length: 8823 chars | source: full
+2026-06-10 10:39:03,135 [INFO] Text preview: Europe reports decline in number of PPAs signed in February - PV Tech Skip to content News Europe reports decline in number of PPAs signed and power capacity contracted in February By JP Casey March 2...
+2026-06-10 10:39:04,092 [INFO] LLM HTTP 200 for: Europe reports decline in number of PPAs signed and power ca
+2026-06-10 10:39:04,092 [INFO] LLM extracted 1 deals (1 signed) | Europe reports decline in number of PPAs signed an
+2026-06-10 10:39:04,094 [INFO] NEW: None / Innova (United Kingdom, 15 MW)
+2026-06-10 10:39:09,096 [INFO] ------- Processing article n. 1: EDP surpasses the milestone of 15 GW of contracted capacity in PPA worldwide - E -------
+2026-06-10 10:39:10,020 [INFO] Resolved Google News URL: https://edp.com/en/media/news/edp-surpasses-milestone-15-gw-contracted-capacity-
+2026-06-10 10:39:10,020 [INFO] URL: https://edp.com/en/media/news/edp-surpasses-milestone-15-gw-contracted-capacity-ppa-worldwide
+2026-06-10 10:39:10,911 [INFO] Text length: 4950 chars | source: full
+2026-06-10 10:39:10,911 [INFO] Text preview: EDP surpasses the milestone of 15 GW of contracted capacity in PPA worldwide | edp Skip to main content What are you looking for? I'm listening... EDP surpasses the milestone of 15 GW of contracted ca...
+2026-06-10 10:39:13,358 [INFO] LLM HTTP 200 for: EDP surpasses the milestone of 15 GW of contracted capacity 
+2026-06-10 10:39:13,358 [INFO] LLM extracted 4 deals (4 signed) | EDP surpasses the milestone of 15 GW of contracted
+2026-06-10 10:39:13,360 [INFO] Not a European deal — skipping: Microsoft / EDP (Singapore, 200 MW)
+2026-06-10 10:39:13,360 [INFO] Not a European deal — skipping: Amazon / EDP (Japan, 44 MW)
+2026-06-10 10:39:13,360 [INFO] NEW: major technology company / EDP (Europe, 184 MW)
+2026-06-10 10:39:18,361 [INFO] Not a European deal — skipping: Salt River Project / EDP (United States, 200 MW)
+2026-06-10 10:39:18,362 [INFO] ------- Processing article n. 2: European PPA prices down in February amid lower deal volumes, says Pexapark - pv -------
+2026-06-10 10:39:19,336 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/03/25/european-ppa-prices-down-in-february-amid
+2026-06-10 10:39:19,336 [INFO] URL: https://www.pv-magazine.com/2025/03/25/european-ppa-prices-down-in-february-amid-lower-deal-volumes-says-pexapark/
+2026-06-10 10:39:21,504 [INFO] Text length: 9700 chars | source: full
+2026-06-10 10:39:21,504 [INFO] Text preview: European PPA prices down in February amid lower deal volumes, says Pexapark - pv magazine Global Advertisement Advertisement Advertisement Advertisement Applications & Installations European PPA price...
+2026-06-10 10:39:24,224 [INFO] LLM HTTP 200 for: European PPA prices down in February amid lower deal volumes
+2026-06-10 10:39:24,224 [INFO] LLM extracted 4 deals (4 signed) | European PPA prices down in February amid lower de
+2026-06-10 10:39:24,226 [INFO] NEW: Dŵr Cymru (Welsh Water) / Innova (United Kingdom, 15 MW)
+2026-06-10 10:39:29,228 [INFO] NEW: X-Elio, Energize Program / X-Elio (Spain, 130 MW)
+2026-06-10 10:39:34,230 [INFO] NEW: BNZ, Kimberly-Clark / BNZ (Spain, 98 MW)
+2026-06-10 10:39:39,232 [INFO] UPDATE: Tesla / Zelestra (Spain, 57 MW) — canonical ID: 70
+2026-06-10 10:39:44,234 [INFO] ------- Processing article n. 6: Data centre power costs, the PPA market and a move to 24/7 power matching - capa -------
+2026-06-10 10:39:45,203 [INFO] Resolved Google News URL: https://capacityglobal.com/market-intelligence/data-centre-power-costs-the-ppa-m
+2026-06-10 10:39:45,203 [INFO] URL: https://capacityglobal.com/market-intelligence/data-centre-power-costs-the-ppa-market-and-a-move-to-24-7-power-matching/
+2026-06-10 10:39:45,930 [INFO] Text length: 9269 chars | source: full
+2026-06-10 10:39:45,930 [INFO] Text preview: Data centre power costs, the PPA market and a move to 24/7 power matching - Capacity Data centre power costs, the PPA market and a move to 24/7 power matching 26 March 2025 7 minutes The data centre i...
+2026-06-10 10:39:46,398 [INFO] LLM HTTP 200 for: Data centre power costs, the PPA market and a move to 24/7 p
+2026-06-10 10:39:46,398 [INFO] LLM extracted 0 deals (0 signed) | Data centre power costs, the PPA market and a move
+2026-06-10 10:39:46,400 [INFO] ------- Processing article n. 6: RPower inks first long-term PPA in Romania - reNEWS.BIZ -------
+2026-06-10 10:39:47,142 [INFO] Resolved Google News URL: https://renews.biz/99568/rpower-inks-first-long-term-ppa-in-romania/
+2026-06-10 10:39:47,142 [INFO] URL: https://renews.biz/99568/rpower-inks-first-long-term-ppa-in-romania/
+2026-06-10 10:39:48,679 [INFO] Text length: 3783 chars | source: full
+2026-06-10 10:39:48,679 [INFO] Text preview: RPower inks first long-term PPA in Romania - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories ...
+2026-06-10 10:39:49,928 [INFO] LLM HTTP 200 for: RPower inks first long-term PPA in Romania - reNEWS.BIZ
+2026-06-10 10:39:49,929 [INFO] LLM extracted 1 deals (1 signed) | RPower inks first long-term PPA in Romania - reNEW
+2026-06-10 10:39:49,931 [INFO] NEW: local trading company / RPower (Romania, None MW)
+2026-06-10 10:39:54,932 [INFO] ------- Processing article n. 7: Virtual power purchase agreements (VPPAs) - PwC Nederland -------
+2026-06-10 10:39:55,800 [INFO] Resolved Google News URL: https://www.pwc.nl/en/services/audit-assurance/pwc-accountancy-insights/accounti
+2026-06-10 10:39:55,800 [INFO] URL: https://www.pwc.nl/en/services/audit-assurance/pwc-accountancy-insights/accounting-and-reporting/virtual-power-purchase-agreements-vppas.html
+2026-06-10 10:39:56,343 [INFO] Text length: 18752 chars | source: full
+2026-06-10 10:39:56,343 [INFO] Text preview: Virtual power purchase agreements (VPPAs) - PwC Menu Services Services Menu Services Artificial intelligence Menu Services Audit & Assurance Menu Services Cloud Menu Services Consulting Menu Services ...
+2026-06-10 10:39:57,278 [INFO] LLM HTTP 200 for: Virtual power purchase agreements (VPPAs) - PwC Nederland
+2026-06-10 10:39:57,279 [INFO] LLM extracted 1 deals (0 signed) | Virtual power purchase agreements (VPPAs) - PwC Ne
+2026-06-10 10:39:57,281 [INFO] Not a signed deal — skipping: Virtual power purchase agreements (VPPAs) - PwC Nederland
+2026-06-10 10:39:57,281 [INFO] ------- Processing article n. 7: European Energy completes first Australian solar PV plant and begins constructio -------
+2026-06-10 10:39:58,124 [INFO] Resolved Google News URL: https://www.pv-tech.org/european-energy-completes-first-australian-solar-pv-plan
+2026-06-10 10:39:58,124 [INFO] URL: https://www.pv-tech.org/european-energy-completes-first-australian-solar-pv-plant-and-begins-construction-on-106mw-site/
+2026-06-10 10:39:59,032 [INFO] Text length: 7977 chars | source: full
+2026-06-10 10:39:59,032 [INFO] Text preview: European Energy completes first Australian solar PV plant - PV Tech Skip to content News European Energy completes first Australian solar PV plant and begins construction on 106MW site By George Heyne...
+2026-06-10 10:40:00,030 [INFO] LLM HTTP 200 for: European Energy completes first Australian solar PV plant an
+2026-06-10 10:40:00,031 [INFO] LLM extracted 1 deals (1 signed) | European Energy completes first Australian solar P
+2026-06-10 10:40:00,032 [INFO] Not a European deal — skipping: Rio Tinto / European Energy (Australia, 1100 MW)
+2026-06-10 10:40:00,032 [INFO] ------- Processing article n. 7: Europe’s Green Dreams Turn into a Nightmare - Center for European Policy Analysi -------
+2026-06-10 10:40:00,985 [INFO] Resolved Google News URL: https://cepa.org/article/europes-green-dreams-turn-into-a-nightmare/
+2026-06-10 10:40:00,985 [INFO] URL: https://cepa.org/article/europes-green-dreams-turn-into-a-nightmare/
+2026-06-10 10:40:01,124 [INFO] Full text skipped (status 429): https://cepa.org/article/europes-green-dreams-turn-into-a-nightmare/
+2026-06-10 10:40:01,124 [INFO] Text length: 189 chars | source: fallback
+2026-06-10 10:40:01,124 [INFO] Text preview: Europe’s Green Dreams Turn into a Nightmare - Center for European Policy Analysis (CEPA)
+
+Europe’s Green Dreams Turn into a Nightmare &nbsp;&nbsp; Center for European Policy Analysis (CEPA)...
+2026-06-10 10:40:01,934 [INFO] LLM HTTP 200 for: Europe’s Green Dreams Turn into a Nightmare - Center for Eur
+2026-06-10 10:40:01,934 [INFO] LLM extracted 1 deals (0 signed) | Europe’s Green Dreams Turn into a Nightmare - Cent
+2026-06-10 10:40:01,936 [INFO] Not a signed deal — skipping: Europe’s Green Dreams Turn into a Nightmare - Center for Eur
+2026-06-10 10:40:01,936 [INFO] ------- Processing article n. 7: Solar power to energize European football, UEFA teaming up with SolarPower Europ -------
+2026-06-10 10:40:02,716 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/solar-power-to-energize-european-football-uefa
+2026-06-10 10:40:02,716 [INFO] URL: https://balkangreenenergynews.com/solar-power-to-energize-european-football-uefa-teaming-up-with-solarpower-europe/
+2026-06-10 10:40:03,933 [INFO] Text length: 7006 chars | source: full
+2026-06-10 10:40:03,934 [INFO] Text preview: Solar power to energize European football, UEFA teaming up with SolarPower Europe Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery sys...
+2026-06-10 10:40:05,637 [INFO] LLM HTTP 200 for: Solar power to energize European football, UEFA teaming up w
+2026-06-10 10:40:05,637 [INFO] LLM extracted 2 deals (2 signed) | Solar power to energize European football, UEFA te
+2026-06-10 10:40:05,639 [INFO] NEW: Borussia Dortmund / JA Solar, Enerjisa Enerji (Germany, 4.2 MW)
+2026-06-10 10:40:10,640 [INFO] NEW: Galatasaray / Enerjisa Enerji (Turkey, 4.2 MW)
+2026-06-10 10:40:15,642 [INFO] ------- Processing article n. 9: Commodity markets in 2025: surging volatility storm - BNP Paribas CIB -------
+2026-06-10 10:40:16,559 [INFO] Resolved Google News URL: https://globalmarkets.cib.bnpparibas/commodity-markets-energy-markets-2025/
+2026-06-10 10:40:16,559 [INFO] URL: https://globalmarkets.cib.bnpparibas/commodity-markets-energy-markets-2025/
+2026-06-10 10:40:28,864 [INFO] Full text fetch failed (HTTPSConnectionPool(host='globalmarkets.cib.bnpparibas', port=443): Read timed out. (read timeout=12)): https://globalmarkets.cib.bnpparibas/commodity-markets-energy-markets-2025/
+2026-06-10 10:40:28,864 [INFO] Text length: 151 chars | source: fallback
+2026-06-10 10:40:28,864 [INFO] Text preview: Commodity markets in 2025: surging volatility storm - BNP Paribas CIB
+
+Commodity markets in 2025: surging volatility storm &nbsp;&nbsp; BNP Paribas CIB...
+2026-06-10 10:40:29,695 [INFO] LLM HTTP 200 for: Commodity markets in 2025: surging volatility storm - BNP Pa
+2026-06-10 10:40:29,695 [INFO] LLM extracted 1 deals (0 signed) | Commodity markets in 2025: surging volatility stor
+2026-06-10 10:40:29,697 [INFO] Not a signed deal — skipping: Commodity markets in 2025: surging volatility storm - BNP Pa
+2026-06-10 10:40:29,697 [INFO] ------- Processing article n. 9: Masdar to Acquire 49.99% Stake in Four Solar Projects in Spain - Mercom Capital  -------
+2026-06-10 10:40:30,667 [INFO] Resolved Google News URL: https://mercomcapital.com/masdar-to-acquire-49-99-stake-in-four-solar-projects-i
+2026-06-10 10:40:30,668 [INFO] URL: https://mercomcapital.com/masdar-to-acquire-49-99-stake-in-four-solar-projects-in-spain/
+2026-06-10 10:40:31,701 [INFO] Text length: 3581 chars | source: full
+2026-06-10 10:40:31,701 [INFO] Text preview: Masdar to Acquire 49.99% Stake in Four Solar Projects in Spain - Mercom Capital Group Masdar to Acquire 49.99% Stake in Four Solar Projects in Spain Projects have a combined capacity of 446 MW Home So...
+2026-06-10 10:40:32,599 [INFO] LLM HTTP 200 for: Masdar to Acquire 49.99% Stake in Four Solar Projects in Spa
+2026-06-10 10:40:32,599 [INFO] LLM extracted 1 deals (0 signed) | Masdar to Acquire 49.99% Stake in Four Solar Proje
+2026-06-10 10:40:32,601 [INFO] Not a signed deal — skipping: Masdar to Acquire 49.99% Stake in Four Solar Projects in Spa
+2026-06-10 10:40:32,601 [INFO] ------- Processing article n. 9: Witznitz Energy Park, Germany - NS Energy -------
+2026-06-10 10:40:33,517 [INFO] Resolved Google News URL: https://www.nsenergybusiness.com/projects/witznitz-energy-park-germany/
+2026-06-10 10:40:33,517 [INFO] URL: https://www.nsenergybusiness.com/projects/witznitz-energy-park-germany/
+2026-06-10 10:40:33,751 [INFO] Full text skipped (status 403): https://www.nsenergybusiness.com/projects/witznitz-energy-park-germany/
+2026-06-10 10:40:33,751 [INFO] Text length: 95 chars | source: fallback
+2026-06-10 10:40:33,751 [INFO] Text preview: Witznitz Energy Park, Germany - NS Energy
+
+Witznitz Energy Park, Germany &nbsp;&nbsp; NS Energy...
+2026-06-10 10:40:34,574 [INFO] LLM HTTP 200 for: Witznitz Energy Park, Germany - NS Energy
+2026-06-10 10:40:34,574 [INFO] LLM extracted 1 deals (0 signed) | Witznitz Energy Park, Germany - NS Energy
+2026-06-10 10:40:34,577 [INFO] Not a signed deal — skipping: Witznitz Energy Park, Germany - NS Energy
+2026-06-10 10:40:34,577 [INFO] ------- Processing article n. 9: SolarPower Europe and UEFA collaborate on sustainable energy in football - UEFA. -------
+2026-06-10 10:40:35,385 [INFO] Resolved Google News URL: https://www.uefa.com/news-media/news/0297-1d607ce8ed10-3f24f08b418a-1000--solarp
+2026-06-10 10:40:35,385 [INFO] URL: https://www.uefa.com/news-media/news/0297-1d607ce8ed10-3f24f08b418a-1000--solarpower-europe-and-uefa-collaborate-on-sustainable-ene/
+2026-06-10 10:40:47,501 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.uefa.com', port=443): Read timed out. (read timeout=12)): https://www.uefa.com/news-media/news/0297-1d607ce8ed10-3f24f08b418a-1000--solarp
+2026-06-10 10:40:47,501 [INFO] Text length: 179 chars | source: fallback
+2026-06-10 10:40:47,501 [INFO] Text preview: SolarPower Europe and UEFA collaborate on sustainable energy in football - UEFA.com
+
+SolarPower Europe and UEFA collaborate on sustainable energy in football &nbsp;&nbsp; UEFA.com...
+2026-06-10 10:40:48,297 [INFO] LLM HTTP 200 for: SolarPower Europe and UEFA collaborate on sustainable energy
+2026-06-10 10:40:48,297 [INFO] LLM extracted 1 deals (0 signed) | SolarPower Europe and UEFA collaborate on sustaina
+2026-06-10 10:40:48,298 [INFO] Not a signed deal — skipping: SolarPower Europe and UEFA collaborate on sustainable energy
+2026-06-10 10:40:48,298 [INFO] ------- Processing article n. 9: More sustainability and more investments: what European industry can expect from -------
+2026-06-10 10:40:49,191 [INFO] Resolved Google News URL: https://www.stibbe.com/publications-and-insights/more-sustainability-and-more-in
+2026-06-10 10:40:49,191 [INFO] URL: https://www.stibbe.com/publications-and-insights/more-sustainability-and-more-investments-what-european-industry-can
+2026-06-10 10:40:50,019 [INFO] Text length: 16016 chars | source: full
+2026-06-10 10:40:50,020 [INFO] Text preview: More sustainability and more investments: what European industry can expect from the Clean Industrial Deal | Stibbe Skip to main content Back English Nederlands M More sustainability and more investme...
+2026-06-10 10:40:50,888 [INFO] LLM HTTP 200 for: More sustainability and more investments: what European indu
+2026-06-10 10:40:50,889 [INFO] LLM extracted 1 deals (0 signed) | More sustainability and more investments: what Eur
+2026-06-10 10:40:50,890 [INFO] Not a signed deal — skipping: More sustainability and more investments: what European indu
+2026-06-10 10:40:50,890 [INFO] ------- Processing article n. 9: LG Energy Solution Secures Grid-scale ESS Supply Agreement in Europe with Poland -------
+2026-06-10 10:40:51,813 [INFO] Resolved Google News URL: https://www.lgcorp.com/media/release/28777
+2026-06-10 10:40:51,813 [INFO] URL: https://www.lgcorp.com/media/release/28777
+2026-06-10 10:40:53,152 [INFO] Text length: 3590 chars | source: full
+2026-06-10 10:40:53,152 [INFO] Text preview: Press Release | Media | LG shortcut contents LG Energy Solution LG Energy Solution Secures Grid-scale ESS Supply Agreement in Europe with Poland’s PGE 2025.03.25 Copy URL to share Share in Facebook Sh...
+2026-06-10 10:40:54,309 [INFO] LLM HTTP 200 for: LG Energy Solution Secures Grid-scale ESS Supply Agreement i
+2026-06-10 10:40:54,309 [INFO] LLM extracted 1 deals (1 signed) | LG Energy Solution Secures Grid-scale ESS Supply A
+2026-06-10 10:40:54,311 [INFO] NEW: PGE Polska Grupa Energetyczna / LG Energy Solution (Poland, None MW)
+2026-06-10 10:40:59,312 [INFO] ------- Processing article n. 10: Kimberly-Clark Announces Green Initiatives at German Site - Nonwovens Industry - -------
+2026-06-10 10:41:00,030 [INFO] Resolved Google News URL: https://www.nonwovens-industry.com/breaking-news/kimberly-clark-announces-green-
+2026-06-10 10:41:00,030 [INFO] URL: https://www.nonwovens-industry.com/breaking-news/kimberly-clark-announces-green-initiatives-at-german-site/
+2026-06-10 10:41:00,481 [INFO] Text length: 5413 chars | source: full
+2026-06-10 10:41:00,482 [INFO] Text preview: Kimberly-Clark Announces Green Initiatives at German Site - Nonwovens Industry Continue to Nonwovens Industry Nonwovens News Kimberly-Clark Announces Green Initiatives at German Site First tissue manu...
+2026-06-10 10:41:01,849 [INFO] LLM HTTP 200 for: Kimberly-Clark Announces Green Initiatives at German Site - 
+2026-06-10 10:41:01,849 [INFO] LLM extracted 1 deals (1 signed) | Kimberly-Clark Announces Green Initiatives at Germ
+2026-06-10 10:41:01,851 [INFO] NEW: Kimberly-Clark / portfolio of European power purchase agreements (Italy, Spain, None MW)
+2026-06-10 10:41:06,852 [INFO] ------- Processing article n. 11: Thyssenkrupp Steel pauses German green hydrogen tender on high prices - EUROMETA -------
+2026-06-10 10:41:07,598 [INFO] Resolved Google News URL: https://eurometal.net/thyssenkrupp-steel-pauses-german-green-hydrogen-tender-on-
+2026-06-10 10:41:07,598 [INFO] URL: https://eurometal.net/thyssenkrupp-steel-pauses-german-green-hydrogen-tender-on-high-prices/
+2026-06-10 10:41:09,272 [INFO] Text length: 6054 chars | source: full
+2026-06-10 10:41:09,272 [INFO] Text preview: Thyssenkrupp Steel pauses German green hydrogen tender on high prices - EUROMETAL Skip to content German steel producer Thyssenkrupp has put its tender to buy green hydrogen for its Duisburg direct re...
+2026-06-10 10:41:10,096 [INFO] LLM HTTP 200 for: Thyssenkrupp Steel pauses German green hydrogen tender on hi
+2026-06-10 10:41:10,096 [INFO] LLM extracted 1 deals (0 signed) | Thyssenkrupp Steel pauses German green hydrogen te
+2026-06-10 10:41:10,097 [INFO] Not a signed deal — skipping: Thyssenkrupp Steel pauses German green hydrogen tender on hi
+2026-06-10 10:41:10,097 [INFO] ------- Processing article n. 11: Perfect 10: Export Finance Deals of the Year - TXF -------
+2026-06-10 10:41:11,038 [INFO] Resolved Google News URL: https://www.txfnews.com/articles/7763/perfect-10-export-finance-deals-of-the-yea
+2026-06-10 10:41:11,038 [INFO] URL: https://www.txfnews.com/articles/7763/perfect-10-export-finance-deals-of-the-year
+2026-06-10 10:41:11,652 [INFO] Text length: 9326 chars | source: full
+2026-06-10 10:41:11,653 [INFO] Text preview: Perfect 10: Export Finance Deals of the Year - TXF In-depth Analysis, interviews, roundtables, reports and more on the topics that matter to you. Perspective 25 March 2025 Perfect 10: Export Finance D...
+2026-06-10 10:41:12,594 [INFO] LLM HTTP 200 for: Perfect 10: Export Finance Deals of the Year - TXF
+2026-06-10 10:41:12,594 [INFO] LLM extracted 1 deals (0 signed) | Perfect 10: Export Finance Deals of the Year - TXF
+2026-06-10 10:41:12,596 [INFO] Not a signed deal — skipping: Perfect 10: Export Finance Deals of the Year - TXF
+2026-06-10 10:41:12,596 [INFO] ------- Processing article n. 11: INSIDER ACCESS:Data centre power costs, the PPA market and a move to 24/7 power  -------
+2026-06-10 10:41:13,586 [INFO] Resolved Google News URL: https://capacityglobal.com/news/insider-accessdata-centre-power-costs-the-ppa-ma
+2026-06-10 10:41:13,586 [INFO] URL: https://capacityglobal.com/news/insider-accessdata-centre-power-costs-the-ppa-market-and-a-move-to-24-7-power-matching/
+2026-06-10 10:41:13,752 [INFO] Text length: 9320 chars | source: full
+2026-06-10 10:41:13,752 [INFO] Text preview: INSIDER ACCESS:Data centre power costs, the PPA market and a move to 24/7 power matching - Capacity Investment & Finance INSIDER ACCESS:Data centre power costs, the PPA market and a move to 24/7 power...
+2026-06-10 10:41:14,179 [INFO] LLM HTTP 200 for: INSIDER ACCESS:Data centre power costs, the PPA market and a
+2026-06-10 10:41:14,179 [INFO] LLM extracted 0 deals (0 signed) | INSIDER ACCESS:Data centre power costs, the PPA ma
+2026-06-10 10:41:14,182 [INFO] ------- Processing article n. 11: Malta and Carnival Corporation Sign Shore Power Agreement - Crew Center -------
+2026-06-10 10:41:15,128 [INFO] Resolved Google News URL: http://crew-center.com/malta-and-carnival-corporation-sign-shore-power-agreement
+2026-06-10 10:41:15,128 [INFO] URL: http://crew-center.com/malta-and-carnival-corporation-sign-shore-power-agreement
+2026-06-10 10:41:15,837 [INFO] Text length: 2785 chars | source: full
+2026-06-10 10:41:15,837 [INFO] Text preview: Malta and Carnival Corporation Sign Shore Power Agreement | Crew Center Skip to main content Malta and Carnival Corporation Sign Shore Power Agreement 27  March,  2025 Malta has taken a major step tow...
+2026-06-10 10:41:16,941 [INFO] LLM HTTP 200 for: Malta and Carnival Corporation Sign Shore Power Agreement - 
+2026-06-10 10:41:16,941 [INFO] LLM extracted 1 deals (1 signed) | Malta and Carnival Corporation Sign Shore Power Ag
+2026-06-10 10:41:16,943 [INFO] NEW: Carnival UK, P&O Cruises / Malta (Malta, None MW)
+2026-06-10 10:41:21,945 [INFO] ------- Processing article n. 12: Slovakia and the Ukraine Gas Deal - orfonline.org -------
+2026-06-10 10:41:22,851 [INFO] Resolved Google News URL: https://www.orfonline.org/expert-speak/slovakia-and-the-ukraine-gas-deal
+2026-06-10 10:41:22,851 [INFO] URL: https://www.orfonline.org/expert-speak/slovakia-and-the-ukraine-gas-deal
+2026-06-10 10:41:23,457 [INFO] Text length: 9743 chars | source: full
+2026-06-10 10:41:23,457 [INFO] Text preview: Slovakia and the Ukraine Gas Deal Home Research Essay Series Expert Speak Slovakia and the Ukraine Gas Deal Authors : Abhishek Khajuria | Rajoli Siddharth Jayaprakash Expert Speak Raisina Debates Publ...
+2026-06-10 10:41:24,460 [INFO] LLM HTTP 200 for: Slovakia and the Ukraine Gas Deal - orfonline.org
+2026-06-10 10:41:24,461 [INFO] LLM extracted 1 deals (0 signed) | Slovakia and the Ukraine Gas Deal - orfonline.org
+2026-06-10 10:41:24,462 [INFO] Not a signed deal — skipping: Slovakia and the Ukraine Gas Deal - orfonline.org
+2026-06-10 10:41:24,462 [INFO] ------- Processing article n. 12: Esta es la mayor planta de autoconsumo sobre cubierta de España - Energías Renov -------
+2026-06-10 10:41:25,289 [INFO] Resolved Google News URL: https://www.energias-renovables.com/autoconsumo/esta-es-la-mayor-planta-de-autoc
+2026-06-10 10:41:25,289 [INFO] URL: https://www.energias-renovables.com/autoconsumo/esta-es-la-mayor-planta-de-autoconsumo-20250326
+2026-06-10 10:41:25,827 [INFO] Text length: 6318 chars | source: full
+2026-06-10 10:41:25,827 [INFO] Text preview: Esta es la mayor planta de autoconsumo sobre cubierta de España autoconsumo Esta es la mayor planta de autoconsumo sobre cubierta de España Miércoles, 26 de marzo de 2025 0 Celia García-Ceca Con una p...
+2026-06-10 10:41:26,842 [INFO] LLM HTTP 200 for: Esta es la mayor planta de autoconsumo sobre cubierta de Esp
+2026-06-10 10:41:26,842 [INFO] LLM extracted 1 deals (1 signed) | Esta es la mayor planta de autoconsumo sobre cubie
+2026-06-10 10:41:26,844 [INFO] NEW: Stellantis / Prosolia Energy (Spain, 18.3 MW)
+2026-06-10 10:41:31,845 [INFO] ------- Processing article n. 13: Ppa in Europa: più contratti con volumi più bassi nel 2024 - la Repubblica -------
+2026-06-10 10:41:32,780 [INFO] Resolved Google News URL: https://www.repubblica.it/economia/rapporti/energitalia/trasformazione/2025/03/2
+2026-06-10 10:41:32,780 [INFO] URL: https://www.repubblica.it/economia/rapporti/energitalia/trasformazione/2025/03/27/news/ppa_in_europa_piu_contratti_con_volumi_piu_bassi_nel_2024-424090123/
+2026-06-10 10:41:33,851 [INFO] Text length: 7787 chars | source: full
+2026-06-10 10:41:33,852 [INFO] Text preview: Ppa in Europa: più contratti con volumi più bassi nel 2024 - la Repubblica Abbonati Scarica l'app Menu Cerca Notifiche Abbonati Abbonati Cerca articoli o argomenti su Repubblica Cerca articoli o argom...
+2026-06-10 10:41:34,509 [INFO] LLM HTTP 200 for: Ppa in Europa: più contratti con volumi più bassi nel 2024 -
+2026-06-10 10:41:34,509 [INFO] LLM extracted 0 deals (0 signed) | Ppa in Europa: più contratti con volumi più bassi 
+2026-06-10 10:41:34,511 [INFO] ------- Processing article n. 13: Pierwszy polski samorząd rozważa umowę PPA na zieloną energię - Gramwzielone.pl -------
+2026-06-10 10:41:35,496 [INFO] Resolved Google News URL: https://www.gramwzielone.pl/bez-kategorii/20307956/pierwszy-polski-samorzad-rozw
+2026-06-10 10:41:35,496 [INFO] URL: https://www.gramwzielone.pl/bez-kategorii/20307956/pierwszy-polski-samorzad-rozwaza-podpisanie-umowy-ppa
+2026-06-10 10:41:36,822 [INFO] Text length: 21164 chars | source: full
+2026-06-10 10:41:36,823 [INFO] Text preview: Pierwszy polski samorząd rozważa umowę PPA na zieloną energię - Gramwzielone.pl REKLAMA Newsletter Aktualności Trendy Energia słoneczna Energia wiatrowa Pompy ciepła Auto ekologiczne Dom energooszczęd...
+2026-06-10 10:41:37,670 [INFO] LLM HTTP 200 for: Pierwszy polski samorząd rozważa umowę PPA na zieloną energi
+2026-06-10 10:41:37,671 [INFO] LLM extracted 1 deals (0 signed) | Pierwszy polski samorząd rozważa umowę PPA na ziel
+2026-06-10 10:41:37,672 [INFO] Not a signed deal — skipping: Pierwszy polski samorząd rozważa umowę PPA na zieloną energi
+2026-06-10 10:41:37,672 [INFO] ------- Processing article n. 13: EDP ultrapassa marco de 15 GW de capacidade contratada em PPA a nível global - E -------
+2026-06-10 10:41:38,597 [INFO] Resolved Google News URL: https://edp.com/pt/media/noticias/edp-ultrapassa-marco-de-15-gw-de-capacidade-co
+2026-06-10 10:41:38,597 [INFO] URL: https://edp.com/pt/media/noticias/edp-ultrapassa-marco-de-15-gw-de-capacidade-contratada-em-ppa-nivel-global
+2026-06-10 10:41:39,748 [INFO] Text length: 5129 chars | source: full
+2026-06-10 10:41:39,748 [INFO] Text preview: EDP ultrapassa marco de 15 GW de capacidade contratada em PPA a nível global | edp Ir para o conteúdo What are you looking for? I'm listening... EDP ultrapassa marco de 15 GW de capacidade contratada ...
+2026-06-10 10:41:42,222 [INFO] LLM HTTP 200 for: EDP ultrapassa marco de 15 GW de capacidade contratada em PP
+2026-06-10 10:41:42,222 [INFO] LLM extracted 4 deals (4 signed) | EDP ultrapassa marco de 15 GW de capacidade contra
+2026-06-10 10:41:42,224 [INFO] Not a European deal — skipping: Microsoft / EDP (Singapore, 200 MW)
+2026-06-10 10:41:42,224 [INFO] Not a European deal — skipping: Amazon / EDP (Japan, 44 MW)
+2026-06-10 10:41:42,224 [INFO] NEW: large technology company / EDP (Portugal, 184 MW)
+2026-06-10 10:41:47,225 [INFO] Not a European deal — skipping: Salt River Project / EDP (United States, 200 MW)
+2026-06-10 10:41:47,225 [INFO] Run complete. New deals: 14, Updates: 0
+2026-06-10 10:41:47,227 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (120 deals)
