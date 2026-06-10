@@ -1,0 +1,234 @@
+2026-06-10 10:23:39,024 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 10:23:39,024 [INFO] Searching from 2025-02-08 to 2025-02-14 with  loockback days
+2026-06-10 10:23:39,024 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 10:23:39,411 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-02-08%20before%3A2025-02-14&hl=en&gl=US&ceid=US:en: 8 results
+2026-06-10 10:23:41,805 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-02-08%20before%3A2025-02-14&hl=en&gl=US&ceid=US:en: 18 results
+2026-06-10 10:23:44,062 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-02-08%20before%3A2025-02-14&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 10:23:46,377 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-02-08%20before%3A2025-02-14&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-06-10 10:23:48,668 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-02-08%20before%3A2025-02-14&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-06-10 10:23:50,946 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-02-08%20before%3A2025-02-14&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-10 10:23:53,183 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-02-08%20before%3A2025-02-14&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-06-10 10:23:55,424 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-02-08%20before%3A2025-02-14&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 10:23:57,775 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-02-08%20before%3A2025-02-14&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 10:23:59,775 [INFO] Total raw articles collected: 30
+2026-06-10 10:23:59,891 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 10:24:01,651 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 10:24:02,652 [INFO] Unique unseen articles: 24
+2026-06-10 10:24:02,652 [INFO] ------- Processing article n. 0: Power Purchase Agreements: A Success Story - ENGIE.com -------
+2026-06-10 10:24:03,566 [INFO] Resolved Google News URL: https://www.engie.com/en/explore/explainer/ppa-behind-the-scenes-of-a-success-st
+2026-06-10 10:24:03,566 [INFO] URL: https://www.engie.com/en/explore/explainer/ppa-behind-the-scenes-of-a-success-story/
+2026-06-10 10:24:03,826 [INFO] Text length: 3719 chars | source: full
+2026-06-10 10:24:03,826 [INFO] Text preview: Power Purchase Agreements: A Success Story - ENGIE PPA behind the scenes of a success story Renewable energies schedule Published on 10 Feb. 2025 In 2024, ENGIE cemented its position as the global lea...
+2026-06-10 10:24:08,781 [INFO] LLM HTTP 200 for: Power Purchase Agreements: A Success Story - ENGIE.com
+2026-06-10 10:24:08,781 [INFO] LLM extracted 3 deals (3 signed) | Power Purchase Agreements: A Success Story - ENGIE
+2026-06-10 10:24:08,783 [INFO] Not a European deal — skipping: Amazon / ENGIE (United States, 473 MW)
+2026-06-10 10:24:08,783 [INFO] Not a European deal — skipping: Google / ENGIE (United States, None MW)
+2026-06-10 10:24:08,783 [INFO] Not a European deal — skipping: Meta / ENGIE (United States, None MW)
+2026-06-10 10:24:08,783 [INFO] ------- Processing article n. 0: Air Liquide signed record volumes of PPAs in 2024, securing over 2,500 GWh of lo -------
+2026-06-10 10:24:09,717 [INFO] Resolved Google News URL: https://www.airliquide.com/group/press-releases-news/2025-02-12/air-liquide-sign
+2026-06-10 10:24:09,717 [INFO] URL: https://www.airliquide.com/group/press-releases-news/2025-02-12/air-liquide-signed-record-volumes-ppas-2024-securing-over-2500-gwh-low-carbon-electricity-and
+2026-06-10 10:24:10,083 [INFO] Text length: 3035 chars | source: full
+2026-06-10 10:24:10,083 [INFO] Text preview: Air Liquide signed record volumes of PPAs in 2024, securing over 2,500 GWh of low-carbon electricity and reducing CO2 emissions by over 1.2 Mt per year | Air Liquide Skip to main content AL € Contact ...
+2026-06-10 10:24:11,300 [INFO] LLM HTTP 200 for: Air Liquide signed record volumes of PPAs in 2024, securing 
+2026-06-10 10:24:11,300 [INFO] LLM extracted 1 deals (1 signed) | Air Liquide signed record volumes of PPAs in 2024,
+2026-06-10 10:24:11,302 [INFO] NEW: Air Liquide / None (China, France, Germany, Spain, Argentina, None MW)
+2026-06-10 10:24:16,303 [INFO] ------- Processing article n. 1: Amazon named top corporate buyer of renewable energy in Europe - Data Center Dyn -------
+2026-06-10 10:24:16,958 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/amazon-named-top-corporate-buyer-of-r
+2026-06-10 10:24:16,958 [INFO] URL: https://www.datacenterdynamics.com/en/news/amazon-named-top-corporate-buyer-of-renewable-energy-in-europe/
+2026-06-10 10:24:18,094 [INFO] Text length: 3246 chars | source: full
+2026-06-10 10:24:18,094 [INFO] Text preview: Amazon named top corporate buyer of renewable energy in Europe - DCD Home News The Energy & Sustainability Channel Amazon named top corporate buyer of renewable energy in Europe Invested in 46 new ren...
+2026-06-10 10:24:19,934 [INFO] LLM HTTP 200 for: Amazon named top corporate buyer of renewable energy in Euro
+2026-06-10 10:24:19,934 [INFO] LLM extracted 2 deals (2 signed) | Amazon named top corporate buyer of renewable ener
+2026-06-10 10:24:19,936 [INFO] NEW: Amazon / Iberdrola (Spain, Portugal, Greece, Italy, Finland, United Kingdom, 9000 MW)
+2026-06-10 10:24:24,938 [INFO] NEW: Amazon / Vortex Energy (Poland, 53 MW)
+2026-06-10 10:24:29,940 [INFO] ------- Processing article n. 3: Amazon named top corporate buyer of renewable energy in Europe - BeBeez Internat -------
+2026-06-10 10:24:30,932 [INFO] Resolved Google News URL: https://bebeez.eu/2025/02/10/amazon-named-top-corporate-buyer-of-renewable-energ
+2026-06-10 10:24:30,932 [INFO] URL: https://bebeez.eu/2025/02/10/amazon-named-top-corporate-buyer-of-renewable-energy-in-europe/
+2026-06-10 10:24:31,869 [INFO] Text length: 6155 chars | source: full
+2026-06-10 10:24:31,869 [INFO] Text preview: Amazon named top corporate buyer of renewable energy in Europe – BeBeez International No Result View All Result Private Data Membership options Login COUNTRY ITALY IBERIA FRANCE UK&IRELAND BENELUX DAC...
+2026-06-10 10:24:34,217 [INFO] LLM HTTP 200 for: Amazon named top corporate buyer of renewable energy in Euro
+2026-06-10 10:24:34,217 [INFO] LLM extracted 3 deals (3 signed) | Amazon named top corporate buyer of renewable ener
+2026-06-10 10:24:34,220 [INFO] NEW: Amazon / Iberdrola (Portugal, None MW)
+2026-06-10 10:24:39,221 [INFO] UPDATE: Amazon / Iberdrola (Spain, None MW) — canonical ID: 26
+2026-06-10 10:24:44,223 [INFO] UPDATE: Amazon / Vortex Energy (Poland, 53 MW) — canonical ID: 52
+2026-06-10 10:24:49,225 [INFO] ------- Processing article n. 6: As Europe’s solar investment space matures, storage becomes a ‘necessity’ - PV T -------
+2026-06-10 10:24:50,007 [INFO] Resolved Google News URL: https://www.pv-tech.org/as-europes-solar-investment-space-matures-storage-become
+2026-06-10 10:24:50,007 [INFO] URL: https://www.pv-tech.org/as-europes-solar-investment-space-matures-storage-becomes-a-necessity/
+2026-06-10 10:24:50,746 [INFO] Text length: 16437 chars | source: full
+2026-06-10 10:24:50,746 [INFO] Text preview: Europe's solar investment space matures, storage is a 'necessity' - PV Tech Skip to content Premium Features , Editors' Blog , Long Reads As Europe’s solar investment space matures, storage becomes a ...
+2026-06-10 10:24:51,198 [INFO] LLM HTTP 200 for: As Europe’s solar investment space matures, storage becomes 
+2026-06-10 10:24:51,198 [INFO] LLM extracted 0 deals (0 signed) | As Europe’s solar investment space matures, storag
+2026-06-10 10:24:51,199 [INFO] ------- Processing article n. 6: EDP delivers three additional solar energy projects for Microsoft in North Ameri -------
+2026-06-10 10:24:51,967 [INFO] Resolved Google News URL: https://edp.com/en/europe/portugal/media/news/edp-delivers-three-additional-sola
+2026-06-10 10:24:51,967 [INFO] URL: https://edp.com/en/europe/portugal/media/news/edp-delivers-three-additional-solar-energy-projects-microsoft-north
+2026-06-10 10:24:54,074 [INFO] Text length: 4331 chars | source: full
+2026-06-10 10:24:54,074 [INFO] Text preview: EDP delivers three additional solar energy projects for Microsoft in North America | edp Skip to main content What are you looking for? I'm listening... EDP delivers three additional solar energy proj...
+2026-06-10 10:24:55,233 [INFO] LLM HTTP 200 for: EDP delivers three additional solar energy projects for Micr
+2026-06-10 10:24:55,233 [INFO] LLM extracted 1 deals (1 signed) | EDP delivers three additional solar energy project
+2026-06-10 10:24:55,235 [INFO] Not a European deal — skipping: Microsoft / EDP Renewables North America (United States, 389 MW)
+2026-06-10 10:24:55,235 [INFO] ------- Processing article n. 6: World’s leading pharmaceutical, healthcare companies ink PPA within Schneider El -------
+2026-06-10 10:24:56,004 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/worlds-leading-pharmaceutical-healthcare-compa
+2026-06-10 10:24:56,004 [INFO] URL: https://balkangreenenergynews.com/worlds-leading-pharmaceutical-healthcare-companies-ink-ppa-within-schneider-electrics-energize-initiative/
+2026-06-10 10:24:57,673 [INFO] Text length: 7944 chars | source: full
+2026-06-10 10:24:57,673 [INFO] Text preview: World’s leading pharmaceutical, healthcare companies ink PPA within Schneider Electric’s Energize initiative Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to w...
+2026-06-10 10:24:58,931 [INFO] LLM HTTP 200 for: World’s leading pharmaceutical, healthcare companies ink PPA
+2026-06-10 10:24:58,931 [INFO] LLM extracted 1 deals (1 signed) | World’s leading pharmaceutical, healthcare compani
+2026-06-10 10:24:58,933 [INFO] UPDATE: Haleon, GSK, Gilead Sciences, Thermo Fisher Scientific / X-ELIO (Spain, None MW) — canonical ID: 38
+2026-06-10 10:25:03,934 [INFO] ------- Processing article n. 7: Do PPAs have a future in the data center sector? - BeBeez International -------
+2026-06-10 10:25:04,760 [INFO] Resolved Google News URL: https://bebeez.eu/2025/02/10/do-ppas-have-a-future-in-the-data-center-sector/
+2026-06-10 10:25:04,760 [INFO] URL: https://bebeez.eu/2025/02/10/do-ppas-have-a-future-in-the-data-center-sector/
+2026-06-10 10:25:05,806 [INFO] Text length: 14749 chars | source: full
+2026-06-10 10:25:05,806 [INFO] Text preview: Do PPAs have a future in the data center sector? – BeBeez International No Result View All Result Private Data Membership options Login COUNTRY ITALY IBERIA FRANCE UK&IRELAND BENELUX DACH SCANDINAVIA&...
+2026-06-10 10:25:08,482 [INFO] LLM HTTP 200 for: Do PPAs have a future in the data center sector? - BeBeez In
+2026-06-10 10:25:08,482 [INFO] LLM extracted 4 deals (4 signed) | Do PPAs have a future in the data center sector? -
+2026-06-10 10:25:08,484 [INFO] Not a European deal — skipping: Microsoft / not specified (New Zealand, None MW)
+2026-06-10 10:25:08,484 [INFO] NEW: Amazon / Iberdrola (Germany, 476 MW)
+2026-06-10 10:25:13,485 [INFO] NEW: Amazon / Iberdrola (Germany, 300 MW)
+2026-06-10 10:25:18,488 [INFO] NEW: Amazon / Iberdrola (Spain, Portugal, None MW)
+2026-06-10 10:25:23,489 [INFO] ------- Processing article n. 10: EDP Renewables signs virtual power purchase agreement with Microsoft - Reuters -------
+2026-06-10 10:25:24,243 [INFO] Resolved Google News URL: https://www.reuters.com/sustainability/edp-renewables-signs-virtual-power-purcha
+2026-06-10 10:25:24,243 [INFO] URL: https://www.reuters.com/sustainability/edp-renewables-signs-virtual-power-purchase-agreement-with-microsoft-2025-02-10/
+2026-06-10 10:25:24,515 [INFO] Full text skipped (status 401): https://www.reuters.com/sustainability/edp-renewables-signs-virtual-power-purcha
+2026-06-10 10:25:24,516 [INFO] Text length: 169 chars | source: fallback
+2026-06-10 10:25:24,516 [INFO] Text preview: EDP Renewables signs virtual power purchase agreement with Microsoft - Reuters
+
+EDP Renewables signs virtual power purchase agreement with Microsoft &nbsp;&nbsp; Reuters...
+2026-06-10 10:25:25,388 [INFO] LLM HTTP 200 for: EDP Renewables signs virtual power purchase agreement with M
+2026-06-10 10:25:25,388 [INFO] LLM extracted 1 deals (1 signed) | EDP Renewables signs virtual power purchase agreem
+2026-06-10 10:25:25,390 [INFO] Not a European deal — skipping: Microsoft / EDP Renewables (United States, None MW)
+2026-06-10 10:25:25,390 [INFO] ------- Processing article n. 10: With EU renewable policy, it’s time to focus on industrial demand instead of agg -------
+2026-06-10 10:25:26,252 [INFO] Resolved Google News URL: https://www.ceps.eu/with-eu-renewable-policy-its-time-to-focus-on-industrial-dem
+2026-06-10 10:25:26,252 [INFO] URL: https://www.ceps.eu/with-eu-renewable-policy-its-time-to-focus-on-industrial-demand-instead-of-aggressive-support-for-supply/
+2026-06-10 10:25:28,253 [INFO] Text length: 19213 chars | source: full
+2026-06-10 10:25:28,253 [INFO] Text preview: With EU renewable policy, it’s time to focus on industrial demand instead of aggressive support for supply – CEPS Cookie Information We use cookies and external services to improve our online services...
+2026-06-10 10:25:29,249 [INFO] LLM HTTP 200 for: With EU renewable policy, it’s time to focus on industrial d
+2026-06-10 10:25:29,249 [INFO] LLM extracted 1 deals (0 signed) | With EU renewable policy, it’s time to focus on in
+2026-06-10 10:25:29,251 [INFO] Not a signed deal — skipping: With EU renewable policy, it’s time to focus on industrial d
+2026-06-10 10:25:29,251 [INFO] ------- Processing article n. 10: Global offshore wind: Belgium - Norton Rose Fulbright -------
+2026-06-10 10:25:30,009 [INFO] Resolved Google News URL: https://www.nortonrosefulbright.com/en/knowledge/publications/816b71d7/global-of
+2026-06-10 10:25:30,010 [INFO] URL: https://www.nortonrosefulbright.com/en/knowledge/publications/816b71d7/global-offshore-wind-belgium
+2026-06-10 10:25:31,328 [INFO] Text length: 26666 chars | source: full
+2026-06-10 10:25:31,328 [INFO] Text preview: Global offshore wind: Belgium | Global law firm | Norton Rose Fulbright Skip to main content Information correct as at 12 February 2025 Content Introduction Belgium: Current offshore wind projects Bel...
+2026-06-10 10:25:31,813 [INFO] LLM HTTP 200 for: Global offshore wind: Belgium - Norton Rose Fulbright
+2026-06-10 10:25:31,813 [INFO] LLM extracted 0 deals (0 signed) | Global offshore wind: Belgium - Norton Rose Fulbri
+2026-06-10 10:25:31,815 [INFO] ------- Processing article n. 10: US green hydrogen | Plug Power secures billion-dollar share purchase deal for tw -------
+2026-06-10 10:25:32,577 [INFO] Resolved Google News URL: https://www.hydrogeninsight.com/electrolysers/us-green-hydrogen-plug-power-secur
+2026-06-10 10:25:32,577 [INFO] URL: https://www.hydrogeninsight.com/electrolysers/us-green-hydrogen-plug-power-secures-billion-dollar-share-purchase-deal-for-two-years/2-1-1778837
+2026-06-10 10:25:33,203 [INFO] Text length: 511 chars | source: full
+2026-06-10 10:25:33,203 [INFO] Text preview: US green hydrogen | Plug Power secures billion-dollar share purchase deal for two years | Hydrogen Insight US green hydrogen | Plug Power secures billion-dollar share purchase deal for two years The e...
+2026-06-10 10:25:34,034 [INFO] LLM HTTP 200 for: US green hydrogen | Plug Power secures billion-dollar share 
+2026-06-10 10:25:34,034 [INFO] LLM extracted 1 deals (0 signed) | US green hydrogen | Plug Power secures billion-dol
+2026-06-10 10:25:34,037 [INFO] Not a signed deal — skipping: US green hydrogen | Plug Power secures billion-dollar share 
+2026-06-10 10:25:34,037 [INFO] ------- Processing article n. 10: Do PPAs have a future in the data center sector? - Data Center Dynamics -------
+2026-06-10 10:25:34,722 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/analysis/do-ppas-have-a-future-in-the-data
+2026-06-10 10:25:34,722 [INFO] URL: https://www.datacenterdynamics.com/en/analysis/do-ppas-have-a-future-in-the-data-center-sector/
+2026-06-10 10:25:35,226 [INFO] Text length: 12144 chars | source: full
+2026-06-10 10:25:35,226 [INFO] Text preview: Do PPAs have a future in the data center sector? - DCD Home Long Reads The Energy & Sustainability Channel Do PPAs have a future in the data center sector? Such agreements are key to many data center ...
+2026-06-10 10:25:37,799 [INFO] LLM HTTP 200 for: Do PPAs have a future in the data center sector? - Data Cent
+2026-06-10 10:25:37,799 [INFO] LLM extracted 4 deals (4 signed) | Do PPAs have a future in the data center sector? -
+2026-06-10 10:25:37,801 [INFO] Not a European deal — skipping: Microsoft / geothermal developer (New Zealand, None MW)
+2026-06-10 10:25:37,802 [INFO] UPDATE: Amazon / Iberdrola (Germany, 476 MW) — canonical ID: 57
+2026-06-10 10:25:42,803 [INFO] UPDATE: Amazon / Iberdrola (Germany, 300 MW) — canonical ID: 58
+2026-06-10 10:25:47,805 [INFO] UPDATE: Amazon / Iberdrola (Spain, Portugal, None MW) — canonical ID: 59
+2026-06-10 10:25:52,807 [INFO] ------- Processing article n. 13: Turkey to buy Turkmenistan gas as Iran deal nears expiry - Upstream Online -------
+2026-06-10 10:25:53,783 [INFO] Resolved Google News URL: https://www.upstreamonline.com/energy-security/turkey-to-buy-turkmenistan-gas-as
+2026-06-10 10:25:53,783 [INFO] URL: https://www.upstreamonline.com/energy-security/turkey-to-buy-turkmenistan-gas-as-iran-deal-nears-expiry/2-1-1779964
+2026-06-10 10:25:54,619 [INFO] Text length: 626 chars | source: full
+2026-06-10 10:25:54,619 [INFO] Text preview: Turkey to buy Turkmenistan gas as Iran deal nears expiry | Upstream Turkey to buy Turkmenistan gas as Iran deal nears expiry First gas deliveries to start on 1 March and will be sent via Iran, but lon...
+2026-06-10 10:25:55,431 [INFO] LLM HTTP 200 for: Turkey to buy Turkmenistan gas as Iran deal nears expiry - U
+2026-06-10 10:25:55,432 [INFO] LLM extracted 1 deals (0 signed) | Turkey to buy Turkmenistan gas as Iran deal nears 
+2026-06-10 10:25:55,433 [INFO] Not a signed deal — skipping: Turkey to buy Turkmenistan gas as Iran deal nears expiry - U
+2026-06-10 10:25:55,434 [INFO] ------- Processing article n. 13: Türkiye, Pakistan sign 24 cooperation agreements to strengthen bilateral ties -  -------
+2026-06-10 10:25:56,241 [INFO] Resolved Google News URL: https://www.aa.com.tr/en/energy/general/turkiye-pakistan-sign-24-cooperation-agr
+2026-06-10 10:25:56,241 [INFO] URL: https://www.aa.com.tr/en/energy/general/turkiye-pakistan-sign-24-cooperation-agreements-to-strengthen-bilateral-ties/47515
+2026-06-10 10:26:02,081 [INFO] Text length: 27170 chars | source: full
+2026-06-10 10:26:02,081 [INFO] Text preview: Türkiye, Pakistan sign 24 cooperation agreements to strengthen bilateral ties In a significant step to bolster bilateral ties, Turkish President Recep Tayyip Erdogan and Pakistani Prime Minister Shehb...
+2026-06-10 10:26:02,970 [INFO] LLM HTTP 200 for: Türkiye, Pakistan sign 24 cooperation agreements to strength
+2026-06-10 10:26:02,971 [INFO] LLM extracted 1 deals (0 signed) | Türkiye, Pakistan sign 24 cooperation agreements t
+2026-06-10 10:26:02,973 [INFO] Not a signed deal — skipping: Türkiye, Pakistan sign 24 cooperation agreements to strength
+2026-06-10 10:26:02,973 [INFO] ------- Processing article n. 13: Turkish companies expand presence in solar power market in Romania - Balkan Gree -------
+2026-06-10 10:26:03,949 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/turkish-companies-expand-presence-in-solar-pow
+2026-06-10 10:26:03,949 [INFO] URL: https://balkangreenenergynews.com/turkish-companies-expand-presence-in-solar-power-market-in-romania/
+2026-06-10 10:26:05,365 [INFO] Text length: 7767 chars | source: full
+2026-06-10 10:26:05,365 [INFO] Text preview: Turkish companies expand presence in solar power market in Romania Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share Chin...
+2026-06-10 10:26:07,812 [INFO] LLM HTTP 200 for: Turkish companies expand presence in solar power market in R
+2026-06-10 10:26:07,812 [INFO] LLM extracted 2 deals (2 signed) | Turkish companies expand presence in solar power m
+2026-06-10 10:26:07,814 [INFO] NEW: None / Tüpraş (Entek Elektrik) (Romania, 214.3 MW)
+2026-06-10 10:26:12,815 [INFO] NEW: None / Scatec (Defic Globe, YEO Teknoloji Enerji ve Endüstri, Emsolt Investments) (Romania, 190 MW)
+2026-06-10 10:26:17,818 [INFO] ------- Processing article n. 15: Brazil soy lobby tells growers to reject EU anti-deforestation rule in contracts -------
+2026-06-10 10:26:18,717 [INFO] Resolved Google News URL: https://www.reuters.com/markets/commodities/brazil-soy-lobby-tells-growers-rejec
+2026-06-10 10:26:18,718 [INFO] URL: https://www.reuters.com/markets/commodities/brazil-soy-lobby-tells-growers-reject-eu-anti-deforestation-rule-contracts-2025-02-14/
+2026-06-10 10:26:18,815 [INFO] Full text skipped (status 401): https://www.reuters.com/markets/commodities/brazil-soy-lobby-tells-growers-rejec
+2026-06-10 10:26:18,816 [INFO] Text length: 193 chars | source: fallback
+2026-06-10 10:26:18,816 [INFO] Text preview: Brazil soy lobby tells growers to reject EU anti-deforestation rule in contracts - Reuters
+
+Brazil soy lobby tells growers to reject EU anti-deforestation rule in contracts &nbsp;&nbsp; Reuters...
+2026-06-10 10:26:19,855 [INFO] LLM HTTP 200 for: Brazil soy lobby tells growers to reject EU anti-deforestati
+2026-06-10 10:26:19,856 [INFO] LLM extracted 1 deals (0 signed) | Brazil soy lobby tells growers to reject EU anti-d
+2026-06-10 10:26:19,857 [INFO] Not a signed deal — skipping: Brazil soy lobby tells growers to reject EU anti-deforestati
+2026-06-10 10:26:19,857 [INFO] ------- Processing article n. 15: TAQA Group reports full year 2024 net income of AED 7.1 bln and revenue of AED 5 -------
+2026-06-10 10:26:20,867 [INFO] Resolved Google News URL: https://www.zawya.com/en/press-release/companies-news/taqa-group-reports-full-ye
+2026-06-10 10:26:20,867 [INFO] URL: https://www.zawya.com/en/press-release/companies-news/taqa-group-reports-full-year-2024-net-income-of-aed-71-bln-and-revenue-of-aed-552bln-for-fy2024-ioaxrmd6
+2026-06-10 10:26:21,049 [INFO] Full text skipped (status 403): https://www.zawya.com/en/press-release/companies-news/taqa-group-reports-full-ye
+2026-06-10 10:26:21,049 [INFO] Text length: 223 chars | source: fallback
+2026-06-10 10:26:21,049 [INFO] Text preview: TAQA Group reports full year 2024 net income of AED 7.1 bln and revenue of AED 55.2bln for FY2024 - ZAWYA
+
+TAQA Group reports full year 2024 net income of AED 7.1 bln and revenue of AED 55.2bln for FY...
+2026-06-10 10:26:21,937 [INFO] LLM HTTP 200 for: TAQA Group reports full year 2024 net income of AED 7.1 bln 
+2026-06-10 10:26:21,937 [INFO] LLM extracted 1 deals (0 signed) | TAQA Group reports full year 2024 net income of AE
+2026-06-10 10:26:21,939 [INFO] Not a signed deal — skipping: TAQA Group reports full year 2024 net income of AED 7.1 bln 
+2026-06-10 10:26:21,939 [INFO] ------- Processing article n. 15: Microsoft signs three vPPAs with EDP Renewables in Illinois and Texas - Data Cen -------
+2026-06-10 10:26:22,840 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/microsoft-signs-three-vppas-with-edp-
+2026-06-10 10:26:22,840 [INFO] URL: https://www.datacenterdynamics.com/en/news/microsoft-signs-three-vppas-with-edp-renewables-in-illinois-and-texas/
+2026-06-10 10:26:22,983 [INFO] Text length: 3722 chars | source: full
+2026-06-10 10:26:22,983 [INFO] Text preview: Microsoft signs three vPPAs with EDP Renewables in Illinois and Texas - DCD Home News The Energy & Sustainability Channel Microsoft signs three vPPAs with EDP Renewables in Illinois and Texas Will sup...
+2026-06-10 10:26:26,289 [INFO] LLM HTTP 200 for: Microsoft signs three vPPAs with EDP Renewables in Illinois 
+2026-06-10 10:26:26,289 [INFO] LLM extracted 5 deals (5 signed) | Microsoft signs three vPPAs with EDP Renewables in
+2026-06-10 10:26:26,291 [INFO] Not a European deal — skipping: Microsoft / EDP Renewables North America (United States, 389 MW)
+2026-06-10 10:26:26,291 [INFO] Not a European deal — skipping: Microsoft / EDP Renewables North America (United States, 125 MW)
+2026-06-10 10:26:26,291 [INFO] Not a European deal — skipping: Microsoft / National Grid Renewables (United States, 250 MW)
+2026-06-10 10:26:26,291 [INFO] Not a European deal — skipping: Microsoft / Constellation Energy (United States, 837 MW)
+2026-06-10 10:26:26,291 [INFO] Not a European deal — skipping: Microsoft / Leeward Renewable Energy (United States, 200 MW)
+2026-06-10 10:26:26,291 [INFO] ------- Processing article n. 15: Božinovska: New ministry's vision for North Macedonia's energy sector, auctions  -------
+2026-06-10 10:26:27,192 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/bozinovska-new-ministrys-vision-for-north-mace
+2026-06-10 10:26:27,192 [INFO] URL: https://balkangreenenergynews.com/bozinovska-new-ministrys-vision-for-north-macedonias-energy-sector-auctions-by-end-of-2025/
+2026-06-10 10:26:28,805 [INFO] Text length: 14103 chars | source: full
+2026-06-10 10:26:28,805 [INFO] Text preview: Božinovska: New ministry's vision for North Macedonia's energy sector, auctions by end of 2025 Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 i...
+2026-06-10 10:26:29,743 [INFO] LLM HTTP 200 for: Božinovska: New ministry's vision for North Macedonia's ener
+2026-06-10 10:26:29,743 [INFO] LLM extracted 1 deals (0 signed) | Božinovska: New ministry's vision for North Macedo
+2026-06-10 10:26:29,745 [INFO] Not a signed deal — skipping: Božinovska: New ministry's vision for North Macedonia's ener
+2026-06-10 10:26:29,745 [INFO] ------- Processing article n. 15: Le Groupe BPCE renforce son engagement pour la transition énergétique en signant -------
+2026-06-10 10:26:30,531 [INFO] Resolved Google News URL: https://newsroom.groupebpce.fr/actualites/le-groupe-bpce-renforce-son-engagement
+2026-06-10 10:26:30,531 [INFO] URL: https://newsroom.groupebpce.fr/actualites/le-groupe-bpce-renforce-son-engagement-pour-la-transition-energetique-en-signant-un-contrat-de-20-ans-avec-opale-b0b05-7b707.html
+2026-06-10 10:26:31,435 [INFO] Text length: 3888 chars | source: full
+2026-06-10 10:26:31,435 [INFO] Text preview: Le Groupe BPCE renforce son engagement pour la transition énergétique en signant un contrat de 20 ans avec Opale - Espace Presse - BPCE Accéder au contenu principal Merci pour votre inscription. Vous ...
+2026-06-10 10:26:32,610 [INFO] LLM HTTP 200 for: Le Groupe BPCE renforce son engagement pour la transition én
+2026-06-10 10:26:32,610 [INFO] LLM extracted 1 deals (1 signed) | Le Groupe BPCE renforce son engagement pour la tra
+2026-06-10 10:26:32,612 [INFO] NEW: Groupe BPCE / Opale Energies engagées (France, None MW)
+2026-06-10 10:26:37,614 [INFO] ------- Processing article n. 16: MGP : le projet partenarial d’aménagement de préfiguration "Marne Est" veut cont -------
+2026-06-10 10:26:38,611 [INFO] Resolved Google News URL: https://www.aefinfo.fr/depeche/726483-mgp-le-projet-partenarial-damenagement-de-
+2026-06-10 10:26:38,611 [INFO] URL: https://www.aefinfo.fr/depeche/726483-mgp-le-projet-partenarial-damenagement-de-prefiguration-marne-est-veut-contribuer-au-reequilibrage-territorial
+2026-06-10 10:26:40,051 [INFO] Text length: 2882 chars | source: full
+2026-06-10 10:26:40,051 [INFO] Text preview: MGP : le projet partenarial d’aménagement de préfiguration "Marne Est" veut contribuer au "rééquilibrage territorial" Les dépêches par rédaction Social lock Toute l'actu Social Emploi Ressources humai...
+2026-06-10 10:26:40,879 [INFO] LLM HTTP 200 for: MGP : le projet partenarial d’aménagement de préfiguration "
+2026-06-10 10:26:40,879 [INFO] LLM extracted 1 deals (0 signed) | MGP : le projet partenarial d’aménagement de préfi
+2026-06-10 10:26:40,881 [INFO] Not a signed deal — skipping: MGP : le projet partenarial d’aménagement de préfiguration "
+2026-06-10 10:26:40,881 [INFO] ------- Processing article n. 16: Anuncios: Zelestra, Tesla, Shell, Solaria, Iberdrola e Ingeteam - pv magazine Es -------
+2026-06-10 10:26:41,607 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2025/02/14/anuncios-zelestra-tesla-shell-solaria-iber
+2026-06-10 10:26:41,607 [INFO] URL: https://www.pv-magazine.es/2025/02/14/anuncios-zelestra-tesla-shell-solaria-iberdrola-e-ingeteam/
+2026-06-10 10:26:43,031 [INFO] Text length: 5742 chars | source: full
+2026-06-10 10:26:43,031 [INFO] Text preview: Anuncios: Zelestra, Tesla, Shell, Solaria, Iberdrola e Ingeteam - pv magazine España Anuncio Anuncio Anuncio Anuncio Instalaciones Anuncios: Zelestra, Tesla, Shell, Solaria, Iberdrola e Ingeteam Zeles...
+2026-06-10 10:26:44,767 [INFO] LLM HTTP 200 for: Anuncios: Zelestra, Tesla, Shell, Solaria, Iberdrola e Inget
+2026-06-10 10:26:44,767 [INFO] LLM extracted 2 deals (2 signed) | Anuncios: Zelestra, Tesla, Shell, Solaria, Iberdro
+2026-06-10 10:26:44,768 [INFO] NEW: Tesla / Zelestra (Spain, 74 MW)
+2026-06-10 10:26:49,771 [INFO] NEW: Shell / Zelestra (Spain, None MW)
+2026-06-10 10:26:54,773 [INFO] ------- Processing article n. 18: McDonald’s Polska stawia na zieloną energię. Pakiet umów PPA podpisany - ESG Tre -------
+2026-06-10 10:26:55,591 [INFO] Resolved Google News URL: https://esgtrends.pl/mcdonalds-polska-stawia-na-zielona-energie-pakiet-umow-ppa-
+2026-06-10 10:26:55,591 [INFO] URL: https://esgtrends.pl/mcdonalds-polska-stawia-na-zielona-energie-pakiet-umow-ppa-podpisany/
+2026-06-10 10:26:56,923 [INFO] Text length: 5493 chars | source: full
+2026-06-10 10:26:56,923 [INFO] Text preview: McDonald’s Polska stawia na zieloną energię. Pakiet umów PPA podpisany - ESG Trends Strona główna O nas Współpraca Kontakt Newsletter Green Destinations Conference 2025 Aktualności Wywiady | opinie Le...
+2026-06-10 10:26:58,096 [INFO] LLM HTTP 200 for: McDonald’s Polska stawia na zieloną energię. Pakiet umów PPA
+2026-06-10 10:26:58,097 [INFO] LLM extracted 1 deals (1 signed) | McDonald’s Polska stawia na zieloną energię. Pakie
+2026-06-10 10:26:58,098 [INFO] NEW: McDonald’s Polska, McDonald’s Polska franchisees and suppliers / R.Power (Poland, None MW)
+2026-06-10 10:27:03,100 [INFO] Run complete. New deals: 19, Updates: 0
+2026-06-10 10:27:03,102 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (60 deals)
