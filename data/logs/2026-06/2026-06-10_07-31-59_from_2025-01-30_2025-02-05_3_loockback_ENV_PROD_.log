@@ -1,0 +1,368 @@
+2026-06-10 07:31:59,760 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-06-10 07:31:59,761 [INFO] Searching from 2025-01-30 to 2025-02-05 with 3 loockback days
+2026-06-10 07:31:59,761 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 07:32:00,087 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-30%20before%3A2025-02-05&hl=en&gl=US&ceid=US:en: 14 results
+2026-06-10 07:32:02,401 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-30%20before%3A2025-02-05&hl=en&gl=US&ceid=US:en: 20 results
+2026-06-10 07:32:04,634 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-30%20before%3A2025-02-05&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 07:32:06,876 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-30%20before%3A2025-02-05&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-06-10 07:32:09,150 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-30%20before%3A2025-02-05&hl=es&gl=ES&ceid=ES:es: 8 results
+2026-06-10 07:32:11,382 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-30%20before%3A2025-02-05&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-10 07:32:13,585 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-30%20before%3A2025-02-05&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 07:32:15,817 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-30%20before%3A2025-02-05&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 07:32:18,108 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-30%20before%3A2025-02-05&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 07:32:20,108 [INFO] Total raw articles collected: 44
+2026-06-10 07:32:20,161 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 07:32:21,740 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 07:32:22,742 [INFO] Unique unseen articles: 36
+2026-06-10 07:32:22,742 [INFO] ------- Processing article n. 0: Iberdrola leads the European PPA market for the second consecutive year with mor -------
+2026-06-10 07:32:23,305 [INFO] Resolved Google News URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-leads-european-ppa-ma
+2026-06-10 07:32:23,305 [INFO] URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-leads-european-ppa-market-second-year-1251mw
+2026-06-10 07:32:23,432 [INFO] Full text skipped (status 403): https://www.iberdrola.com/press-room/news/detail/iberdrola-leads-european-ppa-ma
+2026-06-10 07:32:23,432 [INFO] Text length: 227 chars | source: fallback
+2026-06-10 07:32:23,432 [INFO] Text preview: Iberdrola leads the European PPA market for the second consecutive year with more than 1,251 MW - Iberdrola
+
+Iberdrola leads the European PPA market for the second consecutive year with more than 1,25...
+2026-06-10 07:32:24,178 [INFO] LLM HTTP 200 for: Iberdrola leads the European PPA market for the second conse
+2026-06-10 07:32:24,178 [INFO] LLM extracted 1 deals (0 signed) | Iberdrola leads the European PPA market for the se
+2026-06-10 07:32:24,181 [INFO] Not a signed deal — skipping: Iberdrola leads the European PPA market for the second conse
+2026-06-10 07:32:24,181 [INFO] ------- Processing article n. 0: Amazon is named top corporate purchaser of renewable energy in Europe, having in -------
+2026-06-10 07:32:24,664 [INFO] Resolved Google News URL: https://www.aboutamazon.eu/news/sustainability/amazon-is-named-top-corporate-pur
+2026-06-10 07:32:24,664 [INFO] URL: https://www.aboutamazon.eu/news/sustainability/amazon-is-named-top-corporate-purchaser-of-renewable-energy-in-europe-having-invested-in-more-than-230-projects-in-the-region
+2026-06-10 07:32:24,958 [INFO] Text length: 7064 chars | source: full
+2026-06-10 07:32:24,958 [INFO] Text preview: Amazon is named top corporate purchaser of renewable energy in Europe, having invested in more than 230 projects in the region Facebook Google Plus Instagram Mail To LinkedIn Pinterest Quotation Mark ...
+2026-06-10 07:32:27,801 [INFO] LLM HTTP 200 for: Amazon is named top corporate purchaser of renewable energy 
+2026-06-10 07:32:27,801 [INFO] LLM extracted 4 deals (4 signed) | Amazon is named top corporate purchaser of renewab
+2026-06-10 07:32:27,803 [INFO] NEW: Amazon / developer of Tâmega Wind Complex (Portugal, None MW)
+2026-06-10 07:32:32,805 [INFO] NEW: Amazon / Iberdrola (Spain, None MW)
+2026-06-10 07:32:37,814 [INFO] NEW: Amazon / developers of three wind farms (Greece, None MW)
+2026-06-10 07:32:42,816 [INFO] NEW: Amazon / developers of two wind farms (Poland, None MW)
+2026-06-10 07:32:47,819 [INFO] ------- Processing article n. 4: Corporate PPAs soar in Europe in 2024, despite decline in total deal volume - pv -------
+2026-06-10 07:32:48,501 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/01/30/corporate-ppas-soar-in-europe-in-2024-des
+2026-06-10 07:32:48,502 [INFO] URL: https://www.pv-magazine.com/2025/01/30/corporate-ppas-soar-in-europe-in-2024-despite-decline-in-total-volume/
+2026-06-10 07:32:48,695 [INFO] Text length: 8890 chars | source: full
+2026-06-10 07:32:48,695 [INFO] Text preview: Corporate PPAs soar in Europe in 2024, despite decline in total deal volume - pv magazine Global Advertisement Advertisement Advertisement Advertisement Markets & Policy Corporate PPAs soar in Europe ...
+2026-06-10 07:32:49,546 [INFO] LLM HTTP 200 for: Corporate PPAs soar in Europe in 2024, despite decline in to
+2026-06-10 07:32:49,546 [INFO] LLM extracted 1 deals (0 signed) | Corporate PPAs soar in Europe in 2024, despite dec
+2026-06-10 07:32:49,549 [INFO] Not a signed deal — skipping: Corporate PPAs soar in Europe in 2024, despite decline in to
+2026-06-10 07:32:49,549 [INFO] ------- Processing article n. 4: Deflating capture prices pull solar, wind market values down across Europe in 20 -------
+2026-06-10 07:32:50,052 [INFO] Resolved Google News URL: https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/0131
+2026-06-10 07:32:50,052 [INFO] URL: https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/013125-deflating-capture-prices-pull-solar-wind-market-values-down-across-europe-in-2024
+2026-06-10 07:32:50,172 [INFO] Full text skipped (status 403): https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/0131
+2026-06-10 07:32:50,173 [INFO] Text length: 203 chars | source: fallback
+2026-06-10 07:32:50,173 [INFO] Text preview: Deflating capture prices pull solar, wind market values down across Europe in 2024 - S&P Global
+
+Deflating capture prices pull solar, wind market values down across Europe in 2024 &nbsp;&nbsp; S&P Glo...
+2026-06-10 07:32:50,938 [INFO] LLM HTTP 200 for: Deflating capture prices pull solar, wind market values down
+2026-06-10 07:32:50,938 [INFO] LLM extracted 1 deals (0 signed) | Deflating capture prices pull solar, wind market v
+2026-06-10 07:32:50,941 [INFO] Not a signed deal — skipping: Deflating capture prices pull solar, wind market values down
+2026-06-10 07:32:50,941 [INFO] ------- Processing article n. 4: “The addition of BESS can mitigate the risk of long-term PPAs” - ESS News -------
+2026-06-10 07:32:51,375 [INFO] Resolved Google News URL: https://www.ess-news.com/2025/01/31/the-addition-of-bess-can-mitigate-the-risk-o
+2026-06-10 07:32:51,375 [INFO] URL: https://www.ess-news.com/2025/01/31/the-addition-of-bess-can-mitigate-the-risk-of-long-term-ppas/
+2026-06-10 07:32:52,972 [INFO] Text length: 12632 chars | source: full
+2026-06-10 07:32:52,972 [INFO] Text preview: “The addition of BESS can mitigate the risk of long-term PPAs” - Energy Storage Advertisement Advertisement Advertisement Finance “The addition of BESS can mitigate the risk of long-term PPAs” With mo...
+2026-06-10 07:32:53,826 [INFO] LLM HTTP 200 for: “The addition of BESS can mitigate the risk of long-term PPA
+2026-06-10 07:32:53,826 [INFO] LLM extracted 1 deals (0 signed) | “The addition of BESS can mitigate the risk of lon
+2026-06-10 07:32:53,828 [INFO] Not a signed deal — skipping: “The addition of BESS can mitigate the risk of long-term PPA
+2026-06-10 07:32:53,828 [INFO] ------- Processing article n. 4: Meta signs 115MW PPA with Enel in Oklahoma - Data Center Dynamics -------
+2026-06-10 07:32:54,393 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/meta-signs-115mw-ppa-with-enel-in-okl
+2026-06-10 07:32:54,393 [INFO] URL: https://www.datacenterdynamics.com/en/news/meta-signs-115mw-ppa-with-enel-in-oklahoma/
+2026-06-10 07:32:55,136 [INFO] Text length: 3796 chars | source: full
+2026-06-10 07:32:55,136 [INFO] Text preview: Meta signs 115MW PPA with Enel in Oklahoma - DCD Home News The Energy & Sustainability Channel Meta signs 115MW PPA with Enel in Oklahoma Third PPA signed by the two companies February 05, 2025 By Zac...
+2026-06-10 07:32:57,343 [INFO] LLM HTTP 200 for: Meta signs 115MW PPA with Enel in Oklahoma - Data Center Dyn
+2026-06-10 07:32:57,344 [INFO] LLM extracted 3 deals (3 signed) | Meta signs 115MW PPA with Enel in Oklahoma - Data 
+2026-06-10 07:32:57,346 [INFO] Not a European deal — skipping: Meta / Enel North America (United States, 115 MW)
+2026-06-10 07:32:57,346 [INFO] Not a European deal — skipping: Meta / Enel (United States, 320 MW)
+2026-06-10 07:32:57,346 [INFO] Not a European deal — skipping: Meta / Enel (United States, 125 MW)
+2026-06-10 07:32:57,346 [INFO] ------- Processing article n. 4: Iberdrola & Amazon's Growing Energy Partnership in Iberia - Sustainability Magaz -------
+2026-06-10 07:32:58,022 [INFO] Resolved Google News URL: https://sustainabilitymag.com/articles/iberdrola-amazons-growing-energy-partners
+2026-06-10 07:32:58,022 [INFO] URL: https://sustainabilitymag.com/articles/iberdrola-amazons-growing-energy-partnership-in-iberia
+2026-06-10 07:32:58,335 [INFO] Text length: 6568 chars | source: full
+2026-06-10 07:32:58,336 [INFO] Text preview: Iberdrola & Amazon's Growing Energy Partnership in Iberia | Sustainability Magazine Article Renewable Energy Iberdrola & Amazon's Growing Energy Partnership in Iberia By James Darley February 03, 2025...
+2026-06-10 07:33:01,429 [INFO] LLM HTTP 200 for: Iberdrola & Amazon's Growing Energy Partnership in Iberia - 
+2026-06-10 07:33:01,429 [INFO] LLM extracted 4 deals (4 signed) | Iberdrola & Amazon's Growing Energy Partnership in
+2026-06-10 07:33:01,432 [INFO] Not a European deal — skipping: Amazon / Iberdrola (Portugal, Spain, 476 MW)
+2026-06-10 07:33:01,432 [INFO] NEW: Amazon / Iberdrola (Portugal, 219 MW)
+2026-06-10 07:33:06,433 [INFO] NEW: Amazon / Iberdrola (Spain, 212 MW)
+2026-06-10 07:33:11,436 [INFO] NEW: Amazon / Iberdrola (Spain, 45 MW)
+2026-06-10 07:33:16,439 [INFO] ------- Processing article n. 7: Fortum to Deliver Renewable Energy to P2X Solutions’ Green Hydrogen Plant - Fort -------
+2026-06-10 07:33:17,239 [INFO] Resolved Google News URL: https://www.fortum.com/en/media/2025/01/fortum-deliver-renewable-energy-p2x-solu
+2026-06-10 07:33:17,239 [INFO] URL: https://www.fortum.com/en/media/2025/01/fortum-deliver-renewable-energy-p2x-solutions-green-hydrogen-plant
+2026-06-10 07:33:29,359 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.fortum.com', port=443): Read timed out. (read timeout=12)): https://www.fortum.com/en/media/2025/01/fortum-deliver-renewable-energy-p2x-solu
+2026-06-10 07:33:29,360 [INFO] Text length: 177 chars | source: fallback
+2026-06-10 07:33:29,360 [INFO] Text preview: Fortum to Deliver Renewable Energy to P2X Solutions’ Green Hydrogen Plant - Fortum
+
+Fortum to Deliver Renewable Energy to P2X Solutions’ Green Hydrogen Plant &nbsp;&nbsp; Fortum...
+2026-06-10 07:33:30,125 [INFO] LLM HTTP 200 for: Fortum to Deliver Renewable Energy to P2X Solutions’ Green H
+2026-06-10 07:33:30,125 [INFO] LLM extracted 1 deals (0 signed) | Fortum to Deliver Renewable Energy to P2X Solution
+2026-06-10 07:33:30,127 [INFO] Not a signed deal — skipping: Fortum to Deliver Renewable Energy to P2X Solutions’ Green H
+2026-06-10 07:33:30,127 [INFO] ------- Processing article n. 7: BrightNight and Cordelio sign PPA with Arizona Public Service for 1,200MWh BESS  -------
+2026-06-10 07:33:30,947 [INFO] Resolved Google News URL: https://www.energy-storage.news/brightnight-and-cordelio-sign-ppa-with-aps-for-1
+2026-06-10 07:33:30,947 [INFO] URL: https://www.energy-storage.news/brightnight-and-cordelio-sign-ppa-with-aps-for-1200mwh-bess/
+2026-06-10 07:33:31,072 [INFO] Text length: 7043 chars | source: full
+2026-06-10 07:33:31,072 [INFO] Text preview: BrightNight and Cordelio sign PPA with APS for 1,200MWh BESS - Energy-Storage.News Skip to content News BrightNight and Cordelio sign PPA with Arizona Public Service for 1,200MWh BESS facility By Apri...
+2026-06-10 07:33:32,926 [INFO] LLM HTTP 200 for: BrightNight and Cordelio sign PPA with Arizona Public Servic
+2026-06-10 07:33:32,927 [INFO] LLM extracted 2 deals (2 signed) | BrightNight and Cordelio sign PPA with Arizona Pub
+2026-06-10 07:33:32,929 [INFO] Not a European deal — skipping: Arizona Public Service / BrightNight, Cordelio (United States, 300 MW)
+2026-06-10 07:33:32,929 [INFO] Not a European deal — skipping: Arizona Public Service / BrightNight, Cordelio (United States, 300 MW)
+2026-06-10 07:33:32,929 [INFO] ------- Processing article n. 7: Iberdrola and Amazon further expand their global renewable energy partnership an -------
+2026-06-10 07:33:33,515 [INFO] Resolved Google News URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-amazon-expand-renewab
+2026-06-10 07:33:33,515 [INFO] URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-amazon-expand-renewable-energy-partnership-aws
+2026-06-10 07:33:33,736 [INFO] Full text skipped (status 403): https://www.iberdrola.com/press-room/news/detail/iberdrola-amazon-expand-renewab
+2026-06-10 07:33:33,736 [INFO] Text length: 303 chars | source: fallback
+2026-06-10 07:33:33,736 [INFO] Text preview: Iberdrola and Amazon further expand their global renewable energy partnership and harness the AWS cloud to scale Iberdrola’s business - Iberdrola
+
+Iberdrola and Amazon further expand their global rene...
+2026-06-10 07:33:34,548 [INFO] LLM HTTP 200 for: Iberdrola and Amazon further expand their global renewable e
+2026-06-10 07:33:34,548 [INFO] LLM extracted 1 deals (0 signed) | Iberdrola and Amazon further expand their global r
+2026-06-10 07:33:34,550 [INFO] Not a signed deal — skipping: Iberdrola and Amazon further expand their global renewable e
+2026-06-10 07:33:34,550 [INFO] ------- Processing article n. 7: Amazon to procure clean energy from ERG Group Irish wind farm - Solar Power Port -------
+2026-06-10 07:33:35,159 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-projects/amazon-to-procure-clean-energy
+2026-06-10 07:33:35,159 [INFO] URL: https://www.solarpowerportal.co.uk/solar-projects/amazon-to-procure-clean-energy-from-erg-group-irish-wind-farm
+2026-06-10 07:33:36,493 [INFO] Text length: 4149 chars | source: full
+2026-06-10 07:33:36,493 [INFO] Text preview: Amazon to procure clean energy from ERG Group Irish wind farm - Solar Power Portal Solar Projects Utility Scale Solar Solar Finance Solar Planning News Amazon to procure clean energy from ERG Group Ir...
+2026-06-10 07:33:38,832 [INFO] LLM HTTP 200 for: Amazon to procure clean energy from ERG Group Irish wind far
+2026-06-10 07:33:38,833 [INFO] LLM extracted 3 deals (3 signed) | Amazon to procure clean energy from ERG Group Iris
+2026-06-10 07:33:38,835 [INFO] Not a European deal — skipping: Amazon / ERG Group (Northern Ireland, UK, 47.3 MW)
+2026-06-10 07:33:38,835 [INFO] Not a European deal — skipping: Amazon / ENGIE, Ocean Winds (Scotland, UK, 473 MW)
+2026-06-10 07:33:38,835 [INFO] Not a European deal — skipping: Amazon / ENGIE (England, UK, 159 MW)
+2026-06-10 07:33:38,836 [INFO] ------- Processing article n. 7: KDDI and J-Power sign virtual PPA for onshore wind power plant - Telecompaper -------
+2026-06-10 07:33:39,590 [INFO] Resolved Google News URL: https://www.telecompaper.com/news/kddi-and-j-power-sign-virtual-ppa-for-onshore-
+2026-06-10 07:33:39,591 [INFO] URL: https://www.telecompaper.com/news/kddi-and-j-power-sign-virtual-ppa-for-onshore-wind-power-plant--1526175
+2026-06-10 07:33:40,385 [INFO] Text length: 3068 chars | source: full
+2026-06-10 07:33:40,385 [INFO] Text preview: KDDI and J-Power sign virtual PPA for onshore wind power plant - Telecompaper Markets Mobile Broadband Satellite Video Semiconductor IT Enterprise Solutions Network Equipment Topics MWC 2026 Data Cent...
+2026-06-10 07:33:41,355 [INFO] LLM HTTP 200 for: KDDI and J-Power sign virtual PPA for onshore wind power pla
+2026-06-10 07:33:41,355 [INFO] LLM extracted 1 deals (1 signed) | KDDI and J-Power sign virtual PPA for onshore wind
+2026-06-10 07:33:41,357 [INFO] Not a European deal — skipping: KDDI / J-Power (J-Wind) (Japan, None MW)
+2026-06-10 07:33:41,358 [INFO] ------- Processing article n. 7: DRI Signs Solar Power Purchase Agreements with OMV Petrom - The Romania Journal -------
+2026-06-10 07:33:42,086 [INFO] Resolved Google News URL: https://www.romaniajournal.ro/business/dri-signs-solar-power-purchase-agreements
+2026-06-10 07:33:42,086 [INFO] URL: https://www.romaniajournal.ro/business/dri-signs-solar-power-purchase-agreements-with-omv-petrom/
+2026-06-10 07:33:42,215 [INFO] Full text skipped (status 403): https://www.romaniajournal.ro/business/dri-signs-solar-power-purchase-agreements
+2026-06-10 07:33:42,216 [INFO] Text length: 171 chars | source: fallback
+2026-06-10 07:33:42,216 [INFO] Text preview: DRI Signs Solar Power Purchase Agreements with OMV Petrom - The Romania Journal
+
+DRI Signs Solar Power Purchase Agreements with OMV Petrom &nbsp;&nbsp; The Romania Journal...
+2026-06-10 07:33:43,078 [INFO] LLM HTTP 200 for: DRI Signs Solar Power Purchase Agreements with OMV Petrom - 
+2026-06-10 07:33:43,078 [INFO] LLM extracted 1 deals (1 signed) | DRI Signs Solar Power Purchase Agreements with OMV
+2026-06-10 07:33:43,080 [INFO] NEW: OMV Petrom / DRI (Romania, None MW)
+2026-06-10 07:33:48,081 [INFO] ------- Processing article n. 8: Amazon signs 476MW of PPAs with Iberdrola across Spain and Portugal - Data Cente -------
+2026-06-10 07:33:48,803 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/amazon-signs-476mw-of-ppas-with-iberd
+2026-06-10 07:33:48,803 [INFO] URL: https://www.datacenterdynamics.com/en/news/amazon-signs-476mw-of-ppas-with-iberdrola-across-spain-and-portugal/
+2026-06-10 07:33:49,317 [INFO] Text length: 4619 chars | source: full
+2026-06-10 07:33:49,317 [INFO] Text preview: Amazon signs 476MW of PPAs with Iberdrola across Spain and Portugal - DCD Home News The Energy & Sustainability Channel Amazon signs 476MW of PPAs with Iberdrola across Spain and Portugal Combined the...
+2026-06-10 07:33:52,121 [INFO] LLM HTTP 200 for: Amazon signs 476MW of PPAs with Iberdrola across Spain and P
+2026-06-10 07:33:52,121 [INFO] LLM extracted 4 deals (4 signed) | Amazon signs 476MW of PPAs with Iberdrola across S
+2026-06-10 07:33:52,123 [INFO] Not a European deal — skipping: Amazon / Iberdrola (Spain, Portugal, 476 MW)
+2026-06-10 07:33:52,123 [INFO] NEW: Amazon / Iberdrola (Germany, None MW)
+2026-06-10 07:33:57,125 [INFO] UPDATE: Amazon / Iberdrola (United Kingdom, 159 MW) — canonical ID: 2
+2026-06-10 07:34:02,127 [INFO] Not a European deal — skipping: Amazon / Iberdrola (United States, 98.4 MW)
+2026-06-10 07:34:02,127 [INFO] ------- Processing article n. 10: Orange Romania and ENGIE Romania signed a new virtual green Power Purchase Agree -------
+2026-06-10 07:34:02,985 [INFO] Resolved Google News URL: https://www.europeaninterest.eu/orange-romania-and-engie-romania-signed-a-new-vi
+2026-06-10 07:34:02,986 [INFO] URL: https://www.europeaninterest.eu/orange-romania-and-engie-romania-signed-a-new-virtual-green-power-purchase-agreement-vppa-in-romania/
+2026-06-10 07:34:04,512 [INFO] Text length: 10786 chars | source: full
+2026-06-10 07:34:04,512 [INFO] Text preview: Orange Romania and ENGIE Romania signed a new virtual green Power Purchase Agreement (vPPA) in Romania Orange Romania and ENGIE Romania signed a new virtual green Power Purchase Agreement (vPPA) in Ro...
+2026-06-10 07:34:05,556 [INFO] LLM HTTP 200 for: Orange Romania and ENGIE Romania signed a new virtual green 
+2026-06-10 07:34:05,556 [INFO] LLM extracted 1 deals (1 signed) | Orange Romania and ENGIE Romania signed a new virt
+2026-06-10 07:34:05,558 [INFO] NEW: Orange Romania / ENGIE Romania (Romania, None MW)
+2026-06-10 07:34:10,559 [INFO] ------- Processing article n. 11: Pharma Supply Chain Decarbonization Consortium Signs 10-Year Clean Energy Deals  -------
+2026-06-10 07:34:11,140 [INFO] Resolved Google News URL: https://www.esgtoday.com/pharma-supply-chain-decarbonization-consortium-signs-10
+2026-06-10 07:34:11,140 [INFO] URL: https://www.esgtoday.com/pharma-supply-chain-decarbonization-consortium-signs-10-year-clean-energy-deals-for-haleon-gsk-thermo-fisher-gilead/
+2026-06-10 07:34:11,992 [INFO] Text length: 13084 chars | source: full
+2026-06-10 07:34:11,992 [INFO] Text preview: Pharma Supply Chain Decarbonization Consortium Signs 10-Year Clean Energy Deals for Haleon, GSK, Thermo Fisher, Gilead - ESG Today Companies / Energy Transition Pharma Supply Chain Decarbonization Con...
+2026-06-10 07:34:13,662 [INFO] LLM HTTP 200 for: Pharma Supply Chain Decarbonization Consortium Signs 10-Year
+2026-06-10 07:34:13,662 [INFO] LLM extracted 2 deals (2 signed) | Pharma Supply Chain Decarbonization Consortium Sig
+2026-06-10 07:34:13,664 [INFO] NEW: Haleon, GSK, Thermo Fisher, Gilead / X-ELIO (Spain, None MW)
+2026-06-10 07:34:18,666 [INFO] Not a European deal — skipping: Thermo Fisher / None (None, None MW)
+2026-06-10 07:34:18,666 [INFO] ------- Processing article n. 12: Meta strikes renewable supply agreement with Zelestra to power Texas data center -------
+2026-06-10 07:34:19,269 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/meta-strikes-renewable-supply-agreeme
+2026-06-10 07:34:19,269 [INFO] URL: https://www.datacenterdynamics.com/en/news/meta-strikes-renewable-supply-agreement-with-zelestra-to-power-texas-data-centers/
+2026-06-10 07:34:19,931 [INFO] Text length: 4015 chars | source: full
+2026-06-10 07:34:19,931 [INFO] Text preview: Meta strikes renewable supply agreement with Zelestra to power Texas data centers - DCD Home News The Energy & Sustainability Channel Meta strikes renewable supply agreement with Zelestra to power Tex...
+2026-06-10 07:34:22,793 [INFO] LLM HTTP 200 for: Meta strikes renewable supply agreement with Zelestra to pow
+2026-06-10 07:34:22,793 [INFO] LLM extracted 4 deals (4 signed) | Meta strikes renewable supply agreement with Zeles
+2026-06-10 07:34:22,795 [INFO] Not a European deal — skipping: Meta / Zelestra (United States, 595 MW)
+2026-06-10 07:34:22,795 [INFO] Not a European deal — skipping: Meta / Zelestra (United States, 210 MW)
+2026-06-10 07:34:22,795 [INFO] Not a European deal — skipping: Meta / Engie North America (United States, 260 MW)
+2026-06-10 07:34:22,795 [INFO] Not a European deal — skipping: Meta / Longroad Energy (United States, 300 MW)
+2026-06-10 07:34:22,795 [INFO] ------- Processing article n. 12: Assad’s Fall and the Qatari Gas Pipeline: A Risky Bet or Potential Source of Rel -------
+2026-06-10 07:34:23,529 [INFO] Resolved Google News URL: https://smallwarsjournal.com/2025/02/05/assads-fall-and-the-qatari-gas-pipeline/
+2026-06-10 07:34:23,529 [INFO] URL: https://smallwarsjournal.com/2025/02/05/assads-fall-and-the-qatari-gas-pipeline/
+2026-06-10 07:34:24,130 [INFO] Text length: 16104 chars | source: full
+2026-06-10 07:34:24,130 [INFO] Text preview: Assad’s Fall and the Qatari Gas Pipeline: A Risky Bet or Potential Source of Relief? | Small Wars Journal by Arizona State University Member Login Become a Member Advertisement Essay | The Latest Assa...
+2026-06-10 07:34:24,938 [INFO] LLM HTTP 200 for: Assad’s Fall and the Qatari Gas Pipeline: A Risky Bet or Pot
+2026-06-10 07:34:24,939 [INFO] LLM extracted 1 deals (0 signed) | Assad’s Fall and the Qatari Gas Pipeline: A Risky 
+2026-06-10 07:34:24,940 [INFO] Not a signed deal — skipping: Assad’s Fall and the Qatari Gas Pipeline: A Risky Bet or Pot
+2026-06-10 07:34:24,940 [INFO] ------- Processing article n. 12: BASF powers all its performance material plants with renewable electricity - Pac -------
+2026-06-10 07:34:25,681 [INFO] Resolved Google News URL: https://packagingeurope.com/news/basf-powers-all-its-performance-material-plants
+2026-06-10 07:34:25,682 [INFO] URL: https://packagingeurope.com/news/basf-powers-all-its-performance-material-plants-with-renewable-electricity/12427.article
+2026-06-10 07:34:26,442 [INFO] Text length: 6850 chars | source: full
+2026-06-10 07:34:26,442 [INFO] Text preview: BASF transitions all its performance material plants to renewable electricity | Packaging Europe OK Skip to main content Skip to navigation News BASF powers all its performance material plants with re...
+2026-06-10 07:34:28,098 [INFO] LLM HTTP 200 for: BASF powers all its performance material plants with renewab
+2026-06-10 07:34:28,099 [INFO] LLM extracted 2 deals (2 signed) | BASF powers all its performance material plants wi
+2026-06-10 07:34:28,101 [INFO] NEW: Coveris / CE Rigmuir Limited (UK, 13.5 MW)
+2026-06-10 07:34:33,102 [INFO] Not a European deal — skipping: Graphic Packaging International / Zelestra (Europe, 83 MW)
+2026-06-10 07:34:33,102 [INFO] ------- Processing article n. 13: AI boom spurs Big Tech to build clean power on site - Reuters -------
+2026-06-10 07:34:33,782 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/ai-boom-spurs-big-tech-build-clean-power
+2026-06-10 07:34:33,782 [INFO] URL: https://www.reuters.com/business/energy/ai-boom-spurs-big-tech-build-clean-power-site-2025-02-05/
+2026-06-10 07:34:33,997 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/ai-boom-spurs-big-tech-build-clean-power
+2026-06-10 07:34:33,997 [INFO] Text length: 135 chars | source: fallback
+2026-06-10 07:34:33,998 [INFO] Text preview: AI boom spurs Big Tech to build clean power on site - Reuters
+
+AI boom spurs Big Tech to build clean power on site &nbsp;&nbsp; Reuters...
+2026-06-10 07:34:34,741 [INFO] LLM HTTP 200 for: AI boom spurs Big Tech to build clean power on site - Reuter
+2026-06-10 07:34:34,741 [INFO] LLM extracted 1 deals (0 signed) | AI boom spurs Big Tech to build clean power on sit
+2026-06-10 07:34:34,743 [INFO] Not a signed deal — skipping: AI boom spurs Big Tech to build clean power on site - Reuter
+2026-06-10 07:34:34,743 [INFO] ------- Processing article n. 13: Amazon agrees power purchase agreement for planned Co Derry wind farm - business -------
+2026-06-10 07:34:35,446 [INFO] Resolved Google News URL: https://businessplus.ie/media-plus/amazon-derry-wind-farm/
+2026-06-10 07:34:35,446 [INFO] URL: https://businessplus.ie/media-plus/amazon-derry-wind-farm/
+2026-06-10 07:34:36,222 [INFO] Text length: 3801 chars | source: full
+2026-06-10 07:34:36,222 [INFO] Text preview: Amazon agrees power purchase agreement for planned Co Derry wind farm - Business Plus Subscribe Amazon agrees power purchase agreement for planned Co Derry wind farm MediaPLUS / 4th February 2025 / Ge...
+2026-06-10 07:34:37,241 [INFO] LLM HTTP 200 for: Amazon agrees power purchase agreement for planned Co Derry 
+2026-06-10 07:34:37,241 [INFO] LLM extracted 1 deals (1 signed) | Amazon agrees power purchase agreement for planned
+2026-06-10 07:34:37,243 [INFO] Not a European deal — skipping: Amazon / ERG (Northern Ireland, 47 MW)
+2026-06-10 07:34:37,243 [INFO] ------- Processing article n. 13: The Pipeline: II Deals arrives, infra tops Blackstone charts, infra giants take  -------
+2026-06-10 07:34:38,053 [INFO] Resolved Google News URL: https://www.infrastructureinvestor.com/the-pipeline-ii-deals-arrives-infra-tops-
+2026-06-10 07:34:38,053 [INFO] URL: https://www.infrastructureinvestor.com/the-pipeline-ii-deals-arrives-infra-tops-blackstone-charts-infra-giants-take-stock-of-deepseek/
+2026-06-10 07:34:45,363 [INFO] Text length: 97 chars | source: full
+2026-06-10 07:34:45,363 [INFO] Text preview: The Pipeline: II Deals arrives, infra tops Blackstone charts, infra giants take stock of DeepSeek...
+2026-06-10 07:34:46,138 [INFO] LLM HTTP 200 for: The Pipeline: II Deals arrives, infra tops Blackstone charts
+2026-06-10 07:34:46,138 [INFO] LLM extracted 1 deals (0 signed) | The Pipeline: II Deals arrives, infra tops Blackst
+2026-06-10 07:34:46,146 [INFO] Not a signed deal — skipping: The Pipeline: II Deals arrives, infra tops Blackstone charts
+2026-06-10 07:34:46,146 [INFO] ------- Processing article n. 13: Amazon announces investment in Corlacky Hill Wind Farm in Northern Ireland - Abo -------
+2026-06-10 07:34:46,768 [INFO] Resolved Google News URL: https://www.aboutamazon.eu/news/job-creation-and-investment/amazon-announces-inv
+2026-06-10 07:34:46,768 [INFO] URL: https://www.aboutamazon.eu/news/job-creation-and-investment/amazon-announces-investment-in-corlacky-hill-wind-farm-in-northern-ireland
+2026-06-10 07:34:46,959 [INFO] Text length: 6146 chars | source: full
+2026-06-10 07:34:46,959 [INFO] Text preview: Amazon announces investment in Corlacky Hill Wind Farm in Northern Ireland Facebook Google Plus Instagram Mail To LinkedIn Pinterest Quotation Mark Tumblr Twitter Youtube RSS magnify greater than Quot...
+2026-06-10 07:34:47,992 [INFO] LLM HTTP 200 for: Amazon announces investment in Corlacky Hill Wind Farm in No
+2026-06-10 07:34:47,992 [INFO] LLM extracted 1 deals (1 signed) | Amazon announces investment in Corlacky Hill Wind 
+2026-06-10 07:34:47,995 [INFO] Not a European deal — skipping: Amazon / ERG (Northern Ireland, 47 MW)
+2026-06-10 07:34:47,995 [INFO] ------- Processing article n. 13: European companies rely on Swiss cleantechs - Startupticker.ch -------
+2026-06-10 07:34:48,658 [INFO] Resolved Google News URL: https://www.startupticker.ch/en/news/european-companies-rely-on-swiss-cleantechs
+2026-06-10 07:34:48,658 [INFO] URL: https://www.startupticker.ch/en/news/european-companies-rely-on-swiss-cleantechs
+2026-06-10 07:34:49,336 [INFO] Text length: 6305 chars | source: full
+2026-06-10 07:34:49,337 [INFO] Text preview: European companies rely on Swiss cleantechs European companies rely on Swiss cleantechs Expansion Success Please login or register 31.01.2025 Major companies in the automotive, energy and agriculture ...
+2026-06-10 07:34:51,196 [INFO] LLM HTTP 200 for: European companies rely on Swiss cleantechs - Startupticker.
+2026-06-10 07:34:51,196 [INFO] LLM extracted 2 deals (2 signed) | European companies rely on Swiss cleantechs - Star
+2026-06-10 07:34:51,198 [INFO] NEW: Lenzerheide Bergbahnen AG / Synhelion (Germany, None MW)
+2026-06-10 07:34:56,200 [INFO] NEW: AMAG Group AG / Synhelion (Switzerland, None MW)
+2026-06-10 07:35:01,202 [INFO] ------- Processing article n. 15: MENA Roundup: Larsen & Toubro Wins EPC Contract for Masdar’s BESS Project - Merc -------
+2026-06-10 07:35:01,904 [INFO] Resolved Google News URL: https://mercomindia.com/mena-roundup-larsen-toubro-wins-epc-contract-for-masdars
+2026-06-10 07:35:01,904 [INFO] URL: https://mercomindia.com/mena-roundup-larsen-toubro-wins-epc-contract-for-masdars-bess-project
+2026-06-10 07:35:03,057 [INFO] Text length: 4036 chars | source: full
+2026-06-10 07:35:03,058 [INFO] Text preview: MENA Roundup: Larsen & Toubro Wins EPC Contract for Masdar’s BESS Project NEWS RESEARCH & REPORTS EVENTS NEWSLETTER ABOUT CONTACT SOLAR Tenders & Auctions Markets & Policy Utility Scale Rooftop Financ...
+2026-06-10 07:35:03,907 [INFO] LLM HTTP 200 for: MENA Roundup: Larsen & Toubro Wins EPC Contract for Masdar’s
+2026-06-10 07:35:03,908 [INFO] LLM extracted 1 deals (0 signed) | MENA Roundup: Larsen & Toubro Wins EPC Contract fo
+2026-06-10 07:35:03,910 [INFO] Not a signed deal — skipping: MENA Roundup: Larsen & Toubro Wins EPC Contract for Masdar’s
+2026-06-10 07:35:03,910 [INFO] ------- Processing article n. 15: European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldo -------
+2026-06-10 07:35:04,509 [INFO] Resolved Google News URL: https://radiomoldova.md/p/46758/european-commissioner-for-enlargement-marta-kos-
+2026-06-10 07:35:04,509 [INFO] URL: https://radiomoldova.md/p/46758/european-commissioner-for-enlargement-marta-kos-comes-to-the-republic-of-moldova
+2026-06-10 07:35:04,947 [INFO] Text length: 3717 chars | source: full
+2026-06-10 07:35:04,947 [INFO] Text preview: European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldova Political European Commissioner for Enlargement, Marta Kos, comes to the Republic of Moldova Published 31.01.2025 14:...
+2026-06-10 07:35:05,740 [INFO] LLM HTTP 200 for: European Commissioner for Enlargement, Marta Kos, comes to t
+2026-06-10 07:35:05,740 [INFO] LLM extracted 1 deals (0 signed) | European Commissioner for Enlargement, Marta Kos, 
+2026-06-10 07:35:05,742 [INFO] Not a signed deal — skipping: European Commissioner for Enlargement, Marta Kos, comes to t
+2026-06-10 07:35:05,742 [INFO] ------- Processing article n. 15: Meta, Amazon, Carrefour : Engie accélère la vente de contrats d'électricité vert -------
+2026-06-10 07:35:06,380 [INFO] Resolved Google News URL: https://www.lesechos.fr/industrie-services/energie-environnement/meta-amazon-car
+2026-06-10 07:35:06,380 [INFO] URL: https://www.lesechos.fr/industrie-services/energie-environnement/meta-amazon-carrefour-engie-accelere-la-vente-de-contrats-delectricite-verte-aux-entreprises-2146383
+2026-06-10 07:35:06,444 [INFO] Full text skipped (status 403): https://www.lesechos.fr/industrie-services/energie-environnement/meta-amazon-car
+2026-06-10 07:35:06,445 [INFO] Text length: 231 chars | source: fallback
+2026-06-10 07:35:06,445 [INFO] Text preview: Meta, Amazon, Carrefour : Engie accélère la vente de contrats d'électricité verte aux entreprises - Les Echos
+
+Meta, Amazon, Carrefour : Engie accélère la vente de contrats d'électricité verte aux ent...
+2026-06-10 07:35:07,451 [INFO] LLM HTTP 200 for: Meta, Amazon, Carrefour : Engie accélère la vente de contrat
+2026-06-10 07:35:07,451 [INFO] LLM extracted 1 deals (0 signed) | Meta, Amazon, Carrefour : Engie accélère la vente 
+2026-06-10 07:35:07,453 [INFO] Not a signed deal — skipping: Meta, Amazon, Carrefour : Engie accélère la vente de contrat
+2026-06-10 07:35:07,453 [INFO] ------- Processing article n. 15: Iberdrola lidera el mercado europeo de PPA por segundo año consecutivo con más d -------
+2026-06-10 07:35:07,897 [INFO] Resolved Google News URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-lidera-me
+2026-06-10 07:35:07,897 [INFO] URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-lidera-mercado-europeo-ppa-segundo-ano-1251mw
+2026-06-10 07:35:08,454 [INFO] Full text skipped (status 403): https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-lidera-me
+2026-06-10 07:35:08,455 [INFO] Text length: 217 chars | source: fallback
+2026-06-10 07:35:08,455 [INFO] Text preview: Iberdrola lidera el mercado europeo de PPA por segundo año consecutivo con más de 1.251 MW - Iberdrola
+
+Iberdrola lidera el mercado europeo de PPA por segundo año consecutivo con más de 1.251 MW &nbsp...
+2026-06-10 07:35:09,244 [INFO] LLM HTTP 200 for: Iberdrola lidera el mercado europeo de PPA por segundo año c
+2026-06-10 07:35:09,244 [INFO] LLM extracted 1 deals (0 signed) | Iberdrola lidera el mercado europeo de PPA por seg
+2026-06-10 07:35:09,247 [INFO] Not a signed deal — skipping: Iberdrola lidera el mercado europeo de PPA por segundo año c
+2026-06-10 07:35:09,247 [INFO] ------- Processing article n. 15: Grupo Iberdrola y Amazon amplían su alianza estratégica en energías renovables e -------
+2026-06-10 07:35:09,866 [INFO] Resolved Google News URL: https://www.iberdrolaespana.com/sala-comunicacion/noticias/detalle/250203-grupo-
+2026-06-10 07:35:09,866 [INFO] URL: https://www.iberdrolaespana.com/sala-comunicacion/noticias/detalle/250203-grupo-iberdrola-y-amazon-amplian-su-alianza-estrategica-en-energias-renovables-en-espana
+2026-06-10 07:35:09,992 [INFO] Full text skipped (status 403): https://www.iberdrolaespana.com/sala-comunicacion/noticias/detalle/250203-grupo-
+2026-06-10 07:35:09,993 [INFO] Text length: 233 chars | source: fallback
+2026-06-10 07:35:09,993 [INFO] Text preview: Grupo Iberdrola y Amazon amplían su alianza estratégica en energías renovables en España - iberdrolaespana.com
+
+Grupo Iberdrola y Amazon amplían su alianza estratégica en energías renovables en España...
+2026-06-10 07:35:10,874 [INFO] LLM HTTP 200 for: Grupo Iberdrola y Amazon amplían su alianza estratégica en e
+2026-06-10 07:35:10,874 [INFO] LLM extracted 1 deals (0 signed) | Grupo Iberdrola y Amazon amplían su alianza estrat
+2026-06-10 07:35:10,878 [INFO] Not a signed deal — skipping: Grupo Iberdrola y Amazon amplían su alianza estratégica en e
+2026-06-10 07:35:10,878 [INFO] ------- Processing article n. 15: Amazon amplía su acuerdo de compra de energía verde con Iberdrola a Portugal - E -------
+2026-06-10 07:35:11,488 [INFO] Resolved Google News URL: https://www.eleconomista.es/energia/noticias/13202039/02/25/amazon-amplia-su-acu
+2026-06-10 07:35:11,488 [INFO] URL: https://www.eleconomista.es/energia/noticias/13202039/02/25/amazon-amplia-su-acuerdo-de-compra-de-energia-verde-con-iberdrola-a-portugal.html
+2026-06-10 07:35:11,739 [INFO] Full text skipped (status 403): https://www.eleconomista.es/energia/noticias/13202039/02/25/amazon-amplia-su-acu
+2026-06-10 07:35:11,740 [INFO] Text length: 197 chars | source: fallback
+2026-06-10 07:35:11,740 [INFO] Text preview: Amazon amplía su acuerdo de compra de energía verde con Iberdrola a Portugal - El Economista
+
+Amazon amplía su acuerdo de compra de energía verde con Iberdrola a Portugal &nbsp;&nbsp; El Economista...
+2026-06-10 07:35:12,697 [INFO] LLM HTTP 200 for: Amazon amplía su acuerdo de compra de energía verde con Iber
+2026-06-10 07:35:12,697 [INFO] LLM extracted 1 deals (1 signed) | Amazon amplía su acuerdo de compra de energía verd
+2026-06-10 07:35:12,699 [INFO] UPDATE: Amazon / Iberdrola (Portugal, None MW)
+2026-06-10 07:35:17,701 [INFO] ------- Processing article n. 16: Iberdrola amplía su alianza con Amazon con nuevos contratos en España y Portugal -------
+2026-06-10 07:35:18,245 [INFO] Resolved Google News URL: https://cincodias.elpais.com/companias/2025-02-03/iberdrola-amplia-su-alianza-co
+2026-06-10 07:35:18,246 [INFO] URL: https://cincodias.elpais.com/companias/2025-02-03/iberdrola-amplia-su-alianza-con-amazon-con-nuevos-contratos-en-espana-y-portugal.html
+2026-06-10 07:35:18,449 [INFO] Full text skipped (status 403): https://cincodias.elpais.com/companias/2025-02-03/iberdrola-amplia-su-alianza-co
+2026-06-10 07:35:18,449 [INFO] Text length: 199 chars | source: fallback
+2026-06-10 07:35:18,449 [INFO] Text preview: Iberdrola amplía su alianza con Amazon con nuevos contratos en España y Portugal - Cinco Días
+
+Iberdrola amplía su alianza con Amazon con nuevos contratos en España y Portugal &nbsp;&nbsp; Cinco Días...
+2026-06-10 07:35:19,274 [INFO] LLM HTTP 200 for: Iberdrola amplía su alianza con Amazon con nuevos contratos 
+2026-06-10 07:35:19,274 [INFO] LLM extracted 1 deals (0 signed) | Iberdrola amplía su alianza con Amazon con nuevos 
+2026-06-10 07:35:19,276 [INFO] Not a signed deal — skipping: Iberdrola amplía su alianza con Amazon con nuevos contratos 
+2026-06-10 07:35:19,277 [INFO] ------- Processing article n. 16: Iberdrola amplía su alianza global en energías renovables con Amazon y AWS - Rad -------
+2026-06-10 07:35:19,786 [INFO] Resolved Google News URL: https://intereconomia.com/sin-categoria/iberdrola-amplia-su-alianza-global-en-en
+2026-06-10 07:35:19,787 [INFO] URL: https://intereconomia.com/sin-categoria/iberdrola-amplia-su-alianza-global-en-energias-renovables-con-amazon-y-aws-20250205-1038/
+2026-06-10 07:35:22,535 [INFO] Text length: 5062 chars | source: full
+2026-06-10 07:35:22,535 [INFO] Text preview: Iberdrola amplía su alianza global en energías renovables - Radio Intereconomía - Ir al contenido Iberdrola amplía su alianza global en energías renovables con Amazon y AWS Sin categoría 5 febrero, 20...
+2026-06-10 07:35:24,367 [INFO] LLM HTTP 200 for: Iberdrola amplía su alianza global en energías renovables co
+2026-06-10 07:35:24,367 [INFO] LLM extracted 2 deals (2 signed) | Iberdrola amplía su alianza global en energías ren
+2026-06-10 07:35:24,370 [INFO] Not a European deal — skipping: Amazon, AWS / Iberdrola (Portugal, Spain, 476 MW)
+2026-06-10 07:35:24,370 [INFO] Not a European deal — skipping: Amazon / Iberdrola (multiple, None MW)
+2026-06-10 07:35:24,370 [INFO] ------- Processing article n. 16: Iberdrola y Amazon amplían su alianza global en energías renovables y aprovechan -------
+2026-06-10 07:35:24,967 [INFO] Resolved Google News URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-amazon-al
+2026-06-10 07:35:24,967 [INFO] URL: https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-amazon-alianza-energias-renovables-aws
+2026-06-10 07:35:25,006 [INFO] Full text skipped (status 403): https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-amazon-al
+2026-06-10 07:35:25,006 [INFO] Text length: 303 chars | source: fallback
+2026-06-10 07:35:25,006 [INFO] Text preview: Iberdrola y Amazon amplían su alianza global en energías renovables y aprovechan la nube de AWS para promover el negocio de Iberdrola - Iberdrola
+
+Iberdrola y Amazon amplían su alianza global en energ...
+2026-06-10 07:35:25,758 [INFO] LLM HTTP 200 for: Iberdrola y Amazon amplían su alianza global en energías ren
+2026-06-10 07:35:25,759 [INFO] LLM extracted 1 deals (0 signed) | Iberdrola y Amazon amplían su alianza global en en
+2026-06-10 07:35:25,760 [INFO] Not a signed deal — skipping: Iberdrola y Amazon amplían su alianza global en energías ren
+2026-06-10 07:35:25,761 [INFO] ------- Processing article n. 16: Amazon comprará energía verde a Iberdrola procedente del pueblo burgalés de Vald -------
+2026-06-10 07:35:26,306 [INFO] Resolved Google News URL: https://www.elcorreodeburgos.com/burgos/provincia/250203/233409/amazon-acuerda-i
+2026-06-10 07:35:26,306 [INFO] URL: https://www.elcorreodeburgos.com/burgos/provincia/250203/233409/amazon-acuerda-iberdrola-comprar-energia-parque-eolico-pueblo-burgales-valdemoro.html
+2026-06-10 07:35:27,283 [INFO] Text length: 4812 chars | source: full
+2026-06-10 07:35:27,284 [INFO] Text preview: Amazon comprará energía verde a Iberdrola procedente del pueblo burgalés de Valdemoro Amazon comprará energía verde a Iberdrola procedente del pueblo burgalés de Valdemoro Castilla y León, clave en el...
+2026-06-10 07:35:29,152 [INFO] LLM HTTP 200 for: Amazon comprará energía verde a Iberdrola procedente del pue
+2026-06-10 07:35:29,152 [INFO] LLM extracted 2 deals (2 signed) | Amazon comprará energía verde a Iberdrola proceden
+2026-06-10 07:35:29,154 [INFO] Not a European deal — skipping: Amazon / Iberdrola (Spain, Portugal, 476 MW)
+2026-06-10 07:35:29,154 [INFO] NEW: Amazon / Iberdrola (Spain, None MW)
+2026-06-10 07:35:34,155 [INFO] ------- Processing article n. 17: Una empresa de Toledo creará el transformador para la mayor planta de hidrógeno  -------
+2026-06-10 07:35:34,846 [INFO] Resolved Google News URL: https://www.elespanol.com/eldigitalcastillalamancha/economia/empresas/20250131/e
+2026-06-10 07:35:34,846 [INFO] URL: https://www.elespanol.com/eldigitalcastillalamancha/economia/empresas/20250131/empresa-toledo-creara-transformador-mayor-planta-hidrogeno-verde-espana/920658004_0.html
+2026-06-10 07:35:35,135 [INFO] Text length: 5137 chars | source: full
+2026-06-10 07:35:35,135 [INFO] Text preview: Una empresa de Toledo creará el transformador para la mayor planta de hidrógeno verde de España ES NOTICIA: Últimas noticias Mapa de noticias Las agendas de Leire PSOE y PSC dan a Sánchez "por amortiz...
+2026-06-10 07:35:36,404 [INFO] LLM HTTP 200 for: Una empresa de Toledo creará el transformador para la mayor 
+2026-06-10 07:35:36,405 [INFO] LLM extracted 1 deals (1 signed) | Una empresa de Toledo creará el transformador para
+2026-06-10 07:35:36,406 [INFO] NEW: bp, Iberdrola España / Iberdrola España (Spain, 25 MW)
+2026-06-10 07:35:41,408 [INFO] ------- Processing article n. 18: Caro energia, l’industria corre ai ripari coi contratti a lungo termine - Il Sol -------
+2026-06-10 07:35:42,082 [INFO] Resolved Google News URL: https://www.ilsole24ore.com/art/caro-energia-l-industria-corre-ripari-coi-contra
+2026-06-10 07:35:42,083 [INFO] URL: https://www.ilsole24ore.com/art/caro-energia-l-industria-corre-ripari-coi-contratti-lungo-termine-AGI30DfC
+2026-06-10 07:35:43,611 [INFO] Text length: 7084 chars | source: full
+2026-06-10 07:35:43,611 [INFO] Text preview: Caro energia, l’industria corre ai ripari coi contratti a lungo termine - Il Sole 24 ORE Vai alla navigazione principale Vai al contenuto Vai al footer Osservatorio sulla transizione energetica Caro e...
+2026-06-10 07:35:48,000 [INFO] LLM HTTP 200 for: Caro energia, l’industria corre ai ripari coi contratti a lu
+2026-06-10 07:35:48,000 [WARNING] LLM JSON parse error (attempt 1, Il Sole 24 ORE): Expecting ',' delimiter: line 1 column 2025 (char 2024) | raw: [{"is_signed_deal": true, "is_likely_update": false, "update_clues": null, "date_agreement": "2024-12", "buyer": "Bormioli Luigi", "seller": "Axpo Italia", "capacity_mw": null, "energy_gwh": 30, "tenu
+2026-06-10 07:35:48,001 [INFO] Retrying with shorter input...
+2026-06-10 07:35:48,968 [INFO] LLM HTTP 200 for: Caro energia, l’industria corre ai ripari coi contratti a lu
+2026-06-10 07:35:48,969 [INFO] LLM extracted 1 deals (1 signed) | Caro energia, l’industria corre ai ripari coi cont
+2026-06-10 07:35:48,970 [INFO] NEW: Amazon / Iberdrola (Spain, 1200 MW)
+2026-06-10 07:35:53,972 [INFO] Run complete. New deals: 18, Updates: 1
+2026-06-10 07:35:53,974 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (35 deals)
+2026-06-10 07:35:54,774 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
