@@ -1,0 +1,241 @@
+2026-06-10 10:34:05,870 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-06-10 10:34:05,871 [INFO] Searching from 2025-03-08 to 2025-03-14 with  loockback days
+2026-06-10 10:34:05,871 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 10:34:06,217 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-03-08%20before%3A2025-03-14&hl=en&gl=US&ceid=US:en: 12 results
+2026-06-10 10:34:08,603 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-03-08%20before%3A2025-03-14&hl=en&gl=US&ceid=US:en: 18 results
+2026-06-10 10:34:10,902 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-03-08%20before%3A2025-03-14&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 10:34:13,166 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-03-08%20before%3A2025-03-14&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-10 10:34:15,418 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-03-08%20before%3A2025-03-14&hl=es&gl=ES&ceid=ES:es: 4 results
+2026-06-10 10:34:17,693 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-03-08%20before%3A2025-03-14&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-06-10 10:34:19,900 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-03-08%20before%3A2025-03-14&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 10:34:22,167 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-03-08%20before%3A2025-03-14&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 10:34:24,504 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-03-08%20before%3A2025-03-14&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 10:34:26,505 [INFO] Total raw articles collected: 34
+2026-06-10 10:34:26,741 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 10:34:28,438 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-06-10 10:34:29,439 [INFO] Unique unseen articles: 26
+2026-06-10 10:34:29,439 [INFO] ------- Processing article n. 0: Corporate PPA leaderboard – Microsoft leap cuts into Amazon lead - S&P Global -------
+2026-06-10 10:34:30,248 [INFO] Resolved Google News URL: https://www.spglobal.com/market-intelligence/en/news-insights/research/corporate
+2026-06-10 10:34:30,248 [INFO] URL: https://www.spglobal.com/market-intelligence/en/news-insights/research/corporate-ppa-leaderboard-microsoft-leap-cuts-into-amazon-lead
+2026-06-10 10:34:30,446 [INFO] Full text skipped (status 403): https://www.spglobal.com/market-intelligence/en/news-insights/research/corporate
+2026-06-10 10:34:30,446 [INFO] Text length: 167 chars | source: fallback
+2026-06-10 10:34:30,447 [INFO] Text preview: Corporate PPA leaderboard – Microsoft leap cuts into Amazon lead - S&P Global
+
+Corporate PPA leaderboard – Microsoft leap cuts into Amazon lead &nbsp;&nbsp; S&P Global...
+2026-06-10 10:34:31,242 [INFO] LLM HTTP 200 for: Corporate PPA leaderboard – Microsoft leap cuts into Amazon 
+2026-06-10 10:34:31,242 [INFO] LLM extracted 1 deals (0 signed) | Corporate PPA leaderboard – Microsoft leap cuts in
+2026-06-10 10:34:31,244 [INFO] Not a signed deal — skipping: Corporate PPA leaderboard – Microsoft leap cuts into Amazon 
+2026-06-10 10:34:31,245 [INFO] ------- Processing article n. 0: Big Tech drives renewable PPA spike and more top energy stories - The World Econ -------
+2026-06-10 10:34:32,019 [INFO] Resolved Google News URL: https://www.weforum.org/stories/2025/03/tech-energy-demand-power-contracts-and-m
+2026-06-10 10:34:32,019 [INFO] URL: https://www.weforum.org/stories/2025/03/tech-energy-demand-power-contracts-and-more-top-energy-stories/
+2026-06-10 10:34:32,272 [INFO] Full text skipped (status 403): https://www.weforum.org/stories/2025/03/tech-energy-demand-power-contracts-and-m
+2026-06-10 10:34:32,272 [INFO] Text length: 193 chars | source: fallback
+2026-06-10 10:34:32,272 [INFO] Text preview: Big Tech drives renewable PPA spike and more top energy stories - The World Economic Forum
+
+Big Tech drives renewable PPA spike and more top energy stories &nbsp;&nbsp; The World Economic Forum...
+2026-06-10 10:34:33,107 [INFO] LLM HTTP 200 for: Big Tech drives renewable PPA spike and more top energy stor
+2026-06-10 10:34:33,107 [INFO] LLM extracted 1 deals (0 signed) | Big Tech drives renewable PPA spike and more top e
+2026-06-10 10:34:33,109 [INFO] Not a signed deal — skipping: Big Tech drives renewable PPA spike and more top energy stor
+2026-06-10 10:34:33,109 [INFO] ------- Processing article n. 0: Voltalia signs PPA for 526MW Uzbek hybrid renewables-plus-storage project - PV T -------
+2026-06-10 10:34:34,084 [INFO] Resolved Google News URL: https://www.pv-tech.org/voltalia-signs-ppa-for-526mw-uzbek-hybrid-renewables-plu
+2026-06-10 10:34:34,084 [INFO] URL: https://www.pv-tech.org/voltalia-signs-ppa-for-526mw-uzbek-hybrid-renewables-plus-storage-project/
+2026-06-10 10:34:34,976 [INFO] Text length: 7194 chars | source: full
+2026-06-10 10:34:34,977 [INFO] Text preview: Voltalia signs PPA for 526MW Uzbek hybrid renewables project - PV Tech Skip to content News Voltalia signs PPA for 526MW Uzbek hybrid renewables-plus-storage project By Will Norman March 12, 2025 Powe...
+2026-06-10 10:34:36,236 [INFO] LLM HTTP 200 for: Voltalia signs PPA for 526MW Uzbek hybrid renewables-plus-st
+2026-06-10 10:34:36,237 [INFO] LLM extracted 1 deals (1 signed) | Voltalia signs PPA for 526MW Uzbek hybrid renewabl
+2026-06-10 10:34:36,238 [INFO] Not a European deal — skipping: JSC Uzenergosotish / Voltalia (Uzbekistan, 526 MW)
+2026-06-10 10:34:36,238 [INFO] ------- Processing article n. 0: Iberdrola and Air Liquide sign a PPA to decarbonize industrial production in Spa -------
+2026-06-10 10:34:37,134 [INFO] Resolved Google News URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-and-air-liquide-sign-
+2026-06-10 10:34:37,134 [INFO] URL: https://www.iberdrola.com/press-room/news/detail/iberdrola-and-air-liquide-sign-a-ppa-to-decarbonize-industrial-production-in-spain-and-portugal
+2026-06-10 10:34:37,422 [INFO] Full text skipped (status 403): https://www.iberdrola.com/press-room/news/detail/iberdrola-and-air-liquide-sign-
+2026-06-10 10:34:37,422 [INFO] Text length: 227 chars | source: fallback
+2026-06-10 10:34:37,423 [INFO] Text preview: Iberdrola and Air Liquide sign a PPA to decarbonize industrial production in Spain and Portugal - Iberdrola
+
+Iberdrola and Air Liquide sign a PPA to decarbonize industrial production in Spain and Port...
+2026-06-10 10:34:38,319 [INFO] LLM HTTP 200 for: Iberdrola and Air Liquide sign a PPA to decarbonize industri
+2026-06-10 10:34:38,319 [INFO] LLM extracted 1 deals (1 signed) | Iberdrola and Air Liquide sign a PPA to decarboniz
+2026-06-10 10:34:38,321 [INFO] NEW: Air Liquide / Iberdrola (Spain, Portugal, None MW)
+2026-06-10 10:34:43,322 [INFO] ------- Processing article n. 1: Scatec inks PPA with Egypt Aluminium for 1GW solar + storage project - Enlit Wor -------
+2026-06-10 10:34:44,048 [INFO] Resolved Google News URL: https://www.enlit.world/library/scatec-inks-ppa-with-egypt-aluminium-for-1gw-sol
+2026-06-10 10:34:44,048 [INFO] URL: https://www.enlit.world/library/scatec-inks-ppa-with-egypt-aluminium-for-1gw-solar-storage-project
+2026-06-10 10:34:45,234 [INFO] Text length: 4581 chars | source: full
+2026-06-10 10:34:45,234 [INFO] Text preview: Scatec inks PPA with Egypt Aluminium for 1GW solar + storage project | Enlit World Enquire about or pre-register for Enlit Europe 2026 in Vienna More info Home / Library / Scatec inks PPA with Egypt A...
+2026-06-10 10:34:46,470 [INFO] LLM HTTP 200 for: Scatec inks PPA with Egypt Aluminium for 1GW solar + storage
+2026-06-10 10:34:46,470 [INFO] LLM extracted 1 deals (1 signed) | Scatec inks PPA with Egypt Aluminium for 1GW solar
+2026-06-10 10:34:46,472 [INFO] NEW: Egypt Aluminium / Scatec (Egypt, 1100 MW)
+2026-06-10 10:34:51,474 [INFO] ------- Processing article n. 2: Scatec signs PPA with Egypt Aluminium for major solar + BESS project - Scatec Gr -------
+2026-06-10 10:34:52,284 [INFO] Resolved Google News URL: https://www.scatec.com/en/scatec-signs-ppa-with-egypt-aluminium-for-major-solar-
+2026-06-10 10:34:52,285 [INFO] URL: https://www.scatec.com/en/scatec-signs-ppa-with-egypt-aluminium-for-major-solar-bess-project/
+2026-06-10 10:34:53,369 [INFO] Text length: 3135 chars | source: full
+2026-06-10 10:34:53,370 [INFO] Text preview: Scatec signs PPA with Egypt Aluminium for major solar + BESS project – Scatec Group Go back 13.03.2025 - Regulatory Scatec signs PPA with Egypt Aluminium for major solar + BESS project Oslo/Cairo, 13 ...
+2026-06-10 10:34:54,525 [INFO] LLM HTTP 200 for: Scatec signs PPA with Egypt Aluminium for major solar + BESS
+2026-06-10 10:34:54,525 [INFO] LLM extracted 1 deals (1 signed) | Scatec signs PPA with Egypt Aluminium for major so
+2026-06-10 10:34:54,527 [INFO] UPDATE: Egypt Aluminium / Scatec (Egypt, 1100 MW) — canonical ID: 101
+2026-06-10 10:34:59,528 [INFO] ------- Processing article n. 3: Uzbekistan: Voltalia signs PPA for solar-wind-battery hybrid, agreement for 1GWh -------
+2026-06-10 10:35:00,243 [INFO] Resolved Google News URL: https://www.energy-storage.news/uzbekistan-voltalia-signs-ppa-for-solar-wind-bat
+2026-06-10 10:35:00,243 [INFO] URL: https://www.energy-storage.news/uzbekistan-voltalia-signs-ppa-for-solar-wind-battery-hybrid-agreement-for-1gwh-bess/
+2026-06-10 10:35:00,950 [INFO] Text length: 6854 chars | source: full
+2026-06-10 10:35:00,950 [INFO] Text preview: Uzbekistan: Voltalia signs PPA for solar-wind-battery hybrid, agreement for 1GWh BESS - Energy-Storage.News Skip to content News Uzbekistan: Voltalia signs PPA for solar-wind-battery hybrid, agreement...
+2026-06-10 10:35:02,174 [INFO] LLM HTTP 200 for: Uzbekistan: Voltalia signs PPA for solar-wind-battery hybrid
+2026-06-10 10:35:02,174 [INFO] LLM extracted 1 deals (1 signed) | Uzbekistan: Voltalia signs PPA for solar-wind-batt
+2026-06-10 10:35:02,177 [INFO] Not a European deal — skipping: JSC Uzenergosotish / Voltalia (Uzbekistan, 126 MW)
+2026-06-10 10:35:02,177 [INFO] ------- Processing article n. 3: Investors Learn Brutal Lesson From Sweden’s Wind Farm Woes - Energy Connects -------
+2026-06-10 10:35:03,118 [INFO] Resolved Google News URL: https://www.energyconnects.com/news/renewables/2025/march/investors-learn-brutal
+2026-06-10 10:35:03,118 [INFO] URL: https://www.energyconnects.com/news/renewables/2025/march/investors-learn-brutal-lesson-from-sweden-s-wind-farm-woes/
+2026-06-10 10:35:03,909 [INFO] Text length: 10811 chars | source: full
+2026-06-10 10:35:03,909 [INFO] Text preview: Investors Learn Brutal Lesson From Sweden’s Wind Farm Woes Home News Renewables Investors Learn Brutal Lesson From Sweden’s Wind Farm Woes News Renewables Investors Learn Brutal Lesson From Sweden’s W...
+2026-06-10 10:35:05,162 [INFO] LLM HTTP 200 for: Investors Learn Brutal Lesson From Sweden’s Wind Farm Woes -
+2026-06-10 10:35:05,162 [INFO] LLM extracted 1 deals (1 signed) | Investors Learn Brutal Lesson From Sweden’s Wind F
+2026-06-10 10:35:05,164 [INFO] NEW: Norsk Hydro ASA / Markbygden Ett AB (Sweden, 1000 MW)
+2026-06-10 10:35:10,165 [INFO] ------- Processing article n. 4: Indonesia's New Regulation on Renewable PPAs – Supporting Renewable Power in a T -------
+2026-06-10 10:35:11,082 [INFO] Resolved Google News URL: https://www.ashurst.com/en/insights/indonesias-new-regulation-on-renewable-ppas-
+2026-06-10 10:35:11,082 [INFO] URL: https://www.ashurst.com/en/insights/indonesias-new-regulation-on-renewable-ppas-supporting-renewable-power/
+2026-06-10 10:35:12,529 [INFO] Text length: 24835 chars | source: full
+2026-06-10 10:35:12,530 [INFO] Text preview: Indonesia's New Regulation on Renewable PPAs – Supporting Renewable Power in a Time of Global Uncertainty Legal development Indonesia's New Regulation on Renewable PPAs – Supporting Renewable Power in...
+2026-06-10 10:35:13,397 [INFO] LLM HTTP 200 for: Indonesia's New Regulation on Renewable PPAs – Supporting Re
+2026-06-10 10:35:13,397 [INFO] LLM extracted 1 deals (0 signed) | Indonesia's New Regulation on Renewable PPAs – Sup
+2026-06-10 10:35:13,400 [INFO] Not a signed deal — skipping: Indonesia's New Regulation on Renewable PPAs – Supporting Re
+2026-06-10 10:35:13,400 [INFO] ------- Processing article n. 4: Energy Traders Europe calls on EU to prioritize energy market integration - Balk -------
+2026-06-10 10:35:14,297 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/energy-traders-europe-calls-on-eu-to-prioritiz
+2026-06-10 10:35:14,297 [INFO] URL: https://balkangreenenergynews.com/energy-traders-europe-calls-on-eu-to-prioritize-energy-market-integration/
+2026-06-10 10:35:15,777 [INFO] Text length: 8089 chars | source: full
+2026-06-10 10:35:15,777 [INFO] Text preview: Energy Traders Europe calls on EU to prioritize energy market integration Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems sha...
+2026-06-10 10:35:17,025 [INFO] LLM HTTP 200 for: Energy Traders Europe calls on EU to prioritize energy marke
+2026-06-10 10:35:17,025 [INFO] LLM extracted 1 deals (0 signed) | Energy Traders Europe calls on EU to prioritize en
+2026-06-10 10:35:17,026 [INFO] Not a signed deal — skipping: Energy Traders Europe calls on EU to prioritize energy marke
+2026-06-10 10:35:17,027 [INFO] ------- Processing article n. 4: France, Italy and the UK order more than 200 additional Aster missiles from MBDA -------
+2026-06-10 10:35:17,996 [INFO] Resolved Google News URL: https://www.navalnews.com/naval-news/2025/03/france-italy-and-the-uk-order-more-
+2026-06-10 10:35:17,996 [INFO] URL: https://www.navalnews.com/naval-news/2025/03/france-italy-and-the-uk-order-more-than-200-additional-aster-missiles-from-mbda/
+2026-06-10 10:35:19,330 [INFO] Text length: 6374 chars | source: full
+2026-06-10 10:35:19,331 [INFO] Text preview: France, Italy and the UK order more than 200 additional Aster missiles from MBDA - Naval News Home » France, Italy and the UK order more than 200 additional Aster missiles from MBDA France, Italy and ...
+2026-06-10 10:35:20,339 [INFO] LLM HTTP 200 for: France, Italy and the UK order more than 200 additional Aste
+2026-06-10 10:35:20,339 [INFO] LLM extracted 1 deals (0 signed) | France, Italy and the UK order more than 200 addit
+2026-06-10 10:35:20,341 [INFO] Not a signed deal — skipping: France, Italy and the UK order more than 200 additional Aste
+2026-06-10 10:35:20,341 [INFO] ------- Processing article n. 4: Serbia’s first-ever tokenization in energy sector: Saraorci solar project yields -------
+2026-06-10 10:35:21,193 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/serbias-first-ever-tokenization-in-energy-sect
+2026-06-10 10:35:21,193 [INFO] URL: https://balkangreenenergynews.com/serbias-first-ever-tokenization-in-energy-sector-saraorci-solar-project-yields-6-interest/
+2026-06-10 10:35:22,597 [INFO] Text length: 9847 chars | source: full
+2026-06-10 10:35:22,597 [INFO] Text preview: Serbia's first-ever tokenization in energy sector: Saraorci solar project yields 6% interest Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in ...
+2026-06-10 10:35:23,434 [INFO] LLM HTTP 200 for: Serbia’s first-ever tokenization in energy sector: Saraorci 
+2026-06-10 10:35:23,434 [INFO] LLM extracted 1 deals (0 signed) | Serbia’s first-ever tokenization in energy sector:
+2026-06-10 10:35:23,436 [INFO] Not a signed deal — skipping: Serbia’s first-ever tokenization in energy sector: Saraorci 
+2026-06-10 10:35:23,436 [INFO] ------- Processing article n. 4: Two Texas solar plants serve four buyers through energy attribute certificates - -------
+2026-06-10 10:35:24,303 [INFO] Resolved Google News URL: https://pv-magazine-usa.com/2025/03/12/two-texas-solar-plants-serve-four-buyers-
+2026-06-10 10:35:24,303 [INFO] URL: https://pv-magazine-usa.com/2025/03/12/two-texas-solar-plants-serve-four-buyers-through-energy-attribute-certificates/
+2026-06-10 10:35:26,097 [INFO] Text length: 8426 chars | source: full
+2026-06-10 10:35:26,097 [INFO] Text preview: Two Texas solar plants serve four buyers through energy attribute certificates - pv magazine USA Advertisement Advertisement Advertisement Advertisement Applications & Installations Two Texas solar pl...
+2026-06-10 10:35:27,281 [INFO] LLM HTTP 200 for: Two Texas solar plants serve four buyers through energy attr
+2026-06-10 10:35:27,281 [INFO] LLM extracted 1 deals (1 signed) | Two Texas solar plants serve four buyers through e
+2026-06-10 10:35:27,283 [INFO] Not a European deal — skipping: Biogen, Cisco, IDEXX Laboratories, Waters Corporation / X-ELIO (United States, 172 MW)
+2026-06-10 10:35:27,283 [INFO] ------- Processing article n. 4: Corporate Buyers Sign Deals with Texas Solar Energy Projects - POWER Magazine -------
+2026-06-10 10:35:28,069 [INFO] Resolved Google News URL: https://www.powermag.com/corporate-buyers-sign-deals-with-texas-solar-energy-pro
+2026-06-10 10:35:28,069 [INFO] URL: https://www.powermag.com/corporate-buyers-sign-deals-with-texas-solar-energy-projects/
+2026-06-10 10:35:28,229 [INFO] Text length: 9253 chars | source: full
+2026-06-10 10:35:28,229 [INFO] Text preview: Corporate Buyers Sign Deals with Texas Solar Energy Projects Energy & Engineering Group: Search Sign In Email or Username Password Forgot Password? Please contact our Customer Service Team if you are ...
+2026-06-10 10:35:29,563 [INFO] LLM HTTP 200 for: Corporate Buyers Sign Deals with Texas Solar Energy Projects
+2026-06-10 10:35:29,563 [INFO] LLM extracted 1 deals (1 signed) | Corporate Buyers Sign Deals with Texas Solar Energ
+2026-06-10 10:35:29,565 [INFO] Not a European deal — skipping: Cisco, Biogen, IDEXX Laboratories, Waters Corp. / X-ELIO (United States, 172 MW)
+2026-06-10 10:35:29,565 [INFO] ------- Processing article n. 4: Eksim Energy completes part of Turkey’s second-largest PV park - Balkan Green En -------
+2026-06-10 10:35:30,482 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/eksim-energy-completes-part-of-turkeys-second-
+2026-06-10 10:35:30,483 [INFO] URL: https://balkangreenenergynews.com/eksim-energy-completes-part-of-turkeys-second-largest-pv-park/
+2026-06-10 10:35:31,507 [INFO] Text length: 7375 chars | source: full
+2026-06-10 10:35:31,507 [INFO] Text preview: Eksim Energy completes part of Turkey's second-largest PV plant Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share China o...
+2026-06-10 10:35:32,672 [INFO] LLM HTTP 200 for: Eksim Energy completes part of Turkey’s second-largest PV pa
+2026-06-10 10:35:32,672 [INFO] LLM extracted 1 deals (1 signed) | Eksim Energy completes part of Turkey’s second-lar
+2026-06-10 10:35:32,674 [INFO] NEW: None / Eksim Energy (Turkey, 191.4 MW)
+2026-06-10 10:35:37,678 [INFO] ------- Processing article n. 5: WFW advises on sale of 494 MW Spanish PV plant to China Three Gorges Spain - Ibe -------
+2026-06-10 10:35:38,528 [INFO] Resolved Google News URL: https://iberianlawyer.com/wfw-advises-on-sale-of-494-mw-spanish-pv-plant-to-chin
+2026-06-10 10:35:38,528 [INFO] URL: https://iberianlawyer.com/wfw-advises-on-sale-of-494-mw-spanish-pv-plant-to-china-three-gorges-spain/
+2026-06-10 10:35:38,807 [INFO] Full text skipped (status 403): https://iberianlawyer.com/wfw-advises-on-sale-of-494-mw-spanish-pv-plant-to-chin
+2026-06-10 10:35:38,807 [INFO] Text length: 195 chars | source: fallback
+2026-06-10 10:35:38,807 [INFO] Text preview: WFW advises on sale of 494 MW Spanish PV plant to China Three Gorges Spain - Iberian Lawyer
+
+WFW advises on sale of 494 MW Spanish PV plant to China Three Gorges Spain &nbsp;&nbsp; Iberian Lawyer...
+2026-06-10 10:35:39,601 [INFO] LLM HTTP 200 for: WFW advises on sale of 494 MW Spanish PV plant to China Thre
+2026-06-10 10:35:39,601 [INFO] LLM extracted 1 deals (0 signed) | WFW advises on sale of 494 MW Spanish PV plant to 
+2026-06-10 10:35:39,603 [INFO] Not a signed deal — skipping: WFW advises on sale of 494 MW Spanish PV plant to China Thre
+2026-06-10 10:35:39,603 [INFO] ------- Processing article n. 5: Financing CCUS Projects - Global Cement -------
+2026-06-10 10:35:40,346 [INFO] Resolved Google News URL: https://www.globalcement.com/magazine/articles/1372-financing-ccus-projects
+2026-06-10 10:35:40,346 [INFO] URL: https://www.globalcement.com/magazine/articles/1372-financing-ccus-projects
+2026-06-10 10:35:41,457 [INFO] Text length: 11193 chars | source: full
+2026-06-10 10:35:41,457 [INFO] Text preview: Financing CCUS Projects Robert Jutson, Griffin Capital 14 March 2025 Heidelberg Materials’ carbon capture cement plant and CO₂ terminal, Brevik, Norway. How low-carbon cement projects can be delivered...
+2026-06-10 10:35:42,661 [INFO] LLM HTTP 200 for: Financing CCUS Projects - Global Cement
+2026-06-10 10:35:42,661 [INFO] LLM extracted 1 deals (1 signed) | Financing CCUS Projects - Global Cement
+2026-06-10 10:35:42,663 [INFO] Not a European deal — skipping: Canada Growth Fund / Entropy Inc. (Canada, None MW)
+2026-06-10 10:35:42,663 [INFO] ------- Processing article n. 5: Voltalia signs power purchase agreement in Uzbekistan - UzDaily -------
+2026-06-10 10:35:43,488 [INFO] Resolved Google News URL: https://www.uzdaily.uz/en/voltalia-signs-power-purchase-agreement-in-uzbekistan/
+2026-06-10 10:35:43,488 [INFO] URL: https://www.uzdaily.uz/en/voltalia-signs-power-purchase-agreement-in-uzbekistan/
+2026-06-10 10:35:43,944 [INFO] Text length: 4298 chars | source: full
+2026-06-10 10:35:43,944 [INFO] Text preview: Voltalia signs power purchase agreement in Uzbekistan — UzDaily.uz Categories Uzbekistan Economy Finance Technologies Culture Sports Tourism World Media OutReach Newswire Useful links About Us Conditi...
+2026-06-10 10:35:45,240 [INFO] LLM HTTP 200 for: Voltalia signs power purchase agreement in Uzbekistan - UzDa
+2026-06-10 10:35:45,240 [INFO] LLM extracted 1 deals (1 signed) | Voltalia signs power purchase agreement in Uzbekis
+2026-06-10 10:35:45,242 [INFO] Not a European deal — skipping: Uzenergotsotish JSC / Voltalia (Uzbekistan, 426 MW)
+2026-06-10 10:35:45,242 [INFO] ------- Processing article n. 5: AlphaReal acquires five UK solar assets in £160 million transaction - Solar Powe -------
+2026-06-10 10:35:46,021 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-investment/alphareal-acquires-five-uk-s
+2026-06-10 10:35:46,021 [INFO] URL: https://www.solarpowerportal.co.uk/solar-investment/alphareal-acquires-five-uk-solar-assets-in-160-million-transaction
+2026-06-10 10:35:46,843 [INFO] Text length: 3951 chars | source: full
+2026-06-10 10:35:46,844 [INFO] Text preview: AlphaReal acquires five UK solar assets in £160 million transcation - Solar Power Portal Solar Investment News AlphaReal acquires five UK solar assets in £160 million transaction Asset investment mana...
+2026-06-10 10:35:47,842 [INFO] LLM HTTP 200 for: AlphaReal acquires five UK solar assets in £160 million tran
+2026-06-10 10:35:47,842 [INFO] LLM extracted 1 deals (1 signed) | AlphaReal acquires five UK solar assets in £160 mi
+2026-06-10 10:35:47,844 [INFO] NEW: Asahi Europe & International / European Energy (United Kingdom, 19 MW)
+2026-06-10 10:35:52,845 [INFO] ------- Processing article n. 6: Voltalia signs long-term power purchase agreement in Uzbekistan – News from Uzbe -------
+2026-06-10 10:35:53,605 [INFO] Resolved Google News URL: https://www.gazeta.uz/en/2025/03/14/voltalia-uzbekistan/
+2026-06-10 10:35:53,605 [INFO] URL: https://www.gazeta.uz/en/2025/03/14/voltalia-uzbekistan/
+2026-06-10 10:35:54,429 [INFO] Text length: 6355 chars | source: full
+2026-06-10 10:35:54,429 [INFO] Text preview: Voltalia signs long-term power purchase agreement in Uzbekistan – News from Uzbekistan – Gazeta Politics Economy Society Columns WC 2026 calendar <a href='https://oa.afishamedia.net/www/delivery/ck.ph...
+2026-06-10 10:35:55,747 [INFO] LLM HTTP 200 for: Voltalia signs long-term power purchase agreement in Uzbekis
+2026-06-10 10:35:55,747 [INFO] LLM extracted 1 deals (1 signed) | Voltalia signs long-term power purchase agreement 
+2026-06-10 10:35:55,749 [INFO] Not a European deal — skipping: Uzenergosotish / Voltalia (Uzbekistan, 426 MW)
+2026-06-10 10:35:55,749 [INFO] ------- Processing article n. 6: It will soon be possible to have several electricity contracts per location - ER -------
+2026-06-10 10:35:56,594 [INFO] Resolved Google News URL: https://news.err.ee/1609631585/it-will-soon-be-possible-to-have-several-electric
+2026-06-10 10:35:56,595 [INFO] URL: https://news.err.ee/1609631585/it-will-soon-be-possible-to-have-several-electricity-contracts-per-location
+2026-06-10 10:35:57,247 [INFO] Full text skipped (status 403): https://news.err.ee/1609631585/it-will-soon-be-possible-to-have-several-electric
+2026-06-10 10:35:57,248 [INFO] Text length: 175 chars | source: fallback
+2026-06-10 10:35:57,248 [INFO] Text preview: It will soon be possible to have several electricity contracts per location - ERR
+
+It will soon be possible to have several electricity contracts per location &nbsp;&nbsp; ERR...
+2026-06-10 10:35:58,116 [INFO] LLM HTTP 200 for: It will soon be possible to have several electricity contrac
+2026-06-10 10:35:58,116 [INFO] LLM extracted 1 deals (0 signed) | It will soon be possible to have several electrici
+2026-06-10 10:35:58,117 [INFO] Not a signed deal — skipping: It will soon be possible to have several electricity contrac
+2026-06-10 10:35:58,118 [INFO] ------- Processing article n. 6: Belgrade Energy Forum 2025 – where the leaders of energy transition in SEE meet  -------
+2026-06-10 10:35:58,890 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/belgrade-energy-forum-2025-where-the-leaders-o
+2026-06-10 10:35:58,890 [INFO] URL: https://balkangreenenergynews.com/belgrade-energy-forum-2025-where-the-leaders-of-energy-transition-in-see-meet-may-14-15/
+2026-06-10 10:36:00,404 [INFO] Text length: 15918 chars | source: full
+2026-06-10 10:36:00,404 [INFO] Text preview: Belgrade Energy Forum 2025 – where the leaders of energy transition in SEE meet (May 14-15) Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in b...
+2026-06-10 10:36:01,252 [INFO] LLM HTTP 200 for: Belgrade Energy Forum 2025 – where the leaders of energy tra
+2026-06-10 10:36:01,252 [INFO] LLM extracted 1 deals (0 signed) | Belgrade Energy Forum 2025 – where the leaders of 
+2026-06-10 10:36:01,254 [INFO] Not a signed deal — skipping: Belgrade Energy Forum 2025 – where the leaders of energy tra
+2026-06-10 10:36:01,254 [INFO] ------- Processing article n. 6: Recurrent Energy firma un PPA con Qualcomm para un proyecto solar en España - El -------
+2026-06-10 10:36:02,164 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/recurrent-energy-firma-un-ppa-con-qualcomm-pa
+2026-06-10 10:36:02,165 [INFO] URL: https://elperiodicodelaenergia.com/recurrent-energy-firma-un-ppa-con-qualcomm-para-un-proyecto-solar-en-espana/
+2026-06-10 10:36:02,733 [INFO] Text length: 4442 chars | source: full
+2026-06-10 10:36:02,733 [INFO] Text preview: Recurrent Energy firma un PPA con Qualcomm para un proyecto solar en España Miércoles, 10 de junio de 2026 ÓN | Las centrales de bombeo hidroeléctrico, la gran ventaja competitiva en España a la que n...
+2026-06-10 10:36:03,899 [INFO] LLM HTTP 200 for: Recurrent Energy firma un PPA con Qualcomm para un proyecto 
+2026-06-10 10:36:03,899 [INFO] LLM extracted 1 deals (1 signed) | Recurrent Energy firma un PPA con Qualcomm para un
+2026-06-10 10:36:03,901 [INFO] NEW: Qualcomm Incorporated / Recurrent Energy (Spain, None MW)
+2026-06-10 10:36:08,903 [INFO] ------- Processing article n. 7: Air Liquide electrificará sus operaciones en España con energía renovable de Ibe -------
+2026-06-10 10:36:09,896 [INFO] Resolved Google News URL: https://www.elconciso.es/energia/air-liquide-espana-energia-renovable-iberdrola_
+2026-06-10 10:36:09,896 [INFO] URL: https://www.elconciso.es/energia/air-liquide-espana-energia-renovable-iberdrola_0_2003522862.html
+2026-06-10 10:36:10,903 [INFO] Text length: 4272 chars | source: full
+2026-06-10 10:36:10,903 [INFO] Text preview: Air Liquide electrificará sus operaciones en España con energía renovable de Iberdrola Instalaciones de Air Liquide en Huelva / Josué Correa Air Liquide ha firmado un acuerdo de compra de energía a la...
+2026-06-10 10:36:12,064 [INFO] LLM HTTP 200 for: Air Liquide electrificará sus operaciones en España con ener
+2026-06-10 10:36:12,064 [INFO] LLM extracted 1 deals (1 signed) | Air Liquide electrificará sus operaciones en Españ
+2026-06-10 10:36:12,066 [INFO] NEW: Air Liquide / Iberdrola (Spain, Portugal, 25 MW)
+2026-06-10 10:36:17,068 [INFO] ------- Processing article n. 8: Stellantis y Prosolia firman un PPA por 120 MW para las fábricas de Francia y Al -------
+2026-06-10 10:36:17,964 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2025/03/14/stellantis-y-prosolia-firman-un-ppa-por-12
+2026-06-10 10:36:17,964 [INFO] URL: https://www.pv-magazine.es/2025/03/14/stellantis-y-prosolia-firman-un-ppa-por-120-mw-para-las-fabricas-de-francia-y-alemania/
+2026-06-10 10:36:18,942 [INFO] Text length: 7486 chars | source: full
+2026-06-10 10:36:18,943 [INFO] Text preview: Stellantis y Prosolia firman un PPA por 120 MW para las fábricas de Francia y Alemania - pv magazine España Anuncio Anuncio Anuncio Anuncio Instalaciones Stellantis y Prosolia firman un PPA por 120 MW...
+2026-06-10 10:36:20,343 [INFO] LLM HTTP 200 for: Stellantis y Prosolia firman un PPA por 120 MW para las fábr
+2026-06-10 10:36:20,343 [INFO] LLM extracted 1 deals (1 signed) | Stellantis y Prosolia firman un PPA por 120 MW par
+2026-06-10 10:36:20,345 [INFO] NEW: Stellantis / Prosolia Energy (France, Germany, 119.6 MW)
+2026-06-10 10:36:25,346 [INFO] ------- Processing article n. 9: Iberdrola y Air Liquide se unen en alianza estratégica para suministro de energí -------
+2026-06-10 10:36:26,287 [INFO] Resolved Google News URL: https://es.finance.yahoo.com/noticias/iberdrola-air-liquide-unen-alianza-1200000
+2026-06-10 10:36:26,287 [INFO] URL: https://es.finance.yahoo.com/noticias/iberdrola-air-liquide-unen-alianza-120000091.html
+2026-06-10 10:36:27,306 [INFO] Text length: 4803 chars | source: full
+2026-06-10 10:36:27,306 [INFO] Text preview: Iberdrola y Air Liquide se unen en alianza estratégica para suministro de energía renovable ¡Vaya! Parece que algo no ha ido bien Saltar a la navegación Pasar a contenido principal Saltar a la columna...
+2026-06-10 10:36:28,478 [INFO] LLM HTTP 200 for: Iberdrola y Air Liquide se unen en alianza estratégica para 
+2026-06-10 10:36:28,478 [INFO] LLM extracted 1 deals (1 signed) | Iberdrola y Air Liquide se unen en alianza estraté
+2026-06-10 10:36:28,480 [INFO] NEW: Air Liquide / Iberdrola (Spain, 25 MW)
+2026-06-10 10:36:33,482 [INFO] Run complete. New deals: 10, Updates: 0
+2026-06-10 10:36:33,483 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (99 deals)
