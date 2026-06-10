@@ -1,0 +1,229 @@
+2026-06-10 07:23:01,706 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-06-10 07:23:01,707 [INFO] Searching from 2025-01-08 to 2025-01-14 with 3 loockback days
+2026-06-10 07:23:01,707 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-10 07:23:02,012 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=PPA%20signed%20Europe%20after%3A2025-01-08%20before%3A2025-01-14&hl=en&gl=US&ceid=US:en: 6 results
+2026-06-10 07:23:04,358 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-01-08%20before%3A2025-01-14&hl=en&gl=US&ceid=US:en: 20 results
+2026-06-10 07:23:06,580 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20unterzeichnet%20Deutschland%20after%3A2025-01-08%20before%3A2025-01-14&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-10 07:23:08,832 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20sign%C3%A9%20France%20after%3A2025-01-08%20before%3A2025-01-14&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-06-10 07:23:11,035 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20firmado%20Espana%20after%3A2025-01-08%20before%3A2025-01-14&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-06-10 07:23:13,266 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20Italia%20after%3A2025-01-08%20before%3A2025-01-14&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-10 07:23:15,470 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=PPA%20podpisany%20Polen%20after%3A2025-01-08%20before%3A2025-01-14&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-06-10 07:23:17,678 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20ondertekend%20Niederlanden%20after%3A2025-01-08%20before%3A2025-01-14&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-10 07:23:19,914 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20assinado%20Portugal%20after%3A2025-01-08%20before%3A2025-01-14&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-10 07:23:21,915 [INFO] Total raw articles collected: 28
+2026-06-10 07:23:21,939 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-10 07:23:23,547 [INFO] Extra RSS [elperiodicodelaenergia.com]: 6 results
+2026-06-10 07:23:24,548 [INFO] Unique unseen articles: 24
+2026-06-10 07:23:24,548 [INFO] ------- Processing article n. 0: Low Carbon signs long-term Power Purchase Agreement with carbon removal project  -------
+2026-06-10 07:23:25,345 [INFO] Resolved Google News URL: https://www.deepskyclimate.com/blog/low-carbon-signs-long-term-power-purchase-ag
+2026-06-10 07:23:25,345 [INFO] URL: https://www.deepskyclimate.com/blog/low-carbon-signs-long-term-power-purchase-agreement-with-carbon-removal-project-developer-deep-sky
+2026-06-10 07:23:25,461 [INFO] Text length: 8854 chars | source: full
+2026-06-10 07:23:25,461 [INFO] Text preview: Low Carbon signs long-term Power Purchase Agreement with carbon removal project developer Deep Sky L O O G Menu REMOVE CARBON Subscribe to our newsletter The place for unfiltered climate news and Deep...
+2026-06-10 07:23:26,935 [INFO] LLM HTTP 200 for: Low Carbon signs long-term Power Purchase Agreement with car
+2026-06-10 07:23:26,935 [INFO] LLM extracted 2 deals (2 signed) | Low Carbon signs long-term Power Purchase Agreemen
+2026-06-10 07:23:26,937 [INFO] Not a European deal — skipping: Deep Sky / Low Carbon (Canada, None MW)
+2026-06-10 07:23:26,938 [INFO] NEW: Lloyds Banking Group / Low Carbon (UK, None MW)
+2026-06-10 07:23:31,939 [INFO] ------- Processing article n. 1: Deep Sky, Low Carbon to Power Carbon Removal Project with 100% Renewable Energy  -------
+2026-06-10 07:23:32,164 [INFO] Resolved Google News URL: https://www.esgtoday.com/deep-sky-low-carbon-to-power-carbon-removal-project-wit
+2026-06-10 07:23:32,164 [INFO] URL: https://www.esgtoday.com/deep-sky-low-carbon-to-power-carbon-removal-project-with-100-renewable-energy/
+2026-06-10 07:23:32,455 [INFO] Text length: 12280 chars | source: full
+2026-06-10 07:23:32,455 [INFO] Text preview: Deep Sky, Low Carbon to Power Carbon Removal Project with 100% Renewable Energy - ESG Today Energy Transition / Environment Deep Sky, Low Carbon to Power Carbon Removal Project with 100% Renewable Ene...
+2026-06-10 07:23:33,522 [INFO] LLM HTTP 200 for: Deep Sky, Low Carbon to Power Carbon Removal Project with 10
+2026-06-10 07:23:33,522 [INFO] LLM extracted 1 deals (1 signed) | Deep Sky, Low Carbon to Power Carbon Removal Proje
+2026-06-10 07:23:33,524 [INFO] Not a European deal — skipping: Deep Sky / Low Carbon (Canada, None MW)
+2026-06-10 07:23:33,524 [INFO] ------- Processing article n. 1: VIDEO: Solar industry to face high capital cost and local opposition in 2025 - S -------
+2026-06-10 07:23:33,765 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-projects/video-solar-industry-to-face-h
+2026-06-10 07:23:33,765 [INFO] URL: https://www.solarpowerportal.co.uk/solar-projects/video-solar-industry-to-face-high-capital-cost-and-local-opposition-in-2025
+2026-06-10 07:23:33,820 [INFO] Text length: 3582 chars | source: full
+2026-06-10 07:23:33,820 [INFO] Text preview: VIDEO: Solar industry to face high capital cost and local opposition in 2025 -  Solar Power Portal Solar Projects News VIDEO: Solar industry to face high capital cost and local opposition in 2025 Grow...
+2026-06-10 07:23:34,640 [INFO] LLM HTTP 200 for: VIDEO: Solar industry to face high capital cost and local op
+2026-06-10 07:23:34,640 [INFO] LLM extracted 1 deals (0 signed) | VIDEO: Solar industry to face high capital cost an
+2026-06-10 07:23:34,642 [INFO] Not a signed deal — skipping: VIDEO: Solar industry to face high capital cost and local op
+2026-06-10 07:23:34,642 [INFO] ------- Processing article n. 1: DTEK’s subsidiary DRI completes Glodeni 2 solar park in Romania - Balkan Green E -------
+2026-06-10 07:23:34,881 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/dteks-subsidiary-dri-completes-glodeni-2-solar
+2026-06-10 07:23:34,881 [INFO] URL: https://balkangreenenergynews.com/dteks-subsidiary-dri-completes-glodeni-2-solar-park-in-romania/
+2026-06-10 07:23:35,905 [INFO] Text length: 6921 chars | source: full
+2026-06-10 07:23:35,905 [INFO] Text preview: DTEK's subsidiary DRI completes Glodeni 2 solar park in Romania Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share China o...
+2026-06-10 07:23:39,635 [INFO] LLM HTTP 200 for: DTEK’s subsidiary DRI completes Glodeni 2 solar park in Roma
+2026-06-10 07:23:39,635 [INFO] LLM extracted 1 deals (1 signed) | DTEK’s subsidiary DRI completes Glodeni 2 solar pa
+2026-06-10 07:23:39,637 [INFO] NEW: OMV Petrom / DTEK Renewables International (DRI) (Romania, 113 MW)
+2026-06-10 07:23:44,638 [INFO] ------- Processing article n. 2: NBN signs six year PPA with operator of Australia's largest wind farm - Data Cen -------
+2026-06-10 07:23:45,261 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/nbn-signs-six-year-ppa-with-operator-
+2026-06-10 07:23:45,261 [INFO] URL: https://www.datacenterdynamics.com/en/news/nbn-signs-six-year-ppa-with-operator-of-australias-largest-wind-farm/
+2026-06-10 07:23:45,935 [INFO] Text length: 2999 chars | source: full
+2026-06-10 07:23:45,935 [INFO] Text preview: NBN signs six year PPA with operator of Australia's largest wind farm - DCD Home News The Energy & Sustainability Channel NBN signs six year PPA with operator of Australia's largest wind farm NBN will...
+2026-06-10 07:23:48,078 [INFO] LLM HTTP 200 for: NBN signs six year PPA with operator of Australia's largest 
+2026-06-10 07:23:48,078 [INFO] LLM extracted 3 deals (3 signed) | NBN signs six year PPA with operator of Australia'
+2026-06-10 07:23:48,080 [INFO] Not a European deal — skipping: NBN Co / AGL Energy (Australia, 420 MW)
+2026-06-10 07:23:48,080 [INFO] Not a European deal — skipping: NBN Co / unknown (Australia, 75 MW)
+2026-06-10 07:23:48,081 [INFO] Not a European deal — skipping: NBN Co / unknown (Australia, 120 MW)
+2026-06-10 07:23:48,081 [INFO] ------- Processing article n. 2: Bauer Media to Acquire Clear Channel Europe - ppa.co.uk -------
+2026-06-10 07:23:48,881 [INFO] Resolved Google News URL: https://ppa.co.uk/bauer-media-to-acquire-clear-channel-europe
+2026-06-10 07:23:48,881 [INFO] URL: https://ppa.co.uk/bauer-media-to-acquire-clear-channel-europe
+2026-06-10 07:23:49,701 [INFO] Text length: 4270 chars | source: full
+2026-06-10 07:23:49,701 [INFO] Text preview: Bauer Media to Acquire Clear Channel Europe - PPA Skip to content Industry News Bauer Media to Acquire Clear Channel Europe Industry News Bauer Media to Acquire Clear Channel Europe 10 January 2025 De...
+2026-06-10 07:23:50,673 [INFO] LLM HTTP 200 for: Bauer Media to Acquire Clear Channel Europe - ppa.co.uk
+2026-06-10 07:23:50,673 [INFO] LLM extracted 1 deals (0 signed) | Bauer Media to Acquire Clear Channel Europe - ppa.
+2026-06-10 07:23:50,674 [INFO] Not a signed deal — skipping: Bauer Media to Acquire Clear Channel Europe - ppa.co.uk
+2026-06-10 07:23:50,675 [INFO] ------- Processing article n. 2: Europe gets 20% of its electricity from wind. But not enough new wind farms bein -------
+2026-06-10 07:23:51,208 [INFO] Resolved Google News URL: https://windeurope.org/news/europe-gets-20-of-its-electricity-from-wind-but-not-
+2026-06-10 07:23:51,208 [INFO] URL: https://windeurope.org/news/europe-gets-20-of-its-electricity-from-wind-but-not-enough-new-wind-farms-being-built-urgent-action-needed-on-permitting-grids-and-electrification/
+2026-06-10 07:23:51,769 [INFO] Text length: 5558 chars | source: full
+2026-06-10 07:23:51,769 [INFO] Text preview: Europe gets 20% of its electricity from wind. But not enough new wind farms being built. Urgent action needed on permitting, grids and electrification - WindEurope News Europe gets 20% of its electric...
+2026-06-10 07:23:52,633 [INFO] LLM HTTP 200 for: Europe gets 20% of its electricity from wind. But not enough
+2026-06-10 07:23:52,634 [INFO] LLM extracted 1 deals (0 signed) | Europe gets 20% of its electricity from wind. But 
+2026-06-10 07:23:52,636 [INFO] Not a signed deal — skipping: Europe gets 20% of its electricity from wind. But not enough
+2026-06-10 07:23:52,636 [INFO] ------- Processing article n. 2: Italy and Saudi Arabia sign energy cooperation agreement - Reuters -------
+2026-06-10 07:23:53,305 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/italy-saudi-arabia-sign-energy-cooperati
+2026-06-10 07:23:53,305 [INFO] URL: https://www.reuters.com/business/energy/italy-saudi-arabia-sign-energy-cooperation-agreement-2025-01-14/
+2026-06-10 07:23:53,446 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/italy-saudi-arabia-sign-energy-cooperati
+2026-06-10 07:23:53,446 [INFO] Text length: 145 chars | source: fallback
+2026-06-10 07:23:53,446 [INFO] Text preview: Italy and Saudi Arabia sign energy cooperation agreement - Reuters
+
+Italy and Saudi Arabia sign energy cooperation agreement &nbsp;&nbsp; Reuters...
+2026-06-10 07:23:54,219 [INFO] LLM HTTP 200 for: Italy and Saudi Arabia sign energy cooperation agreement - R
+2026-06-10 07:23:54,219 [INFO] LLM extracted 1 deals (0 signed) | Italy and Saudi Arabia sign energy cooperation agr
+2026-06-10 07:23:54,221 [INFO] Not a signed deal — skipping: Italy and Saudi Arabia sign energy cooperation agreement - R
+2026-06-10 07:23:54,221 [INFO] ------- Processing article n. 2: Europe’s wind power hits 20%, but 3 challenges stall progress - Electrek -------
+2026-06-10 07:23:54,814 [INFO] Resolved Google News URL: https://electrek.co/2025/01/10/europe-wind-power-hits-20-but-3-challenges-stall-
+2026-06-10 07:23:54,814 [INFO] URL: https://electrek.co/2025/01/10/europe-wind-power-hits-20-but-3-challenges-stall-progress/
+2026-06-10 07:23:55,456 [INFO] Text length: 6838 chars | source: full
+2026-06-10 07:23:55,456 [INFO] Text preview: Europe’s wind power hits 20%, but 3 challenges stall progress | Electrek Skip to main content Green Energy Electrek Green Energy Brief EGEB Wind power Offshore wind power Europe’s wind power hits 20%,...
+2026-06-10 07:23:56,393 [INFO] LLM HTTP 200 for: Europe’s wind power hits 20%, but 3 challenges stall progres
+2026-06-10 07:23:56,394 [INFO] LLM extracted 1 deals (0 signed) | Europe’s wind power hits 20%, but 3 challenges sta
+2026-06-10 07:23:56,395 [INFO] Not a signed deal — skipping: Europe’s wind power hits 20%, but 3 challenges stall progres
+2026-06-10 07:23:56,395 [INFO] ------- Processing article n. 2: Wind power generates 20% of Europe's electricity, but additional wind farms are  -------
+2026-06-10 07:23:57,221 [INFO] Resolved Google News URL: https://www.review-energy.com/eolico/wind-power-generates-20-of-europe-s-electri
+2026-06-10 07:23:57,222 [INFO] URL: https://www.review-energy.com/eolico/wind-power-generates-20-of-europe-s-electricity-but-additional-wind-farms-are-required
+2026-06-10 07:24:09,430 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.review-energy.com', port=443): Max retries exceeded with url: /eolico/wind-power-generates-20-of-europe-s-electricity-but-additional-wind-farms-are-required (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.review-energy.com', port=443) at 0x7f74cfd74190>, 'Connection to www.review-energy.com timed out. (connect timeout=12)'))): https://www.review-energy.com/eolico/wind-power-generates-20-of-europe-s-electri
+2026-06-10 07:24:09,430 [INFO] Text length: 221 chars | source: fallback
+2026-06-10 07:24:09,430 [INFO] Text preview: Wind power generates 20% of Europe's electricity, but additional wind farms are required - Review Energy
+
+Wind power generates 20% of Europe's electricity, but additional wind farms are required &nbsp...
+2026-06-10 07:24:10,191 [INFO] LLM HTTP 200 for: Wind power generates 20% of Europe's electricity, but additi
+2026-06-10 07:24:10,191 [INFO] LLM extracted 1 deals (0 signed) | Wind power generates 20% of Europe's electricity, 
+2026-06-10 07:24:10,193 [INFO] Not a signed deal — skipping: Wind power generates 20% of Europe's electricity, but additi
+2026-06-10 07:24:10,193 [INFO] ------- Processing article n. 2: Five Energy Transition Lessons for 2025 - BloombergNEF -------
+2026-06-10 07:24:10,728 [INFO] Resolved Google News URL: https://about.bnef.com/insights/clean-energy/five-energy-transition-lessons-for-
+2026-06-10 07:24:10,728 [INFO] URL: https://about.bnef.com/insights/clean-energy/five-energy-transition-lessons-for-2025/
+2026-06-10 07:24:12,557 [INFO] Text length: 19232 chars | source: full
+2026-06-10 07:24:12,557 [INFO] Text preview: Five Energy Transition Lessons for 2025 | BloombergNEF PRESS RELEASE Five Energy Transition Lessons for 2025 Clean Energy January 9, 2025 By Albert Cheung, Deputy CEO, Head of Global Transition Analys...
+2026-06-10 07:24:13,371 [INFO] LLM HTTP 200 for: Five Energy Transition Lessons for 2025 - BloombergNEF
+2026-06-10 07:24:13,371 [INFO] LLM extracted 1 deals (0 signed) | Five Energy Transition Lessons for 2025 - Bloomber
+2026-06-10 07:24:13,375 [INFO] Not a signed deal — skipping: Five Energy Transition Lessons for 2025 - BloombergNEF
+2026-06-10 07:24:13,375 [INFO] ------- Processing article n. 2: EDP Renewables announces another 300 MW of solar now operational in Kern County  -------
+2026-06-10 07:24:14,138 [INFO] Resolved Google News URL: https://pv-magazine-usa.com/2025/01/08/edp-renewables-announces-another-300-mw-o
+2026-06-10 07:24:14,138 [INFO] URL: https://pv-magazine-usa.com/2025/01/08/edp-renewables-announces-another-300-mw-of-solar-now-operational-in-kern-county/
+2026-06-10 07:24:15,457 [INFO] Text length: 9310 chars | source: full
+2026-06-10 07:24:15,457 [INFO] Text preview: EDP Renewables announces another 300 MW of solar now operational in Kern County - pv magazine USA Advertisement Advertisement Advertisement Advertisement Applications & Installations EDP Renewables an...
+2026-06-10 07:24:17,043 [INFO] LLM HTTP 200 for: EDP Renewables announces another 300 MW of solar now operati
+2026-06-10 07:24:17,044 [INFO] LLM extracted 2 deals (2 signed) | EDP Renewables announces another 300 MW of solar n
+2026-06-10 07:24:17,045 [INFO] Not a European deal — skipping: Shell Energy North America / EDP Renewables North America LLC (United States, 200 MW)
+2026-06-10 07:24:17,045 [INFO] Not a European deal — skipping: Redwood Coast Energy Authority / EDP Renewables North America LLC (United States, 100 MW)
+2026-06-10 07:24:17,045 [INFO] ------- Processing article n. 2: France’s Nuclear Power Industry Makes Its Presence Felt During the Ukraine Crisi -------
+2026-06-10 07:24:17,765 [INFO] Resolved Google News URL: https://www.spf.org/iina/en/articles/takahashi_04.html
+2026-06-10 07:24:17,765 [INFO] URL: https://www.spf.org/iina/en/articles/takahashi_04.html
+2026-06-10 07:24:18,659 [INFO] Text length: 18397 chars | source: full
+2026-06-10 07:24:18,659 [INFO] Text preview: France’s Nuclear Power Industry Makes Its Presence Felt During the Ukraine Crisis ― Energy Cooperation with Europe and the United States and the Future of the Procurement of Uranium from Niger | List ...
+2026-06-10 07:24:19,483 [INFO] LLM HTTP 200 for: France’s Nuclear Power Industry Makes Its Presence Felt Duri
+2026-06-10 07:24:19,483 [INFO] LLM extracted 1 deals (0 signed) | France’s Nuclear Power Industry Makes Its Presence
+2026-06-10 07:24:19,485 [INFO] Not a signed deal — skipping: France’s Nuclear Power Industry Makes Its Presence Felt Duri
+2026-06-10 07:24:19,485 [INFO] ------- Processing article n. 2: WindEurope: EU building less than half capacity needed for 2030 goal - Balkan Gr -------
+2026-06-10 07:24:20,238 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity
+2026-06-10 07:24:20,238 [INFO] URL: https://balkangreenenergynews.com/windeurope-eu-building-less-than-half-capacity-needed-for-2030-goal/
+2026-06-10 07:24:21,336 [INFO] Text length: 8547 chars | source: full
+2026-06-10 07:24:21,336 [INFO] Text preview: WindEurope: EU building less than half capacity needed for 2030 goal Trending: Turning point for power market as BESS is no longer optional Bulgaria surges to world’s No. 1 in battery systems share Ch...
+2026-06-10 07:24:22,145 [INFO] LLM HTTP 200 for: WindEurope: EU building less than half capacity needed for 2
+2026-06-10 07:24:22,145 [INFO] LLM extracted 1 deals (0 signed) | WindEurope: EU building less than half capacity ne
+2026-06-10 07:24:22,148 [INFO] Not a signed deal — skipping: WindEurope: EU building less than half capacity needed for 2
+2026-06-10 07:24:22,148 [INFO] ------- Processing article n. 2: As AI booms, here’s how Microsoft and Amazon are coming up with energy solutions -------
+2026-06-10 07:24:22,724 [INFO] Resolved Google News URL: https://www.geekwire.com/2025/as-ai-booms-heres-how-microsoft-and-amazon-are-com
+2026-06-10 07:24:22,724 [INFO] URL: https://www.geekwire.com/2025/as-ai-booms-heres-how-microsoft-and-amazon-are-coming-up-with-energy-solutions/
+2026-06-10 07:24:22,817 [INFO] Text length: 8418 chars | source: full
+2026-06-10 07:24:22,817 [INFO] Text preview: How Microsoft and Amazon are coming up with energy solutions What happens here matters everywhere. Sustainability: News about the rapidly growing climate tech sector and other areas of innovation to p...
+2026-06-10 07:24:24,536 [INFO] LLM HTTP 200 for: As AI booms, here’s how Microsoft and Amazon are coming up w
+2026-06-10 07:24:24,536 [INFO] LLM extracted 2 deals (2 signed) | As AI booms, here’s how Microsoft and Amazon are c
+2026-06-10 07:24:24,538 [INFO] Not a European deal — skipping: Microsoft / Helion Energy (United States, None MW)
+2026-06-10 07:24:24,538 [INFO] Not a European deal — skipping: Amazon / Iberdrola (None, None MW)
+2026-06-10 07:24:24,538 [INFO] ------- Processing article n. 2: Niger’s Uranium Still Interests Europe - Capmad.com -------
+2026-06-10 07:24:25,141 [INFO] Resolved Google News URL: https://www.capmad.com/mining-en/nigers-uranium-still-interests-europe/
+2026-06-10 07:24:25,141 [INFO] URL: https://www.capmad.com/mining-en/nigers-uranium-still-interests-europe/
+2026-06-10 07:24:32,604 [INFO] Text length: 6380 chars | source: full
+2026-06-10 07:24:32,604 [INFO] Text preview: Niger's Uranium Still Interests Europe Niger’s Uranium Still Interests Europe Home > Blog > Mining > Niger’s Uranium Still Interests Europe Mining Niger’s Uranium Still Interests Europe Mining Mia.R J...
+2026-06-10 07:24:33,412 [INFO] LLM HTTP 200 for: Niger’s Uranium Still Interests Europe - Capmad.com
+2026-06-10 07:24:33,412 [INFO] LLM extracted 1 deals (0 signed) | Niger’s Uranium Still Interests Europe - Capmad.co
+2026-06-10 07:24:33,414 [INFO] Not a signed deal — skipping: Niger’s Uranium Still Interests Europe - Capmad.com
+2026-06-10 07:24:33,414 [INFO] ------- Processing article n. 2: Oman LNG delivers first cargo from 10-year deal to its largest offtaker Shell -  -------
+2026-06-10 07:24:34,127 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/oman-lng-delivers-first-cargo-from-10-year-deal-
+2026-06-10 07:24:34,128 [INFO] URL: https://www.offshore-energy.biz/oman-lng-delivers-first-cargo-from-10-year-deal-to-its-largest-offtaker-shell/
+2026-06-10 07:24:36,098 [INFO] Text length: 4201 chars | source: full
+2026-06-10 07:24:36,098 [INFO] Text preview: Oman LNG delivers first cargo from 10-year deal to its largest offtaker Shell - Offshore Energy Direct naar inhoud Advertisement Back to overview Home News Oman LNG delivers first cargo from 10-year d...
+2026-06-10 07:24:37,056 [INFO] LLM HTTP 200 for: Oman LNG delivers first cargo from 10-year deal to its large
+2026-06-10 07:24:37,056 [INFO] LLM extracted 1 deals (0 signed) | Oman LNG delivers first cargo from 10-year deal to
+2026-06-10 07:24:37,058 [INFO] Not a signed deal — skipping: Oman LNG delivers first cargo from 10-year deal to its large
+2026-06-10 07:24:37,058 [INFO] ------- Processing article n. 2: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energy Output - WindInsid -------
+2026-06-10 07:24:37,655 [INFO] Resolved Google News URL: https://windinsider.com/2025/01/09/rwe-to-repower-muel-wind-farm-in-spain-boosti
+2026-06-10 07:24:37,655 [INFO] URL: https://windinsider.com/2025/01/09/rwe-to-repower-muel-wind-farm-in-spain-boosting-green-energy-output/
+2026-06-10 07:24:37,720 [INFO] Text length: 5800 chars | source: full
+2026-06-10 07:24:37,720 [INFO] Text preview: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energy Output - WindInsider News Fashion Gadgets Lifestyle Video Homepages Homepage – Fashion Homepage – Blog Homepage – Video Homepage – Tech Ho...
+2026-06-10 07:24:38,919 [INFO] LLM HTTP 200 for: RWE to Repower Muel Wind Farm in Spain, Boosting Green Energ
+2026-06-10 07:24:38,919 [INFO] LLM extracted 1 deals (1 signed) | RWE to Repower Muel Wind Farm in Spain, Boosting G
+2026-06-10 07:24:38,920 [INFO] NEW: undisclosed offtaker / RWE (Spain, 19.8 MW)
+2026-06-10 07:24:43,922 [INFO] ------- Processing article n. 3: Azerbaijan halts gas deliveries to Serbia, Bulgaria - Euractiv -------
+2026-06-10 07:24:44,634 [INFO] Resolved Google News URL: https://www.euractiv.com/news/azerbaijan-halts-gas-deliveries-to-serbia-bulgaria
+2026-06-10 07:24:44,634 [INFO] URL: https://www.euractiv.com/news/azerbaijan-halts-gas-deliveries-to-serbia-bulgaria/
+2026-06-10 07:24:45,870 [INFO] Text length: 4928 chars | source: full
+2026-06-10 07:24:45,870 [INFO] Text preview: Azerbaijan halts gas deliveries to Serbia, Bulgaria | Euractiv Ga naar de hoofdinhoud A gas platform in the Shah Deniz 2 field in the Caspian Sea, from where the gas for the Southern gas corridor is p...
+2026-06-10 07:24:46,977 [INFO] LLM HTTP 200 for: Azerbaijan halts gas deliveries to Serbia, Bulgaria - Euract
+2026-06-10 07:24:46,977 [INFO] LLM extracted 1 deals (0 signed) | Azerbaijan halts gas deliveries to Serbia, Bulgari
+2026-06-10 07:24:46,981 [INFO] Not a signed deal — skipping: Azerbaijan halts gas deliveries to Serbia, Bulgaria - Euract
+2026-06-10 07:24:46,981 [INFO] ------- Processing article n. 3: Waaree Energies, JSW Acquire Renewable Assets In Deals Amounting to Rs 1400 Cror -------
+2026-06-10 07:24:47,664 [INFO] Resolved Google News URL: https://www.saurenergy.com/solar-energy-news/waaree-energies-jsw-acquire-renewab
+2026-06-10 07:24:47,664 [INFO] URL: https://www.saurenergy.com/solar-energy-news/waaree-energies-jsw-acquire-renewable-assets-in-deals-amounting-to-rs-1400-crores
+2026-06-10 07:24:49,217 [INFO] Text length: 2851 chars | source: full
+2026-06-10 07:24:49,217 [INFO] Text preview: Waaree Energies, JSW Acquire Renewable Assets In Deals Amounting to Rs 1400 Crores Advertisment News Waaree Energies, JSW Acquire Renewable Assets In Deals Amounting to Rs 1400 Crores Prasanna Singh 1...
+2026-06-10 07:24:50,998 [INFO] LLM HTTP 200 for: Waaree Energies, JSW Acquire Renewable Assets In Deals Amoun
+2026-06-10 07:24:50,998 [INFO] LLM extracted 2 deals (2 signed) | Waaree Energies, JSW Acquire Renewable Assets In D
+2026-06-10 07:24:51,000 [INFO] Not a European deal — skipping: JSW Neo Energy / Hetero Labs Limited, Hetero Drugs Limited (India, 125 MW)
+2026-06-10 07:24:51,000 [INFO] Not a European deal — skipping: Waaree Energies Limited / Enel Green Power Development S.r.l (India, 640 MW)
+2026-06-10 07:24:51,000 [INFO] ------- Processing article n. 3: Waaree Energies inks pact to acquire Enel Green Power India for Rs 792 cr - Busi -------
+2026-06-10 07:24:51,764 [INFO] Resolved Google News URL: https://www.business-standard.com/companies/news/waaree-energies-inks-pact-to-ac
+2026-06-10 07:24:51,764 [INFO] URL: https://www.business-standard.com/companies/news/waaree-energies-inks-pact-to-acquire-enel-green-power-india-for-rs-792-cr-125011001291_1.html
+2026-06-10 07:24:51,899 [INFO] Full text skipped (status 403): https://www.business-standard.com/companies/news/waaree-energies-inks-pact-to-ac
+2026-06-10 07:24:51,899 [INFO] Text length: 199 chars | source: fallback
+2026-06-10 07:24:51,899 [INFO] Text preview: Waaree Energies inks pact to acquire Enel Green Power India for Rs 792 cr - Business Standard
+
+Waaree Energies inks pact to acquire Enel Green Power India for Rs 792 cr &nbsp;&nbsp; Business Standard...
+2026-06-10 07:24:52,928 [INFO] LLM HTTP 200 for: Waaree Energies inks pact to acquire Enel Green Power India 
+2026-06-10 07:24:52,928 [INFO] LLM extracted 1 deals (0 signed) | Waaree Energies inks pact to acquire Enel Green Po
+2026-06-10 07:24:52,930 [INFO] Not a signed deal — skipping: Waaree Energies inks pact to acquire Enel Green Power India 
+2026-06-10 07:24:52,930 [INFO] ------- Processing article n. 3: NLC India Renewables And APDCL Sign Agreement For 1000 MW Solar Power Project In -------
+2026-06-10 07:24:53,524 [INFO] Resolved Google News URL: https://northeasttoday.in/northeast/assam/nlc-india-renewables-and-apdcl-sign-ag
+2026-06-10 07:24:53,524 [INFO] URL: https://northeasttoday.in/northeast/assam/nlc-india-renewables-and-apdcl-sign-agreement-for-1000-mw-solar-power-project-in-assam/
+2026-06-10 07:24:56,107 [INFO] Text length: 3210 chars | source: full
+2026-06-10 07:24:56,107 [INFO] Text preview: NLC India Renewables And APDCL Sign Agreement For 1000 MW Solar Power Project In Assam - Northeast Today NLC India Renewables And APDCL Sign Agreement For 1000 MW Solar Power Project In Assam 11th Jan...
+2026-06-10 07:24:57,297 [INFO] LLM HTTP 200 for: NLC India Renewables And APDCL Sign Agreement For 1000 MW So
+2026-06-10 07:24:57,297 [INFO] LLM extracted 1 deals (1 signed) | NLC India Renewables And APDCL Sign Agreement For 
+2026-06-10 07:24:57,298 [INFO] Not a European deal — skipping: APDCL / NLC India Renewables Limited (India, 1000 MW)
+2026-06-10 07:24:57,298 [INFO] ------- Processing article n. 3: PPA : quand la suspecter ? Déclaration obligatoire et vigilance - agriculture.go -------
+2026-06-10 07:24:57,970 [INFO] Resolved Google News URL: https://agriculture.gouv.fr/ppa-quand-la-suspecter-declaration-obligatoire-et-vi
+2026-06-10 07:24:57,970 [INFO] URL: https://agriculture.gouv.fr/ppa-quand-la-suspecter-declaration-obligatoire-et-vigilance
+2026-06-10 07:25:10,111 [INFO] Full text fetch failed (HTTPSConnectionPool(host='agriculture.gouv.fr', port=443): Max retries exceeded with url: /ppa-quand-la-suspecter-declaration-obligatoire-et-vigilance (Caused by ConnectTimeoutError(<HTTPSConnection(host='agriculture.gouv.fr', port=443) at 0x7f74cfda1750>, 'Connection to agriculture.gouv.fr timed out. (connect timeout=12)'))): https://agriculture.gouv.fr/ppa-quand-la-suspecter-declaration-obligatoire-et-vi
+2026-06-10 07:25:10,111 [INFO] Text length: 183 chars | source: fallback
+2026-06-10 07:25:10,111 [INFO] Text preview: PPA : quand la suspecter ? Déclaration obligatoire et vigilance - agriculture.gouv.fr
+
+PPA : quand la suspecter ? Déclaration obligatoire et vigilance &nbsp;&nbsp; agriculture.gouv.fr...
+2026-06-10 07:25:10,932 [INFO] LLM HTTP 200 for: PPA : quand la suspecter ? Déclaration obligatoire et vigila
+2026-06-10 07:25:10,932 [INFO] LLM extracted 1 deals (0 signed) | PPA : quand la suspecter ? Déclaration obligatoire
+2026-06-10 07:25:10,933 [INFO] Not a signed deal — skipping: PPA : quand la suspecter ? Déclaration obligatoire et vigila
+2026-06-10 07:25:10,933 [INFO] ------- Processing article n. 3: Erg ed Engie: firmato un nuovo PPA per energia eolica in Italia - Energia Italia -------
+2026-06-10 07:25:11,591 [INFO] Resolved Google News URL: https://www.energiaitalia.news/news/eolico/erg-ed-engie-firmato-un-nuovo-ppa-per
+2026-06-10 07:25:11,591 [INFO] URL: https://www.energiaitalia.news/news/eolico/erg-ed-engie-firmato-un-nuovo-ppa-per-energia-eolica-in-italia/50203/
+2026-06-10 07:25:12,321 [INFO] Text length: 2886 chars | source: full
+2026-06-10 07:25:12,321 [INFO] Text preview: Erg ed Engie: firmato un nuovo PPA per energia eolica in Italia Homepage Chi siamo News Policy News da ASVIS Aziende Report Eventi Interviste Video Conferenze Next Corporate Summer Party Comunità Ener...
+2026-06-10 07:25:13,467 [INFO] LLM HTTP 200 for: Erg ed Engie: firmato un nuovo PPA per energia eolica in Ita
+2026-06-10 07:25:13,467 [INFO] LLM extracted 1 deals (1 signed) | Erg ed Engie: firmato un nuovo PPA per energia eol
+2026-06-10 07:25:13,468 [INFO] NEW: Engie / Erg (Italy, None MW)
+2026-06-10 07:25:18,470 [INFO] Run complete. New deals: 4, Updates: 0
+2026-06-10 07:25:18,471 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (9 deals)
+2026-06-10 07:25:19,792 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
