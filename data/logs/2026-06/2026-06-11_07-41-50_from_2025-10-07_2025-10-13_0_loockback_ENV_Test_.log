@@ -1,0 +1,568 @@
+2026-06-11 07:41:50,717 [INFO] === PPA Tracker pipeline starting (env: Test) ===
+2026-06-11 07:41:50,718 [INFO] Searching from 2025-10-07 to 2025-10-13 with 0 loockback days
+2026-06-11 07:41:50,718 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-11 07:41:51,055 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-10-07%20before%3A2025-10-13&hl=en&gl=US&ceid=US:en: 19 results
+2026-06-11 07:41:53,329 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2025-10-07%20before%3A2025-10-13&hl=en&gl=US&ceid=US:en: 17 results
+2026-06-11 07:41:55,543 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2025-10-07%20before%3A2025-10-13&hl=de&gl=DE&ceid=DE:de: 3 results
+2026-06-11 07:41:58,518 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2025-10-07%20before%3A2025-10-13&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-06-11 07:42:00,810 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2025-10-07%20before%3A2025-10-13&hl=fr&gl=FR&ceid=FR:fr: 5 results
+2026-06-11 07:42:03,007 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2025-10-07%20before%3A2025-10-13&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-06-11 07:42:05,342 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2025-10-07%20before%3A2025-10-13&hl=es&gl=ES&ceid=ES:es: 15 results
+2026-06-11 07:42:07,557 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2025-10-07%20before%3A2025-10-13&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-06-11 07:42:09,749 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2025-10-07%20before%3A2025-10-13&hl=it&gl=IT&ceid=IT:it: 4 results
+2026-06-11 07:42:11,960 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2025-10-07%20before%3A2025-10-13&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-11 07:42:14,195 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2025-10-07%20before%3A2025-10-13&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-06-11 07:42:16,357 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2025-10-07%20before%3A2025-10-13&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-11 07:42:18,560 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2025-10-07%20before%3A2025-10-13&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-11 07:42:20,823 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2025-10-07%20before%3A2025-10-13&hl=pt&gl=PT&ceid=PT:pt: 5 results
+2026-06-11 07:42:23,059 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2025-10-07%20before%3A2025-10-13&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-06-11 07:42:25,059 [INFO] Total raw articles collected: 72
+2026-06-11 07:42:25,229 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-11 07:42:26,324 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-06-11 07:42:27,328 [INFO] Unique unseen articles: 64
+2026-06-11 07:42:27,328 [INFO] ------- Processing article n. 0: Mars Signs First Renewable Energy Contract in Europe - Mars, Incorporated -------
+2026-06-11 07:42:27,706 [INFO] Resolved Google News URL: https://www.mars.com/news-and-stories/press-releases-statements/mars-signs-first
+2026-06-11 07:42:27,706 [INFO] URL: https://www.mars.com/news-and-stories/press-releases-statements/mars-signs-first-european-renewable-acceleration
+2026-06-11 07:42:27,875 [INFO] Full text skipped (status 403): https://www.mars.com/news-and-stories/press-releases-statements/mars-signs-first
+2026-06-11 07:42:27,875 [INFO] Text length: 159 chars | source: fallback
+2026-06-11 07:42:27,875 [INFO] Text preview: Mars Signs First Renewable Energy Contract in Europe - Mars, Incorporated
+
+Mars Signs First Renewable Energy Contract in Europe &nbsp;&nbsp; Mars, Incorporated...
+2026-06-11 07:42:28,982 [INFO] LLM HTTP 200 for: Mars Signs First Renewable Energy Contract in Europe - Mars,
+2026-06-11 07:42:28,982 [INFO] LLM extracted 1 deals (1 signed) | Mars Signs First Renewable Energy Contract in Euro
+2026-06-11 07:42:28,986 [INFO] NEW: Mars, Incorporated / None (Europe, None MW)
+2026-06-11 07:42:33,989 [INFO] ------- Processing article n. 1: Financing moves ahead for Scatec's solar project powering Egyptalum - Renewables -------
+2026-06-11 07:42:34,707 [INFO] Resolved Google News URL: https://renewablesnow.com/news/financing-moves-ahead-for-scatecs-solar-project-p
+2026-06-11 07:42:34,707 [INFO] URL: https://renewablesnow.com/news/financing-moves-ahead-for-scatecs-solar-project-powering-egyptalum-1282968/
+2026-06-11 07:42:35,200 [INFO] Text length: 4927 chars | source: full
+2026-06-11 07:42:35,201 [INFO] Text preview: Financing moves ahead for Scatec's solar project powering Egyptalum | Renewable Energy News | Renewables Now Search Newsletters Search TOPICS COUNTRIES INDUSTRY Advanced search search cancel apply Sec...
+2026-06-11 07:42:35,916 [INFO] LLM HTTP 200 for: Financing moves ahead for Scatec's solar project powering Eg
+2026-06-11 07:42:35,916 [INFO] LLM extracted 1 deals (0 signed) | Financing moves ahead for Scatec's solar project p
+2026-06-11 07:42:35,919 [INFO] Not a signed deal — skipping: Financing moves ahead for Scatec's solar project powering Eg
+2026-06-11 07:42:35,919 [INFO] ------- Processing article n. 1: Ukraine’s energy sector is a key battleground in the war with Russia - Brookings -------
+2026-06-11 07:42:36,501 [INFO] Resolved Google News URL: https://www.brookings.edu/articles/ukraines-energy-sector-is-a-key-battleground-
+2026-06-11 07:42:36,501 [INFO] URL: https://www.brookings.edu/articles/ukraines-energy-sector-is-a-key-battleground-in-the-war-with-russia/
+2026-06-11 07:42:36,655 [INFO] Text length: 26553 chars | source: full
+2026-06-11 07:42:36,656 [INFO] Text preview: Ukraine's energy sector is a key battleground in the war with Russia | Brookings Search Home Ukraine’s energy sector is a key battleground in the war with Russia Share Share Bluesky Streamline Icon: h...
+2026-06-11 07:42:36,938 [INFO] LLM HTTP 200 for: Ukraine’s energy sector is a key battleground in the war wit
+2026-06-11 07:42:36,938 [INFO] LLM extracted 0 deals (0 signed) | Ukraine’s energy sector is a key battleground in t
+2026-06-11 07:42:36,942 [INFO] ------- Processing article n. 1: Mars, Cargill Signs Agreements to Build Over 100 Solar Projects in Europe - ESG  -------
+2026-06-11 07:42:37,501 [INFO] Resolved Google News URL: https://www.esgtoday.com/mars-cargill-signs-agreements-to-build-over-100-solar-p
+2026-06-11 07:42:37,501 [INFO] URL: https://www.esgtoday.com/mars-cargill-signs-agreements-to-build-over-100-solar-projects-in-europe/
+2026-06-11 07:42:37,766 [INFO] Text length: 12411 chars | source: full
+2026-06-11 07:42:37,767 [INFO] Text preview: Mars, Cargill Signs Agreements to Build Over 100 Solar Projects in Europe - ESG Today Companies / Energy Transition Mars, Cargill Signs Agreements to Build Over 100 Solar Projects in Europe Mark Segal...
+2026-06-11 07:42:38,811 [INFO] LLM HTTP 200 for: Mars, Cargill Signs Agreements to Build Over 100 Solar Proje
+2026-06-11 07:42:38,811 [INFO] LLM extracted 1 deals (1 signed) | Mars, Cargill Signs Agreements to Build Over 100 S
+2026-06-11 07:42:38,814 [INFO] NEW: Mars, Cargill / GoldenPeaks Capital (Poland, 224 MW)
+2026-06-11 07:42:43,817 [INFO] ------- Processing article n. 2: Vantage cuts Czechia cell tower energy use by 1GWh annually with on-site solar - -------
+2026-06-11 07:42:44,450 [INFO] Resolved Google News URL: https://bebeez.eu/2025/10/10/vantage-cuts-czechia-cell-tower-energy-use-by-1gwh-
+2026-06-11 07:42:44,450 [INFO] URL: https://bebeez.eu/2025/10/10/vantage-cuts-czechia-cell-tower-energy-use-by-1gwh-annually-with-on-site-solar/
+2026-06-11 07:42:45,104 [INFO] Text length: 6367 chars | source: full
+2026-06-11 07:42:45,105 [INFO] Text preview: Vantage cuts Czechia cell tower energy use by 1GWh annually with on-site solar – BeBeez International No Result View All Result Private Data Membership options Login COUNTRY ITALY IBERIA FRANCE UK&IRE...
+2026-06-11 07:42:48,270 [INFO] LLM HTTP 200 for: Vantage cuts Czechia cell tower energy use by 1GWh annually 
+2026-06-11 07:42:48,270 [INFO] LLM extracted 5 deals (5 signed) | Vantage cuts Czechia cell tower energy use by 1GWh
+2026-06-11 07:42:48,275 [INFO] NEW: Vodafone, Vantage Towers / Flogas Ireland (Ireland, None MW)
+2026-06-11 07:42:53,286 [INFO] NEW: Vodafone / RWE (United Kingdom, None MW)
+2026-06-11 07:42:58,290 [INFO] NEW: Vodafone / Iberdrola (Germany, None MW)
+2026-06-11 07:43:03,294 [INFO] NEW: Vodafone / Centrica (Spain, None MW)
+2026-06-11 07:43:08,312 [INFO] NEW: Vodafone / Mytilineos (Portugal, None MW)
+2026-06-11 07:43:13,316 [INFO] ------- Processing article n. 7: GoldenPeaks Capital and Envision Sign MoU to Deliver Next-Generation Battery Ene -------
+2026-06-11 07:43:14,010 [INFO] Resolved Google News URL: https://www.businesswire.com/news/home/20251009461109/en/GoldenPeaks-Capital-and
+2026-06-11 07:43:14,010 [INFO] URL: https://www.businesswire.com/news/home/20251009461109/en/GoldenPeaks-Capital-and-Envision-Sign-MoU-to-Deliver-Next-Generation-Battery-Energy-Storage-Projects-in-Europe
+2026-06-11 07:43:14,049 [INFO] Full text skipped (status 403): https://www.businesswire.com/news/home/20251009461109/en/GoldenPeaks-Capital-and
+2026-06-11 07:43:14,050 [INFO] Text length: 265 chars | source: fallback
+2026-06-11 07:43:14,050 [INFO] Text preview: GoldenPeaks Capital and Envision Sign MoU to Deliver Next-Generation Battery Energy Storage Projects in Europe - Business Wire
+
+GoldenPeaks Capital and Envision Sign MoU to Deliver Next-Generation Bat...
+2026-06-11 07:43:14,719 [INFO] LLM HTTP 200 for: GoldenPeaks Capital and Envision Sign MoU to Deliver Next-Ge
+2026-06-11 07:43:14,719 [INFO] LLM extracted 1 deals (0 signed) | GoldenPeaks Capital and Envision Sign MoU to Deliv
+2026-06-11 07:43:14,723 [INFO] Not a signed deal — skipping: GoldenPeaks Capital and Envision Sign MoU to Deliver Next-Ge
+2026-06-11 07:43:14,723 [INFO] ------- Processing article n. 7: Nuclear Energy: Opportunities and Risks - VanEck -------
+2026-06-11 07:43:15,330 [INFO] Resolved Google News URL: https://www.vaneck.com/dk/en/blog/etf-insights/nuclear-energy-opportunities-and-
+2026-06-11 07:43:15,330 [INFO] URL: https://www.vaneck.com/dk/en/blog/etf-insights/nuclear-energy-opportunities-and-risks/
+2026-06-11 07:43:16,505 [INFO] Text length: 17047 chars | source: full
+2026-06-11 07:43:16,505 [INFO] Text preview: Nuclear Energy: Opportunities and Risks | VanEck dk en false false Default Marketing Communication Nuclear Energy: Opportunities and Risks 13 October 2025 Share LinkedIn This link opens a new window X...
+2026-06-11 07:43:16,800 [INFO] LLM HTTP 200 for: Nuclear Energy: Opportunities and Risks - VanEck
+2026-06-11 07:43:16,800 [INFO] LLM extracted 0 deals (0 signed) | Nuclear Energy: Opportunities and Risks - VanEck
+2026-06-11 07:43:16,803 [INFO] ------- Processing article n. 7: Is negative bidding finally dead? - WindEurope -------
+2026-06-11 07:43:17,185 [INFO] Resolved Google News URL: https://windeurope.org/news/is-negative-bidding-finally-dead/
+2026-06-11 07:43:17,185 [INFO] URL: https://windeurope.org/news/is-negative-bidding-finally-dead/
+2026-06-11 07:43:17,244 [INFO] Text length: 6149 chars | source: full
+2026-06-11 07:43:17,244 [INFO] Text preview: Is negative bidding finally dead? - WindEurope News Is negative bidding finally dead? 7 October 2025 “Negative bidding”, the idea that in certain countries offshore wind developers should pay for the ...
+2026-06-11 07:43:17,995 [INFO] LLM HTTP 200 for: Is negative bidding finally dead? - WindEurope
+2026-06-11 07:43:17,995 [INFO] LLM extracted 1 deals (0 signed) | Is negative bidding finally dead? - WindEurope
+2026-06-11 07:43:17,999 [INFO] Not a signed deal — skipping: Is negative bidding finally dead? - WindEurope
+2026-06-11 07:43:17,999 [INFO] ------- Processing article n. 7: EU's plan to phase out Russian energy clears first political hurdle - Reuters -------
+2026-06-11 07:43:18,540 [INFO] Resolved Google News URL: https://www.reuters.com/sustainability/climate-energy/eus-plan-phase-out-russian
+2026-06-11 07:43:18,540 [INFO] URL: https://www.reuters.com/sustainability/climate-energy/eus-plan-phase-out-russian-energy-clears-first-political-hurdle-2025-10-08/
+2026-06-11 07:43:18,598 [INFO] Full text skipped (status 401): https://www.reuters.com/sustainability/climate-energy/eus-plan-phase-out-russian
+2026-06-11 07:43:18,599 [INFO] Text length: 167 chars | source: fallback
+2026-06-11 07:43:18,599 [INFO] Text preview: EU's plan to phase out Russian energy clears first political hurdle - Reuters
+
+EU's plan to phase out Russian energy clears first political hurdle &nbsp;&nbsp; Reuters...
+2026-06-11 07:43:19,355 [INFO] LLM HTTP 200 for: EU's plan to phase out Russian energy clears first political
+2026-06-11 07:43:19,355 [INFO] LLM extracted 1 deals (0 signed) | EU's plan to phase out Russian energy clears first
+2026-06-11 07:43:19,358 [INFO] Not a signed deal — skipping: EU's plan to phase out Russian energy clears first political
+2026-06-11 07:43:19,358 [INFO] ------- Processing article n. 7: Citadel Boosts European Power Trading With Purchase of FlexPower - Bloomberg.com -------
+2026-06-11 07:43:19,968 [INFO] Resolved Google News URL: https://www.bloomberg.com/news/articles/2025-10-13/citadel-boosts-european-power
+2026-06-11 07:43:19,968 [INFO] URL: https://www.bloomberg.com/news/articles/2025-10-13/citadel-boosts-european-power-trading-with-purchase-of-flexpower
+2026-06-11 07:43:20,092 [INFO] Full text skipped (status 403): https://www.bloomberg.com/news/articles/2025-10-13/citadel-boosts-european-power
+2026-06-11 07:43:20,092 [INFO] Text length: 173 chars | source: fallback
+2026-06-11 07:43:20,092 [INFO] Text preview: Citadel Boosts European Power Trading With Purchase of FlexPower - Bloomberg.com
+
+Citadel Boosts European Power Trading With Purchase of FlexPower &nbsp;&nbsp; Bloomberg.com...
+2026-06-11 07:43:20,735 [INFO] LLM HTTP 200 for: Citadel Boosts European Power Trading With Purchase of FlexP
+2026-06-11 07:43:20,735 [INFO] LLM extracted 1 deals (0 signed) | Citadel Boosts European Power Trading With Purchas
+2026-06-11 07:43:20,739 [INFO] Not a signed deal — skipping: Citadel Boosts European Power Trading With Purchase of FlexP
+2026-06-11 07:43:20,739 [INFO] ------- Processing article n. 7: Swedish consortium to explore construction of Sweden's first nuclear powered dat -------
+2026-06-11 07:43:21,171 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/swedish-consortium-to-explore-constru
+2026-06-11 07:43:21,171 [INFO] URL: https://www.datacenterdynamics.com/en/news/swedish-consortium-to-explore-construction-of-swedens-first-nuclear-powered-data-center-in-nyk%C3%B6ping/
+2026-06-11 07:43:21,757 [INFO] Text length: 4806 chars | source: full
+2026-06-11 07:43:21,757 [INFO] Text preview: Swedish consortium to explore construction of Sweden's first nuclear powered data center in Nyköping - DCD Home News The Energy & Sustainability Channel Swedish consortium to explore construction of S...
+2026-06-11 07:43:23,232 [INFO] LLM HTTP 200 for: Swedish consortium to explore construction of Sweden's first
+2026-06-11 07:43:23,232 [INFO] LLM extracted 2 deals (2 signed) | Swedish consortium to explore construction of Swed
+2026-06-11 07:43:23,236 [INFO] NEW: Evroc / ULC-Energy (Netherlands, 250 MW)
+2026-06-11 07:43:28,240 [INFO] NEW: Equinix / Stellaria (France, Europe, 500 MW)
+2026-06-11 07:43:33,244 [INFO] ------- Processing article n. 9: China-Russia Asymmetry and the Power of Siberia 2 Agreement - The Diplomat – Asi -------
+2026-06-11 07:43:33,804 [INFO] Resolved Google News URL: https://thediplomat.com/2025/10/china-russia-asymmetry-and-the-power-of-siberia-
+2026-06-11 07:43:33,804 [INFO] URL: https://thediplomat.com/2025/10/china-russia-asymmetry-and-the-power-of-siberia-2-agreement/
+2026-06-11 07:43:34,203 [INFO] Text length: 24265 chars | source: full
+2026-06-11 07:43:34,204 [INFO] Text preview: China-Russia Asymmetry and the Power of Siberia 2 Agreement – The Diplomat Recent Features Security Beijing’s Shadow Networks in Okinawa Society Long Night Over Hualien: The China Threat Through the E...
+2026-06-11 07:43:34,486 [INFO] LLM HTTP 200 for: China-Russia Asymmetry and the Power of Siberia 2 Agreement 
+2026-06-11 07:43:34,486 [INFO] LLM extracted 0 deals (0 signed) | China-Russia Asymmetry and the Power of Siberia 2 
+2026-06-11 07:43:34,490 [INFO] ------- Processing article n. 9: Uniper and Five Bioenergy ink seven-year biomethane supply deal - Offshore-Energ -------
+2026-06-11 07:43:35,036 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/uniper-and-five-bioenergy-ink-seven-year-biometh
+2026-06-11 07:43:35,037 [INFO] URL: https://www.offshore-energy.biz/uniper-and-five-bioenergy-ink-seven-year-biomethane-supply-deal/
+2026-06-11 07:43:38,799 [INFO] Text length: 4660 chars | source: full
+2026-06-11 07:43:38,799 [INFO] Text preview: Uniper and Five Bioenergy ink seven-year biomethane supply deal - Offshore Energy Direct naar inhoud Advertisement Back to overview Home Clean Fuel Uniper and Five Bioenergy ink seven-year biomethane ...
+2026-06-11 07:43:40,025 [INFO] LLM HTTP 200 for: Uniper and Five Bioenergy ink seven-year biomethane supply d
+2026-06-11 07:43:40,025 [INFO] LLM extracted 1 deals (1 signed) | Uniper and Five Bioenergy ink seven-year biomethan
+2026-06-11 07:43:40,029 [INFO] NEW: Uniper / Five Bioenergy (Spain, None MW)
+2026-06-11 07:43:45,031 [INFO] ------- Processing article n. 10: Norway and Egypt Advance Financing Deal for Scatec’s Dandara Solar Power Project -------
+2026-06-11 07:43:45,566 [INFO] Resolved Google News URL: https://solarquarter.com/2025/10/13/norway-and-egypt-advance-financing-deal-for-
+2026-06-11 07:43:45,566 [INFO] URL: https://solarquarter.com/2025/10/13/norway-and-egypt-advance-financing-deal-for-scatecs-dandara-solar-power-project/
+2026-06-11 07:43:45,916 [INFO] Full text skipped (status 429): https://solarquarter.com/2025/10/13/norway-and-egypt-advance-financing-deal-for-
+2026-06-11 07:43:45,917 [INFO] Text length: 203 chars | source: fallback
+2026-06-11 07:43:45,917 [INFO] Text preview: Norway and Egypt Advance Financing Deal for Scatec’s Dandara Solar Power Project - SolarQuarter
+
+Norway and Egypt Advance Financing Deal for Scatec’s Dandara Solar Power Project &nbsp;&nbsp; SolarQuar...
+2026-06-11 07:43:46,744 [INFO] LLM HTTP 200 for: Norway and Egypt Advance Financing Deal for Scatec’s Dandara
+2026-06-11 07:43:46,744 [INFO] LLM extracted 1 deals (0 signed) | Norway and Egypt Advance Financing Deal for Scatec
+2026-06-11 07:43:46,751 [INFO] Not a signed deal — skipping: Norway and Egypt Advance Financing Deal for Scatec’s Dandara
+2026-06-11 07:43:46,751 [INFO] ------- Processing article n. 10: Polish banks sign €17.4m biogas financing deal - Bioenergy Insight Magazine -------
+2026-06-11 07:43:47,210 [INFO] Resolved Google News URL: https://www.bioenergy-news.com/news/polish-banks-sign-e17-4m-biogas-financing-de
+2026-06-11 07:43:47,210 [INFO] URL: https://www.bioenergy-news.com/news/polish-banks-sign-e17-4m-biogas-financing-deal/
+2026-06-11 07:43:47,412 [INFO] Text length: 13613 chars | source: full
+2026-06-11 07:43:47,413 [INFO] Text preview: Polish banks sign €17.4m biogas financing deal - Bioenergy Insight Magazine Biogas News Poland’s largest lender, PKO BP, and the country’s state development bank, BGK, have signed a consortium agreeme...
+2026-06-11 07:43:48,135 [INFO] LLM HTTP 200 for: Polish banks sign €17.4m biogas financing deal - Bioenergy I
+2026-06-11 07:43:48,135 [INFO] LLM extracted 1 deals (0 signed) | Polish banks sign €17.4m biogas financing deal - B
+2026-06-11 07:43:48,150 [INFO] Not a signed deal — skipping: Polish banks sign €17.4m biogas financing deal - Bioenergy I
+2026-06-11 07:43:48,150 [INFO] ------- Processing article n. 10: Global renewable capacity set to grow, positive outlook led by India, Europe | I -------
+2026-06-11 07:43:48,789 [INFO] Resolved Google News URL: https://www.hindustantimes.com/india-news/global-renewable-capacity-set-to-grow-
+2026-06-11 07:43:48,790 [INFO] URL: https://www.hindustantimes.com/india-news/global-renewable-capacity-set-to-grow-positive-outlook-led-by-india-europe-101759813493810.html
+2026-06-11 07:43:49,104 [INFO] Text length: 8484 chars | source: full
+2026-06-11 07:43:49,104 [INFO] Text preview: Global renewable capacity set to grow, positive outlook led by India, Europe | India News Edit Profile Subscribe Now Saved Articles Following My Reads Sign out Get App HT Newsletters Weather Today Abo...
+2026-06-11 07:43:49,855 [INFO] LLM HTTP 200 for: Global renewable capacity set to grow, positive outlook led 
+2026-06-11 07:43:49,855 [INFO] LLM extracted 1 deals (0 signed) | Global renewable capacity set to grow, positive ou
+2026-06-11 07:43:49,861 [INFO] Not a signed deal — skipping: Global renewable capacity set to grow, positive outlook led 
+2026-06-11 07:43:49,861 [INFO] ------- Processing article n. 10: How Ukraine's European allies fuel Russia's war economy - Reuters -------
+2026-06-11 07:43:50,685 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/how-ukraines-european-allies-fuel-russia
+2026-06-11 07:43:50,685 [INFO] URL: https://www.reuters.com/business/energy/how-ukraines-european-allies-fuel-russias-war-economy-2025-10-10/
+2026-06-11 07:43:50,746 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/how-ukraines-european-allies-fuel-russia
+2026-06-11 07:43:50,747 [INFO] Text length: 143 chars | source: fallback
+2026-06-11 07:43:50,747 [INFO] Text preview: How Ukraine's European allies fuel Russia's war economy - Reuters
+
+How Ukraine's European allies fuel Russia's war economy &nbsp;&nbsp; Reuters...
+2026-06-11 07:43:51,865 [INFO] LLM HTTP 200 for: How Ukraine's European allies fuel Russia's war economy - Re
+2026-06-11 07:43:51,865 [INFO] LLM extracted 1 deals (0 signed) | How Ukraine's European allies fuel Russia's war ec
+2026-06-11 07:43:51,868 [INFO] Not a signed deal — skipping: How Ukraine's European allies fuel Russia's war economy - Re
+2026-06-11 07:43:51,868 [INFO] ------- Processing article n. 10: EdgeMode, Blackberry AIF to integrate BESS and solar at planned Spanish data cen -------
+2026-06-11 07:43:52,375 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/edgemode-blackberry-aif-to-integrate-
+2026-06-11 07:43:52,375 [INFO] URL: https://www.datacenterdynamics.com/en/news/edgemode-blackberry-aif-to-integrate-bess-and-solar-at-planned-spanish-data-centers/
+2026-06-11 07:43:52,907 [INFO] Text length: 4812 chars | source: full
+2026-06-11 07:43:52,907 [INFO] Text preview: EdgeMode, Blackberry AIF to integrate BESS and solar at planned Spanish data centers - DCD Home News The Energy & Sustainability Channel EdgeMode, Blackberry AIF to integrate BESS and solar at planned...
+2026-06-11 07:43:54,426 [INFO] LLM HTTP 200 for: EdgeMode, Blackberry AIF to integrate BESS and solar at plan
+2026-06-11 07:43:54,426 [INFO] LLM extracted 2 deals (2 signed) | EdgeMode, Blackberry AIF to integrate BESS and sol
+2026-06-11 07:43:54,429 [INFO] NEW: EdgeMode Inc. / Synthesis Analytics Production (Sweden, 95 MW)
+2026-06-11 07:43:59,434 [INFO] NEW: Google / EnBW (Germany, 100 MW)
+2026-06-11 07:44:04,439 [INFO] ------- Processing article n. 12: Standalone Solar Slows, Hybrids Dominate India’s 50 GW Awards: IEA - Saur Energy -------
+2026-06-11 07:44:04,995 [INFO] Resolved Google News URL: https://www.saurenergy.com/solar-energy-news/standalone-solar-slows-hybrids-domi
+2026-06-11 07:44:04,995 [INFO] URL: https://www.saurenergy.com/solar-energy-news/standalone-solar-slows-hybrids-dominate-indias-50-gw-awards-iea-10536888
+2026-06-11 07:44:06,059 [INFO] Text length: 5898 chars | source: full
+2026-06-11 07:44:06,059 [INFO] Text preview: Standalone Solar Slows, Hybrids Dominate India’s 50 GW Awards: IEA Advertisment News Standalone Solar Slows, Hybrids Dominate India’s 50 GW Awards: IEA Firm-capacity auctions—linking solar or wind pro...
+2026-06-11 07:44:06,856 [INFO] LLM HTTP 200 for: Standalone Solar Slows, Hybrids Dominate India’s 50 GW Award
+2026-06-11 07:44:06,856 [INFO] LLM extracted 1 deals (0 signed) | Standalone Solar Slows, Hybrids Dominate India’s 5
+2026-06-11 07:44:06,859 [INFO] Not a signed deal — skipping: Standalone Solar Slows, Hybrids Dominate India’s 50 GW Award
+2026-06-11 07:44:06,859 [INFO] ------- Processing article n. 12: Global Renewables to Double by 2030 as U.S. Slumps, China and India Step Up - Th -------
+2026-06-11 07:44:07,275 [INFO] Resolved Google News URL: https://www.theenergymix.com/global-renewables-to-double-by-2030-as-u-s-slumps-c
+2026-06-11 07:44:07,276 [INFO] URL: https://www.theenergymix.com/global-renewables-to-double-by-2030-as-u-s-slumps-china-and-india-step-up/
+2026-06-11 07:44:10,256 [INFO] Text length: 19602 chars | source: full
+2026-06-11 07:44:10,256 [INFO] Text preview: Global Renewables to Double by 2030 as U.S. Slumps, China and India Step Up Subscribe Donate Topics Buildings & Infrastructure Climate Equity & Justice Energy Poverty Indigenous Rights & Reconciliatio...
+2026-06-11 07:44:10,572 [INFO] LLM HTTP 200 for: Global Renewables to Double by 2030 as U.S. Slumps, China an
+2026-06-11 07:44:10,573 [INFO] LLM extracted 0 deals (0 signed) | Global Renewables to Double by 2030 as U.S. Slumps
+2026-06-11 07:44:10,586 [INFO] ------- Processing article n. 12: Doral secures offtake agreement for 430MW Texas solar-plus-storage project - PV  -------
+2026-06-11 07:44:11,260 [INFO] Resolved Google News URL: https://www.pv-tech.org/doral-secures-offtake-agreement-430mw-texas-solar-plus-s
+2026-06-11 07:44:11,261 [INFO] URL: https://www.pv-tech.org/doral-secures-offtake-agreement-430mw-texas-solar-plus-storage-project/
+2026-06-11 07:44:12,409 [INFO] Text length: 7764 chars | source: full
+2026-06-11 07:44:12,409 [INFO] Text preview: Doral secures offtake for 430MW Texas solar-plus-storage project - PV Tech Skip to content News Doral secures offtake agreement for 430MW Texas solar-plus-storage project By JP Casey October 7, 2025 P...
+2026-06-11 07:44:13,540 [INFO] LLM HTTP 200 for: Doral secures offtake agreement for 430MW Texas solar-plus-s
+2026-06-11 07:44:13,540 [INFO] LLM extracted 1 deals (1 signed) | Doral secures offtake agreement for 430MW Texas so
+2026-06-11 07:44:13,544 [INFO] Not a European deal — skipping: unnamed corporate buyer / Doral Renewables (United States, 430 MW)
+2026-06-11 07:44:13,544 [INFO] ------- Processing article n. 12: A flexible and balanced approach to the energy transition - Enlit World -------
+2026-06-11 07:44:14,035 [INFO] Resolved Google News URL: https://www.enlit.world/library/a-flexible-and-balanced-approach-to-the-energy-t
+2026-06-11 07:44:14,035 [INFO] URL: https://www.enlit.world/library/a-flexible-and-balanced-approach-to-the-energy-transition
+2026-06-11 07:44:14,578 [INFO] Text length: 12086 chars | source: full
+2026-06-11 07:44:14,578 [INFO] Text preview: A flexible and balanced approach to the energy transition | Enlit World Enquire about or pre-register for Enlit Europe 2026 in Vienna More info Home / Library / A flexible and balanced approach to the...
+2026-06-11 07:44:15,332 [INFO] LLM HTTP 200 for: A flexible and balanced approach to the energy transition - 
+2026-06-11 07:44:15,332 [INFO] LLM extracted 1 deals (0 signed) | A flexible and balanced approach to the energy tra
+2026-06-11 07:44:15,336 [INFO] Not a signed deal — skipping: A flexible and balanced approach to the energy transition - 
+2026-06-11 07:44:15,336 [INFO] ------- Processing article n. 12: IEA lowers 2025-30 forecast for solar growth - pv magazine USA -------
+2026-06-11 07:44:15,775 [INFO] Resolved Google News URL: https://pv-magazine-usa.com/2025/10/07/iea-lowers-2025-30-forecast-for-solar-gro
+2026-06-11 07:44:15,775 [INFO] URL: https://pv-magazine-usa.com/2025/10/07/iea-lowers-2025-30-forecast-for-solar-growth/
+2026-06-11 07:44:15,953 [INFO] Text length: 8363 chars | source: full
+2026-06-11 07:44:15,953 [INFO] Text preview: IEA lowers 2025-30 forecast for solar growth - pv magazine USA Advertisement Advertisement Advertisement Advertisement Markets & Policy IEA lowers 2025-30 forecast for solar growth The International E...
+2026-06-11 07:44:16,704 [INFO] LLM HTTP 200 for: IEA lowers 2025-30 forecast for solar growth - pv magazine U
+2026-06-11 07:44:16,704 [INFO] LLM extracted 1 deals (0 signed) | IEA lowers 2025-30 forecast for solar growth - pv 
+2026-06-11 07:44:16,707 [INFO] Not a signed deal — skipping: IEA lowers 2025-30 forecast for solar growth - pv magazine U
+2026-06-11 07:44:16,707 [INFO] ------- Processing article n. 12: IEA: Solar PV To Drive 80% Of Renewables Growth By 2030 - TaiyangNews -------
+2026-06-11 07:44:17,175 [INFO] Resolved Google News URL: https://taiyangnews.info/markets/iea-report-renewables-2025
+2026-06-11 07:44:17,175 [INFO] URL: https://taiyangnews.info/markets/iea-report-renewables-2025
+2026-06-11 07:44:17,326 [INFO] Text length: 7952 chars | source: full
+2026-06-11 07:44:17,327 [INFO] Text preview: IEA: Solar PV To Drive 80% Of Renewables Growth By 2030 Markets Business People Opinion Opinion TaiyangNews Executive Interviews Technology Storage+ Reports Our Events Tenders Price Index Top Modules ...
+2026-06-11 07:44:17,602 [INFO] LLM HTTP 200 for: IEA: Solar PV To Drive 80% Of Renewables Growth By 2030 - Ta
+2026-06-11 07:44:17,603 [INFO] LLM extracted 0 deals (0 signed) | IEA: Solar PV To Drive 80% Of Renewables Growth By
+2026-06-11 07:44:17,607 [INFO] ------- Processing article n. 12: The Impact of EV Charging Infrastructure on the Global Energy Grid - twobirds.co -------
+2026-06-11 07:44:18,197 [INFO] Resolved Google News URL: https://www.twobirds.com/en/insights/2025/the-impact-of-ev-charging-infrastructu
+2026-06-11 07:44:18,197 [INFO] URL: https://www.twobirds.com/en/insights/2025/the-impact-of-ev-charging-infrastructure-on-the-global-energy-grid
+2026-06-11 07:44:18,668 [INFO] Text length: 12223 chars | source: full
+2026-06-11 07:44:18,668 [INFO] Text preview: The Impact of EV Charging Infrastructure on the Global Energy Grid - Bird & Bird People Capabilities Insights About Reach Careers Trending Topics LegalTech Client Solutions Our blogs TwoBirds TV Podca...
+2026-06-11 07:44:18,985 [INFO] LLM HTTP 200 for: The Impact of EV Charging Infrastructure on the Global Energ
+2026-06-11 07:44:18,985 [INFO] LLM extracted 0 deals (0 signed) | The Impact of EV Charging Infrastructure on the Gl
+2026-06-11 07:44:18,988 [INFO] ------- Processing article n. 12: Coop relaunches renewable procurement support service - Solar Power Portal -------
+2026-06-11 07:44:19,505 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/commercial-solar/co-op-group-launches-renewab
+2026-06-11 07:44:19,506 [INFO] URL: https://www.solarpowerportal.co.uk/commercial-solar/co-op-group-launches-renewable-procurement-support-for-businesses
+2026-06-11 07:44:20,121 [INFO] Text length: 4193 chars | source: full
+2026-06-11 07:44:20,121 [INFO] Text preview: Coop relaunches renewable procurement support service Commercial Solar Solar Planning News Co-op Group launches renewable procurement support for businesses According to Co-op’s chief procurement offi...
+2026-06-11 07:44:20,880 [INFO] LLM HTTP 200 for: Coop relaunches renewable procurement support service - Sola
+2026-06-11 07:44:20,880 [INFO] LLM extracted 1 deals (0 signed) | Coop relaunches renewable procurement support serv
+2026-06-11 07:44:20,883 [INFO] Not a signed deal — skipping: Coop relaunches renewable procurement support service - Sola
+2026-06-11 07:44:20,883 [INFO] ------- Processing article n. 12: Eurogrid raises €1.1bn in landmark EU Green Bond - reNEWS.BIZ -------
+2026-06-11 07:44:21,311 [INFO] Resolved Google News URL: https://renews.biz/103522/eurogrid-raises-11bn-in-landmark-eu-green-bond/
+2026-06-11 07:44:21,311 [INFO] URL: https://renews.biz/103522/eurogrid-raises-11bn-in-landmark-eu-green-bond/
+2026-06-11 07:44:22,647 [INFO] Text length: 4727 chars | source: full
+2026-06-11 07:44:22,647 [INFO] Text preview: Eurogrid raises €1.1bn in landmark EU Green Bond - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest St...
+2026-06-11 07:44:23,371 [INFO] LLM HTTP 200 for: Eurogrid raises €1.1bn in landmark EU Green Bond - reNEWS.BI
+2026-06-11 07:44:23,371 [INFO] LLM extracted 1 deals (0 signed) | Eurogrid raises €1.1bn in landmark EU Green Bond -
+2026-06-11 07:44:23,377 [INFO] Not a signed deal — skipping: Eurogrid raises €1.1bn in landmark EU Green Bond - reNEWS.BI
+2026-06-11 07:44:23,377 [INFO] ------- Processing article n. 12: Juniper Green Signs PPA with TATA Power for 70 MW FDRE Project in Maharashtra -  -------
+2026-06-11 07:44:23,798 [INFO] Resolved Google News URL: https://mercomindia.com/juniper-green-signs-ppa-with-tata-power-fdre-project
+2026-06-11 07:44:23,798 [INFO] URL: https://mercomindia.com/juniper-green-signs-ppa-with-tata-power-fdre-project
+2026-06-11 07:44:24,527 [INFO] Text length: 3585 chars | source: full
+2026-06-11 07:44:24,528 [INFO] Text preview: Juniper Green Signs PPA with TATA Power for 70 MW FDRE Project in Maharashtra NEWS RESEARCH & REPORTS EVENTS NEWSLETTER ABOUT CONTACT SOLAR Tenders & Auctions Markets & Policy Utility Scale Rooftop Fi...
+2026-06-11 07:44:27,479 [INFO] LLM HTTP 200 for: Juniper Green Signs PPA with TATA Power for 70 MW FDRE Proje
+2026-06-11 07:44:27,479 [INFO] LLM extracted 1 deals (1 signed) | Juniper Green Signs PPA with TATA Power for 70 MW 
+2026-06-11 07:44:27,489 [INFO] Not a European deal — skipping: TATA Power Company / Juniper Green Energy (India, 70 MW)
+2026-06-11 07:44:27,489 [INFO] ------- Processing article n. 12: Enviromena cuts ribbon at Medebridge - reNEWS.BIZ -------
+2026-06-11 07:44:27,940 [INFO] Resolved Google News URL: https://renews.biz/103612/enviromena-and-manchester-launch-71mwp-medebridge-sola
+2026-06-11 07:44:27,941 [INFO] URL: https://renews.biz/103612/enviromena-and-manchester-launch-71mwp-medebridge-solar-farm/
+2026-06-11 07:44:30,723 [INFO] Text length: 5051 chars | source: full
+2026-06-11 07:44:30,723 [INFO] Text preview: Enviromena and Manchester launch 71MWp Medebridge solar farm - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Sol...
+2026-06-11 07:44:32,079 [INFO] LLM HTTP 200 for: Enviromena cuts ribbon at Medebridge - reNEWS.BIZ
+2026-06-11 07:44:32,080 [INFO] LLM extracted 1 deals (1 signed) | Enviromena cuts ribbon at Medebridge - reNEWS.BIZ
+2026-06-11 07:44:32,084 [INFO] NEW: University of Manchester / Enviromena (United Kingdom, 71 MW)
+2026-06-11 07:44:37,086 [INFO] ------- Processing article n. 13: Solarvest And Press Metal Join Forces To Build Sarawak’s 100MW Solar Farm, Sign  -------
+2026-06-11 07:44:37,587 [INFO] Resolved Google News URL: https://solarquarter.com/2025/10/08/solarvest-and-press-metal-join-forces-to-bui
+2026-06-11 07:44:37,588 [INFO] URL: https://solarquarter.com/2025/10/08/solarvest-and-press-metal-join-forces-to-build-sarawaks-100mw-solar-farm-sign-ppa-with-sesco-for-clean-power-supply/
+2026-06-11 07:44:37,777 [INFO] Full text skipped (status 429): https://solarquarter.com/2025/10/08/solarvest-and-press-metal-join-forces-to-bui
+2026-06-11 07:44:37,777 [INFO] Text length: 277 chars | source: fallback
+2026-06-11 07:44:37,777 [INFO] Text preview: Solarvest And Press Metal Join Forces To Build Sarawak’s 100MW Solar Farm, Sign PPA With SESCO For Clean Power Supply - SolarQuarter
+
+Solarvest And Press Metal Join Forces To Build Sarawak’s 100MW Sol...
+2026-06-11 07:44:38,611 [INFO] LLM HTTP 200 for: Solarvest And Press Metal Join Forces To Build Sarawak’s 100
+2026-06-11 07:44:38,612 [INFO] LLM extracted 1 deals (1 signed) | Solarvest And Press Metal Join Forces To Build Sar
+2026-06-11 07:44:38,615 [INFO] Not a European deal — skipping: SESCO / Solarvest, Press Metal (Malaysia, 100 MW)
+2026-06-11 07:44:38,615 [INFO] ------- Processing article n. 13: Vorsicht: Dreiste Haustürgeschäfte im Namen der Stadtwerke Lemgo - Lippische Lan -------
+2026-06-11 07:44:39,101 [INFO] Resolved Google News URL: https://www.lz.de/lippe/lemgo/24191764_Vorsicht-Dreiste-Haustuergeschaefte-im-Na
+2026-06-11 07:44:39,101 [INFO] URL: https://www.lz.de/lippe/lemgo/24191764_Vorsicht-Dreiste-Haustuergeschaefte-im-Namen-der-Stadtwerke-Lemgo.html
+2026-06-11 07:44:39,678 [INFO] Text length: 4035 chars | source: full
+2026-06-11 07:44:39,679 [INFO] Text preview: Vorsicht: Dreiste Haustürgeschäfte im Namen der Stadtwerke Lemgo | Lokale Nachrichten aus Lemgo - LZ.de Lippische Landes-Zeitung: Nachrichten aus Lippe, OWL und der Welt Lippe - Kreis Lippe - Augustdo...
+2026-06-11 07:44:40,449 [INFO] LLM HTTP 200 for: Vorsicht: Dreiste Haustürgeschäfte im Namen der Stadtwerke L
+2026-06-11 07:44:40,449 [INFO] LLM extracted 1 deals (0 signed) | Vorsicht: Dreiste Haustürgeschäfte im Namen der St
+2026-06-11 07:44:40,453 [INFO] Not a signed deal — skipping: Vorsicht: Dreiste Haustürgeschäfte im Namen der Stadtwerke L
+2026-06-11 07:44:40,453 [INFO] ------- Processing article n. 13: Falsche Anrufer: Stadtwerke Cham warnen vor Telefonbetrug und falschen Stromvert -------
+2026-06-11 07:44:40,973 [INFO] Resolved Google News URL: https://www.mittelbayerische.de/lokales/landkreis-cham/falsche-anrufer-stadtwerk
+2026-06-11 07:44:40,973 [INFO] URL: https://www.mittelbayerische.de/lokales/landkreis-cham/falsche-anrufer-stadtwerke-cham-warnen-vor-telefonbetrug-und-falschen-stromvertraegen-19689311
+2026-06-11 07:44:41,302 [INFO] Text length: 2089 chars | source: full
+2026-06-11 07:44:41,302 [INFO] Text preview: Falsche Anrufer: Stadtwerke Cham warnen vor Telefonbetrug und falschen Stromverträgen Zum Inhalt springen Die Stadtwerke Cham warnen vor Betrügern, die sich als Mitarbeiter ausgeben und am Telefon Kun...
+2026-06-11 07:44:42,264 [INFO] LLM HTTP 200 for: Falsche Anrufer: Stadtwerke Cham warnen vor Telefonbetrug un
+2026-06-11 07:44:42,264 [INFO] LLM extracted 1 deals (0 signed) | Falsche Anrufer: Stadtwerke Cham warnen vor Telefo
+2026-06-11 07:44:42,267 [INFO] Not a signed deal — skipping: Falsche Anrufer: Stadtwerke Cham warnen vor Telefonbetrug un
+2026-06-11 07:44:42,267 [INFO] ------- Processing article n. 13: AMD und Nvidia: Die neuen Chip-Deals von OpenAI werfen eine sehr schwierige Frag -------
+2026-06-11 07:44:42,953 [INFO] Resolved Google News URL: https://www.businessinsider.de/wirtschaft/amd-nvidia-die-neuen-chip-deals-von-op
+2026-06-11 07:44:42,953 [INFO] URL: https://www.businessinsider.de/wirtschaft/amd-nvidia-die-neuen-chip-deals-von-openai-werfen-eine-frage-auf/
+2026-06-11 07:44:43,637 [INFO] Text length: 1526 chars | source: full
+2026-06-11 07:44:43,637 [INFO] Text preview: AMD & Nvidia: Die neuen Chip-Deals von OpenAI werfen eine Frage auf - Business Insider BI plus AMD und Nvidia: Die neuen Chip-Deals von OpenAI werfen eine sehr schwierige Frage auf Ellen Thomas 07 Okt...
+2026-06-11 07:44:44,372 [INFO] LLM HTTP 200 for: AMD und Nvidia: Die neuen Chip-Deals von OpenAI werfen eine 
+2026-06-11 07:44:44,373 [INFO] LLM extracted 1 deals (0 signed) | AMD und Nvidia: Die neuen Chip-Deals von OpenAI we
+2026-06-11 07:44:44,376 [INFO] Not a signed deal — skipping: AMD und Nvidia: Die neuen Chip-Deals von OpenAI werfen eine 
+2026-06-11 07:44:44,376 [INFO] ------- Processing article n. 13: Engie et Masdar remportent un projet solaire de 1,5 GW aux Émirats arabes unis - -------
+2026-06-11 07:44:44,878 [INFO] Resolved Google News URL: https://www.pv-magazine.fr/2025/10/13/engie-et-masdar-remportent-un-projet-solai
+2026-06-11 07:44:44,879 [INFO] URL: https://www.pv-magazine.fr/2025/10/13/engie-et-masdar-remportent-un-projet-solaire-de-15-gw-aux-emirats-arabes-unis/
+2026-06-11 07:44:45,867 [INFO] Text length: 5069 chars | source: full
+2026-06-11 07:44:45,868 [INFO] Text preview: Engie et Masdar remportent un projet solaire de 1,5 GW aux Émirats arabes unis - pv magazine France Annonces Annonces Annonces Annonces Applications Engie et Masdar remportent un projet solaire de 1,5...
+2026-06-11 07:44:47,130 [INFO] LLM HTTP 200 for: Engie et Masdar remportent un projet solaire de 1,5 GW aux É
+2026-06-11 07:44:47,130 [INFO] LLM extracted 1 deals (1 signed) | Engie et Masdar remportent un projet solaire de 1,
+2026-06-11 07:44:47,142 [INFO] Not a European deal — skipping: Emirates Water and Electricity Company (EWEC) / Engie, Masdar (United Arab Emirates, 1500 MW)
+2026-06-11 07:44:47,142 [INFO] ------- Processing article n. 13: Certificats d'économies d'énergie (CEE) : l'administration ne peut pas imposer,  -------
+2026-06-11 07:44:47,789 [INFO] Resolved Google News URL: https://www.gossement-avocats.com/blog/certificats-deconomies-denergie-cee-ladmi
+2026-06-11 07:44:47,790 [INFO] URL: https://www.gossement-avocats.com/blog/certificats-deconomies-denergie-cee-ladministration-ne-peut-pas-imposer-sans-texte-une-obligation-de-resultat-relative-aux-economies-denergie-attendues-conseil-detat-8-octobre-2025/
+2026-06-11 07:44:48,082 [INFO] Text length: 14228 chars | source: full
+2026-06-11 07:44:48,083 [INFO] Text preview: Certificats d'économies d'énergie (CEE) : l'administration ne peut pas imposer, sans texte, une obligation de résultat relative aux économies d'énergie attendues (Conseil d'Etat, 8 octobre 2025, n°496...
+2026-06-11 07:44:48,374 [INFO] LLM HTTP 200 for: Certificats d'économies d'énergie (CEE) : l'administration n
+2026-06-11 07:44:48,374 [INFO] LLM extracted 0 deals (0 signed) | Certificats d'économies d'énergie (CEE) : l'admini
+2026-06-11 07:44:48,379 [INFO] ------- Processing article n. 13: Parcs éoliens français en mer : où en est-on ? Energies - Batirama.com -------
+2026-06-11 07:44:48,881 [INFO] Resolved Google News URL: https://www.batirama.com/article/83389-parcs-eoliens-francais-en-mer-ou-en-est-o
+2026-06-11 07:44:48,881 [INFO] URL: https://www.batirama.com/article/83389-parcs-eoliens-francais-en-mer-ou-en-est-on.html
+2026-06-11 07:44:52,598 [INFO] Text length: 10913 chars | source: full
+2026-06-11 07:44:52,598 [INFO] Text preview: Focus sur les parcs éoliens français en mer Commande vocale : Dernière recherche : Dernièr résultat : Actualités Energies renouvelables Parcs éoliens français en mer : où en est-on ? Laure Pophillat 0...
+2026-06-11 07:44:53,467 [INFO] LLM HTTP 200 for: Parcs éoliens français en mer : où en est-on ? Energies - Ba
+2026-06-11 07:44:53,468 [INFO] LLM extracted 1 deals (0 signed) | Parcs éoliens français en mer : où en est-on ? Ene
+2026-06-11 07:44:53,471 [INFO] Not a signed deal — skipping: Parcs éoliens français en mer : où en est-on ? Energies - Ba
+2026-06-11 07:44:53,471 [INFO] ------- Processing article n. 13: Qair mobilise pour ses centrales tunisiennes - africabusinessplus.com -------
+2026-06-11 07:44:54,146 [INFO] Resolved Google News URL: https://www.africabusinessplus.com/fr/827558/qair-mobilise-pour-ses-centrales-tu
+2026-06-11 07:44:54,146 [INFO] URL: https://www.africabusinessplus.com/fr/827558/qair-mobilise-pour-ses-centrales-tunisiennes/
+2026-06-11 07:44:54,292 [INFO] Text length: 833 chars | source: full
+2026-06-11 07:44:54,292 [INFO] Text preview: Qair mobilise pour ses centrales tunisiennes - Africa Business+ S'identifier S'abonner Choisir votre édition EN FR Accueil Actualités Perspectives Réseaux Deals Minerais critiques Finance Classements ...
+2026-06-11 07:44:54,519 [INFO] LLM HTTP 200 for: Qair mobilise pour ses centrales tunisiennes - africabusines
+2026-06-11 07:44:54,519 [INFO] LLM extracted 0 deals (0 signed) | Qair mobilise pour ses centrales tunisiennes - afr
+2026-06-11 07:44:54,522 [INFO] ------- Processing article n. 13: Google investit cinq milliards sur deux ans en Belgique et y crée 300 emplois -  -------
+2026-06-11 07:44:55,168 [INFO] Resolved Google News URL: https://trends.levif.be/a-la-une/tech/google-investit-cinq-milliards-sur-deux-an
+2026-06-11 07:44:55,168 [INFO] URL: https://trends.levif.be/a-la-une/tech/google-investit-cinq-milliards-sur-deux-ans-en-belgique-et-y-cree-300-emplois/
+2026-06-11 07:44:56,370 [INFO] Text length: 4636 chars | source: full
+2026-06-11 07:44:56,370 [INFO] Text preview: Google investit cinq milliards sur deux ans en Belgique et y crée 300 emplois - Trends-Tendances Tech Google investit cinq milliards sur deux ans en Belgique et y crée 300 emplois Partager: 08-10-2025...
+2026-06-11 07:44:57,401 [INFO] LLM HTTP 200 for: Google investit cinq milliards sur deux ans en Belgique et y
+2026-06-11 07:44:57,402 [INFO] LLM extracted 1 deals (1 signed) | Google investit cinq milliards sur deux ans en Bel
+2026-06-11 07:44:57,405 [INFO] NEW: Google / Luminus (Belgium, 38.6 MW)
+2026-06-11 07:45:02,408 [INFO] ------- Processing article n. 14: Imerys firma con ENGIE un acuerdo de compra de energía renovable a diez años en  -------
+2026-06-11 07:45:02,885 [INFO] Resolved Google News URL: https://www.review-energy.com/solar/imerys-firma-con-engie-un-acuerdo-de-compra-
+2026-06-11 07:45:02,886 [INFO] URL: https://www.review-energy.com/solar/imerys-firma-con-engie-un-acuerdo-de-compra-de-energia-renovable-a-diez-anos-en-espana
+2026-06-11 07:45:15,031 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.review-energy.com', port=443): Max retries exceeded with url: /solar/imerys-firma-con-engie-un-acuerdo-de-compra-de-energia-renovable-a-diez-anos-en-espana (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.review-energy.com', port=443) at 0x7d741865c950>, 'Connection to www.review-energy.com timed out. (connect timeout=12)'))): https://www.review-energy.com/solar/imerys-firma-con-engie-un-acuerdo-de-compra-
+2026-06-11 07:45:15,031 [INFO] Text length: 217 chars | source: fallback
+2026-06-11 07:45:15,031 [INFO] Text preview: Imerys firma con ENGIE un acuerdo de compra de energía renovable a diez años en España - Review Energy
+
+Imerys firma con ENGIE un acuerdo de compra de energía renovable a diez años en España &nbsp;&nb...
+2026-06-11 07:45:15,781 [INFO] LLM HTTP 200 for: Imerys firma con ENGIE un acuerdo de compra de energía renov
+2026-06-11 07:45:15,781 [INFO] LLM extracted 1 deals (1 signed) | Imerys firma con ENGIE un acuerdo de compra de ene
+2026-06-11 07:45:15,786 [INFO] NEW: Imerys / ENGIE (Spain, None MW)
+2026-06-11 07:45:20,794 [INFO] ------- Processing article n. 15: OpenAI bate un nuevo récord: alcanza el billón de dólares en acuerdos con gigant -------
+2026-06-11 07:45:21,402 [INFO] Resolved Google News URL: https://elpais.com/economia/2025-10-07/openai-bate-nuevo-record-alcanza-el-billo
+2026-06-11 07:45:21,403 [INFO] URL: https://elpais.com/economia/2025-10-07/openai-bate-nuevo-record-alcanza-el-billon-de-dolares-en-acuerdos-con-gigantes-tecnologicos.html
+2026-06-11 07:45:21,503 [INFO] Full text skipped (status 403): https://elpais.com/economia/2025-10-07/openai-bate-nuevo-record-alcanza-el-billo
+2026-06-11 07:45:21,503 [INFO] Text length: 223 chars | source: fallback
+2026-06-11 07:45:21,503 [INFO] Text preview: OpenAI bate un nuevo récord: alcanza el billón de dólares en acuerdos con gigantes tecnológicos - EL PAÍS
+
+OpenAI bate un nuevo récord: alcanza el billón de dólares en acuerdos con gigantes tecnológic...
+2026-06-11 07:45:22,412 [INFO] LLM HTTP 200 for: OpenAI bate un nuevo récord: alcanza el billón de dólares en
+2026-06-11 07:45:22,413 [INFO] LLM extracted 1 deals (0 signed) | OpenAI bate un nuevo récord: alcanza el billón de 
+2026-06-11 07:45:22,416 [INFO] Not a signed deal — skipping: OpenAI bate un nuevo récord: alcanza el billón de dólares en
+2026-06-11 07:45:22,416 [INFO] ------- Processing article n. 15: Empresas españolas en LatAm: Grenergy construye otro proyecto híbrido en Chile d -------
+2026-06-11 07:45:23,077 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2025/10/10/empresas-espanolas-en-latam-grenergy-const
+2026-06-11 07:45:23,077 [INFO] URL: https://www.pv-magazine.es/2025/10/10/empresas-espanolas-en-latam-grenergy-construye-otro-proyecto-hibrido-en-chile-de-340-mw-solar-y-960-mwh-bess/
+2026-06-11 07:45:23,817 [INFO] Text length: 5202 chars | source: full
+2026-06-11 07:45:23,817 [INFO] Text preview: Empresas españolas en LatAm: Grenergy construye otro proyecto híbrido en Chile de 340 MW solar y 960 MWh BESS - pv magazine España Anuncio Anuncio Anuncio Anuncio Instalaciones Empresas españolas en L...
+2026-06-11 07:45:25,426 [INFO] LLM HTTP 200 for: Empresas españolas en LatAm: Grenergy construye otro proyect
+2026-06-11 07:45:25,426 [INFO] LLM extracted 1 deals (1 signed) | Empresas españolas en LatAm: Grenergy construye ot
+2026-06-11 07:45:25,429 [INFO] Not a European deal — skipping: Codelco / Grenergy (Chile, 340 MW)
+2026-06-11 07:45:25,429 [INFO] ------- Processing article n. 15: Una asesora financiera alerta a los compradores: "Ni se te ocurra firmar el cont -------
+2026-06-11 07:45:26,005 [INFO] Resolved Google News URL: https://www.larazon.es/economia/asesora-financiera-alerta-compradores-ocurra-fir
+2026-06-11 07:45:26,005 [INFO] URL: https://www.larazon.es/economia/asesora-financiera-alerta-compradores-ocurra-firmar-contrato-arras-entregan-antes-certificado-eficiencia-energetica_2025100768e528a7e81f4179693b0305.html
+2026-06-11 07:45:26,261 [INFO] Text length: 3688 chars | source: full
+2026-06-11 07:45:26,261 [INFO] Text preview: Una asesora financiera alerta a los compradores: "Ni se te ocurra firmar el contrato de arras si no te entregan antes el certificado de eficiencia energética" Directo Última hora de la visita del Papa...
+2026-06-11 07:45:27,071 [INFO] LLM HTTP 200 for: Una asesora financiera alerta a los compradores: "Ni se te o
+2026-06-11 07:45:27,071 [INFO] LLM extracted 1 deals (0 signed) | Una asesora financiera alerta a los compradores: "
+2026-06-11 07:45:27,081 [INFO] Not a signed deal — skipping: Una asesora financiera alerta a los compradores: "Ni se te o
+2026-06-11 07:45:27,081 [INFO] ------- Processing article n. 15: Grenergy coloca la primera piedra de la planta híbrida Monte Águila en la Región -------
+2026-06-11 07:45:27,513 [INFO] Resolved Google News URL: https://www.energiaestrategica.com/grenergy-coloca-la-primera-piedra-de-la-plant
+2026-06-11 07:45:27,514 [INFO] URL: https://www.energiaestrategica.com/grenergy-coloca-la-primera-piedra-de-la-planta-hibrida-monte-aguila-en-la-region-del-biobio
+2026-06-11 07:45:28,726 [INFO] Text length: 83 chars | source: full
+2026-06-11 07:45:28,727 [INFO] Text preview: Grenergy lays the first stone of the Monte Águila hybrid plant in the Biobío Region...
+2026-06-11 07:45:29,435 [INFO] LLM HTTP 200 for: Grenergy coloca la primera piedra de la planta híbrida Monte
+2026-06-11 07:45:29,435 [INFO] LLM extracted 1 deals (0 signed) | Grenergy coloca la primera piedra de la planta híb
+2026-06-11 07:45:29,438 [INFO] Not a signed deal — skipping: Grenergy coloca la primera piedra de la planta híbrida Monte
+2026-06-11 07:45:29,438 [INFO] ------- Processing article n. 15: Merlin se alía con Iberdrola para impulsar el mayor centro de datos de España -  -------
+2026-06-11 07:45:30,156 [INFO] Resolved Google News URL: https://www.eleconomista.es/vivienda-inmobiliario/noticias/13580533/10/25/merlin
+2026-06-11 07:45:30,156 [INFO] URL: https://www.eleconomista.es/vivienda-inmobiliario/noticias/13580533/10/25/merlin-se-alia-con-iberdrola-para-impulsar-el-mayor-centro-de-datos-de-espana.html
+2026-06-11 07:45:30,225 [INFO] Full text skipped (status 403): https://www.eleconomista.es/vivienda-inmobiliario/noticias/13580533/10/25/merlin
+2026-06-11 07:45:30,226 [INFO] Text length: 199 chars | source: fallback
+2026-06-11 07:45:30,226 [INFO] Text preview: Merlin se alía con Iberdrola para impulsar el mayor centro de datos de España - El Economista
+
+Merlin se alía con Iberdrola para impulsar el mayor centro de datos de España &nbsp;&nbsp; El Economista...
+2026-06-11 07:45:30,921 [INFO] LLM HTTP 200 for: Merlin se alía con Iberdrola para impulsar el mayor centro d
+2026-06-11 07:45:30,921 [INFO] LLM extracted 1 deals (0 signed) | Merlin se alía con Iberdrola para impulsar el mayo
+2026-06-11 07:45:30,926 [INFO] Not a signed deal — skipping: Merlin se alía con Iberdrola para impulsar el mayor centro d
+2026-06-11 07:45:30,926 [INFO] ------- Processing article n. 15: Próxima firma del contrato de 18 aviones Gripen para Colombia - Noticias Defensa -------
+2026-06-11 07:45:31,522 [INFO] Resolved Google News URL: https://www.defensa.com/colombia/espera-firma-este-mes-octubre-contrato-18-avion
+2026-06-11 07:45:31,522 [INFO] URL: https://www.defensa.com/colombia/espera-firma-este-mes-octubre-contrato-18-aviones-gripen-para
+2026-06-11 07:45:32,732 [INFO] Text length: 10272 chars | source: full
+2026-06-11 07:45:32,732 [INFO] Text preview: Próxima firma del contrato de 18 aviones Gripen para Colombia - Noticias Defensa defensa.com Colombia Recordar clave ¿Desea recibir notificaciones de www.defensa.com? Sí, activar X Imprimir Twitter Fa...
+2026-06-11 07:45:33,009 [INFO] LLM HTTP 200 for: Próxima firma del contrato de 18 aviones Gripen para Colombi
+2026-06-11 07:45:33,009 [INFO] LLM extracted 0 deals (0 signed) | Próxima firma del contrato de 18 aviones Gripen pa
+2026-06-11 07:45:33,015 [INFO] ------- Processing article n. 15: Pendiente la firma de la compra de Astilleros Balenciaga por el grupo árabe: inc -------
+2026-06-11 07:45:33,638 [INFO] Resolved Google News URL: https://www.economiadigital.es/empresas/pendiente-firma-compra-astilleros-balenc
+2026-06-11 07:45:33,638 [INFO] URL: https://www.economiadigital.es/empresas/pendiente-firma-compra-astilleros-balenciaga-grupo-arabe-incertidumbre-plantilla.html
+2026-06-11 07:45:33,842 [INFO] Text length: 8135 chars | source: full
+2026-06-11 07:45:33,843 [INFO] Text preview: Pendiente la firma de la compra de Astilleros Balenciaga por el grupo árabe: incertidumbre entre la plantilla Skip to content Astilleros Balenciaga. Foto: LinkedIn Por Alba Carbajal 12 Oct 2025 19:00 ...
+2026-06-11 07:45:34,138 [INFO] LLM HTTP 200 for: Pendiente la firma de la compra de Astilleros Balenciaga por
+2026-06-11 07:45:34,139 [INFO] LLM extracted 0 deals (0 signed) | Pendiente la firma de la compra de Astilleros Bale
+2026-06-11 07:45:34,143 [INFO] ------- Processing article n. 15: OpenAI y Sur Energy construirán un megacentro de datos en la Patagonia - La Naci -------
+2026-06-11 07:45:34,861 [INFO] Resolved Google News URL: https://www.lanacion.com.ar/economia/negocios/openai-y-sur-energy-construiran-un
+2026-06-11 07:45:34,861 [INFO] URL: https://www.lanacion.com.ar/economia/negocios/openai-y-sur-energy-construiran-un-megacentro-de-datos-en-la-patagonia-nid10102025/
+2026-06-11 07:45:35,331 [INFO] Text length: 7181 chars | source: full
+2026-06-11 07:45:35,331 [INFO] Text preview: OpenAI y Sur Energy construirán un megacentro de datos en la Patagonia - LA NACION CERRAR CERRAR OpenAI y Sur Energy construirán un megacentro de datos en la Patagonia El proyecto se llama Stargate Ar...
+2026-06-11 07:45:36,028 [INFO] LLM HTTP 200 for: OpenAI y Sur Energy construirán un megacentro de datos en la
+2026-06-11 07:45:36,029 [INFO] LLM extracted 1 deals (0 signed) | OpenAI y Sur Energy construirán un megacentro de d
+2026-06-11 07:45:36,032 [INFO] Not a signed deal — skipping: OpenAI y Sur Energy construirán un megacentro de datos en la
+2026-06-11 07:45:36,033 [INFO] ------- Processing article n. 15: YPF selló acuerdo con la italiana Eni por más de u$s20.000 millones para la expo -------
+2026-06-11 07:45:36,696 [INFO] Resolved Google News URL: https://www.ambito.com/energia/ypf-sello-acuerdo-la-italiana-eni-mas-us20000-mil
+2026-06-11 07:45:36,696 [INFO] URL: https://www.ambito.com/energia/ypf-sello-acuerdo-la-italiana-eni-mas-us20000-millones-la-exportacion-gnl-vaca-muerta-n6200601
+2026-06-11 07:45:36,971 [INFO] Text length: 11006 chars | source: full
+2026-06-11 07:45:36,972 [INFO] Text preview: YPF selló acuerdo con la italiana Eni por más de u$s20.000 millones para la exportación de GNL de Vaca Muerta Vaca Muerta retomó la senda del crecimiento: etapas de fracturas subieron 6,4% en mayo La ...
+2026-06-11 07:45:37,304 [INFO] LLM HTTP 200 for: YPF selló acuerdo con la italiana Eni por más de u$s20.000 m
+2026-06-11 07:45:37,304 [INFO] LLM extracted 0 deals (0 signed) | YPF selló acuerdo con la italiana Eni por más de u
+2026-06-11 07:45:37,307 [INFO] ------- Processing article n. 15: Venezuela compra a Rusia la nafta que antes obtenía de EE.UU. - Perfil -------
+2026-06-11 07:45:38,008 [INFO] Resolved Google News URL: https://www.perfil.com/noticias/bloomberg/bc-venezuela-compra-a-rusia-la-nafta-q
+2026-06-11 07:45:38,008 [INFO] URL: https://www.perfil.com/noticias/bloomberg/bc-venezuela-compra-a-rusia-la-nafta-que-antes-obtenia-de-eeuu.phtml
+2026-06-11 07:45:38,296 [INFO] Text length: 7746 chars | source: full
+2026-06-11 07:45:38,296 [INFO] Text preview: Venezuela compra a Rusia la nafta que antes obtenía de EE.UU. | Perfil jueves 11 de junio de 2026 Business Noticias Caras Exitoína Perfil Brasil ✕ Suscribite Último momento Secciones Ahora Columnistas...
+2026-06-11 07:45:39,080 [INFO] LLM HTTP 200 for: Venezuela compra a Rusia la nafta que antes obtenía de EE.UU
+2026-06-11 07:45:39,080 [INFO] LLM extracted 1 deals (0 signed) | Venezuela compra a Rusia la nafta que antes obtení
+2026-06-11 07:45:39,084 [INFO] Not a signed deal — skipping: Venezuela compra a Rusia la nafta que antes obtenía de EE.UU
+2026-06-11 07:45:39,084 [INFO] ------- Processing article n. 15: Grenergy inicia construcción de planta híbrida Monte Águila en Biobío con invers -------
+2026-06-11 07:45:39,631 [INFO] Resolved Google News URL: https://www.reporteminero.cl/noticia/noticias/2025/10/grenergy-planta-hibrida-mo
+2026-06-11 07:45:39,631 [INFO] URL: https://www.reporteminero.cl/noticia/noticias/2025/10/grenergy-planta-hibrida-monte-aguila-biobio
+2026-06-11 07:45:39,663 [INFO] Full text skipped (status 403): https://www.reporteminero.cl/noticia/noticias/2025/10/grenergy-planta-hibrida-mo
+2026-06-11 07:45:39,664 [INFO] Text length: 251 chars | source: fallback
+2026-06-11 07:45:39,664 [INFO] Text preview: Grenergy inicia construcción de planta híbrida Monte Águila en Biobío con inversión de US$300 millones - Reporte Minero
+
+Grenergy inicia construcción de planta híbrida Monte Águila en Biobío con inver...
+2026-06-11 07:45:40,362 [INFO] LLM HTTP 200 for: Grenergy inicia construcción de planta híbrida Monte Águila 
+2026-06-11 07:45:40,362 [INFO] LLM extracted 1 deals (0 signed) | Grenergy inicia construcción de planta híbrida Mon
+2026-06-11 07:45:40,366 [INFO] Not a signed deal — skipping: Grenergy inicia construcción de planta híbrida Monte Águila 
+2026-06-11 07:45:40,366 [INFO] ------- Processing article n. 15: Carlos Slim acumula más de US$6.400 millones en contratos con Pemex - Bloomberg  -------
+2026-06-11 07:45:40,998 [INFO] Resolved Google News URL: https://www.bloomberglinea.com/latinoamerica/mexico/carlos-slim-acumula-mas-de-u
+2026-06-11 07:45:40,998 [INFO] URL: https://www.bloomberglinea.com/latinoamerica/mexico/carlos-slim-acumula-mas-de-us6400-millones-en-contratos-con-pemex/
+2026-06-11 07:45:41,651 [INFO] Text length: 12782 chars | source: full
+2026-06-11 07:45:41,651 [INFO] Text preview: Carlos Slim acumula más de US$6.400 millones en contratos con Pemex Carlos Slim acumula más de US$6.400 millones en contratos con Pemex. Carlos Slim Helú, presidente emérito de Grupo Carso y América M...
+2026-06-11 07:45:42,390 [INFO] LLM HTTP 200 for: Carlos Slim acumula más de US$6.400 millones en contratos co
+2026-06-11 07:45:42,391 [INFO] LLM extracted 1 deals (0 signed) | Carlos Slim acumula más de US$6.400 millones en co
+2026-06-11 07:45:42,393 [INFO] Not a signed deal — skipping: Carlos Slim acumula más de US$6.400 millones en contratos co
+2026-06-11 07:45:42,394 [INFO] ------- Processing article n. 15: YPF firmó un acuerdo clave para exportar gas por barco a Europa y Asia por unos  -------
+2026-06-11 07:45:42,777 [INFO] Resolved Google News URL: https://tn.com.ar/economia/2025/10/10/ypf-firmo-un-acuerdo-clave-para-exportar-g
+2026-06-11 07:45:42,777 [INFO] URL: https://tn.com.ar/economia/2025/10/10/ypf-firmo-un-acuerdo-clave-para-exportar-gas-por-barco-a-europa-y-asia-por-unos-us15000-millones/
+2026-06-11 07:45:43,585 [INFO] Text length: 6876 chars | source: full
+2026-06-11 07:45:43,585 [INFO] Text preview: YPF firmó un acuerdo clave para exportar gas por barco a Europa y Asia por unos US$15.000 millones por año, desde 2028 | TN TN Temas de hoy : Javier Milei Dólar hoy Caso Agostina Vega Selección argent...
+2026-06-11 07:45:44,321 [INFO] LLM HTTP 200 for: YPF firmó un acuerdo clave para exportar gas por barco a Eur
+2026-06-11 07:45:44,321 [INFO] LLM extracted 1 deals (0 signed) | YPF firmó un acuerdo clave para exportar gas por b
+2026-06-11 07:45:44,325 [INFO] Not a signed deal — skipping: YPF firmó un acuerdo clave para exportar gas por barco a Eur
+2026-06-11 07:45:44,326 [INFO] ------- Processing article n. 15: La pulseada de dos empresas por la última joya de YPF en Chubut - Diario Río Neg -------
+2026-06-11 07:45:44,902 [INFO] Resolved Google News URL: https://www.rionegro.com.ar/energia/la-pulseada-de-dos-empresas-por-la-ultima-jo
+2026-06-11 07:45:44,902 [INFO] URL: https://www.rionegro.com.ar/energia/la-pulseada-de-dos-empresas-por-la-ultima-joya-de-ypf-en-chubut/
+2026-06-11 07:45:45,428 [INFO] Text length: 7759 chars | source: full
+2026-06-11 07:45:45,428 [INFO] Text preview: La pulseada de dos empresas por la última joya de YPF en Chubut - Diario Río Negro Un ejemplo de rejuvenecimiento por la recuperación mejorada es Manantiales Behr, en Chubut. https://www.rionegro.com....
+2026-06-11 07:45:46,208 [INFO] LLM HTTP 200 for: La pulseada de dos empresas por la última joya de YPF en Chu
+2026-06-11 07:45:46,209 [INFO] LLM extracted 1 deals (0 signed) | La pulseada de dos empresas por la última joya de 
+2026-06-11 07:45:46,211 [INFO] Not a signed deal — skipping: La pulseada de dos empresas por la última joya de YPF en Chu
+2026-06-11 07:45:46,211 [INFO] ------- Processing article n. 15: Schneider Electric e Climeworks firmano un accordo per la rimozione di 31000 ton -------
+2026-06-11 07:45:46,664 [INFO] Resolved Google News URL: https://www.rinnovabili.it/mercato/le-aziende-informano/schneider-electric-clime
+2026-06-11 07:45:46,664 [INFO] URL: https://www.rinnovabili.it/mercato/le-aziende-informano/schneider-electric-climeworks-accordo-rimozione-co2/
+2026-06-11 07:45:46,743 [INFO] Full text skipped (status 403): https://www.rinnovabili.it/mercato/le-aziende-informano/schneider-electric-clime
+2026-06-11 07:45:46,744 [INFO] Text length: 281 chars | source: fallback
+2026-06-11 07:45:46,744 [INFO] Text preview: Schneider Electric e Climeworks firmano un accordo per la rimozione di 31000 ton di CO2 con soluzioni ad alta durabilità - Rinnovabili
+
+Schneider Electric e Climeworks firmano un accordo per la rimozi...
+2026-06-11 07:45:47,456 [INFO] LLM HTTP 200 for: Schneider Electric e Climeworks firmano un accordo per la ri
+2026-06-11 07:45:47,456 [INFO] LLM extracted 1 deals (0 signed) | Schneider Electric e Climeworks firmano un accordo
+2026-06-11 07:45:47,461 [INFO] Not a signed deal — skipping: Schneider Electric e Climeworks firmano un accordo per la ri
+2026-06-11 07:45:47,461 [INFO] ------- Processing article n. 15: Conto Termico 3.0: incentivi anche per gli enti del Terzo settore - Cantiere Ter -------
+2026-06-11 07:45:48,155 [INFO] Resolved Google News URL: https://www.cantiereterzosettore.it/conto-termico-3-0-incentivi-anche-per-gli-en
+2026-06-11 07:45:48,155 [INFO] URL: https://www.cantiereterzosettore.it/conto-termico-3-0-incentivi-anche-per-gli-enti-del-terzo-settore/
+2026-06-11 07:45:48,698 [INFO] Text length: 12579 chars | source: full
+2026-06-11 07:45:48,698 [INFO] Text preview: Conto Termico 3.0: incentivi anche per gli enti del Terzo settore - Cantiere Terzo Settore Da luglio 2024 molte norme sono state semplificate. Leggi qui cosa è cambiato DI Chiara Meoli,
+             ...
+2026-06-11 07:45:48,999 [INFO] LLM HTTP 200 for: Conto Termico 3.0: incentivi anche per gli enti del Terzo se
+2026-06-11 07:45:48,999 [INFO] LLM extracted 0 deals (0 signed) | Conto Termico 3.0: incentivi anche per gli enti de
+2026-06-11 07:45:49,002 [INFO] ------- Processing article n. 15: M&A Italia nei primi 9 mesi 2025 - KPMG -------
+2026-06-11 07:45:49,473 [INFO] Resolved Google News URL: https://kpmg.com/it/it/media/press-releases/2025/10/ma-italia-q3-2025-mercato-in
+2026-06-11 07:45:49,473 [INFO] URL: https://kpmg.com/it/it/media/press-releases/2025/10/ma-italia-q3-2025-mercato-in-calo-tensioni-incertezza-internazionali.html
+2026-06-11 07:45:50,089 [INFO] Text length: 17377 chars | source: full
+2026-06-11 07:45:50,090 [INFO] Text preview: M&A Italia nei primi 9 mesi 2025 Mercato in leggero calo: pesano le tensioni e l’incertezza a livello internazionale M&A Italia nei primi 9 mesi 2025. event 07-10-2025 Condividi In crescita le operazi...
+2026-06-11 07:45:50,371 [INFO] LLM HTTP 200 for: M&A Italia nei primi 9 mesi 2025 - KPMG
+2026-06-11 07:45:50,371 [INFO] LLM extracted 0 deals (0 signed) | M&A Italia nei primi 9 mesi 2025 - KPMG
+2026-06-11 07:45:50,375 [INFO] ------- Processing article n. 15: Criteri Ambientali Minimi (CAM): obbligo nei bandi pubblici. Annullate aggiudica -------
+2026-06-11 07:45:50,883 [INFO] Resolved Google News URL: https://www.ingenio-web.it/articoli/criteri-ambientali-minimi-cam-obbligo-nei-ba
+2026-06-11 07:45:50,883 [INFO] URL: https://www.ingenio-web.it/articoli/criteri-ambientali-minimi-cam-obbligo-nei-bandi-pubblici-annullate-aggiudicazioni-per-bandi-difformi/
+2026-06-11 07:45:51,024 [INFO] Full text skipped (status 403): https://www.ingenio-web.it/articoli/criteri-ambientali-minimi-cam-obbligo-nei-ba
+2026-06-11 07:45:51,024 [INFO] Text length: 315 chars | source: fallback
+2026-06-11 07:45:51,024 [INFO] Text preview: Criteri Ambientali Minimi (CAM): obbligo nei bandi pubblici. Annullate aggiudicazioni per bandi difformi! - Ingenio: Informazione Tecnica e Progettuale
+
+Criteri Ambientali Minimi (CAM): obbligo nei ba...
+2026-06-11 07:45:52,078 [INFO] LLM HTTP 200 for: Criteri Ambientali Minimi (CAM): obbligo nei bandi pubblici.
+2026-06-11 07:45:52,078 [INFO] LLM extracted 1 deals (0 signed) | Criteri Ambientali Minimi (CAM): obbligo nei bandi
+2026-06-11 07:45:52,084 [INFO] Not a signed deal — skipping: Criteri Ambientali Minimi (CAM): obbligo nei bandi pubblici.
+2026-06-11 07:45:52,084 [INFO] ------- Processing article n. 15: Catherine MacGregor, ceo di Engie: «La transizione sia responsabile, l'industria -------
+2026-06-11 07:45:52,587 [INFO] Resolved Google News URL: https://www.corriere.it/economia/aziende/25_ottobre_08/catherine-macgregor-ceo-d
+2026-06-11 07:45:52,589 [INFO] URL: https://www.corriere.it/economia/aziende/25_ottobre_08/catherine-macgregor-ceo-di-engie-la-transizione-sia-responsabile-l-industria-non-va-penalizzata-44be77de-656e-43ea-8d2f-0f64d1174xlk.shtml
+2026-06-11 07:45:52,729 [INFO] Text length: 13526 chars | source: full
+2026-06-11 07:45:52,729 [INFO] Text preview: Catherine MacGregor, ceo di Engie: «La transizione sia responsabile, l’industria non va penalizzata» | Corriere.it Micaela Ramazzotti: «Mio marito? Non è un orco palestrato. Non sono fiera della lite ...
+2026-06-11 07:45:53,030 [INFO] LLM HTTP 200 for: Catherine MacGregor, ceo di Engie: «La transizione sia respo
+2026-06-11 07:45:53,030 [INFO] LLM extracted 0 deals (0 signed) | Catherine MacGregor, ceo di Engie: «La transizione
+2026-06-11 07:45:53,035 [INFO] ------- Processing article n. 15: Będzie termomodernizacja sali wiejskiej w Kadziaku. Umowa na dofinansowanie zost -------
+2026-06-11 07:45:53,686 [INFO] Resolved Google News URL: https://jarocinska.pl/wiadomosci/bedzie-termomodernizacja-sali-wiejskiej-w-kadzi
+2026-06-11 07:45:53,686 [INFO] URL: https://jarocinska.pl/wiadomosci/bedzie-termomodernizacja-sali-wiejskiej-w-kadziaku-umowa-na-dofinansowanie-zostala-podpisana-co-zostanie-zrobione-sonda/XfHMvpUyHM7GngpcSB9A
+2026-06-11 07:45:54,420 [INFO] Text length: 4076 chars | source: full
+2026-06-11 07:45:54,420 [INFO] Text preview: Będzie termomodernizacja sali wiejskiej w Kadziaku. Umowa na dofinansowanie została podpisana. Co zostanie zrobione? [SONDA] - Jarocinska reklama Będzie termomodernizacja sali w Kadziaku. Umowa na dof...
+2026-06-11 07:45:55,222 [INFO] LLM HTTP 200 for: Będzie termomodernizacja sali wiejskiej w Kadziaku. Umowa na
+2026-06-11 07:45:55,222 [INFO] LLM extracted 1 deals (0 signed) | Będzie termomodernizacja sali wiejskiej w Kadziaku
+2026-06-11 07:45:55,225 [INFO] Not a signed deal — skipping: Będzie termomodernizacja sali wiejskiej w Kadziaku. Umowa na
+2026-06-11 07:45:55,225 [INFO] ------- Processing article n. 15: Mattos Filho assessora Sabesp em negociação de contratos - Migalhas -------
+2026-06-11 07:45:55,661 [INFO] Resolved Google News URL: https://www.migalhas.com.br/quentes/441690/mattos-filho-assessora-sabesp-em-nego
+2026-06-11 07:45:55,662 [INFO] URL: https://www.migalhas.com.br/quentes/441690/mattos-filho-assessora-sabesp-em-negociacao-de-contratos
+2026-06-11 07:45:55,908 [INFO] Text length: 2359 chars | source: full
+2026-06-11 07:45:55,908 [INFO] Text preview: Mattos Filho assessora Sabesp em negociação de contratos - Migalhas Home > Quentes > Mattos Filho assessora Sabesp em negociação de contratos PUBLICIDADE PUBLICIDADE O Mattos Filho assessorou a Sabesp...
+2026-06-11 07:45:56,646 [INFO] LLM HTTP 200 for: Mattos Filho assessora Sabesp em negociação de contratos - M
+2026-06-11 07:45:56,646 [INFO] LLM extracted 1 deals (0 signed) | Mattos Filho assessora Sabesp em negociação de con
+2026-06-11 07:45:56,651 [INFO] Not a signed deal — skipping: Mattos Filho assessora Sabesp em negociação de contratos - M
+2026-06-11 07:45:56,651 [INFO] ------- Processing article n. 15: Vallourec e Petrobras firmam contrato sobre gás natural no mercado livre - CNN B -------
+2026-06-11 07:45:57,157 [INFO] Resolved Google News URL: https://www.cnnbrasil.com.br/economia/negocios/vallourec-e-petrobras-firmam-cont
+2026-06-11 07:45:57,157 [INFO] URL: https://www.cnnbrasil.com.br/economia/negocios/vallourec-e-petrobras-firmam-contrato-sobre-gas-natural-no-mercado-livre/
+2026-06-11 07:45:58,025 [INFO] Text length: 2931 chars | source: full
+2026-06-11 07:45:58,025 [INFO] Text preview: Vallourec e Petrobras firmam contrato sobre gás natural no mercado livre | CNN Brasil Compartilhar matéria A Vallourec e a Petrobras celebraram contrato de compra e venda de gás natural no âmbito do m...
+2026-06-11 07:45:58,789 [INFO] LLM HTTP 200 for: Vallourec e Petrobras firmam contrato sobre gás natural no m
+2026-06-11 07:45:58,789 [INFO] LLM extracted 1 deals (0 signed) | Vallourec e Petrobras firmam contrato sobre gás na
+2026-06-11 07:45:58,793 [INFO] Not a signed deal — skipping: Vallourec e Petrobras firmam contrato sobre gás natural no m
+2026-06-11 07:45:58,793 [INFO] ------- Processing article n. 15: Justiça Federal suspende processo de renovação antecipada da Enel em SP até deci -------
+2026-06-11 07:45:59,353 [INFO] Resolved Google News URL: https://g1.globo.com/sp/sao-paulo/noticia/2025/10/09/justica-federal-suspende-pr
+2026-06-11 07:45:59,353 [INFO] URL: https://g1.globo.com/sp/sao-paulo/noticia/2025/10/09/justica-federal-suspende-processo-de-renovacao-antecipada-da-enel-em-sp-ate-decisao-sobre-possivel-cassacao-do-contrato.ghtml
+2026-06-11 07:46:01,731 [INFO] Text length: 15051 chars | source: full
+2026-06-11 07:46:01,731 [INFO] Text preview: Justiça suspende processo de renovação antecipada da Enel em SP | G1 Justiça Federal suspende processo de renovação antecipada da Enel em SP até decisão sobre possível cassação do contrato Decisão ate...
+2026-06-11 07:46:02,505 [INFO] LLM HTTP 200 for: Justiça Federal suspende processo de renovação antecipada da
+2026-06-11 07:46:02,505 [INFO] LLM extracted 1 deals (0 signed) | Justiça Federal suspende processo de renovação ant
+2026-06-11 07:46:02,508 [INFO] Not a signed deal — skipping: Justiça Federal suspende processo de renovação antecipada da
+2026-06-11 07:46:02,508 [INFO] ------- Processing article n. 15: Transferência da Amazonas Energia trava mesmo após autorização - A Crítica -------
+2026-06-11 07:46:03,028 [INFO] Resolved Google News URL: https://www.acritica.com/politica/transferencia-da-amazonas-energia-trava-mesmo-
+2026-06-11 07:46:03,028 [INFO] URL: https://www.acritica.com/politica/transferencia-da-amazonas-energia-trava-mesmo-apos-autorizac-o-1.385783
+2026-06-11 07:46:03,775 [INFO] Text length: 6824 chars | source: full
+2026-06-11 07:46:03,775 [INFO] Text preview: Transferência da Amazonas Energia trava mesmo após autorização Versão digital Buscar Menu Geral Manaus A Bordo Esportes Entretenimento Educação Opinião Meio Ambiente Polícia Política Parintins Saúde G...
+2026-06-11 07:46:04,530 [INFO] LLM HTTP 200 for: Transferência da Amazonas Energia trava mesmo após autorizaç
+2026-06-11 07:46:04,531 [INFO] LLM extracted 1 deals (0 signed) | Transferência da Amazonas Energia trava mesmo após
+2026-06-11 07:46:04,534 [INFO] Not a signed deal — skipping: Transferência da Amazonas Energia trava mesmo após autorizaç
+2026-06-11 07:46:04,534 [INFO] ------- Processing article n. 15: A VALLOUREC JÁ RECEBE GÁS NATURAL PARA SUAS OPERAÇÕES DEPOIS DO CONTRATO NO MERC -------
+2026-06-11 07:46:05,165 [INFO] Resolved Google News URL: https://petronoticias.com.br/a-vallourec-ja-recebe-gas-natural-para-suas-operaco
+2026-06-11 07:46:05,165 [INFO] URL: https://petronoticias.com.br/a-vallourec-ja-recebe-gas-natural-para-suas-operacoes-depois-do-contrato-no-mercado-livre-com-a-petrobras/
+2026-06-11 07:46:06,261 [INFO] Text length: 3597 chars | source: full
+2026-06-11 07:46:06,261 [INFO] Text preview: A VALLOUREC JÁ RECEBE GÁS NATURAL PARA SUAS OPERAÇÕES DEPOIS DO CONTRATO NO MERCADO LIVRE COM A PETROBRÁS | Petronotícias Home Editorial Quem Somos Responsabilidade Ambiental Anuncie aqui Glossário Co...
+2026-06-11 07:46:07,004 [INFO] LLM HTTP 200 for: A VALLOUREC JÁ RECEBE GÁS NATURAL PARA SUAS OPERAÇÕES DEPOIS
+2026-06-11 07:46:07,004 [INFO] LLM extracted 1 deals (0 signed) | A VALLOUREC JÁ RECEBE GÁS NATURAL PARA SUAS OPERAÇ
+2026-06-11 07:46:07,007 [INFO] Not a signed deal — skipping: A VALLOUREC JÁ RECEBE GÁS NATURAL PARA SUAS OPERAÇÕES DEPOIS
+2026-06-11 07:46:07,007 [INFO] Run complete. New deals: 15, Updates: 0
+2026-06-11 07:46:07,015 [INFO] CSV exported: /workspaces/ppa-tracker/data/ppa_deals.csv (562 deals)
