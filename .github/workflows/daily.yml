@@ -60,9 +60,13 @@ jobs:
             echo "No existing DB, will be created fresh."
           fi
           
-      - name: Calculate today date for Prod
-        if: ${{ github.event_name == 'schedule' || github.event.inputs.target_env == 'Prod' }}
-        run: echo "TODAY_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      - name: Resolve effective start date
+        run: |
+          if [ -n "${{ github.event.inputs.start_date }}" ]; then
+            echo "EFFECTIVE_START_DATE=${{ github.event.inputs.start_date }}" >> $GITHUB_ENV
+          else
+            echo "EFFECTIVE_START_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+          fi
       
       - name: Run pipeline
         env:
@@ -71,7 +75,7 @@ jobs:
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
-          SEARCH_FROM_DATE: ${{ github.event.inputs.start_date || (github.event_name == 'schedule' && env.TODAY_DATE) || vars.SEARCH_FROM_DATE }}
+          SEARCH_FROM_DATE: ${{ env.EFFECTIVE_START_DATE }}          
           SEARCH_TO_DATE: ${{ github.event.inputs.end_date || vars.SEARCH_TO_DATE }}
           NOTIFY_EMAIL_ENABLED: ${{ vars.NOTIFY_EMAIL_ENABLED }}
           NOTIFY_SMTP_HOST: ${{ secrets.NOTIFY_SMTP_HOST }}
