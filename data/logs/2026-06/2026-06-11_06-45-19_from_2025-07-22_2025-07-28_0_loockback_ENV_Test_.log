@@ -1,0 +1,755 @@
+2026-06-11 06:45:19,573 [INFO] === PPA Tracker pipeline starting (env: Test) ===
+2026-06-11 06:45:19,576 [INFO] Searching from 2025-07-22 to 2025-07-28 with 0 loockback days
+2026-06-11 06:45:19,576 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-06-11 06:45:19,927 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2025-07-22%20before%3A2025-07-28&hl=en&gl=US&ceid=US:en: 16 results
+2026-06-11 06:45:22,178 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2025-07-22%20before%3A2025-07-28&hl=en&gl=US&ceid=US:en: 9 results
+2026-06-11 06:45:24,374 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2025-07-22%20before%3A2025-07-28&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-06-11 06:45:26,709 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2025-07-22%20before%3A2025-07-28&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-06-11 06:45:28,995 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2025-07-22%20before%3A2025-07-28&hl=fr&gl=FR&ceid=FR:fr: 10 results
+2026-06-11 06:45:31,276 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2025-07-22%20before%3A2025-07-28&hl=fr&gl=FR&ceid=FR:fr: 4 results
+2026-06-11 06:45:33,526 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2025-07-22%20before%3A2025-07-28&hl=es&gl=ES&ceid=ES:es: 13 results
+2026-06-11 06:45:35,778 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2025-07-22%20before%3A2025-07-28&hl=es&gl=ES&ceid=ES:es: 10 results
+2026-06-11 06:45:38,038 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2025-07-22%20before%3A2025-07-28&hl=it&gl=IT&ceid=IT:it: 9 results
+2026-06-11 06:45:40,270 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2025-07-22%20before%3A2025-07-28&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-06-11 06:45:42,472 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2025-07-22%20before%3A2025-07-28&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-06-11 06:45:44,625 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2025-07-22%20before%3A2025-07-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-11 06:45:46,807 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2025-07-22%20before%3A2025-07-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-06-11 06:45:49,122 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2025-07-22%20before%3A2025-07-28&hl=pt&gl=PT&ceid=PT:pt: 11 results
+2026-06-11 06:45:51,359 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2025-07-22%20before%3A2025-07-28&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-06-11 06:45:53,360 [INFO] Total raw articles collected: 89
+2026-06-11 06:45:53,539 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-06-11 06:45:54,736 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-06-11 06:45:55,783 [INFO] Unique unseen articles: 84
+2026-06-11 06:45:55,783 [INFO] ------- Processing article n. 0: EU's pledge for $250 billion of US energy imports is delusional - Reuters -------
+2026-06-11 06:45:55,980 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/eus-pledge-250-billion-us-energy-imports
+2026-06-11 06:45:55,981 [INFO] URL: https://www.reuters.com/business/energy/eus-pledge-250-billion-us-energy-imports-is-delusional-2025-07-28/
+2026-06-11 06:45:56,046 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/eus-pledge-250-billion-us-energy-imports
+2026-06-11 06:45:56,046 [INFO] Text length: 159 chars | source: fallback
+2026-06-11 06:45:56,047 [INFO] Text preview: EU's pledge for $250 billion of US energy imports is delusional - Reuters
+
+EU's pledge for $250 billion of US energy imports is delusional &nbsp;&nbsp; Reuters...
+2026-06-11 06:45:56,771 [INFO] LLM HTTP 200 for: EU's pledge for $250 billion of US energy imports is delusio
+2026-06-11 06:45:56,771 [INFO] LLM extracted 1 deals (0 signed) | EU's pledge for $250 billion of US energy imports 
+2026-06-11 06:45:56,774 [INFO] Not a signed deal — skipping: EU's pledge for $250 billion of US energy imports is delusio
+2026-06-11 06:45:56,774 [INFO] ------- Processing article n. 0: Trump’s $750 Billion Deal for U.S. Energy Collides With Market Reality - WSJ -------
+2026-06-11 06:45:56,945 [INFO] Resolved Google News URL: https://www.wsj.com/business/energy-oil/trumps-750-billion-eu-energy-deal-collid
+2026-06-11 06:45:56,945 [INFO] URL: https://www.wsj.com/business/energy-oil/trumps-750-billion-eu-energy-deal-collides-with-market-reality-fc14d08c
+2026-06-11 06:45:57,025 [INFO] Full text skipped (status 401): https://www.wsj.com/business/energy-oil/trumps-750-billion-eu-energy-deal-collid
+2026-06-11 06:45:57,025 [INFO] Text length: 165 chars | source: fallback
+2026-06-11 06:45:57,025 [INFO] Text preview: Trump’s $750 Billion Deal for U.S. Energy Collides With Market Reality - WSJ
+
+Trump’s $750 Billion Deal for U.S. Energy Collides With Market Reality &nbsp;&nbsp; WSJ...
+2026-06-11 06:45:57,759 [INFO] LLM HTTP 200 for: Trump’s $750 Billion Deal for U.S. Energy Collides With Mark
+2026-06-11 06:45:57,759 [INFO] LLM extracted 1 deals (0 signed) | Trump’s $750 Billion Deal for U.S. Energy Collides
+2026-06-11 06:45:57,763 [INFO] Not a signed deal — skipping: Trump’s $750 Billion Deal for U.S. Energy Collides With Mark
+2026-06-11 06:45:57,763 [INFO] ------- Processing article n. 0: EU to buy $750 billion of US energy in trade agreement - S&P Global -------
+2026-06-11 06:45:57,934 [INFO] Resolved Google News URL: https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072825-eu
+2026-06-11 06:45:57,935 [INFO] URL: https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072825-eu-to-buy-750-billion-of-us-energy-in-trade-agreement
+2026-06-11 06:45:57,987 [INFO] Full text skipped (status 403): https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072825-eu
+2026-06-11 06:45:57,988 [INFO] Text length: 147 chars | source: fallback
+2026-06-11 06:45:57,988 [INFO] Text preview: EU to buy $750 billion of US energy in trade agreement - S&P Global
+
+EU to buy $750 billion of US energy in trade agreement &nbsp;&nbsp; S&P Global...
+2026-06-11 06:45:58,675 [INFO] LLM HTTP 200 for: EU to buy $750 billion of US energy in trade agreement - S&P
+2026-06-11 06:45:58,675 [INFO] LLM extracted 1 deals (0 signed) | EU to buy $750 billion of US energy in trade agree
+2026-06-11 06:45:58,683 [INFO] Not a signed deal — skipping: EU to buy $750 billion of US energy in trade agreement - S&P
+2026-06-11 06:45:58,683 [INFO] ------- Processing article n. 0: U.S. Reaches Preliminary Trade Deal With Europe - The New York Times -------
+2026-06-11 06:45:58,857 [INFO] Resolved Google News URL: https://www.nytimes.com/2025/07/27/world/europe/eu-trade-deal-trump-tariffs.html
+2026-06-11 06:45:58,857 [INFO] URL: https://www.nytimes.com/2025/07/27/world/europe/eu-trade-deal-trump-tariffs.html
+2026-06-11 06:45:58,956 [INFO] Full text skipped (status 403): https://www.nytimes.com/2025/07/27/world/europe/eu-trade-deal-trump-tariffs.html
+2026-06-11 06:45:58,956 [INFO] Text length: 149 chars | source: fallback
+2026-06-11 06:45:58,956 [INFO] Text preview: U.S. Reaches Preliminary Trade Deal With Europe - The New York Times
+
+U.S. Reaches Preliminary Trade Deal With Europe &nbsp;&nbsp; The New York Times...
+2026-06-11 06:45:59,728 [INFO] LLM HTTP 200 for: U.S. Reaches Preliminary Trade Deal With Europe - The New Yo
+2026-06-11 06:45:59,729 [INFO] LLM extracted 1 deals (0 signed) | U.S. Reaches Preliminary Trade Deal With Europe - 
+2026-06-11 06:45:59,732 [INFO] Not a signed deal — skipping: U.S. Reaches Preliminary Trade Deal With Europe - The New Yo
+2026-06-11 06:45:59,732 [INFO] ------- Processing article n. 0: U.S. and EU reach a trade deal that sets 15% tariff rate and pledges hundreds of -------
+2026-06-11 06:45:59,874 [INFO] Resolved Google News URL: https://fortune.com/2025/07/27/us-eu-trade-trump-tariffs-investments-energy-defe
+2026-06-11 06:45:59,874 [INFO] URL: https://fortune.com/2025/07/27/us-eu-trade-trump-tariffs-investments-energy-defense-barriers/
+2026-06-11 06:46:00,474 [INFO] Text length: 11770 chars | source: full
+2026-06-11 06:46:00,474 [INFO] Text preview: U.S. and EU reach a trade deal that sets 15% tariff rate and pledges hundreds of billions in investments | Fortune Home Latest Fortune 500 Finance Tech Leadership Lifestyle Rankings Multimedia Trendin...
+2026-06-11 06:46:00,759 [INFO] LLM HTTP 200 for: U.S. and EU reach a trade deal that sets 15% tariff rate and
+2026-06-11 06:46:00,759 [INFO] LLM extracted 0 deals (0 signed) | U.S. and EU reach a trade deal that sets 15% tarif
+2026-06-11 06:46:00,762 [INFO] ------- Processing article n. 0: EU and US announce trade deal: What you need to know - Al Jazeera -------
+2026-06-11 06:46:00,967 [INFO] Resolved Google News URL: https://www.aljazeera.com/economy/2025/7/28/eu-and-us-announce-deal-a-breakdown-
+2026-06-11 06:46:00,968 [INFO] URL: https://www.aljazeera.com/economy/2025/7/28/eu-and-us-announce-deal-a-breakdown-of-the-trade-agreement
+2026-06-11 06:46:01,822 [INFO] Text length: 7409 chars | source: full
+2026-06-11 06:46:01,822 [INFO] Text preview: EU and US announce trade deal: What you need to know | Business and Economy News | Al Jazeera Save Click here to share on social media share-nodes Share facebook x whatsapp-stroke copylink google Add ...
+2026-06-11 06:46:02,528 [INFO] LLM HTTP 200 for: EU and US announce trade deal: What you need to know - Al Ja
+2026-06-11 06:46:02,529 [INFO] LLM extracted 1 deals (0 signed) | EU and US announce trade deal: What you need to kn
+2026-06-11 06:46:02,532 [INFO] Not a signed deal — skipping: EU and US announce trade deal: What you need to know - Al Ja
+2026-06-11 06:46:02,532 [INFO] ------- Processing article n. 0: Trump announces EU trade deal with 15% tariffs - CNBC -------
+2026-06-11 06:46:02,691 [INFO] Resolved Google News URL: https://www.cnbc.com/2025/07/27/trump-european-union-eu-trade-tariffs.html
+2026-06-11 06:46:02,691 [INFO] URL: https://www.cnbc.com/2025/07/27/trump-european-union-eu-trade-tariffs.html
+2026-06-11 06:46:03,751 [INFO] Text length: 5706 chars | source: full
+2026-06-11 06:46:03,751 [INFO] Text preview: Trump announces EU trade deal with 15% tariffs Skip Navigation Markets Business Investing Tech Politics Video Watchlist Investing Club PRO Livestream Menu Key Points President Donald Trump and Europea...
+2026-06-11 06:46:04,487 [INFO] LLM HTTP 200 for: Trump announces EU trade deal with 15% tariffs - CNBC
+2026-06-11 06:46:04,487 [INFO] LLM extracted 1 deals (0 signed) | Trump announces EU trade deal with 15% tariffs - C
+2026-06-11 06:46:04,490 [INFO] Not a signed deal — skipping: Trump announces EU trade deal with 15% tariffs - CNBC
+2026-06-11 06:46:04,491 [INFO] ------- Processing article n. 0: Trump strikes 'biggest deal ever made' with EU: Europeans will buy $750B in US e -------
+2026-06-11 06:46:04,766 [INFO] Resolved Google News URL: https://nypost.com/2025/07/27/us-news/trump-european-union-commission-president-
+2026-06-11 06:46:04,766 [INFO] URL: https://nypost.com/2025/07/27/us-news/trump-european-union-commission-president-give-50-50-chance-of-striking-trade-deal/
+2026-06-11 06:46:04,922 [INFO] Text length: 10391 chars | source: full
+2026-06-11 06:46:04,922 [INFO] Text preview: Trump strikes 'biggest deal ever made' with EU: Europeans will buy $750B in US energy, invest $600B after meeting with prez See more of our coverage in your search results. Add The New York Post on Go...
+2026-06-11 06:46:05,631 [INFO] LLM HTTP 200 for: Trump strikes 'biggest deal ever made' with EU: Europeans wi
+2026-06-11 06:46:05,631 [INFO] LLM extracted 1 deals (0 signed) | Trump strikes 'biggest deal ever made' with EU: Eu
+2026-06-11 06:46:05,635 [INFO] Not a signed deal — skipping: Trump strikes 'biggest deal ever made' with EU: Europeans wi
+2026-06-11 06:46:05,635 [INFO] ------- Processing article n. 0: EU-US reach tariff deal: 15% rate and EU commitment to energy purchases from the -------
+2026-06-11 06:46:05,809 [INFO] Resolved Google News URL: https://www.eunews.it/en/2025/07/28/eu-us-reach-tariff-deal-15-rate-and-eu-commi
+2026-06-11 06:46:05,809 [INFO] URL: https://www.eunews.it/en/2025/07/28/eu-us-reach-tariff-deal-15-rate-and-eu-commitment-to-energy-purchases-from-the-us/
+2026-06-11 06:46:05,978 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.eunews.it', port=443): Max retries exceeded with url: /en/2025/07/28/eu-us-reach-tariff-deal-15-rate-and-eu-commitment-to-energy-purchases-from-the-us/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))): https://www.eunews.it/en/2025/07/28/eu-us-reach-tariff-deal-15-rate-and-eu-commi
+2026-06-11 06:46:05,979 [INFO] Text length: 197 chars | source: fallback
+2026-06-11 06:46:05,979 [INFO] Text preview: EU-US reach tariff deal: 15% rate and EU commitment to energy purchases from the US - Eunews
+
+EU-US reach tariff deal: 15% rate and EU commitment to energy purchases from the US &nbsp;&nbsp; Eunews...
+2026-06-11 06:46:06,691 [INFO] LLM HTTP 200 for: EU-US reach tariff deal: 15% rate and EU commitment to energ
+2026-06-11 06:46:06,691 [INFO] LLM extracted 1 deals (0 signed) | EU-US reach tariff deal: 15% rate and EU commitmen
+2026-06-11 06:46:06,694 [INFO] Not a signed deal — skipping: EU-US reach tariff deal: 15% rate and EU commitment to energ
+2026-06-11 06:46:06,694 [INFO] ------- Processing article n. 0: A “big” and “huge” deal for the EU and the US - ING THINK economic and financial -------
+2026-06-11 06:46:06,863 [INFO] Resolved Google News URL: https://think.ing.com/snaps/a-big-and-huge-deal/
+2026-06-11 06:46:06,863 [INFO] URL: https://think.ing.com/snaps/a-big-and-huge-deal/
+2026-06-11 06:46:18,876 [INFO] Full text fetch failed (HTTPSConnectionPool(host='think.ing.com', port=443): Max retries exceeded with url: /snaps/a-big-and-huge-deal/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='think.ing.com', port=443) at 0x76a7d37e2ff0>, 'Connection to think.ing.com timed out. (connect timeout=12)'))): https://think.ing.com/snaps/a-big-and-huge-deal/
+2026-06-11 06:46:18,876 [INFO] Text length: 215 chars | source: fallback
+2026-06-11 06:46:18,876 [INFO] Text preview: A “big” and “huge” deal for the EU and the US - ING THINK economic and financial analysis | ING THINK
+
+A “big” and “huge” deal for the EU and the US &nbsp;&nbsp; ING THINK economic and financial analy...
+2026-06-11 06:46:19,569 [INFO] LLM HTTP 200 for: A “big” and “huge” deal for the EU and the US - ING THINK ec
+2026-06-11 06:46:19,569 [INFO] LLM extracted 1 deals (0 signed) | A “big” and “huge” deal for the EU and the US - IN
+2026-06-11 06:46:19,573 [INFO] Not a signed deal — skipping: A “big” and “huge” deal for the EU and the US - ING THINK ec
+2026-06-11 06:46:19,573 [INFO] ------- Processing article n. 0: The E.U. to buy $750 billion of U.S. energy products. Why that’s ‘absurd.’ - Mar -------
+2026-06-11 06:46:19,729 [INFO] Resolved Google News URL: https://www.marketwatch.com/story/the-e-u-says-it-will-buy-750-billion-of-u-s-en
+2026-06-11 06:46:19,729 [INFO] URL: https://www.marketwatch.com/story/the-e-u-says-it-will-buy-750-billion-of-u-s-energy-products-why-thats-absurd-ac5de025
+2026-06-11 06:46:19,802 [INFO] Full text skipped (status 401): https://www.marketwatch.com/story/the-e-u-says-it-will-buy-750-billion-of-u-s-en
+2026-06-11 06:46:19,804 [INFO] Text length: 189 chars | source: fallback
+2026-06-11 06:46:19,804 [INFO] Text preview: The E.U. to buy $750 billion of U.S. energy products. Why that’s ‘absurd.’ - MarketWatch
+
+The E.U. to buy $750 billion of U.S. energy products. Why that’s ‘absurd.’ &nbsp;&nbsp; MarketWatch...
+2026-06-11 06:46:20,581 [INFO] LLM HTTP 200 for: The E.U. to buy $750 billion of U.S. energy products. Why th
+2026-06-11 06:46:20,582 [INFO] LLM extracted 1 deals (0 signed) | The E.U. to buy $750 billion of U.S. energy produc
+2026-06-11 06:46:20,585 [INFO] Not a signed deal — skipping: The E.U. to buy $750 billion of U.S. energy products. Why th
+2026-06-11 06:46:20,586 [INFO] ------- Processing article n. 0: Starwood’s Echelon partners with Iberdrola for Spanish data center venture - Dat -------
+2026-06-11 06:46:20,762 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/starwoods-echelon-partners-with-iberd
+2026-06-11 06:46:20,762 [INFO] URL: https://www.datacenterdynamics.com/en/news/starwoods-echelon-partners-with-iberdrola-for-spanish-data-center-venture/
+2026-06-11 06:46:21,836 [INFO] Text length: 5183 chars | source: full
+2026-06-11 06:46:21,836 [INFO] Text preview: Starwood’s Echelon partners with Iberdrola for Spanish data center venture - DCD Home News The Data Center Construction Channel Starwood’s Echelon partners with Iberdrola for Spanish data center ventu...
+2026-06-11 06:46:22,941 [INFO] LLM HTTP 200 for: Starwood’s Echelon partners with Iberdrola for Spanish data 
+2026-06-11 06:46:22,942 [INFO] LLM extracted 1 deals (1 signed) | Starwood’s Echelon partners with Iberdrola for Spa
+2026-06-11 06:46:22,945 [INFO] NEW: Echelon Data Centres / Iberdrola (Spain, 230 MW)
+2026-06-11 06:46:27,952 [INFO] ------- Processing article n. 1: EU Solar Market Slows in 2025 as Corporate PPA Deals Drop 41%: SolarPower Europe -------
+2026-06-11 06:46:28,301 [INFO] Resolved Google News URL: https://www.saurenergy.com/solar-energy-news/eu-solar-market-slows-in-2025-as-co
+2026-06-11 06:46:28,301 [INFO] URL: https://www.saurenergy.com/solar-energy-news/eu-solar-market-slows-in-2025-as-corporate-ppa-deals-drop-41-solarpower-europe-9531157
+2026-06-11 06:46:30,303 [INFO] Text length: 4637 chars | source: full
+2026-06-11 06:46:30,304 [INFO] Text preview: EU Solar Market Slows in 2025 as Corporate PPA Deals Drop 41%: SolarPower Europe Advertisment News Solar EU Solar Market Slows in 2025 as Corporate PPA Deals Drop 41%: SolarPower Europe According to t...
+2026-06-11 06:46:31,024 [INFO] LLM HTTP 200 for: EU Solar Market Slows in 2025 as Corporate PPA Deals Drop 41
+2026-06-11 06:46:31,025 [INFO] LLM extracted 1 deals (0 signed) | EU Solar Market Slows in 2025 as Corporate PPA Dea
+2026-06-11 06:46:31,028 [INFO] Not a signed deal — skipping: EU Solar Market Slows in 2025 as Corporate PPA Deals Drop 41
+2026-06-11 06:46:31,028 [INFO] ------- Processing article n. 1: How the EU dashed to Trump’s Scottish hideaway — and got the deal it craved - po -------
+2026-06-11 06:46:31,198 [INFO] Resolved Google News URL: https://www.politico.eu/article/us-and-eu-strike-trade-deal/
+2026-06-11 06:46:31,198 [INFO] URL: https://www.politico.eu/article/us-and-eu-strike-trade-deal/
+2026-06-11 06:46:31,701 [INFO] Text length: 6974 chars | source: full
+2026-06-11 06:46:31,702 [INFO] Text preview: How the EU dashed to Trump’s Scottish hideaway — and got the deal it craved – POLITICO Skip to main content Advertisement TURNBERRY, Scotland — There was something deeply ironic in the EU’s top brass ...
+2026-06-11 06:46:31,983 [INFO] LLM HTTP 200 for: How the EU dashed to Trump’s Scottish hideaway — and got the
+2026-06-11 06:46:31,983 [INFO] LLM extracted 0 deals (0 signed) | How the EU dashed to Trump’s Scottish hideaway — a
+2026-06-11 06:46:31,989 [INFO] ------- Processing article n. 1: UK solar: Low Carbon signs PPA deal, Metlen scores £34.8 million EPC contracts - -------
+2026-06-11 06:46:32,150 [INFO] Resolved Google News URL: https://www.solarpowerportal.co.uk/solar-projects/uk-solar-low-carbon-signs-ppa-
+2026-06-11 06:46:32,151 [INFO] URL: https://www.solarpowerportal.co.uk/solar-projects/uk-solar-low-carbon-signs-ppa-deal-metlen-scores-signs-34-8-million-epc-contracts
+2026-06-11 06:46:32,240 [INFO] Text length: 4348 chars | source: full
+2026-06-11 06:46:32,240 [INFO] Text preview: UK solar: Low Carbon signs PPA deal, Metlen scores EPC contracts Solar Projects Solar Finance Solar Investment Solar Projects News UK solar: Low Carbon signs PPA deal, Metlen scores £34.8 million EPC ...
+2026-06-11 06:46:34,411 [INFO] LLM HTTP 200 for: UK solar: Low Carbon signs PPA deal, Metlen scores £34.8 mil
+2026-06-11 06:46:34,412 [INFO] LLM extracted 3 deals (3 signed) | UK solar: Low Carbon signs PPA deal, Metlen scores
+2026-06-11 06:46:34,416 [INFO] NEW: SmartestEnergy / Low Carbon (United Kingdom, 300 MW)
+2026-06-11 06:46:39,422 [INFO] NEW: None / Metlen Energy & Metals (United Kingdom, 115 MW)
+2026-06-11 06:46:44,427 [INFO] NEW: None / Metlen Energy & Metals (United Kingdom, 18 MW)
+2026-06-11 06:46:49,431 [INFO] ------- Processing article n. 4: US LNG producers climb as EU agrees to $750 billion in energy purchases - Reuter -------
+2026-06-11 06:46:49,605 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/us-lng-producers-climb-eu-agrees-750-bil
+2026-06-11 06:46:49,605 [INFO] URL: https://www.reuters.com/business/energy/us-lng-producers-climb-eu-agrees-750-billion-energy-purchases-2025-07-28/
+2026-06-11 06:46:49,654 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/us-lng-producers-climb-eu-agrees-750-bil
+2026-06-11 06:46:49,654 [INFO] Text length: 175 chars | source: fallback
+2026-06-11 06:46:49,654 [INFO] Text preview: US LNG producers climb as EU agrees to $750 billion in energy purchases - Reuters
+
+US LNG producers climb as EU agrees to $750 billion in energy purchases &nbsp;&nbsp; Reuters...
+2026-06-11 06:46:50,652 [INFO] LLM HTTP 200 for: US LNG producers climb as EU agrees to $750 billion in energ
+2026-06-11 06:46:50,653 [INFO] LLM extracted 1 deals (0 signed) | US LNG producers climb as EU agrees to $750 billio
+2026-06-11 06:46:50,655 [INFO] Not a signed deal — skipping: US LNG producers climb as EU agrees to $750 billion in energ
+2026-06-11 06:46:50,655 [INFO] ------- Processing article n. 4: EU faces first annual solar installation decline since 2015 – report - Balkan Gr -------
+2026-06-11 06:46:50,812 [INFO] Resolved Google News URL: https://balkangreenenergynews.com/eu-faces-first-annual-solar-installation-decli
+2026-06-11 06:46:50,813 [INFO] URL: https://balkangreenenergynews.com/eu-faces-first-annual-solar-installation-decline-since-2015-report/
+2026-06-11 06:46:51,412 [INFO] Text length: 7813 chars | source: full
+2026-06-11 06:46:51,412 [INFO] Text preview: EU faces first annual solar installation decline since 2015 - report Trending: Bulgaria surges to world’s No. 1 in battery systems share Serbia issues call to US firms for pumped storage hydropower pr...
+2026-06-11 06:46:51,694 [INFO] LLM HTTP 200 for: EU faces first annual solar installation decline since 2015 
+2026-06-11 06:46:51,694 [INFO] LLM extracted 0 deals (0 signed) | EU faces first annual solar installation decline s
+2026-06-11 06:46:51,700 [INFO] ------- Processing article n. 4: SolarPower Europe: European Union To Install 64.2 GW PV In 2025 - TaiyangNews -------
+2026-06-11 06:46:51,843 [INFO] Resolved Google News URL: https://taiyangnews.info/markets/solarpower-europe-projects-642-gw-solar-for-eu-
+2026-06-11 06:46:51,843 [INFO] URL: https://taiyangnews.info/markets/solarpower-europe-projects-642-gw-solar-for-eu-in-2025
+2026-06-11 06:46:52,134 [INFO] Text length: 5048 chars | source: full
+2026-06-11 06:46:52,135 [INFO] Text preview: SolarPower Europe: European Union To Install 64.2 GW PV In 2025 Markets Business People Opinion Opinion TaiyangNews Executive Interviews Technology Storage+ Reports Our Events Tenders Price Index Top ...
+2026-06-11 06:46:52,851 [INFO] LLM HTTP 200 for: SolarPower Europe: European Union To Install 64.2 GW PV In 2
+2026-06-11 06:46:52,851 [INFO] LLM extracted 1 deals (0 signed) | SolarPower Europe: European Union To Install 64.2 
+2026-06-11 06:46:52,854 [INFO] Not a signed deal — skipping: SolarPower Europe: European Union To Install 64.2 GW PV In 2
+2026-06-11 06:46:52,854 [INFO] ------- Processing article n. 4: Macquarie Acquires Renewable Energy Asset Optimization Platform Erova - ESG Toda -------
+2026-06-11 06:46:53,070 [INFO] Resolved Google News URL: https://www.esgtoday.com/macquarie-acquires-renewable-energy-asset-optimization-
+2026-06-11 06:46:53,070 [INFO] URL: https://www.esgtoday.com/macquarie-acquires-renewable-energy-asset-optimization-platform-erova/
+2026-06-11 06:46:53,892 [INFO] Text length: 11730 chars | source: full
+2026-06-11 06:46:53,892 [INFO] Text preview: Macquarie Acquires Renewable Energy Asset Optimization Platform Erova - ESG Today Energy Transition / M&A / Private Equity & Venture Capital Macquarie Acquires Renewable Energy Asset Optimization Plat...
+2026-06-11 06:46:54,630 [INFO] LLM HTTP 200 for: Macquarie Acquires Renewable Energy Asset Optimization Platf
+2026-06-11 06:46:54,630 [INFO] LLM extracted 1 deals (0 signed) | Macquarie Acquires Renewable Energy Asset Optimiza
+2026-06-11 06:46:54,633 [INFO] Not a signed deal — skipping: Macquarie Acquires Renewable Energy Asset Optimization Platf
+2026-06-11 06:46:54,633 [INFO] ------- Processing article n. 4: Treasury blocks school solar power deals - politico.eu -------
+2026-06-11 06:46:54,784 [INFO] Resolved Google News URL: https://www.politico.eu/article/rachel-reeves-uk-treasury-school-solar-power-dea
+2026-06-11 06:46:54,784 [INFO] URL: https://www.politico.eu/article/rachel-reeves-uk-treasury-school-solar-power-deals/
+2026-06-11 06:46:54,898 [INFO] Text length: 3946 chars | source: full
+2026-06-11 06:46:54,899 [INFO] Text preview: Treasury blocks school solar power deals – POLITICO Skip to main content Advertisement LONDON — Chancellor Rachel Reeves has blocked the Department for Education from approving deals to install solar ...
+2026-06-11 06:46:55,653 [INFO] LLM HTTP 200 for: Treasury blocks school solar power deals - politico.eu
+2026-06-11 06:46:55,653 [INFO] LLM extracted 1 deals (0 signed) | Treasury blocks school solar power deals - politic
+2026-06-11 06:46:55,656 [INFO] Not a signed deal — skipping: Treasury blocks school solar power deals - politico.eu
+2026-06-11 06:46:55,656 [INFO] ------- Processing article n. 4: EU Solar Outlook 2025: Solar Leads Power Mix but Faces First Market Slowdown, Sa -------
+2026-06-11 06:46:55,844 [INFO] Resolved Google News URL: https://solarquarter.com/2025/07/25/eu-solar-outlook-2025-solar-leads-power-mix-
+2026-06-11 06:46:55,844 [INFO] URL: https://solarquarter.com/2025/07/25/eu-solar-outlook-2025-solar-leads-power-mix-but-faces-first-market-slowdown-says-mid-year-report/
+2026-06-11 06:46:56,145 [INFO] Full text skipped (status 429): https://solarquarter.com/2025/07/25/eu-solar-outlook-2025-solar-leads-power-mix-
+2026-06-11 06:46:56,146 [INFO] Text length: 239 chars | source: fallback
+2026-06-11 06:46:56,146 [INFO] Text preview: EU Solar Outlook 2025: Solar Leads Power Mix but Faces First Market Slowdown, Says Mid-Year Report - SolarQuarter
+
+EU Solar Outlook 2025: Solar Leads Power Mix but Faces First Market Slowdown, Says Mi...
+2026-06-11 06:46:56,803 [INFO] LLM HTTP 200 for: EU Solar Outlook 2025: Solar Leads Power Mix but Faces First
+2026-06-11 06:46:56,804 [INFO] LLM extracted 1 deals (0 signed) | EU Solar Outlook 2025: Solar Leads Power Mix but F
+2026-06-11 06:46:56,807 [INFO] Not a signed deal — skipping: EU Solar Outlook 2025: Solar Leads Power Mix but Faces First
+2026-06-11 06:46:56,807 [INFO] ------- Processing article n. 4: Negative price hours rise in Europe - pv magazine Global -------
+2026-06-11 06:46:56,992 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2025/07/22/negative-price-hours-on-the-rise-in-europ
+2026-06-11 06:46:56,992 [INFO] URL: https://www.pv-magazine.com/2025/07/22/negative-price-hours-on-the-rise-in-europe/
+2026-06-11 06:46:57,134 [INFO] Text length: 9551 chars | source: full
+2026-06-11 06:46:57,134 [INFO] Text preview: Negative price hours rise in Europe - pv magazine Global Advertisement Advertisement Advertisement Advertisement Applications & Installations Negative price hours rise in Europe Around 28% of potentia...
+2026-06-11 06:46:57,729 [INFO] LLM HTTP 200 for: Negative price hours rise in Europe - pv magazine Global
+2026-06-11 06:46:57,729 [INFO] LLM extracted 0 deals (0 signed) | Negative price hours rise in Europe - pv magazine 
+2026-06-11 06:46:57,732 [INFO] ------- Processing article n. 4: Macquarie to acquire Erova Energy - reNEWS.BIZ -------
+2026-06-11 06:46:58,132 [INFO] Resolved Google News URL: https://renews.biz/102072/macquarie-to-acquire-erova-energy/
+2026-06-11 06:46:58,132 [INFO] URL: https://renews.biz/102072/macquarie-to-acquire-erova-energy/
+2026-06-11 06:46:59,732 [INFO] Text length: 4748 chars | source: full
+2026-06-11 06:46:59,733 [INFO] Text preview: Macquarie to acquire Erova Energy - reNews - Renewable Energy News Offshore Wind Latest Stories Europe Americas Global Onshore Wind Latest Stories Europe Americas Global Solar Latest Stories Europe Am...
+2026-06-11 06:47:00,534 [INFO] LLM HTTP 200 for: Macquarie to acquire Erova Energy - reNEWS.BIZ
+2026-06-11 06:47:00,535 [INFO] LLM extracted 1 deals (1 signed) | Macquarie to acquire Erova Energy - reNEWS.BIZ
+2026-06-11 06:47:00,557 [INFO] NEW: CareyGlass / Erova Energy (Ireland, None MW)
+2026-06-11 06:47:05,561 [INFO] ------- Processing article n. 5: Energy Dome unterzeichnet strategische Vereinbarung mit Google - Business Wire -------
+2026-06-11 06:47:06,130 [INFO] Resolved Google News URL: https://www.businesswire.com/news/home/20250724916221/de
+2026-06-11 06:47:06,130 [INFO] URL: https://www.businesswire.com/news/home/20250724916221/de
+2026-06-11 06:47:06,171 [INFO] Full text skipped (status 403): https://www.businesswire.com/news/home/20250724916221/de
+2026-06-11 06:47:06,171 [INFO] Text length: 169 chars | source: fallback
+2026-06-11 06:47:06,172 [INFO] Text preview: Energy Dome unterzeichnet strategische Vereinbarung mit Google - Business Wire
+
+Energy Dome unterzeichnet strategische Vereinbarung mit Google &nbsp;&nbsp; Business Wire...
+2026-06-11 06:47:06,844 [INFO] LLM HTTP 200 for: Energy Dome unterzeichnet strategische Vereinbarung mit Goog
+2026-06-11 06:47:06,846 [INFO] LLM extracted 1 deals (0 signed) | Energy Dome unterzeichnet strategische Vereinbarun
+2026-06-11 06:47:06,856 [INFO] Not a signed deal — skipping: Energy Dome unterzeichnet strategische Vereinbarung mit Goog
+2026-06-11 06:47:06,857 [INFO] ------- Processing article n. 5: GM und Redwood Materials: Autobatterien werden zur Stromspeicherlösung - Elektro -------
+2026-06-11 06:47:07,322 [INFO] Resolved Google News URL: https://www.elektroauto-news.net/news/gm-redwood-materials-autobatterien-second-
+2026-06-11 06:47:07,323 [INFO] URL: https://www.elektroauto-news.net/news/gm-redwood-materials-autobatterien-second-life
+2026-06-11 06:47:07,448 [INFO] Text length: 13 chars | source: full
+2026-06-11 06:47:07,449 [INFO] Text preview: Wird geladen…...
+2026-06-11 06:47:07,449 [INFO] Text too short (13 chars) — skipping: GM und Redwood Materials: Autobatterien werden zur Stromspei
+2026-06-11 06:47:07,449 [INFO] ------- Processing article n. 5: ABO Energy: Solide Strategie statt heißer Hype - Börse Global -------
+2026-06-11 06:47:08,022 [INFO] Resolved Google News URL: https://www.boerse-global.de/abo-energy-solide-strategie-statt-heisser-hype/5981
+2026-06-11 06:47:08,022 [INFO] URL: https://www.boerse-global.de/abo-energy-solide-strategie-statt-heisser-hype/598158
+2026-06-11 06:47:11,839 [INFO] Text length: 5754 chars | source: full
+2026-06-11 06:47:11,839 [INFO] Text preview: ABO Energy: Solide Strategie statt heißer Hype - Börse Global BREAKING / Micron Aktie: 200 Milliarden Dollar für HBM-Ausbau Rocket Lab: 105 Dollar nach SpaceX-IPO am Freitag Mutares Aktie: 880 Million...
+2026-06-11 06:47:12,129 [INFO] LLM HTTP 200 for: ABO Energy: Solide Strategie statt heißer Hype - Börse Globa
+2026-06-11 06:47:12,129 [INFO] LLM extracted 0 deals (0 signed) | ABO Energy: Solide Strategie statt heißer Hype - B
+2026-06-11 06:47:12,133 [INFO] ------- Processing article n. 5: ADL Report: Small Modular Reactor - Pfeiler der erfolgreichen Dekarbonisierung?  -------
+2026-06-11 06:47:12,839 [INFO] Resolved Google News URL: https://www.presseportal.de/pm/177207/6082001
+2026-06-11 06:47:12,839 [INFO] URL: https://www.presseportal.de/pm/177207/6082001
+2026-06-11 06:47:13,097 [INFO] Text length: 7826 chars | source: full
+2026-06-11 06:47:13,097 [INFO] Text preview: ADL Report: Small Modular Reactor - Pfeiler der erfolgreichen Dekarbonisierung? | Presseportal Alle Storys Folgen Keine Story von Arthur D. Little mehr verpassen. Warum muss ich meine Email-Adresse ei...
+2026-06-11 06:47:13,806 [INFO] LLM HTTP 200 for: ADL Report: Small Modular Reactor - Pfeiler der erfolgreiche
+2026-06-11 06:47:13,806 [INFO] LLM extracted 1 deals (0 signed) | ADL Report: Small Modular Reactor - Pfeiler der er
+2026-06-11 06:47:13,809 [INFO] Not a signed deal — skipping: ADL Report: Small Modular Reactor - Pfeiler der erfolgreiche
+2026-06-11 06:47:13,809 [INFO] ------- Processing article n. 5: Suez et le groupe RATP : pour une mobilité urbaine plus durable - Caisse des Dép -------
+2026-06-11 06:47:14,458 [INFO] Resolved Google News URL: http://www.caissedesdepots.fr/eclairage/actualites/suez-et-le-groupe-ratp-pour-u
+2026-06-11 06:47:14,458 [INFO] URL: http://www.caissedesdepots.fr/eclairage/actualites/suez-et-le-groupe-ratp-pour-une-mobilite-urbaine-plus-durable
+2026-06-11 06:47:14,667 [INFO] Full text skipped (status 403): http://www.caissedesdepots.fr/eclairage/actualites/suez-et-le-groupe-ratp-pour-u
+2026-06-11 06:47:14,668 [INFO] Text length: 179 chars | source: fallback
+2026-06-11 06:47:14,668 [INFO] Text preview: Suez et le groupe RATP : pour une mobilité urbaine plus durable - Caisse des Dépôts
+
+Suez et le groupe RATP : pour une mobilité urbaine plus durable &nbsp;&nbsp; Caisse des Dépôts...
+2026-06-11 06:47:15,346 [INFO] LLM HTTP 200 for: Suez et le groupe RATP : pour une mobilité urbaine plus dura
+2026-06-11 06:47:15,346 [INFO] LLM extracted 1 deals (0 signed) | Suez et le groupe RATP : pour une mobilité urbaine
+2026-06-11 06:47:15,351 [INFO] Not a signed deal — skipping: Suez et le groupe RATP : pour une mobilité urbaine plus dura
+2026-06-11 06:47:15,351 [INFO] ------- Processing article n. 5: L'UE s'est engagée auprès de Trump à acheter pour 750 milliards de dollars d'éne -------
+2026-06-11 06:47:15,870 [INFO] Resolved Google News URL: https://www.bfmtv.com/economie/international/l-ue-s-est-engagee-aupres-de-trump-
+2026-06-11 06:47:15,871 [INFO] URL: https://www.bfmtv.com/economie/international/l-ue-s-est-engagee-aupres-de-trump-a-acheter-pour-750-milliards-de-dollars-d-energie-aux-etats-unis-est-ce-vraiment-realiste_AN-202507280336.html
+2026-06-11 06:47:15,931 [INFO] Text length: 4384 chars | source: full
+2026-06-11 06:47:15,931 [INFO] Text preview: Il faudrait tripler les importations: l'UE s'est engagée auprès de Trump à acheter pour 750 milliards de dollars d'énergie aux États-Unis, est-ce vraiment réaliste? La présidente de la Commission euro...
+2026-06-11 06:47:17,081 [INFO] LLM HTTP 200 for: L'UE s'est engagée auprès de Trump à acheter pour 750 millia
+2026-06-11 06:47:17,082 [INFO] LLM extracted 1 deals (0 signed) | L'UE s'est engagée auprès de Trump à acheter pour 
+2026-06-11 06:47:17,085 [INFO] Not a signed deal — skipping: L'UE s'est engagée auprès de Trump à acheter pour 750 millia
+2026-06-11 06:47:17,085 [INFO] ------- Processing article n. 5: Prix de l'électricité : tout savoir sur le dispositif « ARENH » - Connaissance d -------
+2026-06-11 06:47:17,725 [INFO] Resolved Google News URL: https://www.connaissancedesenergies.org/fiche-pedagogique/histoire-de-larenh-acc
+2026-06-11 06:47:17,725 [INFO] URL: https://www.connaissancedesenergies.org/fiche-pedagogique/histoire-de-larenh-acces-regule-lenergie-nucleaire-historique
+2026-06-11 06:47:20,582 [INFO] Text length: 23962 chars | source: full
+2026-06-11 06:47:20,582 [INFO] Text preview: Prix de l'électricité : tout savoir sur le dispositif « ARENH » Aller au contenu principal Prix de l'électricité : tout savoir sur le dispositif « ARENH » C Par Connaissance des Énergies Mis à jour le...
+2026-06-11 06:47:21,309 [INFO] LLM HTTP 200 for: Prix de l'électricité : tout savoir sur le dispositif « AREN
+2026-06-11 06:47:21,310 [INFO] LLM extracted 1 deals (0 signed) | Prix de l'électricité : tout savoir sur le disposi
+2026-06-11 06:47:21,314 [INFO] Not a signed deal — skipping: Prix de l'électricité : tout savoir sur le dispositif « AREN
+2026-06-11 06:47:21,314 [INFO] ------- Processing article n. 5: Energy Dome signe un accord commercial stratégique avec Google - Yahoo Finance F -------
+2026-06-11 06:47:21,918 [INFO] Resolved Google News URL: https://fr.finance.yahoo.com/actualites/energy-dome-signe-accord-commercial-1253
+2026-06-11 06:47:21,918 [INFO] URL: https://fr.finance.yahoo.com/actualites/energy-dome-signe-accord-commercial-125300781.html
+2026-06-11 06:47:22,595 [INFO] Text length: 9758 chars | source: full
+2026-06-11 06:47:22,595 [INFO] Text preview: Energy Dome signe un accord commercial stratégique avec Google Une erreur s’est produite Accéder directement à la navigation Accéder directement au contenu principal Accéder directement à la colonne d...
+2026-06-11 06:47:23,319 [INFO] LLM HTTP 200 for: Energy Dome signe un accord commercial stratégique avec Goog
+2026-06-11 06:47:23,319 [INFO] LLM extracted 1 deals (0 signed) | Energy Dome signe un accord commercial stratégique
+2026-06-11 06:47:23,323 [INFO] Not a signed deal — skipping: Energy Dome signe un accord commercial stratégique avec Goog
+2026-06-11 06:47:23,324 [INFO] ------- Processing article n. 5: " Notre concessionnaire a été condamné à 6 000 euros de dommages et intérêts " : -------
+2026-06-11 06:47:23,835 [INFO] Resolved Google News URL: https://www.ladepeche.fr/2025/07/26/notre-concessionnaire-a-ete-condamne-a-6-000
+2026-06-11 06:47:23,835 [INFO] URL: https://www.ladepeche.fr/2025/07/26/notre-concessionnaire-a-ete-condamne-a-6-000-euros-de-dommages-et-interets-un-couple-gagne-son-bras-de-fer-avec-peugeot-12840274.php
+2026-06-11 06:47:24,041 [INFO] Text length: 10261 chars | source: full
+2026-06-11 06:47:24,041 [INFO] Text preview: " Notre concessionnaire a été condamné à 6 000 euros de dommages et intérêts " : un couple gagne son bras de fer avec Peugeot - ladepeche.fr Accueil Economie Automobile " Notre concessionnaire a été c...
+2026-06-11 06:47:24,445 [INFO] LLM HTTP 200 for: " Notre concessionnaire a été condamné à 6 000 euros de domm
+2026-06-11 06:47:24,446 [INFO] LLM extracted 0 deals (0 signed) | " Notre concessionnaire a été condamné à 6 000 eur
+2026-06-11 06:47:24,449 [INFO] ------- Processing article n. 5: Tesla signe un contrat fou avec Samsung pour le “cerveau artificiel” de ses voit -------
+2026-06-11 06:47:24,898 [INFO] Resolved Google News URL: https://www.lesnumeriques.com/voiture-electrique/tesla-signe-un-contrat-fou-avec
+2026-06-11 06:47:24,898 [INFO] URL: https://www.lesnumeriques.com/voiture-electrique/tesla-signe-un-contrat-fou-avec-samsung-pour-le-cerveau-artificiel-de-ses-voitures-n240335.html
+2026-06-11 06:47:25,404 [INFO] Text length: 4852 chars | source: full
+2026-06-11 06:47:25,404 [INFO] Text preview: Tesla signe un contrat fou avec Samsung pour le “cerveau artificiel” de ses voitures - Les Numériques Connexion Publicité, votre contenu continue ci-dessous Publicité Accueil Auto & Moto Voitures Tesl...
+2026-06-11 06:47:26,154 [INFO] LLM HTTP 200 for: Tesla signe un contrat fou avec Samsung pour le “cerveau art
+2026-06-11 06:47:26,154 [INFO] LLM extracted 1 deals (0 signed) | Tesla signe un contrat fou avec Samsung pour le “c
+2026-06-11 06:47:26,158 [INFO] Not a signed deal — skipping: Tesla signe un contrat fou avec Samsung pour le “cerveau art
+2026-06-11 06:47:26,158 [INFO] ------- Processing article n. 5: A Rome, l'Italie et l'Algérie affichent une relation sans nuages - Les Echos -------
+2026-06-11 06:47:26,838 [INFO] Resolved Google News URL: https://www.lesechos.fr/monde/europe/a-rome-litalie-et-lalgerie-affichent-une-re
+2026-06-11 06:47:26,838 [INFO] URL: https://www.lesechos.fr/monde/europe/a-rome-litalie-et-lalgerie-affichent-une-relation-sans-nuages-2177879
+2026-06-11 06:47:26,890 [INFO] Full text skipped (status 403): https://www.lesechos.fr/monde/europe/a-rome-litalie-et-lalgerie-affichent-une-re
+2026-06-11 06:47:26,891 [INFO] Text length: 165 chars | source: fallback
+2026-06-11 06:47:26,891 [INFO] Text preview: A Rome, l'Italie et l'Algérie affichent une relation sans nuages - Les Echos
+
+A Rome, l'Italie et l'Algérie affichent une relation sans nuages &nbsp;&nbsp; Les Echos...
+2026-06-11 06:47:27,603 [INFO] LLM HTTP 200 for: A Rome, l'Italie et l'Algérie affichent une relation sans nu
+2026-06-11 06:47:27,603 [INFO] LLM extracted 1 deals (0 signed) | A Rome, l'Italie et l'Algérie affichent une relati
+2026-06-11 06:47:27,610 [INFO] Not a signed deal — skipping: A Rome, l'Italie et l'Algérie affichent une relation sans nu
+2026-06-11 06:47:27,610 [INFO] ------- Processing article n. 5: La NNPC Gas Marketing signe un accord de fourniture de 44 millions de pieds cube -------
+2026-06-11 06:47:28,280 [INFO] Resolved Google News URL: https://www.sikafinance.com/marches/la-nnpc-gas-marketing-signe-un-accord-de-fou
+2026-06-11 06:47:28,280 [INFO] URL: https://www.sikafinance.com/marches/la-nnpc-gas-marketing-signe-un-accord-de-fourniture-de-44-millions-de-pieds-cubes-de-gaz-par-jour_54035
+2026-06-11 06:47:28,385 [INFO] Text length: 3495 chars | source: full
+2026-06-11 06:47:28,385 [INFO] Text preview: La NNPC Gas Marketing signe un accord de fourniture de 44 millions de pieds cube La NNPC Gas Marketing signe un accord de fourniture de 44 millions de pieds cubes de gaz par jour BRVMC0000000 - BRVMC ...
+2026-06-11 06:47:29,169 [INFO] LLM HTTP 200 for: La NNPC Gas Marketing signe un accord de fourniture de 44 mi
+2026-06-11 06:47:29,169 [INFO] LLM extracted 1 deals (0 signed) | La NNPC Gas Marketing signe un accord de fournitur
+2026-06-11 06:47:29,173 [INFO] Not a signed deal — skipping: La NNPC Gas Marketing signe un accord de fourniture de 44 mi
+2026-06-11 06:47:29,173 [INFO] ------- Processing article n. 5: Le FC Barcelone annonce le contrat et le numéro de maillot de Marcus Rashford. - -------
+2026-06-11 06:47:29,584 [INFO] Resolved Google News URL: https://www.vietnam.vn/fr/barcelona-cong-bo-hop-dong-va-so-ao-cua-marcus-rashfor
+2026-06-11 06:47:29,585 [INFO] URL: https://www.vietnam.vn/fr/barcelona-cong-bo-hop-dong-va-so-ao-cua-marcus-rashford
+2026-06-11 06:47:32,707 [INFO] Text length: 19042 chars | source: full
+2026-06-11 06:47:32,708 [INFO] Text preview: Le FC Barcelone annonce le contrat et le numéro de maillot de Marcus Rashford. Le FC Barcelone annonce le contrat et le numéro de maillot de Marcus Rashford. (NLĐO) - L'attaquant Marcus Rashford a sig...
+2026-06-11 06:47:33,406 [INFO] LLM HTTP 200 for: Le FC Barcelone annonce le contrat et le numéro de maillot d
+2026-06-11 06:47:33,406 [INFO] LLM extracted 1 deals (0 signed) | Le FC Barcelone annonce le contrat et le numéro de
+2026-06-11 06:47:33,410 [INFO] Not a signed deal — skipping: Le FC Barcelone annonce le contrat et le numéro de maillot d
+2026-06-11 06:47:33,410 [INFO] ------- Processing article n. 5: TOUT COMPRENDRE. En quoi consiste "l'accord énorme" à 15% que viennent de conclu -------
+2026-06-11 06:47:33,985 [INFO] Resolved Google News URL: https://www.bfmtv.com/economie/economie-social/union-europeenne/tout-comprendre-
+2026-06-11 06:47:33,985 [INFO] URL: https://www.bfmtv.com/economie/economie-social/union-europeenne/tout-comprendre-en-quoi-quoi-consiste-l-accord-enorme-a-15-que-viennent-de-conclure-trump-et-l-ue_AN-202507270293.html
+2026-06-11 06:47:34,025 [INFO] Text length: 10077 chars | source: full
+2026-06-11 06:47:34,025 [INFO] Text preview: TOUT COMPRENDRE. En quoi consiste "l'accord énorme" à 15% que viennent de conclure Trump et l'UE (très défavorable à l'Europe)? Ursula von der Leyen et Donald Trump. - JIM WATSON L'UE et les États-Uni...
+2026-06-11 06:47:34,755 [INFO] LLM HTTP 200 for: TOUT COMPRENDRE. En quoi consiste "l'accord énorme" à 15% qu
+2026-06-11 06:47:34,755 [INFO] LLM extracted 1 deals (0 signed) | TOUT COMPRENDRE. En quoi consiste "l'accord énorme
+2026-06-11 06:47:34,759 [INFO] Not a signed deal — skipping: TOUT COMPRENDRE. En quoi consiste "l'accord énorme" à 15% qu
+2026-06-11 06:47:34,759 [INFO] ------- Processing article n. 5: SUEZ et le Groupe RATP s’engagent pour une mobilité urbaine plus durable à trave -------
+2026-06-11 06:47:35,195 [INFO] Resolved Google News URL: https://www.suez.com/fr/actualites/communiques-de-presse/suez-ratp-engagent-mobi
+2026-06-11 06:47:35,195 [INFO] URL: https://www.suez.com/fr/actualites/communiques-de-presse/suez-ratp-engagent-mobilite-urbaine-durable-achat-electricite-renouvelable
+2026-06-11 06:47:38,036 [INFO] Text length: 4434 chars | source: full
+2026-06-11 06:47:38,036 [INFO] Text preview: SUEZ et le Groupe RATP s’engagent pour une mobilité urbaine plus durable à travers un contrat d’achat à long terme d’électricité renouvelable (PPA) | SUEZ Retour à la page d'accueil Déchets 23 juillet...
+2026-06-11 06:47:38,995 [INFO] LLM HTTP 200 for: SUEZ et le Groupe RATP s’engagent pour une mobilité urbaine 
+2026-06-11 06:47:38,995 [INFO] LLM extracted 1 deals (1 signed) | SUEZ et le Groupe RATP s’engagent pour une mobilit
+2026-06-11 06:47:39,000 [INFO] NEW: Groupe RATP / SUEZ (France, None MW)
+2026-06-11 06:47:44,004 [INFO] ------- Processing article n. 6: Data centers : peut-on maîtriser leur soif d'énergie ? - journaldunet.com -------
+2026-06-11 06:47:44,621 [INFO] Resolved Google News URL: https://www.journaldunet.com/cloud/1543557-data-centers-peut-on-maitriser-leur-s
+2026-06-11 06:47:44,621 [INFO] URL: https://www.journaldunet.com/cloud/1543557-data-centers-peut-on-maitriser-leur-soif-d-energie/
+2026-06-11 06:47:44,807 [INFO] Text length: 7746 chars | source: full
+2026-06-11 06:47:44,807 [INFO] Text preview: Data centers : peut-on maîtriser leur soif d'énergie ? Chronique de Lucas Grandperrin Le Lab' des Énergies 28 juillet 2025 10:31 Partager Partager Copier Les data centers pèsent déjà plus de 3% de la ...
+2026-06-11 06:47:45,530 [INFO] LLM HTTP 200 for: Data centers : peut-on maîtriser leur soif d'énergie ? - jou
+2026-06-11 06:47:45,530 [INFO] LLM extracted 1 deals (0 signed) | Data centers : peut-on maîtriser leur soif d'énerg
+2026-06-11 06:47:45,536 [INFO] Not a signed deal — skipping: Data centers : peut-on maîtriser leur soif d'énergie ? - jou
+2026-06-11 06:47:45,536 [INFO] ------- Processing article n. 6: Equilibre réseau : l’écrêtement de la production solaire explose au premier seme -------
+2026-06-11 06:47:46,198 [INFO] Resolved Google News URL: https://www.pv-magazine.fr/2025/07/25/equilibre-reseau-lecretement-de-la-product
+2026-06-11 06:47:46,198 [INFO] URL: https://www.pv-magazine.fr/2025/07/25/equilibre-reseau-lecretement-de-la-production-solaire-explose-au-premier-semestre/
+2026-06-11 06:47:46,907 [INFO] Text length: 7181 chars | source: full
+2026-06-11 06:47:46,907 [INFO] Text preview: Equilibre réseau : l'écrêtement de la production solaire explose au premier semestre - pv magazine France Annonces Annonces Annonces Annonces Applications Equilibre réseau : l’écrêtement de la product...
+2026-06-11 06:47:47,623 [INFO] LLM HTTP 200 for: Equilibre réseau : l’écrêtement de la production solaire exp
+2026-06-11 06:47:47,623 [INFO] LLM extracted 1 deals (0 signed) | Equilibre réseau : l’écrêtement de la production s
+2026-06-11 06:47:47,627 [INFO] Not a signed deal — skipping: Equilibre réseau : l’écrêtement de la production solaire exp
+2026-06-11 06:47:47,627 [INFO] ------- Processing article n. 6: Anuncios de almacenamiento en España: Zelestra y EDP, Endurance Motive - pv maga -------
+2026-06-11 06:47:48,327 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2025/07/28/anuncios-de-almacenamiento-en-espana-zeles
+2026-06-11 06:47:48,327 [INFO] URL: https://www.pv-magazine.es/2025/07/28/anuncios-de-almacenamiento-en-espana-zelestra-y-edp-endurance-motive/
+2026-06-11 06:47:49,227 [INFO] Text length: 4915 chars | source: full
+2026-06-11 06:47:49,228 [INFO] Text preview: Anuncios de almacenamiento en España: Zelestra y EDP, Endurance Motive - pv magazine España Anuncio Anuncio Anuncio Anuncio Instalaciones Anuncios de almacenamiento en España: Zelestra y EDP, Enduranc...
+2026-06-11 06:47:51,021 [INFO] LLM HTTP 200 for: Anuncios de almacenamiento en España: Zelestra y EDP, Endura
+2026-06-11 06:47:51,021 [INFO] LLM extracted 2 deals (2 signed) | Anuncios de almacenamiento en España: Zelestra y E
+2026-06-11 06:47:51,024 [INFO] NEW: EDP / Zelestra, EDP (Spain, 170 MW)
+2026-06-11 06:47:56,031 [INFO] NEW: None / Endurance Motive (Spain, None MW)
+2026-06-11 06:48:01,034 [INFO] ------- Processing article n. 8: Trump anuncia un acuerdo con la UE: aranceles del 15% y compras de energía y def -------
+2026-06-11 06:48:01,635 [INFO] Resolved Google News URL: https://www.eleconomista.es/economia/noticias/13481685/07/25/la-ue-y-eeuu-cierra
+2026-06-11 06:48:01,635 [INFO] URL: https://www.eleconomista.es/economia/noticias/13481685/07/25/la-ue-y-eeuu-cierran-un-acuerdo-para-evitar-el-aumento-de-aranceles-de-trump-antes-de-la-fecha-limite.html
+2026-06-11 06:48:01,714 [INFO] Full text skipped (status 403): https://www.eleconomista.es/economia/noticias/13481685/07/25/la-ue-y-eeuu-cierra
+2026-06-11 06:48:01,715 [INFO] Text length: 227 chars | source: fallback
+2026-06-11 06:48:01,715 [INFO] Text preview: Trump anuncia un acuerdo con la UE: aranceles del 15% y compras de energía y defensa a EEUU - El Economista
+
+Trump anuncia un acuerdo con la UE: aranceles del 15% y compras de energía y defensa a EEUU...
+2026-06-11 06:48:02,414 [INFO] LLM HTTP 200 for: Trump anuncia un acuerdo con la UE: aranceles del 15% y comp
+2026-06-11 06:48:02,414 [INFO] LLM extracted 1 deals (0 signed) | Trump anuncia un acuerdo con la UE: aranceles del 
+2026-06-11 06:48:02,417 [INFO] Not a signed deal — skipping: Trump anuncia un acuerdo con la UE: aranceles del 15% y comp
+2026-06-11 06:48:02,417 [INFO] ------- Processing article n. 8: Más aranceles, gasto militar y compra de energía: claves de la rendición de la U -------
+2026-06-11 06:48:03,046 [INFO] Resolved Google News URL: https://www.eldiario.es/economia/aranceles-gasto-militar-compra-energia-claves-r
+2026-06-11 06:48:03,046 [INFO] URL: https://www.eldiario.es/economia/aranceles-gasto-militar-compra-energia-claves-rendicion-ue-trump_1_12495612.html
+2026-06-11 06:48:03,851 [INFO] Text length: 20003 chars | source: full
+2026-06-11 06:48:03,851 [INFO] Text preview: Más aranceles, gasto militar y compra de energía: claves de la rendición de la UE ante Trump Hoy hablamos de... Zapatero Mazón dana Mensajes Mazón Sagrada Familia Huelga médicos Belfast Trabajador SEP...
+2026-06-11 06:48:04,136 [INFO] LLM HTTP 200 for: Más aranceles, gasto militar y compra de energía: claves de 
+2026-06-11 06:48:04,136 [INFO] LLM extracted 0 deals (0 signed) | Más aranceles, gasto militar y compra de energía: 
+2026-06-11 06:48:04,141 [INFO] ------- Processing article n. 8: Energy Dome firma un acuerdo estratégico con Google - Business Wire -------
+2026-06-11 06:48:04,560 [INFO] Resolved Google News URL: https://www.businesswire.com/news/home/20250724959113/es
+2026-06-11 06:48:04,561 [INFO] URL: https://www.businesswire.com/news/home/20250724959113/es
+2026-06-11 06:48:04,584 [INFO] Full text skipped (status 403): https://www.businesswire.com/news/home/20250724959113/es
+2026-06-11 06:48:04,584 [INFO] Text length: 147 chars | source: fallback
+2026-06-11 06:48:04,584 [INFO] Text preview: Energy Dome firma un acuerdo estratégico con Google - Business Wire
+
+Energy Dome firma un acuerdo estratégico con Google &nbsp;&nbsp; Business Wire...
+2026-06-11 06:48:05,251 [INFO] LLM HTTP 200 for: Energy Dome firma un acuerdo estratégico con Google - Busine
+2026-06-11 06:48:05,252 [INFO] LLM extracted 1 deals (0 signed) | Energy Dome firma un acuerdo estratégico con Googl
+2026-06-11 06:48:05,255 [INFO] Not a signed deal — skipping: Energy Dome firma un acuerdo estratégico con Google - Busine
+2026-06-11 06:48:05,255 [INFO] ------- Processing article n. 8: La Unión Europea claudica ante el chantaje comercial de Trump - El Salto -------
+2026-06-11 06:48:05,686 [INFO] Resolved Google News URL: https://www.elsaltodiario.com/union-europea/union-europea-claudica-chantaje-come
+2026-06-11 06:48:05,686 [INFO] URL: https://www.elsaltodiario.com/union-europea/union-europea-claudica-chantaje-comercial-trump
+2026-06-11 06:48:06,091 [INFO] Text length: 6832 chars | source: full
+2026-06-11 06:48:06,091 [INFO] Text preview: La Unión Europea claudica ante el chantaje comercial de Trump - El Salto - Edición General Salto a contenido Salto a navegación Contenidos portada Accesibilidad image/svg+xml 1   2   3   4   5   6   7...
+2026-06-11 06:48:06,381 [INFO] LLM HTTP 200 for: La Unión Europea claudica ante el chantaje comercial de Trum
+2026-06-11 06:48:06,381 [INFO] LLM extracted 0 deals (0 signed) | La Unión Europea claudica ante el chantaje comerci
+2026-06-11 06:48:06,384 [INFO] ------- Processing article n. 8: Zelestra y EDP anuncian PPA solar híbrido con baterías en España - Inspenet -------
+2026-06-11 06:48:07,020 [INFO] Resolved Google News URL: https://inspenet.com/noticias/zelestra-y-edp-anuncian-ppa-solar-hibrido/
+2026-06-11 06:48:07,020 [INFO] URL: https://inspenet.com/noticias/zelestra-y-edp-anuncian-ppa-solar-hibrido/
+2026-06-11 06:48:08,150 [INFO] Text length: 4971 chars | source: full
+2026-06-11 06:48:08,150 [INFO] Text preview: Zelestra y EDP anuncian PPA solar híbrido con baterías en España Saltar al contenido La red global de conocimiento para profesionales de la energía e industria EN ES Zelestra y EDP sellan el primer PP...
+2026-06-11 06:48:09,194 [INFO] LLM HTTP 200 for: Zelestra y EDP anuncian PPA solar híbrido con baterías en Es
+2026-06-11 06:48:09,194 [INFO] LLM extracted 1 deals (1 signed) | Zelestra y EDP anuncian PPA solar híbrido con bate
+2026-06-11 06:48:09,198 [INFO] NEW: EDP / Zelestra (Spain, 170 MW)
+2026-06-11 06:48:14,206 [INFO] ------- Processing article n. 9: Zelestra construirá en Trujillo un proyecto híbrido de energía solar y almacenam -------
+2026-06-11 06:48:14,566 [INFO] Resolved Google News URL: https://www.ondacero.es/emisoras/extremadura/zelestra-construira-trujillo-proyec
+2026-06-11 06:48:14,567 [INFO] URL: https://www.ondacero.es/emisoras/extremadura/zelestra-construira-trujillo-proyecto-hibrido-energia-solar-almacenamiento-baterias_20250728688761f5abb2960d1fb7ebb8.html
+2026-06-11 06:48:14,805 [INFO] Text length: 2396 chars | source: full
+2026-06-11 06:48:14,806 [INFO] Text preview: Zelestra construirá en Trujillo un proyecto híbrido de energía solar y almacenamiento en baterías | Onda Cero Radio Ondacero Emisoras Extremadura La compañía Zelestra y EDP han firmado el primer acuer...
+2026-06-11 06:48:15,754 [INFO] LLM HTTP 200 for: Zelestra construirá en Trujillo un proyecto híbrido de energ
+2026-06-11 06:48:15,754 [INFO] LLM extracted 1 deals (1 signed) | Zelestra construirá en Trujillo un proyecto híbrid
+2026-06-11 06:48:15,758 [INFO] NEW: EDP / Zelestra (Spain, 170 MW)
+2026-06-11 06:48:20,760 [INFO] ------- Processing article n. 10: La Unión Europea acepta aranceles del 15% y compra energía y defensa a Estados U -------
+2026-06-11 06:48:21,324 [INFO] Resolved Google News URL: https://www.lideractual.es/economia/la-union-europea-acepta-aranceles-del-15-com
+2026-06-11 06:48:21,324 [INFO] URL: https://www.lideractual.es/economia/la-union-europea-acepta-aranceles-del-15-compra-energia-defensa-estados-unidos-para-sellar-un-pacto-de-estabilidad_11805
+2026-06-11 06:48:21,361 [INFO] Full text skipped (status 403): https://www.lideractual.es/economia/la-union-europea-acepta-aranceles-del-15-com
+2026-06-11 06:48:21,361 [INFO] Text length: 285 chars | source: fallback
+2026-06-11 06:48:21,361 [INFO] Text preview: La Unión Europea acepta aranceles del 15% y compra energía y defensa a Estados Unidos para sellar un pacto de estabilidad - Líder Actual
+
+La Unión Europea acepta aranceles del 15% y compra energía y d...
+2026-06-11 06:48:22,063 [INFO] LLM HTTP 200 for: La Unión Europea acepta aranceles del 15% y compra energía y
+2026-06-11 06:48:22,063 [INFO] LLM extracted 1 deals (0 signed) | La Unión Europea acepta aranceles del 15% y compra
+2026-06-11 06:48:22,068 [INFO] Not a signed deal — skipping: La Unión Europea acepta aranceles del 15% y compra energía y
+2026-06-11 06:48:22,068 [INFO] ------- Processing article n. 10: La UE genera más dependencias con EEUU, se libra en pocos sectores y olvida su a -------
+2026-06-11 06:48:22,728 [INFO] Resolved Google News URL: https://www.20minutos.es/internacional/claves-acuerdo-ue-estados-unidos-arancele
+2026-06-11 06:48:22,728 [INFO] URL: https://www.20minutos.es/internacional/claves-acuerdo-ue-estados-unidos-aranceles-comercial-sectores-afectados-militar-energia-compras-futuro-5734830/
+2026-06-11 06:48:22,816 [INFO] Text length: 8815 chars | source: full
+2026-06-11 06:48:22,816 [INFO] Text preview: La UE genera más dependencias con EEUU, se libra en pocos sectores y olvida su autonomía: así es el pacto comercial con Trump DIRECTO La visita del Papa a España, en directo | León XIV parte hacia Can...
+2026-06-11 06:48:23,077 [INFO] LLM HTTP 200 for: La UE genera más dependencias con EEUU, se libra en pocos se
+2026-06-11 06:48:23,079 [INFO] LLM extracted 0 deals (0 signed) | La UE genera más dependencias con EEUU, se libra e
+2026-06-11 06:48:23,088 [INFO] ------- Processing article n. 10: Estados Unidos y la Unión Europea alcanzaron un acuerdo comercial: “Es bueno par -------
+2026-06-11 06:48:23,679 [INFO] Resolved Google News URL: https://www.infobae.com/america/mundo/2025/07/27/donald-trump-anuncio-que-alcanz
+2026-06-11 06:48:23,679 [INFO] URL: https://www.infobae.com/america/mundo/2025/07/27/donald-trump-anuncio-que-alcanzo-un-acuerdo-comercial-con-la-union-europea-es-bueno-para-todos/
+2026-06-11 06:48:24,349 [INFO] Text length: 9504 chars | source: full
+2026-06-11 06:48:24,349 [INFO] Text preview: Estados Unidos y la Unión Europea alcanzaron un acuerdo comercial: “Es bueno para todos” - Infobae 27 Jul, 2025 01:44 p. m. EST Guardar Donald Trump se reunió con Ursula von der Leyen en Escocia (REUT...
+2026-06-11 06:48:25,077 [INFO] LLM HTTP 200 for: Estados Unidos y la Unión Europea alcanzaron un acuerdo come
+2026-06-11 06:48:25,077 [INFO] LLM extracted 1 deals (0 signed) | Estados Unidos y la Unión Europea alcanzaron un ac
+2026-06-11 06:48:25,080 [INFO] Not a signed deal — skipping: Estados Unidos y la Unión Europea alcanzaron un acuerdo come
+2026-06-11 06:48:25,080 [INFO] ------- Processing article n. 10: Así fue la firma confidencial que hizo el Gobierno Petro con Venezuela para adqu -------
+2026-06-11 06:48:25,644 [INFO] Resolved Google News URL: https://www.infobae.com/colombia/2025/07/24/asi-fue-la-firma-confidencial-que-hi
+2026-06-11 06:48:25,645 [INFO] URL: https://www.infobae.com/colombia/2025/07/24/asi-fue-la-firma-confidencial-que-hizo-el-gobierno-petro-con-venezuela-para-adquirir-monomeros-hubo-peticion-a-ee-uu/
+2026-06-11 06:48:26,315 [INFO] Text length: 8832 chars | source: full
+2026-06-11 06:48:26,316 [INFO] Text preview: Así fue la firma confidencial que hizo el Gobierno Petro con Venezuela para adquirir Monómeros: hubo petición a EE. UU. - Infobae 23 Jul, 2025 10:05 p. m. EST Guardar Edwin Palma Egea, ministro de Min...
+2026-06-11 06:48:27,046 [INFO] LLM HTTP 200 for: Así fue la firma confidencial que hizo el Gobierno Petro con
+2026-06-11 06:48:27,046 [INFO] LLM extracted 1 deals (0 signed) | Así fue la firma confidencial que hizo el Gobierno
+2026-06-11 06:48:27,050 [INFO] Not a signed deal — skipping: Así fue la firma confidencial que hizo el Gobierno Petro con
+2026-06-11 06:48:27,050 [INFO] ------- Processing article n. 10: Gobierno firma hoy acuerdo de confidencialidad para comprar Monómeros - Blu Radi -------
+2026-06-11 06:48:27,503 [INFO] Resolved Google News URL: https://www.bluradio.com/economia/gobierno-firma-hoy-acuerdo-de-confidencialidad
+2026-06-11 06:48:27,504 [INFO] URL: https://www.bluradio.com/economia/gobierno-firma-hoy-acuerdo-de-confidencialidad-para-comprar-monomeros-pr30
+2026-06-11 06:48:29,191 [INFO] Text length: 5950 chars | source: full
+2026-06-11 06:48:29,191 [INFO] Text preview: Gobierno firma hoy acuerdo de confidencialidad para comprar Monómeros - BluRadio Entrada de búsqueda Enviar búsqueda Síguenos en: whatsapp youtube facebook instagram twitter google Tendencias: La Ola ...
+2026-06-11 06:48:29,929 [INFO] LLM HTTP 200 for: Gobierno firma hoy acuerdo de confidencialidad para comprar 
+2026-06-11 06:48:29,929 [INFO] LLM extracted 1 deals (0 signed) | Gobierno firma hoy acuerdo de confidencialidad par
+2026-06-11 06:48:29,933 [INFO] Not a signed deal — skipping: Gobierno firma hoy acuerdo de confidencialidad para comprar 
+2026-06-11 06:48:29,933 [INFO] ------- Processing article n. 10: Avanza la venta de Monómeros: gobiernos de Colombia y Venezuela acordaron pacto  -------
+2026-06-11 06:48:30,394 [INFO] Resolved Google News URL: https://www.infobae.com/colombia/2025/07/22/colombia-y-venezuela-acuerdan-pacto-
+2026-06-11 06:48:30,394 [INFO] URL: https://www.infobae.com/colombia/2025/07/22/colombia-y-venezuela-acuerdan-pacto-de-confidencialidad-para-compra-de-monomeros/
+2026-06-11 06:48:31,172 [INFO] Text length: 8640 chars | source: full
+2026-06-11 06:48:31,172 [INFO] Text preview: Avanza la venta de Monómeros: gobiernos de Colombia y Venezuela acordaron pacto de confidencialidad - Infobae 22 Jul, 2025 02:56 p. m. EST Guardar La adquisición de Monómeros permitiría a Colombia amp...
+2026-06-11 06:48:31,891 [INFO] LLM HTTP 200 for: Avanza la venta de Monómeros: gobiernos de Colombia y Venezu
+2026-06-11 06:48:31,892 [INFO] LLM extracted 1 deals (0 signed) | Avanza la venta de Monómeros: gobiernos de Colombi
+2026-06-11 06:48:31,895 [INFO] Not a signed deal — skipping: Avanza la venta de Monómeros: gobiernos de Colombia y Venezu
+2026-06-11 06:48:31,896 [INFO] ------- Processing article n. 10: Zelestra y EDP sellan el primer PPA híbrido de energía solar y almacenamiento en -------
+2026-06-11 06:48:32,430 [INFO] Resolved Google News URL: https://www.review-energy.com/otras-fuentes/zelestra-y-edp-sellan-el-primer-ppa-
+2026-06-11 06:48:32,430 [INFO] URL: https://www.review-energy.com/otras-fuentes/zelestra-y-edp-sellan-el-primer-ppa-hibrido-de-energia-solar-y-almacenamiento-en-espana
+2026-06-11 06:48:44,504 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.review-energy.com', port=443): Max retries exceeded with url: /otras-fuentes/zelestra-y-edp-sellan-el-primer-ppa-hibrido-de-energia-solar-y-almacenamiento-en-espana (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.review-energy.com', port=443) at 0x76a7d37f4d40>, 'Connection to www.review-energy.com timed out. (connect timeout=12)'))): https://www.review-energy.com/otras-fuentes/zelestra-y-edp-sellan-el-primer-ppa-
+2026-06-11 06:48:44,504 [INFO] Text length: 219 chars | source: fallback
+2026-06-11 06:48:44,504 [INFO] Text preview: Zelestra y EDP sellan el primer PPA híbrido de energía solar y almacenamiento en España - Review Energy
+
+Zelestra y EDP sellan el primer PPA híbrido de energía solar y almacenamiento en España &nbsp;&...
+2026-06-11 06:48:45,322 [INFO] LLM HTTP 200 for: Zelestra y EDP sellan el primer PPA híbrido de energía solar
+2026-06-11 06:48:45,323 [INFO] LLM extracted 1 deals (1 signed) | Zelestra y EDP sellan el primer PPA híbrido de ene
+2026-06-11 06:48:45,334 [INFO] NEW: Zelestra, EDP / None (Spain, None MW)
+2026-06-11 06:48:50,338 [INFO] ------- Processing article n. 11: Zelestra y Graphic Packaging sellan un nuevo acuerdo virtual de compraventa de e -------
+2026-06-11 06:48:51,009 [INFO] Resolved Google News URL: https://www.energias-renovables.com/fotovoltaica/zelestra-y-graphic-packaging-se
+2026-06-11 06:48:51,010 [INFO] URL: https://www.energias-renovables.com/fotovoltaica/zelestra-y-graphic-packaging-sellan-un-nuevo-20250725
+2026-06-11 06:48:51,171 [INFO] Text length: 6356 chars | source: full
+2026-06-11 06:48:51,171 [INFO] Text preview: Zelestra y Graphic Packaging sellan un nuevo acuerdo virtual de compraventa de energía solar fotovoltaica Zelestra y Graphic Packaging sellan un nuevo acuerdo virtual de compraventa de energía solar V...
+2026-06-11 06:48:52,288 [INFO] LLM HTTP 200 for: Zelestra y Graphic Packaging sellan un nuevo acuerdo virtual
+2026-06-11 06:48:52,288 [WARNING] LLM JSON parse error (attempt 1, Energías Renovables, el periodismo de las energías limpias.): Extra data: line 1 column 467 (char 466) | raw: [{"is_signed_deal": true, "is_likely_update": false, "update_clues": null, "date_agreement": "2025-07-25", "buyer": "Graphic Packaging International", "seller": "Zelestra", "capacity_mw": 19, "energy_
+2026-06-11 06:48:52,288 [INFO] Retrying with shorter input...
+2026-06-11 06:48:54,004 [INFO] LLM HTTP 200 for: Zelestra y Graphic Packaging sellan un nuevo acuerdo virtual
+2026-06-11 06:48:54,004 [INFO] LLM extracted 2 deals (2 signed) | Zelestra y Graphic Packaging sellan un nuevo acuer
+2026-06-11 06:48:54,009 [INFO] NEW: Graphic Packaging International / Zelestra (Spain, 19 MW)
+2026-06-11 06:48:59,015 [INFO] NEW: Graphic Packaging International / Zelestra (Spain, 83 MW)
+2026-06-11 06:49:04,018 [INFO] ------- Processing article n. 13: ACCIONA Energía activa el complejo fotovoltaico Ayora I-II-III en Jarafuel - ene -------
+2026-06-11 06:49:04,594 [INFO] Resolved Google News URL: https://www.energynews.es/acciona-energia-activa-el-complejo-fotovoltaico-ayora-
+2026-06-11 06:49:04,594 [INFO] URL: https://www.energynews.es/acciona-energia-activa-el-complejo-fotovoltaico-ayora-i-ii-iii-en-jarafuel/
+2026-06-11 06:49:04,634 [INFO] Full text skipped (status 403): https://www.energynews.es/acciona-energia-activa-el-complejo-fotovoltaico-ayora-
+2026-06-11 06:49:04,634 [INFO] Text length: 193 chars | source: fallback
+2026-06-11 06:49:04,634 [INFO] Text preview: ACCIONA Energía activa el complejo fotovoltaico Ayora I-II-III en Jarafuel - energynews.es
+
+ACCIONA Energía activa el complejo fotovoltaico Ayora I-II-III en Jarafuel &nbsp;&nbsp; energynews.es...
+2026-06-11 06:49:05,414 [INFO] LLM HTTP 200 for: ACCIONA Energía activa el complejo fotovoltaico Ayora I-II-I
+2026-06-11 06:49:05,415 [INFO] LLM extracted 1 deals (0 signed) | ACCIONA Energía activa el complejo fotovoltaico Ay
+2026-06-11 06:49:05,419 [INFO] Not a signed deal — skipping: ACCIONA Energía activa el complejo fotovoltaico Ayora I-II-I
+2026-06-11 06:49:05,419 [INFO] ------- Processing article n. 13: Trujillo, en el centro de un proyecto energético pionero en España para almacena -------
+2026-06-11 06:49:05,961 [INFO] Resolved Google News URL: https://www.elperiodicoextremadura.com/extremadura/2025/07/28/trujillo-centro-pr
+2026-06-11 06:49:05,961 [INFO] URL: https://www.elperiodicoextremadura.com/extremadura/2025/07/28/trujillo-centro-proyecto-energetico-pionero-espana-120133850.html
+2026-06-11 06:49:06,473 [INFO] Text length: 4622 chars | source: full
+2026-06-11 06:49:06,473 [INFO] Text preview: Energía de futuro: Trujillo, en el centro de un proyecto energético pionero en España Saltar al contenido principal Saltar al pie de página Paneles solares de una instalación fotovoltáica. / Efe ¿Ya n...
+2026-06-11 06:49:07,511 [INFO] LLM HTTP 200 for: Trujillo, en el centro de un proyecto energético pionero en 
+2026-06-11 06:49:07,511 [INFO] LLM extracted 1 deals (1 signed) | Trujillo, en el centro de un proyecto energético p
+2026-06-11 06:49:07,514 [INFO] UPDATE: EDP / Zelestra (Spain, 170 MW) — canonical ID: 504
+2026-06-11 06:49:12,516 [INFO] ------- Processing article n. 14: Carmen Izquierdo (nTeaser): "Estamos en rebajas en España: proyectos fotovoltaic -------
+2026-06-11 06:49:13,015 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/carmen-izquierdo-nteaser-estamos-en-rebajas-e
+2026-06-11 06:49:13,015 [INFO] URL: https://elperiodicodelaenergia.com/carmen-izquierdo-nteaser-estamos-en-rebajas-en-espana-proyectos-fotovoltaicos-que-valian-200-000-mw-ahora-se-venden-por-30-000/
+2026-06-11 06:49:13,150 [INFO] Text length: 7581 chars | source: full
+2026-06-11 06:49:13,151 [INFO] Text preview: Carmen Izquierdo (nTeaser): "Estamos en rebajas en España: proyectos fotovoltaicos que valían 200.000 €/MW ahora se venden por 30.000" Jueves, 11 de junio de 2026 ÓN | Las centrales de bombeo hidroelé...
+2026-06-11 06:49:13,851 [INFO] LLM HTTP 200 for: Carmen Izquierdo (nTeaser): "Estamos en rebajas en España: p
+2026-06-11 06:49:13,852 [INFO] LLM extracted 1 deals (0 signed) | Carmen Izquierdo (nTeaser): "Estamos en rebajas en
+2026-06-11 06:49:13,855 [INFO] Not a signed deal — skipping: Carmen Izquierdo (nTeaser): "Estamos en rebajas en España: p
+2026-06-11 06:49:13,855 [INFO] ------- Processing article n. 14: Panamá lanza su primera licitación del cronograma: contratos a 20 años para nuev -------
+2026-06-11 06:49:14,270 [INFO] Resolved Google News URL: https://www.energiaestrategica.com/panama-lanza-su-primera-licitacion-del-cronog
+2026-06-11 06:49:14,270 [INFO] URL: https://www.energiaestrategica.com/panama-lanza-su-primera-licitacion-del-cronograma-contratos-a-20-anos-para-nuevas-hidroelectricas-y-eolicas
+2026-06-11 06:49:15,572 [INFO] Text length: 111 chars | source: full
+2026-06-11 06:49:15,572 [INFO] Text preview: Panama launches its first tender in the schedule: 20-year contracts for new hydroelectric and wind power plants...
+2026-06-11 06:49:16,201 [INFO] LLM HTTP 200 for: Panamá lanza su primera licitación del cronograma: contratos
+2026-06-11 06:49:16,201 [INFO] LLM extracted 1 deals (0 signed) | Panamá lanza su primera licitación del cronograma:
+2026-06-11 06:49:16,205 [INFO] Not a signed deal — skipping: Panamá lanza su primera licitación del cronograma: contratos
+2026-06-11 06:49:16,205 [INFO] ------- Processing article n. 14: Imaz confirma el compromiso de Repsol con las inversiones en energías renovables -------
+2026-06-11 06:49:16,698 [INFO] Resolved Google News URL: https://www.democrata.es/economia/imaz-confirma-compromiso-repsol-inversiones-en
+2026-06-11 06:49:16,698 [INFO] URL: https://www.democrata.es/economia/imaz-confirma-compromiso-repsol-inversiones-energias-renovables-ee-uu-contexto-favorable/
+2026-06-11 06:49:16,731 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/imaz-confirma-compromiso-repsol-inversiones-en
+2026-06-11 06:49:16,731 [INFO] Text length: 269 chars | source: fallback
+2026-06-11 06:49:16,732 [INFO] Text preview: Imaz confirma el compromiso de Repsol con las inversiones en energías renovables en EE.UU bajo un contexto favorable - Demócrata
+
+Imaz confirma el compromiso de Repsol con las inversiones en energías ...
+2026-06-11 06:49:17,371 [INFO] LLM HTTP 200 for: Imaz confirma el compromiso de Repsol con las inversiones en
+2026-06-11 06:49:17,371 [INFO] LLM extracted 1 deals (0 signed) | Imaz confirma el compromiso de Repsol con las inve
+2026-06-11 06:49:17,374 [INFO] Not a signed deal — skipping: Imaz confirma el compromiso de Repsol con las inversiones en
+2026-06-11 06:49:17,374 [INFO] ------- Processing article n. 14: Las horas con precios negativos en España solo bajarán a partir de 2028, según E -------
+2026-06-11 06:49:17,897 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2025/07/22/las-horas-con-precios-negativos-en-espana-
+2026-06-11 06:49:17,897 [INFO] URL: https://www.pv-magazine.es/2025/07/22/las-horas-con-precios-negativos-en-espana-solo-bajaran-a-partir-de-2028-segun-enervis/
+2026-06-11 06:49:18,660 [INFO] Text length: 7236 chars | source: full
+2026-06-11 06:49:18,660 [INFO] Text preview: Las horas con precios negativos en España solo bajarán a partir de 2028, según Enervis - pv magazine España Anuncio Anuncio Anuncio Anuncio Instalaciones Las horas con precios negativos en España solo...
+2026-06-11 06:49:18,955 [INFO] LLM HTTP 200 for: Las horas con precios negativos en España solo bajarán a par
+2026-06-11 06:49:18,955 [INFO] LLM extracted 0 deals (0 signed) | Las horas con precios negativos en España solo baj
+2026-06-11 06:49:18,959 [INFO] ------- Processing article n. 14: Accordo sui dazi: l’Europa compra energia USA in cambio della pace commerciale - -------
+2026-06-11 06:49:19,628 [INFO] Resolved Google News URL: https://www.canaleenergia.com/rubriche/scenari/accordo-dazi-europa-compra-energi
+2026-06-11 06:49:19,629 [INFO] URL: https://www.canaleenergia.com/rubriche/scenari/accordo-dazi-europa-compra-energia-usa-in-cambio-di-pace/
+2026-06-11 06:49:19,767 [INFO] Text length: 13927 chars | source: full
+2026-06-11 06:49:19,767 [INFO] Text preview: ﻿ Accordo sui dazi: Europa compra energia USA come scambio Facebook Instagram Linkedin Telegram Twitter Youtube Home Transizione ecologica Economia circolare Efficienza energetica Consumer Clima e Bio...
+2026-06-11 06:49:20,100 [INFO] LLM HTTP 200 for: Accordo sui dazi: l’Europa compra energia USA in cambio dell
+2026-06-11 06:49:20,100 [INFO] LLM extracted 0 deals (0 signed) | Accordo sui dazi: l’Europa compra energia USA in c
+2026-06-11 06:49:20,103 [INFO] ------- Processing article n. 14: Energy Dome sigla un accordo commerciale strategico con Google - Business Wire -------
+2026-06-11 06:49:20,692 [INFO] Resolved Google News URL: https://www.businesswire.com/news/home/20250724087921/it
+2026-06-11 06:49:20,692 [INFO] URL: https://www.businesswire.com/news/home/20250724087921/it
+2026-06-11 06:49:20,725 [INFO] Full text skipped (status 403): https://www.businesswire.com/news/home/20250724087921/it
+2026-06-11 06:49:20,725 [INFO] Text length: 169 chars | source: fallback
+2026-06-11 06:49:20,725 [INFO] Text preview: Energy Dome sigla un accordo commerciale strategico con Google - Business Wire
+
+Energy Dome sigla un accordo commerciale strategico con Google &nbsp;&nbsp; Business Wire...
+2026-06-11 06:49:21,432 [INFO] LLM HTTP 200 for: Energy Dome sigla un accordo commerciale strategico con Goog
+2026-06-11 06:49:21,432 [INFO] LLM extracted 1 deals (0 signed) | Energy Dome sigla un accordo commerciale strategic
+2026-06-11 06:49:21,435 [INFO] Not a signed deal — skipping: Energy Dome sigla un accordo commerciale strategico con Goog
+2026-06-11 06:49:21,435 [INFO] ------- Processing article n. 14: La startup italiana Energy Dome piace ai giganti del web: dopo Bill Gates c'è Go -------
+2026-06-11 06:49:21,917 [INFO] Resolved Google News URL: https://www.corriere.it/economia/finanza/25_luglio_26/la-startup-italiana-energy
+2026-06-11 06:49:21,917 [INFO] URL: https://www.corriere.it/economia/finanza/25_luglio_26/la-startup-italiana-energy-dome-piace-ai-giganti-del-web-dopo-bill-gates-c-e-google-i-piani-per-le-batterie-cd660f7f-a221-452a-88fb-ca3fd139bxlk.shtml
+2026-06-11 06:49:22,115 [INFO] Text length: 8861 chars | source: full
+2026-06-11 06:49:22,115 [INFO] Text preview: La startup italiana Energy Dome piace ai giganti del web: dopo Bill Gates c’è Google. I piani per le batterie | Corriere.it Micaela Ramazzotti: «Mio marito? Non è un orco palestrato. Non sono fiera de...
+2026-06-11 06:49:22,889 [INFO] LLM HTTP 200 for: La startup italiana Energy Dome piace ai giganti del web: do
+2026-06-11 06:49:22,889 [INFO] LLM extracted 1 deals (0 signed) | La startup italiana Energy Dome piace ai giganti d
+2026-06-11 06:49:22,894 [INFO] Not a signed deal — skipping: La startup italiana Energy Dome piace ai giganti del web: do
+2026-06-11 06:49:22,894 [INFO] ------- Processing article n. 14: Altea Green Power stringe un accordo commerciale con Innovatec che la impegna ad -------
+2026-06-11 06:49:23,502 [INFO] Resolved Google News URL: https://bebeez.it/ma-e-corporate-finance/altea-green-power-stringe-un-accordo-co
+2026-06-11 06:49:23,502 [INFO] URL: https://bebeez.it/ma-e-corporate-finance/altea-green-power-stringe-un-accordo-commerciale-con-innovatec-che-la-impegna-ad-acquisire-progetti-fotovoltaici-sul-territorio-italiano/
+2026-06-11 06:49:23,684 [INFO] Text length: 19396 chars | source: full
+2026-06-11 06:49:23,684 [INFO] Text preview: Altea Green Power stringe un accordo commerciale con Innovatec che la impegna ad acquisire progetti fotovoltaici sul territorio italiano - BeBeez Contatti giovedì, 11 Giugno  2026 English Newsletter ....
+2026-06-11 06:49:24,669 [INFO] LLM HTTP 200 for: Altea Green Power stringe un accordo commerciale con Innovat
+2026-06-11 06:49:24,669 [INFO] LLM extracted 1 deals (1 signed) | Altea Green Power stringe un accordo commerciale c
+2026-06-11 06:49:24,673 [INFO] NEW: Altea Green Power / Innovatec (Italy, None MW)
+2026-06-11 06:49:29,678 [INFO] ------- Processing article n. 15: La multinazionale Kimberly-Clark firma due contratti di lungo termine per l’acqu -------
+2026-06-11 06:49:30,223 [INFO] Resolved Google News URL: https://www.hydronews.it/la-multinazionale-kimberly-clark-firma-due-contratti-di
+2026-06-11 06:49:30,224 [INFO] URL: https://www.hydronews.it/la-multinazionale-kimberly-clark-firma-due-contratti-di-lungo-termine-per-lacquisto-di-idrogeno-verde-in-uk/
+2026-06-11 06:49:30,894 [INFO] Text length: 5109 chars | source: full
+2026-06-11 06:49:30,895 [INFO] Text preview: La multinazionale Kimberly-Clark firma due contratti di lungo termine per l’acquisto di idrogeno verde in UK - HydroNews Cerca nel sito Energia La multinazionale Kimberly-Clark firma due contratti di ...
+2026-06-11 06:49:32,670 [INFO] LLM HTTP 200 for: La multinazionale Kimberly-Clark firma due contratti di lung
+2026-06-11 06:49:32,671 [INFO] LLM extracted 2 deals (2 signed) | La multinazionale Kimberly-Clark firma due contrat
+2026-06-11 06:49:32,674 [INFO] NEW: Kimberly-Clark UK & Ireland / Carlton Power, HYRO (Octopus Energy Generation, RES) (United Kingdom, None MW)
+2026-06-11 06:49:37,681 [INFO] UPDATE: Kimberly-Clark UK & Ireland / Carlton Power, HYRO (Octopus Energy Generation, RES) (United Kingdom, None MW) — canonical ID: 511
+2026-06-11 06:49:42,685 [INFO] ------- Processing article n. 17: Rimini: svolta più vicina. Cessione a un passo, ma restano dubbi e misteri - Il  -------
+2026-06-11 06:49:43,313 [INFO] Resolved Google News URL: https://www.ilrestodelcarlino.it/rimini/cronaca/rimini-svolta-piu-vicina-cession
+2026-06-11 06:49:43,313 [INFO] URL: https://www.ilrestodelcarlino.it/rimini/cronaca/rimini-svolta-piu-vicina-cessione-5a7f2541
+2026-06-11 06:49:43,948 [INFO] Text length: 5085 chars | source: full
+2026-06-11 06:49:43,948 [INFO] Text preview: Rimini: svolta più vicina. Cessione a un passo, ma restano dubbi e misteri Acquista il giornale Accedi Cronaca Rimini: svolta più vicina. Cessione a un passo, ma restano dubbi e misteri 26 lug 2025 DO...
+2026-06-11 06:49:44,651 [INFO] LLM HTTP 200 for: Rimini: svolta più vicina. Cessione a un passo, ma restano d
+2026-06-11 06:49:44,651 [INFO] LLM extracted 1 deals (0 signed) | Rimini: svolta più vicina. Cessione a un passo, ma
+2026-06-11 06:49:44,654 [INFO] Not a signed deal — skipping: Rimini: svolta più vicina. Cessione a un passo, ma restano d
+2026-06-11 06:49:44,654 [INFO] ------- Processing article n. 17: Dal gas russo al GNL USA: l'Europa rischia una nuova dipendenza energetica - Il  -------
+2026-06-11 06:49:46,016 [INFO] Resolved Google News URL: https://www.ilfattoquotidiano.it/2025/07/28/dipendenza-energetica-gnl-usa-europa
+2026-06-11 06:49:46,016 [INFO] URL: https://www.ilfattoquotidiano.it/2025/07/28/dipendenza-energetica-gnl-usa-europa-notizie/8076610/
+2026-06-11 06:49:46,380 [INFO] Text length: 25951 chars | source: full
+2026-06-11 06:49:46,381 [INFO] Text preview: Dal gas russo al GNL americano. Nuova trappola dell'Ue Commenti Segui FQ su WhatsApp Discover Questo articolo è gratis. Per leggerne altri, ricevere le newsletter e avere libero accesso ai contenuti s...
+2026-06-11 06:49:46,686 [INFO] LLM HTTP 200 for: Dal gas russo al GNL USA: l'Europa rischia una nuova dipende
+2026-06-11 06:49:46,687 [INFO] LLM extracted 0 deals (0 signed) | Dal gas russo al GNL USA: l'Europa rischia una nuo
+2026-06-11 06:49:46,693 [INFO] ------- Processing article n. 17: Al via il rilancio del Basso Ferrarese: maxi-progetto da 80 milioni e 400 posti  -------
+2026-06-11 06:49:47,134 [INFO] Resolved Google News URL: https://www.ferraratoday.it/cronaca/progetto-sviluppo-territoriale-riqualificazi
+2026-06-11 06:49:47,135 [INFO] URL: https://www.ferraratoday.it/cronaca/progetto-sviluppo-territoriale-riqualificazione-basso-ferrarese.html
+2026-06-11 06:49:47,531 [INFO] Text length: 5375 chars | source: full
+2026-06-11 06:49:47,531 [INFO] Text preview: Al via il rilancio del Basso Ferrarese: maxi-progetto da 80 milioni e 400 posti di lavoro Cecilia Gallotta 25 luglio 2025 14:14 Facebook WhatsApp Condividi Ex Zuccherificio di Comacchio (Foto Sipro) Q...
+2026-06-11 06:49:48,258 [INFO] LLM HTTP 200 for: Al via il rilancio del Basso Ferrarese: maxi-progetto da 80 
+2026-06-11 06:49:48,258 [INFO] LLM extracted 1 deals (0 signed) | Al via il rilancio del Basso Ferrarese: maxi-proge
+2026-06-11 06:49:48,262 [INFO] Not a signed deal — skipping: Al via il rilancio del Basso Ferrarese: maxi-progetto da 80 
+2026-06-11 06:49:48,262 [INFO] ------- Processing article n. 17: Case green, salta il recepimento della direttiva: il commento delle associazioni -------
+2026-06-11 06:49:48,764 [INFO] Resolved Google News URL: https://www.hdblog.it/green/articoli/n626503/case-green-salta-recepimento-dirett
+2026-06-11 06:49:48,764 [INFO] URL: https://www.hdblog.it/green/articoli/n626503/case-green-salta-recepimento-direttiva/
+2026-06-11 06:49:48,826 [INFO] Full text skipped (status 429): https://www.hdblog.it/green/articoli/n626503/case-green-salta-recepimento-dirett
+2026-06-11 06:49:48,827 [INFO] Text length: 197 chars | source: fallback
+2026-06-11 06:49:48,827 [INFO] Text preview: Case green, salta il recepimento della direttiva: il commento delle associazioni - HDblog.it
+
+Case green, salta il recepimento della direttiva: il commento delle associazioni &nbsp;&nbsp; HDblog.it...
+2026-06-11 06:49:49,499 [INFO] LLM HTTP 200 for: Case green, salta il recepimento della direttiva: il comment
+2026-06-11 06:49:49,499 [INFO] LLM extracted 1 deals (0 signed) | Case green, salta il recepimento della direttiva: 
+2026-06-11 06:49:49,502 [INFO] Not a signed deal — skipping: Case green, salta il recepimento della direttiva: il comment
+2026-06-11 06:49:49,502 [INFO] ------- Processing article n. 17: Approvazione della Relazione Finanziaria Semestrale al 30 giugno 2025 - edison.i -------
+2026-06-11 06:49:50,149 [INFO] Resolved Google News URL: https://www.edison.it/it/approvazione-della-relazione-finanziaria-semestrale-al-
+2026-06-11 06:49:50,149 [INFO] URL: https://www.edison.it/it/approvazione-della-relazione-finanziaria-semestrale-al-30-giugno-2025
+2026-06-11 06:49:50,489 [INFO] Text length: 6 chars | source: full
+2026-06-11 06:49:50,489 [INFO] Text preview: Edison...
+2026-06-11 06:49:50,489 [INFO] Text too short (6 chars) — skipping: Approvazione della Relazione Finanziaria Semestrale al 30 gi
+2026-06-11 06:49:50,489 [INFO] ------- Processing article n. 17: Najważniejsze prace zakończone Prace nad Młynem Energii w Grudziądzu postępują [ -------
+2026-06-11 06:49:50,952 [INFO] Resolved Google News URL: https://www.radiopik.pl/2,131235,najwazniejsze-prace-zakonczone-prace-nad-mlynem
+2026-06-11 06:49:50,953 [INFO] URL: https://www.radiopik.pl/2,131235,najwazniejsze-prace-zakonczone-prace-nad-mlynem-energii-w-grudziadzu-postepuja-zdjecia
+2026-06-11 06:49:51,194 [INFO] Text length: 7503 chars | source: full
+2026-06-11 06:49:51,194 [INFO] Text preview: Najważniejsze prace zakończone Prace nad Młynem Energii w Grudziądzu postępują [zdjęcia] - Polskie Radio PiK Najważniejsze prace zakończone! Prace nad Młynem Energii w Grudziądzu postępują [zdjęcia] 2...
+2026-06-11 06:49:51,917 [INFO] LLM HTTP 200 for: Najważniejsze prace zakończone Prace nad Młynem Energii w Gr
+2026-06-11 06:49:51,918 [INFO] LLM extracted 1 deals (0 signed) | Najważniejsze prace zakończone Prace nad Młynem En
+2026-06-11 06:49:51,921 [INFO] Not a signed deal — skipping: Najważniejsze prace zakończone Prace nad Młynem Energii w Gr
+2026-06-11 06:49:51,921 [INFO] ------- Processing article n. 17: Acordo comercial EUA-UE: que produtos abrange, quanto vai gastar a Europa e o qu -------
+2026-06-11 06:49:52,610 [INFO] Resolved Google News URL: https://sicnoticias.pt/mundo/2025-07-28-acordo-comercial-eua-ue-que-produtos-abr
+2026-06-11 06:49:52,610 [INFO] URL: https://sicnoticias.pt/mundo/2025-07-28-acordo-comercial-eua-ue-que-produtos-abrange-quanto-vai-gastar-a-europa-e-o-que-esta-isento--416dfe3d
+2026-06-11 06:49:52,985 [INFO] Full text skipped (status 403): https://sicnoticias.pt/mundo/2025-07-28-acordo-comercial-eua-ue-que-produtos-abr
+2026-06-11 06:49:52,985 [INFO] Text length: 231 chars | source: fallback
+2026-06-11 06:49:52,985 [INFO] Text preview: Acordo comercial EUA-UE: que produtos abrange, quanto vai gastar a Europa e o que está isento? - SIC Notícias
+
+Acordo comercial EUA-UE: que produtos abrange, quanto vai gastar a Europa e o que está is...
+2026-06-11 06:49:53,697 [INFO] LLM HTTP 200 for: Acordo comercial EUA-UE: que produtos abrange, quanto vai ga
+2026-06-11 06:49:53,697 [INFO] LLM extracted 1 deals (0 signed) | Acordo comercial EUA-UE: que produtos abrange, qua
+2026-06-11 06:49:53,701 [INFO] Not a signed deal — skipping: Acordo comercial EUA-UE: que produtos abrange, quanto vai ga
+2026-06-11 06:49:53,701 [INFO] ------- Processing article n. 17: Tarifaço: Europa se ajoelha aos valentões - Outras Palavras -------
+2026-06-11 06:49:54,237 [INFO] Resolved Google News URL: https://outraspalavras.net/outrasmidias/tarifaco-europa-se-ajoelha-aos-valentoes
+2026-06-11 06:49:54,238 [INFO] URL: https://outraspalavras.net/outrasmidias/tarifaco-europa-se-ajoelha-aos-valentoes/
+2026-06-11 06:49:55,179 [INFO] Text length: 10793 chars | source: full
+2026-06-11 06:49:55,179 [INFO] Text preview: Tarifaço: Europa se ajoelha aos valentões | Outras Palavras Tarifaço: Europa se ajoelha aos valentões Sob protestos da população, UE cede às chantagens de Trump: taxação de 15% e bilhões em compras de...
+2026-06-11 06:49:55,920 [INFO] LLM HTTP 200 for: Tarifaço: Europa se ajoelha aos valentões - Outras Palavras
+2026-06-11 06:49:55,921 [INFO] LLM extracted 1 deals (0 signed) | Tarifaço: Europa se ajoelha aos valentões - Outras
+2026-06-11 06:49:55,925 [INFO] Not a signed deal — skipping: Tarifaço: Europa se ajoelha aos valentões - Outras Palavras
+2026-06-11 06:49:55,926 [INFO] ------- Processing article n. 17: Tarifaço de Trump: EUA anunciam acordo comercial com União Europeia, com tarifas -------
+2026-06-11 06:49:56,411 [INFO] Resolved Google News URL: https://g1.globo.com/economia/noticia/2025/07/27/trump-anuncia-acordo-com-uniao-
+2026-06-11 06:49:56,412 [INFO] URL: https://g1.globo.com/economia/noticia/2025/07/27/trump-anuncia-acordo-com-uniao-europeia-com-tarifas-de-15percent-o-maior-ja-feito.ghtml
+2026-06-11 06:49:58,287 [INFO] Text length: 8111 chars | source: full
+2026-06-11 06:49:58,287 [INFO] Text preview: Trump anuncia acordo com União Europeia, com tarifas de 15%: 'O maior já feito' | G1 Moedas Dólar Comercial R$ 5,172 -0,1% Dólar Turismo R$ 5,377 -0,08% Euro Comercial R$ 5,969 -0,1% Euro Turismo R$ 6...
+2026-06-11 06:49:58,569 [INFO] LLM HTTP 200 for: Tarifaço de Trump: EUA anunciam acordo comercial com União E
+2026-06-11 06:49:58,569 [INFO] LLM extracted 0 deals (0 signed) | Tarifaço de Trump: EUA anunciam acordo comercial c
+2026-06-11 06:49:58,573 [INFO] ------- Processing article n. 17: Compra de Armas e Taxa-base de 15%: Conheça os Detalhes do Acordo Comercial entr -------
+2026-06-11 06:49:58,988 [INFO] Resolved Google News URL: https://forbes.com.br/forbes-money/2025/07/compra-de-armas-e-taxa-base-de-15-con
+2026-06-11 06:49:58,988 [INFO] URL: https://forbes.com.br/forbes-money/2025/07/compra-de-armas-e-taxa-base-de-15-conheca-os-detalhes-do-acordo-comercial-entre-uniao-europeia-e-eua/
+2026-06-11 06:50:04,684 [INFO] Text length: 7598 chars | source: full
+2026-06-11 06:50:04,684 [INFO] Text preview: Compra de Armas e Taxa-base de 15%: Conheça os Detalhes do Acordo Comercial entre União Europeia e EUA Início / Forbes Money / Compra de Armas e Taxa-base de 15%: Conheça os Detalhes do Acordo Comerci...
+2026-06-11 06:50:04,971 [INFO] LLM HTTP 200 for: Compra de Armas e Taxa-base de 15%: Conheça os Detalhes do A
+2026-06-11 06:50:04,971 [INFO] LLM extracted 0 deals (0 signed) | Compra de Armas e Taxa-base de 15%: Conheça os Det
+2026-06-11 06:50:04,974 [INFO] ------- Processing article n. 17: Trump anuncia acordo comercial com Indonésia, membro pleno do Brics - Agência Br -------
+2026-06-11 06:50:05,594 [INFO] Resolved Google News URL: https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/trump-anuncia-aco
+2026-06-11 06:50:05,595 [INFO] URL: https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/trump-anuncia-acordo-comercial-com-indonesia-membro-pleno-do-brics
+2026-06-11 06:50:07,688 [INFO] Text length: 3311 chars | source: full
+2026-06-11 06:50:07,688 [INFO] Text preview: Trump anuncia acordo comercial com Indonésia, membro pleno do Brics | Agência Brasil Pular para o conteúdo principal Internacional Trump anuncia acordo comercial com Indonésia, membro pleno do Brics S...
+2026-06-11 06:50:08,430 [INFO] LLM HTTP 200 for: Trump anuncia acordo comercial com Indonésia, membro pleno d
+2026-06-11 06:50:08,430 [INFO] LLM extracted 1 deals (0 signed) | Trump anuncia acordo comercial com Indonésia, memb
+2026-06-11 06:50:08,435 [INFO] Not a signed deal — skipping: Trump anuncia acordo comercial com Indonésia, membro pleno d
+2026-06-11 06:50:08,435 [INFO] ------- Processing article n. 17: União Europeia cede a Trump, aceita tarifa de 15% e contrapartidas bilionárias - -------
+2026-06-11 06:50:09,079 [INFO] Resolved Google News URL: https://vermelho.org.br/2025/07/28/uniao-europeia-cede-a-trump-aceita-tarifa-de-
+2026-06-11 06:50:09,079 [INFO] URL: https://vermelho.org.br/2025/07/28/uniao-europeia-cede-a-trump-aceita-tarifa-de-15-e-contrapartidas-bilionarias/
+2026-06-11 06:50:09,130 [INFO] Full text skipped (status 403): https://vermelho.org.br/2025/07/28/uniao-europeia-cede-a-trump-aceita-tarifa-de-
+2026-06-11 06:50:09,131 [INFO] Text length: 205 chars | source: fallback
+2026-06-11 06:50:09,131 [INFO] Text preview: União Europeia cede a Trump, aceita tarifa de 15% e contrapartidas bilionárias - vermelho.org.br
+
+União Europeia cede a Trump, aceita tarifa de 15% e contrapartidas bilionárias &nbsp;&nbsp; vermelho.o...
+2026-06-11 06:50:09,902 [INFO] LLM HTTP 200 for: União Europeia cede a Trump, aceita tarifa de 15% e contrapa
+2026-06-11 06:50:09,902 [INFO] LLM extracted 1 deals (0 signed) | União Europeia cede a Trump, aceita tarifa de 15% 
+2026-06-11 06:50:09,906 [INFO] Not a signed deal — skipping: União Europeia cede a Trump, aceita tarifa de 15% e contrapa
+2026-06-11 06:50:09,906 [INFO] ------- Processing article n. 17: Orizon e Sergas estudam injeção de biometano em rede de distribuição - MegaWhat -------
+2026-06-11 06:50:10,558 [INFO] Resolved Google News URL: https://megawhat.uol.com.br/noticias/orizon-e-sergas-estudam-injecao-de-biometan
+2026-06-11 06:50:10,559 [INFO] URL: https://megawhat.uol.com.br/noticias/orizon-e-sergas-estudam-injecao-de-biometano-em-rede-de-distribuicao/
+2026-06-11 06:50:12,565 [INFO] Text length: 7774 chars | source: full
+2026-06-11 06:50:12,565 [INFO] Text preview: Orizon e Sergas estudam injeção de biometano em rede de distribuição Fazer login Assinar Olá, [username] Sair Cursos Últimas Notícias MegaExpresso Glossário Geração Voltar Tudo sobre Geração Biomassa ...
+2026-06-11 06:50:13,303 [INFO] LLM HTTP 200 for: Orizon e Sergas estudam injeção de biometano em rede de dist
+2026-06-11 06:50:13,303 [INFO] LLM extracted 1 deals (0 signed) | Orizon e Sergas estudam injeção de biometano em re
+2026-06-11 06:50:13,306 [INFO] Not a signed deal — skipping: Orizon e Sergas estudam injeção de biometano em rede de dist
+2026-06-11 06:50:13,306 [INFO] ------- Processing article n. 17: Energia solar distribuída por assinatura vira alternativa à alta da conta de luz -------
+2026-06-11 06:50:13,708 [INFO] Resolved Google News URL: https://www.infomoney.com.br/minhas-financas/energia-solar-distribuida-por-assin
+2026-06-11 06:50:13,708 [INFO] URL: https://www.infomoney.com.br/minhas-financas/energia-solar-distribuida-por-assinatura-vira-alternativa-a-alta-da-conta-de-luz/
+2026-06-11 06:50:14,385 [INFO] Text length: 6806 chars | source: full
+2026-06-11 06:50:14,385 [INFO] Text preview: Energia solar distribuída por assinatura vira alternativa à alta da conta de luz Energia solar por assinatura vira alternativa à alta da conta de luz Energia solar distribuída por assinatura vira alte...
+2026-06-11 06:50:15,100 [INFO] LLM HTTP 200 for: Energia solar distribuída por assinatura vira alternativa à 
+2026-06-11 06:50:15,100 [INFO] LLM extracted 1 deals (0 signed) | Energia solar distribuída por assinatura vira alte
+2026-06-11 06:50:15,103 [INFO] Not a signed deal — skipping: Energia solar distribuída por assinatura vira alternativa à 
+2026-06-11 06:50:15,103 [INFO] ------- Processing article n. 17: Análise do curtailment na GD deve ser finalizada em agosto, diz Aneel; veja o Ra -------
+2026-06-11 06:50:15,710 [INFO] Resolved Google News URL: https://conteudos.xpi.com.br/acoes/relatorios/analise-do-curtailment-na-gd-deve-
+2026-06-11 06:50:15,710 [INFO] URL: https://conteudos.xpi.com.br/acoes/relatorios/analise-do-curtailment-na-gd-deve-ser-finalizada-em-agosto-diz-aneel-veja-o-radar-energia-xp-julho/
+2026-06-11 06:50:15,754 [INFO] Full text skipped (status 403): https://conteudos.xpi.com.br/acoes/relatorios/analise-do-curtailment-na-gd-deve-
+2026-06-11 06:50:15,754 [INFO] Text length: 255 chars | source: fallback
+2026-06-11 06:50:15,754 [INFO] Text preview: Análise do curtailment na GD deve ser finalizada em agosto, diz Aneel; veja o Radar Energia XP | Julho - XP Investimentos
+
+Análise do curtailment na GD deve ser finalizada em agosto, diz Aneel; veja o...
+2026-06-11 06:50:16,424 [INFO] LLM HTTP 200 for: Análise do curtailment na GD deve ser finalizada em agosto, 
+2026-06-11 06:50:16,424 [INFO] LLM extracted 1 deals (0 signed) | Análise do curtailment na GD deve ser finalizada e
+2026-06-11 06:50:16,428 [INFO] Not a signed deal — skipping: Análise do curtailment na GD deve ser finalizada em agosto, 
+2026-06-11 06:50:16,428 [INFO] ------- Processing article n. 17: ENERGIA | Brazil Potash assina acordo com Fictor para linha de transmissão para  -------
+2026-06-11 06:50:16,903 [INFO] Resolved Google News URL: https://www.brasilmineral.com.br/noticias/brazil-potash-assina-acordo-com-fictor
+2026-06-11 06:50:16,903 [INFO] URL: https://www.brasilmineral.com.br/noticias/brazil-potash-assina-acordo-com-fictor-para-linha-de-transmissao-para-projeto-autazes
+2026-06-11 06:50:17,417 [INFO] Text length: 3265 chars | source: full
+2026-06-11 06:50:17,417 [INFO] Text preview: ENERGIA | Brazil Potash assina acordo com Fictor para linha de transmissão para projeto Autazes | Brasil Mineral Search ENERGIA Brazil Potash assina acordo com Fictor para linha de transmissão para pr...
+2026-06-11 06:50:18,158 [INFO] LLM HTTP 200 for: ENERGIA | Brazil Potash assina acordo com Fictor para linha 
+2026-06-11 06:50:18,158 [INFO] LLM extracted 1 deals (0 signed) | ENERGIA | Brazil Potash assina acordo com Fictor p
+2026-06-11 06:50:18,161 [INFO] Not a signed deal — skipping: ENERGIA | Brazil Potash assina acordo com Fictor para linha 
+2026-06-11 06:50:18,161 [INFO] ------- Processing article n. 17: Ibovespa tem a terceira sessão seguida de queda, com tarifaço e Super Quarta no  -------
+2026-06-11 06:50:18,803 [INFO] Resolved Google News URL: https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-280
+2026-06-11 06:50:18,803 [INFO] URL: https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28072025/
+2026-06-11 06:50:22,878 [INFO] Text length: 24034 chars | source: full
+2026-06-11 06:50:22,878 [INFO] Text preview: Ibovespa hoje tem a 3ª sessão de queda, com tarifaço e Super Quarta no radar Conteúdo editorial apoiado por Tempo Real Ibovespa tem a terceira sessão seguida de queda, com tarifaço e Super Quarta no r...
+2026-06-11 06:50:23,634 [INFO] LLM HTTP 200 for: Ibovespa tem a terceira sessão seguida de queda, com tarifaç
+2026-06-11 06:50:23,634 [INFO] LLM extracted 1 deals (0 signed) | Ibovespa tem a terceira sessão seguida de queda, c
+2026-06-11 06:50:23,638 [INFO] Not a signed deal — skipping: Ibovespa tem a terceira sessão seguida de queda, com tarifaç
+2026-06-11 06:50:23,638 [INFO] ------- Processing article n. 17: EDP vai fornecer energia a cinco data centers da Merlin às portas de Lisboa - Jo -------
+2026-06-11 06:50:24,354 [INFO] Resolved Google News URL: https://www.jornaldenegocios.pt/empresas/energia/detalhe/edp-vai-fornecer-energi
+2026-06-11 06:50:24,355 [INFO] URL: https://www.jornaldenegocios.pt/empresas/energia/detalhe/edp-vai-fornecer-energia-a-cinco-data-centers-da-merlin-as-portas-de-lisboa
+2026-06-11 06:50:25,776 [INFO] Text length: 13093 chars | source: full
+2026-06-11 06:50:25,776 [INFO] Text preview: EDP vai fornecer energia a cinco data centers da Merlin às portas de Lisboa - Energia - Jornal de Negócios Search Ao Minuto Premium Cotações PSI-20 Câmbios Mercados Análise Fundamental Análise Técnica...
+2026-06-11 06:50:26,649 [INFO] LLM HTTP 200 for: EDP vai fornecer energia a cinco data centers da Merlin às p
+2026-06-11 06:50:26,650 [INFO] LLM extracted 1 deals (0 signed) | EDP vai fornecer energia a cinco data centers da M
+2026-06-11 06:50:26,653 [INFO] Not a signed deal — skipping: EDP vai fornecer energia a cinco data centers da Merlin às p
+2026-06-11 06:50:26,653 [INFO] Run complete. New deals: 17, Updates: 0
+2026-06-11 06:50:26,660 [INFO] CSV exported: /workspaces/ppa-tracker/data/ppa_deals.csv (427 deals)
