@@ -16,8 +16,8 @@ git config user.name "ppa-tracker-bot"
 git config user.email "bot@ppa-tracker"
 
 # ── Step 5: Historical loop ──
-START="2025-07-22"
-END="2025-12-31"
+START="2026-01-01"
+END="2026-06-10"
 CURRENT=$START
 
 while [[ "$CURRENT" < "$END" ]]; do
