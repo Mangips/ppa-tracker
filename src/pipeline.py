@@ -558,20 +558,20 @@ def classify_match(existing: dict, new_deal: dict, new_pub_date: str) -> str:
         existing_val = existing.get(field)
         new_val = new_deal.get(field)
         if new_val and not existing_val:
-            return "update"
+            return "U"
 
     # Longer notes = more information
     existing_notes = existing.get("notes") or ""
     new_notes = str(new_deal.get("notes") or "")
     if len(new_notes) > len(existing_notes) + 20:
-        return "update"
+        return "U"
 
     # Later publication date on a different source article
     existing_pub = (existing.get("publication_date") or "")[:10]
     if new_pub_date and existing_pub and new_pub_date > existing_pub:
-        return "update"
+        return "U"
 
-    return "duplicate"
+    return "D"
 
 # ── Database Write ────────────────────────────────────────────────────────────
 
