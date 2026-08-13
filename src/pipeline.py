@@ -13,7 +13,7 @@ import sqlite3
 import hashlib
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-from html.parser import HTMLParser
+import trafilatura
 from pathlib import Path
 
 import requests
@@ -306,27 +306,6 @@ def fetch_extra_rss(feed_url: str, from_date: str, to_date: str | None = None) -
 
 # ── Full Text Fetch ───────────────────────────────────────────────────────────
 
-class _TextExtractor(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.chunks = []
-        self._skip  = 0  # counter, not bool
-
-    def handle_starttag(self, tag, attrs):
-        if tag in ("script", "style", "nav", "footer", "header"):
-            self._skip += 1
-
-    def handle_endtag(self, tag):
-        if tag in ("script", "style", "nav", "footer", "header") and self._skip:
-            self._skip -= 1
-
-    def handle_data(self, data):
-        if not self._skip:
-            s = data.strip()
-            if s:
-                self.chunks.append(s)
-
-
 def fetch_full_text(url: str) -> str | None:
     try:
         headers = {
@@ -335,14 +314,25 @@ def fetch_full_text(url: str) -> str | None:
             "Accept-Language": "en-US,en;q=0.5",
         }
         resp = requests.get(url, headers=headers, timeout=12, allow_redirects=True)
-        
+
         if resp.status_code == 200 and "text/html" in resp.headers.get("Content-Type", ""):
-            parser = _TextExtractor()
-            parser.feed(resp.text)
-            text  = " ".join(parser.chunks)
+            # trafilatura isolates the main article body and drops boilerplate
+            # (related-article teasers, nav, ads) far more reliably than a
+            # manual tag-skip parser — favor_precision trims aggressively
+            # rather than risk pulling in unrelated headline lists.
+            text = trafilatura.extract(
+                resp.text,
+                url=url,
+                include_comments=False,
+                include_tables=False,
+                favor_precision=True,
+            )
+            if not text:
+                log.info(f"Full text extraction empty: {url[:80]}")
+                return None
             words = text.split()
             return " ".join(words[:4000]) if len(words) > 4000 else text
-            
+
         log.info(f"Full text skipped (status {resp.status_code}): {url[:80]}")
         return None
     except Exception as e:
@@ -361,12 +351,13 @@ Analyze the text below and:
 4. If **NO signed deals** are found, return an array with **ONE object** where `is_signed_deal` is `false` and all other fields are `null`.
 5. If signed, `is_european` must reflect where the ENERGY IS DELIVERED, not where the companies are based.
 6. If an article describes multiple individual deals, extract EACH separately with its own capacity. Do NOT also extract an aggregate/summary entry. If you cannot determine the capacity of an individual deal, use null — but never create a summary row that combines multiple deals into one.
-
+7. Distinguish a PPA deal from an M&A / asset transaction. A signed PPA deal is a NEW offtake contract in which a buyer agrees to purchase electricity, capacity, or certificates from a seller under specific terms (price, volume, or tenure). It is NOT a plant/portfolio acquisition, divestment, financing round, refinancing, or equity/company sale — even if the acquired asset already has a PPA attached, and even if the article mentions "PPA" and a capacity in MW. If the core event described is a change of ownership of the plant, project, or company rather than a newly negotiated offtake agreement, set `is_signed_deal` to `false` and `transaction_type` to `"acquisition"`.
 Return **ONLY** a valid JSON array — no markdown fences, no explanation, nothing else.
 Each object must include **ALL fields** below (use `null` for missing values):
 
 {{
   "is_signed_deal": true or false,
+  "transaction_type": "ppa_signed" / "acquisition" / "tender_or_rumour" / "other",
   "is_likely_update": true or false,
   "update_clues": "what changed, or null",
   "date_agreement": "YYYY-MM-DD, YYYY-MM, or YYYY — null if unknown",
@@ -827,7 +818,17 @@ def run() -> None:
                 log.info(f"Not a European deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
                          f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
                 continue
-        
+                
+            # Belt-and-suspenders: even if is_signed_deal slipped through true,
+            # never store acquisitions/M&A as PPA deals.
+            if deal.get("transaction_type") not in (None, "ppa_signed"):
+                log.info(
+                    f"Not a PPA deal (transaction_type={deal.get('transaction_type')}) — "
+                    f"skipping: {deal.get('buyer')} / {deal.get('seller')} "
+                         f"({deal.get('country')}, {deal.get('capacity_mw')} MW)"
+                )
+                continue
+            
             if (
                 deal.get("confidence") == "low"
                 and not deal.get("buyer")
