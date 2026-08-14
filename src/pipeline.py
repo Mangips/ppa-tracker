@@ -13,10 +13,11 @@ import sqlite3
 import hashlib
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-import trafilatura
 from pathlib import Path
 
 import requests
+import trafilatura
+from rapidfuzz import fuzz
 
 import re as _re  
 from googlenewsdecoder import gnewsdecoder
@@ -352,6 +353,8 @@ Analyze the text below and:
 5. If signed, `is_european` must reflect where the ENERGY IS DELIVERED, not where the companies are based.
 6. If an article describes multiple individual deals, extract EACH separately with its own capacity. Do NOT also extract an aggregate/summary entry. If you cannot determine the capacity of an individual deal, use null — but never create a summary row that combines multiple deals into one.
 7. Distinguish a PPA deal from an M&A / asset transaction. A signed PPA deal is a NEW offtake contract in which a buyer agrees to purchase electricity, capacity, or certificates from a seller under specific terms (price, volume, or tenure). It is NOT a plant/portfolio acquisition, divestment, financing round, refinancing, or equity/company sale — even if the acquired asset already has a PPA attached, and even if the article mentions "PPA" and a capacity in MW. If the core event described is a change of ownership of the plant, project, or company rather than a newly negotiated offtake agreement, set `is_signed_deal` to `false` and `transaction_type` to `"acquisition"`.
+8. A PPA is specifically an ELECTRICITY (or renewable energy certificate) offtake agreement. Do NOT extract gas, LNG, hydrogen, or other non-electricity commodity supply contracts, even if the source article loosely uses the word "PPA" or describes a long-term energy supply agreement. If the agreement is not for electricity/certificates, set `is_signed_deal` to `false` and `transaction_type` to `"other"`.
+
 Return **ONLY** a valid JSON array — no markdown fences, no explanation, nothing else.
 Each object must include **ALL fields** below (use `null` for missing values):
 
@@ -457,8 +460,46 @@ COUNTRY_ALIASES = {
     "holland": "netherlands",
 }
 
+# Generic corporate/legal descriptors that don't distinguish one company from
+# another once stripped (e.g. "Solaria" vs "Solaria Energía y Medio Ambiente, S.A.").
 LEGAL_SUFFIXES = _re.compile(
-    r"\b(ltd\.?|llc\.?|inc\.?|corp\.?|ag|sa|spa|bv|nv|gmbh|plc|oy|ab|as|group ag|supply ltd|energy ltd|renewables ltd)\b\.?",
+    r"\b(ltd\.?|llc\.?|inc\.?|corp\.?|ag|sa|spa|bv|nv|gmbh|plc|oy|ab|as|properties|"
+    r"energia|energía|y medio ambiente|group ag|supply ltd|energy ltd|renewables ltd)\b\.?",
+    _re.IGNORECASE,
+)
+
+# Local-subsidiary / geo qualifiers appended to a parent company's name
+# (e.g. "Iberdrola España" is the same company as "Iberdrola" for our purposes).
+GEO_SUFFIXES = _re.compile(
+    r"\b(españa|espana|spain|italia|italy|iberia|portugal|france|francia|"
+    r"deutschland|germany|uk|europe|international)\b",
+    _re.IGNORECASE,
+)
+
+# Buyer/seller similarity threshold (rapidfuzz token_set_ratio, 0-100).
+# token_set_ratio is used because it stays high when one name is a superset
+# of the other's words ("RWE" vs "RWE Renewables Iberia" still scores 100),
+# which exact/tag-sort matching does not handle.
+ENTITY_MATCH_THRESHOLD = 85
+
+# Words too generic to count as a project-identifying token when comparing
+# two deals' `notes` fields (used only as a tie-breaker, see find_similar_duplicate).
+PROJECT_TOKEN_STOPWORDS = {
+    "the", "ppa", "mw", "gwh", "spain", "italy", "portugal", "france", "germany",
+    "uk", "europe", "european", "project", "plant", "farm", "solar", "wind",
+    "energy", "energia", "energía", "group", "corp", "first", "new", "data",
+    "center", "centre", "power", "renewable", "renewables", "agreement", "deal",
+    "company", "for", "with", "initial",
+}
+
+# Deals with generic, non-specific counterparty names — usually a sign the LLM
+# failed to identify the actual named entity from the article text and
+# substituted a vague description instead. Flagged, not auto-rejected: some
+# of these are legitimate (an article can genuinely withhold a buyer's name).
+GENERIC_ENTITY_PATTERNS = _re.compile(
+    r"^(local |several |various |multiple |unnamed |unspecified )?"
+    r"(electricity providers?|companies|developers?( of.*)?|utilities|"
+    r"portfolio.*|consortium( of.*)?)$",
     _re.IGNORECASE,
 )
 
@@ -467,11 +508,67 @@ def _normalize_country(country: str) -> str:
     return COUNTRY_ALIASES.get(c, c)
 
 def _normalize_entity(name: str) -> str:
-    n = name.lower().strip()
+    n = (name or "").lower().strip()
     n = LEGAL_SUFFIXES.sub("", n)
+    n = GEO_SUFFIXES.sub("", n)
+    n = _re.sub(r"[^a-z0-9 ]", " ", n)
     return " ".join(n.split())  # collapse whitespace
 
+def _country_overlap(a: str, b: str) -> bool:
+    """True if the two (possibly comma-separated, multi-country) fields share
+    at least one country in common, after alias normalization."""
+    sa = {_normalize_country(c.strip()) for c in (a or "").split(",") if c.strip()}
+    sb = {_normalize_country(c.strip()) for c in (b or "").split(",") if c.strip()}
+    return bool(sa & sb)
+
+def _capacity_close(a, b, tol: float = 0.15):
+    """True/False if both capacities are known (within `tol` relative
+    tolerance); None if either is missing — i.e. "ambiguous, can't rule
+    out or confirm on capacity alone"."""
+    if a is None or b is None:
+        return None
+    try:
+        a, b = float(a), float(b)
+    except (TypeError, ValueError):
+        return None
+    if a == 0 and b == 0:
+        return True
+    return abs(a - b) / max(a, b) <= tol
+
+def _parse_date_loose(d: str):
+    if not d:
+        return None
+    d = d[:10]
+    for fmt in ("%Y-%m-%d", "%Y-%m", "%Y"):
+        try:
+            return datetime.strptime(d, fmt)
+        except ValueError:
+            continue
+    return None
+
+def _date_close(a: str, b: str, days: int = 120):
+    """True/False if both dates parse (within `days`); None if either is
+    unparseable/missing."""
+    da, db = _parse_date_loose(a), _parse_date_loose(b)
+    if da is None or db is None:
+        return None
+    return abs((da - db).days) <= days
+
+def extract_project_tokens(notes: str) -> set:
+    """Pulls out capitalized, non-generic words from a notes field — a cheap
+    proxy for project/place names ('Ginosa', 'Castaño', 'Arasur') without
+    needing embeddings. Used only as a tie-breaker when capacity is unknown
+    on one or both sides of a comparison."""
+    if not notes:
+        return set()
+    words = _re.findall(r"[A-ZÀ-Ý][a-zà-ÿ]{3,}", notes)
+    return {w.lower() for w in words if w.lower() not in PROJECT_TOKEN_STOPWORDS}
+
 def make_deal_hash(extracted: dict) -> str:
+    """Deterministic fingerprint stored alongside each row for auditing/export
+    purposes. No longer used for duplicate lookup (see find_similar_duplicate) —
+    exact-match hashing was too brittle against name variants, date-granularity
+    differences, and capacity-rounding differences across sources."""
     date = (extracted.get("date_agreement") or "")[:7]
 
     buyer = _normalize_entity(extracted.get("buyer") or "")
@@ -494,55 +591,142 @@ def make_deal_hash(extracted: dict) -> str:
     ]
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
 
-def find_duplicate(conn: sqlite3.Connection, deal_hash: str) -> dict | None:
-    """Returns the full existing row as a dict, or None."""
-    row = conn.execute(
-        "SELECT id, energy_gwh, tenure_years, price_eur_mwh, technology, notes, publication_date "
-        "FROM deals WHERE deal_hash = ?", (deal_hash,)
-    ).fetchone()
-    if not row:
-        return None
-    keys = ["id", "energy_gwh", "tenure_years", "price_eur_mwh", "technology", "notes", "publication_date"]
-    return dict(zip(keys, row))
-
-def find_fuzzy_duplicate(conn: sqlite3.Connection, extracted: dict) -> dict | None:
+def find_similar_duplicate(existing_rows: list[dict], extracted: dict) -> dict | None:
     """
-    For deals where capacity is unknown, check if a deal with same
-    buyer/seller/country/date already exists at any capacity.
+    Fuzzy dedup against an in-memory list of already-stored deals (loaded once
+    per run, updated as new deals are written — see run()).
+
+    Matches on:
+      - buyer AND seller name similarity (token_set_ratio, robust to legal
+        suffixes, geo-subsidiary qualifiers, and small typos like
+        "Zelestra"/"Zalestra")
+      - at least one country in common
+      - capacity: if both sides have a capacity_mw, it must be within 15% of
+        each other, AND — if both sides' notes name specific project tokens —
+        those tokens must not be entirely disjoint (guards against two
+        different real projects for the same recurring buyer/seller pair
+        coincidentally landing within tolerance, e.g. a 110 MW and a 105 MW
+        solar farm for the same offtaker). If capacity is missing on one/both
+        sides, fall back to requiring one of: a shared project-name token in
+        `notes`, dates within ~4 months where BOTH dates have at least
+        month-level precision (a bare year like "2024" is too imprecise to
+        trust on its own), or a matching contract tenure (years) when neither
+        notes nor dates give a usable signal.
+
+    Once buyer/seller/country/capacity all agree closely, date proximity is
+    NOT required — the same signed deal routinely gets re-reported over
+    months as it moves through signing/construction/commissioning coverage.
     """
-    if extracted.get("capacity_mw") is not None:
-        return None  # only apply fuzzy match when capacity is missing
-
-    buyer = _normalize_entity(extracted.get("buyer") or "")
-    seller = _normalize_entity(extracted.get("seller") or "")
-    date = (extracted.get("date_agreement") or "")[:7]
-    country = _normalize_country(extracted.get("country") or "")
-
-    row = conn.execute("""
-        SELECT id, energy_gwh, tenure_years, price_eur_mwh, technology, notes, publication_date
-        FROM deals
-        WHERE LOWER(buyer) LIKE ? 
-          AND LOWER(seller) LIKE ?
-          AND LOWER(country) LIKE ?
-          AND date_agreement LIKE ?
-        LIMIT 1
-    """, (
-        f"%{buyer[:20]}%",
-        f"%{seller[:20]}%",
-        f"%{country[:20]}%",
-        f"{date}%",
-    )).fetchone()
-
-    if not row:
+    buyer_n = _normalize_entity(extracted.get("buyer") or "")
+    seller_n = _normalize_entity(extracted.get("seller") or "")
+    if not buyer_n or not seller_n:
         return None
-    keys = ["id", "energy_gwh", "tenure_years", "price_eur_mwh", "technology", "notes", "publication_date"]
-    return dict(zip(keys, row))
+
+    country = extracted.get("country") or ""
+    capacity = extracted.get("capacity_mw")
+    date_agreement = extracted.get("date_agreement") or ""
+    new_tokens = extract_project_tokens(extracted.get("notes") or "")
+
+    for row in existing_rows:
+        row_buyer_n = _normalize_entity(row.get("buyer") or "")
+        row_seller_n = _normalize_entity(row.get("seller") or "")
+
+        if fuzz.token_set_ratio(buyer_n, row_buyer_n) < ENTITY_MATCH_THRESHOLD:
+            continue
+        if fuzz.token_set_ratio(seller_n, row_seller_n) < ENTITY_MATCH_THRESHOLD:
+            continue
+        if not _country_overlap(country, row.get("country") or ""):
+            continue
+
+        cap_result = _capacity_close(capacity, row.get("capacity_mw"))
+        if cap_result is False:
+            continue  # capacities clearly differ -> different deal, not a re-report
+
+        row_tokens = extract_project_tokens(row.get("notes") or "")
+
+        if cap_result is True:
+            # Capacity looks close, but two different real projects between the
+            # same recurring buyer/seller pair can still coincidentally land
+            # within tolerance (e.g. a 110 MW and a 105 MW solar farm for the
+            # same offtaker). If both sides name specific, non-overlapping
+            # project tokens, that's conflicting evidence — don't merge.
+            if new_tokens and row_tokens and not (new_tokens & row_tokens):
+                continue
+
+        if cap_result is None:
+            # Capacity unknown on one/both sides: same recurring buyer/seller
+            # pair could easily be two unrelated deals (see Amazon/Iberdrola
+            # false-positive case), so require corroborating evidence.
+            tokens_match = bool(new_tokens and row_tokens and (new_tokens & row_tokens))
+
+            # Bare years ("2024") parse to Jan 1st, which can look artificially
+            # "close" to a precise month elsewhere — only trust the date
+            # fallback when both sides have at least month-level precision.
+            row_date = row.get("date_agreement") or ""
+            dates_precise = len(date_agreement) >= 7 and len(row_date) >= 7
+            dates_corroborate = dates_precise and _date_close(date_agreement, row_date) is True
+
+            # Matching, non-null contract terms (tenure) are also meaningful
+            # corroboration when neither notes nor dates give a signal —
+            # e.g. two sparse-notes reports of the same deal that both cite
+            # the same 10-year term.
+            new_tenure, row_tenure = extracted.get("tenure_years"), row.get("tenure_years")
+            tenure_corroborates = (
+                new_tenure is not None
+                and row_tenure is not None
+                and abs(float(new_tenure) - float(row_tenure)) < 0.01
+            )
+
+            if not tokens_match and not dates_corroborate and not tenure_corroborates:
+                continue
+
+        return row
+
+    return None
+
+def _drop_aggregate_rows(deals: list[dict]) -> list[dict]:
+    """
+    Guards against the model returning both itemized deals AND their combined
+    total in the same response, despite the prompt instructing otherwise
+    (observed e.g. wind 49.5 MW + solar 212 MW + a 257 MW "combined" entry,
+    all from one article). If one deal's capacity is within 5% of the sum of
+    all the others', it's an aggregate row layered on top of the itemized
+    ones — drop it and keep the itemized rows.
+    """
+    if len(deals) < 2:
+        return deals
+
+    caps = [d.get("capacity_mw") for d in deals]
+    if any(c is None for c in caps):
+        return deals  # can't safely reason about sums with missing values
+
+    total = sum(caps)
+    kept = []
+    for d, c in zip(deals, caps):
+        other_sum = total - c
+        if other_sum > 0 and abs(c - other_sum) / max(c, other_sum) <= 0.05:
+            log.info(
+                f"Dropping aggregate deal (capacity {c} MW ≈ sum of the other "
+                f"{other_sum} MW in the same article): {d.get('buyer')} / {d.get('seller')}"
+            )
+            continue
+        kept.append(d)
+    return kept or deals  # never let this guard empty out a real single-deal list
+
+def _flag_if_vague(field_name: str, value: str, title: str) -> None:
+    """Soft warning only — logs for manual review, doesn't drop the deal,
+    since a genuinely undisclosed counterparty is a legitimate real case."""
+    if value and GENERIC_ENTITY_PATTERNS.match(value.strip()):
+        log.warning(
+            f"Vague {field_name} extracted ('{value}') — possibly a missed "
+            f"named entity, worth a manual check: {title[:60]}"
+        )
 
 def classify_match(existing: dict, new_deal: dict, new_pub_date: str) -> str:
     """
-    Given an existing DB row and a newly extracted deal for the same hash,
-    returns 'update' if the new article adds meaningful information,
-    or 'duplicate' if it's the same content from a different source.
+    Given an existing DB row and a newly extracted deal matched to it by
+    find_similar_duplicate, returns 'U' if the new article adds meaningful
+    information, or 'D' if it's the same content from a different source.
     """
     enriching_fields = ["energy_gwh", "tenure_years", "price_eur_mwh", "technology"]
     for field in enriching_fields:
@@ -570,6 +754,8 @@ def write_deal(conn, extracted, real_url, article, full_text, match_type, canoni
     """
     match_type: 'N' | 'U'
     Duplicates are skipped before reaching this function.
+    Returns the new row's id (needed so run() can add it to the in-memory
+    dedup pool for the rest of the current run).
     """
     deal_hash = make_deal_hash(extracted)
     notes     = extracted.get("notes") or ""
@@ -580,7 +766,7 @@ def write_deal(conn, extracted, real_url, article, full_text, match_type, canoni
         notes += f" | Original deal ID: {canonical_id}"
         deal_hash = deal_hash + f"_upd_{canonical_id}"
 
-    conn.execute(
+    cursor = conn.execute(
         """
         INSERT OR IGNORE INTO deals (
             deal_hash, event_type, canonical_id,
@@ -612,6 +798,7 @@ def write_deal(conn, extracted, real_url, article, full_text, match_type, canoni
         ),
     )
     conn.commit()
+    return cursor.lastrowid
 
 # ── CSV Export ────────────────────────────────────────────────────────────────
 
@@ -699,6 +886,25 @@ def run() -> None:
     log.info(f"=== PPA Tracker pipeline starting (env: {ENV_NAME}) ===")
     conn = sqlite3.connect(DB_PATH)
     init_db(conn)
+
+    # Load all existing deals into memory once, for fuzzy dedup lookups
+    # (see find_similar_duplicate). Newly written rows are appended to this
+    # list during the run so later articles in the same run are checked
+    # against them too, not just what was in the DB at the start.
+    existing_rows = [
+        dict(zip(
+            ["id", "buyer", "seller", "country", "capacity_mw", "date_agreement",
+             "energy_gwh", "tenure_years", "price_eur_mwh", "technology",
+             "notes", "publication_date"],
+            row,
+        ))
+        for row in conn.execute(
+            "SELECT id, buyer, seller, country, capacity_mw, date_agreement, "
+            "energy_gwh, tenure_years, price_eur_mwh, technology, notes, publication_date "
+            "FROM deals"
+        ).fetchall()
+    ]
+    log.info(f"Loaded {len(existing_rows)} existing deals for dedup matching")
 
     from_date = SEARCH_FROM_DATE or (
         datetime.utcnow() - timedelta(days=int(LOOKBACK_DAYS or 2))
@@ -799,6 +1005,10 @@ def run() -> None:
             log.warning(f"Failed to parse LLM response ({e}) — skipping: {title[:60]}")
             continue
 
+        # Drop any combined/aggregate entry the model returned alongside the
+        # itemized deals for the same article (see _drop_aggregate_rows).
+        deals = _drop_aggregate_rows(deals)
+
         # Mark URL as seen (only once per article)
         conn.execute(
             "INSERT OR IGNORE INTO seen_urls VALUES (?, ?)",
@@ -813,22 +1023,34 @@ def run() -> None:
             if not deal.get("is_signed_deal"):
                 log.info(f"Not a signed deal — skipping: {title[:60]}")
                 continue
-            
-            if not deal.get("is_european"):
-                log.info(f"Not a European deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
-                         f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
-                continue
-                
+
             # Belt-and-suspenders: even if is_signed_deal slipped through true,
             # never store acquisitions/M&A as PPA deals.
             if deal.get("transaction_type") not in (None, "ppa_signed"):
                 log.info(
                     f"Not a PPA deal (transaction_type={deal.get('transaction_type')}) — "
-                    f"skipping: {deal.get('buyer')} / {deal.get('seller')} "
-                         f"({deal.get('country')}, {deal.get('capacity_mw')} MW)"
+                    f"skipping: {title[:60]}"
                 )
                 continue
-            
+
+            # Belt-and-suspenders: reject non-electricity energy agreements
+            # (gas/LNG/hydrogen supply deals loosely described as "PPA" in
+            # source text) that have neither a power capacity nor an energy
+            # volume and fall back to the catch-all "other" technology —
+            # e.g. LNG import Heads of Agreement mistakenly extracted as PPAs.
+            if (
+                deal.get("technology") == "other"
+                and deal.get("capacity_mw") is None
+                and deal.get("energy_gwh") is None
+            ):
+                log.info(f"Non-electricity energy deal — skipping: {title[:60]}")
+                continue
+
+            if not deal.get("is_european"):
+                log.info(f"Not a European deal — skipping: {deal.get('buyer')} / {deal.get('seller')} "
+                         f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
+                continue
+        
             if (
                 deal.get("confidence") == "low"
                 and not deal.get("buyer")
@@ -837,11 +1059,11 @@ def run() -> None:
                 log.info(f"Low confidence, no parties — skipping: {deal.get('buyer')} / {deal.get('seller')} "
                 f"({deal.get('country')}, {deal.get('capacity_mw')} MW)")
                 continue
-        
-            deal_hash   = make_deal_hash(deal)
-            existing    = find_duplicate(conn, deal_hash)
-            if not existing:
-                existing = find_fuzzy_duplicate(conn, deal)
+
+            _flag_if_vague("buyer", deal.get("buyer") or "", title)
+            _flag_if_vague("seller", deal.get("seller") or "", title)
+
+            existing    = find_similar_duplicate(existing_rows, deal)
             new_pub     = (article.get("publishedAt") or "")[:10]
 
             if existing:
@@ -868,8 +1090,25 @@ def run() -> None:
                 + (f" — canonical ID: {canonical_id}" if canonical_id else "")
             )
 
-            write_deal(conn, deal, real_url, article, full_text, match_type, canonical_id)
+            new_id = write_deal(conn, deal, real_url, article, full_text, match_type, canonical_id)
             processed += 1
+
+            # Add to the in-memory pool so later articles in this same run
+            # are matched against it too, not just what was in the DB at start.
+            existing_rows.append({
+                "id": new_id,
+                "buyer": deal.get("buyer"),
+                "seller": deal.get("seller"),
+                "country": deal.get("country"),
+                "capacity_mw": deal.get("capacity_mw"),
+                "date_agreement": deal.get("date_agreement"),
+                "energy_gwh": deal.get("energy_gwh"),
+                "tenure_years": deal.get("tenure_years"),
+                "price_eur_mwh": deal.get("price_eur_mwh"),
+                "technology": deal.get("technology"),
+                "notes": deal.get("notes"),
+                "publication_date": new_pub,
+            })
 
             if match_type == "U":
                 updates += 1
