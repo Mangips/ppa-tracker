@@ -1,0 +1,433 @@
+2026-08-28 19:11:50,174 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-08-28 19:11:50,183 [INFO] Loaded 1492 existing deals for dedup matching
+2026-08-28 19:11:50,183 [INFO] Searching from 2026-08-28 to present with 3 loockback days
+2026-08-28 19:11:50,619 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-08-28 19:11:52,072 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-08-28 19:11:53,292 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-08-28 19:11:54,711 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-08-28&hl=en&gl=US&ceid=US:en: 23 results
+2026-08-28 19:11:57,093 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-08-28&hl=en&gl=US&ceid=US:en: 8 results
+2026-08-28 19:11:59,355 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-08-28&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-08-28 19:12:01,595 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-08-28&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-08-28 19:12:03,888 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-08-28&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-08-28 19:12:06,141 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-08-28&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-08-28 19:12:08,463 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-08-28&hl=es&gl=ES&ceid=ES:es: 4 results
+2026-08-28 19:12:10,772 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-08-28&hl=es&gl=ES&ceid=ES:es: 3 results
+2026-08-28 19:12:13,016 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-08-28&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-08-28 19:12:15,269 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-08-28&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-08-28 19:12:17,525 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-08-28&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-08-28 19:12:19,749 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-08-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-08-28 19:12:22,032 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-08-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-08-28 19:12:24,364 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-08-28&hl=pt&gl=PT&ceid=PT:pt: 3 results
+2026-08-28 19:12:26,710 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-08-28&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-08-28 19:12:28,711 [INFO] Total raw articles collected: 45
+2026-08-28 19:12:28,860 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-08-28 19:12:30,585 [INFO] Extra RSS [elperiodicodelaenergia.com]: 0 results
+2026-08-28 19:12:31,591 [INFO] Unique unseen articles: 41
+2026-08-28 19:12:31,592 [INFO] ------- Processing article n. 0: Spain will require 80% energy consumption from data centres to be renewables - P -------
+2026-08-28 19:12:31,910 [INFO] Resolved Google News URL: https://www.pv-tech.org/spain-80-energy-consumption-data-centres-renewables/
+2026-08-28 19:12:31,911 [INFO] URL: https://www.pv-tech.org/spain-80-energy-consumption-data-centres-renewables/
+2026-08-28 19:12:32,605 [INFO] Text length: 3299 chars | source: full
+2026-08-28 19:12:32,605 [INFO] Text preview: The Spanish government has unveiled plans to require data centres to have at least 80% of their hourly generation be powered by renewable energy.
+Announced earlier this week during a council of Minist...
+2026-08-28 19:12:33,714 [INFO] LLM HTTP 200 for: Spain will require 80% energy consumption from data centres 
+2026-08-28 19:12:33,715 [INFO] LLM extracted 1 deals (0 signed) | Spain will require 80% energy consumption from dat
+2026-08-28 19:12:33,717 [INFO] Not a signed deal — skipping: Spain will require 80% energy consumption from data centres 
+2026-08-28 19:12:33,717 [INFO] ------- Processing article n. 0: AI computing needs more power. Westbridge's Alberta solar deal could total CAD $ -------
+2026-08-28 19:12:34,086 [INFO] Resolved Google News URL: https://www.stocktitan.net/news/WEGYF/westbridge-announces-definitive-agreement-
+2026-08-28 19:12:34,086 [INFO] URL: https://www.stocktitan.net/news/WEGYF/westbridge-announces-definitive-agreement-for-the-sale-of-red-willow-vme7lq661t49.html
+2026-08-28 19:12:34,516 [INFO] Text length: 11590 chars | source: full
+2026-08-28 19:12:34,516 [INFO] Text preview: Westbridge Announces Definitive Agreement for the Sale of Red Willow Solar Project and Highlights Improving Market Fundamentals in Alberta and Growing AI-Driven Demand Across North America
+Rhea-AI Sum...
+2026-08-28 19:12:35,795 [INFO] LLM HTTP 200 for: AI computing needs more power. Westbridge's Alberta solar de
+2026-08-28 19:12:35,796 [INFO] LLM extracted 1 deals (0 signed) | AI computing needs more power. Westbridge's Albert
+2026-08-28 19:12:35,797 [INFO] Not a signed deal — skipping: AI computing needs more power. Westbridge's Alberta solar de
+2026-08-28 19:12:35,797 [INFO] ------- Processing article n. 0: How Voltalia is Ramping Up Brazil's Data Centre Construction - Construction Digi -------
+2026-08-28 19:12:36,090 [INFO] Resolved Google News URL: https://constructiondigital.com/news/why-data-centre-construction-will-ramp-up-i
+2026-08-28 19:12:36,090 [INFO] URL: https://constructiondigital.com/news/why-data-centre-construction-will-ramp-up-in-brazil
+2026-08-28 19:12:36,911 [INFO] Text length: 5755 chars | source: full
+2026-08-28 19:12:36,911 [INFO] Text preview: Brazil's northeastern state of Ceará is emerging as one of the world's most closely watched data centre construction markets.
+Anchored by the Pecém Industrial and Port Complex, the region is attractin...
+2026-08-28 19:12:38,995 [INFO] LLM HTTP 200 for: How Voltalia is Ramping Up Brazil's Data Centre Construction
+2026-08-28 19:12:38,995 [INFO] LLM extracted 2 deals (2 signed) | How Voltalia is Ramping Up Brazil's Data Centre Co
+2026-08-28 19:12:39,009 [INFO] NEW: CERN / Voltalia (France, 26.8 MW)
+2026-08-28 19:12:44,024 [INFO] UPDATE: Co-op / Voltalia (United Kingdom, 34 MW) — canonical ID: 1624
+2026-08-28 19:12:49,026 [INFO] ------- Processing article n. 2: Amazon Nears 1 GW of Wind Power in Sweden With Four New Deals - Crude Oil Prices -------
+2026-08-28 19:12:49,335 [INFO] Resolved Google News URL: https://oilprice.com/Latest-Energy-News/World-News/Amazon-Nears-1-GW-of-Wind-Pow
+2026-08-28 19:12:49,335 [INFO] URL: https://oilprice.com/Latest-Energy-News/World-News/Amazon-Nears-1-GW-of-Wind-Power-in-Sweden-With-Four-New-Deals.html
+2026-08-28 19:12:49,777 [INFO] Text length: 2453 chars | source: full
+2026-08-28 19:12:49,777 [INFO] Text preview: Amazon has expanded Germany’s largest-ever power purchase agreement (PPA), signed in June, and announced another four deals to buy power from four wind farms in Sweden as the e-commerce giant and othe...
+2026-08-28 19:12:51,622 [INFO] LLM HTTP 200 for: Amazon Nears 1 GW of Wind Power in Sweden With Four New Deal
+2026-08-28 19:12:51,622 [INFO] LLM extracted 2 deals (2 signed) | Amazon Nears 1 GW of Wind Power in Sweden With Fou
+2026-08-28 19:12:51,636 [INFO] UPDATE: Amazon / Skyborn Renewables (Germany, 600 MW) — canonical ID: 1646
+2026-08-28 19:12:56,651 [INFO] NEW: Amazon / Eolus AB, OX2 AB (Sweden, None MW)
+2026-08-28 19:13:01,652 [INFO] ------- Processing article n. 4: Reel agrees multi-buyer PPA for Danish solar park - Renewables Now -------
+2026-08-28 19:13:01,969 [INFO] Resolved Google News URL: https://renewablesnow.com/news/reel-agrees-multi-buyer-ppa-for-danish-solar-park
+2026-08-28 19:13:01,969 [INFO] URL: https://renewablesnow.com/news/reel-agrees-multi-buyer-ppa-for-danish-solar-park-1300331/
+2026-08-28 19:13:03,610 [INFO] Text length: 126 chars | source: full
+2026-08-28 19:13:03,611 [INFO] Text preview: Reel agrees multi-buyer PPA for Danish solar park
+Aug 28, 2026, 12:33:26 PMArticle by Veselina Petrova Alert section not found...
+2026-08-28 19:13:04,740 [INFO] LLM HTTP 200 for: Reel agrees multi-buyer PPA for Danish solar park - Renewabl
+2026-08-28 19:13:04,740 [INFO] LLM extracted 1 deals (1 signed) | Reel agrees multi-buyer PPA for Danish solar park 
+2026-08-28 19:13:04,742 [INFO] NEW: Reel / None (Denmark, None MW)
+2026-08-28 19:13:09,743 [INFO] ------- Processing article n. 5: NuScale Wouldn't Own a Reactor in the Deal Driving Its Stock - Yahoo Finance -------
+2026-08-28 19:13:10,106 [INFO] Resolved Google News URL: https://finance.yahoo.com/markets/stocks/articles/nuscale-wouldnt-own-reactor-de
+2026-08-28 19:13:10,106 [INFO] URL: https://finance.yahoo.com/markets/stocks/articles/nuscale-wouldnt-own-reactor-deal-114401397.html
+2026-08-28 19:13:10,779 [INFO] Text length: 2566 chars | source: full
+2026-08-28 19:13:10,779 [INFO] Text preview: NuScale Power's (NYSE:SMR) stock market value stands near $4 billion as of this writing. Nearly all of it rests on one program: the Tennessee Valley Authority's plan to add up to 6 gigawatts of nuclea...
+2026-08-28 19:13:12,245 [INFO] LLM HTTP 200 for: NuScale Wouldn't Own a Reactor in the Deal Driving Its Stock
+2026-08-28 19:13:12,245 [INFO] LLM extracted 1 deals (0 signed) | NuScale Wouldn't Own a Reactor in the Deal Driving
+2026-08-28 19:13:12,246 [INFO] Not a signed deal — skipping: NuScale Wouldn't Own a Reactor in the Deal Driving Its Stock
+2026-08-28 19:13:12,247 [INFO] ------- Processing article n. 5: France Upgrades A400M Into ISR Command Node - MiGFlug -------
+2026-08-28 19:13:12,594 [INFO] Resolved Google News URL: https://migflug.com/afterburner/fr/french-a400m-atlas-isr-command-collaborative-
+2026-08-28 19:13:12,594 [INFO] URL: https://migflug.com/afterburner/fr/french-a400m-atlas-isr-command-collaborative-combat-2026/
+2026-08-28 19:13:13,031 [INFO] Text length: 7443 chars | source: full
+2026-08-28 19:13:13,031 [INFO] Text preview: It begins, as these things often do, not with a missile but with a laptop. Somewhere in the cavernous cargo hold of a French A400M Atlas — a hold built to swallow a helicopter or a 37-tonne armoured v...
+2026-08-28 19:13:13,519 [INFO] LLM HTTP 200 for: France Upgrades A400M Into ISR Command Node - MiGFlug
+2026-08-28 19:13:13,519 [INFO] LLM extracted 0 deals (0 signed) | France Upgrades A400M Into ISR Command Node - MiGF
+2026-08-28 19:13:13,521 [INFO] ------- Processing article n. 5: Amazon signs 199MW worth of PPAs across Sweden with OX2 and Mirova - BeBeez Inte -------
+2026-08-28 19:13:13,850 [INFO] Resolved Google News URL: https://bebeez.eu/2026/08/28/amazon-signs-199mw-worth-of-ppas-across-sweden-with
+2026-08-28 19:13:13,850 [INFO] URL: https://bebeez.eu/2026/08/28/amazon-signs-199mw-worth-of-ppas-across-sweden-with-ox2-and-mirova/
+2026-08-28 19:13:14,801 [INFO] Text length: 1879 chars | source: full
+2026-08-28 19:13:14,802 [INFO] Text preview: Amazon has signed four Power Purchase Agreements (PPAs) in Sweden with French sustainable investment manager Mirova and Swedish renewable firm OX2 for around 200MW of capacity.
+Three of the PPAs are t...
+2026-08-28 19:13:19,601 [INFO] LLM HTTP 200 for: Amazon signs 199MW worth of PPAs across Sweden with OX2 and 
+2026-08-28 19:13:19,601 [WARNING] LLM JSON parse error (attempt 1, BeBeez International): Unterminated string starting at: line 108 column 5 (char 2917) | raw: [
+  {
+    "is_signed_deal": true,
+    "transaction_type": "ppa_signed",
+    "is_likely_update": false,
+    "update_clues": null,
+    "date_agreement": "2024-01",
+    "buyer": "Amazon",
+    "seller": "
+2026-08-28 19:13:19,601 [INFO] Retrying with shorter input...
+2026-08-28 19:13:24,619 [INFO] LLM HTTP 200 for: Amazon signs 199MW worth of PPAs across Sweden with OX2 and 
+2026-08-28 19:13:24,619 [WARNING] LLM JSON parse error (attempt 2, BeBeez International): Unterminated string starting at: line 107 column 14 (char 2927) | raw: [
+  {
+    "is_signed_deal": true,
+    "transaction_type": "ppa_signed",
+    "is_likely_update": false,
+    "update_clues": null,
+    "date_agreement": "2024-06",
+    "buyer": "Amazon",
+    "seller": "
+2026-08-28 19:13:24,620 [WARNING] LLM returned None — skipping: Amazon signs 199MW worth of PPAs across Sweden with OX2 and 
+2026-08-28 19:13:24,620 [INFO] ------- Processing article n. 5: 4iG Launches Energy Division with Focus on Nuclear and Renewable Projects - Hung -------
+2026-08-28 19:13:24,934 [INFO] Resolved Google News URL: https://www.hungarianconservative.com/articles/current/4ig-launches-energy-busin
+2026-08-28 19:13:24,934 [INFO] URL: https://www.hungarianconservative.com/articles/current/4ig-launches-energy-business-smr-wind-projects/
+2026-08-28 19:13:25,843 [INFO] Text length: 3032 chars | source: full
+2026-08-28 19:13:25,843 [INFO] Text preview: Hungarian technology and telecommunications group 4iG is establishing a new energy business and a dedicated holding company to oversee its development, expanding its presence in critical infrastructur...
+2026-08-28 19:13:26,869 [INFO] LLM HTTP 200 for: 4iG Launches Energy Division with Focus on Nuclear and Renew
+2026-08-28 19:13:26,870 [INFO] LLM extracted 1 deals (0 signed) | 4iG Launches Energy Division with Focus on Nuclear
+2026-08-28 19:13:26,871 [INFO] Not a signed deal — skipping: 4iG Launches Energy Division with Focus on Nuclear and Renew
+2026-08-28 19:13:26,871 [INFO] ------- Processing article n. 5: Israel-Cyprus-Greece power grid connection gets US backing - The Jerusalem Post -------
+2026-08-28 19:13:27,183 [INFO] Resolved Google News URL: https://www.jpost.com/business-and-innovation/article-906888
+2026-08-28 19:13:27,183 [INFO] URL: https://www.jpost.com/business-and-innovation/article-906888
+2026-08-28 19:13:27,297 [INFO] Text length: 6340 chars | source: full
+2026-08-28 19:13:27,297 [INFO] Text preview: One of the biggest concerns during any escalation with Iran is damage to critical infrastructure in general and energy assets in particular. Consequently, Israel has been working in recent years to pr...
+2026-08-28 19:13:27,785 [INFO] LLM HTTP 200 for: Israel-Cyprus-Greece power grid connection gets US backing -
+2026-08-28 19:13:27,785 [INFO] LLM extracted 0 deals (0 signed) | Israel-Cyprus-Greece power grid connection gets US
+2026-08-28 19:13:27,786 [INFO] ------- Processing article n. 5: Aramco signs new OCTG purchase agreement with Vallourec - Steel Orbis -------
+2026-08-28 19:13:28,101 [INFO] Resolved Google News URL: https://www.steelorbis.com/steel-news/latest-news/aramco-signs-new-octg-purchase
+2026-08-28 19:13:28,101 [INFO] URL: https://www.steelorbis.com/steel-news/latest-news/aramco-signs-new-octg-purchase-agreement-with-vallourec-1473632.htm
+2026-08-28 19:13:28,281 [INFO] Text length: 1439 chars | source: full
+2026-08-28 19:13:28,281 [INFO] Text preview: Saudi Arabian energy producer Aramco has signed a purchase agreement for oil country tubular goods (OCTG) with France-based seamless pipe producer Vallourec, according to information reported by the S...
+2026-08-28 19:13:29,430 [INFO] LLM HTTP 200 for: Aramco signs new OCTG purchase agreement with Vallourec - St
+2026-08-28 19:13:29,430 [INFO] LLM extracted 1 deals (0 signed) | Aramco signs new OCTG purchase agreement with Vall
+2026-08-28 19:13:29,431 [INFO] Not a signed deal — skipping: Aramco signs new OCTG purchase agreement with Vallourec - St
+2026-08-28 19:13:29,431 [INFO] ------- Processing article n. 5: Türkiye, Saudi Arabia approve 5,000 MW renewable energy deal - Türkiye Today -------
+2026-08-28 19:13:29,773 [INFO] Resolved Google News URL: https://www.turkiyetoday.com/business/turkiye-saudi-arabia-approve-5000-mw-renew
+2026-08-28 19:13:29,773 [INFO] URL: https://www.turkiyetoday.com/business/turkiye-saudi-arabia-approve-5000-mw-renewable-energy-deal-3226976
+2026-08-28 19:13:30,495 [INFO] Text length: 3061 chars | source: full
+2026-08-28 19:13:30,496 [INFO] Text preview: Türkiye and Saudi Arabia have approved an intergovernmental agreement setting the framework for cooperation on large-scale renewable energy projects, including two solar power plants with a combined c...
+2026-08-28 19:13:31,796 [INFO] LLM HTTP 200 for: Türkiye, Saudi Arabia approve 5,000 MW renewable energy deal
+2026-08-28 19:13:31,796 [INFO] LLM extracted 1 deals (0 signed) | Türkiye, Saudi Arabia approve 5,000 MW renewable e
+2026-08-28 19:13:31,798 [INFO] Not a signed deal — skipping: Türkiye, Saudi Arabia approve 5,000 MW renewable energy deal
+2026-08-28 19:13:31,798 [INFO] ------- Processing article n. 5: Amazon.com Inc Stock (AMZN) Moved Up by 3.69% on Aug 28: A Full Analysis - Tradi -------
+2026-08-28 19:13:32,145 [INFO] Resolved Google News URL: https://www.tradingkey.com/news/market-movers/262138960-market-movers-amzn-20260
+2026-08-28 19:13:32,145 [INFO] URL: https://www.tradingkey.com/news/market-movers/262138960-market-movers-amzn-20260828
+2026-08-28 19:13:33,565 [INFO] Text length: 4562 chars | source: full
+2026-08-28 19:13:33,566 [INFO] Text preview: Amazon.com Inc Stock (AMZN) Moved Up by 3.69% on Aug 28: A Full Analysis
+Amazon.com Inc (AMZN) moved up by 3.69%. The Retailers sector is up by 2.22%. The company outperformed the industry. Top 3 stoc...
+2026-08-28 19:13:34,915 [INFO] LLM HTTP 200 for: Amazon.com Inc Stock (AMZN) Moved Up by 3.69% on Aug 28: A F
+2026-08-28 19:13:34,915 [INFO] LLM extracted 1 deals (0 signed) | Amazon.com Inc Stock (AMZN) Moved Up by 3.69% on A
+2026-08-28 19:13:34,917 [INFO] Not a signed deal — skipping: Amazon.com Inc Stock (AMZN) Moved Up by 3.69% on Aug 28: A F
+2026-08-28 19:13:34,917 [INFO] ------- Processing article n. 5: Søby Solar Park to Supply Renewable Power to Four Companies Under Fixed-Price PP -------
+2026-08-28 19:13:35,248 [INFO] Resolved Google News URL: https://solarquarter.com/2026/08/28/soby-solar-park-to-supply-renewable-power-to
+2026-08-28 19:13:35,249 [INFO] URL: https://solarquarter.com/2026/08/28/soby-solar-park-to-supply-renewable-power-to-four-companies-under-fixed-price-ppas/
+2026-08-28 19:13:35,429 [INFO] Text length: 2204 chars | source: full
+2026-08-28 19:13:35,429 [INFO] Text preview: Søby Energipark, a solar park in Norddjurs Municipality, Denmark, is set to generate approximately 53.7 GWh of renewable electricity annually, with four companies securing fixed-price power through Po...
+2026-08-28 19:13:36,694 [INFO] LLM HTTP 200 for: Søby Solar Park to Supply Renewable Power to Four Companies 
+2026-08-28 19:13:36,695 [INFO] LLM extracted 1 deals (1 signed) | Søby Solar Park to Supply Renewable Power to Four 
+2026-08-28 19:13:36,710 [INFO] NEW: Polar Seafood, BONE’S RESTAURANTER, Heimstaden Denmark A/S, another participating company / Energicenter Nord (Denmark, None MW)
+2026-08-28 19:13:41,712 [INFO] ------- Processing article n. 6: India Signs US Deal to Buy Javelin Anti Tank Missiles - Modern Diplomacy -------
+2026-08-28 19:13:42,014 [INFO] Resolved Google News URL: https://moderndiplomacy.eu/2026/08/28/india-signs-us-deal-to-buy-javelin-anti-ta
+2026-08-28 19:13:42,014 [INFO] URL: https://moderndiplomacy.eu/2026/08/28/india-signs-us-deal-to-buy-javelin-anti-tank-missiles/
+2026-08-28 19:13:43,222 [INFO] Text length: 2883 chars | source: full
+2026-08-28 19:13:43,222 [INFO] Text preview: India Expands Defence Cooperation With US
+The Indian Army has signed an agreement with the United States to purchase Javelin anti tank missile systems, marking another step in the growing defence rela...
+2026-08-28 19:13:44,313 [INFO] LLM HTTP 200 for: India Signs US Deal to Buy Javelin Anti Tank Missiles - Mode
+2026-08-28 19:13:44,313 [INFO] LLM extracted 1 deals (0 signed) | India Signs US Deal to Buy Javelin Anti Tank Missi
+2026-08-28 19:13:44,315 [INFO] Not a signed deal — skipping: India Signs US Deal to Buy Javelin Anti Tank Missiles - Mode
+2026-08-28 19:13:44,315 [INFO] ------- Processing article n. 6: BW Energy: Agreement for strategic entry into Angola through interests in produc -------
+2026-08-28 19:13:44,664 [INFO] Resolved Google News URL: https://www.tradingview.com/news/modular_finance:3acc1cf64a38a:0-bw-energy-agree
+2026-08-28 19:13:44,664 [INFO] URL: https://www.tradingview.com/news/modular_finance:3acc1cf64a38a:0-bw-energy-agreement-for-strategic-entry-into-angola-through-interests-in-producing-block-14-and-block-14k/
+2026-08-28 19:13:44,831 [INFO] Text length: 4504 chars | source: full
+2026-08-28 19:13:44,831 [INFO] Text preview: BW Energy: Agreement for strategic entry into Angola through interests in producing Block 14 and Block 14K
+With reference to the announcement made by Etu Energias (Etu) today. See link further below.
+...
+2026-08-28 19:13:45,874 [INFO] LLM HTTP 200 for: BW Energy: Agreement for strategic entry into Angola through
+2026-08-28 19:13:45,874 [INFO] LLM extracted 1 deals (0 signed) | BW Energy: Agreement for strategic entry into Ango
+2026-08-28 19:13:45,876 [INFO] Not a signed deal — skipping: BW Energy: Agreement for strategic entry into Angola through
+2026-08-28 19:13:45,876 [INFO] ------- Processing article n. 6: EQT stock edges higher as wind power deals and fund commitments support the grow -------
+2026-08-28 19:13:46,206 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/eqt-stock-edges-higher-as-
+2026-08-28 19:13:46,206 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/eqt-stock-edges-higher-as-wind-power-deals-and-fund-commitments-support/70016477
+2026-08-28 19:13:47,003 [INFO] Text length: 12634 chars | source: full
+2026-08-28 19:13:47,003 [INFO] Text preview: EQT AB (publ) stock (ISIN SE0012853455) drew renewed investor interest on August 28, 2026, as new data center-related wind power deals in Sweden and recent fund commitments highlighted the private equ...
+2026-08-28 19:13:48,398 [INFO] LLM HTTP 200 for: EQT stock edges higher as wind power deals and fund commitme
+2026-08-28 19:13:48,398 [INFO] LLM extracted 1 deals (1 signed) | EQT stock edges higher as wind power deals and fun
+2026-08-28 19:13:48,413 [INFO] UPDATE: Amazon / Eolus AB, OX2 AB (Sweden, None MW) — canonical ID: 1830
+2026-08-28 19:13:53,414 [INFO] ------- Processing article n. 7: Solstice and Element Solutions break their purchase agreement of 12.450 billion  -------
+2026-08-28 19:13:53,735 [INFO] Resolved Google News URL: https://www.democrata.es/en/economy/solstice-and-element-solutions-break-their-p
+2026-08-28 19:13:53,735 [INFO] URL: https://www.democrata.es/en/economy/solstice-and-element-solutions-break-their-purchase-agreement-of-12-450-billion/
+2026-08-28 19:13:53,773 [INFO] Full text skipped (status 403): https://www.democrata.es/en/economy/solstice-and-element-solutions-break-their-p
+2026-08-28 19:13:53,773 [INFO] Text length: 195 chars | source: fallback
+2026-08-28 19:13:53,773 [INFO] Text preview: Solstice and Element Solutions break their purchase agreement of 12.450 billion - Demócrata
+
+Solstice and Element Solutions break their purchase agreement of 12.450 billion &nbsp;&nbsp; Demócrata...
+2026-08-28 19:13:54,877 [INFO] LLM HTTP 200 for: Solstice and Element Solutions break their purchase agreemen
+2026-08-28 19:13:54,877 [INFO] LLM extracted 1 deals (0 signed) | Solstice and Element Solutions break their purchas
+2026-08-28 19:13:54,879 [INFO] Not a signed deal — skipping: Solstice and Element Solutions break their purchase agreemen
+2026-08-28 19:13:54,879 [INFO] ------- Processing article n. 7: Crown Energy AB: Half Year Report January-June 2026 - TradingView -------
+2026-08-28 19:13:55,200 [INFO] Resolved Google News URL: https://www.tradingview.com/news/modular_finance:28df17dede1ec:0-crown-energy-ab
+2026-08-28 19:13:55,200 [INFO] URL: https://www.tradingview.com/news/modular_finance:28df17dede1ec:0-crown-energy-ab-half-year-report-january-june-2026/
+2026-08-28 19:13:55,364 [INFO] Text length: 10776 chars | source: full
+2026-08-28 19:13:55,364 [INFO] Text preview: Crown Energy AB: Half Year Report January-June 2026
+Second quarter – 1 April - 30 June 2026
+Turnover amounted to SEK 10,057 thousand (5,997).
+Unrealised changes in the value of properties amounted to ...
+2026-08-28 19:13:56,555 [INFO] LLM HTTP 200 for: Crown Energy AB: Half Year Report January-June 2026 - Tradin
+2026-08-28 19:13:56,555 [INFO] LLM extracted 1 deals (0 signed) | Crown Energy AB: Half Year Report January-June 202
+2026-08-28 19:13:56,557 [INFO] Not a signed deal — skipping: Crown Energy AB: Half Year Report January-June 2026 - Tradin
+2026-08-28 19:13:56,557 [INFO] ------- Processing article n. 7: European Energy A/S: Interim Report H1 2026 - The Manila Times -------
+2026-08-28 19:13:56,961 [INFO] Resolved Google News URL: https://www.manilatimes.net/2026/08/28/tmt-newswire/globenewswire/european-energ
+2026-08-28 19:13:56,961 [INFO] URL: https://www.manilatimes.net/2026/08/28/tmt-newswire/globenewswire/european-energy-as-interim-report-h1-2026/2413950/amp
+2026-08-28 19:13:57,444 [INFO] Text length: 2731 chars | source: full
+2026-08-28 19:13:57,444 [INFO] Text preview: European Energy A/S: Interim Report H1 2026
+COMPANY ANNOUNCEMENT 13/2026 (28.08.2026)
+European Energy announces its financial report for the first half of 2026.
+Highlights:
+- EBITDA impacted by delaye...
+2026-08-28 19:13:58,544 [INFO] LLM HTTP 200 for: European Energy A/S: Interim Report H1 2026 - The Manila Tim
+2026-08-28 19:13:58,544 [INFO] LLM extracted 1 deals (0 signed) | European Energy A/S: Interim Report H1 2026 - The 
+2026-08-28 19:13:58,546 [INFO] Not a signed deal — skipping: European Energy A/S: Interim Report H1 2026 - The Manila Tim
+2026-08-28 19:13:58,546 [INFO] ------- Processing article n. 7: European Energy A/S: Interim Report H1 2026 - The Manila Times -------
+2026-08-28 19:13:58,877 [INFO] Resolved Google News URL: https://www.manilatimes.net/2026/08/28/tmt-newswire/globenewswire/european-energ
+2026-08-28 19:13:58,877 [INFO] URL: https://www.manilatimes.net/2026/08/28/tmt-newswire/globenewswire/european-energy-as-interim-report-h1-2026/2413950
+2026-08-28 19:13:59,490 [INFO] Text length: 2731 chars | source: full
+2026-08-28 19:13:59,490 [INFO] Text preview: European Energy A/S: Interim Report H1 2026
+COMPANY ANNOUNCEMENT 13/2026 (28.08.2026)
+European Energy announces its financial report for the first half of 2026.
+Highlights:
+- EBITDA impacted by delaye...
+2026-08-28 19:14:00,528 [INFO] LLM HTTP 200 for: European Energy A/S: Interim Report H1 2026 - The Manila Tim
+2026-08-28 19:14:00,528 [INFO] LLM extracted 1 deals (0 signed) | European Energy A/S: Interim Report H1 2026 - The 
+2026-08-28 19:14:00,531 [INFO] Not a signed deal — skipping: European Energy A/S: Interim Report H1 2026 - The Manila Tim
+2026-08-28 19:14:00,532 [INFO] ------- Processing article n. 7: Carbon pricing, emissions tracking key to protect India's exports under EU CBAM: -------
+2026-08-28 19:14:00,809 [INFO] Resolved Google News URL: https://m.economictimes.com/industry/renewables/carbon-pricing-emissions-trackin
+2026-08-28 19:14:00,809 [INFO] URL: https://m.economictimes.com/industry/renewables/carbon-pricing-emissions-tracking-key-to-protect-indias-exports-under-eu-cbam-cii-report/articleshow/133588125.cms
+2026-08-28 19:14:01,404 [INFO] Text length: 2797 chars | source: full
+2026-08-28 19:14:01,404 [INFO] Text preview: The report said a credible domestic carbon-pricing system, backed by robust measurement, reporting and verification (MRV) mechanisms, will become increasingly important for Indian industries exporting...
+2026-08-28 19:14:02,457 [INFO] LLM HTTP 200 for: Carbon pricing, emissions tracking key to protect India's ex
+2026-08-28 19:14:02,458 [INFO] LLM extracted 1 deals (0 signed) | Carbon pricing, emissions tracking key to protect 
+2026-08-28 19:14:02,459 [INFO] Not a signed deal — skipping: Carbon pricing, emissions tracking key to protect India's ex
+2026-08-28 19:14:02,459 [INFO] ------- Processing article n. 7: Amazon signs Sweden wind power deals to secure nearly 200 MW for data centers -  -------
+2026-08-28 19:14:02,789 [INFO] Resolved Google News URL: https://businessupturn.com/usa/business/amazon-signs-sweden-wind-power-deals-to-
+2026-08-28 19:14:02,789 [INFO] URL: https://businessupturn.com/usa/business/amazon-signs-sweden-wind-power-deals-to-secure-nearly-200-mw-for-data-centers/
+2026-08-28 19:14:03,856 [INFO] Text length: 3635 chars | source: full
+2026-08-28 19:14:03,857 [INFO] Text preview: Amazon is making a major move to secure more electricity for its growing data center operations in Sweden.
+The company has signed long term agreements to purchase electricity from four wind farms in t...
+2026-08-28 19:14:05,084 [INFO] LLM HTTP 200 for: Amazon signs Sweden wind power deals to secure nearly 200 MW
+2026-08-28 19:14:05,084 [INFO] LLM extracted 1 deals (1 signed) | Amazon signs Sweden wind power deals to secure nea
+2026-08-28 19:14:05,099 [INFO] UPDATE: Amazon / Eolus, OX2 (Sweden, 200 MW) — canonical ID: 1830
+2026-08-28 19:14:10,101 [INFO] ------- Processing article n. 8: Westbridge Announces Definitive Agreement for the Sale of Red Willow Solar Proje -------
+2026-08-28 19:14:10,770 [INFO] Resolved Google News URL: https://www.tradingview.com/news/prnewswire:b097f0e3b77bf:0-westbridge-announces
+2026-08-28 19:14:10,771 [INFO] URL: https://www.tradingview.com/news/prnewswire:b097f0e3b77bf:0-westbridge-announces-definitive-agreement-for-the-sale-of-red-willow-solar-project-and-highlights-improving-market-fundamentals-in-alberta-and-growing-ai-driven-demand-across-north-america/
+2026-08-28 19:14:10,900 [INFO] Text length: 15170 chars | source: full
+2026-08-28 19:14:10,900 [INFO] Text preview: Westbridge Announces Definitive Agreement for the Sale of Red Willow Solar Project and Highlights Improving Market Fundamentals in Alberta and Growing AI-Driven Demand Across North America
+LUXEMBOURG,...
+2026-08-28 19:14:12,403 [INFO] LLM HTTP 200 for: Westbridge Announces Definitive Agreement for the Sale of Re
+2026-08-28 19:14:12,403 [INFO] LLM extracted 1 deals (0 signed) | Westbridge Announces Definitive Agreement for the 
+2026-08-28 19:14:12,404 [INFO] Not a signed deal — skipping: Westbridge Announces Definitive Agreement for the Sale of Re
+2026-08-28 19:14:12,404 [INFO] ------- Processing article n. 8: Acme Solar Secures Rs 15.71 Billion Funding For 300 Mw Assured Peak Power Projec -------
+2026-08-28 19:14:13,233 [INFO] Resolved Google News URL: https://megaproject.com/news/powerplant/acme-solar-secures-rs-15-71-billion-fund
+2026-08-28 19:14:13,233 [INFO] URL: https://megaproject.com/news/powerplant/acme-solar-secures-rs-15-71-billion-funding-for-300-mw-assured-peak-power-project
+2026-08-28 19:14:13,873 [WARNING] discarding data: https://megaproject.com/news/powerplant/acme-solar-secures-rs-15-71-billion-funding-for-300-mw-assured-peak-power-project
+2026-08-28 19:14:13,873 [INFO] Full text extraction empty: https://megaproject.com/news/powerplant/acme-solar-secures-rs-15-71-billion-fund
+2026-08-28 19:14:13,873 [INFO] Text length: 211 chars | source: fallback
+2026-08-28 19:14:13,873 [INFO] Text preview: Acme Solar Secures Rs 15.71 Billion Funding For 300 Mw Assured Peak Power Project - megaproject.com
+
+Acme Solar Secures Rs 15.71 Billion Funding For 300 Mw Assured Peak Power Project &nbsp;&nbsp; mega...
+2026-08-28 19:14:15,074 [INFO] LLM HTTP 200 for: Acme Solar Secures Rs 15.71 Billion Funding For 300 Mw Assur
+2026-08-28 19:14:15,074 [INFO] LLM extracted 1 deals (0 signed) | Acme Solar Secures Rs 15.71 Billion Funding For 30
+2026-08-28 19:14:15,076 [INFO] Not a signed deal — skipping: Acme Solar Secures Rs 15.71 Billion Funding For 300 Mw Assur
+2026-08-28 19:14:15,076 [INFO] ------- Processing article n. 8: Jan De Nul Enters CCS Market with North Sea Project - Offshore Engineer Magazine -------
+2026-08-28 19:14:15,806 [INFO] Resolved Google News URL: https://www.oedigital.com/amp/news/542509-jan-de-nul-enters-ccs-market-with-nort
+2026-08-28 19:14:15,806 [INFO] URL: https://www.oedigital.com/amp/news/542509-jan-de-nul-enters-ccs-market-with-north-sea-project
+2026-08-28 19:14:16,175 [INFO] Text length: 1591 chars | source: full
+2026-08-28 19:14:16,175 [INFO] Text preview: Belgian marine contractor Jan De Nul will install rock protection for a North Sea CO2 pipeline as a subcontractor to Saipem, marking its first involvement in a carbon capture and storage project.
+The ...
+2026-08-28 19:14:17,286 [INFO] LLM HTTP 200 for: Jan De Nul Enters CCS Market with North Sea Project - Offsho
+2026-08-28 19:14:17,286 [INFO] LLM extracted 1 deals (0 signed) | Jan De Nul Enters CCS Market with North Sea Projec
+2026-08-28 19:14:17,287 [INFO] Not a signed deal — skipping: Jan De Nul Enters CCS Market with North Sea Project - Offsho
+2026-08-28 19:14:17,287 [INFO] ------- Processing article n. 8: Amazon Stock (AMZN) Jumps 4% on New PPA Deals to Boost Green Energy Use - TipRan -------
+2026-08-28 19:14:17,867 [INFO] Resolved Google News URL: https://www.tipranks.com/news/amazon-stock-amzn-jumps-4-on-a-new-ppa-deal-to-boo
+2026-08-28 19:14:17,867 [INFO] URL: https://www.tipranks.com/news/amazon-stock-amzn-jumps-4-on-a-new-ppa-deal-to-boost-green-energy-use
+2026-08-28 19:14:18,085 [INFO] Text length: 2261 chars | source: full
+2026-08-28 19:14:18,085 [INFO] Text preview: Amazon (AMZN) stock rallied 4.06% on Friday after the e-commerce and cloud company announced a new power purchase agreement (PPA) overseas in a press release. The company has signed Germanyâs largest-...
+2026-08-28 19:14:21,754 [INFO] LLM HTTP 200 for: Amazon Stock (AMZN) Jumps 4% on New PPA Deals to Boost Green
+2026-08-28 19:14:21,754 [INFO] LLM extracted 2 deals (2 signed) | Amazon Stock (AMZN) Jumps 4% on New PPA Deals to B
+2026-08-28 19:14:21,767 [INFO] UPDATE: Amazon / Skyborn Renewables (Germany, 600 MW) — canonical ID: 1646
+2026-08-28 19:14:26,781 [INFO] NEW: Amazon / Swedish wind projects developers (Sweden, 1000 MW)
+2026-08-28 19:14:31,783 [INFO] ------- Processing article n. 10: Unzulässige Stromsperre wegen Zahlungsrückstands bei fehlerhafter Belehrung - ur -------
+2026-08-28 19:14:32,526 [INFO] Resolved Google News URL: https://urteile.news/OLG-Frankfurt-am-Main_5-W-1826_Unzulaessige-Stromsperre-weg
+2026-08-28 19:14:32,526 [INFO] URL: https://urteile.news/OLG-Frankfurt-am-Main_5-W-1826_Unzulaessige-Stromsperre-wegen-Zahlungsrueckstands-bei-fehlerhafter-Belehrung~N36224
+2026-08-28 19:14:34,391 [INFO] Text length: 3860 chars | source: full
+2026-08-28 19:14:34,392 [INFO] Text preview: Oberlandesgericht Frankfurt am Main Beschluss17.08.2026
+Unzulässige Stromsperre wegen Zahlungsrückstands bei fehlerhafter BelehrungEine Versorgungsunterbrechung scheitert an unvollständigen Hinweisen ...
+2026-08-28 19:14:35,476 [INFO] LLM HTTP 200 for: Unzulässige Stromsperre wegen Zahlungsrückstands bei fehlerh
+2026-08-28 19:14:35,476 [INFO] LLM extracted 1 deals (0 signed) | Unzulässige Stromsperre wegen Zahlungsrückstands b
+2026-08-28 19:14:35,478 [INFO] Not a signed deal — skipping: Unzulässige Stromsperre wegen Zahlungsrückstands bei fehlerh
+2026-08-28 19:14:35,478 [INFO] ------- Processing article n. 10: ACME Solar obtient 179 millions $ pour un projet solaire au Rajasthan - energyne -------
+2026-08-28 19:14:36,345 [INFO] Resolved Google News URL: https://energynews.pro/acme-solar-obtient-179-millions-pour-un-projet-solaire-au
+2026-08-28 19:14:36,345 [INFO] URL: https://energynews.pro/acme-solar-obtient-179-millions-pour-un-projet-solaire-au-rajasthan
+2026-08-28 19:14:36,990 [INFO] Text length: 2360 chars | source: full
+2026-08-28 19:14:36,990 [INFO] Text preview: ACME Solar secures $179 million for solar project in Rajasthan
+ACME Solar Holdings secures 1,571 crore rupees ($179 million) from IIFCL for a 300 MW project combining solar generation and battery stor...
+2026-08-28 19:14:38,475 [INFO] LLM HTTP 200 for: ACME Solar obtient 179 millions $ pour un projet solaire au 
+2026-08-28 19:14:38,475 [INFO] LLM extracted 1 deals (1 signed) | ACME Solar obtient 179 millions $ pour un projet s
+2026-08-28 19:14:38,477 [INFO] Not a European deal — skipping: SECI Limited / ACME Solar Holdings (India, 300 MW)
+2026-08-28 19:14:38,477 [INFO] ------- Processing article n. 10: En Belgique, Axpo décroche son premier PPA virtuel avec le secteur public - pv m -------
+2026-08-28 19:14:39,072 [INFO] Resolved Google News URL: https://www.pv-magazine.fr/2026/08/28/en-belgique-axpo-decroche-son-premier-ppa-
+2026-08-28 19:14:39,072 [INFO] URL: https://www.pv-magazine.fr/2026/08/28/en-belgique-axpo-decroche-son-premier-ppa-virtuel-avec-le-secteur-public/
+2026-08-28 19:14:39,546 [INFO] Text length: 3179 chars | source: full
+2026-08-28 19:14:39,546 [INFO] Text preview: Le groupe énergétique suisse Axpo a remporté un appel d’offres lancé par la Vlaams Energiebedrijf (veb), l’agence énergétique flamande, pour son premier contrat d’achat virtuel d’électricité renouvela...
+2026-08-28 19:14:41,118 [INFO] LLM HTTP 200 for: En Belgique, Axpo décroche son premier PPA virtuel avec le s
+2026-08-28 19:14:41,118 [INFO] LLM extracted 1 deals (1 signed) | En Belgique, Axpo décroche son premier PPA virtuel
+2026-08-28 19:14:41,133 [INFO] NEW: Vlaams Energiebedrijf (veb) / Axpo, Elicio (Belgium, None MW)
+2026-08-28 19:14:46,134 [INFO] ------- Processing article n. 11: Amazon se acerca a 1 GW de energía eólica en Suecia con cuatro nuevos acuerdos - -------
+2026-08-28 19:14:46,882 [INFO] Resolved Google News URL: https://www.diariobitcoin.com/energia-verticales/amazon-se-acerca-a-1-gw-de-ener
+2026-08-28 19:14:46,883 [INFO] URL: https://www.diariobitcoin.com/energia-verticales/amazon-se-acerca-a-1-gw-de-energia-eolica-en-suecia-con-cuatro-nuevos-acuerdos/
+2026-08-28 19:14:59,125 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.diariobitcoin.com', port=443): Read timed out. (read timeout=12)): https://www.diariobitcoin.com/energia-verticales/amazon-se-acerca-a-1-gw-de-ener
+2026-08-28 19:14:59,125 [INFO] Text length: 201 chars | source: fallback
+2026-08-28 19:14:59,125 [INFO] Text preview: Amazon se acerca a 1 GW de energía eólica en Suecia con cuatro nuevos acuerdos - DiarioBitcoin
+
+Amazon se acerca a 1 GW de energía eólica en Suecia con cuatro nuevos acuerdos &nbsp;&nbsp; DiarioBitcoi...
+2026-08-28 19:15:02,429 [INFO] LLM HTTP 200 for: Amazon se acerca a 1 GW de energía eólica en Suecia con cuat
+2026-08-28 19:15:02,429 [INFO] LLM extracted 4 deals (4 signed) | Amazon se acerca a 1 GW de energía eólica en Sueci
+2026-08-28 19:15:02,431 [INFO] NEW: Amazon / None (Sweden, 250 MW)
+2026-08-28 19:15:07,432 [INFO] NEW: Amazon / None (Sweden, 250 MW)
+2026-08-28 19:15:12,434 [INFO] NEW: Amazon / None (Sweden, 250 MW)
+2026-08-28 19:15:17,436 [INFO] NEW: Amazon / None (Sweden, 250 MW)
+2026-08-28 19:15:22,437 [INFO] ------- Processing article n. 15: Erco cierra Serie C de US$129M para energía solar en Colombia - El Ecosistema St -------
+2026-08-28 19:15:22,992 [INFO] Resolved Google News URL: https://ecosistemastartup.com/erco-cierra-serie-c-de-us129m-para-energia-solar-e
+2026-08-28 19:15:22,992 [INFO] URL: https://ecosistemastartup.com/erco-cierra-serie-c-de-us129m-para-energia-solar-en-colombia/
+2026-08-28 19:15:24,090 [INFO] Text length: 7940 chars | source: full
+2026-08-28 19:15:24,090 [INFO] Text preview: La ronda Serie C más grande del año en equity colombiano
+Erco Energía cerró una Serie C por US$129 millones en equity, una de las operaciones de capital más grandes anunciadas por una empresa colombia...
+2026-08-28 19:15:25,228 [INFO] LLM HTTP 200 for: Erco cierra Serie C de US$129M para energía solar en Colombi
+2026-08-28 19:15:25,228 [INFO] LLM extracted 0 deals (0 signed) | Erco cierra Serie C de US$129M para energía solar 
+2026-08-28 19:15:25,230 [INFO] ------- Processing article n. 15: Subsidiaria de BrenX compra terreno en Hungría por 190.000 dólares - Investing.c -------
+2026-08-28 19:15:25,883 [INFO] Resolved Google News URL: https://es.investing.com/news/company-news/subsidiaria-de-brenx-compra-terreno-e
+2026-08-28 19:15:25,884 [INFO] URL: https://es.investing.com/news/company-news/subsidiaria-de-brenx-compra-terreno-en-hungria-por-190000-dolares-93CH-3815093
+2026-08-28 19:15:25,961 [INFO] Full text skipped (status 403): https://es.investing.com/news/company-news/subsidiaria-de-brenx-compra-terreno-e
+2026-08-28 19:15:25,961 [INFO] Text length: 191 chars | source: fallback
+2026-08-28 19:15:25,961 [INFO] Text preview: Subsidiaria de BrenX compra terreno en Hungría por 190.000 dólares - Investing.com España
+
+Subsidiaria de BrenX compra terreno en Hungría por 190.000 dólares &nbsp;&nbsp; Investing.com España...
+2026-08-28 19:15:27,045 [INFO] LLM HTTP 200 for: Subsidiaria de BrenX compra terreno en Hungría por 190.000 d
+2026-08-28 19:15:27,046 [INFO] LLM extracted 1 deals (0 signed) | Subsidiaria de BrenX compra terreno en Hungría por
+2026-08-28 19:15:27,047 [INFO] Not a signed deal — skipping: Subsidiaria de BrenX compra terreno en Hungría por 190.000 d
+2026-08-28 19:15:27,048 [INFO] ------- Processing article n. 15: India firma un acuerdo con Estados Unidos para la compra de sistemas de misiles  -------
+2026-08-28 19:15:27,919 [INFO] Resolved Google News URL: https://es.marketscreener.com/noticias/india-firma-un-acuerdo-con-estados-unidos
+2026-08-28 19:15:27,919 [INFO] URL: https://es.marketscreener.com/noticias/india-firma-un-acuerdo-con-estados-unidos-para-la-compra-de-sistemas-de-misiles-antitanque-javelin-ce7858dfdd8bf521
+2026-08-28 19:15:28,027 [INFO] Full text skipped (status 403): https://es.marketscreener.com/noticias/india-firma-un-acuerdo-con-estados-unidos
+2026-08-28 19:15:28,027 [INFO] Text length: 257 chars | source: fallback
+2026-08-28 19:15:28,027 [INFO] Text preview: India firma un acuerdo con Estados Unidos para la compra de sistemas de misiles antitanque Javelin - MarketScreener España
+
+India firma un acuerdo con Estados Unidos para la compra de sistemas de misi...
+2026-08-28 19:15:29,057 [INFO] LLM HTTP 200 for: India firma un acuerdo con Estados Unidos para la compra de 
+2026-08-28 19:15:29,057 [INFO] LLM extracted 1 deals (0 signed) | India firma un acuerdo con Estados Unidos para la 
+2026-08-28 19:15:29,059 [INFO] Not a signed deal — skipping: India firma un acuerdo con Estados Unidos para la compra de 
+2026-08-28 19:15:29,059 [INFO] ------- Processing article n. 15: AleaSoft: 800 artículos que narran la transformación del sector energético - ene -------
+2026-08-28 19:15:29,882 [INFO] Resolved Google News URL: https://energelia.com/otras-fuentes/aleasoft-800-articulos-transformacion-sector
+2026-08-28 19:15:29,882 [INFO] URL: https://energelia.com/otras-fuentes/aleasoft-800-articulos-transformacion-sector-energetico
+2026-08-28 19:15:30,573 [INFO] Text length: 4680 chars | source: full
+2026-08-28 19:15:30,573 [INFO] Text preview: AleaSoft: 800 artículos que narran la transformación del sector energético
+Siete años de análisis ininterrumpido del mercado eléctrico
+La consultora AleaSoft Energy Forecasting, especializada en previ...
+2026-08-28 19:15:31,597 [INFO] LLM HTTP 200 for: AleaSoft: 800 artículos que narran la transformación del sec
+2026-08-28 19:15:31,598 [INFO] LLM extracted 1 deals (0 signed) | AleaSoft: 800 artículos que narran la transformaci
+2026-08-28 19:15:31,599 [INFO] Not a signed deal — skipping: AleaSoft: 800 artículos que narran la transformación del sec
+2026-08-28 19:15:31,599 [INFO] ------- Processing article n. 15: Amazon roza ya el gigavatio de eólica en Suecia tras firmar cuatro nuevos PPA -  -------
+2026-08-28 19:15:32,430 [INFO] Resolved Google News URL: https://www.energias-renovables.com/eolica/amazon-roza-ya-el-gigavatio-de-e-2026
+2026-08-28 19:15:32,431 [INFO] URL: https://www.energias-renovables.com/eolica/amazon-roza-ya-el-gigavatio-de-e-20260828
+2026-08-28 19:15:33,114 [INFO] Text length: 2885 chars | source: full
+2026-08-28 19:15:33,115 [INFO] Text preview: La contratación de electricidad renovable mediante PPA se ha convertido en una de las principales herramientas empleadas por las grandes tecnológicas para cubrir el creciente consumo eléctrico asociad...
+2026-08-28 19:15:35,228 [INFO] LLM HTTP 200 for: Amazon roza ya el gigavatio de eólica en Suecia tras firmar 
+2026-08-28 19:15:35,228 [INFO] LLM extracted 2 deals (0 signed) | Amazon roza ya el gigavatio de eólica en Suecia tr
+2026-08-28 19:15:35,230 [INFO] Not a signed deal — skipping: Amazon roza ya el gigavatio de eólica en Suecia tras firmar 
+2026-08-28 19:15:35,230 [INFO] Not a signed deal — skipping: Amazon roza ya el gigavatio de eólica en Suecia tras firmar 
+2026-08-28 19:15:35,230 [INFO] ------- Processing article n. 15: Los centros de datos deberán cubrir el 80% de su consumo con energía renovable - -------
+2026-08-28 19:15:35,798 [INFO] Resolved Google News URL: https://hazrevista.org/rsc/2026/08/centros-datos-deberan-cubrir-80-ciento-consum
+2026-08-28 19:15:35,798 [INFO] URL: https://hazrevista.org/rsc/2026/08/centros-datos-deberan-cubrir-80-ciento-consumo-energia-renovable/?amp=1
+2026-08-28 19:15:37,016 [INFO] Full text fetch failed (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))): https://hazrevista.org/rsc/2026/08/centros-datos-deberan-cubrir-80-ciento-consum
+2026-08-28 19:15:37,017 [INFO] Text length: 225 chars | source: fallback
+2026-08-28 19:15:37,017 [INFO] Text preview: Los centros de datos deberán cubrir el 80% de su consumo con energía renovable - Revista Haz - Revista Haz
+
+Los centros de datos deberán cubrir el 80% de su consumo con energía renovable - Revista Haz...
+2026-08-28 19:15:38,093 [INFO] LLM HTTP 200 for: Los centros de datos deberán cubrir el 80% de su consumo con
+2026-08-28 19:15:38,093 [INFO] LLM extracted 1 deals (0 signed) | Los centros de datos deberán cubrir el 80% de su c
+2026-08-28 19:15:38,095 [INFO] Not a signed deal — skipping: Los centros de datos deberán cubrir el 80% de su consumo con
+2026-08-28 19:15:38,095 [INFO] ------- Processing article n. 15: Amazon accelera sull’eolico in Svezia: accordi per quasi 200 MW di energia rinno -------
+2026-08-28 19:15:38,845 [INFO] Resolved Google News URL: https://telenord.it/amazon-accelera-sulleolico-svezia-accordi-quasi-200-mw-10786
+2026-08-28 19:15:38,845 [INFO] URL: https://telenord.it/amazon-accelera-sulleolico-svezia-accordi-quasi-200-mw-107861
+2026-08-28 19:15:40,286 [INFO] Text length: 2289 chars | source: full
+2026-08-28 19:15:40,286 [INFO] Text preview: Amazon accelera sull’eolico in Svezia: accordi per quasi 200 MW di energia rinnovabile
+di R.C.
+Il colosso Usa ha siglato contratti di lungo periodo per acquistare energia da quattro parchi eolici. A r...
+2026-08-28 19:15:42,275 [INFO] LLM HTTP 200 for: Amazon accelera sull’eolico in Svezia: accordi per quasi 200
+2026-08-28 19:15:42,275 [INFO] LLM extracted 2 deals (2 signed) | Amazon accelera sull’eolico in Svezia: accordi per
+2026-08-28 19:15:42,289 [INFO] UPDATE: Amazon / Eolus, OX2 (Sweden, 200 MW) — canonical ID: 1830
+2026-08-28 19:15:47,304 [INFO] NEW: Amazon / Eolus, OX2 (Sweden, None MW)
+2026-08-28 19:15:52,306 [INFO] ------- Processing article n. 17: Petrolífera angolana Etu Energias vai aumentar participações em dois blocos - Po -------
+2026-08-28 19:15:52,913 [INFO] Resolved Google News URL: https://www.impala.pt/noticias/economia/petrolifera-angolana-etu-energias-vai-au
+2026-08-28 19:15:52,914 [INFO] URL: https://www.impala.pt/noticias/economia/petrolifera-angolana-etu-energias-vai-aumentar-participacoes-em-dois-blocos/
+2026-08-28 19:15:53,186 [INFO] Full text skipped (status 403): https://www.impala.pt/noticias/economia/petrolifera-angolana-etu-energias-vai-au
+2026-08-28 19:15:53,187 [INFO] Text length: 195 chars | source: fallback
+2026-08-28 19:15:53,187 [INFO] Text preview: Petrolífera angolana Etu Energias vai aumentar participações em dois blocos - Portal Impala
+
+Petrolífera angolana Etu Energias vai aumentar participações em dois blocos &nbsp;&nbsp; Portal Impala...
+2026-08-28 19:15:54,274 [INFO] LLM HTTP 200 for: Petrolífera angolana Etu Energias vai aumentar participações
+2026-08-28 19:15:54,274 [INFO] LLM extracted 1 deals (0 signed) | Petrolífera angolana Etu Energias vai aumentar par
+2026-08-28 19:15:54,276 [INFO] Not a signed deal — skipping: Petrolífera angolana Etu Energias vai aumentar participações
+2026-08-28 19:15:54,276 [INFO] ------- Processing article n. 17: EUA estão perto de acordo para acesso de longo prazo ao petróleo da Venezuela -  -------
+2026-08-28 19:15:54,886 [INFO] Resolved Google News URL: https://valor.globo.com/google/amp/mundo/noticia/2026/08/28/eua-esto-perto-de-ac
+2026-08-28 19:15:54,886 [INFO] URL: https://valor.globo.com/google/amp/mundo/noticia/2026/08/28/eua-esto-perto-de-acordo-para-acesso-de-longo-prazo-ao-petrleo-da-venezuela.ghtml
+2026-08-28 19:15:57,318 [INFO] Text length: 4031 chars | source: full
+2026-08-28 19:15:57,318 [INFO] Text preview: Autoridades do governo do presidente Donald Trump estão trabalhando em um acordo para garantir acesso de longo prazo a uma parte das reservas de petróleo bruto da Venezuela, uma medida que poderia, em...
+2026-08-28 19:15:58,463 [INFO] LLM HTTP 200 for: EUA estão perto de acordo para acesso de longo prazo ao petr
+2026-08-28 19:15:58,463 [INFO] LLM extracted 1 deals (0 signed) | EUA estão perto de acordo para acesso de longo pra
+2026-08-28 19:15:58,464 [INFO] Not a signed deal — skipping: EUA estão perto de acordo para acesso de longo prazo ao petr
+2026-08-28 19:15:58,464 [INFO] ------- Processing article n. 17: Governo renova concessão de usina hidrelétrica da Cemig por mais 30 anos - Diári -------
+2026-08-28 19:15:59,051 [INFO] Resolved Google News URL: https://diariodocomercio.com.br/legislacao/governo-renova-concessao-hidreletrica
+2026-08-28 19:15:59,051 [INFO] URL: https://diariodocomercio.com.br/legislacao/governo-renova-concessao-hidreletrica-cemig/
+2026-08-28 19:15:59,380 [INFO] Text length: 2859 chars | source: full
+2026-08-28 19:15:59,380 [INFO] Text preview: Governo federal prorroga por 30 anos concessão de hidrelétrica da Cemig no Vale do Aço
+O Ministério de Minas e Energia (MME) decidiu prorrogar por mais 30 anos a concessão da usina hidrelétrica Sá Car...
+2026-08-28 19:16:00,599 [INFO] LLM HTTP 200 for: Governo renova concessão de usina hidrelétrica da Cemig por 
+2026-08-28 19:16:00,599 [INFO] LLM extracted 1 deals (0 signed) | Governo renova concessão de usina hidrelétrica da 
+2026-08-28 19:16:00,600 [INFO] Not a signed deal — skipping: Governo renova concessão de usina hidrelétrica da Cemig por 
+2026-08-28 19:16:00,601 [INFO] Run complete. New deals: 11, Updates: 6
+2026-08-28 19:16:00,616 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1417 deals)
+2026-08-28 19:16:02,204 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
