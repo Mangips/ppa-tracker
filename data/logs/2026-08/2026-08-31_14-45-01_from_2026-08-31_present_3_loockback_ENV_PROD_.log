@@ -1,0 +1,425 @@
+2026-08-31 14:45:01,341 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-08-31 14:45:01,349 [INFO] Loaded 1505 existing deals for dedup matching
+2026-08-31 14:45:01,350 [INFO] Searching from 2026-08-31 to present with 3 loockback days
+2026-08-31 14:45:01,620 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-08-31 14:45:02,771 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-08-31 14:45:04,078 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-08-31 14:45:05,539 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-08-31&hl=en&gl=US&ceid=US:en: 22 results
+2026-08-31 14:45:07,969 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-08-31&hl=en&gl=US&ceid=US:en: 8 results
+2026-08-31 14:45:10,280 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-08-31&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-08-31 14:45:12,612 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-08-31&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-08-31 14:45:14,957 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-08-31&hl=fr&gl=FR&ceid=FR:fr: 4 results
+2026-08-31 14:45:17,289 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-08-31&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-08-31 14:45:19,605 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-08-31&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-08-31 14:45:21,879 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-08-31&hl=es&gl=ES&ceid=ES:es: 4 results
+2026-08-31 14:45:24,139 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-08-31&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-08-31 14:45:26,409 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-08-31&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-08-31 14:45:28,708 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-08-31&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-08-31 14:45:31,002 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-08-31&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-08-31 14:45:33,275 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-08-31&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-08-31 14:45:35,643 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-08-31&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-08-31 14:45:38,028 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-08-31&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-08-31 14:45:40,028 [INFO] Total raw articles collected: 45
+2026-08-31 14:45:40,565 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-08-31 14:45:42,320 [INFO] Extra RSS [elperiodicodelaenergia.com]: 3 results
+2026-08-31 14:45:43,328 [INFO] Unique unseen articles: 42
+2026-08-31 14:45:43,329 [INFO] ------- Processing article n. 0: Amazon Signs New Series of Clean Energy Deals in Sweden - ESG Today -------
+2026-08-31 14:45:43,697 [INFO] Resolved Google News URL: https://www.esgtoday.com/amazon-signs-new-series-of-clean-energy-deals-in-sweden
+2026-08-31 14:45:43,697 [INFO] URL: https://www.esgtoday.com/amazon-signs-new-series-of-clean-energy-deals-in-sweden/
+2026-08-31 14:45:43,901 [INFO] Text length: 2033 chars | source: full
+2026-08-31 14:45:43,902 [INFO] Text preview: Amazon announced the signing of four new long-term power purchase agreements (PPAs) for carbon-free electricity from new wind power projects in southern and central Sweden.
+The company said that the n...
+2026-08-31 14:45:47,299 [INFO] LLM HTTP 200 for: Amazon Signs New Series of Clean Energy Deals in Sweden - ES
+2026-08-31 14:45:47,299 [INFO] LLM extracted 4 deals (4 signed) | Amazon Signs New Series of Clean Energy Deals in S
+2026-08-31 14:45:47,314 [INFO] NEW: Amazon / OX2, Eolus, Dala Vind (Sweden, 132 MW)
+2026-08-31 14:45:52,329 [INFO] NEW: Amazon / Eolus, Mirova (Sweden, 17.5 MW)
+2026-08-31 14:45:57,343 [INFO] NEW: Amazon / Eolus, Mirova (Sweden, 18 MW)
+2026-08-31 14:46:02,357 [INFO] NEW: Amazon / Eolus, Mirova (Sweden, 31.5 MW)
+2026-08-31 14:46:07,359 [INFO] ------- Processing article n. 4: BCC Research Sees AI Reshaping Solar as Data Center Demand Surges - citybiz -------
+2026-08-31 14:46:07,719 [INFO] Resolved Google News URL: https://www.citybiz.co/article/896103/bcc-research-sees-ai-reshaping-solar-as-da
+2026-08-31 14:46:07,719 [INFO] URL: https://www.citybiz.co/article/896103/bcc-research-sees-ai-reshaping-solar-as-data-center-demand-surges/
+2026-08-31 14:46:07,997 [INFO] Text length: 5255 chars | source: full
+2026-08-31 14:46:07,997 [INFO] Text preview: Artificial intelligence is beginning to influence nearly every stage of the solar energy value chain, from manufacturing and project development to grid management and asset optimization, as rapidly e...
+2026-08-31 14:46:09,356 [INFO] LLM HTTP 200 for: BCC Research Sees AI Reshaping Solar as Data Center Demand S
+2026-08-31 14:46:09,356 [INFO] LLM extracted 1 deals (1 signed) | BCC Research Sees AI Reshaping Solar as Data Cente
+2026-08-31 14:46:09,358 [INFO] Not a European deal — skipping: Meta / AES (United States, 650 MW)
+2026-08-31 14:46:09,358 [INFO] ------- Processing article n. 4: Borkum Riffgrund 3 enters commercial operation, strengthening Germany’s energy s -------
+2026-08-31 14:46:09,792 [INFO] Resolved Google News URL: https://dredgewire.com/borkum-riffgrund-3-enters-commercial-operation-strengthen
+2026-08-31 14:46:09,792 [INFO] URL: https://dredgewire.com/borkum-riffgrund-3-enters-commercial-operation-strengthening-germanys-energy-security-with-home-grown-renewable-power/
+2026-08-31 14:46:10,380 [INFO] Text length: 7381 chars | source: full
+2026-08-31 14:46:10,381 [INFO] Text preview: Posted on August 31, 2026
+The offshore wind farm Borkum Riffgrund 3, jointly owned by Ørsted and Nuveen Infrastructure, is in commercial operation. With an installed capacity of 913 MW, Borkum Riffgru...
+2026-08-31 14:46:11,851 [INFO] LLM HTTP 200 for: Borkum Riffgrund 3 enters commercial operation, strengthenin
+2026-08-31 14:46:11,851 [INFO] LLM extracted 1 deals (1 signed) | Borkum Riffgrund 3 enters commercial operation, st
+2026-08-31 14:46:11,860 [INFO] UPDATE: Amazon, BASF, Covestro, Energie-Handels-Gesellschaft/REWE Group, Google / Ørsted (Germany, 786 MW) — canonical ID: 934
+2026-08-31 14:46:16,861 [INFO] ------- Processing article n. 5: Borkum Riffgrund 3 enters commercial operation with 913 MW of offshore wind in G -------
+2026-08-31 14:46:17,230 [INFO] Resolved Google News URL: https://www.review-energy.com/eolico/borkum-riffgrund-3-enters-commercial-operat
+2026-08-31 14:46:17,230 [INFO] URL: https://www.review-energy.com/eolico/borkum-riffgrund-3-enters-commercial-operation-with-913-mw-of-offshore-wind-in-germany
+2026-08-31 14:46:18,217 [INFO] Text length: 4688 chars | source: full
+2026-08-31 14:46:18,217 [INFO] Text preview: Borkum Riffgrund 3, the 913MW offshore wind farm jointly owned by Ørsted and Nuveen Infrastructure, has entered commercial operation in Germany, marking the completion of one of the country’s largest ...
+2026-08-31 14:46:23,305 [INFO] LLM HTTP 200 for: Borkum Riffgrund 3 enters commercial operation with 913 MW o
+2026-08-31 14:46:23,305 [INFO] LLM extracted 5 deals (5 signed) | Borkum Riffgrund 3 enters commercial operation wit
+2026-08-31 14:46:23,314 [INFO] UPDATE: Amazon, BASF, Covestro, Energie-Handels-Gesellschaft/REWE Group, Google / Ørsted (Germany, 350 MW) — canonical ID: 923
+2026-08-31 14:46:28,323 [INFO] UPDATE: Amazon, BASF, Covestro, Energie-Handels-Gesellschaft/REWE Group, Google / Ørsted (Germany, 186 MW) — canonical ID: 924
+2026-08-31 14:46:33,332 [INFO] UPDATE: Amazon, BASF, Covestro, Energie-Handels-Gesellschaft/REWE Group, Google / Ørsted (Germany, 100 MW) — canonical ID: 925
+2026-08-31 14:46:38,341 [INFO] UPDATE: Amazon, BASF, Covestro, Energie-Handels-Gesellschaft/REWE Group, Google / Ørsted (Germany, 100 MW) — canonical ID: 925
+2026-08-31 14:46:43,350 [INFO] UPDATE: Amazon, BASF, Covestro, Energie-Handels-Gesellschaft/REWE Group, Google / Ørsted (Germany, 50 MW) — canonical ID: 927
+2026-08-31 14:46:48,351 [INFO] ------- Processing article n. 10: Europe Hyperscale Data Center Market Outlook & Forecast - GlobeNewswire -------
+2026-08-31 14:46:48,739 [INFO] Resolved Google News URL: https://www.globenewswire.com/news-release/2026/08/31/3353082/28124/en/europe-hy
+2026-08-31 14:46:48,739 [INFO] URL: https://www.globenewswire.com/news-release/2026/08/31/3353082/28124/en/europe-hyperscale-data-center-market-outlook-forecast-2026-2031-ai-and-cloud-adoption-accelerate-europe-s-data-center-expansion.html
+2026-08-31 14:47:00,998 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.globenewswire.com', port=443): Read timed out. (read timeout=12)): https://www.globenewswire.com/news-release/2026/08/31/3353082/28124/en/europe-hy
+2026-08-31 14:47:00,998 [INFO] Text length: 155 chars | source: fallback
+2026-08-31 14:47:00,998 [INFO] Text preview: Europe Hyperscale Data Center Market Outlook & Forecast - GlobeNewswire
+
+Europe Hyperscale Data Center Market Outlook & Forecast &nbsp;&nbsp; GlobeNewswire...
+2026-08-31 14:47:02,449 [INFO] LLM HTTP 200 for: Europe Hyperscale Data Center Market Outlook & Forecast - Gl
+2026-08-31 14:47:02,449 [INFO] LLM extracted 1 deals (0 signed) | Europe Hyperscale Data Center Market Outlook & For
+2026-08-31 14:47:02,451 [INFO] Not a signed deal — skipping: Europe Hyperscale Data Center Market Outlook & Forecast - Gl
+2026-08-31 14:47:02,451 [INFO] ------- Processing article n. 10: Europe's LNG Stockpiling Drives South Korea Electricity Cost Surge - 조선일보 -------
+2026-08-31 14:47:02,880 [INFO] Resolved Google News URL: https://www.chosun.com/english/industry-en/2026/08/31/3IAXETE4EZHQDFRRKAA4BJS4MY
+2026-08-31 14:47:02,880 [INFO] URL: https://www.chosun.com/english/industry-en/2026/08/31/3IAXETE4EZHQDFRRKAA4BJS4MY/
+2026-08-31 14:47:03,909 [WARNING] discarding data: https://www.chosun.com/english/industry-en/2026/08/31/3IAXETE4EZHQDFRRKAA4BJS4MY/
+2026-08-31 14:47:03,910 [INFO] Full text extraction empty: https://www.chosun.com/english/industry-en/2026/08/31/3IAXETE4EZHQDFRRKAA4BJS4MY
+2026-08-31 14:47:03,910 [INFO] Text length: 159 chars | source: fallback
+2026-08-31 14:47:03,910 [INFO] Text preview: Europe's LNG Stockpiling Drives South Korea Electricity Cost Surge - 조선일보
+
+Europe's LNG Stockpiling Drives South Korea Electricity Cost Surge &nbsp;&nbsp; 조선일보...
+2026-08-31 14:47:05,103 [INFO] LLM HTTP 200 for: Europe's LNG Stockpiling Drives South Korea Electricity Cost
+2026-08-31 14:47:05,103 [INFO] LLM extracted 1 deals (0 signed) | Europe's LNG Stockpiling Drives South Korea Electr
+2026-08-31 14:47:05,104 [INFO] Not a signed deal — skipping: Europe's LNG Stockpiling Drives South Korea Electricity Cost
+2026-08-31 14:47:05,104 [INFO] ------- Processing article n. 10: Ørsted's Borkum Riffgrund 3 begins commercial operations - EnergyWatch -------
+2026-08-31 14:47:05,461 [INFO] Resolved Google News URL: https://energywatch.com/EnergyNews/wind/article19594309.ece
+2026-08-31 14:47:05,461 [INFO] URL: https://energywatch.com/EnergyNews/wind/article19594309.ece
+2026-08-31 14:47:07,647 [INFO] Text length: 169 chars | source: full
+2026-08-31 14:47:07,647 [INFO] Text preview: The company’s sixth offshore wind farm in Germany will be one of the country’s largest. Major industrial customers provide financial support through long-term contracts....
+2026-08-31 14:47:08,978 [INFO] LLM HTTP 200 for: Ørsted's Borkum Riffgrund 3 begins commercial operations - E
+2026-08-31 14:47:08,978 [INFO] LLM extracted 1 deals (0 signed) | Ørsted's Borkum Riffgrund 3 begins commercial oper
+2026-08-31 14:47:08,979 [INFO] Not a signed deal — skipping: Ørsted's Borkum Riffgrund 3 begins commercial operations - E
+2026-08-31 14:47:08,979 [INFO] ------- Processing article n. 10: RWE installs half of turbines at 660-MW Nordseecluster A - Renewables Now -------
+2026-08-31 14:47:09,344 [INFO] Resolved Google News URL: https://renewablesnow.com/news/rwe-installs-half-of-turbines-at-660-mw-nordseecl
+2026-08-31 14:47:09,344 [INFO] URL: https://renewablesnow.com/news/rwe-installs-half-of-turbines-at-660-mw-nordseecluster-a-1300398/
+2026-08-31 14:47:10,487 [INFO] Text length: 133 chars | source: full
+2026-08-31 14:47:10,488 [INFO] Text preview: RWE installs half of turbines at 660-MW Nordseecluster A
+Aug 31, 2026, 1:11:31 PMArticle by Sladjana Djunisic Alert section not found...
+2026-08-31 14:47:11,718 [INFO] LLM HTTP 200 for: RWE installs half of turbines at 660-MW Nordseecluster A - R
+2026-08-31 14:47:11,719 [INFO] LLM extracted 1 deals (0 signed) | RWE installs half of turbines at 660-MW Nordseeclu
+2026-08-31 14:47:11,720 [INFO] Not a signed deal — skipping: RWE installs half of turbines at 660-MW Nordseecluster A - R
+2026-08-31 14:47:11,720 [INFO] ------- Processing article n. 10: Edison: QatarEnergy extends force majeure with an additional 5 LNG cargoes - eur -------
+2026-08-31 14:47:12,087 [INFO] Resolved Google News URL: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-with-an-ad
+2026-08-31 14:47:12,087 [INFO] URL: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-with-an-additional-5-lng-cargoes-n-i-30564
+2026-08-31 14:47:12,799 [WARNING] discarding data: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-with-an-additional-5-lng-cargoes-n-i-30564
+2026-08-31 14:47:12,800 [INFO] Full text extraction empty: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-with-an-ad
+2026-08-31 14:47:12,800 [INFO] Text length: 191 chars | source: fallback
+2026-08-31 14:47:12,800 [INFO] Text preview: Edison: QatarEnergy extends force majeure with an additional 5 LNG cargoes - euro petrole
+
+Edison: QatarEnergy extends force majeure with an additional 5 LNG cargoes &nbsp;&nbsp; euro petrole...
+2026-08-31 14:47:14,112 [INFO] LLM HTTP 200 for: Edison: QatarEnergy extends force majeure with an additional
+2026-08-31 14:47:14,112 [INFO] LLM extracted 1 deals (0 signed) | Edison: QatarEnergy extends force majeure with an 
+2026-08-31 14:47:14,113 [INFO] Not a signed deal — skipping: Edison: QatarEnergy extends force majeure with an additional
+2026-08-31 14:47:14,114 [INFO] ------- Processing article n. 10: CPDL Signs PPA with SECI for 50 MW Solar and Battery Storage Power - Energetica  -------
+2026-08-31 14:47:14,486 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/cpdl-signs-ppa-with-seci-for-50-mw-solar-a
+2026-08-31 14:47:14,486 [INFO] URL: https://www.energetica-india.net/news/cpdl-signs-ppa-with-seci-for-50-mw-solar-and-battery-storage-power
+2026-08-31 14:47:16,017 [INFO] Text length: 1338 chars | source: full
+2026-08-31 14:47:16,017 [INFO] Text preview: CPDL Signs PPA with SECI for 50 MW Solar and Battery Storage Power
+Chandigarh Power Distribution Ltd. has signed a 25-year PPA with Solar Energy Corporation of India to procure 50 MW of solar power wi...
+2026-08-31 14:47:17,647 [INFO] LLM HTTP 200 for: CPDL Signs PPA with SECI for 50 MW Solar and Battery Storage
+2026-08-31 14:47:17,648 [INFO] LLM extracted 1 deals (1 signed) | CPDL Signs PPA with SECI for 50 MW Solar and Batte
+2026-08-31 14:47:17,649 [INFO] Not a European deal — skipping: Chandigarh Power Distribution Ltd. / Solar Energy Corporation of India (India, 50 MW)
+2026-08-31 14:47:17,649 [INFO] ------- Processing article n. 10: Borkum Riffgrund 3 Enters Commercial Operation - Offshore Engineer Magazine -------
+2026-08-31 14:47:18,019 [INFO] Resolved Google News URL: https://www.oedigital.com/amp/news/542550-borkum-riffgrund-3-enters-commercial-o
+2026-08-31 14:47:18,019 [INFO] URL: https://www.oedigital.com/amp/news/542550-borkum-riffgrund-3-enters-commercial-operation
+2026-08-31 14:47:18,300 [INFO] Text length: 2216 chars | source: full
+2026-08-31 14:47:18,300 [INFO] Text preview: Ørsted and Nuveen Infrastructure’s German offshore wind farm Borkum Riffgrund 3 has been commissioned and is now in commercial operation. With an installed capacity of 913MW, the project is one of Ger...
+2026-08-31 14:47:20,039 [INFO] LLM HTTP 200 for: Borkum Riffgrund 3 Enters Commercial Operation - Offshore En
+2026-08-31 14:47:20,040 [INFO] LLM extracted 1 deals (1 signed) | Borkum Riffgrund 3 Enters Commercial Operation - O
+2026-08-31 14:47:20,048 [INFO] UPDATE: Amazon, BASF, Covestro, Energie-Handels-Gesellschaft/REWE Group, Google / Ørsted (Germany, 786 MW) — canonical ID: 934
+2026-08-31 14:47:25,050 [INFO] ------- Processing article n. 11: CPDL Signs PPA with SECI for 50 MW Solar Power with Battery Storage in Chandigar -------
+2026-08-31 14:47:25,490 [INFO] Resolved Google News URL: https://solarquarter.com/2026/08/31/cpdl-signs-ppa-with-seci-for-50-mw-solar-pow
+2026-08-31 14:47:25,490 [INFO] URL: https://solarquarter.com/2026/08/31/cpdl-signs-ppa-with-seci-for-50-mw-solar-power-with-battery-storage-in-chandigarh/
+2026-08-31 14:47:25,855 [INFO] Text length: 1316 chars | source: full
+2026-08-31 14:47:25,855 [INFO] Text preview: Chandigarh Power Distribution Limited (CPDL) has signed a 25-year Power Purchase Agreement (PPA) with the Solar Energy Corporation of India (SECI) to procure 50 MW of solar power along with battery en...
+2026-08-31 14:47:29,373 [INFO] LLM HTTP 200 for: CPDL Signs PPA with SECI for 50 MW Solar Power with Battery 
+2026-08-31 14:47:29,373 [INFO] LLM extracted 1 deals (1 signed) | CPDL Signs PPA with SECI for 50 MW Solar Power wit
+2026-08-31 14:47:29,374 [INFO] Not a European deal — skipping: Chandigarh Power Distribution Limited / Solar Energy Corporation of India (India, 50 MW)
+2026-08-31 14:47:29,374 [INFO] ------- Processing article n. 11: Niutech Wins Global Energy Deal for Waste Plastic-to-SAF Line - ChemAnalyst -------
+2026-08-31 14:47:29,711 [INFO] Resolved Google News URL: https://www.chemanalyst.com/NewsAndDeals/NewsDetails/niutech-wins-global-energy-
+2026-08-31 14:47:29,712 [INFO] URL: https://www.chemanalyst.com/NewsAndDeals/NewsDetails/niutech-wins-global-energy-deal-for-waste-plastic-44175
+2026-08-31 14:47:30,106 [INFO] Text length: 3960 chars | source: full
+2026-08-31 14:47:30,107 [INFO] Text preview: Welcome To ChemAnalyst
+Niutech Technology Group Co., Ltd. has signed a sales agreement with a global energy major to supply an Industrial Continuous Waste Plastic Pyrolysis Production Line, strengthen...
+2026-08-31 14:47:31,227 [INFO] LLM HTTP 200 for: Niutech Wins Global Energy Deal for Waste Plastic-to-SAF Lin
+2026-08-31 14:47:31,227 [INFO] LLM extracted 1 deals (0 signed) | Niutech Wins Global Energy Deal for Waste Plastic-
+2026-08-31 14:47:31,229 [INFO] Not a signed deal — skipping: Niutech Wins Global Energy Deal for Waste Plastic-to-SAF Lin
+2026-08-31 14:47:31,229 [INFO] ------- Processing article n. 11: AMD to power Europe’s next-gen LUMI-AI supercomputer - it-online.co.za -------
+2026-08-31 14:47:31,628 [INFO] Resolved Google News URL: https://it-online.co.za/2026/08/31/amd-to-power-europes-next-gen-lumi-ai-superco
+2026-08-31 14:47:31,628 [INFO] URL: https://it-online.co.za/2026/08/31/amd-to-power-europes-next-gen-lumi-ai-supercomputer/
+2026-08-31 14:47:32,120 [INFO] Text length: 2675 chars | source: full
+2026-08-31 14:47:32,120 [INFO] Text preview: The EuroHPC Joint Undertaking (EuroHPC JU) has signed a procurement contract with Bull to deliver LUMI-AI, a next-generation supercomputer at the CSC – IT Center for Science data centre in Kajaani, Fi...
+2026-08-31 14:47:33,277 [INFO] LLM HTTP 200 for: AMD to power Europe’s next-gen LUMI-AI supercomputer - it-on
+2026-08-31 14:47:33,277 [INFO] LLM extracted 1 deals (0 signed) | AMD to power Europe’s next-gen LUMI-AI supercomput
+2026-08-31 14:47:33,279 [INFO] Not a signed deal — skipping: AMD to power Europe’s next-gen LUMI-AI supercomputer - it-on
+2026-08-31 14:47:33,279 [INFO] ------- Processing article n. 11: ERG stock holds steady as investors watch renewable power earnings - AD HOC NEWS -------
+2026-08-31 14:47:33,674 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/erg-stock-holds-steady-as-
+2026-08-31 14:47:33,674 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/erg-stock-holds-steady-as-investors-watch-renewable-power-earnings/70029449
+2026-08-31 14:47:34,449 [INFO] Text length: 4581 chars | source: full
+2026-08-31 14:47:34,449 [INFO] Text preview: ERG (ISIN IT0001157020) is a European renewable power producer whose stock is drawing investor attention on August 31, 2026 as markets weigh the latest earnings and cash flow trends from its most rece...
+2026-08-31 14:47:35,523 [INFO] LLM HTTP 200 for: ERG stock holds steady as investors watch renewable power ea
+2026-08-31 14:47:35,523 [INFO] LLM extracted 1 deals (0 signed) | ERG stock holds steady as investors watch renewabl
+2026-08-31 14:47:35,524 [INFO] Not a signed deal — skipping: ERG stock holds steady as investors watch renewable power ea
+2026-08-31 14:47:35,524 [INFO] ------- Processing article n. 11: The Government agrees with the technology industry on the keys to the future dec -------
+2026-08-31 14:47:35,923 [INFO] Resolved Google News URL: https://www.democrata.es/en/economy/the-government-agrees-with-the-technology-in
+2026-08-31 14:47:35,923 [INFO] URL: https://www.democrata.es/en/economy/the-government-agrees-with-the-technology-industry-on-the-keys-to-the-future-decree-on-data-centers/
+2026-08-31 14:47:36,015 [INFO] Full text skipped (status 403): https://www.democrata.es/en/economy/the-government-agrees-with-the-technology-in
+2026-08-31 14:47:36,016 [INFO] Text length: 235 chars | source: fallback
+2026-08-31 14:47:36,016 [INFO] Text preview: The Government agrees with the technology industry on the keys to the future decree on data centers - Demócrata
+
+The Government agrees with the technology industry on the keys to the future decree on ...
+2026-08-31 14:47:37,122 [INFO] LLM HTTP 200 for: The Government agrees with the technology industry on the ke
+2026-08-31 14:47:37,122 [INFO] LLM extracted 0 deals (0 signed) | The Government agrees with the technology industry
+2026-08-31 14:47:37,124 [INFO] ------- Processing article n. 11: Europe’s natural gas demand seen declining in 2026 – Rystad Energy - trend.az -------
+2026-08-31 14:47:37,503 [INFO] Resolved Google News URL: https://www.trend.az/business/energy/4219104.html
+2026-08-31 14:47:37,503 [INFO] URL: https://www.trend.az/business/energy/4219104.html
+2026-08-31 14:47:38,146 [INFO] Text length: 121 chars | source: full
+2026-08-31 14:47:38,146 [INFO] Text preview: PremiumEurope’s natural gas demand seen declining in 2026 – Rystad Energy
+Photo: China's State Council Information Office...
+2026-08-31 14:47:39,413 [INFO] LLM HTTP 200 for: Europe’s natural gas demand seen declining in 2026 – Rystad 
+2026-08-31 14:47:39,413 [INFO] LLM extracted 1 deals (0 signed) | Europe’s natural gas demand seen declining in 2026
+2026-08-31 14:47:39,415 [INFO] Not a signed deal — skipping: Europe’s natural gas demand seen declining in 2026 – Rystad 
+2026-08-31 14:47:39,415 [INFO] ------- Processing article n. 11: Vestas profile and former head of Ørsted in Sweden join Eolus - EnergyWatch -------
+2026-08-31 14:47:39,797 [INFO] Resolved Google News URL: https://energywatch.com/EnergyNews/profile/article19587172.ece
+2026-08-31 14:47:39,797 [INFO] URL: https://energywatch.com/EnergyNews/profile/article19587172.ece
+2026-08-31 14:47:40,504 [WARNING] discarding data: https://energywatch.com/EnergyNews/profile/article19587172.ece
+2026-08-31 14:47:40,506 [INFO] Full text extraction empty: https://energywatch.com/EnergyNews/profile/article19587172.ece
+2026-08-31 14:47:40,506 [INFO] Text length: 163 chars | source: fallback
+2026-08-31 14:47:40,506 [INFO] Text preview: Vestas profile and former head of Ørsted in Sweden join Eolus - EnergyWatch
+
+Vestas profile and former head of Ørsted in Sweden join Eolus &nbsp;&nbsp; EnergyWatch...
+2026-08-31 14:47:41,812 [INFO] LLM HTTP 200 for: Vestas profile and former head of Ørsted in Sweden join Eolu
+2026-08-31 14:47:41,812 [INFO] LLM extracted 1 deals (0 signed) | Vestas profile and former head of Ørsted in Sweden
+2026-08-31 14:47:41,813 [INFO] Not a signed deal — skipping: Vestas profile and former head of Ørsted in Sweden join Eolu
+2026-08-31 14:47:41,813 [INFO] ------- Processing article n. 11: NCRTC Signs PPA with NIRL for 110 MW Captive Solar Plant for Namo Bharat Corrido -------
+2026-08-31 14:47:42,220 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/ncrtc-signs-ppa-with-nirl-for-110-mw-capti
+2026-08-31 14:47:42,220 [INFO] URL: https://www.energetica-india.net/news/ncrtc-signs-ppa-with-nirl-for-110-mw-captive-solar-plant-for-namo-bharat-corridor
+2026-08-31 14:47:43,633 [INFO] Text length: 1777 chars | source: full
+2026-08-31 14:47:43,633 [INFO] Text preview: NCRTC Signs PPA with NIRL for 110 MW Captive Solar Plant for Namo Bharat Corridor
+The National Capital Region Transport Corporation has signed a PPA with NIRL NCRTC Renewables for a 110 MW captive sol...
+2026-08-31 14:47:45,336 [INFO] LLM HTTP 200 for: NCRTC Signs PPA with NIRL for 110 MW Captive Solar Plant for
+2026-08-31 14:47:45,336 [INFO] LLM extracted 1 deals (1 signed) | NCRTC Signs PPA with NIRL for 110 MW Captive Solar
+2026-08-31 14:47:45,338 [INFO] Not a European deal — skipping: National Capital Region Transport Corporation / NIRL NCRTC Renewables (India, 110 MW)
+2026-08-31 14:47:45,338 [INFO] ------- Processing article n. 11: UPERC Approves 300 MW Solar PPA At INR 2.57/kWh For 25 Years In Uttar Pradesh -  -------
+2026-08-31 14:47:45,716 [INFO] Resolved Google News URL: https://solarquarter.com/2026/08/31/uperc-approves-300-mw-solar-ppa-at-inr-2-57-
+2026-08-31 14:47:45,716 [INFO] URL: https://solarquarter.com/2026/08/31/uperc-approves-300-mw-solar-ppa-at-inr-2-57-kwh-for-25-years-in-uttar-pradesh/
+2026-08-31 14:47:46,023 [INFO] Text length: 2871 chars | source: full
+2026-08-31 14:47:46,023 [INFO] Text preview: The Uttar Pradesh Electricity Regulatory Commission (UPERC) has approved the Power Purchase Agreement (PPA) signed between Uttar Pradesh Power Corporation Limited (UPPCL) and M/s MB Power (Madhya Prad...
+2026-08-31 14:47:47,684 [INFO] LLM HTTP 200 for: UPERC Approves 300 MW Solar PPA At INR 2.57/kWh For 25 Years
+2026-08-31 14:47:47,684 [INFO] LLM extracted 1 deals (1 signed) | UPERC Approves 300 MW Solar PPA At INR 2.57/kWh Fo
+2026-08-31 14:47:47,685 [INFO] Not a European deal — skipping: Uttar Pradesh Power Corporation Limited / M/s MB Power (Madhya Pradesh) Limited (India, 300 MW)
+2026-08-31 14:47:47,685 [INFO] ------- Processing article n. 11: CIP buys from Windlab a hybrid macroproject of wind and batteries in Queensland  -------
+2026-08-31 14:47:48,101 [INFO] Resolved Google News URL: https://www.democrata.es/en/economy/cip-buys-from-windlab-a-hybrid-macroproject-
+2026-08-31 14:47:48,102 [INFO] URL: https://www.democrata.es/en/economy/cip-buys-from-windlab-a-hybrid-macroproject-of-wind-and-batteries-in-queensland/
+2026-08-31 14:47:48,146 [INFO] Full text skipped (status 403): https://www.democrata.es/en/economy/cip-buys-from-windlab-a-hybrid-macroproject-
+2026-08-31 14:47:48,146 [INFO] Text length: 195 chars | source: fallback
+2026-08-31 14:47:48,146 [INFO] Text preview: CIP buys from Windlab a hybrid macroproject of wind and batteries in Queensland - Demócrata
+
+CIP buys from Windlab a hybrid macroproject of wind and batteries in Queensland &nbsp;&nbsp; Demócrata...
+2026-08-31 14:47:49,489 [INFO] LLM HTTP 200 for: CIP buys from Windlab a hybrid macroproject of wind and batt
+2026-08-31 14:47:49,489 [INFO] LLM extracted 1 deals (0 signed) | CIP buys from Windlab a hybrid macroproject of win
+2026-08-31 14:47:49,490 [INFO] Not a signed deal — skipping: CIP buys from Windlab a hybrid macroproject of wind and batt
+2026-08-31 14:47:49,490 [INFO] ------- Processing article n. 11: Sweden seals with France the purchase of four frigates from Naval Group - Demócr -------
+2026-08-31 14:47:49,891 [INFO] Resolved Google News URL: https://www.democrata.es/en/international/sweden-seals-with-france-the-purchase-
+2026-08-31 14:47:49,891 [INFO] URL: https://www.democrata.es/en/international/sweden-seals-with-france-the-purchase-of-four-frigates-from-naval-group/
+2026-08-31 14:47:50,005 [INFO] Full text skipped (status 403): https://www.democrata.es/en/international/sweden-seals-with-france-the-purchase-
+2026-08-31 14:47:50,005 [INFO] Text length: 179 chars | source: fallback
+2026-08-31 14:47:50,005 [INFO] Text preview: Sweden seals with France the purchase of four frigates from Naval Group - Demócrata
+
+Sweden seals with France the purchase of four frigates from Naval Group &nbsp;&nbsp; Demócrata...
+2026-08-31 14:47:51,051 [INFO] LLM HTTP 200 for: Sweden seals with France the purchase of four frigates from 
+2026-08-31 14:47:51,051 [INFO] LLM extracted 1 deals (0 signed) | Sweden seals with France the purchase of four frig
+2026-08-31 14:47:51,053 [INFO] Not a signed deal — skipping: Sweden seals with France the purchase of four frigates from 
+2026-08-31 14:47:51,053 [INFO] ------- Processing article n. 11: CPDL Signs PPA with SECI for 50 MW Solar and Battery Storage Power - Energetica  -------
+2026-08-31 14:47:51,970 [INFO] Resolved Google News URL: https://energetica-india.net/news/cpdl-signs-ppa-with-seci-for-50-mw-solar-and-b
+2026-08-31 14:47:51,971 [INFO] URL: https://energetica-india.net/news/cpdl-signs-ppa-with-seci-for-50-mw-solar-and-battery-storage-power
+2026-08-31 14:47:52,758 [INFO] Text length: 1338 chars | source: full
+2026-08-31 14:47:52,758 [INFO] Text preview: CPDL Signs PPA with SECI for 50 MW Solar and Battery Storage Power
+Chandigarh Power Distribution Ltd. has signed a 25-year PPA with Solar Energy Corporation of India to procure 50 MW of solar power wi...
+2026-08-31 14:47:54,252 [INFO] LLM HTTP 200 for: CPDL Signs PPA with SECI for 50 MW Solar and Battery Storage
+2026-08-31 14:47:54,252 [INFO] LLM extracted 1 deals (1 signed) | CPDL Signs PPA with SECI for 50 MW Solar and Batte
+2026-08-31 14:47:54,253 [INFO] Not a European deal — skipping: Chandigarh Power Distribution Ltd. / Solar Energy Corporation of India (India, 50 MW)
+2026-08-31 14:47:54,253 [INFO] ------- Processing article n. 11: Voltalia Commissions 148 MW Bolobedu Solar Farm In South Africa - SolarQuarter -------
+2026-08-31 14:47:55,091 [INFO] Resolved Google News URL: https://solarquarter.com/2026/08/31/voltalia-commissions-148-mw-bolobedu-solar-f
+2026-08-31 14:47:55,091 [INFO] URL: https://solarquarter.com/2026/08/31/voltalia-commissions-148-mw-bolobedu-solar-farm-in-south-africa-2/
+2026-08-31 14:47:55,295 [INFO] Text length: 2546 chars | source: full
+2026-08-31 14:47:55,295 [INFO] Text preview: International renewable energy company Voltalia has fully commissioned its 148 MW Bolobedu solar farm in Limpopo, South Africa. The project is one of the country’s largest corporate renewable energy p...
+2026-08-31 14:47:56,582 [INFO] LLM HTTP 200 for: Voltalia Commissions 148 MW Bolobedu Solar Farm In South Afr
+2026-08-31 14:47:56,582 [INFO] LLM extracted 1 deals (1 signed) | Voltalia Commissions 148 MW Bolobedu Solar Farm In
+2026-08-31 14:47:56,583 [INFO] Not a European deal — skipping: Richards Bay Minerals (RBM) / Voltalia (South Africa, 148 MW)
+2026-08-31 14:47:56,583 [INFO] ------- Processing article n. 11: KPI Green Energy Advances 2.57 GWp IPP Portfolio, 1.16 GWp Energized - SolarQuar -------
+2026-08-31 14:47:57,010 [INFO] Resolved Google News URL: https://solarquarter.com/2026/08/31/kpi-green-energy-advances-2-57-gwp-ipp-portf
+2026-08-31 14:47:57,010 [INFO] URL: https://solarquarter.com/2026/08/31/kpi-green-energy-advances-2-57-gwp-ipp-portfolio-1-16-gwp-energized/
+2026-08-31 14:47:57,214 [INFO] Text length: 2265 chars | source: full
+2026-08-31 14:47:57,214 [INFO] Text preview: KPI Green Energy Limited has provided an update on the execution progress of its 2.57 GWp Independent Power Producer (IPP) portfolio, with approximately 1.16 GWp energized and around 1.41 GWp currentl...
+2026-08-31 14:47:58,648 [INFO] LLM HTTP 200 for: KPI Green Energy Advances 2.57 GWp IPP Portfolio, 1.16 GWp E
+2026-08-31 14:47:58,648 [INFO] LLM extracted 1 deals (0 signed) | KPI Green Energy Advances 2.57 GWp IPP Portfolio, 
+2026-08-31 14:47:58,649 [INFO] Not a signed deal — skipping: KPI Green Energy Advances 2.57 GWp IPP Portfolio, 1.16 GWp E
+2026-08-31 14:47:58,649 [INFO] ------- Processing article n. 11: Waaree Energies Secures SECI Award for 700 MW Solar Project with 2,800 MWh Energ -------
+2026-08-31 14:47:59,502 [INFO] Resolved Google News URL: https://solarquarter.com/2026/08/31/waaree-energies-secures-seci-award-for-700-m
+2026-08-31 14:47:59,502 [INFO] URL: https://solarquarter.com/2026/08/31/waaree-energies-secures-seci-award-for-700-mw-solar-project-with-2800-mwh-energy-storage/
+2026-08-31 14:47:59,634 [INFO] Text length: 1460 chars | source: full
+2026-08-31 14:47:59,634 [INFO] Text preview: Waaree Energies Limited has secured a Letter of Award (LOA) from the Solar Energy Corporation of India Limited (SECI) for the development of a 700 MW solar power project integrated with a 700 MW/2,800...
+2026-08-31 14:48:01,342 [INFO] LLM HTTP 200 for: Waaree Energies Secures SECI Award for 700 MW Solar Project 
+2026-08-31 14:48:01,343 [INFO] LLM extracted 1 deals (0 signed) | Waaree Energies Secures SECI Award for 700 MW Sola
+2026-08-31 14:48:01,344 [INFO] Not a signed deal — skipping: Waaree Energies Secures SECI Award for 700 MW Solar Project 
+2026-08-31 14:48:01,344 [INFO] ------- Processing article n. 11: AHAsolar Technologies Secures Consultancy Work Order for 600 MW Solar Project wi -------
+2026-08-31 14:48:02,160 [INFO] Resolved Google News URL: https://solarquarter.com/2026/08/31/ahasolar-technologies-secures-consultancy-wo
+2026-08-31 14:48:02,160 [INFO] URL: https://solarquarter.com/2026/08/31/ahasolar-technologies-secures-consultancy-work-order-for-600-mw-solar-project-with-1800-mwh-energy-storage-in-rajasthan/
+2026-08-31 14:48:02,367 [INFO] Text length: 1226 chars | source: full
+2026-08-31 14:48:02,367 [INFO] Text preview: AHAsolar Technologies Limited has secured a domestic consultancy work order from NLC India Renewables Limited (NIRL) for the development of a 600 MW solar power project integrated with a 300 MW/1,800 ...
+2026-08-31 14:48:03,649 [INFO] LLM HTTP 200 for: AHAsolar Technologies Secures Consultancy Work Order for 600
+2026-08-31 14:48:03,650 [INFO] LLM extracted 1 deals (0 signed) | AHAsolar Technologies Secures Consultancy Work Ord
+2026-08-31 14:48:03,651 [INFO] Not a signed deal — skipping: AHAsolar Technologies Secures Consultancy Work Order for 600
+2026-08-31 14:48:03,651 [INFO] ------- Processing article n. 11: Westbridge cède le projet Red Willow en Alberta pour jusqu'à 19 millions $ - ene -------
+2026-08-31 14:48:04,529 [INFO] Resolved Google News URL: https://energynews.pro/westbridge-cede-le-projet-red-willow-en-alberta-pour-jusq
+2026-08-31 14:48:04,529 [INFO] URL: https://energynews.pro/westbridge-cede-le-projet-red-willow-en-alberta-pour-jusqua-19-millions
+2026-08-31 14:48:05,180 [INFO] Text length: 4870 chars | source: full
+2026-08-31 14:48:05,180 [INFO] Text preview: Westbridge Sells Red Willow Project in Alberta for Up to $19 Million
+Westbridge Renewable Energy is selling its Red Willow solar-plus-storage project in Alberta for up to $19 million (CAD $26.725 mill...
+2026-08-31 14:48:07,364 [INFO] LLM HTTP 200 for: Westbridge cède le projet Red Willow en Alberta pour jusqu'à
+2026-08-31 14:48:07,364 [INFO] LLM extracted 2 deals (1 signed) | Westbridge cède le projet Red Willow en Alberta po
+2026-08-31 14:48:07,365 [INFO] Not a signed deal — skipping: Westbridge cède le projet Red Willow en Alberta pour jusqu'à
+2026-08-31 14:48:07,365 [INFO] Not a European deal — skipping: Sanden / Nagaki Shoji (Japan, 1.5 MW)
+2026-08-31 14:48:07,365 [INFO] ------- Processing article n. 11: Fin location leasing social : que faire après les 3 ans ? - Mondial de l’Auto 20 -------
+2026-08-31 14:48:08,346 [INFO] Resolved Google News URL: https://mondial.paris/actualites/auto-pratique/fin-location-leasing-social-que-f
+2026-08-31 14:48:08,346 [INFO] URL: https://mondial.paris/actualites/auto-pratique/fin-location-leasing-social-que-faire-apres-les-3-ans-70970.html
+2026-08-31 14:48:08,722 [INFO] Text length: 9116 chars | source: full
+2026-08-31 14:48:08,723 [INFO] Text preview: La fin de leasing social se rapproche pour les 50 000 ménages qui ont signé un contrat début 2024. Restituer la voiture, la racheter, payer d’éventuels frais : l’échéance des trois ans de location sou...
+2026-08-31 14:48:09,471 [INFO] LLM HTTP 200 for: Fin location leasing social : que faire après les 3 ans ? - 
+2026-08-31 14:48:09,472 [INFO] LLM extracted 0 deals (0 signed) | Fin location leasing social : que faire après les 
+2026-08-31 14:48:09,473 [INFO] ------- Processing article n. 11: Les gagnants inattendus de la course à l’IA (1/3) : Caterpillar - Agora Bourse -------
+2026-08-31 14:48:10,440 [INFO] Resolved Google News URL: https://agorabourse.fr/gagnants-inattendus-ia-caterpillar/
+2026-08-31 14:48:10,440 [INFO] URL: https://agorabourse.fr/gagnants-inattendus-ia-caterpillar/
+2026-08-31 14:48:10,744 [INFO] Text length: 7214 chars | source: full
+2026-08-31 14:48:10,744 [INFO] Text preview: Autrefois connu pour ses engins de chantier, Caterpillar est en passe de devenir un équipementier incontournable du secteur de l’IA. Ses ventes de systèmes de production d’électricité s’envolent tant ...
+2026-08-31 14:48:11,287 [INFO] LLM HTTP 200 for: Les gagnants inattendus de la course à l’IA (1/3) : Caterpil
+2026-08-31 14:48:11,287 [INFO] LLM extracted 0 deals (0 signed) | Les gagnants inattendus de la course à l’IA (1/3) 
+2026-08-31 14:48:11,288 [INFO] ------- Processing article n. 11: Résoudre le problème de l'énergie verte pour les entreprises des zones industrie -------
+2026-08-31 14:48:12,236 [INFO] Resolved Google News URL: https://www.vietnam.vn/fr/giai-bai-toan-dien-xanh-cho-doanh-nghiep-khu-cong-nghi
+2026-08-31 14:48:12,236 [INFO] URL: https://www.vietnam.vn/fr/giai-bai-toan-dien-xanh-cho-doanh-nghiep-khu-cong-nghiep
+2026-08-31 14:48:19,398 [INFO] Text length: 8125 chars | source: full
+2026-08-31 14:48:19,398 [INFO] Text preview: Pression pour une transition vers les énergies propres
+Le monde entre dans une ère de transition énergétique. Le Vietnam ne fait pas exception. Pour les entreprises, notamment celles implantées dans l...
+2026-08-31 14:48:20,048 [INFO] LLM HTTP 200 for: Résoudre le problème de l'énergie verte pour les entreprises
+2026-08-31 14:48:20,048 [INFO] LLM extracted 0 deals (0 signed) | Résoudre le problème de l'énergie verte pour les e
+2026-08-31 14:48:20,050 [INFO] ------- Processing article n. 11: Criterium Energía firma acuerdo de venta de gas con PGN de Indonesia - Investing -------
+2026-08-31 14:48:20,887 [INFO] Resolved Google News URL: https://mx.investing.com/news/company-news/criterium-energia-firma-acuerdo-de-ve
+2026-08-31 14:48:20,888 [INFO] URL: https://mx.investing.com/news/company-news/criterium-energia-firma-acuerdo-de-venta-de-gas-con-pgn-de-indonesia-93CH-3749572
+2026-08-31 14:48:21,049 [INFO] Full text skipped (status 403): https://mx.investing.com/news/company-news/criterium-energia-firma-acuerdo-de-ve
+2026-08-31 14:48:21,049 [INFO] Text length: 247 chars | source: fallback
+2026-08-31 14:48:21,049 [INFO] Text preview: Criterium Energía firma acuerdo de venta de gas con PGN de Indonesia - Investing.com México - Finanzas, Bolsa y Forex
+
+Criterium Energía firma acuerdo de venta de gas con PGN de Indonesia &nbsp;&nbsp;...
+2026-08-31 14:48:22,233 [INFO] LLM HTTP 200 for: Criterium Energía firma acuerdo de venta de gas con PGN de I
+2026-08-31 14:48:22,233 [INFO] LLM extracted 1 deals (0 signed) | Criterium Energía firma acuerdo de venta de gas co
+2026-08-31 14:48:22,235 [INFO] Not a signed deal — skipping: Criterium Energía firma acuerdo de venta de gas con PGN de I
+2026-08-31 14:48:22,235 [INFO] ------- Processing article n. 11: CIP compra a Windlab un macroproyecto híbrido de eólica y baterías en Queensland -------
+2026-08-31 14:48:23,192 [INFO] Resolved Google News URL: https://www.democrata.es/economia/cip-compra-a-windlab-un-macroproyecto-hibrido-
+2026-08-31 14:48:23,192 [INFO] URL: https://www.democrata.es/economia/cip-compra-a-windlab-un-macroproyecto-hibrido-de-eolica-y-baterias-en-queensland/amp/
+2026-08-31 14:48:23,282 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/cip-compra-a-windlab-un-macroproyecto-hibrido-
+2026-08-31 14:48:23,282 [INFO] Text length: 197 chars | source: fallback
+2026-08-31 14:48:23,282 [INFO] Text preview: CIP compra a Windlab un macroproyecto híbrido de eólica y baterías en Queensland - Demócrata
+
+CIP compra a Windlab un macroproyecto híbrido de eólica y baterías en Queensland &nbsp;&nbsp; Demócrata...
+2026-08-31 14:48:24,653 [INFO] LLM HTTP 200 for: CIP compra a Windlab un macroproyecto híbrido de eólica y ba
+2026-08-31 14:48:24,653 [INFO] LLM extracted 1 deals (0 signed) | CIP compra a Windlab un macroproyecto híbrido de e
+2026-08-31 14:48:24,654 [INFO] Not a signed deal — skipping: CIP compra a Windlab un macroproyecto híbrido de eólica y ba
+2026-08-31 14:48:24,654 [INFO] ------- Processing article n. 11: Economía.- El Gobierno negocia con el sector tecnológico las condiciones del fut -------
+2026-08-31 14:48:25,466 [INFO] Resolved Google News URL: https://www.bolsamania.com/noticias_amp/empresas/economia--el-gobierno-negocia-c
+2026-08-31 14:48:25,466 [INFO] URL: https://www.bolsamania.com/noticias_amp/empresas/economia--el-gobierno-negocia-con-el-sector-tecnologico-las-condiciones-del-futuro-decreto-de-centros-de-datos--23431210.html
+2026-08-31 14:48:25,576 [INFO] Full text skipped (status 403): https://www.bolsamania.com/noticias_amp/empresas/economia--el-gobierno-negocia-c
+2026-08-31 14:48:25,576 [INFO] Text length: 261 chars | source: fallback
+2026-08-31 14:48:25,576 [INFO] Text preview: Economía.- El Gobierno negocia con el sector tecnológico las condiciones del futuro decreto de centros de datos - Bolsamania
+
+Economía.- El Gobierno negocia con el sector tecnológico las condiciones d...
+2026-08-31 14:48:26,740 [INFO] LLM HTTP 200 for: Economía.- El Gobierno negocia con el sector tecnológico las
+2026-08-31 14:48:26,740 [INFO] LLM extracted 1 deals (0 signed) | Economía.- El Gobierno negocia con el sector tecno
+2026-08-31 14:48:26,741 [INFO] Not a signed deal — skipping: Economía.- El Gobierno negocia con el sector tecnológico las
+2026-08-31 14:48:26,741 [INFO] ------- Processing article n. 11: Delgado (Aleasoft): la renovable necesita red, almacenamiento e interconexión -  -------
+2026-08-31 14:48:27,578 [INFO] Resolved Google News URL: https://energelia.com/almacenamiento-energetico-espana/entrevista-antonio-delgad
+2026-08-31 14:48:27,579 [INFO] URL: https://energelia.com/almacenamiento-energetico-espana/entrevista-antonio-delgado-aleasoft-almacenamiento-renovables
+2026-08-31 14:48:28,256 [INFO] Text length: 4851 chars | source: full
+2026-08-31 14:48:28,256 [INFO] Text preview: Delgado (Aleasoft): la renovable necesita red, almacenamiento e interconexión
+Un verano de volatilidad en los mercados energéticos
+El repunte del precio del gas natural en Europa durante el verano ha ...
+2026-08-31 14:48:29,455 [INFO] LLM HTTP 200 for: Delgado (Aleasoft): la renovable necesita red, almacenamient
+2026-08-31 14:48:29,455 [INFO] LLM extracted 1 deals (0 signed) | Delgado (Aleasoft): la renovable necesita red, alm
+2026-08-31 14:48:29,456 [INFO] Not a signed deal — skipping: Delgado (Aleasoft): la renovable necesita red, almacenamient
+2026-08-31 14:48:29,456 [INFO] ------- Processing article n. 11: El Gobierno pacta con la industria tecnológica las claves del futuro decreto de  -------
+2026-08-31 14:48:30,458 [INFO] Resolved Google News URL: https://www.democrata.es/economia/el-gobierno-pacta-con-la-industria-tecnologica
+2026-08-31 14:48:30,458 [INFO] URL: https://www.democrata.es/economia/el-gobierno-pacta-con-la-industria-tecnologica-las-claves-del-futuro-decreto-de-centros-de-datos/amp/
+2026-08-31 14:48:30,576 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/el-gobierno-pacta-con-la-industria-tecnologica
+2026-08-31 14:48:30,577 [INFO] Text length: 229 chars | source: fallback
+2026-08-31 14:48:30,577 [INFO] Text preview: El Gobierno pacta con la industria tecnológica las claves del futuro decreto de centros de datos - Demócrata
+
+El Gobierno pacta con la industria tecnológica las claves del futuro decreto de centros de...
+2026-08-31 14:48:31,823 [INFO] LLM HTTP 200 for: El Gobierno pacta con la industria tecnológica las claves de
+2026-08-31 14:48:31,823 [INFO] LLM extracted 1 deals (0 signed) | El Gobierno pacta con la industria tecnológica las
+2026-08-31 14:48:31,824 [INFO] Not a signed deal — skipping: El Gobierno pacta con la industria tecnológica las claves de
+2026-08-31 14:48:31,825 [INFO] ------- Processing article n. 11: La quiebra de la mayor planta fotovoltaica en Portugal y su impacto económico en -------
+2026-08-31 14:48:32,743 [INFO] Resolved Google News URL: https://www.elconfidencialdigital.com/articulo/dinero/quiebra-mayor-planta-fotov
+2026-08-31 14:48:32,743 [INFO] URL: https://www.elconfidencialdigital.com/articulo/dinero/quiebra-mayor-planta-fotovoltaica-portugal-impacto-economico-renovables/202608311147001037391.amp.html
+2026-08-31 14:48:33,168 [INFO] Text length: 2976 chars | source: full
+2026-08-31 14:48:33,168 [INFO] Text preview: La mayor planta fotovoltaica en tierra de Portugal, Solara4, se ha declarado en quiebra tras solo cinco años de operación debido a ingresos insuficientes. Este hecho, confirmado en un informe de la co...
+2026-08-31 14:48:34,412 [INFO] LLM HTTP 200 for: La quiebra de la mayor planta fotovoltaica en Portugal y su 
+2026-08-31 14:48:34,412 [INFO] LLM extracted 1 deals (0 signed) | La quiebra de la mayor planta fotovoltaica en Port
+2026-08-31 14:48:34,414 [INFO] Not a signed deal — skipping: La quiebra de la mayor planta fotovoltaica en Portugal y su 
+2026-08-31 14:48:34,414 [INFO] ------- Processing article n. 11: Ørsted A/S e Nuveen Infrastructure inaugurano il parco eolico offshore Borkum Ri -------
+2026-08-31 14:48:35,321 [INFO] Resolved Google News URL: https://it.marketscreener.com/notizie/orsted-a-s-e-nuveen-infrastructure-inaugur
+2026-08-31 14:48:35,321 [INFO] URL: https://it.marketscreener.com/notizie/orsted-a-s-e-nuveen-infrastructure-inaugurano-il-parco-eolico-offshore-borkum-riffgrund-3-con-una-ca-ce7858dcd08cf42d
+2026-08-31 14:48:35,497 [INFO] Full text skipped (status 403): https://it.marketscreener.com/notizie/orsted-a-s-e-nuveen-infrastructure-inaugur
+2026-08-31 14:48:35,497 [INFO] Text length: 313 chars | source: fallback
+2026-08-31 14:48:35,497 [INFO] Text preview: Ørsted A/S e Nuveen Infrastructure inaugurano il parco eolico offshore Borkum Riffgrund 3 con una capacità insediata di 913 MW - MarketScreener Italia
+
+Ørsted A/S e Nuveen Infrastructure inaugurano il...
+2026-08-31 14:48:36,702 [INFO] LLM HTTP 200 for: Ørsted A/S e Nuveen Infrastructure inaugurano il parco eolic
+2026-08-31 14:48:36,702 [INFO] LLM extracted 1 deals (0 signed) | Ørsted A/S e Nuveen Infrastructure inaugurano il p
+2026-08-31 14:48:36,703 [INFO] Not a signed deal — skipping: Ørsted A/S e Nuveen Infrastructure inaugurano il parco eolic
+2026-08-31 14:48:36,703 [INFO] ------- Processing article n. 11: Primoris Services Stock Down 39% in the Past Year, Is Primoris a Turnaround Buy  -------
+2026-08-31 14:48:37,747 [INFO] Resolved Google News URL: https://www.tikr.com/it/blog/prim-stock-primoris-valuation-2030?
+2026-08-31 14:48:37,747 [INFO] URL: https://www.tikr.com/it/blog/prim-stock-primoris-valuation-2030?
+2026-08-31 14:48:38,297 [INFO] Text length: 7842 chars | source: full
+2026-08-31 14:48:38,297 [INFO] Text preview: Punti Chiave:
+- Reset delle Rinnovabili: Una manciata di progetti solari e di accumulo a batteria problematici ha trascinato il margine lordo del Q2 al 4,9% dal 12,3% di un anno fa.
+- Proiezione del P...
+2026-08-31 14:48:39,290 [INFO] LLM HTTP 200 for: Primoris Services Stock Down 39% in the Past Year, Is Primor
+2026-08-31 14:48:39,290 [INFO] LLM extracted 0 deals (0 signed) | Primoris Services Stock Down 39% in the Past Year,
+2026-08-31 14:48:39,292 [INFO] ------- Processing article n. 11: Risolvere il problema dell'energia verde per le imprese nelle zone industriali.  -------
+2026-08-31 14:48:40,242 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/giai-bai-toan-dien-xanh-cho-doanh-nghiep-khu-cong-nghi
+2026-08-31 14:48:40,242 [INFO] URL: https://www.vietnam.vn/it/giai-bai-toan-dien-xanh-cho-doanh-nghiep-khu-cong-nghiep
+2026-08-31 14:48:41,885 [INFO] Text length: 8037 chars | source: full
+2026-08-31 14:48:41,885 [INFO] Text preview: Pressione per passare alle energie pulite
+Il mondo sta entrando in un'era di transizione energetica. Il Vietnam non fa eccezione. Per le imprese, soprattutto quelle situate nei parchi industriali – do...
+2026-08-31 14:48:43,107 [INFO] LLM HTTP 200 for: Risolvere il problema dell'energia verde per le imprese nell
+2026-08-31 14:48:43,107 [INFO] LLM extracted 1 deals (0 signed) | Risolvere il problema dell'energia verde per le im
+2026-08-31 14:48:43,108 [INFO] Not a signed deal — skipping: Risolvere il problema dell'energia verde per le imprese nell
+2026-08-31 14:48:43,108 [INFO] ------- Processing article n. 11: Podpisana umowa na Odnawialne Źródła Energii - Oficjalna strona Miasta Bełchatow -------
+2026-08-31 14:48:44,083 [INFO] Resolved Google News URL: https://belchatow.pl/podpisanie-umowy-na-oze/
+2026-08-31 14:48:44,083 [INFO] URL: https://belchatow.pl/podpisanie-umowy-na-oze/
+2026-08-31 14:48:45,691 [INFO] Text length: 1214 chars | source: full
+2026-08-31 14:48:45,691 [INFO] Text preview: Rozpoczyna się instalacja OZE w domach Bełchatowian
+Miasto Bełchatów podpisało umowę z wykonawcą na realizację projektu pn.: „Zakup i montaż instalacji OZE na terenie Miasta Bełchatowa”. Oznacza to, ż...
+2026-08-31 14:48:46,761 [INFO] LLM HTTP 200 for: Podpisana umowa na Odnawialne Źródła Energii - Oficjalna str
+2026-08-31 14:48:46,761 [INFO] LLM extracted 1 deals (0 signed) | Podpisana umowa na Odnawialne Źródła Energii - Ofi
+2026-08-31 14:48:46,762 [INFO] Not a signed deal — skipping: Podpisana umowa na Odnawialne Źródła Energii - Oficjalna str
+2026-08-31 14:48:46,762 [INFO] ------- Processing article n. 11: ONS corta geração por excesso de oferta de energia pela segunda vez no ano | Ago -------
+2026-08-31 14:48:47,591 [INFO] Resolved Google News URL: https://conteudos.xpi.com.br/acoes/relatorios/ons-corta-geracao-por-excesso-de-o
+2026-08-31 14:48:47,591 [INFO] URL: https://conteudos.xpi.com.br/acoes/relatorios/ons-corta-geracao-por-excesso-de-oferta-de-energia-pela-segunda-vez-no-ano-agosto/
+2026-08-31 14:48:47,855 [INFO] Full text skipped (status 403): https://conteudos.xpi.com.br/acoes/relatorios/ons-corta-geracao-por-excesso-de-o
+2026-08-31 14:48:47,856 [INFO] Text length: 217 chars | source: fallback
+2026-08-31 14:48:47,856 [INFO] Text preview: ONS corta geração por excesso de oferta de energia pela segunda vez no ano | Agosto - XP Investimentos
+
+ONS corta geração por excesso de oferta de energia pela segunda vez no ano | Agosto &nbsp;&nbsp;...
+2026-08-31 14:48:49,032 [INFO] LLM HTTP 200 for: ONS corta geração por excesso de oferta de energia pela segu
+2026-08-31 14:48:49,032 [INFO] LLM extracted 1 deals (0 signed) | ONS corta geração por excesso de oferta de energia
+2026-08-31 14:48:49,034 [INFO] Not a signed deal — skipping: ONS corta geração por excesso de oferta de energia pela segu
+2026-08-31 14:48:49,034 [INFO] Run complete. New deals: 4, Updates: 7
+2026-08-31 14:48:49,050 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1420 deals)
+2026-08-31 14:48:51,063 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
