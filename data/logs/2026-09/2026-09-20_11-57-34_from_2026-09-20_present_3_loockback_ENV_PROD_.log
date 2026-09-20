@@ -1,0 +1,80 @@
+2026-09-20 11:57:34,002 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-09-20 11:57:34,007 [INFO] Loaded 1518 existing deals for dedup matching
+2026-09-20 11:57:34,007 [INFO] Searching from 2026-09-20 to present with 3 loockback days
+2026-09-20 11:57:34,240 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-09-20 11:57:35,476 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-09-20 11:57:36,566 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-09-20 11:57:37,996 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-09-20&hl=en&gl=US&ceid=US:en: 2 results
+2026-09-20 11:57:40,304 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-09-20&hl=en&gl=US&ceid=US:en: 0 results
+2026-09-20 11:57:42,560 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-09-20&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-09-20 11:57:44,815 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-09-20&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-09-20 11:57:47,077 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-09-20&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-09-20 11:57:49,322 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-09-20&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-09-20 11:57:51,559 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-09-20&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-09-20 11:57:53,843 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-09-20&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-09-20 11:57:56,075 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-09-20&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-09-20 11:57:58,362 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-09-20&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-09-20 11:58:00,628 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-09-20&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-09-20 11:58:02,872 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-09-20&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-20 11:58:05,177 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-09-20&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-20 11:58:07,482 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-09-20&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-09-20 11:58:09,785 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-09-20&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-09-20 11:58:11,785 [INFO] Total raw articles collected: 5
+2026-09-20 11:58:12,118 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-09-20 11:58:13,873 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-09-20 11:58:14,879 [INFO] Unique unseen articles: 5
+2026-09-20 11:58:14,879 [INFO] ------- Processing article n. 0: Venezuela, TotalEnergies subsidiary sign energy cooperation agreement - Anadolu  -------
+2026-09-20 11:58:15,215 [INFO] Resolved Google News URL: https://www.aa.com.tr/en/energy/general/venezuela-totalenergies-subsidiary-sign-
+2026-09-20 11:58:15,215 [INFO] URL: https://www.aa.com.tr/en/energy/general/venezuela-totalenergies-subsidiary-sign-energy-cooperation-agreement/59718
+2026-09-20 11:58:17,792 [INFO] Text length: 889 chars | source: full
+2026-09-20 11:58:17,792 [INFO] Text preview: Venezuelan acting President Delcy Rodriguez on Saturday oversaw the signing of an energy cooperation agreement between state oil company PDVSA and TotalEnergies E&P New Ventures, a subsidiary of Frenc...
+2026-09-20 11:58:18,046 [INFO] LLM HTTP 429 for: Venezuela, TotalEnergies subsidiary sign energy cooperation 
+2026-09-20 11:58:18,046 [WARNING] LLM 429 — waiting 60s: Venezuela, TotalEnergies subsidiary sign energy co
+2026-09-20 11:59:18,255 [INFO] LLM HTTP 429 for: Venezuela, TotalEnergies subsidiary sign energy cooperation 
+2026-09-20 11:59:18,256 [WARNING] LLM 429 — waiting 60s: Venezuela, TotalEnergies subsidiary sign energy co
+2026-09-20 12:00:18,256 [WARNING] LLM returned None — skipping: Venezuela, TotalEnergies subsidiary sign energy cooperation 
+2026-09-20 12:00:18,256 [INFO] ------- Processing article n. 0: Stellantis CEO: Global Automotive Market Is Divided Between the United States an -------
+2026-09-20 12:00:18,676 [INFO] Resolved Google News URL: https://eu.36kr.com/en/p/3991227767995395
+2026-09-20 12:00:18,676 [INFO] URL: https://eu.36kr.com/en/p/3991227767995395
+2026-09-20 12:00:19,658 [INFO] Text length: 13260 chars | source: full
+2026-09-20 12:00:19,658 [INFO] Text preview: Lead-in
+While other countries around the world are actively advancing the development of electric vehicles, the United States has become the only isolated outlier.
+Not long ago, Stellantis Group CEO A...
+2026-09-20 12:00:19,920 [INFO] LLM HTTP 429 for: Stellantis CEO: Global Automotive Market Is Divided Between 
+2026-09-20 12:00:19,920 [WARNING] LLM 429 — waiting 60s: Stellantis CEO: Global Automotive Market Is Divide
+2026-09-20 12:01:20,132 [INFO] LLM HTTP 429 for: Stellantis CEO: Global Automotive Market Is Divided Between 
+2026-09-20 12:01:20,132 [WARNING] LLM 429 — waiting 60s: Stellantis CEO: Global Automotive Market Is Divide
+2026-09-20 12:02:20,132 [WARNING] LLM returned None — skipping: Stellantis CEO: Global Automotive Market Is Divided Between 
+2026-09-20 12:02:20,132 [INFO] ------- Processing article n. 0: Die Neoen-Aktie zeigt Stabilität nach Wachstumsjahr im erneuerbaren Energiemarkt -------
+2026-09-20 12:02:20,877 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/die-neoen-aktie-zeigt-stab
+2026-09-20 12:02:20,877 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/die-neoen-aktie-zeigt-stabilitaet-nach-wachstumsjahr-im-erneuerbaren/70136395
+2026-09-20 12:02:21,839 [INFO] Text length: 7886 chars | source: full
+2026-09-20 12:02:21,839 [INFO] Text preview: Der französische Ökostromerzeuger Neoen (ISIN FR0011675362) steht mit der Neoen-Aktie im Zentrum eines dynamischen Marktes für erneuerbare Energien, in dem der Konzern im Geschäftsjahr 2025 seinen Ums...
+2026-09-20 12:02:22,061 [INFO] LLM HTTP 429 for: Die Neoen-Aktie zeigt Stabilität nach Wachstumsjahr im erneu
+2026-09-20 12:02:22,061 [WARNING] LLM 429 — waiting 60s: Die Neoen-Aktie zeigt Stabilität nach Wachstumsjah
+2026-09-20 12:03:22,418 [INFO] LLM HTTP 429 for: Die Neoen-Aktie zeigt Stabilität nach Wachstumsjahr im erneu
+2026-09-20 12:03:22,418 [WARNING] LLM 429 — waiting 60s: Die Neoen-Aktie zeigt Stabilität nach Wachstumsjah
+2026-09-20 12:04:22,418 [WARNING] LLM returned None — skipping: Die Neoen-Aktie zeigt Stabilität nach Wachstumsjahr im erneu
+2026-09-20 12:04:22,419 [INFO] ------- Processing article n. 0: La solar fotovoltaica Marca España cierra trienio de oro - Energías Renovables,  -------
+2026-09-20 12:04:23,370 [INFO] Resolved Google News URL: https://www.energias-renovables.com/fotovoltaica/la-solar-fotovoltaica-marca-esp
+2026-09-20 12:04:23,370 [INFO] URL: https://www.energias-renovables.com/fotovoltaica/la-solar-fotovoltaica-marca-espa-a-cierra-20260919
+2026-09-20 12:04:23,936 [INFO] Text length: 17342 chars | source: full
+2026-09-20 12:04:23,937 [INFO] Text preview: La Unión Española Fotovoltaica (UNEF) ha publicado esta semana su último Informe Anual, un documento de casi doscientas páginas en el que analiza, en colaboración con la Universidad de Castilla-La Man...
+2026-09-20 12:04:24,129 [INFO] LLM HTTP 429 for: La solar fotovoltaica Marca España cierra trienio de oro - E
+2026-09-20 12:04:24,129 [WARNING] LLM 429 — waiting 60s: La solar fotovoltaica Marca España cierra trienio 
+2026-09-20 12:05:24,342 [INFO] LLM HTTP 429 for: La solar fotovoltaica Marca España cierra trienio de oro - E
+2026-09-20 12:05:24,342 [WARNING] LLM 429 — waiting 60s: La solar fotovoltaica Marca España cierra trienio 
+2026-09-20 12:06:24,343 [WARNING] LLM returned None — skipping: La solar fotovoltaica Marca España cierra trienio de oro - E
+2026-09-20 12:06:24,343 [INFO] ------- Processing article n. 0: Ho Chi Minh City propone di ampliare il commercio diretto di energia elettrica.  -------
+2026-09-20 12:06:25,135 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/tphcm-de-xuat-mo-rong-mua-ban-dien-truc-tiep
+2026-09-20 12:06:25,135 [INFO] URL: https://www.vietnam.vn/it/tphcm-de-xuat-mo-rong-mua-ban-dien-truc-tiep
+2026-09-20 12:06:25,973 [INFO] Text length: 4304 chars | source: full
+2026-09-20 12:06:25,973 [INFO] Text preview: Secondo la legge sullo sviluppo urbano, il Consiglio popolare di Ho Chi Minh City è autorizzato ad ampliare la portata, le condizioni di partecipazione e i meccanismi per lo scambio diretto di energia...
+2026-09-20 12:06:26,202 [INFO] LLM HTTP 429 for: Ho Chi Minh City propone di ampliare il commercio diretto di
+2026-09-20 12:06:26,203 [WARNING] LLM 429 — waiting 60s: Ho Chi Minh City propone di ampliare il commercio 
+2026-09-20 12:07:26,438 [INFO] LLM HTTP 429 for: Ho Chi Minh City propone di ampliare il commercio diretto di
+2026-09-20 12:07:26,438 [WARNING] LLM 429 — waiting 60s: Ho Chi Minh City propone di ampliare il commercio 
+2026-09-20 12:08:26,439 [WARNING] LLM returned None — skipping: Ho Chi Minh City propone di ampliare il commercio diretto di
+2026-09-20 12:08:26,439 [INFO] Run complete. New deals: 0, Updates: 0
+2026-09-20 12:08:26,451 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1423 deals)
+2026-09-20 12:08:28,218 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
