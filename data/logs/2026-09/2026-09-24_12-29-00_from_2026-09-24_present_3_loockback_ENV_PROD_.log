@@ -1,0 +1,406 @@
+2026-09-24 12:29:00,691 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-09-24 12:29:00,695 [INFO] Loaded 1518 existing deals for dedup matching
+2026-09-24 12:29:00,695 [INFO] Searching from 2026-09-24 to present with 3 loockback days
+2026-09-24 12:29:00,828 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-09-24 12:29:01,957 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-09-24 12:29:03,098 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-09-24 12:29:04,562 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-09-24&hl=en&gl=US&ceid=US:en: 15 results
+2026-09-24 12:29:06,877 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-09-24&hl=en&gl=US&ceid=US:en: 5 results
+2026-09-24 12:29:09,145 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-09-24&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-09-24 12:29:11,404 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-09-24&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-09-24 12:29:13,696 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-09-24&hl=fr&gl=FR&ceid=FR:fr: 4 results
+2026-09-24 12:29:16,018 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-09-24&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-09-24 12:29:18,329 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-09-24&hl=es&gl=ES&ceid=ES:es: 6 results
+2026-09-24 12:29:20,700 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-09-24&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-09-24 12:29:22,997 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-09-24&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-09-24 12:29:25,237 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-09-24&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-09-24 12:29:27,532 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-09-24&hl=pl&gl=PL&ceid=PL:pl: 2 results
+2026-09-24 12:29:29,781 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-09-24&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-24 12:29:32,069 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-09-24&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-24 12:29:34,441 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-09-24&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-09-24 12:29:36,751 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-09-24&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-09-24 12:29:38,752 [INFO] Total raw articles collected: 37
+2026-09-24 12:29:39,247 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-09-24 12:29:40,925 [INFO] Extra RSS [elperiodicodelaenergia.com]: 1 results
+2026-09-24 12:29:41,931 [INFO] Unique unseen articles: 33
+2026-09-24 12:29:41,931 [INFO] ------- Processing article n. 0: Danish energy trader makes entry into offshore wind through Skyborn deal - Baird -------
+2026-09-24 12:29:42,290 [INFO] Resolved Google News URL: https://www.bairdmaritime.com/offshore/renewables/offshore-wind/danish-energy-tr
+2026-09-24 12:29:42,290 [INFO] URL: https://www.bairdmaritime.com/offshore/renewables/offshore-wind/danish-energy-trader-makes-entry-into-offshore-wind-through-skyborn-deal
+2026-09-24 12:29:42,667 [INFO] Text length: 1494 chars | source: full
+2026-09-24 12:29:42,667 [INFO] Text preview: Danish energy trader InCommodites, backed by Goldman Sachs, has signed its first power purchase agreement for production from an offshore wind farm with BlackRock-backed Skyborn Renewables, it said on...
+2026-09-24 12:29:42,885 [INFO] LLM HTTP 429 for: Danish energy trader makes entry into offshore wind through 
+2026-09-24 12:29:42,886 [WARNING] LLM 429 — waiting 60s: Danish energy trader makes entry into offshore win
+2026-09-24 12:30:43,125 [INFO] LLM HTTP 429 for: Danish energy trader makes entry into offshore wind through 
+2026-09-24 12:30:43,125 [WARNING] LLM 429 — waiting 60s: Danish energy trader makes entry into offshore win
+2026-09-24 12:31:43,126 [WARNING] LLM returned None — skipping: Danish energy trader makes entry into offshore wind through 
+2026-09-24 12:31:43,126 [INFO] ------- Processing article n. 0: InCommodities Sings Offshore Wind PPA with Skyborn Renewables - Offshore Enginee -------
+2026-09-24 12:31:43,468 [INFO] Resolved Google News URL: https://www.oedigital.com/amp/news/543230-incommodities-sings-offshore-wind-ppa-
+2026-09-24 12:31:43,468 [INFO] URL: https://www.oedigital.com/amp/news/543230-incommodities-sings-offshore-wind-ppa-with-skyborn-renewables
+2026-09-24 12:31:43,658 [INFO] Text length: 2184 chars | source: full
+2026-09-24 12:31:43,658 [INFO] Text preview: Skyborn Renewables has signed a power purchase agreement (PPA) with Danish energy trader InCommodities Asset Management covering the 110.7 MW Nordergründe offshore wind farm in Germany.
+Under the agre...
+2026-09-24 12:31:43,876 [INFO] LLM HTTP 429 for: InCommodities Sings Offshore Wind PPA with Skyborn Renewable
+2026-09-24 12:31:43,876 [WARNING] LLM 429 — waiting 60s: InCommodities Sings Offshore Wind PPA with Skyborn
+2026-09-24 12:32:44,107 [INFO] LLM HTTP 429 for: InCommodities Sings Offshore Wind PPA with Skyborn Renewable
+2026-09-24 12:32:44,107 [WARNING] LLM 429 — waiting 60s: InCommodities Sings Offshore Wind PPA with Skyborn
+2026-09-24 12:33:44,107 [WARNING] LLM returned None — skipping: InCommodities Sings Offshore Wind PPA with Skyborn Renewable
+2026-09-24 12:33:44,107 [INFO] ------- Processing article n. 0: InCommodities signs first PPA for German Nordergründe wind farm - EnergyWatch -------
+2026-09-24 12:33:44,502 [INFO] Resolved Google News URL: https://energywatch.com/EnergyNews/wind/article19674013.ece
+2026-09-24 12:33:44,502 [INFO] URL: https://energywatch.com/EnergyNews/wind/article19674013.ece
+2026-09-24 12:33:45,684 [WARNING] discarding data: https://energywatch.com/EnergyNews/wind/article19674013.ece
+2026-09-24 12:33:45,685 [INFO] Full text extraction empty: https://energywatch.com/EnergyNews/wind/article19674013.ece
+2026-09-24 12:33:45,685 [INFO] Text length: 167 chars | source: fallback
+2026-09-24 12:33:45,685 [INFO] Text preview: InCommodities signs first PPA for German Nordergründe wind farm - EnergyWatch
+
+InCommodities signs first PPA for German Nordergründe wind farm &nbsp;&nbsp; EnergyWatch...
+2026-09-24 12:33:46,014 [INFO] LLM HTTP 429 for: InCommodities signs first PPA for German Nordergründe wind f
+2026-09-24 12:33:46,015 [WARNING] LLM 429 — waiting 60s: InCommodities signs first PPA for German Nordergrü
+2026-09-24 12:34:46,250 [INFO] LLM HTTP 429 for: InCommodities signs first PPA for German Nordergründe wind f
+2026-09-24 12:34:46,250 [WARNING] LLM 429 — waiting 60s: InCommodities signs first PPA for German Nordergrü
+2026-09-24 12:35:46,250 [WARNING] LLM returned None — skipping: InCommodities signs first PPA for German Nordergründe wind f
+2026-09-24 12:35:46,251 [INFO] ------- Processing article n. 0: Meeting Data Center Power Demand: Solar, Nuclear, and Beyond - Off Grid Energy I -------
+2026-09-24 12:35:46,605 [INFO] Resolved Google News URL: https://www.offgridenergyindependence.com/articles/35330/meeting-data-center-pow
+2026-09-24 12:35:46,605 [INFO] URL: https://www.offgridenergyindependence.com/articles/35330/meeting-data-center-power-demand-solar-nuclear-and-beyond
+2026-09-24 12:35:46,968 [INFO] Text length: 5567 chars | source: full
+2026-09-24 12:35:46,969 [INFO] Text preview: Globally, most of the electricity used by data centers comes from fossil fuels. While data center hyperscalers have long been offsetting this with market-based RECs (renewable energy certificates) and...
+2026-09-24 12:35:47,182 [INFO] LLM HTTP 429 for: Meeting Data Center Power Demand: Solar, Nuclear, and Beyond
+2026-09-24 12:35:47,182 [WARNING] LLM 429 — waiting 60s: Meeting Data Center Power Demand: Solar, Nuclear, 
+2026-09-24 12:36:47,398 [INFO] LLM HTTP 429 for: Meeting Data Center Power Demand: Solar, Nuclear, and Beyond
+2026-09-24 12:36:47,399 [WARNING] LLM 429 — waiting 60s: Meeting Data Center Power Demand: Solar, Nuclear, 
+2026-09-24 12:37:47,399 [WARNING] LLM returned None — skipping: Meeting Data Center Power Demand: Solar, Nuclear, and Beyond
+2026-09-24 12:37:47,399 [INFO] ------- Processing article n. 0: Nadara completes 227 MW Big Fish, Italy’s largest agrivoltaic plant - Review Ene -------
+2026-09-24 12:37:47,782 [INFO] Resolved Google News URL: https://www.review-energy.com/solar/nadara-completes-227-mw-big-fish-italy-s-lar
+2026-09-24 12:37:47,783 [INFO] URL: https://www.review-energy.com/solar/nadara-completes-227-mw-big-fish-italy-s-largest-agrivoltaic-plant
+2026-09-24 12:37:48,626 [INFO] Text length: 2777 chars | source: full
+2026-09-24 12:37:48,626 [INFO] Text preview: Nadara has completed Big Fish, a 227 MW agrivoltaic project in Sicily that the company describes as Italy’s largest agrivoltaic plant. The project, located near Catania, was developed with the support...
+2026-09-24 12:37:48,885 [INFO] LLM HTTP 429 for: Nadara completes 227 MW Big Fish, Italy’s largest agrivoltai
+2026-09-24 12:37:48,885 [WARNING] LLM 429 — waiting 60s: Nadara completes 227 MW Big Fish, Italy’s largest 
+2026-09-24 12:38:49,106 [INFO] LLM HTTP 429 for: Nadara completes 227 MW Big Fish, Italy’s largest agrivoltai
+2026-09-24 12:38:49,106 [WARNING] LLM 429 — waiting 60s: Nadara completes 227 MW Big Fish, Italy’s largest 
+2026-09-24 12:39:49,107 [WARNING] LLM returned None — skipping: Nadara completes 227 MW Big Fish, Italy’s largest agrivoltai
+2026-09-24 12:39:49,107 [INFO] ------- Processing article n. 0: Skyborn, InCommodities sign PPA for 111 MW of German offshore wind - Renewables  -------
+2026-09-24 12:39:49,466 [INFO] Resolved Google News URL: https://renewablesnow.com/news/skyborn-incommodities-sign-ppa-for-111-mw-of-germ
+2026-09-24 12:39:49,466 [INFO] URL: https://renewablesnow.com/news/skyborn-incommodities-sign-ppa-for-111-mw-of-german-offshore-wind-1301784/
+2026-09-24 12:39:49,580 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/skyborn-incommodities-sign-ppa-for-111-mw-of-germ
+2026-09-24 12:39:49,580 [INFO] Text length: 179 chars | source: fallback
+2026-09-24 12:39:49,580 [INFO] Text preview: Skyborn, InCommodities sign PPA for 111 MW of German offshore wind - Renewables Now
+
+Skyborn, InCommodities sign PPA for 111 MW of German offshore wind &nbsp;&nbsp; Renewables Now...
+2026-09-24 12:39:49,828 [INFO] LLM HTTP 429 for: Skyborn, InCommodities sign PPA for 111 MW of German offshor
+2026-09-24 12:39:49,828 [WARNING] LLM 429 — waiting 60s: Skyborn, InCommodities sign PPA for 111 MW of Germ
+2026-09-24 12:40:50,042 [INFO] LLM HTTP 429 for: Skyborn, InCommodities sign PPA for 111 MW of German offshor
+2026-09-24 12:40:50,042 [WARNING] LLM 429 — waiting 60s: Skyborn, InCommodities sign PPA for 111 MW of Germ
+2026-09-24 12:41:50,043 [WARNING] LLM returned None — skipping: Skyborn, InCommodities sign PPA for 111 MW of German offshor
+2026-09-24 12:41:50,043 [INFO] ------- Processing article n. 0: The EU has given itself six years to build an emissions credit market from scrat -------
+2026-09-24 12:41:50,454 [INFO] Resolved Google News URL: https://www.pubaffairsbruxelles.eu/opinion-analysis/the-eu-has-given-itself-six-
+2026-09-24 12:41:50,454 [INFO] URL: https://www.pubaffairsbruxelles.eu/opinion-analysis/the-eu-has-given-itself-six-years-to-build-an-emissions-credit-market-from-scratch/
+2026-09-24 12:41:51,139 [INFO] Text length: 6784 chars | source: full
+2026-09-24 12:41:51,139 [INFO] Text preview: International credits, shut out of the EU’s carbon market since 2020, are back. Under Article 6 of the Paris Agreement, they allow a country to count emissions cuts made abroad towards its own target,...
+2026-09-24 12:41:51,427 [INFO] LLM HTTP 429 for: The EU has given itself six years to build an emissions cred
+2026-09-24 12:41:51,427 [WARNING] LLM 429 — waiting 60s: The EU has given itself six years to build an emis
+2026-09-24 12:42:51,769 [INFO] LLM HTTP 429 for: The EU has given itself six years to build an emissions cred
+2026-09-24 12:42:51,769 [WARNING] LLM 429 — waiting 60s: The EU has given itself six years to build an emis
+2026-09-24 12:43:51,770 [WARNING] LLM returned None — skipping: The EU has given itself six years to build an emissions cred
+2026-09-24 12:43:51,770 [INFO] ------- Processing article n. 0: GE Vernova, Hitachi, and Samsung Are Bringing Small Modular Reactors to Europe - -------
+2026-09-24 12:43:52,122 [INFO] Resolved Google News URL: https://www.fool.com/investing/2026/09/24/ge-vernova-hitachi-and-samsung-are-bri
+2026-09-24 12:43:52,122 [INFO] URL: https://www.fool.com/investing/2026/09/24/ge-vernova-hitachi-and-samsung-are-bringing-small-modular-reactors-to-europe/
+2026-09-24 12:43:52,376 [INFO] Text length: 4333 chars | source: full
+2026-09-24 12:43:52,377 [INFO] Text preview: Is Europe about to go all in on nuclear power?
+Probably not, but the rapidly reemerging form of clean energy generation just received a significant boost. Representatives from global engineering compa...
+2026-09-24 12:43:52,758 [INFO] LLM HTTP 429 for: GE Vernova, Hitachi, and Samsung Are Bringing Small Modular 
+2026-09-24 12:43:52,758 [WARNING] LLM 429 — waiting 60s: GE Vernova, Hitachi, and Samsung Are Bringing Smal
+2026-09-24 12:44:53,034 [INFO] LLM HTTP 429 for: GE Vernova, Hitachi, and Samsung Are Bringing Small Modular 
+2026-09-24 12:44:53,034 [WARNING] LLM 429 — waiting 60s: GE Vernova, Hitachi, and Samsung Are Bringing Smal
+2026-09-24 12:45:53,034 [WARNING] LLM returned None — skipping: GE Vernova, Hitachi, and Samsung Are Bringing Small Modular 
+2026-09-24 12:45:53,034 [INFO] ------- Processing article n. 0: Inside VIRTUS' £2.45bn Data Centre Financing Deal - Data Centre Magazine -------
+2026-09-24 12:45:53,349 [INFO] Resolved Google News URL: https://datacentremagazine.com/news/inside-virtus-2-45bn-data-centre-financing-d
+2026-09-24 12:45:53,350 [INFO] URL: https://datacentremagazine.com/news/inside-virtus-2-45bn-data-centre-financing-deal
+2026-09-24 12:45:53,683 [INFO] Text length: 3648 chars | source: full
+2026-09-24 12:45:53,683 [INFO] Text preview: VIRTUS Data Centres has closed a £2.45bn (US$3.24bn) financing package, marking one of the largest data centre bank financings completed in the UK to date.
+The deal, agreed with a consortium of 13 ban...
+2026-09-24 12:45:54,018 [INFO] LLM HTTP 429 for: Inside VIRTUS' £2.45bn Data Centre Financing Deal - Data Cen
+2026-09-24 12:45:54,018 [WARNING] LLM 429 — waiting 60s: Inside VIRTUS' £2.45bn Data Centre Financing Deal 
+2026-09-24 12:46:54,283 [INFO] LLM HTTP 429 for: Inside VIRTUS' £2.45bn Data Centre Financing Deal - Data Cen
+2026-09-24 12:46:54,283 [WARNING] LLM 429 — waiting 60s: Inside VIRTUS' £2.45bn Data Centre Financing Deal 
+2026-09-24 12:47:54,283 [WARNING] LLM returned None — skipping: Inside VIRTUS' £2.45bn Data Centre Financing Deal - Data Cen
+2026-09-24 12:47:54,283 [INFO] ------- Processing article n. 0: Germany Presses US to Allow PAC-3 Patriot Missile Production in Europe. - ubn.ne -------
+2026-09-24 12:47:54,641 [INFO] Resolved Google News URL: https://ubn.news/germany-presses-us-to-allow-pac-3-patriot-missile-production-in
+2026-09-24 12:47:54,641 [INFO] URL: https://ubn.news/germany-presses-us-to-allow-pac-3-patriot-missile-production-in-europe/
+2026-09-24 12:47:54,909 [INFO] Full text skipped (status 403): https://ubn.news/germany-presses-us-to-allow-pac-3-patriot-missile-production-in
+2026-09-24 12:47:54,909 [INFO] Text length: 177 chars | source: fallback
+2026-09-24 12:47:54,910 [INFO] Text preview: Germany Presses US to Allow PAC-3 Patriot Missile Production in Europe. - ubn.news
+
+Germany Presses US to Allow PAC-3 Patriot Missile Production in Europe. &nbsp;&nbsp; ubn.news...
+2026-09-24 12:47:55,159 [INFO] LLM HTTP 429 for: Germany Presses US to Allow PAC-3 Patriot Missile Production
+2026-09-24 12:47:55,159 [WARNING] LLM 429 — waiting 60s: Germany Presses US to Allow PAC-3 Patriot Missile 
+2026-09-24 12:48:55,369 [INFO] LLM HTTP 429 for: Germany Presses US to Allow PAC-3 Patriot Missile Production
+2026-09-24 12:48:55,369 [WARNING] LLM 429 — waiting 60s: Germany Presses US to Allow PAC-3 Patriot Missile 
+2026-09-24 12:49:55,369 [WARNING] LLM returned None — skipping: Germany Presses US to Allow PAC-3 Patriot Missile Production
+2026-09-24 12:49:55,369 [INFO] ------- Processing article n. 0: FS Logistix: Greenbrier Europe to produce the NIK handling system for TX Logisti -------
+2026-09-24 12:49:55,730 [INFO] Resolved Google News URL: https://www.railwaypro.com/wp/fs-logistix-greenbrier-europe-to-produce-nik-for-t
+2026-09-24 12:49:55,730 [INFO] URL: https://www.railwaypro.com/wp/fs-logistix-greenbrier-europe-to-produce-nik-for-tx-logistik/
+2026-09-24 12:49:56,961 [INFO] Text length: 2895 chars | source: full
+2026-09-24 12:49:56,961 [INFO] Text preview: Cooperation agreement signed at the Innotrans trade fair
+Troisdorf/Berlin, 23 September 2026 – TX Logistik AG, a company of FS Logistix, and Greenbrier Europe, part of The Greenbrier Companies, a glob...
+2026-09-24 12:49:57,245 [INFO] LLM HTTP 429 for: FS Logistix: Greenbrier Europe to produce the NIK handling s
+2026-09-24 12:49:57,245 [WARNING] LLM 429 — waiting 60s: FS Logistix: Greenbrier Europe to produce the NIK 
+2026-09-24 12:50:57,473 [INFO] LLM HTTP 429 for: FS Logistix: Greenbrier Europe to produce the NIK handling s
+2026-09-24 12:50:57,473 [WARNING] LLM 429 — waiting 60s: FS Logistix: Greenbrier Europe to produce the NIK 
+2026-09-24 12:51:57,474 [WARNING] LLM returned None — skipping: FS Logistix: Greenbrier Europe to produce the NIK handling s
+2026-09-24 12:51:57,474 [INFO] ------- Processing article n. 0: Data centres to get energy label as EU seeks to curb growing electricity and wat -------
+2026-09-24 12:51:57,868 [INFO] Resolved Google News URL: https://oenergetice.cz/en/european-union/data-centres-to-get-energy-label-as-eu-
+2026-09-24 12:51:57,868 [INFO] URL: https://oenergetice.cz/en/european-union/data-centres-to-get-energy-label-as-eu-seeks-to-curb-growing-electricity-and-water-demand
+2026-09-24 12:51:59,803 [INFO] Text length: 6729 chars | source: full
+2026-09-24 12:51:59,803 [INFO] Text preview: Data centres to get energy label as EU seeks to curb growing electricity and water demand
+The European Commission is introducing a new rating system for data centres. Data centres with installed capac...
+2026-09-24 12:52:00,085 [INFO] LLM HTTP 429 for: Data centres to get energy label as EU seeks to curb growing
+2026-09-24 12:52:00,085 [WARNING] LLM 429 — waiting 60s: Data centres to get energy label as EU seeks to cu
+2026-09-24 12:53:00,371 [INFO] LLM HTTP 429 for: Data centres to get energy label as EU seeks to curb growing
+2026-09-24 12:53:00,371 [WARNING] LLM 429 — waiting 60s: Data centres to get energy label as EU seeks to cu
+2026-09-24 12:54:00,372 [WARNING] LLM returned None — skipping: Data centres to get energy label as EU seeks to curb growing
+2026-09-24 12:54:00,372 [INFO] ------- Processing article n. 0: Canary Wharf locks in a decade of cleaner energy - Trending Now Sustainable Cons -------
+2026-09-24 12:54:00,721 [INFO] Resolved Google News URL: https://www.sustainableconstruction-now.com/article/550130/canary-wharf-locks-in
+2026-09-24 12:54:00,721 [INFO] URL: https://www.sustainableconstruction-now.com/article/550130/canary-wharf-locks-in-a-decade-of-cleaner-energy?utm_source=renewableenergy&utm_medium=newsfeed&utm_campaign=renewableenergy-articleId-550130
+2026-09-24 12:54:00,913 [WARNING] discarding data: https://www.sustainableconstruction-now.com/article/550130/canary-wharf-locks-in-a-decade-of-cleaner-energy?utm_source=renewableenergy&utm_medium=newsfeed&utm_campaign=renewableenergy-articleId-550130
+2026-09-24 12:54:00,913 [INFO] Full text extraction empty: https://www.sustainableconstruction-now.com/article/550130/canary-wharf-locks-in
+2026-09-24 12:54:00,914 [INFO] Text length: 189 chars | source: fallback
+2026-09-24 12:54:00,914 [INFO] Text preview: Canary Wharf locks in a decade of cleaner energy - Trending Now Sustainable Construction
+
+Canary Wharf locks in a decade of cleaner energy &nbsp;&nbsp; Trending Now Sustainable Construction...
+2026-09-24 12:54:01,152 [INFO] LLM HTTP 429 for: Canary Wharf locks in a decade of cleaner energy - Trending 
+2026-09-24 12:54:01,152 [WARNING] LLM 429 — waiting 60s: Canary Wharf locks in a decade of cleaner energy -
+2026-09-24 12:55:01,377 [INFO] LLM HTTP 429 for: Canary Wharf locks in a decade of cleaner energy - Trending 
+2026-09-24 12:55:01,377 [WARNING] LLM 429 — waiting 60s: Canary Wharf locks in a decade of cleaner energy -
+2026-09-24 12:56:01,377 [WARNING] LLM returned None — skipping: Canary Wharf locks in a decade of cleaner energy - Trending 
+2026-09-24 12:56:01,378 [INFO] ------- Processing article n. 0: Tepic: Keep Evidence of Forced Property Sales - srpske.rs -------
+2026-09-24 12:56:01,751 [INFO] Resolved Google News URL: https://srpske.rs/en/news/politika/2026/09/24/tepic-keep-evidence-forced-propert
+2026-09-24 12:56:01,751 [INFO] URL: https://srpske.rs/en/news/politika/2026/09/24/tepic-keep-evidence-forced-property-sales
+2026-09-24 12:56:02,149 [INFO] Text length: 3004 chars | source: full
+2026-09-24 12:56:02,149 [INFO] Text preview: Marinika Tepic, one of the leaders of the European Serbia election list, called today, September 24, on all citizens and business owners who were forced under pressure, blackmail and threats to sell c...
+2026-09-24 12:56:02,389 [INFO] LLM HTTP 429 for: Tepic: Keep Evidence of Forced Property Sales - srpske.rs
+2026-09-24 12:56:02,389 [WARNING] LLM 429 — waiting 60s: Tepic: Keep Evidence of Forced Property Sales - sr
+2026-09-24 12:57:02,636 [INFO] LLM HTTP 429 for: Tepic: Keep Evidence of Forced Property Sales - srpske.rs
+2026-09-24 12:57:02,636 [WARNING] LLM 429 — waiting 60s: Tepic: Keep Evidence of Forced Property Sales - sr
+2026-09-24 12:58:02,636 [WARNING] LLM returned None — skipping: Tepic: Keep Evidence of Forced Property Sales - srpske.rs
+2026-09-24 12:58:02,636 [INFO] ------- Processing article n. 0: Business News | India Can Emerge as Competitive Green Hydrogen and Ammonia Expor -------
+2026-09-24 12:58:03,030 [INFO] Resolved Google News URL: https://www.latestly.com/agency-news/business-news-india-can-emerge-as-competiti
+2026-09-24 12:58:03,030 [INFO] URL: https://www.latestly.com/agency-news/business-news-india-can-emerge-as-competitive-green-hydrogen-and-ammonia-exporter-sp-global-energy-7618685.html
+2026-09-24 12:58:03,273 [INFO] Full text skipped (status 403): https://www.latestly.com/agency-news/business-news-india-can-emerge-as-competiti
+2026-09-24 12:58:03,273 [INFO] Text length: 239 chars | source: fallback
+2026-09-24 12:58:03,274 [INFO] Text preview: Business News | India Can Emerge as Competitive Green Hydrogen and Ammonia Exporter: S&P Global Energy - LatestLY
+
+Business News | India Can Emerge as Competitive Green Hydrogen and Ammonia Exporter: ...
+2026-09-24 12:58:03,580 [INFO] LLM HTTP 429 for: Business News | India Can Emerge as Competitive Green Hydrog
+2026-09-24 12:58:03,581 [WARNING] LLM 429 — waiting 60s: Business News | India Can Emerge as Competitive Gr
+2026-09-24 12:59:03,879 [INFO] LLM HTTP 429 for: Business News | India Can Emerge as Competitive Green Hydrog
+2026-09-24 12:59:03,879 [WARNING] LLM 429 — waiting 60s: Business News | India Can Emerge as Competitive Gr
+2026-09-24 13:00:03,880 [WARNING] LLM returned None — skipping: Business News | India Can Emerge as Competitive Green Hydrog
+2026-09-24 13:00:03,880 [INFO] ------- Processing article n. 0: InCommodities Sings Offshore Wind PPA with Skyborn Renewables - Offshore Enginee -------
+2026-09-24 13:00:04,217 [INFO] Resolved Google News URL: https://www.oedigital.com/news/543230-incommodities-sings-offshore-wind-ppa-with
+2026-09-24 13:00:04,217 [INFO] URL: https://www.oedigital.com/news/543230-incommodities-sings-offshore-wind-ppa-with-skyborn-renewables
+2026-09-24 13:00:04,486 [INFO] Text length: 2184 chars | source: full
+2026-09-24 13:00:04,486 [INFO] Text preview: Skyborn Renewables has signed a power purchase agreement (PPA) with Danish energy trader InCommodities Asset Management covering the 110.7 MW Nordergründe offshore wind farm in Germany.
+Under the agre...
+2026-09-24 13:00:04,766 [INFO] LLM HTTP 429 for: InCommodities Sings Offshore Wind PPA with Skyborn Renewable
+2026-09-24 13:00:04,766 [WARNING] LLM 429 — waiting 60s: InCommodities Sings Offshore Wind PPA with Skyborn
+2026-09-24 13:01:05,039 [INFO] LLM HTTP 429 for: InCommodities Sings Offshore Wind PPA with Skyborn Renewable
+2026-09-24 13:01:05,039 [WARNING] LLM 429 — waiting 60s: InCommodities Sings Offshore Wind PPA with Skyborn
+2026-09-24 13:02:05,040 [WARNING] LLM returned None — skipping: InCommodities Sings Offshore Wind PPA with Skyborn Renewable
+2026-09-24 13:02:05,040 [INFO] ------- Processing article n. 0: Libyen-Ägypten-Abkommen zur Entwicklung des Stromnetzes und von Projekten im Ber -------
+2026-09-24 13:02:05,526 [INFO] Resolved Google News URL: https://www.agenzianova.com/de/news/Libyen-%C3%84gypten-Abkommen-zur-Entwicklung
+2026-09-24 13:02:05,526 [INFO] URL: https://www.agenzianova.com/de/news/Libyen-%C3%84gypten-Abkommen-zur-Entwicklung-des-Stromnetzes-und-von-Projekten-im-Bereich-erneuerbarer-Energien/
+2026-09-24 13:02:05,713 [INFO] Full text skipped (status 403): https://www.agenzianova.com/de/news/Libyen-%C3%84gypten-Abkommen-zur-Entwicklung
+2026-09-24 13:02:05,714 [INFO] Text length: 255 chars | source: fallback
+2026-09-24 13:02:05,714 [INFO] Text preview: Libyen-Ägypten-Abkommen zur Entwicklung des Stromnetzes und von Projekten im Bereich erneuerbarer Energien - Agenzia Nova
+
+Libyen-Ägypten-Abkommen zur Entwicklung des Stromnetzes und von Projekten im ...
+2026-09-24 13:02:06,117 [INFO] LLM HTTP 429 for: Libyen-Ägypten-Abkommen zur Entwicklung des Stromnetzes und 
+2026-09-24 13:02:06,118 [WARNING] LLM 429 — waiting 60s: Libyen-Ägypten-Abkommen zur Entwicklung des Stromn
+2026-09-24 13:03:06,378 [INFO] LLM HTTP 429 for: Libyen-Ägypten-Abkommen zur Entwicklung des Stromnetzes und 
+2026-09-24 13:03:06,378 [WARNING] LLM 429 — waiting 60s: Libyen-Ägypten-Abkommen zur Entwicklung des Stromn
+2026-09-24 13:04:06,379 [WARNING] LLM returned None — skipping: Libyen-Ägypten-Abkommen zur Entwicklung des Stromnetzes und 
+2026-09-24 13:04:06,379 [INFO] ------- Processing article n. 0: Digitale Stromdienstleistungen näher an die Kunden bringen. - vietnam.vn -------
+2026-09-24 13:04:06,744 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/dua-dich-vu-dien-so-den-gan-khach-hang
+2026-09-24 13:04:06,744 [INFO] URL: https://www.vietnam.vn/de/dua-dich-vu-dien-so-den-gan-khach-hang
+2026-09-24 13:04:18,942 [INFO] Text length: 5767 chars | source: full
+2026-09-24 13:04:18,942 [INFO] Text preview: Die digitale Transformation im Kundenservice ist erst dann wirklich sinnvoll, wenn die Technologie die Nutzer erreicht. Daher konzentrierte sich die Thanh Hoa Power Company (CTĐL Thanh Hoa) unmittelba...
+2026-09-24 13:04:19,219 [INFO] LLM HTTP 429 for: Digitale Stromdienstleistungen näher an die Kunden bringen. 
+2026-09-24 13:04:19,219 [WARNING] LLM 429 — waiting 60s: Digitale Stromdienstleistungen näher an die Kunden
+2026-09-24 13:05:19,431 [INFO] LLM HTTP 429 for: Digitale Stromdienstleistungen näher an die Kunden bringen. 
+2026-09-24 13:05:19,432 [WARNING] LLM 429 — waiting 60s: Digitale Stromdienstleistungen näher an die Kunden
+2026-09-24 13:06:19,432 [WARNING] LLM returned None — skipping: Digitale Stromdienstleistungen näher an die Kunden bringen. 
+2026-09-24 13:06:19,432 [INFO] ------- Processing article n. 0: Nava Limited met en service un projet solaire de 100 MW en Zambie - IndexBox -------
+2026-09-24 13:06:19,772 [INFO] Resolved Google News URL: https://www.indexbox.io/fr/blog/nava-limited-commissions-100-mw-solar-project-in
+2026-09-24 13:06:19,773 [INFO] URL: https://www.indexbox.io/fr/blog/nava-limited-commissions-100-mw-solar-project-in-zambia/
+2026-09-24 13:06:20,181 [INFO] Text length: 2641 chars | source: full
+2026-09-24 13:06:20,181 [INFO] Text preview: Nava Limited met en service un projet solaire de 100 MW en Zambie
+Nava Limited, un conglomérat indien, a confirmé qu'une installation solaire de 100 MW en Zambie a été mise en service.
+L'installation ...
+2026-09-24 13:06:20,421 [INFO] LLM HTTP 429 for: Nava Limited met en service un projet solaire de 100 MW en Z
+2026-09-24 13:06:20,421 [WARNING] LLM 429 — waiting 60s: Nava Limited met en service un projet solaire de 1
+2026-09-24 13:07:20,706 [INFO] LLM HTTP 429 for: Nava Limited met en service un projet solaire de 100 MW en Z
+2026-09-24 13:07:20,707 [WARNING] LLM 429 — waiting 60s: Nava Limited met en service un projet solaire de 1
+2026-09-24 13:08:20,707 [WARNING] LLM returned None — skipping: Nava Limited met en service un projet solaire de 100 MW en Z
+2026-09-24 13:08:20,707 [INFO] ------- Processing article n. 0: Pourquoi l’action Fervo Energy s’envole-t-elle aujourd’hui ? - Investing.com Fra -------
+2026-09-24 13:08:21,091 [INFO] Resolved Google News URL: https://fr.investing.com/news/stock-market-news/pourquoi-laction-fervo-energy-se
+2026-09-24 13:08:21,091 [INFO] URL: https://fr.investing.com/news/stock-market-news/pourquoi-laction-fervo-energy-senvoletelle-aujourdhui--93CH-3608056
+2026-09-24 13:08:21,190 [INFO] Full text skipped (status 403): https://fr.investing.com/news/stock-market-news/pourquoi-laction-fervo-energy-se
+2026-09-24 13:08:21,190 [INFO] Text length: 179 chars | source: fallback
+2026-09-24 13:08:21,190 [INFO] Text preview: Pourquoi l’action Fervo Energy s’envole-t-elle aujourd’hui ? - Investing.com France
+
+Pourquoi l’action Fervo Energy s’envole-t-elle aujourd’hui ? &nbsp;&nbsp; Investing.com France...
+2026-09-24 13:08:21,435 [INFO] LLM HTTP 429 for: Pourquoi l’action Fervo Energy s’envole-t-elle aujourd’hui ?
+2026-09-24 13:08:21,435 [WARNING] LLM 429 — waiting 60s: Pourquoi l’action Fervo Energy s’envole-t-elle auj
+2026-09-24 13:09:21,643 [INFO] LLM HTTP 429 for: Pourquoi l’action Fervo Energy s’envole-t-elle aujourd’hui ?
+2026-09-24 13:09:21,643 [WARNING] LLM 429 — waiting 60s: Pourquoi l’action Fervo Energy s’envole-t-elle auj
+2026-09-24 13:10:21,644 [WARNING] LLM returned None — skipping: Pourquoi l’action Fervo Energy s’envole-t-elle aujourd’hui ?
+2026-09-24 13:10:21,644 [INFO] ------- Processing article n. 0: Uniper réserve 40 000 tonnes d'eSAF par an au projet danois ENDOR - energynews.p -------
+2026-09-24 13:10:22,017 [INFO] Resolved Google News URL: https://energynews.pro/uniper-reserve-40-000-tonnes-desaf-par-an-au-projet-danoi
+2026-09-24 13:10:22,017 [INFO] URL: https://energynews.pro/uniper-reserve-40-000-tonnes-desaf-par-an-au-projet-danois-endor
+2026-09-24 13:10:22,780 [INFO] Text length: 3102 chars | source: full
+2026-09-24 13:10:22,780 [INFO] Text preview: Uniper has signed a long-term purchase agreement with Arcadia eFuels covering the future production of synthetic aviation fuel (eSAF) from the ENDOR project, located in Vordingborg, Denmark. The agree...
+2026-09-24 13:10:22,992 [INFO] LLM HTTP 429 for: Uniper réserve 40 000 tonnes d'eSAF par an au projet danois 
+2026-09-24 13:10:22,992 [WARNING] LLM 429 — waiting 60s: Uniper réserve 40 000 tonnes d'eSAF par an au proj
+2026-09-24 13:11:23,241 [INFO] LLM HTTP 429 for: Uniper réserve 40 000 tonnes d'eSAF par an au projet danois 
+2026-09-24 13:11:23,241 [WARNING] LLM 429 — waiting 60s: Uniper réserve 40 000 tonnes d'eSAF par an au proj
+2026-09-24 13:12:23,242 [WARNING] LLM returned None — skipping: Uniper réserve 40 000 tonnes d'eSAF par an au projet danois 
+2026-09-24 13:12:23,242 [INFO] ------- Processing article n. 0: Centrale thermique de Phu My : Objectif : augmenter la production d'électricité  -------
+2026-09-24 13:12:23,578 [INFO] Resolved Google News URL: https://www.vietnam.vn/fr/cong-ty-nhiet-dien-phu-my-no-luc-san-xuat-dien-cac-tha
+2026-09-24 13:12:23,578 [INFO] URL: https://www.vietnam.vn/fr/cong-ty-nhiet-dien-phu-my-no-luc-san-xuat-dien-cac-thang-cuoi-nam-2026
+2026-09-24 13:12:24,192 [INFO] Text length: 4376 chars | source: full
+2026-09-24 13:12:24,193 [INFO] Text preview: Le 21 septembre, M. Le Van Danh, directeur général de la Power Generation Corporation 3 (EVNGENCO3), accompagné de représentants des départements spécialisés de la société, a tenu une séance de travai...
+2026-09-24 13:12:24,411 [INFO] LLM HTTP 429 for: Centrale thermique de Phu My : Objectif : augmenter la produ
+2026-09-24 13:12:24,411 [WARNING] LLM 429 — waiting 60s: Centrale thermique de Phu My : Objectif : augmente
+2026-09-24 13:13:24,635 [INFO] LLM HTTP 429 for: Centrale thermique de Phu My : Objectif : augmenter la produ
+2026-09-24 13:13:24,635 [WARNING] LLM 429 — waiting 60s: Centrale thermique de Phu My : Objectif : augmente
+2026-09-24 13:14:24,635 [WARNING] LLM returned None — skipping: Centrale thermique de Phu My : Objectif : augmenter la produ
+2026-09-24 13:14:24,635 [INFO] ------- Processing article n. 0: Corea del Sur selecciona una planta de gas de USD $22.300 millones para cumplir  -------
+2026-09-24 13:14:24,976 [INFO] Resolved Google News URL: https://www.diariobitcoin.com/estados-unidos/corea-del-sur-selecciona-una-planta
+2026-09-24 13:14:24,976 [INFO] URL: https://www.diariobitcoin.com/estados-unidos/corea-del-sur-selecciona-una-planta-de-gas-de-usd-22-300-millones-para-cumplir-su-promesa-a-trump/
+2026-09-24 13:14:25,230 [INFO] Text length: 12383 chars | source: full
+2026-09-24 13:14:25,230 [INFO] Text preview: Corea del Sur ha seleccionado, según reportes, una planta de gas de USD $22.300 millones en Texas como primer proyecto de su promesa de inversión por USD $350.000 millones a Estados Unidos, aunque tod...
+2026-09-24 13:14:25,456 [INFO] LLM HTTP 429 for: Corea del Sur selecciona una planta de gas de USD $22.300 mi
+2026-09-24 13:14:25,456 [WARNING] LLM 429 — waiting 60s: Corea del Sur selecciona una planta de gas de USD 
+2026-09-24 13:15:25,672 [INFO] LLM HTTP 429 for: Corea del Sur selecciona una planta de gas de USD $22.300 mi
+2026-09-24 13:15:25,672 [WARNING] LLM 429 — waiting 60s: Corea del Sur selecciona una planta de gas de USD 
+2026-09-24 13:16:25,672 [WARNING] LLM returned None — skipping: Corea del Sur selecciona una planta de gas de USD $22.300 mi
+2026-09-24 13:16:25,672 [INFO] ------- Processing article n. 0: ¿Por qué se dispara hoy la acción de Fervo Energy? - Investing.com España -------
+2026-09-24 13:16:25,995 [INFO] Resolved Google News URL: https://es.investing.com/news/stock-market-news/por-que-se-dispara-hoy-la-accion
+2026-09-24 13:16:25,995 [INFO] URL: https://es.investing.com/news/stock-market-news/por-que-se-dispara-hoy-la-accion-de-fervo-energy-93CH-3847677
+2026-09-24 13:16:26,096 [INFO] Full text skipped (status 403): https://es.investing.com/news/stock-market-news/por-que-se-dispara-hoy-la-accion
+2026-09-24 13:16:26,096 [INFO] Text length: 159 chars | source: fallback
+2026-09-24 13:16:26,096 [INFO] Text preview: ¿Por qué se dispara hoy la acción de Fervo Energy? - Investing.com España
+
+¿Por qué se dispara hoy la acción de Fervo Energy? &nbsp;&nbsp; Investing.com España...
+2026-09-24 13:16:26,316 [INFO] LLM HTTP 429 for: ¿Por qué se dispara hoy la acción de Fervo Energy? - Investi
+2026-09-24 13:16:26,316 [WARNING] LLM 429 — waiting 60s: ¿Por qué se dispara hoy la acción de Fervo Energy?
+2026-09-24 13:17:26,702 [INFO] LLM HTTP 429 for: ¿Por qué se dispara hoy la acción de Fervo Energy? - Investi
+2026-09-24 13:17:26,702 [WARNING] LLM 429 — waiting 60s: ¿Por qué se dispara hoy la acción de Fervo Energy?
+2026-09-24 13:18:26,703 [WARNING] LLM returned None — skipping: ¿Por qué se dispara hoy la acción de Fervo Energy? - Investi
+2026-09-24 13:18:26,703 [INFO] ------- Processing article n. 0: Gremios de la ANDE acusan a Atome de presionar por una tarifa subsidiada - adndi -------
+2026-09-24 13:18:27,123 [INFO] Resolved Google News URL: https://www.adndigital.com.py/gremios-de-la-ande-acusan-a-atome-de-presionar-por
+2026-09-24 13:18:27,123 [INFO] URL: https://www.adndigital.com.py/gremios-de-la-ande-acusan-a-atome-de-presionar-por-una-tarifa-subsidiada/
+2026-09-24 13:18:27,341 [INFO] Text length: 2248 chars | source: full
+2026-09-24 13:18:27,341 [INFO] Text preview: ASUNCIÓN- Los principales gremios de la Administración Nacional de Electricidad (ANDE) cuestionaron la postura de la multinacional Atome PLC, que anunció un arbitraje internacional contra el Estado pa...
+2026-09-24 13:18:27,536 [INFO] LLM HTTP 429 for: Gremios de la ANDE acusan a Atome de presionar por una tarif
+2026-09-24 13:18:27,536 [WARNING] LLM 429 — waiting 60s: Gremios de la ANDE acusan a Atome de presionar por
+2026-09-24 13:19:27,763 [INFO] LLM HTTP 429 for: Gremios de la ANDE acusan a Atome de presionar por una tarif
+2026-09-24 13:19:27,763 [WARNING] LLM 429 — waiting 60s: Gremios de la ANDE acusan a Atome de presionar por
+2026-09-24 13:20:27,763 [WARNING] LLM returned None — skipping: Gremios de la ANDE acusan a Atome de presionar por una tarif
+2026-09-24 13:20:27,763 [INFO] ------- Processing article n. 0: Quintela acordó vender un parque solar capitalizado con $546 millones - prensali -------
+2026-09-24 13:20:28,121 [INFO] Resolved Google News URL: https://prensalibreonline.com.ar/economia/quintela-acordo-vender-un-parque-solar
+2026-09-24 13:20:28,121 [INFO] URL: https://prensalibreonline.com.ar/economia/quintela-acordo-vender-un-parque-solar-capitalizado-con-546-millones
+2026-09-24 13:20:40,376 [INFO] Full text fetch failed (HTTPSConnectionPool(host='prensalibreonline.com.ar', port=443): Read timed out. (read timeout=12)): https://prensalibreonline.com.ar/economia/quintela-acordo-vender-un-parque-solar
+2026-09-24 13:20:40,377 [INFO] Text length: 205 chars | source: fallback
+2026-09-24 13:20:40,377 [INFO] Text preview: Quintela acordó vender un parque solar capitalizado con $546 millones - prensalibreonline.com.ar
+
+Quintela acordó vender un parque solar capitalizado con $546 millones &nbsp;&nbsp; prensalibreonline.c...
+2026-09-24 13:20:40,610 [INFO] LLM HTTP 429 for: Quintela acordó vender un parque solar capitalizado con $546
+2026-09-24 13:20:40,610 [WARNING] LLM 429 — waiting 60s: Quintela acordó vender un parque solar capitalizad
+2026-09-24 13:21:40,843 [INFO] LLM HTTP 429 for: Quintela acordó vender un parque solar capitalizado con $546
+2026-09-24 13:21:40,843 [WARNING] LLM 429 — waiting 60s: Quintela acordó vender un parque solar capitalizad
+2026-09-24 13:22:40,843 [WARNING] LLM returned None — skipping: Quintela acordó vender un parque solar capitalizado con $546
+2026-09-24 13:22:40,844 [INFO] ------- Processing article n. 0: Gremios de la ANDE sostienen que Atome presiona por subsidio - ultimahora.com -------
+2026-09-24 13:22:41,197 [INFO] Resolved Google News URL: https://www.ultimahora.com/gremios-de-la-ande-sostienen-que-atome-presiona-por-s
+2026-09-24 13:22:41,197 [INFO] URL: https://www.ultimahora.com/gremios-de-la-ande-sostienen-que-atome-presiona-por-subsidio
+2026-09-24 13:22:41,909 [INFO] Text length: 2920 chars | source: full
+2026-09-24 13:22:41,909 [INFO] Text preview: Tras el sorpresivo anuncio de la multinacional Atome PLC de llevar al Estado paraguayo a un arbitraje internacional por cientos de millones de dólares, los principales gremios de la Administración Nac...
+2026-09-24 13:22:42,240 [INFO] LLM HTTP 429 for: Gremios de la ANDE sostienen que Atome presiona por subsidio
+2026-09-24 13:22:42,240 [WARNING] LLM 429 — waiting 60s: Gremios de la ANDE sostienen que Atome presiona po
+2026-09-24 13:23:42,609 [INFO] LLM HTTP 429 for: Gremios de la ANDE sostienen que Atome presiona por subsidio
+2026-09-24 13:23:42,610 [WARNING] LLM 429 — waiting 60s: Gremios de la ANDE sostienen que Atome presiona po
+2026-09-24 13:24:42,610 [WARNING] LLM returned None — skipping: Gremios de la ANDE sostienen que Atome presiona por subsidio
+2026-09-24 13:24:42,610 [INFO] ------- Processing article n. 0: Power Expectations acude ante Justicia: hace referido contra abogado que contact -------
+2026-09-24 13:24:43,045 [INFO] Resolved Google News URL: https://www.elnuevodia.com/noticias/locales/notas/power-expectations-acude-ante-
+2026-09-24 13:24:43,045 [INFO] URL: https://www.elnuevodia.com/noticias/locales/notas/power-expectations-acude-ante-justicia-hace-referido-contra-abogado-que-contacto-a-funcionarios-del-gobierno/
+2026-09-24 13:24:44,517 [INFO] Text length: 7382 chars | source: full
+2026-09-24 13:24:44,517 [INFO] Text preview: Basado en hechos que el periodista haya observado y verificado de primera mano, o en información verificada que proviene de fuentes bien informadas.
+Power Expectations acude ante Justicia: hace referi...
+2026-09-24 13:24:44,771 [INFO] LLM HTTP 429 for: Power Expectations acude ante Justicia: hace referido contra
+2026-09-24 13:24:44,771 [WARNING] LLM 429 — waiting 60s: Power Expectations acude ante Justicia: hace refer
+2026-09-24 13:25:45,078 [INFO] LLM HTTP 429 for: Power Expectations acude ante Justicia: hace referido contra
+2026-09-24 13:25:45,079 [WARNING] LLM 429 — waiting 60s: Power Expectations acude ante Justicia: hace refer
+2026-09-24 13:26:45,079 [WARNING] LLM returned None — skipping: Power Expectations acude ante Justicia: hace referido contra
+2026-09-24 13:26:45,079 [INFO] ------- Processing article n. 0: In Sicilia l’agrivoltaico dei record - QualEnergia.it -------
+2026-09-24 13:26:45,425 [INFO] Resolved Google News URL: https://www.qualenergia.it/articoli/sicilia-agrivoltaico-record/
+2026-09-24 13:26:45,426 [INFO] URL: https://www.qualenergia.it/articoli/sicilia-agrivoltaico-record/
+2026-09-24 13:26:46,302 [INFO] Text length: 5618 chars | source: full
+2026-09-24 13:26:46,302 [INFO] Text preview: La società energetica Nadara, nata nel 2024 dall’unione dell’italiana Renantis (ex Falck Renewables) e della britannica Ventient Energy, ha completato la costruzione del più grande impianto agrivoltai...
+2026-09-24 13:26:46,536 [INFO] LLM HTTP 429 for: In Sicilia l’agrivoltaico dei record - QualEnergia.it
+2026-09-24 13:26:46,536 [WARNING] LLM 429 — waiting 60s: In Sicilia l’agrivoltaico dei record - QualEnergia
+2026-09-24 13:27:46,783 [INFO] LLM HTTP 429 for: In Sicilia l’agrivoltaico dei record - QualEnergia.it
+2026-09-24 13:27:46,783 [WARNING] LLM 429 — waiting 60s: In Sicilia l’agrivoltaico dei record - QualEnergia
+2026-09-24 13:28:46,783 [WARNING] LLM returned None — skipping: In Sicilia l’agrivoltaico dei record - QualEnergia.it
+2026-09-24 13:28:46,783 [INFO] ------- Processing article n. 0: APE 2026: cos'è, quando serve, costi e validità | Guida - Infobuildenergia -------
+2026-09-24 13:28:47,152 [INFO] Resolved Google News URL: https://www.infobuildenergia.it/approfondimenti/attestato-di-prestazione-energet
+2026-09-24 13:28:47,152 [INFO] URL: https://www.infobuildenergia.it/approfondimenti/attestato-di-prestazione-energetica-definizione-normativa-e-costi/
+2026-09-24 13:28:47,401 [INFO] Full text skipped (status 403): https://www.infobuildenergia.it/approfondimenti/attestato-di-prestazione-energet
+2026-09-24 13:28:47,401 [INFO] Text length: 161 chars | source: fallback
+2026-09-24 13:28:47,401 [INFO] Text preview: APE 2026: cos'è, quando serve, costi e validità | Guida - Infobuildenergia
+
+APE 2026: cos'è, quando serve, costi e validità | Guida &nbsp;&nbsp; Infobuildenergia...
+2026-09-24 13:28:47,656 [INFO] LLM HTTP 429 for: APE 2026: cos'è, quando serve, costi e validità | Guida - In
+2026-09-24 13:28:47,656 [WARNING] LLM 429 — waiting 60s: APE 2026: cos'è, quando serve, costi e validità | 
+2026-09-24 13:29:47,893 [INFO] LLM HTTP 429 for: APE 2026: cos'è, quando serve, costi e validità | Guida - In
+2026-09-24 13:29:47,893 [WARNING] LLM 429 — waiting 60s: APE 2026: cos'è, quando serve, costi e validità | 
+2026-09-24 13:30:47,893 [WARNING] LLM returned None — skipping: APE 2026: cos'è, quando serve, costi e validità | Guida - In
+2026-09-24 13:30:47,894 [INFO] ------- Processing article n. 0: 20.000 nuovi pannelli solari accanto all'autostrada A8 ma i Comuni protestano -  -------
+2026-09-24 13:30:48,281 [INFO] Resolved Google News URL: https://auto.everyeye.it/notizie/20-000-pannelli-solari-accanto-autostrada-a8-co
+2026-09-24 13:30:48,282 [INFO] URL: https://auto.everyeye.it/notizie/20-000-pannelli-solari-accanto-autostrada-a8-comuni-protestano-902143.html
+2026-09-24 13:30:48,610 [INFO] Full text skipped (status 403): https://auto.everyeye.it/notizie/20-000-pannelli-solari-accanto-autostrada-a8-co
+2026-09-24 13:30:48,610 [INFO] Text length: 199 chars | source: fallback
+2026-09-24 13:30:48,610 [INFO] Text preview: 20.000 nuovi pannelli solari accanto all'autostrada A8 ma i Comuni protestano - Everyeye Auto
+
+20.000 nuovi pannelli solari accanto all'autostrada A8 ma i Comuni protestano &nbsp;&nbsp; Everyeye Auto...
+2026-09-24 13:30:48,822 [INFO] LLM HTTP 429 for: 20.000 nuovi pannelli solari accanto all'autostrada A8 ma i 
+2026-09-24 13:30:48,822 [WARNING] LLM 429 — waiting 60s: 20.000 nuovi pannelli solari accanto all'autostrad
+2026-09-24 13:31:49,125 [INFO] LLM HTTP 429 for: 20.000 nuovi pannelli solari accanto all'autostrada A8 ma i 
+2026-09-24 13:31:49,125 [WARNING] LLM 429 — waiting 60s: 20.000 nuovi pannelli solari accanto all'autostrad
+2026-09-24 13:32:49,125 [WARNING] LLM returned None — skipping: 20.000 nuovi pannelli solari accanto all'autostrada A8 ma i 
+2026-09-24 13:32:49,126 [INFO] ------- Processing article n. 0: Odnawialna energia dla Play. Operator podpisał 15-letni kontrakt PPA z Qair - in -------
+2026-09-24 13:32:49,469 [INFO] Resolved Google News URL: https://infowire.pl/generic/release/877263/odnawialna-energia-dla-play-operator-
+2026-09-24 13:32:49,469 [INFO] URL: https://infowire.pl/generic/release/877263/odnawialna-energia-dla-play-operator-podpisal-15-letni-kontrakt-ppa-z-qair
+2026-09-24 13:32:50,224 [INFO] Text length: 2731 chars | source: full
+2026-09-24 13:32:50,224 [INFO] Text preview: Play ogłosił podpisanie umowy PPA (Power Purchase Agreement) z nowym dostawcą – firmą Qair Polska S.A. To już kolejny długoterminowy kontrakt na odnawialną energię w portfelu operatora, zabezpieczając...
+2026-09-24 13:32:50,464 [INFO] LLM HTTP 429 for: Odnawialna energia dla Play. Operator podpisał 15-letni kont
+2026-09-24 13:32:50,464 [WARNING] LLM 429 — waiting 60s: Odnawialna energia dla Play. Operator podpisał 15-
+2026-09-24 13:33:50,679 [INFO] LLM HTTP 429 for: Odnawialna energia dla Play. Operator podpisał 15-letni kont
+2026-09-24 13:33:50,680 [WARNING] LLM 429 — waiting 60s: Odnawialna energia dla Play. Operator podpisał 15-
+2026-09-24 13:34:50,680 [WARNING] LLM returned None — skipping: Odnawialna energia dla Play. Operator podpisał 15-letni kont
+2026-09-24 13:34:50,680 [INFO] ------- Processing article n. 0: ECB SA: Podpisanie umowy na zakup węgla z Glencore International AG - Bankier.pl -------
+2026-09-24 13:34:51,013 [INFO] Resolved Google News URL: https://www.bankier.pl/wiadomosc/ECB-SA-Podpisanie-umowy-na-zakup-wegla-z-Glenco
+2026-09-24 13:34:51,013 [INFO] URL: https://www.bankier.pl/wiadomosc/ECB-SA-Podpisanie-umowy-na-zakup-wegla-z-Glencore-International-AG-9201918.html
+2026-09-24 13:34:51,755 [WARNING] discarding data: https://www.bankier.pl/wiadomosc/ECB-SA-Podpisanie-umowy-na-zakup-wegla-z-Glencore-International-AG-9201918.html
+2026-09-24 13:34:51,756 [INFO] Full text extraction empty: https://www.bankier.pl/wiadomosc/ECB-SA-Podpisanie-umowy-na-zakup-wegla-z-Glenco
+2026-09-24 13:34:51,756 [INFO] Text length: 173 chars | source: fallback
+2026-09-24 13:34:51,756 [INFO] Text preview: ECB SA: Podpisanie umowy na zakup węgla z Glencore International AG - Bankier.pl
+
+ECB SA: Podpisanie umowy na zakup węgla z Glencore International AG &nbsp;&nbsp; Bankier.pl...
+2026-09-24 13:34:51,967 [INFO] LLM HTTP 429 for: ECB SA: Podpisanie umowy na zakup węgla z Glencore Internati
+2026-09-24 13:34:51,968 [WARNING] LLM 429 — waiting 60s: ECB SA: Podpisanie umowy na zakup węgla z Glencore
+2026-09-24 13:35:52,176 [INFO] LLM HTTP 429 for: ECB SA: Podpisanie umowy na zakup węgla z Glencore Internati
+2026-09-24 13:35:52,176 [WARNING] LLM 429 — waiting 60s: ECB SA: Podpisanie umowy na zakup węgla z Glencore
+2026-09-24 13:36:52,177 [WARNING] LLM returned None — skipping: ECB SA: Podpisanie umowy na zakup węgla z Glencore Internati
+2026-09-24 13:36:52,177 [INFO] Run complete. New deals: 0, Updates: 0
+2026-09-24 13:36:52,188 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1423 deals)
+2026-09-24 13:36:53,937 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
