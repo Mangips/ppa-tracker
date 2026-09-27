@@ -1,0 +1,85 @@
+2026-09-27 12:38:15,287 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-09-27 12:38:15,293 [INFO] Loaded 1518 existing deals for dedup matching
+2026-09-27 12:38:15,293 [INFO] Searching from 2026-09-27 to present with 3 loockback days
+2026-09-27 12:38:15,465 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-09-27 12:38:16,519 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-09-27 12:38:17,692 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-09-27 12:38:19,018 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-09-27&hl=en&gl=US&ceid=US:en: 2 results
+2026-09-27 12:38:21,307 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-09-27&hl=en&gl=US&ceid=US:en: 0 results
+2026-09-27 12:38:23,511 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-09-27&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-09-27 12:38:25,760 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-09-27&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-09-27 12:38:28,001 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-09-27&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-09-27 12:38:30,226 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-09-27&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-09-27 12:38:32,424 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-09-27&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-09-27 12:38:34,673 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-09-27&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-09-27 12:38:36,947 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-09-27&hl=it&gl=IT&ceid=IT:it: 2 results
+2026-09-27 12:38:39,177 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-09-27&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-09-27 12:38:41,393 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-09-27&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-09-27 12:38:43,600 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-09-27&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-27 12:38:45,804 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-09-27&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-27 12:38:48,089 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-09-27&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-09-27 12:38:50,356 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-09-27&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-09-27 12:38:52,357 [INFO] Total raw articles collected: 5
+2026-09-27 12:38:52,618 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-09-27 12:38:54,200 [INFO] Extra RSS [elperiodicodelaenergia.com]: 1 results
+2026-09-27 12:38:55,207 [INFO] Unique unseen articles: 5
+2026-09-27 12:38:55,208 [INFO] ------- Processing article n. 0: Could Europe’s data centre boom trigger a nuclear power revival? - Yahoo Finance -------
+2026-09-27 12:38:55,439 [INFO] Resolved Google News URL: https://finance.yahoo.com/energy/articles/could-europe-data-centre-boom-10295822
+2026-09-27 12:38:55,439 [INFO] URL: https://finance.yahoo.com/energy/articles/could-europe-data-centre-boom-102958228.html
+2026-09-27 12:38:55,824 [INFO] Text length: 2219 chars | source: full
+2026-09-27 12:38:55,824 [INFO] Text preview: Investing.com -- Europe's accelerating data centre buildout could strengthen the case for new nuclear capacity as technology companies seek dependable, low-carbon electricity to power AI infrastructur...
+2026-09-27 12:38:56,006 [INFO] LLM HTTP 429 for: Could Europe’s data centre boom trigger a nuclear power revi
+2026-09-27 12:38:56,007 [WARNING] LLM 429 — waiting 60s: Could Europe’s data centre boom trigger a nuclear 
+2026-09-27 12:39:56,168 [INFO] LLM HTTP 429 for: Could Europe’s data centre boom trigger a nuclear power revi
+2026-09-27 12:39:56,168 [WARNING] LLM 429 — waiting 60s: Could Europe’s data centre boom trigger a nuclear 
+2026-09-27 12:40:56,168 [WARNING] LLM returned None — skipping: Could Europe’s data centre boom trigger a nuclear power revi
+2026-09-27 12:40:56,168 [INFO] ------- Processing article n. 0: US Ambassador Pressed Bulgaria to Buy LNG Through Greek Company - Novinite.com -------
+2026-09-27 12:40:56,382 [INFO] Resolved Google News URL: https://www.novinite.com/articles/240799/US+Ambassador+Pressed+Bulgaria+to+Buy+L
+2026-09-27 12:40:56,382 [INFO] URL: https://www.novinite.com/articles/240799/US+Ambassador+Pressed+Bulgaria+to+Buy+LNG+Through+Greek+Company
+2026-09-27 12:40:56,484 [INFO] Full text skipped (status 403): https://www.novinite.com/articles/240799/US+Ambassador+Pressed+Bulgaria+to+Buy+L
+2026-09-27 12:40:56,484 [INFO] Text length: 169 chars | source: fallback
+2026-09-27 12:40:56,484 [INFO] Text preview: US Ambassador Pressed Bulgaria to Buy LNG Through Greek Company - Novinite.com
+
+US Ambassador Pressed Bulgaria to Buy LNG Through Greek Company &nbsp;&nbsp; Novinite.com...
+2026-09-27 12:40:56,638 [INFO] LLM HTTP 429 for: US Ambassador Pressed Bulgaria to Buy LNG Through Greek Comp
+2026-09-27 12:40:56,638 [WARNING] LLM 429 — waiting 60s: US Ambassador Pressed Bulgaria to Buy LNG Through 
+2026-09-27 12:41:56,796 [INFO] LLM HTTP 429 for: US Ambassador Pressed Bulgaria to Buy LNG Through Greek Comp
+2026-09-27 12:41:56,796 [WARNING] LLM 429 — waiting 60s: US Ambassador Pressed Bulgaria to Buy LNG Through 
+2026-09-27 12:42:56,797 [WARNING] LLM returned None — skipping: US Ambassador Pressed Bulgaria to Buy LNG Through Greek Comp
+2026-09-27 12:42:56,797 [INFO] ------- Processing article n. 0: ¿Podría el auge de los centros de datos en Europa impulsar la energía nuclear? - -------
+2026-09-27 12:42:57,279 [INFO] Resolved Google News URL: https://es-us.finanzas.yahoo.com/noticias/auge-centros-datos-europa-impulsar-102
+2026-09-27 12:42:57,279 [INFO] URL: https://es-us.finanzas.yahoo.com/noticias/auge-centros-datos-europa-impulsar-102958586.html
+2026-09-27 12:42:57,610 [INFO] Text length: 2750 chars | source: full
+2026-09-27 12:42:57,611 [INFO] Text preview: Investing.com - La acelerada expansión de los centros de datos en Europa podría reforzar los argumentos a favor de nueva capacidad nuclear, ya que las empresas de Tecnología buscan electricidad fiable...
+2026-09-27 12:42:57,825 [INFO] LLM HTTP 429 for: ¿Podría el auge de los centros de datos en Europa impulsar l
+2026-09-27 12:42:57,825 [WARNING] LLM 429 — waiting 60s: ¿Podría el auge de los centros de datos en Europa 
+2026-09-27 12:43:57,992 [INFO] LLM HTTP 429 for: ¿Podría el auge de los centros de datos en Europa impulsar l
+2026-09-27 12:43:57,993 [WARNING] LLM 429 — waiting 60s: ¿Podría el auge de los centros de datos en Europa 
+2026-09-27 12:44:57,993 [WARNING] LLM returned None — skipping: ¿Podría el auge de los centros de datos en Europa impulsar l
+2026-09-27 12:44:57,993 [INFO] ------- Processing article n. 0: Il boom dei data centre in Europe potrebbe rilanciare il nucleare? - Investing.c -------
+2026-09-27 12:44:58,569 [INFO] Resolved Google News URL: https://it.investing.com/news/economy-news/il-boom-dei-data-centre-in-europe-pot
+2026-09-27 12:44:58,569 [INFO] URL: https://it.investing.com/news/economy-news/il-boom-dei-data-centre-in-europe-potrebbe-rilanciare-il-nucleare-3563777
+2026-09-27 12:44:58,673 [INFO] Full text skipped (status 403): https://it.investing.com/news/economy-news/il-boom-dei-data-centre-in-europe-pot
+2026-09-27 12:44:58,673 [INFO] Text length: 177 chars | source: fallback
+2026-09-27 12:44:58,673 [INFO] Text preview: Il boom dei data centre in Europe potrebbe rilanciare il nucleare? - Investing.com
+
+Il boom dei data centre in Europe potrebbe rilanciare il nucleare? &nbsp;&nbsp; Investing.com...
+2026-09-27 12:44:58,840 [INFO] LLM HTTP 429 for: Il boom dei data centre in Europe potrebbe rilanciare il nuc
+2026-09-27 12:44:58,840 [WARNING] LLM 429 — waiting 60s: Il boom dei data centre in Europe potrebbe rilanci
+2026-09-27 12:45:59,007 [INFO] LLM HTTP 429 for: Il boom dei data centre in Europe potrebbe rilanciare il nuc
+2026-09-27 12:45:59,007 [WARNING] LLM 429 — waiting 60s: Il boom dei data centre in Europe potrebbe rilanci
+2026-09-27 12:46:59,008 [WARNING] LLM returned None — skipping: Il boom dei data centre in Europe potrebbe rilanciare il nuc
+2026-09-27 12:46:59,008 [INFO] ------- Processing article n. 0: Google punta sul nucleare per alimentare l’AI. Maxi investimento in Europa - Mon -------
+2026-09-27 12:46:59,460 [INFO] Resolved Google News URL: https://www.money.it/Addio-corsa-oro-tutti-vogliono-tellurio-questo-metallo-raro
+2026-09-27 12:46:59,460 [INFO] URL: https://www.money.it/Addio-corsa-oro-tutti-vogliono-tellurio-questo-metallo-raro-cosi-importante-energia
+2026-09-27 12:46:59,667 [INFO] Text length: 4574 chars | source: full
+2026-09-27 12:46:59,667 [INFO] Text preview: Google investirà 13 miliardi di euro in Finlandia per nuovi data center e infrastrutture AI.
+L’intelligenza artificiale ha bisogno di una quantità crescente di potenza di calcolo e, di conseguenza, an...
+2026-09-27 12:46:59,821 [INFO] LLM HTTP 429 for: Google punta sul nucleare per alimentare l’AI. Maxi investim
+2026-09-27 12:46:59,821 [WARNING] LLM 429 — waiting 60s: Google punta sul nucleare per alimentare l’AI. Max
+2026-09-27 12:47:59,977 [INFO] LLM HTTP 429 for: Google punta sul nucleare per alimentare l’AI. Maxi investim
+2026-09-27 12:47:59,977 [WARNING] LLM 429 — waiting 60s: Google punta sul nucleare per alimentare l’AI. Max
+2026-09-27 12:48:59,978 [WARNING] LLM returned None — skipping: Google punta sul nucleare per alimentare l’AI. Maxi investim
+2026-09-27 12:48:59,978 [INFO] Run complete. New deals: 0, Updates: 0
+2026-09-27 12:48:59,993 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1423 deals)
+2026-09-27 12:49:00,851 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
