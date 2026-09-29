@@ -1,0 +1,411 @@
+2026-09-29 13:40:31,113 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-09-29 13:40:31,120 [INFO] Loaded 1518 existing deals for dedup matching
+2026-09-29 13:40:31,120 [INFO] Searching from 2026-09-29 to present with 3 loockback days
+2026-09-29 13:40:31,352 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-09-29 13:40:32,701 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-09-29 13:40:34,700 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-09-29 13:40:36,196 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-09-29&hl=en&gl=US&ceid=US:en: 16 results
+2026-09-29 13:40:38,594 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-09-29&hl=en&gl=US&ceid=US:en: 2 results
+2026-09-29 13:40:40,869 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-09-29&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-09-29 13:40:43,100 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-09-29&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-09-29 13:40:45,353 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-09-29&hl=fr&gl=FR&ceid=FR:fr: 3 results
+2026-09-29 13:40:47,624 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-09-29&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-09-29 13:40:50,009 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-09-29&hl=es&gl=ES&ceid=ES:es: 7 results
+2026-09-29 13:40:52,270 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-09-29&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-09-29 13:40:54,524 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-09-29&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-09-29 13:40:56,800 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-09-29&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-09-29 13:40:59,059 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-09-29&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-09-29 13:41:01,279 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-09-29&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-29 13:41:03,572 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-09-29&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-09-29 13:41:05,934 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-09-29&hl=pt&gl=PT&ceid=PT:pt: 2 results
+2026-09-29 13:41:08,230 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-09-29&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-09-29 13:41:10,230 [INFO] Total raw articles collected: 39
+2026-09-29 13:41:10,391 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-09-29 13:41:12,146 [INFO] Extra RSS [elperiodicodelaenergia.com]: 3 results
+2026-09-29 13:41:13,154 [INFO] Unique unseen articles: 36
+2026-09-29 13:41:13,155 [INFO] ------- Processing article n. 0: Synthetic aviation fuel projects advance in Europe, Africa, US and China - Green -------
+2026-09-29 13:41:13,533 [INFO] Resolved Google News URL: https://www.greenairnews.com/?p=9588
+2026-09-29 13:41:13,533 [INFO] URL: https://www.greenairnews.com/?p=9588
+2026-09-29 13:41:15,317 [INFO] Text length: 10797 chars | source: full
+2026-09-29 13:41:15,317 [INFO] Text preview: Zurich-based synthetic fuel startup Synhelion has signed a MoU with the Moroccan government to develop a large-scale commercial plant in the country. Another Swiss synthetic fuel startup, Metafuels, o...
+2026-09-29 13:41:15,593 [INFO] LLM HTTP 429 for: Synthetic aviation fuel projects advance in Europe, Africa, 
+2026-09-29 13:41:15,593 [WARNING] LLM 429 — waiting 60s: Synthetic aviation fuel projects advance in Europe
+2026-09-29 13:42:15,837 [INFO] LLM HTTP 429 for: Synthetic aviation fuel projects advance in Europe, Africa, 
+2026-09-29 13:42:15,837 [WARNING] LLM 429 — waiting 60s: Synthetic aviation fuel projects advance in Europe
+2026-09-29 13:43:15,837 [WARNING] LLM returned None — skipping: Synthetic aviation fuel projects advance in Europe, Africa, 
+2026-09-29 13:43:15,837 [INFO] ------- Processing article n. 0: CEC releases new Rooftop solar and storage report, January to June 2026 - renewa -------
+2026-09-29 13:43:16,169 [INFO] Resolved Google News URL: https://www.renewableenergymagazine.com/pv_solar/cec-releases-new-rooftop-solar-
+2026-09-29 13:43:16,169 [INFO] URL: https://www.renewableenergymagazine.com/pv_solar/cec-releases-new-rooftop-solar-and-storage-20260929
+2026-09-29 13:43:17,005 [INFO] Text length: 1336 chars | source: full
+2026-09-29 13:43:17,005 [INFO] Text preview: The report shows that:
+A record-breaking 1.89 GW of rooftop solar was installed in the first half of 2026, 30 per cent more than the preceding six months, as households flock to cheap, reliable solar ...
+2026-09-29 13:43:17,246 [INFO] LLM HTTP 429 for: CEC releases new Rooftop solar and storage report, January t
+2026-09-29 13:43:17,246 [WARNING] LLM 429 — waiting 60s: CEC releases new Rooftop solar and storage report,
+2026-09-29 13:44:17,590 [INFO] LLM HTTP 429 for: CEC releases new Rooftop solar and storage report, January t
+2026-09-29 13:44:17,590 [WARNING] LLM 429 — waiting 60s: CEC releases new Rooftop solar and storage report,
+2026-09-29 13:45:17,590 [WARNING] LLM returned None — skipping: CEC releases new Rooftop solar and storage report, January t
+2026-09-29 13:45:17,591 [INFO] ------- Processing article n. 0: A Danish project plans to make jet fuel from renewable power and captured carbon -------
+2026-09-29 13:45:17,956 [INFO] Resolved Google News URL: https://www.stocktitan.net/news/PLUG/plug-and-arcadia-e-fuels-sign-strategic-par
+2026-09-29 13:45:17,956 [INFO] URL: https://www.stocktitan.net/news/PLUG/plug-and-arcadia-e-fuels-sign-strategic-partnership-covering-more-xvvd2iseylh8.html
+2026-09-29 13:45:18,370 [INFO] Text length: 13035 chars | source: full
+2026-09-29 13:45:18,370 [INFO] Text preview: Plug and Arcadia eFuels Sign Strategic Partnership Covering More Than 1 GW of e-SAF Projects, Starting with 280 MW to Turn Danish Renewable Electricity into Jet Fuel
+Plug's ENDOR deliveries depend on ...
+2026-09-29 13:45:18,616 [INFO] LLM HTTP 429 for: A Danish project plans to make jet fuel from renewable power
+2026-09-29 13:45:18,616 [WARNING] LLM 429 — waiting 60s: A Danish project plans to make jet fuel from renew
+2026-09-29 13:46:18,874 [INFO] LLM HTTP 429 for: A Danish project plans to make jet fuel from renewable power
+2026-09-29 13:46:18,874 [WARNING] LLM 429 — waiting 60s: A Danish project plans to make jet fuel from renew
+2026-09-29 13:47:18,875 [WARNING] LLM returned None — skipping: A Danish project plans to make jet fuel from renewable power
+2026-09-29 13:47:18,875 [INFO] ------- Processing article n. 0: What it takes to build one of Europe’s largest offshore wind farms - Vattenfall -------
+2026-09-29 13:47:19,220 [INFO] Resolved Google News URL: https://group.vattenfall.com/press-and-media/newsroom/2026/what-it-takes-to-buil
+2026-09-29 13:47:19,220 [INFO] URL: https://group.vattenfall.com/press-and-media/newsroom/2026/what-it-takes-to-build-one-of-europes-largest-offshore-wind-farms/
+2026-09-29 13:47:20,064 [INFO] Text length: 6429 chars | source: full
+2026-09-29 13:47:20,064 [INFO] Text preview: - Germany’s largest offshore wind farm: Nordlicht I and II will comprise 112 turbines producing enough fossil-free electricity for around 1.7 million German households.
+- Years of seabed surveys, envi...
+2026-09-29 13:47:20,314 [INFO] LLM HTTP 429 for: What it takes to build one of Europe’s largest offshore wind
+2026-09-29 13:47:20,315 [WARNING] LLM 429 — waiting 60s: What it takes to build one of Europe’s largest off
+2026-09-29 13:48:20,944 [INFO] LLM HTTP 429 for: What it takes to build one of Europe’s largest offshore wind
+2026-09-29 13:48:20,944 [WARNING] LLM 429 — waiting 60s: What it takes to build one of Europe’s largest off
+2026-09-29 13:49:20,945 [WARNING] LLM returned None — skipping: What it takes to build one of Europe’s largest offshore wind
+2026-09-29 13:49:20,945 [INFO] ------- Processing article n. 0: Plug and Arcadia eFuels Partner for 1 GW Sustainable Aviation Fuel - Fuel Cells  -------
+2026-09-29 13:49:21,267 [INFO] Resolved Google News URL: https://fuelcellsworks.com/2026/09/29/h2/plug-and-arcadia-efuels-sign-strategic-
+2026-09-29 13:49:21,267 [INFO] URL: https://fuelcellsworks.com/2026/09/29/h2/plug-and-arcadia-efuels-sign-strategic-partnership-covering-more-than-1-gw-of-e-saf-projects-starting-with-280-mw-to-turn-danish-renewable-electricity-into-jet-fuel
+2026-09-29 13:49:22,694 [INFO] Text length: 165 chars | source: full
+2026-09-29 13:49:22,694 [INFO] Text preview: Plug and Arcadia eFuels Sign Strategic Partnership Covering More Than 1 GW of E-SAF Projects, Starting with 280 MW to Turn Danish Renewable Electricity Into Jet Fuel...
+2026-09-29 13:49:23,152 [INFO] LLM HTTP 429 for: Plug and Arcadia eFuels Partner for 1 GW Sustainable Aviatio
+2026-09-29 13:49:23,152 [WARNING] LLM 429 — waiting 60s: Plug and Arcadia eFuels Partner for 1 GW Sustainab
+2026-09-29 13:50:23,390 [INFO] LLM HTTP 429 for: Plug and Arcadia eFuels Partner for 1 GW Sustainable Aviatio
+2026-09-29 13:50:23,391 [WARNING] LLM 429 — waiting 60s: Plug and Arcadia eFuels Partner for 1 GW Sustainab
+2026-09-29 13:51:23,391 [WARNING] LLM returned None — skipping: Plug and Arcadia eFuels Partner for 1 GW Sustainable Aviatio
+2026-09-29 13:51:23,391 [INFO] ------- Processing article n. 0: Dutch datacentre sector pitches itself as relief for an overloaded grid - Comput -------
+2026-09-29 13:51:23,729 [INFO] Resolved Google News URL: https://www.computerweekly.com/news/366651532/Dutch-datacentre-sector-pitches-it
+2026-09-29 13:51:23,729 [INFO] URL: https://www.computerweekly.com/news/366651532/Dutch-datacentre-sector-pitches-itself-as-relief-for-an-overloaded-grid
+2026-09-29 13:51:23,880 [INFO] Text length: 9563 chars | source: full
+2026-09-29 13:51:23,880 [INFO] Text preview: The Netherlands has no shortage of electricity – but what it does lack is the grid to carry it. At the end of 2025, more than 15,000 applications from businesses and institutions were queuing for a ne...
+2026-09-29 13:51:24,145 [INFO] LLM HTTP 429 for: Dutch datacentre sector pitches itself as relief for an over
+2026-09-29 13:51:24,145 [WARNING] LLM 429 — waiting 60s: Dutch datacentre sector pitches itself as relief f
+2026-09-29 13:52:24,394 [INFO] LLM HTTP 429 for: Dutch datacentre sector pitches itself as relief for an over
+2026-09-29 13:52:24,394 [WARNING] LLM 429 — waiting 60s: Dutch datacentre sector pitches itself as relief f
+2026-09-29 13:53:24,395 [WARNING] LLM returned None — skipping: Dutch datacentre sector pitches itself as relief for an over
+2026-09-29 13:53:24,395 [INFO] ------- Processing article n. 0: Statkraft and Greenvolt Power Sign 10-Year Tolling Agreement for 400 MW / 1.6 GW -------
+2026-09-29 13:53:24,808 [INFO] Resolved Google News URL: https://solarquarter.com/2026/09/29/statkraft-and-greenvolt-power-sign-10-year-t
+2026-09-29 13:53:24,808 [INFO] URL: https://solarquarter.com/2026/09/29/statkraft-and-greenvolt-power-sign-10-year-tolling-agreement-for-400-mw-1-6-gwh-bess-portfolio-in-poland/
+2026-09-29 13:53:24,988 [INFO] Text length: 2918 chars | source: full
+2026-09-29 13:53:24,988 [INFO] Text preview: Statkraft and Greenvolt Power have signed a 10-year tolling agreement covering 400 MW / 1,600 MWh of battery energy storage system (BESS) capacity in Poland, marking Statkraft’s first large-scale BESS...
+2026-09-29 13:53:25,245 [INFO] LLM HTTP 429 for: Statkraft and Greenvolt Power Sign 10-Year Tolling Agreement
+2026-09-29 13:53:25,245 [WARNING] LLM 429 — waiting 60s: Statkraft and Greenvolt Power Sign 10-Year Tolling
+2026-09-29 13:54:25,491 [INFO] LLM HTTP 429 for: Statkraft and Greenvolt Power Sign 10-Year Tolling Agreement
+2026-09-29 13:54:25,492 [WARNING] LLM 429 — waiting 60s: Statkraft and Greenvolt Power Sign 10-Year Tolling
+2026-09-29 13:55:25,492 [WARNING] LLM returned None — skipping: Statkraft and Greenvolt Power Sign 10-Year Tolling Agreement
+2026-09-29 13:55:25,492 [INFO] ------- Processing article n. 0: Why Europe needs Moscow to quit Russian nuclear fuel - The Parliament Magazine -------
+2026-09-29 13:55:25,874 [INFO] Resolved Google News URL: https://www.theparliamentmagazine.eu/news/article/why-europe-needs-moscow-to-qui
+2026-09-29 13:55:25,874 [INFO] URL: https://www.theparliamentmagazine.eu/news/article/why-europe-needs-moscow-to-quit-russian-nuclear-fuel
+2026-09-29 13:55:27,209 [INFO] Text length: 9622 chars | source: full
+2026-09-29 13:55:27,209 [INFO] Text preview: In a small town in northwest Germany, a nuclear fuel production plant embodies the challenges Europe faces in moving away from Russian-linked atomic energy.
+French company Framatome is expanding produ...
+2026-09-29 13:55:27,458 [INFO] LLM HTTP 429 for: Why Europe needs Moscow to quit Russian nuclear fuel - The P
+2026-09-29 13:55:27,458 [WARNING] LLM 429 — waiting 60s: Why Europe needs Moscow to quit Russian nuclear fu
+2026-09-29 13:56:27,714 [INFO] LLM HTTP 429 for: Why Europe needs Moscow to quit Russian nuclear fuel - The P
+2026-09-29 13:56:27,714 [WARNING] LLM 429 — waiting 60s: Why Europe needs Moscow to quit Russian nuclear fu
+2026-09-29 13:57:27,715 [WARNING] LLM returned None — skipping: Why Europe needs Moscow to quit Russian nuclear fuel - The P
+2026-09-29 13:57:27,715 [INFO] ------- Processing article n. 0: Edison: QatarEnergy extends force majeure until the beginning of December 2026 - -------
+2026-09-29 13:57:28,038 [INFO] Resolved Google News URL: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-
+2026-09-29 13:57:28,039 [INFO] URL: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-beginning-of-december-2026-n-i-30707
+2026-09-29 13:57:28,859 [WARNING] discarding data: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-beginning-of-december-2026-n-i-30707
+2026-09-29 13:57:28,860 [INFO] Full text extraction empty: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-
+2026-09-29 13:57:28,860 [INFO] Text length: 199 chars | source: fallback
+2026-09-29 13:57:28,860 [INFO] Text preview: Edison: QatarEnergy extends force majeure until the beginning of December 2026 - euro petrole
+
+Edison: QatarEnergy extends force majeure until the beginning of December 2026 &nbsp;&nbsp; euro petrole...
+2026-09-29 13:57:29,112 [INFO] LLM HTTP 429 for: Edison: QatarEnergy extends force majeure until the beginnin
+2026-09-29 13:57:29,112 [WARNING] LLM 429 — waiting 60s: Edison: QatarEnergy extends force majeure until th
+2026-09-29 13:58:29,342 [INFO] LLM HTTP 429 for: Edison: QatarEnergy extends force majeure until the beginnin
+2026-09-29 13:58:29,342 [WARNING] LLM 429 — waiting 60s: Edison: QatarEnergy extends force majeure until th
+2026-09-29 13:59:29,342 [WARNING] LLM returned None — skipping: Edison: QatarEnergy extends force majeure until the beginnin
+2026-09-29 13:59:29,342 [INFO] ------- Processing article n. 0: Kazakhstan to Develop New Container Routes Linking Central Asia and Europe - The -------
+2026-09-29 13:59:29,684 [INFO] Resolved Google News URL: https://astanatimes.com/2026/09/kazakhstan-to-develop-new-container-routes-linki
+2026-09-29 13:59:29,684 [INFO] URL: https://astanatimes.com/2026/09/kazakhstan-to-develop-new-container-routes-linking-central-asia-and-europe/
+2026-09-29 13:59:30,153 [INFO] Text length: 2673 chars | source: full
+2026-09-29 13:59:30,153 [INFO] Text preview: ASTANA – A Kazakh infrastructure developer and investor SEMURG INVEST and MEDLOG Poti, a logistics operator and part of the global MSC Group, have signed a sale and purchase agreement to establish a s...
+2026-09-29 13:59:30,481 [INFO] LLM HTTP 429 for: Kazakhstan to Develop New Container Routes Linking Central A
+2026-09-29 13:59:30,481 [WARNING] LLM 429 — waiting 60s: Kazakhstan to Develop New Container Routes Linking
+2026-09-29 14:00:31,052 [INFO] LLM HTTP 429 for: Kazakhstan to Develop New Container Routes Linking Central A
+2026-09-29 14:00:31,052 [WARNING] LLM 429 — waiting 60s: Kazakhstan to Develop New Container Routes Linking
+2026-09-29 14:01:31,053 [WARNING] LLM returned None — skipping: Kazakhstan to Develop New Container Routes Linking Central A
+2026-09-29 14:01:31,053 [INFO] ------- Processing article n. 0: IFC Mulls $120 Mn Debt Financing for Egypt’s Gabal El Zeit Wind Farm - Egypt Oil -------
+2026-09-29 14:01:31,494 [INFO] Resolved Google News URL: https://egyptoil-gas.com/news/ifc-mulls-120-mn-debt-financing-for-egypts-gabal-e
+2026-09-29 14:01:31,494 [INFO] URL: https://egyptoil-gas.com/news/ifc-mulls-120-mn-debt-financing-for-egypts-gabal-el-zeit-wind-farm/
+2026-09-29 14:01:32,001 [INFO] Text length: 1593 chars | source: full
+2026-09-29 14:01:32,001 [INFO] Text preview: The International Finance Corporation (IFC), the World Bank’s private sector arm, is considering extending a $120 million debt facitlity to UAE’s Al Cazar Energy to fund the acquisition, operation, an...
+2026-09-29 14:01:32,316 [INFO] LLM HTTP 429 for: IFC Mulls $120 Mn Debt Financing for Egypt’s Gabal El Zeit W
+2026-09-29 14:01:32,316 [WARNING] LLM 429 — waiting 60s: IFC Mulls $120 Mn Debt Financing for Egypt’s Gabal
+2026-09-29 14:02:32,561 [INFO] LLM HTTP 429 for: IFC Mulls $120 Mn Debt Financing for Egypt’s Gabal El Zeit W
+2026-09-29 14:02:32,561 [WARNING] LLM 429 — waiting 60s: IFC Mulls $120 Mn Debt Financing for Egypt’s Gabal
+2026-09-29 14:03:32,561 [WARNING] LLM returned None — skipping: IFC Mulls $120 Mn Debt Financing for Egypt’s Gabal El Zeit W
+2026-09-29 14:03:32,561 [INFO] ------- Processing article n. 0: Japanese shipping major enters CCS realm in Norway - Offshore Energy -------
+2026-09-29 14:03:33,038 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/2026/09/29/japanese-shipping-major-enters-ccs-re
+2026-09-29 14:03:33,038 [INFO] URL: https://www.offshore-energy.biz/2026/09/29/japanese-shipping-major-enters-ccs-realm-in-norway
+2026-09-29 14:03:33,445 [INFO] Text length: 1474 chars | source: full
+2026-09-29 14:03:33,445 [INFO] Text preview: Japanese shipping major Nippon Yusen Kaisha (NYK) has signed a sale and purchase agreement with Vår Energi CCS to acquire a 30% interest in the operator of the Trudvang carbon capture & storage (CCS) ...
+2026-09-29 14:03:33,742 [INFO] LLM HTTP 429 for: Japanese shipping major enters CCS realm in Norway - Offshor
+2026-09-29 14:03:33,742 [WARNING] LLM 429 — waiting 60s: Japanese shipping major enters CCS realm in Norway
+2026-09-29 14:04:33,993 [INFO] LLM HTTP 429 for: Japanese shipping major enters CCS realm in Norway - Offshor
+2026-09-29 14:04:33,993 [WARNING] LLM 429 — waiting 60s: Japanese shipping major enters CCS realm in Norway
+2026-09-29 14:05:33,993 [WARNING] LLM returned None — skipping: Japanese shipping major enters CCS realm in Norway - Offshor
+2026-09-29 14:05:33,993 [INFO] ------- Processing article n. 0: Eaton to buy Italy's COL Group for EUR €810 million - IT Brief UK -------
+2026-09-29 14:05:34,355 [INFO] Resolved Google News URL: https://itbrief.co.uk/story/eaton-to-buy-italy-s-col-group-for-eur-810-million
+2026-09-29 14:05:34,355 [INFO] URL: https://itbrief.co.uk/story/eaton-to-buy-italy-s-col-group-for-eur-810-million
+2026-09-29 14:05:35,208 [INFO] Text length: 3436 chars | source: full
+2026-09-29 14:05:35,209 [INFO] Text preview: Eaton has agreed to acquire Italian power distribution specialist COL Group from Oaktree Private Equity in a deal valued at EUR €810 million.
+The acquisition adds a medium-voltage electrical distribut...
+2026-09-29 14:05:35,521 [INFO] LLM HTTP 429 for: Eaton to buy Italy's COL Group for EUR €810 million - IT Bri
+2026-09-29 14:05:35,521 [WARNING] LLM 429 — waiting 60s: Eaton to buy Italy's COL Group for EUR €810 millio
+2026-09-29 14:06:35,815 [INFO] LLM HTTP 429 for: Eaton to buy Italy's COL Group for EUR €810 million - IT Bri
+2026-09-29 14:06:35,815 [WARNING] LLM 429 — waiting 60s: Eaton to buy Italy's COL Group for EUR €810 millio
+2026-09-29 14:07:35,816 [WARNING] LLM returned None — skipping: Eaton to buy Italy's COL Group for EUR €810 million - IT Bri
+2026-09-29 14:07:35,816 [INFO] ------- Processing article n. 0: After Boeing, Bangladesh to buy 10 Airbus aircraft, deal likely in October - Jag -------
+2026-09-29 14:07:36,154 [INFO] Resolved Google News URL: https://www.jagonews24.com/en/national/news/96584
+2026-09-29 14:07:36,154 [INFO] URL: https://www.jagonews24.com/en/national/news/96584
+2026-09-29 14:07:36,293 [INFO] Full text skipped (status 403): https://www.jagonews24.com/en/national/news/96584
+2026-09-29 14:07:36,294 [INFO] Text length: 187 chars | source: fallback
+2026-09-29 14:07:36,294 [INFO] Text preview: After Boeing, Bangladesh to buy 10 Airbus aircraft, deal likely in October - Jagonews24
+
+After Boeing, Bangladesh to buy 10 Airbus aircraft, deal likely in October &nbsp;&nbsp; Jagonews24...
+2026-09-29 14:07:36,573 [INFO] LLM HTTP 429 for: After Boeing, Bangladesh to buy 10 Airbus aircraft, deal lik
+2026-09-29 14:07:36,573 [WARNING] LLM 429 — waiting 60s: After Boeing, Bangladesh to buy 10 Airbus aircraft
+2026-09-29 14:08:36,850 [INFO] LLM HTTP 429 for: After Boeing, Bangladesh to buy 10 Airbus aircraft, deal lik
+2026-09-29 14:08:36,850 [WARNING] LLM 429 — waiting 60s: After Boeing, Bangladesh to buy 10 Airbus aircraft
+2026-09-29 14:09:36,851 [WARNING] LLM returned None — skipping: After Boeing, Bangladesh to buy 10 Airbus aircraft, deal lik
+2026-09-29 14:09:36,851 [INFO] ------- Processing article n. 0: Eaton stock gains 1.31 percent as COL deal expands Europe - AD HOC NEWS -------
+2026-09-29 14:09:37,321 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/eaton-stock-gains-1-31-per
+2026-09-29 14:09:37,321 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/eaton-stock-gains-1-31-percent-as-col-deal-expands-europe/70197930
+2026-09-29 14:09:38,193 [INFO] Text length: 2279 chars | source: full
+2026-09-29 14:09:38,193 [INFO] Text preview: Eaton stock (ISIN IE00B8KQN827) was trading at EUR 383.95 at Lang & Schwarz on September 29, 2026 at 1:31 p.m. CEST, up 1.31 percent from the prior close of EUR 379.00. The move follows Eaton's agreem...
+2026-09-29 14:09:38,494 [INFO] LLM HTTP 429 for: Eaton stock gains 1.31 percent as COL deal expands Europe - 
+2026-09-29 14:09:38,494 [WARNING] LLM 429 — waiting 60s: Eaton stock gains 1.31 percent as COL deal expands
+2026-09-29 14:10:38,728 [INFO] LLM HTTP 429 for: Eaton stock gains 1.31 percent as COL deal expands Europe - 
+2026-09-29 14:10:38,728 [WARNING] LLM 429 — waiting 60s: Eaton stock gains 1.31 percent as COL deal expands
+2026-09-29 14:11:38,729 [WARNING] LLM returned None — skipping: Eaton stock gains 1.31 percent as COL deal expands Europe - 
+2026-09-29 14:11:38,729 [INFO] ------- Processing article n. 0: TrinaTracker launches Buildex and Aurora robots for automated PV construction an -------
+2026-09-29 14:11:39,123 [INFO] Resolved Google News URL: https://www.renewableenergymagazine.com/pv_solar/trinatracker-launches-buildex-a
+2026-09-29 14:11:39,123 [INFO] URL: https://www.renewableenergymagazine.com/pv_solar/trinatracker-launches-buildex-and-aurora-robots-for-20260929
+2026-09-29 14:11:39,957 [INFO] Text length: 4842 chars | source: full
+2026-09-29 14:11:39,958 [INFO] Text preview: TrinaTracker is evolving from a tracking system equipment supplier into a smart PV and robotics solution provider. By integrating high-reliability trackers, AI algorithms, installation and cleaning ro...
+2026-09-29 14:11:41,083 [INFO] LLM HTTP 429 for: TrinaTracker launches Buildex and Aurora robots for automate
+2026-09-29 14:11:41,083 [WARNING] LLM 429 — waiting 60s: TrinaTracker launches Buildex and Aurora robots fo
+2026-09-29 14:12:41,334 [INFO] LLM HTTP 429 for: TrinaTracker launches Buildex and Aurora robots for automate
+2026-09-29 14:12:41,334 [WARNING] LLM 429 — waiting 60s: TrinaTracker launches Buildex and Aurora robots fo
+2026-09-29 14:13:41,335 [WARNING] LLM returned None — skipping: TrinaTracker launches Buildex and Aurora robots for automate
+2026-09-29 14:13:41,335 [INFO] ------- Processing article n. 0: VPBank unterzeichnet einen Darlehensvertrag über 27 Millionen Dollar mit JBIC zu -------
+2026-09-29 14:13:41,787 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/vpbank-ky-ket-khoan-vay-27-trieu-usd-voi-jbic-tai-tro-
+2026-09-29 14:13:41,788 [INFO] URL: https://www.vietnam.vn/de/vpbank-ky-ket-khoan-vay-27-trieu-usd-voi-jbic-tai-tro-du-an-truyen-tai-dien
+2026-09-29 14:13:42,297 [INFO] Text length: 3117 chars | source: full
+2026-09-29 14:13:42,297 [INFO] Text preview: Die Vietnam Prosperity Commercial Bank (VPBank) hat einen Kreditvertrag mit der Japan International Cooperation Bank (JBIC) sowie den Mitkreditgebern Sumitomo Mitsui Banking Corporation (SMBC) und Joy...
+2026-09-29 14:13:42,541 [INFO] LLM HTTP 429 for: VPBank unterzeichnet einen Darlehensvertrag über 27 Millione
+2026-09-29 14:13:42,541 [WARNING] LLM 429 — waiting 60s: VPBank unterzeichnet einen Darlehensvertrag über 2
+2026-09-29 14:14:42,781 [INFO] LLM HTTP 429 for: VPBank unterzeichnet einen Darlehensvertrag über 27 Millione
+2026-09-29 14:14:42,781 [WARNING] LLM 429 — waiting 60s: VPBank unterzeichnet einen Darlehensvertrag über 2
+2026-09-29 14:15:42,781 [WARNING] LLM returned None — skipping: VPBank unterzeichnet einen Darlehensvertrag über 27 Millione
+2026-09-29 14:15:42,781 [INFO] ------- Processing article n. 0: VPBank erhält 27 Millionen Dollar von einer japanischen Bank für ein Stromübertr -------
+2026-09-29 14:15:43,105 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/vpbank-huy-dong-27-trieu-usd-tu-ngan-hang-nhat-ban-cho
+2026-09-29 14:15:43,105 [INFO] URL: https://www.vietnam.vn/de/vpbank-huy-dong-27-trieu-usd-tu-ngan-hang-nhat-ban-cho-du-an-truyen-tai-dien
+2026-09-29 14:15:43,544 [INFO] Text length: 3903 chars | source: full
+2026-09-29 14:15:43,544 [INFO] Text preview: Am 29. September unterzeichnete die Vietnam Prosperity Commercial Joint Stock Bank (VPBank) in Hanoi einen Kreditvertrag über 27 Millionen US-Dollar mit der Japan International Cooperation Bank (JBIC)...
+2026-09-29 14:15:43,776 [INFO] LLM HTTP 429 for: VPBank erhält 27 Millionen Dollar von einer japanischen Bank
+2026-09-29 14:15:43,776 [WARNING] LLM 429 — waiting 60s: VPBank erhält 27 Millionen Dollar von einer japani
+2026-09-29 14:16:44,073 [INFO] LLM HTTP 429 for: VPBank erhält 27 Millionen Dollar von einer japanischen Bank
+2026-09-29 14:16:44,073 [WARNING] LLM 429 — waiting 60s: VPBank erhält 27 Millionen Dollar von einer japani
+2026-09-29 14:17:44,074 [WARNING] LLM returned None — skipping: VPBank erhält 27 Millionen Dollar von einer japanischen Bank
+2026-09-29 14:17:44,074 [INFO] ------- Processing article n. 0: Hindernis für Energiewende: Bei der Novelle des Ökostrom-Gesetzes bahnt sich neu -------
+2026-09-29 14:17:44,509 [INFO] Resolved Google News URL: https://rp-online.de/politik/deutschland/bei-der-eeg-novelle-bahnt-sich-neuer-ko
+2026-09-29 14:17:44,509 [INFO] URL: https://rp-online.de/politik/deutschland/bei-der-eeg-novelle-bahnt-sich-neuer-koalitionsstreit-an_aid-155638505
+2026-09-29 14:17:44,816 [INFO] Text length: 4242 chars | source: full
+2026-09-29 14:17:44,816 [INFO] Text preview: In der schwarz-roten Koalition bahnt sich ein neuer Streit an, der sich diesmal an der konkreten Ausgestaltung der Energiewende entzünden könnte. Konkret geht es um das Erneuerbare-Energien-Gesetz (EE...
+2026-09-29 14:17:45,069 [INFO] LLM HTTP 429 for: Hindernis für Energiewende: Bei der Novelle des Ökostrom-Ges
+2026-09-29 14:17:45,069 [WARNING] LLM 429 — waiting 60s: Hindernis für Energiewende: Bei der Novelle des Ök
+2026-09-29 14:18:45,297 [INFO] LLM HTTP 429 for: Hindernis für Energiewende: Bei der Novelle des Ökostrom-Ges
+2026-09-29 14:18:45,297 [WARNING] LLM 429 — waiting 60s: Hindernis für Energiewende: Bei der Novelle des Ök
+2026-09-29 14:19:45,298 [WARNING] LLM returned None — skipping: Hindernis für Energiewende: Bei der Novelle des Ökostrom-Ges
+2026-09-29 14:19:45,298 [INFO] ------- Processing article n. 0: Die ERG-Aktie meldet einen PPA bei 22,57 Euro, plus 0,89 Prozent - AD HOC NEWS -------
+2026-09-29 14:19:45,596 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/die-erg-aktie-meldet-einen
+2026-09-29 14:19:45,596 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/die-erg-aktie-meldet-einen-ppa-bei-22-57-euro-plus-0-89-prozent/70198695
+2026-09-29 14:19:46,739 [INFO] Text length: 2008 chars | source: full
+2026-09-29 14:19:46,739 [INFO] Text preview: Die ERG-Aktie (ISIN IT0001157020) notiert am 29.09.2026 um 15:06 Uhr bei Lang & Schwarz mit 22,57 Euro, plus 0,89 Prozent gegenüber dem Vortagesschluss von 22,37 Euro. Am 25.09.2026 meldete ERG einen ...
+2026-09-29 14:19:46,989 [INFO] LLM HTTP 429 for: Die ERG-Aktie meldet einen PPA bei 22,57 Euro, plus 0,89 Pro
+2026-09-29 14:19:46,989 [WARNING] LLM 429 — waiting 60s: Die ERG-Aktie meldet einen PPA bei 22,57 Euro, plu
+2026-09-29 14:20:47,492 [INFO] LLM HTTP 429 for: Die ERG-Aktie meldet einen PPA bei 22,57 Euro, plus 0,89 Pro
+2026-09-29 14:20:47,493 [WARNING] LLM 429 — waiting 60s: Die ERG-Aktie meldet einen PPA bei 22,57 Euro, plu
+2026-09-29 14:21:47,493 [WARNING] LLM returned None — skipping: Die ERG-Aktie meldet einen PPA bei 22,57 Euro, plus 0,89 Pro
+2026-09-29 14:21:47,493 [INFO] ------- Processing article n. 0: L'énergie sans fil dans l'espace, c'est pour bientôt ! Star Catcher lance son pr -------
+2026-09-29 14:21:47,819 [INFO] Resolved Google News URL: https://www.generation-nt.com/actualites/star-catcher-protostar-energie-dirigee-
+2026-09-29 14:21:47,819 [INFO] URL: https://www.generation-nt.com/actualites/star-catcher-protostar-energie-dirigee-reseau-electrique-espace-2081918
+2026-09-29 14:21:49,189 [INFO] Text length: 4339 chars | source: full
+2026-09-29 14:21:49,189 [INFO] Text preview: La start-up américaine Star Catcher Industries s'apprête à explorer une voie d'avenir. En octobre 2026, elle lancera son prototype Protostar depuis la base de Vandenberg à bord d'une mission Transport...
+2026-09-29 14:21:49,900 [INFO] LLM HTTP 429 for: L'énergie sans fil dans l'espace, c'est pour bientôt ! Star 
+2026-09-29 14:21:49,900 [WARNING] LLM 429 — waiting 60s: L'énergie sans fil dans l'espace, c'est pour bient
+2026-09-29 14:22:50,160 [INFO] LLM HTTP 429 for: L'énergie sans fil dans l'espace, c'est pour bientôt ! Star 
+2026-09-29 14:22:50,160 [WARNING] LLM 429 — waiting 60s: L'énergie sans fil dans l'espace, c'est pour bient
+2026-09-29 14:23:50,160 [WARNING] LLM returned None — skipping: L'énergie sans fil dans l'espace, c'est pour bientôt ! Star 
+2026-09-29 14:23:50,161 [INFO] ------- Processing article n. 0: Cheniere signe un contrat d'approvisionnement en GNL d'une durée de 22 ans avec  -------
+2026-09-29 14:23:50,504 [INFO] Resolved Google News URL: https://www.boursorama.com/bourse/actualites/cheniere-signe-un-contrat-d-approvi
+2026-09-29 14:23:50,504 [INFO] URL: https://www.boursorama.com/bourse/actualites/cheniere-signe-un-contrat-d-approvisionnement-en-gnl-d-une-duree-de-22-ans-avec-petrobras-597a677555c97278ab58519f89ab1a42
+2026-09-29 14:23:51,606 [INFO] Text length: 1770 chars | source: full
+2026-09-29 14:23:51,606 [INFO] Text preview: ((Traduction automatisée par Reuters à l'aide de l'apprentissage automatique et de l'IA générative, veuillez vous référer à l'avertissement suivant: https://bit.ly/rtrsauto))
+L'exportateur américain d...
+2026-09-29 14:23:51,901 [INFO] LLM HTTP 429 for: Cheniere signe un contrat d'approvisionnement en GNL d'une d
+2026-09-29 14:23:51,901 [WARNING] LLM 429 — waiting 60s: Cheniere signe un contrat d'approvisionnement en G
+2026-09-29 14:24:52,151 [INFO] LLM HTTP 429 for: Cheniere signe un contrat d'approvisionnement en GNL d'une d
+2026-09-29 14:24:52,151 [WARNING] LLM 429 — waiting 60s: Cheniere signe un contrat d'approvisionnement en G
+2026-09-29 14:25:52,152 [WARNING] LLM returned None — skipping: Cheniere signe un contrat d'approvisionnement en GNL d'une d
+2026-09-29 14:25:52,152 [INFO] ------- Processing article n. 0: Énergie : en Zambie, le solaire accélère son changement d’échelle face à la dépe -------
+2026-09-29 14:25:52,572 [INFO] Resolved Google News URL: https://www.latribune.fr/article/afrique/74682257537498/energie-en-zambie-le-sol
+2026-09-29 14:25:52,572 [INFO] URL: https://www.latribune.fr/article/afrique/74682257537498/energie-en-zambie-le-solaire-accelere-son-changement-d-echelle-face-a-la-dependance-a-l-hydroelectricite
+2026-09-29 14:25:53,070 [INFO] Text length: 3812 chars | source: full
+2026-09-29 14:25:53,070 [INFO] Text preview: Énergie : en Zambie, le solaire accélère son changement d’échelle face à la dépendance à l’hydroélectricité
+Le gouvernement zambien cible une capacité de 2 733 MW pour le solaire à l'horizon 2031.
+DR
+...
+2026-09-29 14:25:53,330 [INFO] LLM HTTP 429 for: Énergie : en Zambie, le solaire accélère son changement d’éc
+2026-09-29 14:25:53,330 [WARNING] LLM 429 — waiting 60s: Énergie : en Zambie, le solaire accélère son chang
+2026-09-29 14:26:53,616 [INFO] LLM HTTP 429 for: Énergie : en Zambie, le solaire accélère son changement d’éc
+2026-09-29 14:26:53,616 [WARNING] LLM 429 — waiting 60s: Énergie : en Zambie, le solaire accélère son chang
+2026-09-29 14:27:53,617 [WARNING] LLM returned None — skipping: Énergie : en Zambie, le solaire accélère son changement d’éc
+2026-09-29 14:27:53,617 [INFO] ------- Processing article n. 0: Statkraft y Greenvolt firman en Polonia el mayor acuerdo de gestión comercial de -------
+2026-09-29 14:27:54,026 [INFO] Resolved Google News URL: https://www.statkraft.es/medios/noticias-e-historias/archivo/2026/statkraft-y-gr
+2026-09-29 14:27:54,026 [INFO] URL: https://www.statkraft.es/medios/noticias-e-historias/archivo/2026/statkraft-y-greenvolt-firman-en-polonia-el-mayor-acuerdo-de-gestion-comercial-de-baterias-bess-de-la-union-europea/
+2026-09-29 14:27:54,407 [INFO] Text length: 4212 chars | source: full
+2026-09-29 14:27:54,407 [INFO] Text preview: Statkraft y Greenvolt firman en Polonia el mayor acuerdo de gestión comercial de baterías (BESS) de la Unión Europea
+Con una duración de 10 años, este pionero acuerdo cubre 400 MW de capacidad de alma...
+2026-09-29 14:27:54,737 [INFO] LLM HTTP 429 for: Statkraft y Greenvolt firman en Polonia el mayor acuerdo de 
+2026-09-29 14:27:54,737 [WARNING] LLM 429 — waiting 60s: Statkraft y Greenvolt firman en Polonia el mayor a
+2026-09-29 14:28:55,025 [INFO] LLM HTTP 429 for: Statkraft y Greenvolt firman en Polonia el mayor acuerdo de 
+2026-09-29 14:28:55,025 [WARNING] LLM 429 — waiting 60s: Statkraft y Greenvolt firman en Polonia el mayor a
+2026-09-29 14:29:55,026 [WARNING] LLM returned None — skipping: Statkraft y Greenvolt firman en Polonia el mayor acuerdo de 
+2026-09-29 14:29:55,026 [INFO] ------- Processing article n. 0: La fiebre del oro de las baterías: así es como la energía crea un nuevo mercado  -------
+2026-09-29 14:29:55,385 [INFO] Resolved Google News URL: https://es.finance.yahoo.com/noticias/fiebre-oro-bater%C3%ADas-energ%C3%ADa-crea
+2026-09-29 14:29:55,385 [INFO] URL: https://es.finance.yahoo.com/noticias/fiebre-oro-bater%C3%ADas-energ%C3%ADa-crea-124257335.html
+2026-09-29 14:29:55,952 [INFO] Text length: 2798 chars | source: full
+2026-09-29 14:29:55,952 [INFO] Text preview: Las facturas de la electricidad doméstica siguen siendo elevadas, pero en el mercado mayorista algunos operadores pueden incluso cobrar por consumir energía. Es una de las paradojas que está generando...
+2026-09-29 14:29:56,213 [INFO] LLM HTTP 429 for: La fiebre del oro de las baterías: así es como la energía cr
+2026-09-29 14:29:56,213 [WARNING] LLM 429 — waiting 60s: La fiebre del oro de las baterías: así es como la 
+2026-09-29 14:30:56,464 [INFO] LLM HTTP 429 for: La fiebre del oro de las baterías: así es como la energía cr
+2026-09-29 14:30:56,464 [WARNING] LLM 429 — waiting 60s: La fiebre del oro de las baterías: así es como la 
+2026-09-29 14:31:56,465 [WARNING] LLM returned None — skipping: La fiebre del oro de las baterías: así es como la energía cr
+2026-09-29 14:31:56,465 [INFO] ------- Processing article n. 0: NEO Battery Materials Ltd. (NBM) firma un JDA con Preneu y planea entrar en Cana -------
+2026-09-29 14:31:56,822 [INFO] Resolved Google News URL: https://es.tradingview.com/news/tradingview:c5051cf78cd89:0/
+2026-09-29 14:31:56,822 [INFO] URL: https://es.tradingview.com/news/tradingview:c5051cf78cd89:0/
+2026-09-29 14:31:57,027 [INFO] Text length: 879 chars | source: full
+2026-09-29 14:31:57,027 [INFO] Text preview: NEO Battery Materials Ltd. (NBM) firma un JDA con Preneu y planea entrar en Canadá
+NEO Battery Materials firmó un acuerdo de desarrollo conjunto con la surcoreana Preneu para codesarrollar baterías de...
+2026-09-29 14:31:57,279 [INFO] LLM HTTP 429 for: NEO Battery Materials Ltd. (NBM) firma un JDA con Preneu y p
+2026-09-29 14:31:57,279 [WARNING] LLM 429 — waiting 60s: NEO Battery Materials Ltd. (NBM) firma un JDA con 
+2026-09-29 14:32:57,571 [INFO] LLM HTTP 429 for: NEO Battery Materials Ltd. (NBM) firma un JDA con Preneu y p
+2026-09-29 14:32:57,571 [WARNING] LLM 429 — waiting 60s: NEO Battery Materials Ltd. (NBM) firma un JDA con 
+2026-09-29 14:33:57,571 [WARNING] LLM returned None — skipping: NEO Battery Materials Ltd. (NBM) firma un JDA con Preneu y p
+2026-09-29 14:33:57,572 [INFO] ------- Processing article n. 0: Toyota firma un acuerdo millonario con una empresa española para asegurarse su t -------
+2026-09-29 14:33:57,913 [INFO] Resolved Google News URL: https://www.hibridosyelectricos.com/energia/toyota-firma-acuerdo-millonario-con-
+2026-09-29 14:33:57,913 [INFO] URL: https://www.hibridosyelectricos.com/energia/toyota-firma-acuerdo-millonario-con-empresa-espanola-asegurarse-su-transicion-coche-electrico-comuna-planta-solar-en-texas_89457_102.html
+2026-09-29 14:33:58,283 [INFO] Text length: 4017 chars | source: full
+2026-09-29 14:33:58,283 [INFO] Text preview: Toyota ha encontrado en Texas una nueva pieza para avanzar en su estrategia de descarbonización. La compañía japonesa ha cerrado un acuerdo de energía renovable a 15 años vinculado a la planta fotovol...
+2026-09-29 14:33:58,565 [INFO] LLM HTTP 429 for: Toyota firma un acuerdo millonario con una empresa española 
+2026-09-29 14:33:58,565 [WARNING] LLM 429 — waiting 60s: Toyota firma un acuerdo millonario con una empresa
+2026-09-29 14:34:58,851 [INFO] LLM HTTP 429 for: Toyota firma un acuerdo millonario con una empresa española 
+2026-09-29 14:34:58,851 [WARNING] LLM 429 — waiting 60s: Toyota firma un acuerdo millonario con una empresa
+2026-09-29 14:35:58,852 [WARNING] LLM returned None — skipping: Toyota firma un acuerdo millonario con una empresa española 
+2026-09-29 14:35:58,852 [INFO] ------- Processing article n. 0: Grupo MET compra una participación mayoritaria en la griega Zephiros Energy Trad -------
+2026-09-29 14:35:59,171 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/grupo-met-compra-una-participacion-mayoritari
+2026-09-29 14:35:59,171 [INFO] URL: https://elperiodicodelaenergia.com/grupo-met-compra-una-participacion-mayoritaria-en-la-griega-zephiros-energy-trading/
+2026-09-29 14:35:59,963 [INFO] Text length: 817 chars | source: full
+2026-09-29 14:35:59,963 [INFO] Text preview: MET Sales and Trading, la división de comercialización, venta al por mayor y ventas de Grupo MET, ha adquirido una participación mayoritaria en la griega Zephiros Energy Trading, informó la compañía, ...
+2026-09-29 14:36:00,203 [INFO] LLM HTTP 429 for: Grupo MET compra una participación mayoritaria en la griega 
+2026-09-29 14:36:00,203 [WARNING] LLM 429 — waiting 60s: Grupo MET compra una participación mayoritaria en 
+2026-09-29 14:37:00,474 [INFO] LLM HTTP 429 for: Grupo MET compra una participación mayoritaria en la griega 
+2026-09-29 14:37:00,474 [WARNING] LLM 429 — waiting 60s: Grupo MET compra una participación mayoritaria en 
+2026-09-29 14:38:00,475 [WARNING] LLM returned None — skipping: Grupo MET compra una participación mayoritaria en la griega 
+2026-09-29 14:38:00,475 [INFO] ------- Processing article n. 0: Samsung invierte $1,000 millones en la empresa de infraestructura Helix AI - es. -------
+2026-09-29 14:38:00,912 [INFO] Resolved Google News URL: https://es.qz.com/inversin-samsung-helix-infraestructura-digital-kkr-nvidia-0929
+2026-09-29 14:38:00,912 [INFO] URL: https://es.qz.com/inversin-samsung-helix-infraestructura-digital-kkr-nvidia-092926
+2026-09-29 14:38:01,283 [INFO] Text length: 3218 chars | source: full
+2026-09-29 14:38:01,283 [INFO] Text preview: Samsung Electronics y cinco de sus filiales anunciaron el martes que conjuntamente invertirían $1 mil millones en Helix Digital Infrastructure, una firma de infraestructura de IA que KKR creó y Nvidia...
+2026-09-29 14:38:01,553 [INFO] LLM HTTP 429 for: Samsung invierte $1,000 millones en la empresa de infraestru
+2026-09-29 14:38:01,553 [WARNING] LLM 429 — waiting 60s: Samsung invierte $1,000 millones en la empresa de 
+2026-09-29 14:39:01,807 [INFO] LLM HTTP 429 for: Samsung invierte $1,000 millones en la empresa de infraestru
+2026-09-29 14:39:01,807 [WARNING] LLM 429 — waiting 60s: Samsung invierte $1,000 millones en la empresa de 
+2026-09-29 14:40:01,808 [WARNING] LLM returned None — skipping: Samsung invierte $1,000 millones en la empresa de infraestru
+2026-09-29 14:40:01,808 [INFO] ------- Processing article n. 0: Eaton firma un acuerdo para adquirir COL Group y ampliar su capacidad de fabrica -------
+2026-09-29 14:40:02,106 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/eaton-firma-un-acuerdo-para-adquirir-col-grou
+2026-09-29 14:40:02,106 [INFO] URL: https://elperiodicodelaenergia.com/eaton-firma-un-acuerdo-para-adquirir-col-group-y-ampliar-su-capacidad-de-fabricacion-para-los-mercados-de-centros-de-datos-y-redes-electricas-en-emea
+2026-09-29 14:40:02,849 [INFO] Text length: 1297 chars | source: full
+2026-09-29 14:40:02,849 [INFO] Text preview: La empresa de gestión inteligente de la energía Eaton ha anunciado la firma de un acuerdo para adquirir COL, hasta ahora propiedad de Oaktree a través de su estrategia de inversión Power Opportunities...
+2026-09-29 14:40:03,148 [INFO] LLM HTTP 429 for: Eaton firma un acuerdo para adquirir COL Group y ampliar su 
+2026-09-29 14:40:03,148 [WARNING] LLM 429 — waiting 60s: Eaton firma un acuerdo para adquirir COL Group y a
+2026-09-29 14:41:03,396 [INFO] LLM HTTP 429 for: Eaton firma un acuerdo para adquirir COL Group y ampliar su 
+2026-09-29 14:41:03,397 [WARNING] LLM 429 — waiting 60s: Eaton firma un acuerdo para adquirir COL Group y a
+2026-09-29 14:42:03,397 [WARNING] LLM returned None — skipping: Eaton firma un acuerdo para adquirir COL Group y ampliar su 
+2026-09-29 14:42:03,397 [INFO] ------- Processing article n. 0: Tres nuevas comunidades solares empresariales suman 298 kWp en Lucena - pv magaz -------
+2026-09-29 14:42:03,731 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/09/29/tres-nuevas-comunidades-solares-empresaria
+2026-09-29 14:42:03,731 [INFO] URL: https://www.pv-magazine.es/2026/09/29/tres-nuevas-comunidades-solares-empresariales-suman-298-kwp-en-lucena/
+2026-09-29 14:42:04,167 [INFO] Text length: 3330 chars | source: full
+2026-09-29 14:42:04,167 [INFO] Text preview: La compañía cordobesa especializada en el desarrollo de comunidades solares, Soldelia, ha puesto en marcha tres nuevas instalaciones fotovoltaicas sobre cubiertas industriales en Lucena (Córdoba). Las...
+2026-09-29 14:42:04,433 [INFO] LLM HTTP 429 for: Tres nuevas comunidades solares empresariales suman 298 kWp 
+2026-09-29 14:42:04,433 [WARNING] LLM 429 — waiting 60s: Tres nuevas comunidades solares empresariales suma
+2026-09-29 14:43:04,935 [INFO] LLM HTTP 429 for: Tres nuevas comunidades solares empresariales suman 298 kWp 
+2026-09-29 14:43:04,935 [WARNING] LLM 429 — waiting 60s: Tres nuevas comunidades solares empresariales suma
+2026-09-29 14:44:04,936 [WARNING] LLM returned None — skipping: Tres nuevas comunidades solares empresariales suman 298 kWp 
+2026-09-29 14:44:04,936 [INFO] ------- Processing article n. 0: Nuovi dettagli sul bando “Hydrogen Valley JTF” della Regione Puglia: 10 milioni  -------
+2026-09-29 14:44:05,304 [INFO] Resolved Google News URL: https://www.hydronews.it/nuovi-dettagli-sul-bando-hydrogen-valley-jtf-della-regi
+2026-09-29 14:44:05,304 [INFO] URL: https://www.hydronews.it/nuovi-dettagli-sul-bando-hydrogen-valley-jtf-della-regione-puglia-10-milioni-di-euro-per-sostenere-lo-sviluppo-dellh2-green-a-taranto/
+2026-09-29 14:44:06,629 [INFO] Text length: 2817 chars | source: full
+2026-09-29 14:44:06,629 [INFO] Text preview: Nuovi dettagli sul bando “Hydrogen Valley JTF” della Regione Puglia: 10 milioni di euro per sostenere lo sviluppo dell’H2 green a Taranto
+Settembre 29, 2026
+Compie un passo avanti il bando “Hydrogen V...
+2026-09-29 14:44:06,884 [INFO] LLM HTTP 429 for: Nuovi dettagli sul bando “Hydrogen Valley JTF” della Regione
+2026-09-29 14:44:06,884 [WARNING] LLM 429 — waiting 60s: Nuovi dettagli sul bando “Hydrogen Valley JTF” del
+2026-09-29 14:45:07,134 [INFO] LLM HTTP 429 for: Nuovi dettagli sul bando “Hydrogen Valley JTF” della Regione
+2026-09-29 14:45:07,134 [WARNING] LLM 429 — waiting 60s: Nuovi dettagli sul bando “Hydrogen Valley JTF” del
+2026-09-29 14:46:07,134 [WARNING] LLM returned None — skipping: Nuovi dettagli sul bando “Hydrogen Valley JTF” della Regione
+2026-09-29 14:46:07,135 [INFO] ------- Processing article n. 0: Greenvolt, firmato con Statkraft un accordo decennale per 400 MW di sistemi di a -------
+2026-09-29 14:46:07,483 [INFO] Resolved Google News URL: https://www.ilgiornaleditalia.it/news/mondo-imprese/824924/greenvolt--firmato-co
+2026-09-29 14:46:07,483 [INFO] URL: https://www.ilgiornaleditalia.it/news/mondo-imprese/824924/greenvolt--firmato-con-statkraft-un-accordo-decennale-per-400-mw-di-sistemi-di-accumulo-a-batterie-in-polonia.html
+2026-09-29 14:46:08,336 [INFO] Text length: 3627 chars | source: full
+2026-09-29 14:46:08,336 [INFO] Text preview: 29 Settembre 2026
+Greenvolt
+Greenvolt ha firmato con Statkraft un accordo di tolling della durata di 10 anni relativo a 400 MW di sistemi di accumulo a batterie (BESS) in Polonia. L’intesa riguarda du...
+2026-09-29 14:46:08,613 [INFO] LLM HTTP 429 for: Greenvolt, firmato con Statkraft un accordo decennale per 40
+2026-09-29 14:46:08,613 [WARNING] LLM 429 — waiting 60s: Greenvolt, firmato con Statkraft un accordo decenn
+2026-09-29 14:47:08,872 [INFO] LLM HTTP 429 for: Greenvolt, firmato con Statkraft un accordo decennale per 40
+2026-09-29 14:47:08,872 [WARNING] LLM 429 — waiting 60s: Greenvolt, firmato con Statkraft un accordo decenn
+2026-09-29 14:48:08,872 [WARNING] LLM returned None — skipping: Greenvolt, firmato con Statkraft un accordo decennale per 40
+2026-09-29 14:48:08,872 [INFO] ------- Processing article n. 0: eActros 600 w Trans Południe: pierwszy elektryczny pojazd ciężarowy z dofinansow -------
+2026-09-29 14:48:09,197 [INFO] Resolved Google News URL: https://truckslog.pl/aktualnosci/eactros-600-w-trans-poludnie-pierwszy-elektrycz
+2026-09-29 14:48:09,197 [INFO] URL: https://truckslog.pl/aktualnosci/eactros-600-w-trans-poludnie-pierwszy-elektryczny-pojazd-ciezarowy-z-dofinansowaniem-zakupu-z-nfosigw/
+2026-09-29 14:48:10,674 [INFO] Text length: 4285 chars | source: full
+2026-09-29 14:48:10,674 [INFO] Text preview: 24 września na 69 km drogi krajowej nr 94 w okolicach Środy Śląskiej inspektorzy z dolnośląskiej […]
+eActros 600 w Trans Południe: pierwszy elektryczny pojazd ciężarowy z dofinansowaniem zakupu z NFOŚ...
+2026-09-29 14:48:10,943 [INFO] LLM HTTP 429 for: eActros 600 w Trans Południe: pierwszy elektryczny pojazd ci
+2026-09-29 14:48:10,943 [WARNING] LLM 429 — waiting 60s: eActros 600 w Trans Południe: pierwszy elektryczny
+2026-09-29 14:49:11,195 [INFO] LLM HTTP 429 for: eActros 600 w Trans Południe: pierwszy elektryczny pojazd ci
+2026-09-29 14:49:11,195 [WARNING] LLM 429 — waiting 60s: eActros 600 w Trans Południe: pierwszy elektryczny
+2026-09-29 14:50:11,195 [WARNING] LLM returned None — skipping: eActros 600 w Trans Południe: pierwszy elektryczny pojazd ci
+2026-09-29 14:50:11,196 [INFO] ------- Processing article n. 0: O VPBank assina um acordo de empréstimo de US$ 27 milhões com o JBIC para financ -------
+2026-09-29 14:50:11,527 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/vpbank-ky-ket-khoan-vay-27-trieu-usd-voi-jbic-tai-tro-
+2026-09-29 14:50:11,527 [INFO] URL: https://www.vietnam.vn/pt/vpbank-ky-ket-khoan-vay-27-trieu-usd-voi-jbic-tai-tro-du-an-truyen-tai-dien
+2026-09-29 14:50:12,202 [INFO] Text length: 2945 chars | source: full
+2026-09-29 14:50:12,202 [INFO] Text preview: O Vietnam Prosperity Commercial Bank (VPBank) acaba de assinar um contrato de empréstimo com o Japan International Cooperation Bank (JBIC) e os co-credores Sumitomo Mitsui Banking Corporation (SMBC) e...
+2026-09-29 14:50:12,466 [INFO] LLM HTTP 429 for: O VPBank assina um acordo de empréstimo de US$ 27 milhões co
+2026-09-29 14:50:12,466 [WARNING] LLM 429 — waiting 60s: O VPBank assina um acordo de empréstimo de US$ 27 
+2026-09-29 14:51:12,725 [INFO] LLM HTTP 429 for: O VPBank assina um acordo de empréstimo de US$ 27 milhões co
+2026-09-29 14:51:12,725 [WARNING] LLM 429 — waiting 60s: O VPBank assina um acordo de empréstimo de US$ 27 
+2026-09-29 14:52:12,725 [WARNING] LLM returned None — skipping: O VPBank assina um acordo de empréstimo de US$ 27 milhões co
+2026-09-29 14:52:12,725 [INFO] ------- Processing article n. 0: O VPBank capta US$ 27 milhões de um banco japonês para um projeto de transmissão -------
+2026-09-29 14:52:13,016 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/vpbank-huy-dong-27-trieu-usd-tu-ngan-hang-nhat-ban-cho
+2026-09-29 14:52:13,016 [INFO] URL: https://www.vietnam.vn/pt/vpbank-huy-dong-27-trieu-usd-tu-ngan-hang-nhat-ban-cho-du-an-truyen-tai-dien
+2026-09-29 14:52:13,450 [INFO] Text length: 3622 chars | source: full
+2026-09-29 14:52:13,450 [INFO] Text preview: Em 29 de setembro, em Hanói, o Vietnam Prosperity Commercial Joint Stock Bank (VPBank) assinou um contrato de empréstimo no valor de US$ 27 milhões com o Japan International Cooperation Bank (JBIC), j...
+2026-09-29 14:52:13,711 [INFO] LLM HTTP 429 for: O VPBank capta US$ 27 milhões de um banco japonês para um pr
+2026-09-29 14:52:13,711 [WARNING] LLM 429 — waiting 60s: O VPBank capta US$ 27 milhões de um banco japonês 
+2026-09-29 14:53:13,989 [INFO] LLM HTTP 429 for: O VPBank capta US$ 27 milhões de um banco japonês para um pr
+2026-09-29 14:53:13,989 [WARNING] LLM 429 — waiting 60s: O VPBank capta US$ 27 milhões de um banco japonês 
+2026-09-29 14:54:13,990 [WARNING] LLM returned None — skipping: O VPBank capta US$ 27 milhões de um banco japonês para um pr
+2026-09-29 14:54:13,990 [INFO] Run complete. New deals: 0, Updates: 0
+2026-09-29 14:54:14,005 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1423 deals)
+2026-09-29 14:54:16,350 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
