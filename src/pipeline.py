@@ -404,6 +404,7 @@ def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
             log.info(f"LLM HTTP {resp.status_code} for: {title[:60]}")
             if resp.status_code == 429:
                 wait = int(resp.headers.get("retry-after", 60))
+                log.warning(f"LLM 429 body: {resp.text[:300]}")
                 if wait > 120:  # daily limit exhausted, not a transient burst
                     log.warning(f"LLM daily limit exhausted (retry-after: {wait}s) — stopping run")
                     return None  # let the pipeline finish cleanly with what it has
