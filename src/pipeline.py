@@ -36,9 +36,37 @@ CSV_PATH = DATA_DIR / "ppa_deals.csv"
 NEWSAPI_KEY = os.environ["NEWSAPI_KEY"]
 NEWSAPI_URL = "https://newsapi.org/v2/everything"
 
-llm_KEY   = os.environ["MISTRAL_KEY"]
-llm_URL   = "https://api.mistral.ai/v1/chat/completions"
-llm_MODEL = os.environ.get("llm_MODEL", "mistral-small-latest")
+# ── LLM Providers ─────────────────────────────────────────────────────────────
+LLM_PROVIDERS = [
+    {
+        "name": "groq",
+        "key": os.environ.get("GROQ_KEY"),
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "model": os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b"),
+        "min_delay": 15,
+    },
+    {
+        "name": "gemini",
+        "key": os.environ.get("GEMINI_KEY"),
+        "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+        "model": os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite"),
+        "min_delay": 5,
+    },
+    {
+        "name": "mistral",
+        "key": os.environ.get("MISTRAL_KEY"),
+        "url": "https://api.mistral.ai/v1/chat/completions",
+        "model": os.environ.get("MISTRAL_MODEL", "mistral-small-latest"),
+        "min_delay": 5,
+    },
+]
+
+# Providers that have exhausted their quota or otherwise become unusable
+# are disabled for the remainder of the current run.
+disabled_llm_providers = set()
+
+# Last successful request time per provider, used for conservative pacing.
+last_llm_request = {}
 
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
 
@@ -381,73 +409,223 @@ Text (any language — return all fields in English):
 ---
 {text}"""
 
+def _llm_wait(provider: dict) -> None:
+    """Keep requests spaced out to avoid hitting per-minute limits."""
+    name = provider["name"]
+    delay = provider["min_delay"]
+    last = last_llm_request.get(name)
+
+    if last is not None:
+        elapsed = time.monotonic() - last
+        if elapsed < delay:
+            time.sleep(delay - elapsed)
+
+
+def _llm_disable(provider: dict, reason: str) -> None:
+    name = provider["name"]
+    disabled_llm_providers.add(name)
+    log.warning(f"LLM provider DISABLED for this run: {name} — {reason}")
+
+
+def _llm_request(provider: dict, prompt: str, title: str):
+    """Make one request and return (response, error_type)."""
+    name = provider["name"]
+
+    _llm_wait(provider)
+    last_llm_request[name] = time.monotonic()
+
+    payload = {
+        "model": provider["model"],
+        "temperature": 0.1,
+        "max_tokens": 1024,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+
+    try:
+        resp = requests.post(
+            provider["url"],
+            headers={
+                "Authorization": f"Bearer {provider['key']}",
+                "Content-Type": "application/json",
+            },
+            json=payload,
+            timeout=30,
+        )
+
+        log.info(
+            f"LLM [{name}/{provider['model']}] HTTP "
+            f"{resp.status_code} for: {title[:60]}"
+        )
+
+        if resp.status_code == 200:
+            return resp, None
+
+        if resp.status_code == 429:
+            body = resp.text[:500]
+            retry_after = resp.headers.get("retry-after")
+
+            log.warning(
+                f"LLM [{name}] 429 — retry-after={retry_after}; "
+                f"body: {body}"
+            )
+
+            # A 429 can be a short burst limit or a provider quota.
+            # Retry briefly only when Retry-After is small.
+            try:
+                wait = int(float(retry_after)) if retry_after else 30
+            except ValueError:
+                wait = 30
+
+            if wait <= 60:
+                log.warning(
+                    f"LLM [{name}] transient 429 — waiting {wait}s"
+                )
+                time.sleep(wait)
+                return _llm_request(provider, prompt, title)
+
+            _llm_disable(
+                provider,
+                f"429 with retry-after={wait}s; treating as exhausted quota"
+            )
+            return None, "quota"
+
+        if resp.status_code in (401, 403):
+            _llm_disable(
+                provider,
+                f"authentication/permission error HTTP {resp.status_code}"
+            )
+            return None, "disabled"
+
+        if resp.status_code >= 500:
+            log.warning(
+                f"LLM [{name}] server error {resp.status_code}"
+            )
+            return None, "transient"
+
+        log.warning(
+            f"LLM [{name}] unexpected HTTP {resp.status_code}: "
+            f"{resp.text[:300]}"
+        )
+        return None, "error"
+
+    except requests.Timeout:
+        log.warning(f"LLM [{name}] request timeout")
+        return None, "transient"
+
+    except requests.RequestException as e:
+        log.warning(f"LLM [{name}] request failed: {e}")
+        return None, "transient"
+
+
+def _parse_llm_response(resp, title: str, outlet: str):
+    """Parse an OpenAI-compatible response into the expected JSON."""
+    try:
+        content = resp.json()["choices"][0]["message"]["content"].strip()
+
+        if content.startswith("```"):
+            content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+
+        parsed = json.loads(content)
+
+        if isinstance(parsed, dict):
+            log.info(
+                f"LLM extracted — signed={parsed.get('is_signed_deal')} "
+                f"confidence={parsed.get('confidence')} "
+                f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
+                f"| {title[:50]}"
+            )
+        elif isinstance(parsed, list):
+            signed_deals = [
+                d for d in parsed
+                if isinstance(d, dict) and d.get("is_signed_deal")
+            ]
+            log.info(
+                f"LLM extracted {len(parsed)} deals "
+                f"({len(signed_deals)} signed) | {title[:50]}"
+            )
+
+        return parsed
+
+    except (KeyError, IndexError, TypeError, json.JSONDecodeError) as e:
+        log.warning(
+            f"LLM JSON/response parse error ({outlet}): {e}"
+        )
+        return None
+
 
 def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
+    """
+    Try every configured LLM provider in priority order.
+
+    Provider exhaustion is remembered for the rest of this run, so a
+    backfill can continue using the next available provider instead of
+    repeatedly hammering a provider that has hit its quota.
+    """
+
+    available = [
+        p for p in LLM_PROVIDERS
+        if p["key"] and p["name"] not in disabled_llm_providers
+    ]
+
+    if not available:
+        log.error("No LLM providers available for this run")
+        return None
+
     for attempt, text_limit in enumerate([6000, 3000]):
-        prompt  = EXTRACTION_PROMPT.format(text=text[:text_limit])
-        payload = {
-            "model":       llm_MODEL,
-            "temperature": 0.1,
-            "max_tokens":  1024,
-            "messages":    [{"role": "user", "content": prompt}],
-        }
-        try:
-            resp = requests.post(
-                llm_URL,
-                headers={
-                    "Authorization": f"Bearer {llm_KEY}",
-                    "Content-Type":  "application/json",
-                },
-                json=payload,
-                timeout=30,
-            )
-            log.info(f"LLM HTTP {resp.status_code} for: {title[:60]}")
-            if resp.status_code == 429:
-                wait = int(resp.headers.get("retry-after", 60))
-                log.warning(f"LLM 429 body: {resp.text[:300]}")
-                if wait > 120:  # daily limit exhausted, not a transient burst
-                    log.warning(f"LLM daily limit exhausted (retry-after: {wait}s) — stopping run")
-                    return None  # let the pipeline finish cleanly with what it has
-                log.warning(f"LLM 429 — waiting {wait}s: {title[:50]}")
-                time.sleep(wait)
+
+        prompt = EXTRACTION_PROMPT.format(text=text[:text_limit])
+
+        for provider in available:
+
+            # Provider may have been disabled by a previous article.
+            if provider["name"] in disabled_llm_providers:
                 continue
-            if resp.status_code != 200:
-                log.warning(f"LLM error body: {resp.text[:300]}")
+
+            log.info(
+                f"Trying LLM provider: {provider['name']} "
+                f"(model={provider['model']})"
+            )
+
+            resp, error_type = _llm_request(
+                provider,
+                prompt,
+                title,
+            )
+
+            if resp is None:
+                log.warning(
+                    f"LLM provider {provider['name']} failed "
+                    f"({error_type}); trying next provider"
+                )
+                continue
+
+            parsed = _parse_llm_response(resp, title, outlet)
+
+            if parsed is not None:
+                return parsed
+
+            # The provider responded successfully but produced invalid JSON.
+            # Try the next provider before shortening the article.
+            log.warning(
+                f"LLM provider {provider['name']} returned invalid JSON; "
+                f"trying next provider"
+            )
+
+        # If every provider failed, try the shorter prompt once.
+        if attempt == 0:
+            log.info(
+                "All available LLM providers failed — "
+                "retrying with shorter input"
+            )
+            available = [
+                p for p in LLM_PROVIDERS
+                if p["key"] and p["name"] not in disabled_llm_providers
+            ]
+            if not available:
+                log.error("All LLM providers exhausted for this run")
                 return None
 
-            content = resp.json()["choices"][0]["message"]["content"].strip()
-            if content.startswith("```"):
-                content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-
-            parsed = json.loads(content)
-
-            if isinstance(parsed, dict):
-                log.info(
-                    f"LLM extracted — signed={parsed.get('is_signed_deal')} "
-                    f"confidence={parsed.get('confidence')} "
-                    f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
-                    f"| {title[:50]}"
-                )
-            elif isinstance(parsed, list):
-                signed_deals = [d for d in parsed if d.get("is_signed_deal")]
-                log.info(
-                    f"LLM extracted {len(parsed)} deals ({len(signed_deals)} signed) | {title[:50]}"
-                )
-            return parsed
-
-        except json.JSONDecodeError as e:
-            log.warning(
-                f"LLM JSON parse error (attempt {attempt+1}, {outlet}): {e} "
-                f"| raw: {content[:200]}"
-            )
-            if attempt == 0:
-                log.info("Retrying with shorter input...")
-                continue  # retry with 3000 chars
-            return None
-        except Exception as e:
-            log.warning(f"LLM call failed ({outlet}): {e}")
-            return None
-
+    log.warning(f"All LLM attempts failed for: {title[:60]}")
     return None
 
 # ── Deduplication ─────────────────────────────────────────────────────────────
