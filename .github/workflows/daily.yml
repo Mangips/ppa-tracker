@@ -73,6 +73,7 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
           SEARCH_FROM_DATE: ${{ env.EFFECTIVE_START_DATE }}          
