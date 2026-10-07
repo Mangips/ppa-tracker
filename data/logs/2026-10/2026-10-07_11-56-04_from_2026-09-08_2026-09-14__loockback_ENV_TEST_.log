@@ -1,0 +1,1342 @@
+2026-10-07 11:56:04,427 [INFO] === PPA Tracker pipeline starting (env: TEST) ===
+2026-10-07 11:56:04,432 [INFO] Loaded 1521 existing deals for dedup matching
+2026-10-07 11:56:04,432 [INFO] Searching from 2026-09-08 to 2026-09-14 with  loockback days
+2026-10-07 11:56:04,432 [INFO] Skipping NewsAPI (to_date is set; Free plan does not support 'to' parameter).
+2026-10-07 11:56:04,909 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-09-08%20before%3A2026-09-14&hl=en&gl=US&ceid=US:en: 52 results
+2026-10-07 11:56:07,225 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-09-08%20before%3A2026-09-14&hl=en&gl=US&ceid=US:en: 11 results
+2026-10-07 11:56:09,496 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-09-08%20before%3A2026-09-14&hl=de&gl=DE&ceid=DE:de: 3 results
+2026-10-07 11:56:11,753 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-09-08%20before%3A2026-09-14&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-10-07 11:56:14,052 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-09-08%20before%3A2026-09-14&hl=fr&gl=FR&ceid=FR:fr: 16 results
+2026-10-07 11:56:16,293 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-09-08%20before%3A2026-09-14&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-07 11:56:18,639 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-09-08%20before%3A2026-09-14&hl=es&gl=ES&ceid=ES:es: 24 results
+2026-10-07 11:56:20,902 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-09-08%20before%3A2026-09-14&hl=es&gl=ES&ceid=ES:es: 7 results
+2026-10-07 11:56:23,145 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-09-08%20before%3A2026-09-14&hl=it&gl=IT&ceid=IT:it: 4 results
+2026-10-07 11:56:25,372 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-09-08%20before%3A2026-09-14&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-07 11:56:27,602 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-09-08%20before%3A2026-09-14&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-07 11:56:33,707 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-09-08%20before%3A2026-09-14&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-07 11:56:36,028 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-09-08%20before%3A2026-09-14&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-07 11:56:38,378 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-09-08%20before%3A2026-09-14&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-10-07 11:56:40,686 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-09-08%20before%3A2026-09-14&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-10-07 11:56:42,687 [INFO] Total raw articles collected: 120
+2026-10-07 11:56:42,875 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-10-07 11:56:44,692 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-10-07 11:56:45,698 [INFO] Unique unseen articles: 112
+2026-10-07 11:56:45,698 [INFO] ------- Processing article n. 0: Our blueprint for responsible clean energy growth in Finland - blog.google -------
+2026-10-07 11:56:45,816 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxOcDdLRlVidVZpQ0NfMS1nRS1LYkRnelplQkFmY1N5VWpLemgyQW54TU1FeGl5aGN3aG9kb0pCSHBpWVFFM19KRlpYUFVXVktpOWdqOFlmWVVaTHBPY3AtdFVTRnJsenlfY2hoS1ViRnAyMTdPb3pIbC1yOWRyOUNxU0llbDVBUmpuZkFDYXpwYlZKT0ZFNUJxQVE1Ui0wcVVB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:56:46,942 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:56:46,943 [INFO] Resolved Google News URL: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/clean-energy-finland/
+2026-10-07 11:56:46,943 [INFO] URL: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/clean-energy-finland/
+2026-10-07 11:56:47,207 [INFO] Text length: 5768 chars | source: full
+2026-10-07 11:56:47,208 [INFO] Text preview: Our blueprint for responsible clean energy growth in Finland
+Today we announced our plans to expand our digital infrastructure in Finland, including new data centers and local investments and partners...
+2026-10-07 11:56:47,208 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:56:49,692 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: Our blueprint for responsible clean energy growth in Finland
+2026-10-07 11:56:49,692 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-07 11:56:49,693 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 11:56:49,693 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 11:57:09,739 [WARNING] LLM [gemini] request timeout
+2026-10-07 11:57:09,739 [WARNING] LLM provider DISABLED for this run: gemini — timeout
+2026-10-07 11:57:09,739 [WARNING] LLM provider gemini failed (disabled); trying next provider
+2026-10-07 11:57:09,739 [INFO] Trying LLM provider: mistral (model=mistral-small-latest)
+2026-10-07 11:57:10,002 [INFO] LLM [mistral/mistral-small-latest] HTTP 429 for: Our blueprint for responsible clean energy growth in Finland
+2026-10-07 11:57:10,002 [WARNING] LLM provider DISABLED for this run: mistral — HTTP 429 rate/quota limit
+2026-10-07 11:57:10,003 [WARNING] LLM provider mistral failed (quota); trying next provider
+2026-10-07 11:57:10,003 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 11:57:10,003 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:57:11,955 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Our blueprint for responsible clean energy growth in Finland
+2026-10-07 11:57:11,955 [INFO] LLM extracted 1 deals | Our blueprint for responsible clean energy growth 
+2026-10-07 11:57:11,956 [INFO] Non-electricity energy deal — skipping: Our blueprint for responsible clean energy growth in Finland
+2026-10-07 11:57:11,956 [INFO] ------- Processing article n. 0: Fortum And Google Partner To Drive Sustainable Growth For Finland, Sign Nuclear  -------
+2026-10-07 11:57:12,048 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWlhPVkM2NzlzRURNQVFlRmt5cF9ZakUybmdKRDl1dTdkX3RaSEJUdzJhZ1I3Zjc4UlBYVkFDZVc1VUp0TnM3TXdHMldvQm5vQXM3MFpJRzBWSTg2d1c4MWZ6OGtpNVBfZHdwd1h6b1RqUWdnZFE2MU91MFdYOVhiMEJqZHV1R09UQi1ucjBlOUlOcVRBQ1ItYk14Tnd2dEtpcjI4bGlvX0ZmWVpKN1NXbHBUZTgza1dYaVV2UHFxNTdFSEhkbTRiVmlYMVBHbGV3dE5lbkI0Mk9lR00?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:57:13,178 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:57:13,179 [INFO] Resolved Google News URL: https://www.eurasiareview.com/09092026-fortum-and-google-partner-to-drive-sustainable-growth-for-fin
+2026-10-07 11:57:13,179 [INFO] URL: https://www.eurasiareview.com/09092026-fortum-and-google-partner-to-drive-sustainable-growth-for-finland-sign-nuclear-power-purchase-agreement/
+2026-10-07 11:57:13,332 [INFO] Text length: 8667 chars | source: full
+2026-10-07 11:57:13,332 [INFO] Text preview: Key Takeaways:
+- Fortum and Google signed a multi-decade PPA so Loviisa nuclear can run to 2050 instead of shutting after 2030. The plant supplies about 10% of Finland’s power and employs ~580. The de...
+2026-10-07 11:57:13,332 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:57:27,482 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Fortum And Google Partner To Drive Sustainable Growth For Fi
+2026-10-07 11:57:27,483 [INFO] LLM extracted 1 deals | Fortum And Google Partner To Drive Sustainable Gro
+2026-10-07 11:57:27,504 [INFO] Non-electricity energy deal — skipping: Fortum And Google Partner To Drive Sustainable Growth For Fi
+2026-10-07 11:57:27,504 [INFO] ------- Processing article n. 0: Google to invest $15 billion in AI infrastructure and buy nuclear power in Finla -------
+2026-10-07 11:57:27,617 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxNcGlWeGFlRDRYZVowU2Y0Y0FJTlRmQW5ubjJwNGcxb3NsQnRBUVo5eWtMdnhoSlAzM0FKdlJHWkpJR2lxZUZHcWg5cFBqb1NxNm9Ma0MwR3AweEZpUEFTZ1JRZ3pjSDN6V2VOdE1nUjhBQU1PdlJ5Z29xSDloZHZOOExRbHotYVlRUDd0X2tpa2JVR3U1NTBHc3VhZkYzMDN4ZE9KWl9lZnFBZzkwZEE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:57:28,731 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:57:28,732 [INFO] Resolved Google News URL: https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-20
+2026-10-07 11:57:28,732 [INFO] URL: https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/
+2026-10-07 11:57:29,016 [INFO] Full text skipped (status 401): https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infra
+2026-10-07 11:57:29,016 [INFO] Text length: 197 chars | source: fallback
+2026-10-07 11:57:29,016 [INFO] Text preview: Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland - Reuters
+
+Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland &nbsp;&nbsp; Reuters...
+2026-10-07 11:57:29,017 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:57:42,042 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google to invest $15 billion in AI infrastructure and buy nu
+2026-10-07 11:57:42,042 [INFO] LLM extracted 1 deals | Google to invest $15 billion in AI infrastructure 
+2026-10-07 11:57:42,044 [INFO] Non-electricity energy deal — skipping: Google to invest $15 billion in AI infrastructure and buy nu
+2026-10-07 11:57:42,044 [INFO] ------- Processing article n. 0: Google Deepens Commitment to Finland with Two-Year €13 Billion investment in AI  -------
+2026-10-07 11:57:42,141 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxORUh0cVRJb2JtWWxYWUV3NF9CSFZweVdNNzFVeWRuV0MyX0xkaE51RkF6VXFjWXg4WWRWYmtWenpkQTZTVmdkbUZkWk5fUWpBOEdYVEZyS2Z0SnI3Rnl2SHRmUTBDLTBmeHhxTzUwb2R5OXg4aTRUd21QdWd2NFpuNTZDaHNoVTdRbjNZaHBPajlmNWhtUDZxTXJkQmF6WGFRWGN1VHFXckRFSlhaYmZKamdSMmtUT1J0VmU2ZzY1cnRpb1ZYWHFOQVhseFMzRjFBUWJLSXc0QVZnZ2QzN21j?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:57:43,258 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:57:43,259 [INFO] Resolved Google News URL: https://www.googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year
+2026-10-07 11:57:43,259 [INFO] URL: https://www.googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year-EUR13-Billion-investment-in-AI-Infrastructure
+2026-10-07 11:57:43,740 [INFO] Text length: 15486 chars | source: full
+2026-10-07 11:57:43,740 [INFO] Text preview: Investment builds on 15+ year presence to deliver new jobs, energy solutions, community impact, and economic growth
+Hamina, Kajaani, Muhos, Vaala, FINLAND — Sept. 9, 2026 — Google today announced plan...
+2026-10-07 11:57:43,740 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:57:57,440 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: Google Deepens Commitment to Finland with Two-Year €13 Billi
+2026-10-07 11:57:57,440 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-07 11:57:57,440 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 11:57:57,440 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 11:57:57,440 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:58:11,261 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Deepens Commitment to Finland with Two-Year €13 Billi
+2026-10-07 11:58:11,261 [INFO] LLM extracted 1 deals | Google Deepens Commitment to Finland with Two-Year
+2026-10-07 11:58:11,285 [INFO] Not a signed deal — skipping: Google Deepens Commitment to Finland with Two-Year €13 Billi
+2026-10-07 11:58:11,285 [INFO] ------- Processing article n. 0: Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe -------
+2026-10-07 11:58:11,384 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihwFBVV95cUxNSVlBVDVfVTQ3WGd1MlRsZ2NaZjB4V2pxUnQtM3hmS1RXZ3loTmw3NGdFdzI4R2JRM2xodnFickRXb00xbTBya0tKVnpCQmUyQTIzejh0RmNBZG5QQVRJTGNJbHRGeWt2OG1wLTBXbTlpT2MzUzBidGkyR2NEY2xIUlYzajFfaXPSAYwBQVVfeXFMTndMOWU2SmdmUGZ4UjNzU1g3WXlSTmZKZmdrakhYZlkyZDRFZzdnTHd5YzN6STNWVnlRTWxLcEhjZUlNUXl1WVhrQ1lpc3lTLVhWRHVtVHVsWll6SE41aER6ZnpHR1dONjhUbkJwanRVeFVyLUV5ZlY5eHNYYThqX24wLS15bHJnNUFpbEw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:58:12,516 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:58:12,517 [INFO] Resolved Google News URL: https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html
+2026-10-07 11:58:12,517 [INFO] URL: https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html
+2026-10-07 11:58:13,319 [INFO] Text length: 2839 chars | source: full
+2026-10-07 11:58:13,319 [INFO] Text preview: Google on Wednesday said it would invest at least 13 billion euros ($15.1 billion) into AI infrastructure in Finland, marking the tech giant's largest single investment in Europe.
+Finland has emerged ...
+2026-10-07 11:58:13,319 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:58:26,878 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google to invest record $15 billion in AI infrastructure in 
+2026-10-07 11:58:26,878 [INFO] LLM extracted 1 deals | Google to invest record $15 billion in AI infrastr
+2026-10-07 11:58:26,890 [INFO] UPDATE: Google / Fortum (Finland, None MW)
+2026-10-07 11:58:31,891 [INFO] ------- Processing article n. 1: Google to fund Finnish AI with €13bn investment and nuclear power pact - BBC -------
+2026-10-07 11:58:31,984 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OUUx2VDc2Xy03VWxPTjN4THdFODd0VG1mTjg5UDBmeDM0eGkySmN0bFlMWDMtVVdVSVdsRDVEUjhYb2RjY19MRmsyN3FoZUtvMV90WXk0NmhZZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:58:33,103 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:58:33,104 [INFO] Resolved Google News URL: https://www.bbc.com/news/articles/c8r6y4me2g6o
+2026-10-07 11:58:33,104 [INFO] URL: https://www.bbc.com/news/articles/c8r6y4me2g6o
+2026-10-07 11:58:33,574 [INFO] Text length: 3246 chars | source: full
+2026-10-07 11:58:33,574 [INFO] Text preview: Google picks Finland for its largest single investment in Europe
+Google will buy up to half the electricity produced by one of Finland's nuclear power plants as part of a record €13bn (£11bn; $15bn) i...
+2026-10-07 11:58:33,574 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:58:41,507 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google to fund Finnish AI with €13bn investment and nuclear 
+2026-10-07 11:58:41,507 [INFO] LLM extracted 1 deals | Google to fund Finnish AI with €13bn investment an
+2026-10-07 11:58:41,508 [INFO] Non-electricity energy deal — skipping: Google to fund Finnish AI with €13bn investment and nuclear 
+2026-10-07 11:58:41,508 [INFO] ------- Processing article n. 1: Google Is Buying Half a Nuclear Plant's Output Through 2049. Cheap Power Just Be -------
+2026-10-07 11:58:41,611 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMGVuMmR0bncyRmZ3LVZWbjN4UEVIUnlycXZ4d0RFaXZ0ZFI3WWxqOHcyMV9xNVEtNVhVcE01ZklyUERJckwzamxrNUlrVzJ2U0ZQTTczaHBHWmVjOVRvWFNPYnE3czFPbzFTeDRVU0ZMZTZnSS1RaEJVWHNUb2hNaWN0OW90QzdsOEVRZmpYX0VsWHFmVkszZy1BQUdubWVjOU1EV3BzcDRrQWVUTW5HNlFHUWU0Z2lHQ0w4Q0xfa3pfbkRza2JfdWgyOVhBeG84UTMtaW5CQW9BM1k?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:58:42,737 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:58:42,738 [INFO] Resolved Google News URL: https://247wallst.com/investing/2026/09/10/google-is-buying-half-a-nuclear-plants-output-through-204
+2026-10-07 11:58:42,738 [INFO] URL: https://247wallst.com/investing/2026/09/10/google-is-buying-half-a-nuclear-plants-output-through-2049-cheap-power-just-became-the-real-ai-moat/
+2026-10-07 11:58:42,954 [INFO] Text length: 4575 chars | source: full
+2026-10-07 11:58:42,954 [INFO] Text preview: Google Is Buying Half a Nuclear Plant’s Output Through 2049. Cheap Power Just Became the Real AI Moat.
+Google just signed a nuclear power contract stretching to 2049, turning electricity from a volati...
+2026-10-07 11:58:42,954 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:58:56,841 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Is Buying Half a Nuclear Plant's Output Through 2049.
+2026-10-07 11:58:56,841 [INFO] LLM extracted 1 deals | Google Is Buying Half a Nuclear Plant's Output Thr
+2026-10-07 11:58:56,866 [INFO] Non-electricity energy deal — skipping: Google Is Buying Half a Nuclear Plant's Output Through 2049.
+2026-10-07 11:58:56,867 [INFO] ------- Processing article n. 1: Baku’s Moment: The Hormuz Crisis and Europe’s Energy Diversification Strategy -  -------
+2026-10-07 11:58:56,963 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxQYndpMWIydXVOMkdiTjVpSW9JbHNkVkgxLVkxcm5qbUgzVHFpSTN6THgyTVBtM0h3bXdmWHBCS0tQc25XR3hSRkZiMEVLUmh4WmV0Z2ZMMHoyWlFadnA4M3VUY2ZhVkpRUGg2RVlOSVVEdFN1TnY3NkhHaWs0MUoxcEx1TGtqOC04ZU1qcTVORQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:58:58,097 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:58:58,098 [INFO] Resolved Google News URL: https://www.geopoliticalmonitor.com/bakus-moment-hormuz-europe-energy-diversification/
+2026-10-07 11:58:58,098 [INFO] URL: https://www.geopoliticalmonitor.com/bakus-moment-hormuz-europe-energy-diversification/
+2026-10-07 11:58:59,104 [INFO] Text length: 6877 chars | source: full
+2026-10-07 11:58:59,105 [INFO] Text preview: Supply chain disruptions from the Iran war are reinforcing concerns about the vulnerability of global energy trade routes, and in doing so have highlighted both the strengths and limitations of Europe...
+2026-10-07 11:58:59,105 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:59:12,211 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Baku’s Moment: The Hormuz Crisis and Europe’s Energy Diversi
+2026-10-07 11:59:12,211 [INFO] LLM extracted 1 deals | Baku’s Moment: The Hormuz Crisis and Europe’s Ener
+2026-10-07 11:59:12,212 [INFO] Not a signed deal — skipping: Baku’s Moment: The Hormuz Crisis and Europe’s Energy Diversi
+2026-10-07 11:59:12,212 [INFO] ------- Processing article n. 1: Finland: Google announces €13 billion AI, energy investment - DW.com -------
+2026-10-07 11:59:12,310 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxQS2FQTHR1enZNUnNZeVBNcTlhbmkxNVpXUWY4Q3Z2LU93ZlZMSjZGVjV5ZFRWNVIwbUlRNFJmZ2JMSFZSVFliTkpqd3pHdEJ0Q1BsMTdONlIwMnRFXzlEdHJ5QmpWUjZONW5OZkQ2U1dJVXozOFZjUWV5OTJIc3NiMTBqcnI3U0NNeDhBNDRoZTRCUVnSAZMBQVVfeXFMTVM4NGpmMG4xaTBBal96NTVPekgzTHVSa1Fsbms0MDVTcDFhZ01WZGVFN0dkbzV5QnJ2dFhhT1J3N1RDd0c3WkQ2QzBtZk5iSlNxcEdFWnF4b0laN0xINk5UVTZSaEQ3X3oyVFFQU2RnT2R1amRkekstUWkwVG5NaElnLTRDZDdTXzd0em5EcUozV25j?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:59:13,411 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:59:13,412 [INFO] Resolved Google News URL: https://www.dw.com/en/finland-google-announces-13-billion-ai-energy-investment/a-79208034
+2026-10-07 11:59:13,412 [INFO] URL: https://www.dw.com/en/finland-google-announces-13-billion-ai-energy-investment/a-79208034
+2026-10-07 11:59:14,345 [INFO] Text length: 4937 chars | source: full
+2026-10-07 11:59:14,345 [INFO] Text preview: US tech company Google on Wednesday announced that it would be investing €13 billion ($15.1 billion) in AI infrastructure in Finland as well as penning a massive deal to buy nuclear power in the Nordi...
+2026-10-07 11:59:14,345 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:59:27,230 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Finland: Google announces €13 billion AI, energy investment 
+2026-10-07 11:59:27,230 [INFO] LLM extracted 1 deals | Finland: Google announces €13 billion AI, energy i
+2026-10-07 11:59:27,273 [INFO] Non-electricity energy deal — skipping: Finland: Google announces €13 billion AI, energy investment 
+2026-10-07 11:59:27,273 [INFO] ------- Processing article n. 1: Google Unveils Biggest European Investment Yet - Yahoo Finance -------
+2026-10-07 11:59:27,374 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdEZOOWg3Rmp1V190S1hjRFFXOGF6ZFpiMU9Gb0s2TmlJWGR2dWs3RnhmcURYNWJMQ08yclNlWVlJUjdjRE9ZM0dPLUJ4bzRja0ktWFVJd2lDdzltZkUxVVVGM09Fb1UxUG9GWEx4NDFiZURaWEUzWjV6Sm9XbnJ3TkVnWGc4bnpkLVVKYW5xdlI4V25uVGxEWTNrVjR3WndROEJkQXpMMlRFZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:59:28,494 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:59:28,495 [INFO] Resolved Google News URL: https://finance.yahoo.com/technology/ai/articles/google-unveils-biggest-european-investment-12352898
+2026-10-07 11:59:28,495 [INFO] URL: https://finance.yahoo.com/technology/ai/articles/google-unveils-biggest-european-investment-123528985.html
+2026-10-07 11:59:29,123 [INFO] Text length: 2229 chars | source: full
+2026-10-07 11:59:29,124 [INFO] Text preview: This article first appeared on GuruFocus.
+Google parent Alphabet (NASDAQ:GOOGL) plans to invest at least 13 billion in Finland within two years, its largest European commitment. The project shows powe...
+2026-10-07 11:59:29,124 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:59:41,488 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Unveils Biggest European Investment Yet - Yahoo Finan
+2026-10-07 11:59:41,488 [INFO] LLM extracted 1 deals | Google Unveils Biggest European Investment Yet - Y
+2026-10-07 11:59:41,547 [INFO] Non-electricity energy deal — skipping: Google Unveils Biggest European Investment Yet - Yahoo Finan
+2026-10-07 11:59:41,547 [INFO] ------- Processing article n. 1: METLEN And PETRONAS Sign Five-Year LNG Supply Agreement For Greece - Pulse 2.0 -------
+2026-10-07 11:59:41,641 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxOU0FhZWtTM0x1U2RPc2pNZmNidjdrY2lVeHVZNmItNFRBYnVDalFTbHkzeWhVOTBxdy1aNHEzTl9sQlgzQzJySXI5b3NkcEg1aTQyTjJTelYwdGVfM3I1WG81VWpVRWdfQzBaRDBJalkxc0lMWEg0QzZSVE9NbVB3bnNSXzhxXzRXbHB6RkMzUdIBlAFBVV95cUxNcG8tMTVtQmxtUGdCSkF5MFJzd3NlbFY1Q0E3dG5yR2tldndyQU8zMWg3VmZpcUhYVkZTVWVZaFNwblBvYXJGbmJ1X0Nwamp6Z0xOcmRrZ3NoNDNNUmNnOWt2eVotaXZKTmVhSEU2c3ZlLUpYTm1DUlhqV3dFVE9pYUY3MmdDWms0UW5TaU51NHVsck1R?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:59:42,761 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:59:42,762 [INFO] Resolved Google News URL: https://pulse2.com/metlen-and-petronas-sign-five-year-lng-supply-agreement-for-greece/
+2026-10-07 11:59:42,762 [INFO] URL: https://pulse2.com/metlen-and-petronas-sign-five-year-lng-supply-agreement-for-greece/
+2026-10-07 11:59:43,132 [INFO] Text length: 3011 chars | source: full
+2026-10-07 11:59:43,133 [INFO] Text preview: METLEN and PETRONAS have entered into a long-term liquefied natural gas supply agreement designed to diversify energy supplies for Greece and strengthen energy security across Southeast Europe.
+The ag...
+2026-10-07 11:59:43,133 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 11:59:56,736 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: METLEN And PETRONAS Sign Five-Year LNG Supply Agreement For 
+2026-10-07 11:59:56,736 [INFO] LLM extracted 1 deals | METLEN And PETRONAS Sign Five-Year LNG Supply Agre
+2026-10-07 11:59:56,747 [INFO] Not a signed deal — skipping: METLEN And PETRONAS Sign Five-Year LNG Supply Agreement For 
+2026-10-07 11:59:56,747 [INFO] ------- Processing article n. 1: Google will pour $15 billion into Finland AI data centers in its biggest-ever Eu -------
+2026-10-07 11:59:56,861 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMib0FVX3lxTE9JWmlET0xJb1BEY3hNSHNNR0R1NEhuQnI0cHFQcUttbGFBWUtvTl92WnNWX0NkTWxqUWdLdEZhTEhsN2YtdEdTNWM1RUctbzJuTFkyRjNMb2V6TUdmQl9heTN4U2JJYjI5M0hwUC1fZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 11:59:57,991 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 11:59:57,992 [INFO] Resolved Google News URL: https://qz.com/google-finland-ai-data-center-investment-090926
+2026-10-07 11:59:57,992 [INFO] URL: https://qz.com/google-finland-ai-data-center-investment-090926
+2026-10-07 11:59:58,235 [INFO] Text length: 3487 chars | source: full
+2026-10-07 11:59:58,235 [INFO] Text preview: Google $GOOGL announced plans on Wednesday to pour at least €13 billion ($15.1 billion) into AI infrastructure in Finland, a figure the company described as the single largest European investment in i...
+2026-10-07 11:59:58,235 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:00:13,633 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: Google will pour $15 billion into Finland AI data centers in
+2026-10-07 12:00:13,633 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"max completion tokens reached before generating a valid document"}}
+
+2026-10-07 12:00:13,633 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 12:00:13,633 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 12:00:13,633 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:00:28,856 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google will pour $15 billion into Finland AI data centers in
+2026-10-07 12:00:28,857 [INFO] LLM extracted 1 deals | Google will pour $15 billion into Finland AI data 
+2026-10-07 12:00:28,862 [INFO] Non-electricity energy deal — skipping: Google will pour $15 billion into Finland AI data centers in
+2026-10-07 12:00:28,862 [INFO] ------- Processing article n. 1: Zhero and Tesla Energy sign agreement for 3 GWh of BESS in Italy - ESS News -------
+2026-10-07 12:00:28,958 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxOajF5UW1kbzVmT1QyY1k0SXVPTDhaSWVPWWhYNF85ZC1kREhTLXNfb2hXOFF0dzdkSl9OSGo2aHl5T0dUZ25FOE9wVVFWb2VfUzlTV0JwRDZ5YXlvbFBWdW1DUF9leHVDUy1OM0NFT3E1RDBwV2hycXZZUXRLZ1J1dC1sRWdvdmdlaUM1M014bGZHanV4VEdpRzJwdUVEZ294T3JB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:00:30,083 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:00:30,083 [INFO] Resolved Google News URL: https://www.ess-news.com/2026/09/10/zhero-and-tesla-energy-sign-agreement-for-3-gwh-of-bess-in-italy
+2026-10-07 12:00:30,083 [INFO] URL: https://www.ess-news.com/2026/09/10/zhero-and-tesla-energy-sign-agreement-for-3-gwh-of-bess-in-italy/
+2026-10-07 12:00:32,797 [INFO] Text length: 1231 chars | source: full
+2026-10-07 12:00:32,797 [INFO] Text preview: Zhero has signed a framework agreement with Tesla Energy, in collaboration with H1 Holdings, for approximately 3 GWh of battery energy storage capacity in Italy. The companies announced the deal to pv...
+2026-10-07 12:00:32,797 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:00:41,748 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Zhero and Tesla Energy sign agreement for 3 GWh of BESS in I
+2026-10-07 12:00:41,749 [INFO] LLM extracted 1 deals | Zhero and Tesla Energy sign agreement for 3 GWh of
+2026-10-07 12:00:41,832 [INFO] Not a signed deal — skipping: Zhero and Tesla Energy sign agreement for 3 GWh of BESS in I
+2026-10-07 12:00:41,832 [INFO] ------- Processing article n. 1: European shares slip as Brent breaches $100 - WTAQ -------
+2026-10-07 12:00:41,939 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipAFBVV95cUxQSnFrQWw3dlh5SVpORF83aWhhaS1RSTIwQkRLUkgxeGVPQlV1Xy16UU51cWd1aHVCbVlJOG9VeTdLWnpHODl1VXJKMzJlaEJGQXNnTGp6UkJqVXhpaFJGS1BITVM3eS1sM1ZrdlZQdE1WS3k2SEtnM1g4WnphcU1PZWNKWTBuSG93QTVjblVHai1qUjhocjVfaVdqclUtaWJPRjNFaQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:00:43,057 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:00:43,057 [INFO] Resolved Google News URL: https://wtaq.com/2026/09/09/european-shares-dip-as-oil-nears-100-mideast-tensions-fan-inflation-fear
+2026-10-07 12:00:43,057 [INFO] URL: https://wtaq.com/2026/09/09/european-shares-dip-as-oil-nears-100-mideast-tensions-fan-inflation-fears/
+2026-10-07 12:00:43,471 [INFO] Text length: 2395 chars | source: full
+2026-10-07 12:00:43,471 [INFO] Text preview: By Sudeshna Ghoshal
+Sept 9 (Reuters) – European shares declined on Wednesday ahead of U.S. inflation data, with Brent crude surging past the key $100-per-barrel level as intensifying tensions in the M...
+2026-10-07 12:00:43,471 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:00:58,993 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: European shares slip as Brent breaches $100 - WTAQ
+2026-10-07 12:00:58,993 [INFO] LLM extracted 1 deals | European shares slip as Brent breaches $100 - WTAQ
+2026-10-07 12:00:59,005 [INFO] NEW: Google / Fortum (Finland, None MW)
+2026-10-07 12:01:04,006 [INFO] ------- Processing article n. 2: MET Group and Shell sign new agreement for US LNG supply - Business Review -------
+2026-10-07 12:01:04,101 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM0ZOckJVZkRWNzVvLUlWMDNLdGVEUXFKWklrV2JxQ3M2NUN5WHhXaWllVDU3VVNZYlNoQzlJdnZsdWdRYWl3SVF3QmZhb0lyOHBxUGFWQXRRcHl3dHRyN2NLMDdvZU9QeUIzcG1RR3NqS0R1QWFtRExYTEwySV9ySlVMRjluZUF0cE11amhJaFdYalBRZnFULUZ6MTZYVzRaVFYxeFlLc0w?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:01:05,210 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:01:05,211 [INFO] Resolved Google News URL: https://business-review.eu/energy/oil-gas/met-group-and-shell-sign-new-agreement-for-us-lng-supply-3
+2026-10-07 12:01:05,211 [INFO] URL: https://business-review.eu/energy/oil-gas/met-group-and-shell-sign-new-agreement-for-us-lng-supply-300374
+2026-10-07 12:01:07,286 [INFO] Text length: 3064 chars | source: full
+2026-10-07 12:01:07,286 [INFO] Text preview: MET International, the trading and wholesale arm of Swiss-based integrated energy company MET Group, and Shell entered into a new long-term LNG purchase agreement, marking another significant mileston...
+2026-10-07 12:01:07,286 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:01:11,763 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: MET Group and Shell sign new agreement for US LNG supply - B
+2026-10-07 12:01:11,763 [INFO] LLM extracted 1 deals | MET Group and Shell sign new agreement for US LNG 
+2026-10-07 12:01:11,891 [INFO] Not a signed deal — skipping: MET Group and Shell sign new agreement for US LNG supply - B
+2026-10-07 12:01:11,891 [INFO] ------- Processing article n. 2: METLEN and PETRONAS enter into LNG Supply Agreement to strengthen energy securit -------
+2026-10-07 12:01:12,126 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAJBVV95cUxObnZpYm5Rc0EtQm5OcUdZbXJVUHZybl9Wc1pjcVdxdmhpTmJNelZYVlZ2cm1pVHk1Z2twUTFFMzNmVU1JeGRNcFUweGlNSFRRWGx4SlNaekU4UkVNUFE1WEpRQkdidEVXSWFBQzdaSlBmTGgza05IeE9WMkdHb21qT0ZITVNCU0s3OU5WY2VZTTViVFM0RlBnN252S2M4d2g3QWtFTVJQMWNPUjVXaWpRSk9hVzVGdXhWaExNTXpkYkhLWHQtNUR6Mi1TSTJQWmV0NXRqRVhqdTRYY0U5dTJ0VVczVllMcXBOY2lWdnZJQldSUGEzbEhtT3lnYVg0ejlGUHB1c1BQY0Y?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:01:13,287 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:01:13,288 [INFO] Resolved Google News URL: https://www.prnewswire.com/news-releases/metlen-and-petronas-enter-into-lng-supply-agreement-to-stre
+2026-10-07 12:01:13,288 [INFO] URL: https://www.prnewswire.com/news-releases/metlen-and-petronas-enter-into-lng-supply-agreement-to-strengthen-energy-security-and-diversification-in-southeast-europe-302877471.html
+2026-10-07 12:01:13,432 [INFO] Text length: 5499 chars | source: full
+2026-10-07 12:01:13,432 [INFO] Text preview: ATHENS, Greece and LONDON, Sept. 14, 2026 /PRNewswire/ -- METLEN and PETRONAS, through its subsidiary PETCO Trading (UK) Limited ("PTUK"), have entered into a Sale and Purchase Agreement (SPA) for a l...
+2026-10-07 12:01:13,432 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:01:28,264 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: METLEN and PETRONAS enter into LNG Supply Agreement to stren
+2026-10-07 12:01:28,265 [INFO] LLM extracted 1 deals | METLEN and PETRONAS enter into LNG Supply Agreemen
+2026-10-07 12:01:28,377 [INFO] Not a signed deal — skipping: METLEN and PETRONAS enter into LNG Supply Agreement to stren
+2026-10-07 12:01:28,378 [INFO] ------- Processing article n. 2: Google to Invest $15 Billion in AI Infrastructure in Finland - WSJ -------
+2026-10-07 12:01:28,481 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxQZWVXTzcwTVJMV3N1ZWh5cFU3ajlmTGJVRHExM0tIemhzNTZGZFZndmp4SkxMNGd4dnlnMEp4VjhISXpwSXFDVWd4b3M2OVJtNGp2Zm81YXBDSEdLWndFSnBISG4tc0RVOW41RU1SMGNybE40U2NtV3Y4a2RheDFwbmw2bzYwUHpLZnZRVjV5YVR6Ny0tUG5hbWhhNnVRRFdYREN0cGxucFJfS2ZzYWpiWA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:01:29,639 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:01:29,639 [INFO] Resolved Google News URL: https://www.wsj.com/business/google-to-invest-15-billion-in-data-centers-and-infrastructure-in-finla
+2026-10-07 12:01:29,639 [INFO] URL: https://www.wsj.com/business/google-to-invest-15-billion-in-data-centers-and-infrastructure-in-finland-335c5ee2
+2026-10-07 12:01:29,864 [INFO] Full text skipped (status 401): https://www.wsj.com/business/google-to-invest-15-billion-in-data-centers-and-inf
+2026-10-07 12:01:29,864 [INFO] Text length: 145 chars | source: fallback
+2026-10-07 12:01:29,864 [INFO] Text preview: Google to Invest $15 Billion in AI Infrastructure in Finland - WSJ
+
+Google to Invest $15 Billion in AI Infrastructure in Finland &nbsp;&nbsp; WSJ...
+2026-10-07 12:01:29,864 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:01:41,368 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google to Invest $15 Billion in AI Infrastructure in Finland
+2026-10-07 12:01:41,368 [INFO] LLM extracted 1 deals | Google to Invest $15 Billion in AI Infrastructure 
+2026-10-07 12:01:41,369 [INFO] Not a signed deal — skipping: Google to Invest $15 Billion in AI Infrastructure in Finland
+2026-10-07 12:01:41,369 [INFO] ------- Processing article n. 2: Google Commits $15.1 Billion to Finland AI Buildout - ESG News -------
+2026-10-07 12:01:41,473 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE80c2FzaEdyRmxmSFA4UkFReFBSWXdUVUZvbklEZ09ad3czRmkwVDVpNlFWaHRxaU5rTzVPUkVtRmdjOXZUbUV1TTdJd1NNZDhlS3ExUHpfMnRGUTNxVUR4bUN4S1RxbktMNS11YmNnOEVIUXBSN2VNWU9Iaw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:01:42,629 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:01:42,629 [INFO] Resolved Google News URL: https://esgnews.com/google-commits-15-1-billion-to-finland-ai-buildout/
+2026-10-07 12:01:42,629 [INFO] URL: https://esgnews.com/google-commits-15-1-billion-to-finland-ai-buildout/
+2026-10-07 12:01:43,050 [INFO] Text length: 5332 chars | source: full
+2026-10-07 12:01:43,050 [INFO] Text preview: Google Commits $15.1 Billion to Finland AI Buildout
+- Google will invest at least $15.1 billion in Finnish AI infrastructure during 2027 and 2028, its largest European investment.
+- A 22-year power pu...
+2026-10-07 12:01:43,050 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:01:57,036 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Commits $15.1 Billion to Finland AI Buildout - ESG Ne
+2026-10-07 12:01:57,036 [INFO] LLM extracted 1 deals | Google Commits $15.1 Billion to Finland AI Buildou
+2026-10-07 12:01:57,037 [INFO] Non-electricity energy deal — skipping: Google Commits $15.1 Billion to Finland AI Buildout - ESG Ne
+2026-10-07 12:01:57,037 [INFO] ------- Processing article n. 2: European shares slide to over-one-month lows as Brent breaches $100 - Reuters -------
+2026-10-07 12:01:57,135 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxPeU9WdEZyZHAzMzJtN3dvNXVDdGtYUU1mWnVtUzVORGwwXzZLOWpnY1VGemtDWHN3VlF4bG53UTBWc1lSY0FVSUZ1dU56cG56Zm5BazVrSjl0ZmlLSllUbm12eGEwZWZLTmNCSHJEaW1Ed2xQTEFtRXF1cTNqQ19FblNqeWsyeDhETzBBNTA3Umh4VExFMW52WXBoc2RtYnNvNks2bFFqMlJkRkNQX1VXNnpFM0JBNHc1UG1EUFRB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:01:58,280 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:01:58,280 [INFO] Resolved Google News URL: https://www.reuters.com/markets/europe/european-shares-dip-oil-nears-100-mideast-tensions-fan-inflat
+2026-10-07 12:01:58,280 [INFO] URL: https://www.reuters.com/markets/europe/european-shares-dip-oil-nears-100-mideast-tensions-fan-inflation-fears-2026-09-09/
+2026-10-07 12:01:58,581 [INFO] Full text skipped (status 401): https://www.reuters.com/markets/europe/european-shares-dip-oil-nears-100-mideast
+2026-10-07 12:01:58,581 [INFO] Text length: 167 chars | source: fallback
+2026-10-07 12:01:58,581 [INFO] Text preview: European shares slide to over-one-month lows as Brent breaches $100 - Reuters
+
+European shares slide to over-one-month lows as Brent breaches $100 &nbsp;&nbsp; Reuters...
+2026-10-07 12:01:58,581 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:02:11,641 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: European shares slide to over-one-month lows as Brent breach
+2026-10-07 12:02:11,641 [INFO] LLM extracted 1 deals | European shares slide to over-one-month lows as Br
+2026-10-07 12:02:11,659 [INFO] Not a signed deal — skipping: European shares slide to over-one-month lows as Brent breach
+2026-10-07 12:02:11,659 [INFO] ------- Processing article n. 2: European shares slide to over-one-month lows as Brent breaches $100 - Yahoo Fina -------
+2026-10-07 12:02:11,754 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmFPM0h5Vk9nT1ZzQUJRZ3VZWDU2Rmprc3VVTlc1OGxETXFLS2VlYTlIQmEtUFhfVmRIaVVPUXRNTXU3MGt2WDI1U0l1cXVtZEpSWEtiZXFwcWJHdnpUVFBHOTdDY0JpaEJ2WDBfV1ZFX2FVcFZTQXdLMzNuZU83dVhlaFVaV1BNdk5WbjBjMG5VZkVITTJKVXFB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:02:12,915 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:02:12,916 [INFO] Resolved Google News URL: https://finance.yahoo.com/economy/policy/articles/european-shares-dip-oil-nears-072753281.html
+2026-10-07 12:02:12,916 [INFO] URL: https://finance.yahoo.com/economy/policy/articles/european-shares-dip-oil-nears-072753281.html
+2026-10-07 12:02:13,750 [INFO] Text length: 2512 chars | source: full
+2026-10-07 12:02:13,750 [INFO] Text preview: By Sudeshna Ghoshal and Ragini Mathur
+Sept 9 (Reuters) - European shares dropped on Wednesday to their lowest in more than a month after crude prices surged above the key $100 a barrel mark as escalat...
+2026-10-07 12:02:13,750 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:02:26,877 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: European shares slide to over-one-month lows as Brent breach
+2026-10-07 12:02:26,878 [INFO] LLM extracted 1 deals | European shares slide to over-one-month lows as Br
+2026-10-07 12:02:26,889 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-07 12:02:31,890 [INFO] ------- Processing article n. 3: Meet the data center capital of Europe as Google joins Microsoft and TikTok in b -------
+2026-10-07 12:02:31,984 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxOdHhQeVBvckRTZ05yV0QtbjlqbnNORU1NbEJVemdhRnA4ZW1mdEE5cl9uUl95MFdmREFDcTlTbTBaYU52b2ZrQzg3RnNpVWwtRHFTLTVTTThvQjhBaWppazNKOElicFFsN0dxTFZQWS1saHYzWXU0cUhzNVYyWjRvcDRuNFZhVGFvbnZJRk1qOWtLVm8yY0JtM3hiMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:02:33,132 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:02:33,133 [INFO] Resolved Google News URL: https://fortune.com/2026/09/10/europe-data-center-capital-google-microsoft-tiktok-30-2-billion/
+2026-10-07 12:02:33,133 [INFO] URL: https://fortune.com/2026/09/10/europe-data-center-capital-google-microsoft-tiktok-30-2-billion/
+2026-10-07 12:02:33,263 [INFO] Text length: 4869 chars | source: full
+2026-10-07 12:02:33,264 [INFO] Text preview: Data center expansion in the world is changing fast: while the U.S. boasts “data center alley” in Virginia and tax incentives for data center investment, Finland has rapidly come onto the scene as one...
+2026-10-07 12:02:33,264 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:02:41,646 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Meet the data center capital of Europe as Google joins Micro
+2026-10-07 12:02:41,647 [INFO] LLM extracted 1 deals | Meet the data center capital of Europe as Google j
+2026-10-07 12:02:41,674 [INFO] Non-electricity energy deal — skipping: Meet the data center capital of Europe as Google joins Micro
+2026-10-07 12:02:41,674 [INFO] ------- Processing article n. 3: Google Commits $15 Billion to Massive Finland AI Hub - TIKR.com -------
+2026-10-07 12:02:41,771 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTE12amstS3p1YzJES0h4WjNkSXRGWHQxTGFaZVdsZHhxdmQ2LVhTQWpOZjlQbEluQ1Q3dnZ1TzQ3WVRwTlo1WFM0Um1xMWMtMHNVdlNNMGNlTmNEc1JYV0k0cHN2R1J6MWhBODJDNUp3M3lPYWR3MjdyWmZVYmZtZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:02:42,915 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:02:42,916 [INFO] Resolved Google News URL: https://www.tikr.com/blog/google-alphabet-stock-15-billion-finland-ai-hub
+2026-10-07 12:02:42,916 [INFO] URL: https://www.tikr.com/blog/google-alphabet-stock-15-billion-finland-ai-hub
+2026-10-07 12:02:43,310 [INFO] Text length: 4708 chars | source: full
+2026-10-07 12:02:43,310 [INFO] Text preview: Key Stats for Alphabet Stock
+- Price change for Alphabet stock in the last 1 year: 41%
+- $GOOGL Stock Price as of Sep. 8: $338
+- 52-Week High: $409
+- $GOOGL Stock Price Target: $428
+Now Live: Discover...
+2026-10-07 12:02:43,310 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:02:56,742 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Commits $15 Billion to Massive Finland AI Hub - TIKR.
+2026-10-07 12:02:56,743 [INFO] LLM extracted 1 deals | Google Commits $15 Billion to Massive Finland AI H
+2026-10-07 12:02:56,754 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-07 12:03:01,755 [INFO] ------- Processing article n. 4: Google will invest €13bn in four Finnish data centre sites over two years - The  -------
+2026-10-07 12:03:01,850 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTFBFZHBzOWxOaWRQTzAzTWlGU2VIbGJkN0VNbUp6Y2NNTUt4enktUDVMZDQ5QXctVUd5d0xPZUsxRHNwS09hcnFNcUlXeGk0U2c4ZnhCZ3ZtMk1tRUswMkszMmxMSWktU3JDNllLQ2pVbnJJQkxSNnlUQ2hqbHVLUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:03:02,999 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:03:03,000 [INFO] Resolved Google News URL: https://thenextweb.com/news/google-finland-13bn-data-centres-nuclear-wind
+2026-10-07 12:03:03,000 [INFO] URL: https://thenextweb.com/news/google-finland-13bn-data-centres-nuclear-wind
+2026-10-07 12:03:03,265 [INFO] Text length: 4636 chars | source: full
+2026-10-07 12:03:03,265 [INFO] Text preview: Google will spend €13bn on data centre infrastructure across four Finnish sites during 2027 and 2028, its largest single investment in Europe, the company announced the plan today.
+The money covers Ha...
+2026-10-07 12:03:03,265 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:03:12,523 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google will invest €13bn in four Finnish data centre sites o
+2026-10-07 12:03:12,523 [INFO] LLM extracted 2 deals | Google will invest €13bn in four Finnish data cent
+2026-10-07 12:03:12,535 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-07 12:03:17,546 [INFO] NEW: Google / Valorem, Suomen Hyötytuuli (Finland, 629 MW)
+2026-10-07 12:03:22,547 [INFO] ------- Processing article n. 6: Alphabet's Google Pledges Record $15.1 Billion AI Infrastructure Push in Finland -------
+2026-10-07 12:03:22,645 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE1WVkNrZUFSRkNwZ2o2OGhCNWJ0aXMyaHZLUEtQZGFGWTBWbDhueDdLS2R1RWlPYXBvUkVOMEJCZlFndlM3dU9HQXdkMXk0OXRlbTM4RG9aeEVCRnlYRjhLdjgwQjdkaVo5NmZHM3VITWxnbFJaUXc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:03:23,784 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:03:23,785 [INFO] Resolved Google News URL: https://finance.biggo.com/news/eba80c61-9a88-4a57-9fdb-c8686dfa42e4
+2026-10-07 12:03:23,785 [INFO] URL: https://finance.biggo.com/news/eba80c61-9a88-4a57-9fdb-c8686dfa42e4
+2026-10-07 12:03:24,587 [INFO] Text length: 7323 chars | source: full
+2026-10-07 12:03:24,587 [INFO] Text preview: Alphabet's Google Pledges Record $15.1 Billion AI Infrastructure Push in Finland
+Alphabet Inc.'s Google is making its largest single capital commitment in European history, earmarking at least 13 bill...
+2026-10-07 12:03:24,587 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:03:27,524 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: Alphabet's Google Pledges Record $15.1 Billion AI Infrastruc
+2026-10-07 12:03:27,524 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-07 12:03:27,525 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 12:03:27,525 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 12:03:27,525 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:03:42,148 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Alphabet's Google Pledges Record $15.1 Billion AI Infrastruc
+2026-10-07 12:03:42,149 [INFO] LLM extracted 1 deals | Alphabet's Google Pledges Record $15.1 Billion AI 
+2026-10-07 12:03:42,209 [INFO] Not a signed deal — skipping: Alphabet's Google Pledges Record $15.1 Billion AI Infrastruc
+2026-10-07 12:03:42,209 [INFO] ------- Processing article n. 6: Google makes $21b investment in AI and nuclear power in Finland - AFR -------
+2026-10-07 12:03:42,305 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDNjSzRtd3k1S21hUmZ5c0lZeUhYV3RfaTF2Um9rVXl4Nzh2R19fUE50ZnYwRVcxNFVXYVBTY2JBelpFUkMyMTZnZy13TFl0SFhzcGxZRHBUZlo4V1hCTHhTSW9MM2lfMEFnZi1XaVF4a3FkZkN2RGdTbndYN0taWXR5QXpENi1GWG50dmQ3bldEakxjWjZCUHdzcXZpWndGZ3cxYURWX2RIdDNkM2pjaQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:03:43,455 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:03:43,455 [INFO] Resolved Google News URL: https://www.afr.com/world/europe/google-makes-21b-investment-in-ai-and-nuclear-power-in-finland-2026
+2026-10-07 12:03:43,455 [INFO] URL: https://www.afr.com/world/europe/google-makes-21b-investment-in-ai-and-nuclear-power-in-finland-20260910-p60vzr
+2026-10-07 12:03:43,794 [INFO] Text length: 421 chars | source: full
+2026-10-07 12:03:43,794 [INFO] Text preview: Helsinki | Alphabet’s Google will invest at least €13 billion ($21 billion) in artificial intelligence infrastructure in Finland over the next two years and has signed its first nuclear power contract...
+2026-10-07 12:03:43,794 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:03:56,595 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google makes $21b investment in AI and nuclear power in Finl
+2026-10-07 12:03:56,595 [INFO] LLM extracted 1 deals | Google makes $21b investment in AI and nuclear pow
+2026-10-07 12:03:56,596 [INFO] Non-electricity energy deal — skipping: Google makes $21b investment in AI and nuclear power in Finl
+2026-10-07 12:03:56,596 [INFO] ------- Processing article n. 6: Shell and MET Group pen new multi-year US LNG supply deal - Offshore Energy -------
+2026-10-07 12:03:56,690 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxNZDlfbm1KbW84TDlUTTZpWWhOTmxaVWJUZGt5M3Y1UkFIZWdzZUZLeThHZU4wOXlfbUdvZ3ZaeVkxWVpESmxBWWQyMFQ0RDlkSnlEdVNJaW1qTG95ZWJWSklWZE8ybi11Wml5ZEJKWmFZbHI3TmI0OVlla3lUY21sTngwbjZIdElYZEFfVFJ2dWxHUkE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:03:57,796 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:03:57,797 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/shell-and-met-group-pen-new-multi-year-us-lng-supply-deal
+2026-10-07 12:03:57,797 [INFO] URL: https://www.offshore-energy.biz/shell-and-met-group-pen-new-multi-year-us-lng-supply-deal
+2026-10-07 12:03:58,686 [INFO] Text length: 36 chars | source: full
+2026-10-07 12:03:58,686 [INFO] Text preview: © 2026 Navingo. All rights reserved....
+2026-10-07 12:03:58,686 [INFO] Text too short (36 chars) — skipping: Shell and MET Group pen new multi-year US LNG supply deal - 
+2026-10-07 12:03:58,686 [INFO] ------- Processing article n. 6: Uniper signs agreement to sell its 20% stake in OPAL gas pipeline to Hy24 - Unip -------
+2026-10-07 12:03:58,779 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxPak9Cd1NBaTF2MFZNTXpSdUdpeUcyR0cxY2ZhWWpPaHNnRXExN2JyZm11LWJMOFhOQVRZNnRNeF9JSW9VS3hmVnpUMm5zTXJidk9vV19KUGZRdFZQQ2w4ZFBsYkdqMWtNb0hWOWV6bGZyQ2dLNThteFJLUnd4YnF4QngwendOTXFmWEROZlVBLXY1aExjdVZ0V2N6V3dicGlKT1RFTkNn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:03:59,922 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:03:59,923 [INFO] Resolved Google News URL: https://www.uniper.energy/news/uniper-signs-agreement-to-sell-its-20-stake-in-opal-gas-pipeline-to-h
+2026-10-07 12:03:59,923 [INFO] URL: https://www.uniper.energy/news/uniper-signs-agreement-to-sell-its-20-stake-in-opal-gas-pipeline-to-hy24
+2026-10-07 12:04:00,746 [INFO] Full text skipped (status 403): https://www.uniper.energy/news/uniper-signs-agreement-to-sell-its-20-stake-in-op
+2026-10-07 12:04:00,746 [INFO] Text length: 177 chars | source: fallback
+2026-10-07 12:04:00,746 [INFO] Text preview: Uniper signs agreement to sell its 20% stake in OPAL gas pipeline to Hy24 - Uniper
+
+Uniper signs agreement to sell its 20% stake in OPAL gas pipeline to Hy24 &nbsp;&nbsp; Uniper...
+2026-10-07 12:04:00,746 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:04:13,105 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Uniper signs agreement to sell its 20% stake in OPAL gas pip
+2026-10-07 12:04:13,105 [INFO] LLM extracted 1 deals | Uniper signs agreement to sell its 20% stake in OP
+2026-10-07 12:04:13,131 [INFO] Not a signed deal — skipping: Uniper signs agreement to sell its 20% stake in OPAL gas pip
+2026-10-07 12:04:13,132 [INFO] ------- Processing article n. 6: Google announces biggest AI investment in Europe with $15 billion Finland deal - -------
+2026-10-07 12:04:13,229 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxQU0lzdVgzZG93Y2ZkMkhBNGVxUGtxeUU2TVJKSlFaV0xQUU1lWmFGTWctNnF3Y1VsUE02RWtKX21UajVJOHdMX1h4amhHdzFKd0xoTHF0SXdfZ3lzT2xyTXRDWVR5bTQyYzRKSTFYYVFiVktPMVl5NGREbUtWUy0tcHRMWGlLVlg0WW5rc09kME1RYk51ams4N0ZMQVZIdDZxc1REWWNoa1pPclBpWVhPei1vYnNOZGF2bWd2OFFlR1dyRnps0gHKAUFVX3lxTFBQZjhOTS1CZEprYTM0NXNFMDBTZk1vSFo2T1JrM0hxTFVlMmxRdUc5T0dkT3VTd0t3eUFEZnhVa1NJaW9YTTgtV1BvNzFydXB0ZXRTcTM5LWhiM0pSUTJkQWJVa0VxYkxneDNFcnJMMjlTU1BpMXlFd0ZKaE9sQ2hRUnp5Z1UtMG95SDFpbGFSamxDNFBHY0FMeU94QjRwSzl5MGVGUU84dkN4U0xjbGpoS25sZjI1QWU2YTZpTFdHdmdLd2tRa2JkQnc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:04:14,348 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:04:14,348 [INFO] Resolved Google News URL: https://www.firstpost.com/business/google-announces-biggest-ai-investment-in-europe-with-15-billion-
+2026-10-07 12:04:14,348 [INFO] URL: https://www.firstpost.com/business/google-announces-biggest-ai-investment-in-europe-with-15-billion-finland-deal-14044414.html
+2026-10-07 12:04:14,461 [INFO] Full text skipped (status 403): https://www.firstpost.com/business/google-announces-biggest-ai-investment-in-eur
+2026-10-07 12:04:14,461 [INFO] Text length: 193 chars | source: fallback
+2026-10-07 12:04:14,461 [INFO] Text preview: Google announces biggest AI investment in Europe with $15 billion Finland deal - Firstpost
+
+Google announces biggest AI investment in Europe with $15 billion Finland deal &nbsp;&nbsp; Firstpost...
+2026-10-07 12:04:14,461 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:04:26,758 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google announces biggest AI investment in Europe with $15 bi
+2026-10-07 12:04:26,758 [INFO] LLM extracted 1 deals | Google announces biggest AI investment in Europe w
+2026-10-07 12:04:26,775 [INFO] Not a signed deal — skipping: Google announces biggest AI investment in Europe with $15 bi
+2026-10-07 12:04:26,775 [INFO] ------- Processing article n. 6: Google Invests 13 Billion Euros in Finland's Nuclear-Powered AI Hub - 조선일보 -------
+2026-10-07 12:04:26,871 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa2lWNmRzUDdSbVFzY2RlWkNmbGxDS2NWVFU5bE1CSndUeGZhaVd5ZEpFRGVHRU5aTXRYX0hOMC1GTm5RUUN6NXp5TjFIeTZBNFc4OVN1aTMxZ200djd5MTAzZDJ1cTZkR2ZmeTR5cW5pUnFXSmNaUXphcUxBNVVvNG04bHBDS2lQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:04:27,980 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:04:27,981 [INFO] Resolved Google News URL: https://www.chosun.com/english/industry-en/2026/09/10/N2DZWM7O3ZHPFIPIYKERYFVM5U/
+2026-10-07 12:04:27,981 [INFO] URL: https://www.chosun.com/english/industry-en/2026/09/10/N2DZWM7O3ZHPFIPIYKERYFVM5U/
+2026-10-07 12:04:29,501 [WARNING] discarding data: https://www.chosun.com/english/industry-en/2026/09/10/N2DZWM7O3ZHPFIPIYKERYFVM5U/
+2026-10-07 12:04:29,501 [INFO] Full text extraction empty: https://www.chosun.com/english/industry-en/2026/09/10/N2DZWM7O3ZHPFIPIYKERYFVM5U
+2026-10-07 12:04:29,502 [INFO] Text length: 161 chars | source: fallback
+2026-10-07 12:04:29,502 [INFO] Text preview: Google Invests 13 Billion Euros in Finland's Nuclear-Powered AI Hub - 조선일보
+
+Google Invests 13 Billion Euros in Finland's Nuclear-Powered AI Hub &nbsp;&nbsp; 조선일보...
+2026-10-07 12:04:29,502 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:04:41,830 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Invests 13 Billion Euros in Finland's Nuclear-Powered
+2026-10-07 12:04:41,830 [INFO] LLM extracted 1 deals | Google Invests 13 Billion Euros in Finland's Nucle
+2026-10-07 12:04:41,832 [INFO] Not a signed deal — skipping: Google Invests 13 Billion Euros in Finland's Nuclear-Powered
+2026-10-07 12:04:41,832 [INFO] ------- Processing article n. 6: US AI Giants: Forced to Become Power Companies - Buying Electricity, Hoarding Po -------
+2026-10-07 12:04:41,923 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrNEpjTy1XdkVXMXZlRTlxVy0wMkJwNkI0S2pBUm9DZlphQnFSR29DUGV2MmhiZjNHRldSWVVBcWMtWi1DdF8zWFlkWUVkZGNjMXhR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:04:43,028 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:04:43,029 [INFO] Resolved Google News URL: https://eu.36kr.com/en/p/3977406253520517
+2026-10-07 12:04:43,029 [INFO] URL: https://eu.36kr.com/en/p/3977406253520517
+2026-10-07 12:04:43,833 [INFO] Text length: 12898 chars | source: full
+2026-10-07 12:04:43,833 [INFO] Text preview: A nuclear power plant that has been out of operation for 6 years is preparing to restart because of AI.
+On September 8, the U.S. Department of Energy announced that it will provide a loan of up to 1.9...
+2026-10-07 12:04:43,834 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:04:57,632 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: US AI Giants: Forced to Become Power Companies - Buying Elec
+2026-10-07 12:04:57,632 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-07 12:04:57,633 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 12:04:57,633 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 12:04:57,633 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:05:12,177 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: US AI Giants: Forced to Become Power Companies - Buying Elec
+2026-10-07 12:05:12,177 [INFO] LLM extracted 1 deals | US AI Giants: Forced to Become Power Companies - B
+2026-10-07 12:05:12,178 [INFO] Not a European deal — skipping: Google / NextEra Energy (United States, None MW)
+2026-10-07 12:05:12,178 [INFO] ------- Processing article n. 6: Google pours €13b into Finland, inks 22-year nuclear power deal - CHOSUNBIZ - Ch -------
+2026-10-07 12:05:12,267 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiekFVX3lxTFBFZXVIUEpxd3prMGdVY3lyMmpOYUhiZ0ktaUo1TG1XUmtvbHZCaS1JQVRxSTlhTDFCOTFidlFoV0pzM2xOdjNleWhhbGpxZTBtVFRfRTctNGh6ZTY4RWtuVHZaMVdhRk9iVVZvN0ZwcnJwTWd2cmg0S3Nn0gGOAUFVX3lxTE5VNGV0aDAtSl9lTHlkaERKbW00RTRkYXRXZTQ2QVZ4OWtadFJUaDRRdTh0MXlBRk5vYlRXS0pRT24zYWI2N0tacFAzZWZ3b1FYT2doSzZjZW9vM2F0eE8wdHNUa1lfRm9xLXMxUlNuaWtlb2dzSnVGLVN2NzdaY084U3dGX0xGWkdkWE5BTUE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:05:13,377 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:05:13,378 [INFO] Resolved Google News URL: https://biz.chosun.com/en/en-it/2026/09/10/VCR7BHOW6BDONEWQ6URHA5FASE/
+2026-10-07 12:05:13,378 [INFO] URL: https://biz.chosun.com/en/en-it/2026/09/10/VCR7BHOW6BDONEWQ6URHA5FASE/
+2026-10-07 12:05:14,325 [INFO] Text length: 2716 chars | source: full
+2026-10-07 12:05:14,326 [INFO] Text preview: Google will invest at least 13 billion euros (about 20.2 trillion won) over the next two years in Finland's digital infrastructure, including data centers to run artificial intelligence (AI) models.
+A...
+2026-10-07 12:05:14,326 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:05:26,984 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google pours €13b into Finland, inks 22-year nuclear power d
+2026-10-07 12:05:26,984 [INFO] LLM extracted 1 deals | Google pours €13b into Finland, inks 22-year nucle
+2026-10-07 12:05:26,986 [INFO] Non-electricity energy deal — skipping: Google pours €13b into Finland, inks 22-year nuclear power d
+2026-10-07 12:05:26,986 [INFO] ------- Processing article n. 6: $15bn Finland Infrastructure to Expand Google’s Data Center, Nuclear, Battery Fo -------
+2026-10-07 12:05:27,072 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAFBVV95cUxOeUdKeGVJS193R0x3RlcxcGJTdG14TEpVSjkyWWNZSnlrZTZhbXNtTmtLVWU3dFZvdk1hQkZSeTBuZFJfNnF1ci1teEZVcXltOUlpRkptS0lmcGtiUklrZkhzeWw2S0s1WjZDR1FiUFRMX0RhSUNQVnQ0Wm9UNlVkeFNlMURwSWd6VWpmU1RJVEx6bWpDaUlaOUV4VU5Lb25vc2FtRmdRWnJ3bDAzVmRjY1NVQUFpSnFJNmJqU05MaWZOZkRIZVFyRlBKeEY?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:05:28,190 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:05:28,191 [INFO] Resolved Google News URL: https://constructionreviewonline.com/15bn-finland-infrastructure-to-expand-googles-data-center-nucle
+2026-10-07 12:05:28,191 [INFO] URL: https://constructionreviewonline.com/15bn-finland-infrastructure-to-expand-googles-data-center-nuclear-battery-footprints-in-europe/
+2026-10-07 12:05:29,131 [INFO] Text length: 5612 chars | source: full
+2026-10-07 12:05:29,132 [INFO] Text preview: The Finland infrastructure project will channel at least $15 billion into data centers and supporting infrastructure by 2028. The investment marks Google’s largest single commitment in Europe and will...
+2026-10-07 12:05:29,132 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:05:42,384 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: $15bn Finland Infrastructure to Expand Google’s Data Center,
+2026-10-07 12:05:42,385 [INFO] LLM extracted 1 deals | $15bn Finland Infrastructure to Expand Google’s Da
+2026-10-07 12:05:42,386 [INFO] Non-electricity energy deal — skipping: $15bn Finland Infrastructure to Expand Google’s Data Center,
+2026-10-07 12:05:42,386 [INFO] ------- Processing article n. 6: Germany-UAE energy ties deepen as RWE, Masdar and ADNOC eye LNG supply and €3B o -------
+2026-10-07 12:05:42,487 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWW5sY0hGMVF2NWRIQTg0M2txMDQ2UDFPand3WVpRR0pmNmQxRzFfOWNadlg1bjlESmVXcy0xMVhqRXFHaTFrTDVDUHBLN3Vfc3l0TXRkMENqa3BhVFNaTWlNVHloaGNqTUw0M0ZOYzhRNlFIQWdrX1o4U2FXcFljN3ZBLXZLRmF0TkVGeThCaGxubkNNQzY2ekVaMk9oTFk4WldfenJkajBrcnRQZ1AwRjVtcHoxNnBTdjk0QzVFelZneXhvQlY3bm1jTXlLZUNacmxfVHZ6X1JlN2ROZUE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:05:43,599 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:05:43,600 [INFO] Resolved Google News URL: https://www.offshore-energy.biz/2026/09/14/germany-uae-energy-ties-deepen-as-rwe-masdar-and-adnoc-ey
+2026-10-07 12:05:43,600 [INFO] URL: https://www.offshore-energy.biz/2026/09/14/germany-uae-energy-ties-deepen-as-rwe-masdar-and-adnoc-eye-lng-supply-and-e3b-offshore-wind-investment
+2026-10-07 12:05:44,085 [INFO] Text length: 4153 chars | source: full
+2026-10-07 12:05:44,085 [INFO] Text preview: Germany and the United Arab Emirates are stepping up energy cooperation, with German power producer RWE joining Abu Dhabi clean-energy firm Masdar and oil and gas giant ADNOC to pursue plans spanning ...
+2026-10-07 12:05:44,085 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:05:57,297 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Germany-UAE energy ties deepen as RWE, Masdar and ADNOC eye 
+2026-10-07 12:05:57,298 [INFO] LLM extracted 1 deals | Germany-UAE energy ties deepen as RWE, Masdar and 
+2026-10-07 12:05:57,299 [INFO] Not a signed deal — skipping: Germany-UAE energy ties deepen as RWE, Masdar and ADNOC eye 
+2026-10-07 12:05:57,299 [INFO] ------- Processing article n. 6: Google commits €13 billion to Finnish AI infrastructure with nuclear deal - doma -------
+2026-10-07 12:05:57,399 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd2pxZlRjRFFXT25YcFFrX1Y2Snp2cV8zdExrWXJGRWk0MnhXMFM3dzdsdUtQd1pDLXYyck1kV1hfRldSWHhmZEttWFozNXdjNG1TVEU1cFJxWXRkVGI5VFRDVHQ2UDN2MEVXVDB3SWRFUmFSeEU3MEVOZjJkNUh0X2RlQ2tEVVMxdmZNREY5ZjZUYm9DVWhqSFJtWUE5aUZOQzRyUTNpZGlhX2owTTg1VVp3QWxjcmo2Si130gHAAUFVX3lxTE5WSFZYUjJ4bnB6eXlNamwtaWd5SkxWMWs5eV9WVzBnNWV4RlRhVWM4cUJ0LVh2eTk3a3ZpZjg3ZnZ3WXNNTFQ2QWFEMWFvbG0wWUt1QWl0R1ZOTWVJUldXLTJXQ2pjNC1mc0JxNjJjZVRCTWMyRkVhRE9mck80RW41UmNaZEhQVVd5TjM3R3ZVbnBNSm5EZFVFQkh3MjRVUXphdXNOVnJiTHJXSVk3NnZ3dzZoXy14NUROdC1vVnp4NQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:05:58,530 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:05:58,531 [INFO] Resolved Google News URL: https://www.domain-b.com/technology/information-technology/google-finland-ai-infrastructure-fortum-l
+2026-10-07 12:05:58,531 [INFO] URL: https://www.domain-b.com/technology/information-technology/google-finland-ai-infrastructure-fortum-loviisa-nuclear-2026
+2026-10-07 12:05:59,935 [INFO] Text length: 7726 chars | source: full
+2026-10-07 12:05:59,935 [INFO] Text preview: Google commits €13 billion to Finnish AI infrastructure with nuclear deal
+By Axel Miller | 09 Sep 2026
+Summary
+- Largest European investment: Google will invest €13 billion in Finland during 2027 and ...
+2026-10-07 12:05:59,935 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:06:12,802 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: Google commits €13 billion to Finnish AI infrastructure with
+2026-10-07 12:06:12,803 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":"max completion tokens reached before generating a valid document"}}
+
+2026-10-07 12:06:12,803 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 12:06:12,803 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 12:06:12,803 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:06:27,638 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google commits €13 billion to Finnish AI infrastructure with
+2026-10-07 12:06:27,638 [INFO] LLM extracted 1 deals | Google commits €13 billion to Finnish AI infrastru
+2026-10-07 12:06:27,649 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-07 12:06:32,650 [INFO] ------- Processing article n. 7: Liquefied Natural Gas Market Size & Industry Report, 2032 - Fortune Business Ins -------
+2026-10-07 12:06:32,757 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxPbThnMlY4RDd6MjhndDhUdVplZXhlYnhxZWwzQklsc1I2bjhxdVNYR215VFlrYU1mSTJrZHluV0MyZ3g0Sk1oeTFsYUNfaEE4Si1aVmpEdnEwSXFVMVdkc0hmRjVFaEZaY1dIQUJPSzFsX19EekJlVEtfeDd6Y0lTQ2pTXzFyZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:06:33,890 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:06:33,891 [INFO] Resolved Google News URL: https://www.fortunebusinessinsights.com/liquefied-natural-gas-lng-market-105503
+2026-10-07 12:06:33,891 [INFO] URL: https://www.fortunebusinessinsights.com/liquefied-natural-gas-lng-market-105503
+2026-10-07 12:06:33,984 [INFO] Full text skipped (status 403): https://www.fortunebusinessinsights.com/liquefied-natural-gas-lng-market-105503
+2026-10-07 12:06:33,984 [INFO] Text length: 183 chars | source: fallback
+2026-10-07 12:06:33,984 [INFO] Text preview: Liquefied Natural Gas Market Size & Industry Report, 2032 - Fortune Business Insights
+
+Liquefied Natural Gas Market Size & Industry Report, 2032 &nbsp;&nbsp; Fortune Business Insights...
+2026-10-07 12:06:33,985 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:06:42,013 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Liquefied Natural Gas Market Size & Industry Report, 2032 - 
+2026-10-07 12:06:42,013 [INFO] LLM extracted 1 deals | Liquefied Natural Gas Market Size & Industry Repor
+2026-10-07 12:06:42,014 [INFO] Not a signed deal — skipping: Liquefied Natural Gas Market Size & Industry Report, 2032 - 
+2026-10-07 12:06:42,014 [INFO] ------- Processing article n. 7: European shares slide to over-one-month lows as Brent breaches US$100 - The Busi -------
+2026-10-07 12:06:42,111 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOEtBQUFUTmxVZmJtTHI2ZkRUZG52UzVGOXZ0VjN6RzFYYUdqVWF1TXl2M2pMWll6UzF6Q2VUM0x6bHBmaUlVNlR6SDF3bGpsNlVRSjZ4RVJRTnhXYzVKR003OWkwbVBGT3hmTVAxYkpyOUNURVpqQWl2UnZlbXU1U0hvODB1VkMzbkhUNWhTX1Z6WFdyZkppQkp2T0lyWDVDX01XZF95M0RxaHc5RXF1QUFRaXlBdW55Y09wQ0ZkVVdMZW9rRUM4ZF9TOVRUUk55c0l5VFRHaw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:06:43,219 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:06:43,220 [INFO] Resolved Google News URL: https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/european-shares-slide-
+2026-10-07 12:06:43,220 [INFO] URL: https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/european-shares-slide-over-one-month-lows-brent-breaches-us100
+2026-10-07 12:06:43,720 [INFO] Text length: 3092 chars | source: full
+2026-10-07 12:06:43,720 [INFO] Text preview: European shares slide to over-one-month lows as Brent breaches US$100
+Energy was the only sector in positive territory
+EUROPEAN shares dropped on Wednesday (Sep 9) to their lowest in more than a month...
+2026-10-07 12:06:43,720 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:06:57,131 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: European shares slide to over-one-month lows as Brent breach
+2026-10-07 12:06:57,131 [INFO] LLM extracted 1 deals | European shares slide to over-one-month lows as Br
+2026-10-07 12:06:57,253 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-07 12:07:02,254 [INFO] ------- Processing article n. 8: Best Nuclear Energy Stocks for 2026 and How to Invest - The Motley Fool -------
+2026-10-07 12:07:02,352 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMif0FVX3lxTE81bnNyMVpOaHZTMDhmRUpTX3BvNkZsYjlObU9oSnNhMHRXRUlCR21HMGQ2Rm5yMjc3TUozckdtZ3lRNmo5UmRqODI1WFA5aEFxVGdMT3RvdzZSeVZONVl3d1VSTVNiN0w5dE9IeVBydUJ2RncwcldKUXRjbWcyMGs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:07:03,479 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:07:03,480 [INFO] Resolved Google News URL: https://www.fool.com/investing/stock-market/market-sectors/energy/nuclear/
+2026-10-07 12:07:03,480 [INFO] URL: https://www.fool.com/investing/stock-market/market-sectors/energy/nuclear/
+2026-10-07 12:07:03,970 [INFO] Text length: 1499 chars | source: full
+2026-10-07 12:07:03,970 [INFO] Text preview: General Electric completed its decade-long restructuring in April 2024. The legacy business was split into its remaining stand-alone entities, with GE Aerospace (GE +1.00%) keeping the stock ticker an...
+2026-10-07 12:07:03,970 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:07:11,325 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Best Nuclear Energy Stocks for 2026 and How to Invest - The 
+2026-10-07 12:07:11,326 [INFO] LLM extracted 1 deals | Best Nuclear Energy Stocks for 2026 and How to Inv
+2026-10-07 12:07:11,637 [INFO] Not a signed deal — skipping: Best Nuclear Energy Stocks for 2026 and How to Invest - The 
+2026-10-07 12:07:11,637 [INFO] ------- Processing article n. 8: Google To Invest $15.1 Billion In Finland’s AI Infrastructure - Memeburn -------
+2026-10-07 12:07:11,731 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa3BuYUJid3dlekM2dDg4cDlReHZfMFVxcnhSNUxldFpDRzNJcnZ2ZEd1di1fdExQbjRqRGE2WHVYV1FKamVibm5ZcVBMUzdWT0pkbnFGRDZOSk5oQjZUZ1VEdTA3eWU5U1pWanpZZk1YdmhxTU96MloxX1hxc1Y0MkpWdGM3YjdW?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:07:12,851 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:07:12,852 [INFO] Resolved Google News URL: https://memeburn.com/google-to-invest-15-1-billion-in-finlands-ai-infrastructure/
+2026-10-07 12:07:12,852 [INFO] URL: https://memeburn.com/google-to-invest-15-1-billion-in-finlands-ai-infrastructure/
+2026-10-07 12:07:13,022 [INFO] Text length: 6656 chars | source: full
+2026-10-07 12:07:13,022 [INFO] Text preview: TL;DR
+- Google plans to invest €13 billion ($15.1 billion) in Finland, its largest single investment in Europe.
+- The expansion includes data centre infrastructure and a 22-year agreement supporting F...
+2026-10-07 12:07:13,022 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:07:27,429 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google To Invest $15.1 Billion In Finland’s AI Infrastructur
+2026-10-07 12:07:27,430 [INFO] LLM extracted 1 deals | Google To Invest $15.1 Billion In Finland’s AI Inf
+2026-10-07 12:07:27,486 [INFO] Non-electricity energy deal — skipping: Google To Invest $15.1 Billion In Finland’s AI Infrastructur
+2026-10-07 12:07:27,486 [INFO] ------- Processing article n. 8: Google to invest $15 billion in AI infrastructure and buy nuclear power in Finla -------
+2026-10-07 12:07:27,578 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxNOEp3QVNXX19OMjdrU3AwOFc2SUZ2SmhHaE9TZnJDdDl2VEdOTmtYTUZpVk5UeUVlNzh1ZzN4UzVOZVk1ZDdZQ0RUb1RBeWpQUGxwa1BpTkpUWTQxMnc0MVZaVzVaalRoVjNhVld3WG8xakM1WmRENlM5bzNFanNGdzZNLUV3Zm1PdXRWOTIzUUhXVWJXRy1CbGNyYlgxbDMzNWhhTEZzTEZiUkhlUHpsd1NqNFozTkMzTGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:07:28,691 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:07:28,692 [INFO] Resolved Google News URL: https://tribune.com.pk/story/2628394/google-to-invest-15-billion-in-ai-infrastructure-and-buy-nuclea
+2026-10-07 12:07:28,692 [INFO] URL: https://tribune.com.pk/story/2628394/google-to-invest-15-billion-in-ai-infrastructure-and-buy-nuclear-power-in-finland
+2026-10-07 12:07:30,476 [INFO] Text length: 3939 chars | source: full
+2026-10-07 12:07:30,476 [INFO] Text preview: Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland
+Google says the AI infrastructure build-out will involve development of three new data centres in the country's north...
+2026-10-07 12:07:30,477 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:07:41,788 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google to invest $15 billion in AI infrastructure and buy nu
+2026-10-07 12:07:41,788 [INFO] LLM extracted 1 deals | Google to invest $15 billion in AI infrastructure 
+2026-10-07 12:07:41,789 [INFO] Non-electricity energy deal — skipping: Google to invest $15 billion in AI infrastructure and buy nu
+2026-10-07 12:07:41,790 [INFO] ------- Processing article n. 8: Elevating Europe: Canada and the EU’s New Ambition - Policy Magazine -------
+2026-10-07 12:07:41,880 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxPNlFNMDhmYlk2bmN3MXVJdUZiZzFMNEpTNjZfa0pFd25qbUhCRFBlT1lfaEwtenJPZGtrYlJjNWtKclJVYkJrWUdIRGEzZlZiRHB3SnpVd0RXX0JJZERBU0RoZXdvWF9uNEpzVnhubkRkT2R1NHRYc1RsZERDUFhKclRlZ0ZZUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:07:42,997 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:07:42,998 [INFO] Resolved Google News URL: https://www.policymagazine.ca/elevating-europe-canada-and-the-eus-new-ambition/
+2026-10-07 12:07:42,998 [INFO] URL: https://www.policymagazine.ca/elevating-europe-canada-and-the-eus-new-ambition/
+2026-10-07 12:07:58,822 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.policymagazine.ca', port=443): Read timed out. (read timeout=12)): https://www.policymagazine.ca/elevating-europe-canada-and-the-eus-new-ambition/
+2026-10-07 12:07:58,823 [INFO] Text length: 149 chars | source: fallback
+2026-10-07 12:07:58,823 [INFO] Text preview: Elevating Europe: Canada and the EU’s New Ambition - Policy Magazine
+
+Elevating Europe: Canada and the EU’s New Ambition &nbsp;&nbsp; Policy Magazine...
+2026-10-07 12:07:58,823 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:08:00,239 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Elevating Europe: Canada and the EU’s New Ambition - Policy 
+2026-10-07 12:08:00,240 [INFO] LLM extracted 1 deals | Elevating Europe: Canada and the EU’s New Ambition
+2026-10-07 12:08:00,241 [INFO] Not a signed deal — skipping: Elevating Europe: Canada and the EU’s New Ambition - Policy 
+2026-10-07 12:08:00,241 [INFO] ------- Processing article n. 8: Google will invest at least 13 billion euros ($15.1 billion) in Finland, which h -------
+2026-10-07 12:08:00,332 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiS0FVX3lxTE5zaW93aWZNdHlGczZZQ21DM2lKMzRXNDNRUjQ0VVhXb3hvamh3Wm9JaDVVbnVhM3BnQ1Myc2VOcldZY2JBVEdnQ0pBUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:08:01,437 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:08:01,438 [INFO] Resolved Google News URL: https://www.mk.co.kr/en/it/12149213
+2026-10-07 12:08:01,438 [INFO] URL: https://www.mk.co.kr/en/it/12149213
+2026-10-07 12:08:02,404 [INFO] Text length: 3160 chars | source: full
+2026-10-07 12:08:02,404 [INFO] Text preview: Electricity, abundant AI data center optimal
+"AI infrastructure demand surges..."Texas in Europe"
+Google will invest at least 13 billion euros ($15.1 billion) in Finland, which has emerged as a new ba...
+2026-10-07 12:08:02,404 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:08:16,094 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google will invest at least 13 billion euros ($15.1 billion)
+2026-10-07 12:08:16,095 [INFO] LLM extracted 1 deals | Google will invest at least 13 billion euros ($15.
+2026-10-07 12:08:16,106 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-07 12:08:21,108 [INFO] ------- Processing article n. 9: Arvedi Ast raises the alarm: energy costs are no longer sustainable - Il Sole 24 -------
+2026-10-07 12:08:21,201 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxOakZ5WTdoSFloYjV4cGQtM2hBY29aV3pCWjhfQllpNlhwUGhCVUxNTkpjUkh3Zk8tZ2JDODY0eWMyb1lQcjZ1VFhLbnlpTDd2VXYzZHV5bXBfZ1Ita0ZXbnFHakR4ck5RcVlRZWxKMVhjemM0cWJQbDh3dk1SdFVLcjQ1blVxN2FROFRxMXAtRWQ4bXg1MXdBR0k4Q2xlQTB5UlhyaDZyS2ZLdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:08:22,327 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:08:22,328 [INFO] Resolved Google News URL: https://en.ilsole24ore.com/art/arvedi-warns-that-ast-is-no-longer-sustainable-due-to-energy-costs-AJ
+2026-10-07 12:08:22,328 [INFO] URL: https://en.ilsole24ore.com/art/arvedi-warns-that-ast-is-no-longer-sustainable-due-to-energy-costs-AJ7VV5AB
+2026-10-07 12:08:24,991 [INFO] Text length: 7112 chars | source: full
+2026-10-07 12:08:24,991 [INFO] Text preview: Arvedi Ast raises the alarm: energy costs are no longer sustainable
+“The burden of energy costs for Arvedi Ast and for the Italian steel industry has become unsustainable.” This is the claim made by t...
+2026-10-07 12:08:24,991 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:08:31,369 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Arvedi Ast raises the alarm: energy costs are no longer sust
+2026-10-07 12:08:31,369 [INFO] LLM extracted 1 deals | Arvedi Ast raises the alarm: energy costs are no l
+2026-10-07 12:08:31,520 [INFO] Not a signed deal — skipping: Arvedi Ast raises the alarm: energy costs are no longer sust
+2026-10-07 12:08:31,520 [INFO] ------- Processing article n. 9: ADNOC, XRG, Masdar deepen Germany partnerships with strategic energy, industry,  -------
+2026-10-07 12:08:31,615 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcjAwV3FXWmdkSVk0NjBwalJ6XzVQeXlGQ2xhQUQ0U0dlQXBheUs4SXZ5OGRXZ3VtdnRqYnJBZHp4WUpBQXFKVmpKMUFyQk1xdUMwUUJEaW1OQ1RQVTkxdXNWVkRBYmlEUlhwMVhLMURtc2dDMlZZSVFMZ2l4VWR1SUpDZVlFU2hBcFR4UUdKVVhCa2lNQ0NkYTRqRjM4dXJ6Qjd1T042dXB0OFZKN3lrYzFjMFA4UGlra2JkMGJ4SXhCTzRKX1VxWGdTTmdvcWI1R0Y2T0dwQlJRZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:08:32,730 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:08:32,731 [INFO] Resolved Google News URL: https://www.gulftoday.ae/business/2026/09/11/adnoc-xrg-masdar-deepen-germany-partnerships-with-strat
+2026-10-07 12:08:32,731 [INFO] URL: https://www.gulftoday.ae/business/2026/09/11/adnoc-xrg-masdar-deepen-germany-partnerships-with-strategic-energy-industry-technology-agreements
+2026-10-07 12:08:33,634 [INFO] Text length: 4282 chars | source: full
+2026-10-07 12:08:33,634 [INFO] Text preview: ADNOC, XRG and Masdar today announced agreements with leading German companies, strengthening the strategic partnership between the UAE and Germany across energy, industry and advanced technology. Tog...
+2026-10-07 12:08:33,634 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:08:46,224 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: ADNOC, XRG, Masdar deepen Germany partnerships with strategi
+2026-10-07 12:08:46,224 [INFO] LLM extracted 1 deals | ADNOC, XRG, Masdar deepen Germany partnerships wit
+2026-10-07 12:08:46,233 [INFO] Not a signed deal — skipping: ADNOC, XRG, Masdar deepen Germany partnerships with strategi
+2026-10-07 12:08:46,233 [INFO] ------- Processing article n. 9: Google invests €13bn in Finland and plans three new data centres - Helsinki Time -------
+2026-10-07 12:08:46,328 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxOMUVwZGFzLVVMSWxfdi1uM2NPYkdEZlpNSF8xbkV4ZzNWTTVzVEszVTZxUlVwaTI0TEtTXzNWMkF0aWN3Z2xuWXJ4T1UwOWtnNzJSTlNSVzBGUXBVVTBXWGFtTmMzSGIzOWczdlFKaVRMeVhCM1ltODIxT2szc1p5ZGtGdEVEekVLSE1kZmJqUm5VZzVEdDJtdHQ0TU1zbk5uWFlhMjN4X2NSV09KaDVCS29R?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:08:47,447 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:08:47,448 [INFO] Resolved Google News URL: https://www.helsinkitimes.fi/business/29252-google-invests-13bn-in-finland-and-plans-three-new-data-
+2026-10-07 12:08:47,448 [INFO] URL: https://www.helsinkitimes.fi/business/29252-google-invests-13bn-in-finland-and-plans-three-new-data-centres.html
+2026-10-07 12:08:48,536 [INFO] Full text skipped (status 403): https://www.helsinkitimes.fi/business/29252-google-invests-13bn-in-finland-and-p
+2026-10-07 12:08:48,536 [INFO] Text length: 175 chars | source: fallback
+2026-10-07 12:08:48,536 [INFO] Text preview: Google invests €13bn in Finland and plans three new data centres - Helsinki Times
+
+Google invests €13bn in Finland and plans three new data centres &nbsp;&nbsp; Helsinki Times...
+2026-10-07 12:08:48,536 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:09:00,389 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google invests €13bn in Finland and plans three new data cen
+2026-10-07 12:09:00,390 [INFO] LLM extracted 1 deals | Google invests €13bn in Finland and plans three ne
+2026-10-07 12:09:00,391 [INFO] Not a signed deal — skipping: Google invests €13bn in Finland and plans three new data cen
+2026-10-07 12:09:00,391 [INFO] ------- Processing article n. 9: Middle East Business: UAE, Germany unveil energy, tech deals worth over $5.8bn - -------
+2026-10-07 12:09:00,486 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxNNkY1VFhCXzBKYW93a0RvN1p4N0hLMEQzLWZjWGQ2enF0Mkd5UVh6RHZDYzRsWVotQ0VFV215S3BMTTBoQ2dfcy1ud3RuLUE4M0Q0X1ZSUTFzNFBHWlVJWGVpdWhidk4tUnBxMjNUZVFOVnZuenNCajcyOTN0cUd2ZWxLdThhbDh4ZGxna18xLWViOTlGRnJFV3JudVFSZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:09:01,603 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:09:01,603 [INFO] Resolved Google News URL: https://www.gdnonline.com/Details/1406231/UAE,-Germany-unveil-energy,-tech-deals-worth-over-$58bn
+2026-10-07 12:09:01,603 [INFO] URL: https://www.gdnonline.com/Details/1406231/UAE,-Germany-unveil-energy,-tech-deals-worth-over-$58bn
+2026-10-07 12:09:08,290 [INFO] Text length: 3440 chars | source: full
+2026-10-07 12:09:08,290 [INFO] Text preview: The UAE and Germany have strengthened their strategic economic partnership with a series of agreements spanning energy, industry, renewable power and advanced technology, with the deals potentially en...
+2026-10-07 12:09:08,290 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:09:16,346 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Middle East Business: UAE, Germany unveil energy, tech deals
+2026-10-07 12:09:16,346 [INFO] LLM extracted 1 deals | Middle East Business: UAE, Germany unveil energy, 
+2026-10-07 12:09:16,347 [INFO] Not a signed deal — skipping: Middle East Business: UAE, Germany unveil energy, tech deals
+2026-10-07 12:09:16,347 [INFO] ------- Processing article n. 9: UAE energy deals could unlock over €5 billion in Germany across gas, wind and te -------
+2026-10-07 12:09:16,439 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN2l4SHVUMG85anhjbDBFU29kWWFhbF9GTzZLZmR3SWlUVXZ4VkhWbURZMVkxSzc0ZEo4T3FEM0RWbmhTcXZBWTQ4M2xrSnU0dzhVdkx2T2oxZDNVV0VJYTBGYTNlTk8wbDRabmFETWRpZVdrV0JQVHoyLTlMdk9WWFZmZHRNcnFrUk1EdFhWSXJUTzVvLW1NRlBHcDJIOVpvUk5iLU11eTg5VGlDa2Rhb3dQTmZnN1FUQ0FWZGtMa2lZLTM5UkxOSTYxNFdSN2ZD0gHjAUFVX3lxTE81N3MxWXpmVXdRWW41M1BwOGJjWnFDa2wwVzhDU3QxRUIzcWlrZ2cyRkxNN0ZNaHNsYWg3T3UzWkM3NE9lMS03ZjBsYlNLTUZZUTNiX0xlMjBKOHlnQVpxU215VElFZ2puTFk5eml1WnNtLTRobVNIeFpYM0ZWdGZ0aUZ5MW9yRk13VkRoWnNhWW1iYkVJVnl4MDVnVmg4WEQtSVpDQW1JTk5IRmt5UV9KUjBLMDZPdWpCbE00NElJc2ZaZFZfblJZUXQ1bnAtRzRoZ29rRDB3cU1ySE5GbExVRGRF?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:09:17,542 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:09:17,542 [INFO] Resolved Google News URL: https://gulfnews.com/business/energy/uae-energy-deals-could-unlock-over-5-billion-in-germany-across-
+2026-10-07 12:09:17,542 [INFO] URL: https://gulfnews.com/business/energy/uae-energy-deals-could-unlock-over-5-billion-in-germany-across-gas-wind-and-technology-1.500672922
+2026-10-07 12:09:17,951 [INFO] Text length: 4441 chars | source: full
+2026-10-07 12:09:17,951 [INFO] Text preview: ADNOC, XRG and Masdar expand German partnerships across LNG, wind and technology
+Abu Dhabi: ADNOC, XRG and Masdar have signed a series of agreements with German companies that could enable more than €...
+2026-10-07 12:09:17,951 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:09:30,976 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: UAE energy deals could unlock over €5 billion in Germany acr
+2026-10-07 12:09:30,976 [INFO] LLM extracted 1 deals | UAE energy deals could unlock over €5 billion in G
+2026-10-07 12:09:30,983 [INFO] Not a signed deal — skipping: UAE energy deals could unlock over €5 billion in Germany acr
+2026-10-07 12:09:30,983 [INFO] ------- Processing article n. 9: Google announces €13bn additional investment in Finland - Yle -------
+2026-10-07 12:09:31,077 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiQkFVX3lxTE5nazg1SGx3MXlTSTVZd2xQWTluVTRkU3htM2NkcUl4ejNtZXRZTTh0ckxvZncxdGVOb2FqWXZwaXlfZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:09:32,198 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:09:32,199 [INFO] Resolved Google News URL: https://yle.fi/a/74-20245301
+2026-10-07 12:09:32,199 [INFO] URL: https://yle.fi/a/74-20245301
+2026-10-07 12:09:32,541 [INFO] Text length: 3715 chars | source: full
+2026-10-07 12:09:32,541 [INFO] Text preview: Search engine giant Google has announced plans to invest an additional 13 billion euros in Finland over the next two years.
+The operations will be focused on the municipalities of Kajaani, Muhos, and ...
+2026-10-07 12:09:32,541 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:09:46,231 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google announces €13bn additional investment in Finland - Yl
+2026-10-07 12:09:46,231 [INFO] LLM extracted 1 deals | Google announces €13bn additional investment in Fi
+2026-10-07 12:09:46,232 [INFO] Non-electricity energy deal — skipping: Google announces €13bn additional investment in Finland - Yl
+2026-10-07 12:09:46,232 [INFO] ------- Processing article n. 9: Google Finland AI Investment Includes Nuclear Power Deal - Univest -------
+2026-10-07 12:09:46,323 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE1iNkRIMWkwR1ZVNlhEcHJUdGk3ZEFONTBrT0VRSUdDUGhtcjZrWUJ0eHp1VFNUS3k1V1NkbzVEUWxaWG95UDltS3pJS1NKeDNYTDhsc2QyWk9xZW9vY2s1aE5ZZUNDMzdKYmdvNnNETW85WDBDOXc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:09:47,434 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:09:47,435 [INFO] Resolved Google News URL: https://univest.in/blogs/google-finland-ai-investment-nuclear-power
+2026-10-07 12:09:47,435 [INFO] URL: https://univest.in/blogs/google-finland-ai-investment-nuclear-power
+2026-10-07 12:09:48,617 [INFO] Text length: 5081 chars | source: full
+2026-10-07 12:09:48,617 [INFO] Text preview: Google to Invest $15 Billion in AI Infrastructure and Buy Nuclear Power in Finland
+Google will invest at least $15 billion in AI infrastructure in Finland, its largest European investment, with a nucl...
+2026-10-07 12:09:48,617 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:10:00,421 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Finland AI Investment Includes Nuclear Power Deal - U
+2026-10-07 12:10:00,421 [INFO] LLM extracted 1 deals | Google Finland AI Investment Includes Nuclear Powe
+2026-10-07 12:10:00,422 [INFO] Non-electricity energy deal — skipping: Google Finland AI Investment Includes Nuclear Power Deal - U
+2026-10-07 12:10:00,422 [INFO] ------- Processing article n. 9: Google Invests €13 Billion in Finland for AI and Clean Energy - Aktualita.co -------
+2026-10-07 12:10:00,526 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxNcUhJYm5JcjlfRE1DWWpTSWZQQy1udkI2elVsNHExZnl5VlZraWg3UF81ZnBUUG1GSFB0cUVUNDFmYUQtTlpEQk9SUnBnZ0lVaTlxZXZjS0JIb1B2VVZhV25ubGtYSndVZ2ZGNTMwOHM2cnZEUXYtc2pKR3lHbXpHck02VzdSUS1ZS3RseU1tS3A5X1VyNlk0ejRmSEstclRYcE9EZnB3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:10:01,651 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:10:01,652 [INFO] Resolved Google News URL: https://aktualita.co/en/technology/google-invests-eur13-billion-in-finland-to-boost-ai-and-clean-ene
+2026-10-07 12:10:01,652 [INFO] URL: https://aktualita.co/en/technology/google-invests-eur13-billion-in-finland-to-boost-ai-and-clean-energy
+2026-10-07 12:10:01,743 [INFO] Full text skipped (status 403): https://aktualita.co/en/technology/google-invests-eur13-billion-in-finland-to-bo
+2026-10-07 12:10:01,743 [INFO] Text length: 165 chars | source: fallback
+2026-10-07 12:10:01,743 [INFO] Text preview: Google Invests €13 Billion in Finland for AI and Clean Energy - Aktualita.co
+
+Google Invests €13 Billion in Finland for AI and Clean Energy &nbsp;&nbsp; Aktualita.co...
+2026-10-07 12:10:01,743 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:10:16,624 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google Invests €13 Billion in Finland for AI and Clean Energ
+2026-10-07 12:10:16,624 [INFO] LLM extracted 1 deals | Google Invests €13 Billion in Finland for AI and C
+2026-10-07 12:10:17,275 [INFO] Not a signed deal — skipping: Google Invests €13 Billion in Finland for AI and Clean Energ
+2026-10-07 12:10:17,276 [INFO] ------- Processing article n. 9: Google selects Finland for largest investment in Europe - Crypto Briefing -------
+2026-10-07 12:10:17,366 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMid0FVX3lxTE81dW15Snl4cjc2a0hkY3U4ck14TGU1Z3JpWVpvLWxGLVBJMW11X1N6eFFGQjZGVVUwUEpES3RJYTVjZEUzWHZYNTZhZUdyb25obmV4bEUwNTdkVzFSVFFNRmtPQ0lpSXpXMjhJSjNXc01RTHdGMDNJ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:10:18,466 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:10:18,467 [INFO] Resolved Google News URL: https://cryptobriefing.com/google-finland-largest-europe-investment/
+2026-10-07 12:10:18,467 [INFO] URL: https://cryptobriefing.com/google-finland-largest-europe-investment/
+2026-10-07 12:10:18,895 [INFO] Text length: 3389 chars | source: full
+2026-10-07 12:10:18,896 [INFO] Text preview: Photo: Bastian Riccardi / Pexels
+Google selects Finland for largest investment in Europe
+The tech giant is pouring at least €13 billion into Finnish data centers and AI infrastructure over the next tw...
+2026-10-07 12:10:18,896 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:10:30,559 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google selects Finland for largest investment in Europe - Cr
+2026-10-07 12:10:30,559 [INFO] LLM extracted 1 deals | Google selects Finland for largest investment in E
+2026-10-07 12:10:30,560 [INFO] Non-electricity energy deal — skipping: Google selects Finland for largest investment in Europe - Cr
+2026-10-07 12:10:30,560 [INFO] ------- Processing article n. 9: Google commits €13 billion to Finnish data centers and energy - RUSSPAIN.com -------
+2026-10-07 12:10:30,657 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxObTM4c2liQS1uZjcwY3EtTU1Dd2ZWRlh2X2NuaUVWY2tKV3ZTU0x4Vm1hUktSaWFPX2R0eTRtN3lFbFZjUVZ2OVh1TFNUU1NJV2xFSUhLSlJpYVZuRmF4Tl9nYlpyYkhfYlgtNnhmTnRBRFd1bU9ENHk5clZnZmNrdVgya28xVTBuM0p5RmJxLVl0N3pmNFJOVE4yU3E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:10:31,778 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:10:31,778 [INFO] Resolved Google News URL: https://russpain.com/news/google-commits-eur13-billion-to-finnish-data-centers-and-energy-92155/
+2026-10-07 12:10:31,778 [INFO] URL: https://russpain.com/news/google-commits-eur13-billion-to-finnish-data-centers-and-energy-92155/
+2026-10-07 12:10:32,404 [INFO] Text length: 2893 chars | source: full
+2026-10-07 12:10:32,404 [INFO] Text preview: Google will invest at least €13 billion in expanding its Finnish data centers and energy infrastructure by 2028. The project is expected to create thousands of jobs and includes a long-term nuclear en...
+2026-10-07 12:10:32,404 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:10:45,769 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Google commits €13 billion to Finnish data centers and energ
+2026-10-07 12:10:45,770 [INFO] LLM extracted 1 deals | Google commits €13 billion to Finnish data centers
+2026-10-07 12:10:45,771 [INFO] Non-electricity energy deal — skipping: Google commits €13 billion to Finnish data centers and energ
+2026-10-07 12:10:45,771 [INFO] ------- Processing article n. 9: RWE to supply renewable energy for Air Products' hydrogen plants - Renewables No -------
+2026-10-07 12:10:45,863 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxOYTVXUm94b3FlSW1YWW5HZFVrR3loRDloY0xzREwyWnFIUExLSWhJRjg2Rjl0QlN5Z1FoSkJFRjJUMk95MmttVUNSamdZeGN4aUZ0Z1BQMUE5SVNnOUwwQ0kxbmJzdDhRMU1FMVlHNm5UYjhYUTl3NlR0N2pVWHhBU3JvT2g5d0k5RGJROXpsMGhtSXVaN0RGTldqV2tTZlp6NFgtamFR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:10:46,986 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:10:46,986 [INFO] Resolved Google News URL: https://renewablesnow.com/news/rwe-to-supply-renewable-energy-for-air-products-hydrogen-plants-13009
+2026-10-07 12:10:46,986 [INFO] URL: https://renewablesnow.com/news/rwe-to-supply-renewable-energy-for-air-products-hydrogen-plants-1300989/
+2026-10-07 12:10:47,072 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/rwe-to-supply-renewable-energy-for-air-products-h
+2026-10-07 12:10:47,072 [INFO] Text length: 175 chars | source: fallback
+2026-10-07 12:10:47,072 [INFO] Text preview: RWE to supply renewable energy for Air Products' hydrogen plants - Renewables Now
+
+RWE to supply renewable energy for Air Products' hydrogen plants &nbsp;&nbsp; Renewables Now...
+2026-10-07 12:10:47,072 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:11:02,172 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: RWE to supply renewable energy for Air Products' hydrogen pl
+2026-10-07 12:11:02,173 [INFO] LLM extracted 1 deals | RWE to supply renewable energy for Air Products' h
+2026-10-07 12:11:02,174 [INFO] Not a European deal — skipping: Air Products / RWE (None, None MW)
+2026-10-07 12:11:02,174 [INFO] ------- Processing article n. 9: Greencoat Renewables PLC (IE00BF2NR112.SG) H1 FY2026 earnings call transcript -  -------
+2026-10-07 12:11:02,270 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcU9aUmhtS2FaejBhYlBvRTNGeklsZFdjaWluODVMMzlJY0VxanpDVXFSNzhwVlozWEdFeFlFYVhteEJpbEI4eHdiVFFrTXlKc0NhNXVDT0FnSlBjQXhwNFBsVGN5dnJKUDIwdkNQbFdGaW1UV3d1Sm9LTXpseDJWaUhJWEhaa2tPRlIyamMzUG9FUDVzMnppY05HaDMzTU9pT3FkUGw5Ym05UQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:11:03,393 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:11:03,393 [INFO] Resolved Google News URL: https://finance.yahoo.com/quote/IE00BF2NR112.SG/earnings/IE00BF2NR112.SG-H1-2026-earnings_call-58246
+2026-10-07 12:11:03,393 [INFO] URL: https://finance.yahoo.com/quote/IE00BF2NR112.SG/earnings/IE00BF2NR112.SG-H1-2026-earnings_call-582463.html
+2026-10-07 12:11:04,942 [INFO] Text length: 23405 chars | source: full
+2026-10-07 12:11:04,942 [INFO] Text preview: Greencoat Renewables PLC (IE00BF2NR112.SG) H1 FY2026 earnings call transcript Earnings calls summary Powered by Yahoo ScoutGreencoat Renewables reported H1 2026 revenue of EUR 157 million, down 2% YoY...
+2026-10-07 12:11:04,942 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:11:15,942 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Greencoat Renewables PLC (IE00BF2NR112.SG) H1 FY2026 earning
+2026-10-07 12:11:15,943 [INFO] LLM extracted 1 deals | Greencoat Renewables PLC (IE00BF2NR112.SG) H1 FY20
+2026-10-07 12:11:16,583 [INFO] Not a signed deal — skipping: Greencoat Renewables PLC (IE00BF2NR112.SG) H1 FY2026 earning
+2026-10-07 12:11:16,583 [INFO] ------- Processing article n. 9: South Africa’s energy transition shifts to private power as corporate PPAs drive -------
+2026-10-07 12:11:16,675 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOEszZmNGZ1BWNURuczIya1VYT011UWpEOTRaaWJfZTdVejdqcm9VS2NicGprWEtpMk1FS2ZaNm9nRlF3aGdaQ093bnNhaDN2YjlCOTR1bEFta3NVSjdvYWlpcDk4c0ptTFNWX0UzZnA3VUVoT3RWVVdSNU1IS295RXBmNGYwRmZZbFhobWVxdWZOMktha2p4NEx0OU1QLWJGek1UNE5OYjItdXo4SGZ0WDJ3NlRpcjY1eUhtZkotT1ZFSTFZLWM3eUswNmx5T2xUbHpjMnJQLTc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:11:17,792 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:11:17,793 [INFO] Resolved Google News URL: https://africasustainabilitymatters.com/south-africas-energy-transition-shifts-to-private-power-as-c
+2026-10-07 12:11:17,793 [INFO] URL: https://africasustainabilitymatters.com/south-africas-energy-transition-shifts-to-private-power-as-corporate-ppas-drive-renewable-investment/
+2026-10-07 12:11:19,351 [INFO] Text length: 10372 chars | source: full
+2026-10-07 12:11:19,351 [INFO] Text preview: South Africa’s energy transition is entering a new phase in which corporate buyers, rather than government auctions, are becoming the main source of new utility-scale renewable energy, according to Bl...
+2026-10-07 12:11:19,351 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:11:31,619 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: South Africa’s energy transition shifts to private power as 
+2026-10-07 12:11:31,619 [INFO] LLM extracted 1 deals | South Africa’s energy transition shifts to private
+2026-10-07 12:11:31,620 [INFO] Not a signed deal — skipping: South Africa’s energy transition shifts to private power as 
+2026-10-07 12:11:31,620 [INFO] ------- Processing article n. 9: 7 Best Defense ETFs to Buy for 2026 | Investing - U.S. News - Money -------
+2026-10-07 12:11:31,712 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxNS1NlSjhjb2dra1ZnOXJXeXpvZ1BKc2RJMTNFZ09FT2dOYlpiNHo0MkJHM0lMY0xRX21KZkxRYjFBU0RPNkg2czNNRjh2WExqUzd3ci1SVHZjZWZ2azFlUzhtTE4wanZRWEt0Y1ZBYTRfTHlGN0QwN3dOcnRmRThqeEFyZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:11:32,835 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:11:32,835 [INFO] Resolved Google News URL: https://money.usnews.com/investing/articles/best-defense-etfs-to-buy-for-2026
+2026-10-07 12:11:32,835 [INFO] URL: https://money.usnews.com/investing/articles/best-defense-etfs-to-buy-for-2026
+2026-10-07 12:11:44,902 [INFO] Full text fetch failed (HTTPSConnectionPool(host='money.usnews.com', port=443): Read timed out. (read timeout=12)): https://money.usnews.com/investing/articles/best-defense-etfs-to-buy-for-2026
+2026-10-07 12:11:44,902 [INFO] Text length: 147 chars | source: fallback
+2026-10-07 12:11:44,902 [INFO] Text preview: 7 Best Defense ETFs to Buy for 2026 | Investing - U.S. News - Money
+
+7 Best Defense ETFs to Buy for 2026 | Investing &nbsp;&nbsp; U.S. News - Money...
+2026-10-07 12:11:44,902 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:11:46,840 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: 7 Best Defense ETFs to Buy for 2026 | Investing - U.S. News 
+2026-10-07 12:11:46,841 [INFO] LLM extracted 1 deals | 7 Best Defense ETFs to Buy for 2026 | Investing - 
+2026-10-07 12:11:46,842 [INFO] Not a signed deal — skipping: 7 Best Defense ETFs to Buy for 2026 | Investing - U.S. News 
+2026-10-07 12:11:46,842 [INFO] ------- Processing article n. 9: Top 10 Offshore Wind Projects in 2026: Investment, Capacity, Turbines and Develo -------
+2026-10-07 12:11:46,958 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxOaUkzdXBOTTFLM2JlZUotcXV2QTk4V0VZRkpjZmU0dmZaMFpQRFVvOUV4TFd4NkoxMXpCXzREQzJhVTFCQ0NHMlV2ckl4Wmh2YzZwWDI5QkV2SWkxd3lwNTJ2NEJEeEdMRWo5dDZxTWg4N2NoVjVnRzBiV0pvQ014ZVRYaWo0TjkybDlueEdIMlhQT2x2VGY4Y0N0cEZ5X1lYQWtvZThfbktoai1RS2VzZFd4ak9hMUxtRmc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:11:48,098 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:11:48,099 [INFO] Resolved Google News URL: https://greentechlead.com/wind/top-10-offshore-wind-projects-in-2026-investment-capacity-turbines-an
+2026-10-07 12:11:48,099 [INFO] URL: https://greentechlead.com/wind/top-10-offshore-wind-projects-in-2026-investment-capacity-turbines-and-developers-55315
+2026-10-07 12:11:48,225 [INFO] Text length: 10529 chars | source: full
+2026-10-07 12:11:48,225 [INFO] Text preview: Global offshore wind investment is entering a major construction cycle in 2026 as developers deploy larger turbines, raise billions of dollars in project financing and invest heavily in transmission, ...
+2026-10-07 12:11:48,225 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 12:11:59,985 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 429 for: Top 10 Offshore Wind Projects in 2026: Investment, Capacity,
+2026-10-07 12:11:59,985 [WARNING] LLM provider DISABLED for this run: groq — HTTP 429 rate/quota limit
+2026-10-07 12:11:59,985 [WARNING] LLM provider groq failed (quota); trying next provider
+2026-10-07 12:11:59,985 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 12:11:59,985 [ERROR] All LLM providers exhausted for this run
+2026-10-07 12:11:59,985 [WARNING] LLM returned None — skipping: Top 10 Offshore Wind Projects in 2026: Investment, Capacity,
+2026-10-07 12:11:59,985 [INFO] ------- Processing article n. 9: Stromvertrag im Kleingedruckten: Vonovia kassiert Niederlage vor dem OLG Hamm -  -------
+2026-10-07 12:12:00,081 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQUNNN2pucDhxc2RsU2JfMnNRYjJQQ1ZNUzAzdEdTbUpJbGpGMHJDeEV6LUpHdE50Rm9wZmRuUmotWjdXZm4zQUhDNV9JeV9Wb0ppUlk1ZzN1NDdqcmlwRTJzcDZTWFZkMVg0bkswbFBnbDhsOVNEcjZBLVFtX3VrZzREcURQQjBEMldHcFlJTEtZRm1LczF6eENtdWpWM01ZeW02NGlYSGNVUWotZVp3YlJYRHZRcUdkRUtTZ2ZsdmtvZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:01,227 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:01,227 [INFO] Resolved Google News URL: https://www.t-online.de/heim-garten/aktuelles/id_101429656/stromvertrag-gericht-kassiert-vonovia-kla
+2026-10-07 12:12:01,227 [INFO] URL: https://www.t-online.de/heim-garten/aktuelles/id_101429656/stromvertrag-gericht-kassiert-vonovia-klausel-im-mietvertrag.html
+2026-10-07 12:12:02,163 [INFO] Text length: 2153 chars | source: full
+2026-10-07 12:12:02,163 [INFO] Text preview: Gericht fällt klares Urteil Unternehmen versteckt Stromvertrag im Mietvertrag
+Ein Stromliefervertrag per Unterschrift unter dem Mietvertrag führt zu rechtlichen Auseinandersetzungen mit dem Immobilien...
+2026-10-07 12:12:02,163 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:02,163 [WARNING] LLM returned None — skipping: Stromvertrag im Kleingedruckten: Vonovia kassiert Niederlage
+2026-10-07 12:12:02,163 [INFO] ------- Processing article n. 9: Strom kaufen, Strom horten, Kraftwerke bauen: US-KI-Giganten werden gezwungen, z -------
+2026-10-07 12:12:02,263 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiU0FVX3lxTE80YTRzd3ZSV1hOQU9xbkdwVjJ0ZDNDUzFwbWFRcXNBczZfQXpGcG50Zzc4MnJCcUR1eW9IT1I5VmdhMVBrSU5kdEI2UWRPSDlCTFFJ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:03,405 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:03,406 [INFO] Resolved Google News URL: https://eu.36kr.com/de/p/3977406253520517
+2026-10-07 12:12:03,406 [INFO] URL: https://eu.36kr.com/de/p/3977406253520517
+2026-10-07 12:12:04,196 [INFO] Text length: 13898 chars | source: full
+2026-10-07 12:12:04,196 [INFO] Text preview: Ein Kernkraftwerk, das seit 6 Jahren außer Betrieb ist, soll dank KI wieder in Betrieb genommen werden.
+Am 8. September gab das US-Energieministerium bekannt, dass es NextEra Energy ein Darlehen von b...
+2026-10-07 12:12:04,196 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:04,196 [WARNING] LLM returned None — skipping: Strom kaufen, Strom horten, Kraftwerke bauen: US-KI-Giganten
+2026-10-07 12:12:04,196 [INFO] ------- Processing article n. 9: Widerstand gegen 380-kV-Leitung - kaernten.ORF.at -------
+2026-10-07 12:12:04,417 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiUkFVX3lxTE82QmhHQTF1Q0R1Wk1FdURJWENXNmtqdWR6bkZGSW9BNUpIR2hyWC1HRVVrVmsyN0VKcnVxanhsckNyb3J3d2JhaUN1MkZTOGd6c0E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:05,573 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:05,574 [INFO] Resolved Google News URL: https://kaernten.orf.at/stories/3370518/
+2026-10-07 12:12:05,574 [INFO] URL: https://kaernten.orf.at/stories/3370518/
+2026-10-07 12:12:06,871 [INFO] Text length: 1236 chars | source: full
+2026-10-07 12:12:06,871 [INFO] Text preview: Die geplante Hochspannungsleitung soll sich über knapp 200 Kilometer erstrecken und von Lienz bis nach Obersielach im Bezirk Völkermarkt verlaufen. Die Unternehmen hinter dem Projekt, Austrian Power G...
+2026-10-07 12:12:06,871 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:06,871 [WARNING] LLM returned None — skipping: Widerstand gegen 380-kV-Leitung - kaernten.ORF.at
+2026-10-07 12:12:06,871 [INFO] ------- Processing article n. 9: Tengelmann Energie Renewables und KiK bauen Grünstrom weiter aus / Verdopplung d -------
+2026-10-07 12:12:06,972 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2MnNROUFuZENjSTZNd2IyY29Nd0ljNjQ1U29HVFNqR2hnSmxKS3hQMkVpNUxoZU4wWi1qMVJtY0FxamhhbkZzM1ExZUZ2Ulh6eHlzTnA2Q3g?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:08,121 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:08,122 [INFO] Resolved Google News URL: https://www.presseportal.de/pm/183281/6347712
+2026-10-07 12:12:08,122 [INFO] URL: https://www.presseportal.de/pm/183281/6347712
+2026-10-07 12:12:09,645 [INFO] Text length: 2854 chars | source: full
+2026-10-07 12:12:09,645 [INFO] Text preview: Tengelmann Energie Renewables und KiK bauen Grünstrom weiter aus
+Verdopplung der PV-Leistung im Rahmen eines On-Site PPAs
+Essen (ots)
+Mit einer zweiten PV-Anlage verdoppelt Tengelmann Energie Renewabl...
+2026-10-07 12:12:09,645 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:09,645 [WARNING] LLM returned None — skipping: Tengelmann Energie Renewables und KiK bauen Grünstrom weiter
+2026-10-07 12:12:09,645 [INFO] ------- Processing article n. 9: Quand l'électrique remplace le diesel sur les rails : Alstom signe un premier co -------
+2026-10-07 12:12:09,744 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAJBVV95cUxNR0g2ZHVOZXNMbGJXaHFSTHgyRzF5UFFIYVFSUGhWLUM3UTRwdzdkaFgtRktKUzJHTjJudVFIRTZfNllBMk1rLVZSZzhxLXRKdmhydmZxM0FCTW16Z0U5M0VjRk1lN0dVeFZIdTRuNnFCY3RXY0JKS3Z3amd5eGVRVnM2TzVGWHo3NEh5N2ZNLUdjckZYYTJWb2l6R3JSdWhTRWRJUG80MnBJQkFIU1RYQTZUb3drc01USUwzVThpMUoxbUhVOE9rcXZnTURyRlJSV25rbHp5cFZWQXJPUnh4RFcySGJUMmFjWTcwUGdVUTdaNUk4dkJqUFJsaUJHNDJxcktsRWxqMHN3VktpU0dEdHkzR3F4dnozTVM0M2lJS0E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:10,894 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:10,895 [INFO] Resolved Google News URL: https://www.lesechos.fr/industrie-services/tourisme-transport/quand-lelectrique-remplace-le-diesel-s
+2026-10-07 12:12:10,895 [INFO] URL: https://www.lesechos.fr/industrie-services/tourisme-transport/quand-lelectrique-remplace-le-diesel-sur-les-rails-alstom-signe-un-premier-contrat-pour-ses-trains-a-batteries-au-royaume-uni-2251014
+2026-10-07 12:12:11,281 [INFO] Full text skipped (status 403): https://www.lesechos.fr/industrie-services/tourisme-transport/quand-lelectrique-
+2026-10-07 12:12:11,281 [INFO] Text length: 293 chars | source: fallback
+2026-10-07 12:12:11,281 [INFO] Text preview: Quand l'électrique remplace le diesel sur les rails : Alstom signe un premier contrat pour ses trains à batteries au Royaume-Uni - Les Echos
+
+Quand l'électrique remplace le diesel sur les rails : Alst...
+2026-10-07 12:12:11,281 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:11,281 [WARNING] LLM returned None — skipping: Quand l'électrique remplace le diesel sur les rails : Alstom
+2026-10-07 12:12:11,281 [INFO] ------- Processing article n. 9: Chambly. Avec des achats groupés d'énergie, les Camblysiens vont pouvoir économi -------
+2026-10-07 12:12:11,380 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxNNE1RYkxYMEpueDg0aVpsTFBnR0p4QlY2c05yVTJoNThQZ2JWcURZVUdDalVHc0dnZHJpSnplZ3JGMldoQWJIVTMwWGRINXR2Nm9wVmpfaEI0REJZU2JIcW9ZNGxsYTJMWjhNWGhxcWNxY0tzNHFTWG91eXdzWVZadVV4TkZKWkdTUUIyTFI1YlVlUUxK?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:12,525 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:12,525 [INFO] Resolved Google News URL: https://www.oisehebdo.fr/2026/09/09/chambly-achats-groupes-energie-camblysiens-economiser/
+2026-10-07 12:12:12,525 [INFO] URL: https://www.oisehebdo.fr/2026/09/09/chambly-achats-groupes-energie-camblysiens-economiser/
+2026-10-07 12:12:13,177 [INFO] Full text fetch failed (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))): https://www.oisehebdo.fr/2026/09/09/chambly-achats-groupes-energie-camblysiens-e
+2026-10-07 12:12:13,177 [INFO] Text length: 253 chars | source: fallback
+2026-10-07 12:12:13,177 [INFO] Text preview: Chambly. Avec des achats groupés d'énergie, les Camblysiens vont pouvoir économiser en moyenne 250 € par an - Oise Hebdo
+
+Chambly. Avec des achats groupés d'énergie, les Camblysiens vont pouvoir écono...
+2026-10-07 12:12:13,177 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:13,177 [WARNING] LLM returned None — skipping: Chambly. Avec des achats groupés d'énergie, les Camblysiens 
+2026-10-07 12:12:13,177 [INFO] ------- Processing article n. 9: Nucléaire : Google sécurise 1,9 milliard de dollars pour relancer Duane Arnold - -------
+2026-10-07 12:12:13,269 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTFBQLVFGd0pTOHNZNGVJMzhOTUNTY0xXS0VhUDVHNkwtNHVOUFRLWlVQZTVoa19NaUFMS09RNXNvOTZ2R3JBSS13THZkamZyelJ4cmRPeGNwUjB4V1lLVUtHTzk4VVlnTnM5NHZrSTlWbUFoN0UzMnpzaFNhcjhDZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:14,409 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:14,410 [INFO] Resolved Google News URL: https://les-smartgrids.fr/nucleaire-google-securise-1-9-milliard-dollars/
+2026-10-07 12:12:14,410 [INFO] URL: https://les-smartgrids.fr/nucleaire-google-securise-1-9-milliard-dollars/
+2026-10-07 12:12:15,436 [INFO] Text length: 3706 chars | source: full
+2026-10-07 12:12:15,436 [INFO] Text preview: Google réalise une avancée stratégique dans sa politique énergétique en sécurisant l’approvisionnement de ses futurs centres de données. L’entreprise a conclu un contrat d’achat d’électricité sur 25 a...
+2026-10-07 12:12:15,436 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:15,436 [WARNING] LLM returned None — skipping: Nucléaire : Google sécurise 1,9 milliard de dollars pour rel
+2026-10-07 12:12:15,436 [INFO] ------- Processing article n. 9: Google Commits $15 Billion to Massive Finland AI Hub - TIKR.com -------
+2026-10-07 12:12:15,533 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ1c2cEpDRkJ3Q19OQ0JXalVqUVBaS0k3d3Bkc0hkM3JuSHpnN0t3NFMxS1pDamRSWjQ2Y0ItUWlvV290YjV4QXBJTXhuZUZEY0hzSVNJblNRM1E3Mi1tSVNTZ1NXX2JnSTF3clllcTE4THdzT1d1UFhnWlJyNUVZamZ3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:16,694 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:16,694 [INFO] Resolved Google News URL: https://www.tikr.com/fr/blog/google-alphabet-stock-15-billion-finland-ai-hub
+2026-10-07 12:12:16,694 [INFO] URL: https://www.tikr.com/fr/blog/google-alphabet-stock-15-billion-finland-ai-hub
+2026-10-07 12:12:17,252 [INFO] Text length: 5868 chars | source: full
+2026-10-07 12:12:17,252 [INFO] Text preview: Statistiques clés pour l'action Alphabet
+- Variation du prix de l'action Alphabet sur les 12 derniers mois : 41%
+- Prix de l'action $GOOGL au 8 septembre : $338
+- Plus haut sur 52 semaines : $409
+- Ob...
+2026-10-07 12:12:17,252 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:17,252 [WARNING] LLM returned None — skipping: Google Commits $15 Billion to Massive Finland AI Hub - TIKR.
+2026-10-07 12:12:17,252 [INFO] ------- Processing article n. 9: J.P. Morgan et Goldman Sachs relèvent Fortum après un accord avec Google - Inves -------
+2026-10-07 12:12:17,347 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxOUWRHbzZfeXNCcHVIUk1hSGxYQmNIRzRnZEVzZVpaaWduMHJaYXR6NHVZX3BwM0xsREhqS0l2QmM2dnU5RDZ1eXNJaXI2bWVaNHF5dnJnOW83aUVOLVF0NGY0ejRUU0RYMDVJbDVTSEQ2eDBpLVI1SlNQN1BSaEltLXdVOHQxZ05pWV82aTV4Q2lEQTZJdGlNOW9KWTFaRndEeVZtM0tDcVF3VDdnS3ZjY1BpbW1tR2czdVFOTXBvX19yTXZD?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:18,478 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:18,478 [INFO] Resolved Google News URL: https://fr.investing.com/news/stock-market-news/jp-morgan-et-goldman-sachs-relevent-fortum-apres-un-
+2026-10-07 12:12:18,478 [INFO] URL: https://fr.investing.com/news/stock-market-news/jp-morgan-et-goldman-sachs-relevent-fortum-apres-un-accord-avec-google-3590456
+2026-10-07 12:12:18,577 [INFO] Full text skipped (status 403): https://fr.investing.com/news/stock-market-news/jp-morgan-et-goldman-sachs-relev
+2026-10-07 12:12:18,577 [INFO] Text length: 203 chars | source: fallback
+2026-10-07 12:12:18,577 [INFO] Text preview: J.P. Morgan et Goldman Sachs relèvent Fortum après un accord avec Google - Investing.com France
+
+J.P. Morgan et Goldman Sachs relèvent Fortum après un accord avec Google &nbsp;&nbsp; Investing.com Fra...
+2026-10-07 12:12:18,577 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:18,577 [WARNING] LLM returned None — skipping: J.P. Morgan et Goldman Sachs relèvent Fortum après un accord
+2026-10-07 12:12:18,577 [INFO] ------- Processing article n. 9: Google va investir 13 milliards d'euros dans des centres de données d'IA en Finl -------
+2026-10-07 12:12:18,667 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigAFBVV95cUxQdE9pWkdOOWVONEpzOFY5RE9qa2VCcF9yd0I2ODgxQ0hBTGpvNzNUa0o5dFNzd0NlWjVnQW5vNGZKbEhJVHJfanNVS0ZwZ0R5V2tZSXY2UnRIWU1yc0dlUk1HbEVDV0dWSk9CVHVEejRDcEhmUExPLW96RGxRQzREZA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:19,832 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:19,832 [INFO] Resolved Google News URL: https://fr.qz.com/centre-de-donnes-investissement-ai-google-finlande-090926
+2026-10-07 12:12:19,832 [INFO] URL: https://fr.qz.com/centre-de-donnes-investissement-ai-google-finlande-090926
+2026-10-07 12:12:20,333 [INFO] Text length: 4103 chars | source: full
+2026-10-07 12:12:20,333 [INFO] Text preview: Google $GOOGL a annoncé des projets mercredi d'investir au moins 13 milliards d'euros (15,1 milliards de dollars) dans l'infrastructure IA en Finlande, un montant que l'entreprise a décrit comme le pl...
+2026-10-07 12:12:20,333 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:20,333 [WARNING] LLM returned None — skipping: Google va investir 13 milliards d'euros dans des centres de 
+2026-10-07 12:12:20,333 [INFO] ------- Processing article n. 9: Google va investir 13 milliards de dollars dans des infrastructures d’IA en Finl -------
+2026-10-07 12:12:20,429 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQRTI4UVA5XzczaE14c244Y1FVek40RkhrM2s1SUt5cVlvelJad0poeFhFd0x6VERYdVAtaGFrRUJFODQ2M1dzVTdTWVZ1cDdWbk5rZDhtbDM1ZGVtU0tBWDRmaGJwZEowR2JHSzBKQW9wX0IzQjNJdWtJTXJfVjRoU2N0ZE8tZF9HUlo5MUx5YnA2X3d1eXVRdExMUDRrcmdLODd1bVFtbTNTbnRLenhKSjlQWGMtNWdCWXZfSnNB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:21,574 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:21,575 [INFO] Resolved Google News URL: https://www.agefi.fr/news/entreprises/google-va-investir-13-milliards-de-dollars-dans-des-infrastruc
+2026-10-07 12:12:21,575 [INFO] URL: https://www.agefi.fr/news/entreprises/google-va-investir-13-milliards-de-dollars-dans-des-infrastructures-dia-en-finlande
+2026-10-07 12:12:22,891 [INFO] Text length: 2995 chars | source: full
+2026-10-07 12:12:22,891 [INFO] Text preview: Google va investir 13 milliards de dollars dans des infrastructures d’IA en Finlande
+La firme de Mountain View a annoncé le 9 septembre investir au moins 13 milliards d’euros en Finlande dans les deux...
+2026-10-07 12:12:22,891 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:22,891 [WARNING] LLM returned None — skipping: Google va investir 13 milliards de dollars dans des infrastr
+2026-10-07 12:12:22,891 [INFO] ------- Processing article n. 9: ČEZ homologue le combustible nucléaire de Westinghouse pour Temelín en Républiqu -------
+2026-10-07 12:12:22,986 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxOT193NkxVSmtLRDYtcWlrWkNnNDdOMTFJNmJvcXdpalA3MnZGNEVzTklyTVVheWpNcTFlMlV5dTBHN1E3cUpLdWVWYmxySkVSMmFobThtZEVhZzdoWXpRNGJlVHFFdmplbXFyaWFMYXZjUTRnTWN6SFZYclo4TmI0UXNuM1NDd2pRaW9fSmtoTFZ1RkktV2x0SU1EZWF1MUlGY2RISWtPaTQ0VXVrVTFja0xR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:24,132 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:24,133 [INFO] Resolved Google News URL: https://energynews.pro/cez-homologue-le-combustible-nucleaire-de-westinghouse-pour-temelin-en-republ
+2026-10-07 12:12:24,133 [INFO] URL: https://energynews.pro/cez-homologue-le-combustible-nucleaire-de-westinghouse-pour-temelin-en-republique-tcheque
+2026-10-07 12:12:24,811 [INFO] Text length: 2772 chars | source: full
+2026-10-07 12:12:24,811 [INFO] Text preview: Nuclear fuel supplied by American manufacturer Westinghouse has been approved for loading into reactors at the Czech TemelÃn nuclear power plant. The new fuel assemblies are due to be installed in uni...
+2026-10-07 12:12:24,811 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:24,811 [WARNING] LLM returned None — skipping: ČEZ homologue le combustible nucléaire de Westinghouse pour 
+2026-10-07 12:12:24,812 [INFO] ------- Processing article n. 9: Demande chèque énergie par courrier 2026 : formulaire et adresse - Mes Allocs -------
+2026-10-07 12:12:24,909 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxPWmltNXk2cExLd2hVZFdHUDdPd1NRXy1CT1RMc2dQRTVnMWpnWU9HRkY0UGloNkdiNDlqbU12Skh0MkhwX2VxS1dOSVIxbDFTMzc3czd0a09meE1TNGJHMmRlY3U3RHh2R1lDOGtvYVlYc0psanQyaS1HX09kM0RQMkp0UDR2YVAxN2JmRkpCT214bThVZ2hZb3FvbWpqQXVIbFk1TTVNV00yYnZoZXdRbGd3QTNVNncySG1sdGFn0gG-AUFVX3lxTE9aaW01eTZwTEt3aFVkV0dQN093U1FfLUJPVExzZ1BFNWcxamdZT0dGRjRQaWg2R2I0OWptTXZKSHQySHBfZXFLV05JUjFsMVMzNzdzN3RrT2Z4TVM0YkcyZGVjdTdEeHZHWUM4a29hWVhzSmxqdDJpLUdfT2QzRFAySnRQNHZhUDE3YmZGSkJPbXhtOFVnaFlvcW9tampBdUhsWTVNNU1XTTJidmhld1FsZ3dBM1U2dzJIbWx0YWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:26,053 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:26,054 [INFO] Resolved Google News URL: https://www.mes-allocs.fr/guides/aide-logement/cheque-energie/demande-cheque-energie/demande-cheque-
+2026-10-07 12:12:26,054 [INFO] URL: https://www.mes-allocs.fr/guides/aide-logement/cheque-energie/demande-cheque-energie/demande-cheque-energie-par-courrier/
+2026-10-07 12:12:27,928 [INFO] Text length: 5547 chars | source: full
+2026-10-07 12:12:27,928 [INFO] Text preview: Demande chèque énergie par courrier 2026 : formulaire et adresse
+[Mis à jour le 09/09/2026] Vous n’avez pas reçu automatiquement votre chèque énergie 2026 alors que vous pensez être éligible ? Vous po...
+2026-10-07 12:12:27,928 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:27,928 [WARNING] LLM returned None — skipping: Demande chèque énergie par courrier 2026 : formulaire et adr
+2026-10-07 12:12:27,928 [INFO] ------- Processing article n. 9: Wall Street vue en baisse, le flambée du pétrole plombe les Bourses européennes  -------
+2026-10-07 12:12:28,024 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxQakpOSzVnQXBsQ0RwZEFFUkVvaUszX1hZNmJsWEdkMlQ1OUVHU251THdCNHRod3ZHNldtbHd6WHgxMDJYdzV0Q3F6dE9TRnFqRHF4SUVlc05ZSnNSWEF6eDdhT0VmNkYtbTEtbkxwX2dpaHF0M3ZrckpCTTNMRWVEMTBkT01NS2M5OHVERGxnN0w4dl9YaEI2Z3Q4dzc0ODluejQyNXdKTlljYm9lYXVaQ1hRYkRhQ18ySERDXy1BS1oxT2NCNEdkb2tLZS1TZmd6LTNaSE53?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:29,161 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:29,162 [INFO] Resolved Google News URL: https://www.zonebourse.com/actualite-bourse/wall-street-vue-en-baisse-le-flambee-du-petrole-plombe-l
+2026-10-07 12:12:29,162 [INFO] URL: https://www.zonebourse.com/actualite-bourse/wall-street-vue-en-baisse-le-flambee-du-petrole-plombe-les-bourses-europeennes-ce785bd9df8bff20
+2026-10-07 12:12:29,268 [INFO] Full text skipped (status 403): https://www.zonebourse.com/actualite-bourse/wall-street-vue-en-baisse-le-flambee
+2026-10-07 12:12:29,268 [INFO] Text length: 197 chars | source: fallback
+2026-10-07 12:12:29,268 [INFO] Text preview: Wall Street vue en baisse, le flambée du pétrole plombe les Bourses européennes - Zonebourse
+
+Wall Street vue en baisse, le flambée du pétrole plombe les Bourses européennes &nbsp;&nbsp; Zonebourse...
+2026-10-07 12:12:29,268 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:29,268 [WARNING] LLM returned None — skipping: Wall Street vue en baisse, le flambée du pétrole plombe les 
+2026-10-07 12:12:29,268 [INFO] ------- Processing article n. 9: Les prix de l'énergie s'envolent : est-ce encore possible d'économiser sur votre -------
+2026-10-07 12:12:29,367 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1AFBVV95cUxPazZnYXRjTFpaQzFiM2Q0UXVjdlFMZ2VVUjg5VE5kUlBsbjk5RzJFUElTSXpYaWxlVkEwX1B2ZkQ3a01ab0ctVE9PMEJYcExlM3pGc2o4LUhybGNoWkl4QldkRE9KTUpycUEzZDc2bnducUJNdGN4bW1KUWlCWEFNRGVORnhDRzUtYkRDZmktcm1pS1ljTG9PbEdfSTFDSWNyTDFISjVXMV9JWWZPcmVtSVdwWEVPWDN3ZFAwbnpSb3Vzb1N0RkN3X2t5ZHpIRFZmZXFKUg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:30,516 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:30,517 [INFO] Resolved Google News URL: https://www.test-achats.be/maison-energie/gaz-electricite-mazout-pellets/news/nouveaux-contrats-dene
+2026-10-07 12:12:30,517 [INFO] URL: https://www.test-achats.be/maison-energie/gaz-electricite-mazout-pellets/news/nouveaux-contrats-denergie-fixes-le-bon-moment-pour-changer-
+2026-10-07 12:12:32,590 [INFO] Text length: 8260 chars | source: full
+2026-10-07 12:12:32,590 [INFO] Text preview: Les prix de l'énergie s'envolent : est-ce encore possible d'économiser sur votre contrat d'énergie en septembre ?
+Malgré un accord de principe sur un cessez-le-feu, les tensions au Moyen-Orient se son...
+2026-10-07 12:12:32,590 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:32,590 [WARNING] LLM returned None — skipping: Les prix de l'énergie s'envolent : est-ce encore possible d'
+2026-10-07 12:12:32,590 [INFO] ------- Processing article n. 9: TVA climatisation réversible, quel taux en 2026 - ENGIE -------
+2026-10-07 12:12:32,689 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWXNNb2xNVHREaWxNUW1SMUV1eGoxLXlCb3JON3N2d2dMbXQ2Nk9ORTlNMGpLOEFUVEZUTDVKbjFUWm9fLV9xMDlBOExkbDJHdGtuR2xsOGpNRTRwclkwTVExVUxKM25MR3dHRkJmUlhWT2FKTVJYX2lpX0JtV05pZlJJVHZfTTJ2NHJnTDVRc3l3X3JJV0h0Z1pnNU85aXJrWDdfM0lXMTlHVW1WUTRmelo4Vk8xSFNrdG11U29SZ0FrUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:33,847 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:33,848 [INFO] Resolved Google News URL: https://particuliers.engie.fr/economies-energie/conseils-equipements-chauffage/climatiseur/tva-clima
+2026-10-07 12:12:33,848 [INFO] URL: https://particuliers.engie.fr/economies-energie/conseils-equipements-chauffage/climatiseur/tva-climatisation-reversible.html
+2026-10-07 12:12:34,039 [INFO] Full text skipped (status 403): https://particuliers.engie.fr/economies-energie/conseils-equipements-chauffage/c
+2026-10-07 12:12:34,040 [INFO] Text length: 123 chars | source: fallback
+2026-10-07 12:12:34,040 [INFO] Text preview: TVA climatisation réversible, quel taux en 2026 - ENGIE
+
+TVA climatisation réversible, quel taux en 2026 &nbsp;&nbsp; ENGIE...
+2026-10-07 12:12:34,040 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:34,040 [WARNING] LLM returned None — skipping: TVA climatisation réversible, quel taux en 2026 - ENGIE
+2026-10-07 12:12:34,040 [INFO] ------- Processing article n. 9: TECHNOLOGIE & ÉNERGIE Google investit 13 milliards d’euros dans l’IA en Finlande -------
+2026-10-07 12:12:34,137 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiggJBVV95cUxQZWhNZXB2MXFXeHZBZlRDM25kSUpzWFpONjJYLU9pb05qbl9OSkFROHNkU3RUY09xTzV3a3pHaTBkMTVkZnl6UVU1NmQ5OERsNFFMdHQ4WFlkdzAzempvVjg3ZWpvT05QSkRta2ZNTWd0UDdJMjRyY1pwVjBBZUpHeUM2Rzlhb3FqamVkUzV2VUtCbWJjcmgtUXA2MjNINURVejluV2R1T3k2MjdMUHdhbWwzSWZSWlZFNjg4Z1RYcUpXY2F6NTdWMjA4aGlILWZZVFR2TUEtTUNBOXduOXRqaWYtMWJRVmFva3Uwd1NYSkczRWRCck13ODdWV3VqN2lUYlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:35,285 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:35,286 [INFO] Resolved Google News URL: https://www.webmanagercenter.com/2026/09/09/572499/technologie-energie-google-investit-13-milliards-
+2026-10-07 12:12:35,286 [INFO] URL: https://www.webmanagercenter.com/2026/09/09/572499/technologie-energie-google-investit-13-milliards-deuros-dans-lia-en-finlande-et-securise-son-approvisionnement-nucleaire/
+2026-10-07 12:12:35,987 [INFO] Text length: 3228 chars | source: full
+2026-10-07 12:12:35,987 [INFO] Text preview: Google prÃ©voit dâinvestir au moins 13 milliards dâeuros en Finlande en 2027 et 2028, principalement dans ses infrastructures dâintelligence artificielle et ses data centers. En parallÃ¨le, le groupe ...
+2026-10-07 12:12:35,987 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:35,987 [WARNING] LLM returned None — skipping: TECHNOLOGIE & ÉNERGIE Google investit 13 milliards d’euros d
+2026-10-07 12:12:35,987 [INFO] ------- Processing article n. 9: Audi vous paie pour que vous rachetiez votre voiture électrique avec une très be -------
+2026-10-07 12:12:36,083 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZHg5X1RpRDVNNGM0X1p4NmtCeUEzT2ZXbDRhSGExU2d4WEpvbS15U3pBR0cyR2JJWkV1NWdBb0ZITkZPYWpZeTBaU1FhQ1lVU3VIMHJMNmwwWnZzVUlySThwNE40N09hM2FhTWE1ZHhCTkw0ZTFsTHNROS1GaEVfakVyek5IUVR6MjdQejZzSkZxZGs4VkZxSnRaTWxkci1MZWMwQXFfV01Yc3dHWWIxTlV3MW93Y2pWSlNwYUtMa2ZmZXZaRlV4MXV4OERPWWpNVWZFUWNsWmJ2SlBjYXkwdURnUjE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:37,252 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:37,253 [INFO] Resolved Google News URL: https://www.journaldugeek.com/2026/09/11/audi-vous-paie-pour-que-vous-rachetiez-votre-voiture-electr
+2026-10-07 12:12:37,253 [INFO] URL: https://www.journaldugeek.com/2026/09/11/audi-vous-paie-pour-que-vous-rachetiez-votre-voiture-electrique-avec-une-tres-belle-remise-comment-ca-marche/
+2026-10-07 12:12:38,211 [INFO] Text length: 2499 chars | source: full
+2026-10-07 12:12:38,211 [INFO] Text preview: Depuis le 1ᵉʳ septembre, Audi vous fait un beau cadeau au sein de son réseau automobile. Du moins, si vous êtes américain et conducteur d’électrique. En effet, une note interne, intitulée “Audi BEV Le...
+2026-10-07 12:12:38,211 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:38,211 [WARNING] LLM returned None — skipping: Audi vous paie pour que vous rachetiez votre voiture électri
+2026-10-07 12:12:38,211 [INFO] ------- Processing article n. 9: Constellation Energy Stock Is Down 31% From Its Highs. Here’s Why It Keeps Buyin -------
+2026-10-07 12:12:38,314 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxNWmhjb0VHUURMYkVycUxQUnRZdlNGeS15SG9yazRGZjdFZFRKSzRYemttUHh1WksyZ1kxcTQxRlhGUEF6Z0Vkbm9zdzA1SHk3OVN4cmJQOV9xcy1LcmdLNDB6N2FvZUF6Yzh6UG9vNXdieHRIWlp2a3NGREpLTHk2RjQtYVBFTDBsQlctOVJtQk53NWg0amxjQkVkVlBMdmVtLWthRjFURk9BaHBVX0FfaUtER3Y?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:39,455 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:39,455 [INFO] Resolved Google News URL: https://www.tikr.com/fr/blog/constellation-energy-stock-is-down-31-from-its-highs-heres-why-it-keeps
+2026-10-07 12:12:39,455 [INFO] URL: https://www.tikr.com/fr/blog/constellation-energy-stock-is-down-31-from-its-highs-heres-why-it-keeps-buying-assets
+2026-10-07 12:12:39,838 [INFO] Text length: 7983 chars | source: full
+2026-10-07 12:12:39,838 [INFO] Text preview: Statistiques clés pour l'action CEG
+- Performance de la semaine passée : -4,4 %
+- Fourchette sur 52 semaines : 229 $ à 413 $
+- Prix cible du modèle de valorisation : 295 $
+- Potentiel de hausse implic...
+2026-10-07 12:12:39,838 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:39,838 [WARNING] LLM returned None — skipping: Constellation Energy Stock Is Down 31% From Its Highs. Here’
+2026-10-07 12:12:39,838 [INFO] ------- Processing article n. 9: Fortum s'envole après un accord avec Google - Nokia et UPM portés par la nouvell -------
+2026-10-07 12:12:39,930 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbzFMWGNJQU5TZnlGNG9NcHVYeUFnZElJeUQ1OWJTMGp4dHRfZ1hoRTVoYm5wREVXaUhKR2s3akdUejl2MUpRSUNkeFFtb0JwUzBhWXpxSS1MOHdNNHFFMnJYT28wekhSSnNMR0lBMGJudXJiZFhWeWRaeVNad2pvdk4yS1p4TEFIT3N4MF9zM1ZodXAwX2c4dUlnalVqbWs0MFlBd1ZtTWRCSWN2WlQ2aE5tNThoR3FzQmNZRVZGSDMybFRDLU84cFFPXzRQM1RrWDEyY251dw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:41,086 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:41,087 [INFO] Resolved Google News URL: https://www.zonebourse.com/actualite-bourse/fortum-s-envole-apres-un-accord-avec-google-nokia-et-upm
+2026-10-07 12:12:41,087 [INFO] URL: https://www.zonebourse.com/actualite-bourse/fortum-s-envole-apres-un-accord-avec-google-nokia-et-upm-portes-par-la-nouvelle-ce785bd9dd8ef721
+2026-10-07 12:12:41,120 [INFO] Full text skipped (status 403): https://www.zonebourse.com/actualite-bourse/fortum-s-envole-apres-un-accord-avec
+2026-10-07 12:12:41,120 [INFO] Text length: 201 chars | source: fallback
+2026-10-07 12:12:41,120 [INFO] Text preview: Fortum s'envole après un accord avec Google - Nokia et UPM portés par la nouvelle - Zonebourse
+
+Fortum s'envole après un accord avec Google - Nokia et UPM portés par la nouvelle &nbsp;&nbsp; Zonebours...
+2026-10-07 12:12:41,120 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:41,120 [WARNING] LLM returned None — skipping: Fortum s'envole après un accord avec Google - Nokia et UPM p
+2026-10-07 12:12:41,120 [INFO] ------- Processing article n. 9: Google firma un acuerdo de compra de energía con Fortum en Finlandia y extiende  -------
+2026-10-07 12:12:41,218 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMzQ0RTBOWm5OWmdBVHlnR1k1UzJxT2JRbGpWYVBUNmRSUEhOajhVOEpwRHhVNUJHT0Q0X1U3QTF0YWdXOUZFbFRxdGswd1RQN1NYQldza1EwWkVsVkQ0VXoybGQtREc1Ym5KRU1hLXUxaGFsaHJOVVo4Qm9DY1dJM2kxenBMVzY1eFhtVVNaSVc5NzVuOUFwcE1TaEowV2htTkx0WlVLcUhCMjhBN2YzS043eU1aeXJ0SVBPSUpRUmszYmpyMFIxYURlR1ozcnZhcFcyQ20yZXJ6Rkx4RVRCYjdSYjhWUEhKQjgyS2FLbExzcHU4RUNRQzd30gH_AUFVX3lxTFA1Yk9jMmhUaDB3TzFVbTk3Q2xlclk4YlY3V2pZb09Pb3hPWjVSeHBhaHFLOXdSMU9WbE0zYWJVNEZKeGVlTGZVVXFEWXpST3dEdEZGVFVodi0yT1BxOVNTVnNSNXk1djYxajlPMXRjTTRXS2ttUWhQYkhFSlNZclFmRXl6dU9zYlZnblFRa01Bejd4aktqOGxPbEVNLTRMZHM2ZzZ5WklmVVcxUWpBb3hSS2VQcGJaemNNTzVWdm9sUkoyWFIwVnNiMHBqX2Z0U09pVzRacl9fS1gzSzkzVGlhbFFCdnNlcDJ0UFpNRHhlRmdfbWFoQXNJTFA3NjQtWQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:42,360 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:42,360 [INFO] Resolved Google News URL: https://www.elespanol.com/invertia/empresas/energia/20260909/google-firma-acuerdo-compra-energia-for
+2026-10-07 12:12:42,360 [INFO] URL: https://www.elespanol.com/invertia/empresas/energia/20260909/google-firma-acuerdo-compra-energia-fortum-finlandia-extiende-anos-vida-util-nuclear/1003744378363_0.html
+2026-10-07 12:12:43,182 [INFO] Text length: 4987 chars | source: full
+2026-10-07 12:12:43,182 [INFO] Text preview: Google ha firmado un acuerdo de compra de energía (PPA) con la compañía estatal finlandesa Fortum que permitirá prolongar durante 22 años la vida útil de la central nuclear de Loviisa, situada en la c...
+2026-10-07 12:12:43,182 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:43,182 [WARNING] LLM returned None — skipping: Google firma un acuerdo de compra de energía con Fortum en F
+2026-10-07 12:12:43,182 [INFO] ------- Processing article n. 9: Grupo MET y Shell firman un nuevo acuerdo para el suministro de GNL en EEUU - El -------
+2026-10-07 12:12:43,279 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxOeXkyWFdZUUNNOUZpeFE1bE1kWFVrVXE2STlfRW9ZdFRBUi1iX1pVTXA3dk5IMmNNRzdzZUc2S2dSZ0JRSDJSRUUyRFQ3Q0VzU2hkUUxLOHdTVW9xbnZhbUZ4dmRVWmg2bDNQYTMzRldmdkRhYk1FYUhJTUFoa2VtRlZ5eDBValpmdGM4OTlPaTlkVmt0QXI3RUJzZXBTWEFTVFZNRXE0c0JHR0dZSFhBRw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:44,432 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:44,433 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/grupo-met-y-shell-firman-un-nuevo-acuerdo-para-el-suministro-de-g
+2026-10-07 12:12:44,433 [INFO] URL: https://elperiodicodelaenergia.com/grupo-met-y-shell-firman-un-nuevo-acuerdo-para-el-suministro-de-gnl-en-eeuu/
+2026-10-07 12:12:45,161 [INFO] Text length: 2034 chars | source: full
+2026-10-07 12:12:45,162 [INFO] Text preview: MET International, la división de comercialización y venta al por mayor de la empresa energética integrada Grupo MET, con sede en Suiza, y Shell han firmado un nuevo acuerdo de compra de GNL a largo p...
+2026-10-07 12:12:45,162 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:45,162 [WARNING] LLM returned None — skipping: Grupo MET y Shell firman un nuevo acuerdo para el suministro
+2026-10-07 12:12:45,162 [INFO] ------- Processing article n. 9: Formosa 6 firma acuerdo energético con Star Trade - Inspenet -------
+2026-10-07 12:12:45,260 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigAFBVV95cUxQeXlCVURNY3I4bGJkU3hlS2lIVDB6dHMzdU9UamhXLV9OM2l4b2Z5a09TWE9TTEhtQU0xSVIyM3RUM1FEOTh6c21zR2pYaXpuVTJqbDAzSFVvY0VDc04xN2twcmFpaFdoNjFpNTlEVFVDNUt5Q09rSGdOTVFKWGNPZg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:46,404 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:46,404 [INFO] Resolved Google News URL: https://inspenet.com/noticias/formosa-6-firma-acuerdo-energetico-star-trad/
+2026-10-07 12:12:46,404 [INFO] URL: https://inspenet.com/noticias/formosa-6-firma-acuerdo-energetico-star-trad/
+2026-10-07 12:12:46,598 [INFO] Text length: 2878 chars | source: full
+2026-10-07 12:12:46,598 [INFO] Text preview: Synera Renewable Energy Group (SRE) firmó un acuerdo corporativo de compra de energía (CPPA) con Star Trade para suministrar electricidad que producirá el parque eólico marino Formosa 6, en Taiwán.
+El...
+2026-10-07 12:12:46,598 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:46,598 [WARNING] LLM returned None — skipping: Formosa 6 firma acuerdo energético con Star Trade - Inspenet
+2026-10-07 12:12:46,598 [INFO] ------- Processing article n. 9: Google invertirá un récord de 13.000 millones de euros para levantar su gran fáb -------
+2026-10-07 12:12:46,697 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgJBVV95cUxOU1NtZ2tKRFZ6X3hVbjdYb0VRaW53a0Voc25YRXQzN01aZ0xIbk5TaFVmWXVlNFlUQVFqWlVQX2RaNGlsNXlIWTFvWnZLeGdIQWIwLU4tak5qUTJSTDh4azNWQTJMaWhsWVVGNEhBblc1ZF9FU1VseU5KbVUxMFljZVUxOHp1alBYMlVQdnp0SndKR09qU1ljaThRODdUWF9UNG1SdzNfQ3FPLUlzdXpRVFVjVjl3MU9FSVkwVXkyR085VkVPemZQZXhhd2xiYU1HTjd4S3pVVFhtQVl3cmFfWnNyS29oNzZaNVdSRkNjUVM5VFNiZUVXeGJYSTlieURBbGVpTDVhRzhKRmZ0cFYyclMwbFN2OUFPV0VDSUIydjNMLTdOTTNrSi1qZnN0QQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:47,835 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:47,835 [INFO] Resolved Google News URL: https://www.eleconomista.es/tecnologia/noticias/14012715/09/26/google-invertira-un-record-de-13000-m
+2026-10-07 12:12:47,835 [INFO] URL: https://www.eleconomista.es/tecnologia/noticias/14012715/09/26/google-invertira-un-record-de-13000-millones-de-euros-para-levantar-su-gran-fabrica-europea-de-ia-y-se-asegura-22-anos-de-energia-nuclear.html
+2026-10-07 12:12:48,229 [INFO] Full text skipped (status 403): https://www.eleconomista.es/tecnologia/noticias/14012715/09/26/google-invertira-
+2026-10-07 12:12:48,230 [INFO] Text length: 321 chars | source: fallback
+2026-10-07 12:12:48,230 [INFO] Text preview: Google invertirá un récord de 13.000 millones de euros para levantar su gran fábrica europea de IA y se asegura 22 años de energía nuclear - El Economista
+
+Google invertirá un récord de 13.000 millone...
+2026-10-07 12:12:48,230 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:48,230 [WARNING] LLM returned None — skipping: Google invertirá un récord de 13.000 millones de euros para 
+2026-10-07 12:12:48,230 [INFO] ------- Processing article n. 9: Esta semana en la transición energética: Ascent Solar refuerza su liderazgo para -------
+2026-10-07 12:12:48,330 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxQUmtVWG1veG45VDFKaXc0dmNNWjU5cnpabHZHNVhOQjJTQjhGamNTLWhtWkI3YTdQRG8xLWp1VS16S3dvTGhYbjFXdkttVXhYZlo2ZDFVM1ozSmJZcTctR2JfYnN6elgzZ0t4czdWQ045NjBNMDU1VDNveVJyQ0RCcmdBTDVydmw5ai1FVkJnTWlrZ2wxU2lJUkplSVFpbUJ4ZjVTMnFvTmpzZV9WMW1DU1NDRWxXR3NKQnFpcGVLN0VWRHh0TnRCY25R0gHPAUFVX3lxTE9Na3lqWWlsWEF2ekp0bVhGSWhZZGR6Mk93bFdSRUdjdG1oNEJlREhfRW5rRTBwckxKSUJUTC1LTWUxVlMwTi1OY0VjY1RyZmUzVkpaLWVaYXN5Y1A3ZXhCQXU0ekhRUWI3enlORExZV0dGdzZ5eGctU0VWTlFKbnl0Tm1Tb3dzVDhrVV8yaFpBS3hPellIdlNycWFtOTZOWWdVazVjamkwZjdWQkRKZy1tejNOcXVxa3VJam9FemNJeXlHeWlMTlJsTTZJTHZrWQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:49,486 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:49,487 [INFO] Resolved Google News URL: https://simplywall.st/es/stocks/us/automobiles/nasdaq-tsla/tesla/news/esta-semana-en-la-transicion-e
+2026-10-07 12:12:49,487 [INFO] URL: https://simplywall.st/es/stocks/us/automobiles/nasdaq-tsla/tesla/news/esta-semana-en-la-transicion-energetica-ascent-solar-refuerz
+2026-10-07 12:12:50,390 [INFO] Text length: 3746 chars | source: full
+2026-10-07 12:12:50,390 [INFO] Text preview: Ascent Solar Technologies, Inc. ha anunciado recientemente una serie de nombramientos estratégicos en puestos de liderazgo con el objetivo de reforzar su presencia en los sectores comercial y de defen...
+2026-10-07 12:12:50,390 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:50,390 [WARNING] LLM returned None — skipping: Esta semana en la transición energética: Ascent Solar refuer
+2026-10-07 12:12:50,390 [INFO] ------- Processing article n. 9: Portugal compra a Amancio Ortega el 13,7% de la estratégica REN por 380 millones -------
+2026-10-07 12:12:50,491 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizwFBVV95cUxNMWxIdlFla09EcFByX2ZydTdheFZJcVBUV2h3UjZiaEpIUkphNm05UUk2TTN0LWZoaHIzd1BIR0J2blFqTmp2NGoybjk1RHl2R3FMTEx3M0pGNmFhWHIxTktFSTRTRXVPbnJRZEgyak1MQ3pac1JrRV9lYnBCekNVUUpyR2VWTFFlRi1HOEFUUkdFQlZPVWFzV3FsQUo3Skl3Uk9jRVZ3bjNIRjVDc012QThKN2RQTEcwNGNsTElsYlJoSVc4a1l5MVNjTUdaT3M?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:51,639 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:51,640 [INFO] Resolved Google News URL: https://www.elnacional.cat/oneconomia/es/empresas/portugal-compra-amancio-ortega-137-estrategica-ren
+2026-10-07 12:12:51,640 [INFO] URL: https://www.elnacional.cat/oneconomia/es/empresas/portugal-compra-amancio-ortega-137-estrategica-ren-por-380-millones_1692094_102.html
+2026-10-07 12:12:52,106 [INFO] Text length: 2549 chars | source: full
+2026-10-07 12:12:52,106 [INFO] Text preview: El Estado portugués ha comprado a Pontegadea, la sociedad de inversión del fundador de Inditex, Amancio Ortega, el 13,7% de Redes Energéticas Nacionais (REN), gestora de las redes de electricidad y ga...
+2026-10-07 12:12:52,106 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:52,106 [WARNING] LLM returned None — skipping: Portugal compra a Amancio Ortega el 13,7% de la estratégica 
+2026-10-07 12:12:52,106 [INFO] ------- Processing article n. 9: Los centros de datos estudian pedir indemnizaciones multimillonarias a España si -------
+2026-10-07 12:12:52,204 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi_wFBVV95cUxNNDJKVjAyTVA1TjlfSG5pX1ZpSkZ0cnd3YzNfYm9hbHpyaXh2UmNoQjJzU01PdFR5R0ZGd2FQWW1tMDUtRGk5dmlzbHpLVlNMN0FoRTBHNUJnc29UbS0tMHd5SFQwVFVkMlI2aGNDWTdKVmZjMzBFMjRzdVZ6d1V3VGR4V3FadU9CVGJFT1ljZGdqMWlGMnhOaFJQQU1IQkFjU2ZCNndGejJkSkt1Y2d3LWNicUFlMlZGU094OE1lWVc5Ti14N3dvaDhBT3QzQnl1UjlNaVk0OG80aUNBaVlFanBYeFAyNVo2MmxUQWhqSXZNVDc3aThfclFDOUFXMEHSAZMCQVVfeXFMUHdNbkxzN0NrZlFnNkVBLUQ1ZjNWbkFtWEt5WG5hZHhNUUxZcFdhTVFxd1VqZGRpRUZjekRrc2QxRmcxdFZOalVCN1Bjc2NudEVpWjZ0X0F3VzRVaFZ0Z2Ffd2t5U2xVSVRVelBDb3NHUjFWb2lBOXd3QnpqamM5QTZndjhITEVoTDl3Ti1GQ1dnTzdwMk9pU2pneTcyaWJ4MUJ6VlcxazVLLUwzSVFIbHY3bjQzXzBWQUI1d3lkNjItTmZmbmhlY2k0cVFjTXRKYlhmR1FPSjM1ZjE1TnZUalNjVVQ5d2ZYN25vb3JXVndsaVVRMXpIRkNKU1V6cl96T1RHNDZtRUo0VHItZUh4aTMzUE0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:53,340 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:53,340 [INFO] Resolved Google News URL: https://cincodias.elpais.com/companias/2026-09-11/los-centros-de-datos-sopesan-pedir-indemnizaciones
+2026-10-07 12:12:53,340 [INFO] URL: https://cincodias.elpais.com/companias/2026-09-11/los-centros-de-datos-sopesan-pedir-indemnizaciones-multimillonarias-a-espana-por-las-nuevas-exigencias-regulatorias.html
+2026-10-07 12:12:53,555 [INFO] Full text skipped (status 403): https://cincodias.elpais.com/companias/2026-09-11/los-centros-de-datos-sopesan-p
+2026-10-07 12:12:53,555 [INFO] Text length: 261 chars | source: fallback
+2026-10-07 12:12:53,555 [INFO] Text preview: Los centros de datos estudian pedir indemnizaciones multimillonarias a España si se aprueba la nueva regulación - Cinco Días
+
+Los centros de datos estudian pedir indemnizaciones multimillonarias a Esp...
+2026-10-07 12:12:53,555 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:53,555 [WARNING] LLM returned None — skipping: Los centros de datos estudian pedir indemnizaciones multimil
+2026-10-07 12:12:53,555 [INFO] ------- Processing article n. 9: Colombia y Estados Unidos refuerzan su alianza con acuerdos sobre energía nuclea -------
+2026-10-07 12:12:53,655 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUDFFQWtSQy1SLVZjT1M3OG9RaTNicTQ4Y0N2WG4tUkJvQjQtdWdSc0tUZk5NWFZiSENGaTktS3RfQ1N0TXlPVVBKMTlka1drbTRhWl90NURWMTZ6YjdHbGdfRjhoVDVBYWhRSEFRZm0zeXVIUlg1QU0wX0J3THNDWVNRdFF1UzNKMHZIeHhrVFl0M3JOc2hnaVBJN0NDWktJQmR4UlpndFU1YkdUSFVlQno5RGNNMENtOGxsX1dUcmZ3amVsbl9udjUxU01EUmtMZm5la1Zja2FOeFNtTnN3U3NB0gHnAUFVX3lxTE9HVlBqZ1JLQURqNXdsZFBydFdyNVJia2tGQ2UweENoVklkTTZWa0wyMlBlQnFyODlKeHRHeUZaMjNVLUpnLWdZTWlDMnlWYnlfdGtYVVhtTG0xbzBlREs3RlNXc0E3dFJsR3NsUjZfSTRKWU16ZVdscGZwTElrNlBweFE1Qmx5T0xsa2NPWjY2YlMwWEViTy03X1pQQ1FZemhsVERmaWhCMFdZSDI0ZVh3YUhiNVBmRk5tRURGV2MySV9TXzhVNWIway1RNmNBZjdKRk1ZMWZ1NFNwcy1qZl91Uk1mSzd1aw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:54,792 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:54,793 [INFO] Resolved Google News URL: https://www.democrata.es/internacional/colombia-y-estados-unidos-refuerzan-su-alianza-con-acuerdos-s
+2026-10-07 12:12:54,793 [INFO] URL: https://www.democrata.es/internacional/colombia-y-estados-unidos-refuerzan-su-alianza-con-acuerdos-sobre-energia-nuclear-civil-y-minerales-criticos/
+2026-10-07 12:12:54,835 [INFO] Full text skipped (status 403): https://www.democrata.es/internacional/colombia-y-estados-unidos-refuerzan-su-al
+2026-10-07 12:12:54,835 [INFO] Text length: 253 chars | source: fallback
+2026-10-07 12:12:54,835 [INFO] Text preview: Colombia y Estados Unidos refuerzan su alianza con acuerdos sobre energía nuclear civil y minerales críticos - Demócrata
+
+Colombia y Estados Unidos refuerzan su alianza con acuerdos sobre energía nucl...
+2026-10-07 12:12:54,835 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:54,835 [WARNING] LLM returned None — skipping: Colombia y Estados Unidos refuerzan su alianza con acuerdos 
+2026-10-07 12:12:54,835 [INFO] ------- Processing article n. 9: Google invierte 13.000 millones en Finlandia para centros de datos e infraestruc -------
+2026-10-07 12:12:54,933 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaXBhVl9VVTZ4N1E2NWx0RGlVQVEwV0NhYzdIcWVGVkJIY1dzVHB2YWF5a0d0d09qV29DMXpYd2tVUHNYU0dSSWgxMDFOamRUd1NYaThLRmdNdEZMN0ptWFRBZFBEVDJwbkVWQTN0QWY0dERsdFFwV0FuOU9venBiRnBpaFR4MUkwWEtoSlRCT1gwZDZHMWdLVmNVZ0dGSThQQl9XSkJjVlZxM1A4enJzWVU4aGVaWDhwMXR2ZDliTGx4LUJfSlcxYUNWdmJXUE5uYXRN0gHYAUFVX3lxTFAyQWVLdGMwZ0VOMXVFMmpfYVNyWEVzVDJzZmxkN1lNeHFwbjVtdnZfbk40RHJMTVI3S3Y4WlVMM2ZiQ2RONFNMUUpaV0NvYXhQQTFTVk9ydUhRZktadk9XVnhBb2JpSzAwX1lfcFc4R1JtU2tycHcwN1h4ZW5EYl9xNkcyTUZiYXdIOVRwNnBlclJIY2R2ZUQ3X05ZaEhmNV9kMnhkRzJ0ejZsRmpXZ0VBS1BWd1Q2N1AyU18yeTRMVmlnMmdFMW95OVZ2Tjk3VDN5OUphUmpyOQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:56,107 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:56,108 [INFO] Resolved Google News URL: https://www.lavanguardia.com/economia/20260909/11630826/google-invierte-13-000-millones-finlandia-ce
+2026-10-07 12:12:56,108 [INFO] URL: https://www.lavanguardia.com/economia/20260909/11630826/google-invierte-13-000-millones-finlandia-centros-datos-e-infraestructura-ia.html
+2026-10-07 12:12:56,293 [INFO] Text length: 2683 chars | source: full
+2026-10-07 12:12:56,293 [INFO] Text preview: Google ha desvelado este miércoles que planea invertir al menos 13.000 millones de euros en infraestructura digital en distintos puntos de Finlandia, lo que incluye centros de datos y equipamiento par...
+2026-10-07 12:12:56,293 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:56,293 [WARNING] LLM returned None — skipping: Google invierte 13.000 millones en Finlandia para centros de
+2026-10-07 12:12:56,293 [INFO] ------- Processing article n. 9: Google invierte 13.000 millones en Finlandia y blinda con nuclear sus centros de -------
+2026-10-07 12:12:56,388 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxPUW14R2c3ZmphckFIYnV3cXJTOWRaVjlDYm9KVXVsaFlXdzFNSjE4TEhEdWxlaGxjaFZFNVJSWjhXMVdERGkyS1NEUEVlNUlzcGFjakpEWnAtcnZMZXFWcExKM3Bhd284ZGpkenN3aEZWa1Y1c2ZPSFowVm5QOTN5MVFsQVQ4OXFuXzBuWnFDZE9fbEhkVzRB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:57,539 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:57,540 [INFO] Resolved Google News URL: https://www.moncloa.com/2026/09/11/google-inversion-finlandia-centros-datos-nuclear-3429616/
+2026-10-07 12:12:57,540 [INFO] URL: https://www.moncloa.com/2026/09/11/google-inversion-finlandia-centros-datos-nuclear-3429616/
+2026-10-07 12:12:57,874 [INFO] Text length: 5551 chars | source: full
+2026-10-07 12:12:57,874 [INFO] Text preview: Google invertirá 13.000 millones de euros en Finlandia y asegura energía nuclear para sus centros de datos de IA. La compañía anunció el miércoles su mayor desembolso en el país nórdico, con un acuerd...
+2026-10-07 12:12:57,874 [ERROR] No LLM providers available for this run
+2026-10-07 12:12:57,874 [WARNING] LLM returned None — skipping: Google invierte 13.000 millones en Finlandia y blinda con nu
+2026-10-07 12:12:57,874 [INFO] ------- Processing article n. 9: Google planea una expansión de infraestructura de IA de al menos 15.100 millones -------
+2026-10-07 12:12:57,975 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxNMUtEQzRqSjlUOUJ0RmJWV1Awb3Q3S1MtQ2tGZEtJV29OYWhXUVh4Ym14dE84Z2RUdVkybnRQc3NaVGdBS1luQnhZU0Q4djAtOEtyWC1hS1FrYlFiZWl5WnJQRzcxT0JycWZ5U1VqYTAwVkxkMEtOQktCSkpJZm14Y3c3LU5lRHBqQUNFdlZLR3hPSW9LVndScElpRzZiLUJJTVFmdGh5emwwV082ZWJEdkhCckJqeFBBSDZEYm80Q3JGbzBS?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:12:59,119 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:12:59,120 [INFO] Resolved Google News URL: https://www.tradingkey.com/es/analysis/stocks/us-stocks/262158065-alphabet-15-1-billion-finland-ai-i
+2026-10-07 12:12:59,120 [INFO] URL: https://www.tradingkey.com/es/analysis/stocks/us-stocks/262158065-alphabet-15-1-billion-finland-ai-investment-googl-tradingkey
+2026-10-07 12:13:00,474 [INFO] Text length: 8987 chars | source: full
+2026-10-07 12:13:00,474 [INFO] Text preview: Google planea una expansión de infraestructura de IA de al menos 15.100 millones de dólares en Finlandia: ¿Qué significa el masivo Capex de Alphabet para GOOGL?
+Google invertirá al menos 13.000 millon...
+2026-10-07 12:13:00,474 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:00,474 [WARNING] LLM returned None — skipping: Google planea una expansión de infraestructura de IA de al m
+2026-10-07 12:13:00,474 [INFO] ------- Processing article n. 9: Google apuesta por la IA en Europa: invertirá 13.000 millones en centros de dato -------
+2026-10-07 12:13:00,569 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxNNDBEWFRVNGloT0FmWXBPLXVmY0FNR0oxemVjSTJBcTBBcWlLNG51N0xObDlCejE5YTIxM2RqWkNrQV96Zi02Zzh5ZjFCQlEwdEp4UHpfOG82NWRvR0YxTlFZWFdLMThLc0hOclBRVDVFN2NFd1JEdjU2M0VGVFhrdFZxVU56VFBSNEg2aVRYNXA4OVREYURZRUUyY094b0JRQ3ZTM0dJeFU4S3daV19McGptWVJydGJyeEdYVDRtZlFiRmF1WHdJTFphR0dqUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:01,708 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:01,709 [INFO] Resolved Google News URL: https://www.businessinsider.es/big-tech/google-apuesta-por-ia-europa-invertira-13-000-millones-centr
+2026-10-07 12:13:01,709 [INFO] URL: https://www.businessinsider.es/big-tech/google-apuesta-por-ia-europa-invertira-13-000-millones-centros-datos-finlandia_7034600_0.html
+2026-10-07 12:13:02,478 [INFO] Text length: 3275 chars | source: full
+2026-10-07 12:13:02,478 [INFO] Text preview: Google hará en dos años su mayor inversión en Europa y creará 37.000 empleos. El acuerdo con Fortum prolongará 22 años la vida de la nuclear de Loviisa.
+Google invertirá 13.000 millones de euros en in...
+2026-10-07 12:13:02,478 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:02,478 [WARNING] LLM returned None — skipping: Google apuesta por la IA en Europa: invertirá 13.000 millone
+2026-10-07 12:13:02,478 [INFO] ------- Processing article n. 9: Iberdrola estudia la instalación de renovables en Finlandia tras el desembarco d -------
+2026-10-07 12:13:02,577 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi_gFBVV95cUxPYTBUa043dXd6SjRVMVMtQmJETzMwYWlTTklYT3NiZ21ZRzE4VU12WHRyQ1lzblV1QTlDU3pXZkE0alhhSXk0bUxNZkdyQVJKLTJNM08yemJNUUpaTTVQb0ZKOGRPSU5VNERmVUljS01IU2pWZzNrT2twTG9LWDlaS2tWR0IzLXBteTRYUk4tWGE2NHZPRGR0UDNSODhLcGFxcm9wRkZsTzdWalhzZWwwR0RFX0YwZXR2aVNNZVBpWTN4VHlYSENwSmQzR3NxUTZoNDZKeFpqdlhOendrcUxGLXcyV2hERDlNSEhrQ1dCSEdTRzZuRk9iLUJGUEdEUdIBgwJBVV95cUxPRmNJY3pWLThWWDVLU0pIVTloSGMxUERmV3pmWmZPSzhTaVlkLXdsSkdSZThZSVRDYlR0VVYxa2Y4TFI1dzMzWmctWURTbDQ1WkdDVmlSNHUzbmVQSGFqcENzbWJWOVR5NUlueUczS3AxWTlGdi1XdHBsc3BXQlQyQU1pcTZteWhYcVJ0a0lQbm9yR21wcHdlSy1ZT3pMbVhoOGhNajhsbURkazN0TUFfZlk2UWtxWDR3bkVsX2J6SXFSakRyUGNENVpJdzBJdE52WjZLZTBnVDNJUDdLU2pjMkh3MmUxNjN6R0dJd184OU90MXg0SnRxd1dMMVpYaDFYbEZN?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:03,710 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:03,711 [INFO] Resolved Google News URL: https://www.elespanol.com/invertia/empresas/energia/20260911/iberdrola-estudia-instalacion-renovable
+2026-10-07 12:13:03,711 [INFO] URL: https://www.elespanol.com/invertia/empresas/energia/20260911/iberdrola-estudia-instalacion-renovables-finlandia-desembarco-google-pais-centros-datos/1003744379672_0.html
+2026-10-07 12:13:04,752 [INFO] Text length: 5470 chars | source: full
+2026-10-07 12:13:04,752 [INFO] Text preview: El desembarco de Google en Finlandia con 13.000 millones de dólares bajo el brazo ha despertado el interés en el gélido país nórdico para desarrollar más proyectos renovables.
+Entre los posibles inver...
+2026-10-07 12:13:04,752 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:04,752 [WARNING] LLM returned None — skipping: Iberdrola estudia la instalación de renovables en Finlandia 
+2026-10-07 12:13:04,752 [INFO] ------- Processing article n. 9: Gobierno revisa los ‘offset’ de los Gripen y buscaría renegociar compensaciones  -------
+2026-10-07 12:13:04,855 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi6gFBVV95cUxONXlPdkdlMDZZLXRFMnprRV9kRWRaVkpFcWxiS1M0Wk9YUW5PYWtCcS12bFdLZ1RtZjdya0pRY3hBNlF6VzZfazBBc3p2eVFsUDN6aGl2ZDBHZXNDTkZiTDlXQWowTHFFZm53TVVIUU05RzdtQTQ3MGNtSDM0OTAyeDVLVXZhY3M0U05ETF83dDRYYTNzRkJhNzBtWkp6Q1pBSGQzejFOazMyQzI4cmx2ODh6TVpwWmZZQmJGV2dtYURIeEpfLWFJLVhOOFVQcS1COHBVekYycDFndzdKTzZ4VmM2N1R4bUxWUUHSAYQCQVVfeXFMTko4YWFEUjJ1Q0QzMGlWODVUNlZfX3E3ZUdIcEFWMC1oWTlpc1NnTjRtVXpKV3B6NGN5U2FkYS1qM2RtVEFOU3ZWQlBXQzNhTDBxSWZJSFIxdzFFdGdqaWhZckRteTZBWlhyT3VQcHRkM1YxLUhlVHV0MVdMR196eVRnNEtaZXBVVjhpRkVDYlBaNDAzSVdXYjE5Q1ZycmU3TnRCeWxFWnA2QVVDLXM0RmVIYUlpTXppN1pKeDdMcHoyaFBTVm5PeDhyUmxJQVpyTktMaVozMGQweVBBdkczVno2VW1pc0R1WWFIZGE2WGtFS25TX19GM1prSGROcmNfR2lQUm8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:06,015 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:06,016 [INFO] Resolved Google News URL: https://www.infobae.com/colombia/2026/09/13/gobierno-revisa-los-offset-de-los-gripen-y-buscaria-rene
+2026-10-07 12:13:06,016 [INFO] URL: https://www.infobae.com/colombia/2026/09/13/gobierno-revisa-los-offset-de-los-gripen-y-buscaria-renegociar-compensaciones-para-obtener-tecnologia-militar/
+2026-10-07 12:13:06,518 [INFO] Text length: 6691 chars | source: full
+2026-10-07 12:13:06,518 [INFO] Text preview: Al menos tres reuniones realizadas en las últimas semanas en el sector de defensa han puesto bajo revisión las condiciones de las compensaciones que acompañan el contrato para la adquisición de los 17...
+2026-10-07 12:13:06,518 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:06,518 [WARNING] LLM returned None — skipping: Gobierno revisa los ‘offset’ de los Gripen y buscaría renego
+2026-10-07 12:13:06,518 [INFO] ------- Processing article n. 9: Bruselas aprueba la norma que da preferencia a empresas europeas en sectores crí -------
+2026-10-07 12:13:06,618 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxObXpJNDNhcm9WMjg5RnRkbTF2M2wxOUNYNXFmSHltOVVxaDltallqZ0JvRHkzSnhiejZleTRXbkFvdHJRNURHaExSZDFzUk9wVXBHbFVvNXVER2U3c0lSVG9hMFFOaU5xWW9sTzd4bTFoRGpzSkpfMlVOakVXNDk2Y2J0eEFWWkVsaGRmclkyWW0zaFNjcjZDeFNUbVRLNmpkaGZUb2hwNU14WHB4YlJ0bUVtT3dNeDBzZ0pwWHQyMXRNNjlULXRNQtIB3AFBVV95cUxQN05zbHBGRzhMMU9YdUtjOWl0YmJkUm1ydWVnYURucWdtQjVVMkNKU2hlYjdta1YzNUtfbmdxOHBfUEVsMTB2b1lCbUZRVU9TeEwxN1o5M1VvSzNsWWMxeURoYkdPdGNhOGNFTTViUzJVNVYyT3FYOWpvVmJwZ1VJaEdJaC1VNFBoSHRyYk5LVmcyNEstX3ZlM0FKYzZhaklyeUtjMlNjZF8xcEw1blcydzZORDYwa3ZEQVhnVUkwYkdrNWFReFpEdmUzWWdmeEoxRWlYelgzS0xRTUFm?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:07,777 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:07,778 [INFO] Resolved Google News URL: https://elpais.com/economia/2026-09-09/bruselas-aprueba-la-norma-que-da-preferencia-a-empresas-europ
+2026-10-07 12:13:07,778 [INFO] URL: https://elpais.com/economia/2026-09-09/bruselas-aprueba-la-norma-que-da-preferencia-a-empresas-europeas-en-sectores-criticos.html
+2026-10-07 12:13:07,957 [INFO] Full text skipped (status 403): https://elpais.com/economia/2026-09-09/bruselas-aprueba-la-norma-que-da-preferen
+2026-10-07 12:13:07,958 [INFO] Text length: 203 chars | source: fallback
+2026-10-07 12:13:07,958 [INFO] Text preview: Bruselas aprueba la norma que da preferencia a empresas europeas en sectores críticos - EL PAÍS
+
+Bruselas aprueba la norma que da preferencia a empresas europeas en sectores críticos &nbsp;&nbsp; EL P...
+2026-10-07 12:13:07,958 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:07,958 [WARNING] LLM returned None — skipping: Bruselas aprueba la norma que da preferencia a empresas euro
+2026-10-07 12:13:07,958 [INFO] ------- Processing article n. 9: EPM y la AFD anuncia la firma de acuerdo de financiamiento por mas de US$340 mil -------
+2026-10-07 12:13:08,057 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxOcERyczBWV2wwRmF1ZkpFcVRMZ3BMc1ZHYVN2eGtSOG5MWjF6Z3N6UmV4cEo5VWRobWE0ekJKZkF3Z0NQYUhZMkpWSlZjd1JfSVk0NkZhazY3bXhDZklwWXJOT0pua05BcldITVEwWWVqYWVoSFJpWUJJYzFmSFcwUDhLLXM3MjB1enRsMVFpVEhjT09FV3cyYm0xM2s2TkI0M2RhQ3dHN3lVLWs3aGNLeHFlaVJoWG8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:09,202 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:09,203 [INFO] Resolved Google News URL: https://www.larepublica.co/empresas/epm-y-la-afd-firman-acuerdo-de-financiamiento-por-mas-de-us-300-
+2026-10-07 12:13:09,203 [INFO] URL: https://www.larepublica.co/empresas/epm-y-la-afd-firman-acuerdo-de-financiamiento-por-mas-de-us-300-millones-4481034
+2026-10-07 12:13:09,643 [INFO] Text length: 2743 chars | source: full
+2026-10-07 12:13:09,643 [INFO] Text preview: MI SELECCIÓN DE NOTICIAS
+Noticias personalizadas, de acuerdo a sus temas de interés
+Según informó EPM, esta operación de capitalización contempla un plazo de 15 años con 3 años de gracia
+Empresas Públ...
+2026-10-07 12:13:09,643 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:09,644 [WARNING] LLM returned None — skipping: EPM y la AFD anuncia la firma de acuerdo de financiamiento p
+2026-10-07 12:13:09,644 [INFO] ------- Processing article n. 9: Ministro Joel Santos destaca avances en tierras raras en la República Dominicana -------
+2026-10-07 12:13:09,731 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2tNdC1pRFhZR3YzTmhrMFlLUGJDM1BxbkV2VmU4SS1XcTJmQzJoajhPa2RacUY5QmZfMVRqWm9WM0ZCNjhQREkzQkp4ZXdzSTQyTl9vM28zZHpaX0llbnoxWVZESE1sd28xeDBwMHAzYmU4X0FteVZlVy1rLTd2VC1WS21TcWd5c2htM3U4RTN5ZHpGaXo5WTVVV1VkY1hJTFNUWmlGWkRZT0ppc2k4cXpHZjRHbW8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:10,846 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:10,847 [INFO] Resolved Google News URL: https://presidencia.gob.do/noticias/ministro-joel-santos-destaca-avances-en-tierras-raras-en-la-repu
+2026-10-07 12:13:10,847 [INFO] URL: https://presidencia.gob.do/noticias/ministro-joel-santos-destaca-avances-en-tierras-raras-en-la-republica-dominicana
+2026-10-07 12:13:11,474 [INFO] Text length: 5000 chars | source: full
+2026-10-07 12:13:11,474 [INFO] Text preview: Santo Domingo.- El ministro de Energía y Minas, Joel Santos, valoró el marco de cooperación suscrito entre la República Dominicana y los Estados Unidos para garantizar el suministro en la extracción y...
+2026-10-07 12:13:11,474 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:11,474 [WARNING] LLM returned None — skipping: Ministro Joel Santos destaca avances en tierras raras en la 
+2026-10-07 12:13:11,474 [INFO] ------- Processing article n. 9: Colombia y EEUU sellan su cooperación nuclear y sobre minerales críticos con mem -------
+2026-10-07 12:13:11,571 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQUpDNjF6RWc5Z0p5NWZhYlVwTm1SQjlxU1FFejd0Y21CMnFiT29oQUs3YU1LbzF3bC1FTFhQaG9qYUJFLXJCd2FkMDFGUnNaLVI5dU10c0stTmphTlh6cGhMTHFGQ1V4UE45a2RJX3FFQ3VhQnd4QWtqOUZKWUF0eS1xdV93MEpETldOd1NWNTdJV3VBVkE1ejdzNnVvMVhpY1NBMXJXcktIZGJUbXZzMU1yaFdrOU1vVDdUdUVJeHBVbUdHZlJnLXBsX1A3aFVqLThtNnItSDBBcmRYU1lJVGxENXZYYXFwQkhWUmJB0gGIAkFVX3lxTE53VE8xb3YzSEZyMUVMM0dxR18tZzVIZ3lfWkE2NExzbnRXXzdLNWRzbVhHZUdKS2lZTVhWdktDT3dhbnUzbkdiOUpJSEFXeWxvVmVCVE53Mjc5QkJ3UnhidGJLdE1lRVZzZHpWRzhLc3dfc3VwQTRtX1pOc1pPckhlY3pmeXQxY3k0ZnNjX0QwUmN2dmNSbTNBNXJDOG1fVkRNUmJKWXFjS0hMWDJVNnhqWkxPSFlhWDlyRGo1RnB0em1tU2ZvQV9KUXRXVlFjdl9RNWd0U0RyOWV5Z1Q3Yk5Uc2gyT1o0aDRLeVE2dXE5dTRqRWRjZG5QSWlxWmlPaEZWNEdOaV9rZQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:12,670 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:12,671 [INFO] Resolved Google News URL: https://www.infobae.com/america/agencias/2026/09/09/colombia-y-eeuu-sellan-su-cooperacion-nuclear-y-
+2026-10-07 12:13:12,671 [INFO] URL: https://www.infobae.com/america/agencias/2026/09/09/colombia-y-eeuu-sellan-su-cooperacion-nuclear-y-sobre-minerales-criticos-con-memorandos-de-entendimiento/
+2026-10-07 12:13:13,360 [INFO] Text length: 6960 chars | source: full
+2026-10-07 12:13:13,360 [INFO] Text preview: Los gobiernos de Colombia y Estados Unidos han firmado este martes dos memorandos de entendimiento en aras de impulsar la cooperación nuclear civil y en materia de minerales críticos y tierras raras, ...
+2026-10-07 12:13:13,360 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:13,360 [WARNING] LLM returned None — skipping: Colombia y EEUU sellan su cooperación nuclear y sobre minera
+2026-10-07 12:13:13,360 [INFO] ------- Processing article n. 9: Entre bastidores de la reunión en Colombia entre Marco Rubio y De la Espriella - -------
+2026-10-07 12:13:13,457 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxQMkxwNFZ2Q3ZEdlV3OENnZ0FNaWRGbGxRMmZuaUU4VFBva3k2MjlqMGJPNkxLSm9wcERILW9qUnhqcVI0akhUdjBlYWlHWFZ0ZXdJWnhEemFiYnU2RldpUUQ0WjFKNTZYU1JydDl3aHUwUTdFa0I3OFhmbnRUS0FUZ2taQ1prbDdqaGV4ZEdLUU5BQUE4YU1OOFpBODIwMXdh0gGmAUFVX3lxTE91Z281QVBYQ1NFT2xKTEdfU3hxNmJRX2h3TjBhNThZcm1SVWsyQmlVN1pqZl8yV1J2ZV9UTjJYTkpqcnItb1p5VHV5ekJoZnJ5d1ZhdmRCMjNUQ0VLR2MwYVdDaVB0SHFTWWhibmlkN1BnMkdFSmFhdVpBZ3lTcFplcFVWLWxEX19TY0ZqTE90QUIxdDl3a0I2U3dScUpWdzdSOENrVnc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:14,565 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:14,566 [INFO] Resolved Google News URL: https://urgente24.com/mundo/entre-bastidores-la-reunion-colombia-marco-rubio-y-la-espriella-n632363
+2026-10-07 12:13:14,566 [INFO] URL: https://urgente24.com/mundo/entre-bastidores-la-reunion-colombia-marco-rubio-y-la-espriella-n632363
+2026-10-07 12:13:15,078 [INFO] Text length: 7043 chars | source: full
+2026-10-07 12:13:15,078 [INFO] Text preview: Tras la visita a Colombia del secretario de Estado de Estados Unidos y la firma de un memorando de entendimiento sobre energía nuclear entre Washington y el nuevo presidente colombiano, el senador del...
+2026-10-07 12:13:15,078 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:15,078 [WARNING] LLM returned None — skipping: Entre bastidores de la reunión en Colombia entre Marco Rubio
+2026-10-07 12:13:15,078 [INFO] ------- Processing article n. 9: Marco Rubio y Abelardo de la Espriella firmarían acuerdo para la explotación de  -------
+2026-10-07 12:13:15,175 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijAJBVV95cUxOeUxmRGVLZjZ3Rl9sZFRGNTRoQW45dEJKX1JodmV1VXMzdHp4a0ZEZjhtZFFQSU9jT0ExS0JDZnFtUkNRNDdRbk0tbDBEcEF5SHlXOXpCRzRKTGw3UE42RXN0d0RjY3B5amN6LWFWbFBpTWJzSXhPV2dMUEJPalN5T3B5ZVJsTDl0Z0I1aEtyYWY3YlIyRE1HWkEwYmtCSENiWXZjUXMteFk2SkhSMm1UcE9hTTVuVzRLRTRPTTBxZWFRRXE4RkxvSlNzY0VxeXQ3TF9JaTUtVi1tQkxHbUszeVBxLXdWV2dyV1d2WUg1Q1ZSRlctWnF6ekJTbmF2aXZMVDYyeWJwanQ1NkU00gGnAkFVX3lxTFBHeElyWGtzZ2ZONDE5U2hXdFRLc0pyb3puT0tCTU44SVRGdUJKV0g1cnlObGtlbnE5dXoySGhUNVFxWUZSSzhFcHFUSzV1SjhHeDdiX21IdHFlLUhwd3o1bTdEcFVCQVNBSU5GdXBqb0dCVjk4eFVtQTVsZ3VGLUMwcGxzTlhzOHByUk1jemhiM284Z1BPbVBVMnlzeC1ENEtaZGNGa1VUaUVRM1pNUWRTR3ppaEthdG9RVHQ3QXJaU0YxcXBlRnZwQ0x2VHk5cjVDOTQwWkNOZ3pWQVBoWFJvWmpKRGpBc2NKRGVFaG12N2ZOMmJjcnFYT18wYUVsZEdRcWwyaU5NMzdRVzFaOUtXbFVPYVpZczcyOWtyaWpLOFJfZy12ck0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:16,327 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:16,328 [INFO] Resolved Google News URL: https://www.infobae.com/colombia/2026/09/08/marco-rubio-y-abelardo-de-la-espriella-firmarian-acuerdo
+2026-10-07 12:13:16,328 [INFO] URL: https://www.infobae.com/colombia/2026/09/08/marco-rubio-y-abelardo-de-la-espriella-firmarian-acuerdo-para-la-explotacion-de-tierras-raras-en-colombia-cuales-son-y-que-tan-valiosas/
+2026-10-07 12:13:16,943 [INFO] Text length: 6847 chars | source: full
+2026-10-07 12:13:16,943 [INFO] Text preview: El reciente hallazgo de tungsteno en Caldas por parte de Collective Mining, tras seis años de exploración enfocada en oro, plata y cobre, coincidió con la visita a Colombia del secretario de Estado de...
+2026-10-07 12:13:16,943 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:16,943 [WARNING] LLM returned None — skipping: Marco Rubio y Abelardo de la Espriella firmarían acuerdo par
+2026-10-07 12:13:16,943 [INFO] ------- Processing article n. 9: Monetización digital - El Financiero -------
+2026-10-07 12:13:17,039 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOERNY1JkbUpFR3d4WllnaXVmeHlsWm43X3p5c1QtLUZaSThHcHJmX0dPeTk3cHFrSFZ3WGJXblR4cURfSUZrdFpWd3pVTnVHV3JndHVfZTVJemMxN2RtWGE1S1JtUGpFdTFVTzBZVGVDVEg2S3pwMEprdWRDdGlHQjBILVRaZzk4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:18,193 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:18,194 [INFO] Resolved Google News URL: https://www.elfinanciero.com.mx/opinion/de-jefes/2026/09/10/monetizacion-digital/
+2026-10-07 12:13:18,194 [INFO] URL: https://www.elfinanciero.com.mx/opinion/de-jefes/2026/09/10/monetizacion-digital/
+2026-10-07 12:13:19,335 [INFO] Text length: 4227 chars | source: full
+2026-10-07 12:13:19,335 [INFO] Text preview: Con un mercado nacional que supera los mil millones de dólares y proyecta alcanzar los 2 mil 500 millones hacia 2033, el sector del retail media en México suma un nuevo competidor. Haku Media inició o...
+2026-10-07 12:13:19,335 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:19,335 [WARNING] LLM returned None — skipping: Monetización digital - El Financiero
+2026-10-07 12:13:19,335 [INFO] ------- Processing article n. 9: Así funcionan los acuerdos que firmaron De la Espriella y Rubio tras cita en Bar -------
+2026-10-07 12:13:19,435 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxPOXhGallZVjg0MjlXOWM5cWFfY3BpWmUwWHhwUDBaTl95S0prbDR2Ul9iUHQ3SklEUG5SVHcwNVVVdmlFX0pBSjdRaURTSlNxZV9rSTNkUXlDdE4zdTd1dVRwNEd0VkMtcGVMXzhURmI1SUkySk9CSUR6RkYyaVpNaUczVEhvT2lxSWZCTF9ObGg1Q2J5a1RURTVqc2VnSkJsdUlUOWZJS25uSmtPeXYyaG5OMjnSAcgBQVVfeXFMT3oxYmpqSjFrcUhmRWxndDhfWHRiTWl4LWJPX1k3YnFpSDZEZUxzcDJrVmJoN2NUMGFhSXphYkNuRktod1BBOEc0S1hrMDQ2OWhNX2VBaXlFMEd0MER6QnZxRVdpVXRLNzZDcnYxRUh4TXhlMHV4dlBVZ0o1eFlsSGxVa1pkSUJON2RfTDlKUDJMVXpuMGJuNnNuOTF2M0xzN3B3VGNoam4xTFV6NXNHdkVzUTJJVk82eXR2ZHVLWXZqLWF6UUdwMGY?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:20,556 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:20,557 [INFO] Resolved Google News URL: https://www.elespectador.com/politica/estos-son-los-acuerdos-firmados-por-de-la-espriella-y-rubio-en
+2026-10-07 12:13:20,557 [INFO] URL: https://www.elespectador.com/politica/estos-son-los-acuerdos-firmados-por-de-la-espriella-y-rubio-en-barranquilla/
+2026-10-07 12:13:21,632 [INFO] Text length: 6812 chars | source: full
+2026-10-07 12:13:21,633 [INFO] Text preview: Escucha este artículo
+Audio generado con IA de Google
+/
+El balance del encuentro entre el presidente Abelardo de la Espriella y el secretario de Estado de EE. UU., Marco Rubio, tuvo aires positivos y ...
+2026-10-07 12:13:21,633 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:21,633 [WARNING] LLM returned None — skipping: Así funcionan los acuerdos que firmaron De la Espriella y Ru
+2026-10-07 12:13:21,633 [INFO] ------- Processing article n. 9: Google invierte 13.000 millones en centros de datos en Finlandia y dispara la pu -------
+2026-10-07 12:13:21,723 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiigFBVV95cUxPcDA5YlBOLWlURGd2YWFjalhPMzUzU0pSaTd0SHBNRkJFU25kQi1sMzVkc3dhNXpYOUx6Mm5sSWtjdWdoSV9STy1OQjlrN083eXI1NmZkYVJnYy1pa3luMGNMVVc5WDk0SVBnX0tfcDVyT1NGY0hvWFVvVTFGMUxDSHNRRnB2ZkVrRHc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:22,838 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:22,839 [INFO] Resolved Google News URL: https://www.merca2.es/2026/09/10/google-finlandia-centros-datos-iberdrola-2451787/
+2026-10-07 12:13:22,839 [INFO] URL: https://www.merca2.es/2026/09/10/google-finlandia-centros-datos-iberdrola-2451787/
+2026-10-07 12:13:24,161 [INFO] Text length: 4611 chars | source: full
+2026-10-07 12:13:24,161 [INFO] Text preview: Google anuncia 13.000 millones en Finlandia para centros de datos e infraestructura de IA, su mayor desembolso en Europa. El movimiento dispara la puja por energía limpia en la que compite Iberdrola c...
+2026-10-07 12:13:24,161 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:24,161 [WARNING] LLM returned None — skipping: Google invierte 13.000 millones en centros de datos en Finla
+2026-10-07 12:13:24,161 [INFO] ------- Processing article n. 9: Qualitas Energy Cero Generation: compra 5,8 GW renovables a Macquarie en España, -------
+2026-10-07 12:13:24,254 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYXcySUg0OGhydUIwUzBWWEswOWxQc3hMSmJ4YTBlNEUtbGJNZ3VCU1pGWFpUbmxVRjM4WEt3S0Rsb3FiaVlPNkgxU1NtYlNlR09zQnVVT2lQNUY2NWJIMXNRenZydWJfeW04X2x0cDdpY0tmeXdLNFJaWDlYUVNBWWltaGZ4dDdSODVJ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:25,384 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:25,385 [INFO] Resolved Google News URL: https://www.merca2.es/2026/09/08/qualitas-energy-cero-generation-macquarie-2450222/
+2026-10-07 12:13:25,385 [INFO] URL: https://www.merca2.es/2026/09/08/qualitas-energy-cero-generation-macquarie-2450222/
+2026-10-07 12:13:26,804 [INFO] Text length: 7299 chars | source: full
+2026-10-07 12:13:26,804 [INFO] Text preview: Qualitas Energy ha firmado un acuerdo para adquirir a Macquarie la plataforma europea de Cero Generation, con 5,8 GW.
+La operación incluye una cartera de 5,8 GW distribuida entre Reino Unido, Italia y...
+2026-10-07 12:13:26,804 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:26,804 [WARNING] LLM returned None — skipping: Qualitas Energy Cero Generation: compra 5,8 GW renovables a 
+2026-10-07 12:13:26,804 [INFO] ------- Processing article n. 9: UNEF pide más flexibilidad para vincular los centros de datos al consumo de reno -------
+2026-10-07 12:13:26,897 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxOLVpGN1hsTGFnb1oyc2dHRnFqTVJZVVRpT1g4WmFXd2J2ZTZXV2VGRVBJUlVNNHYzMS1RX2dzYlBVM2Z2bHdvc2VyTFVxS2pnWG1wU3VWb1RHSFhxQVhRRTdpbkRFb2lCUlNiZEt1cENNc0RLV2RTLXZ6VUNwbU56MTNnWW1adkdwOFI0aS04UEVZbURUOXVFRUpPV0RuallQUUVaYnZXUzdiam5mS3pXUzJaT0FpaXRnMWFyTEV0eFJUR1R5bkNOa3Zn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:28,025 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:28,025 [INFO] Resolved Google News URL: https://www.review-energy.com/otras-fuentes/unef-pide-mas-flexibilidad-para-vincular-los-centros-de-
+2026-10-07 12:13:28,026 [INFO] URL: https://www.review-energy.com/otras-fuentes/unef-pide-mas-flexibilidad-para-vincular-los-centros-de-datos-al-consumo-de-renovables
+2026-10-07 12:13:29,001 [INFO] Text length: 4767 chars | source: full
+2026-10-07 12:13:29,001 [INFO] Text preview: La Unión Española Fotovoltaica (UNEF) ha pedido introducir mayor flexibilidad y una aplicación progresiva en el proyecto de Real Decreto que regula los requisitos energéticos de los centros de datos, ...
+2026-10-07 12:13:29,001 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:29,001 [WARNING] LLM returned None — skipping: UNEF pide más flexibilidad para vincular los centros de dato
+2026-10-07 12:13:29,001 [INFO] ------- Processing article n. 9: Los centros de datos quieren instalarse en España. El Gobierno tiene una condici -------
+2026-10-07 12:13:29,100 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwwFBVV95cUxQXzBacndZRjE1MU1pLW1iV0xrZmp4YUJNWldKekcwdDQtYk1BXzZFRmNYYV9vWWJ5anBBblFMb0lSQkpxX3ZHakVPcXo5RXdIWmRTWjlOTmx4cTdCR09JX0lJbGpudml3WUk2TU5iVEp6b3NWSjZ6cDREZnp1ZEtSSWNFLXZCTHVhb2ZEcEd2d3p1TUVkMWhQWU1TMnFZaTRDcUR1dFpmWWVRS0JCRFFzTnZiXzNzMzZyNmRHY1ZFZ1ZfQVHSAcgBQVVfeXFMUHRSQVVyWGUweVZVOW1RMzRuaExfbWRMejA5Q0l1OVdxV0JXbUl3blRkbW5RYUVjaUFiWWxDOXNhTFFUUlVRY0QwZHRRME1RS3d0aXFfUGEzX0Rza3FnVGpzSnhTZEZvRndJMFdmRFhZM0ZJQjA2MjYxTGl5R0thS0p0RTdybHNxZmhxbVV1MlpweTFQUDdBUTFmZFhnRWVVcDlJSDR6NDJKbVNjQThQQWhHNkFscHJmREVaZlBRZjMzZ19WY3BtYnM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:30,241 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:30,242 [INFO] Resolved Google News URL: https://www.xataka.com/energia/centros-datos-quieren-instalarse-espana-gobierno-tiene-condicion-que-
+2026-10-07 12:13:30,242 [INFO] URL: https://www.xataka.com/energia/centros-datos-quieren-instalarse-espana-gobierno-tiene-condicion-que-traigan-su-propia-energia
+2026-10-07 12:13:30,623 [INFO] Text length: 4117 chars | source: full
+2026-10-07 12:13:30,623 [INFO] Text preview: España tiene casi todo lo que necesita la industria de los centros de datos: suelo, buena conectividad y abundante energía renovable a precios competitivos. Eso ha provocado que surja una avalancha de...
+2026-10-07 12:13:30,623 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:30,623 [WARNING] LLM returned None — skipping: Los centros de datos quieren instalarse en España. El Gobier
+2026-10-07 12:13:30,623 [INFO] ------- Processing article n. 9: España exige a data centers el 80% renovable y por horas - El Ecosistema Startup -------
+2026-10-07 12:13:30,720 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxNeHdHc3Bac2k2TDJLRDNvUWh2Nm9uVWtCeTFZaGxhMWZGZTNSN3drY1ZRcjBpa0FtSkxERmFyUkV1THFScF9RRTV2ekpySHREQm1hLURqWmhPMmgxc3A3NnB5NktQNHl1VUhJdkN0aW5Id0VNeUl0VTU4S2l1Yjc2c0RfTlA5ZnYxRXBGQ2hjOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:31,839 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:31,839 [INFO] Resolved Google News URL: https://ecosistemastartup.com/espana-exige-a-data-centers-el-80-renovable-y-por-horas/
+2026-10-07 12:13:31,840 [INFO] URL: https://ecosistemastartup.com/espana-exige-a-data-centers-el-80-renovable-y-por-horas/
+2026-10-07 12:13:32,686 [INFO] Text length: 9202 chars | source: full
+2026-10-07 12:13:32,686 [INFO] Text preview: España pone condiciones al oro de los centros de datos: el 80% de la energía, renovable y a la misma hora
+España se ha convertido en uno de los destinos más codiciados del mundo para construir centros...
+2026-10-07 12:13:32,686 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:32,686 [WARNING] LLM returned None — skipping: España exige a data centers el 80% renovable y por horas - E
+2026-10-07 12:13:32,686 [INFO] ------- Processing article n. 9: Unef pide mayor flexibilidad para conectar centros de datos y renovables - Demóc -------
+2026-10-07 12:13:32,784 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaGQ4REg2NE00ZFhLSGF2SUFYYXhqZ3F5V0J0Mng4dVl2SGxsbm9lRmVkUDRaeTVhaU4yTkZoOUJCT0pnbkdDZHdMdXM3VU1ORVkxamtWdjRBaG1CZUYzSGdjV0ppc2d0ZWZ3NENhblF6YVVmcjg1dlFzUzcyNFJjTFB1RTNrYjF5RkNLOFFqVGNXQkxxYWFvRklRZmxZLWFFLS1OWUJMM0txQ2_SAbABQVVfeXFMTVBuY1cwNjJHQURDeUNBRkM1clVaanJLYnRfMTlPaVh0UElDdDBUMnZxTlZXZWV5azF3VjFBc1BHS191c1VOYzNLUXB0RWlRUW1MWTJYV3lwYldib3VDVHhSTzlmcVBRazlIVHRwanNJYVFULW5LTnotZFJhRGFlVkNEV0t3SXVzUXdIR3Q5dVlzXzgyeFJtZnJMSFJJOUlzOW1Cdk5HaGtBTzdVeWpQVFY?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:33,903 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:33,903 [INFO] Resolved Google News URL: https://www.democrata.es/economia/unef-pide-mayor-flexibilidad-para-conectar-centros-de-datos-y-reno
+2026-10-07 12:13:33,903 [INFO] URL: https://www.democrata.es/economia/unef-pide-mayor-flexibilidad-para-conectar-centros-de-datos-y-renovables/
+2026-10-07 12:13:33,929 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/unef-pide-mayor-flexibilidad-para-conectar-cen
+2026-10-07 12:13:33,929 [INFO] Text length: 181 chars | source: fallback
+2026-10-07 12:13:33,929 [INFO] Text preview: Unef pide mayor flexibilidad para conectar centros de datos y renovables - Demócrata
+
+Unef pide mayor flexibilidad para conectar centros de datos y renovables &nbsp;&nbsp; Demócrata...
+2026-10-07 12:13:33,929 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:33,929 [WARNING] LLM returned None — skipping: Unef pide mayor flexibilidad para conectar centros de datos 
+2026-10-07 12:13:33,929 [INFO] ------- Processing article n. 9: Qualitas Energy compra a Macquarie la plataforma solar Cero Generation - energel -------
+2026-10-07 12:13:34,023 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxOcDJJa1h2dFVYX2twaXNWTVctZTA2a1pzS3ZpcnNJWEVuVFFlWkN1RnBBNjRiOXJzSUJacnJWeWxDcUVSOGtpb3lZU1dLT0lPQktOeHZKS29sSVBNX00yOWVzTXBJRTJoRUdUV3BLLXVZYWJTU1JLSTFRaC11amNVSmdzUlB1b2taa0lBLVFSd1BySV9NSXc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:35,181 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:35,182 [INFO] Resolved Google News URL: https://energelia.com/solar-fotovoltaica/qualitas-energy-adquiere-cero-generation-macquarie
+2026-10-07 12:13:35,182 [INFO] URL: https://energelia.com/solar-fotovoltaica/qualitas-energy-adquiere-cero-generation-macquarie
+2026-10-07 12:13:36,028 [INFO] Text length: 4924 chars | source: full
+2026-10-07 12:13:36,028 [INFO] Text preview: Qualitas Energy compra a Macquarie la plataforma solar Cero Generation
+Qualitas Energy refuerza su posición en el mercado solar europeo
+La gestora de inversiones en energías renovables Qualitas Energy...
+2026-10-07 12:13:36,028 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:36,028 [WARNING] LLM returned None — skipping: Qualitas Energy compra a Macquarie la plataforma solar Cero 
+2026-10-07 12:13:36,028 [INFO] ------- Processing article n. 9: Repsol valida una tecnología de la estadounidense P2H2 que produce hidrógeno ren -------
+2026-10-07 12:13:36,121 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi8wFBVV95cUxOb1Jtb19wS3NpeXFKZmNwdXBCcDUzYlBGRWduQXpNT01uNXN6Z1A1cGZ0UzJyNVRKdkhlZG5udUlWVU9yZTFwb2tUS0RFYnVYVWhvNHItSXZzOGZFZUQ5RnZiMGcwS2k3UjhxajVHQmMtc3pKNm02MnZtd2oxYmo3S1BWcFU0TUlMcXJMa21oV0QyS3RSUnZjU1JxdnBDaWt5Zml3ZWM3OWlpSFhuZlVsMkhkYXpNTTJidjNuejhwY0ZPMnBKWWZ3TUppZFRLZGVDRjBxR003dktxU1k2VmZBV19jaW5ESDBOdmhZQ0g1VEdpeXPSAfgBQVVfeXFMTk5KRW9QV0EydzlfZ1pSNUxQVkRvaTFZdGZMeW9pSEZDd3FfenNIU2VONDVENFpUVExHeEh1V3BOVHVPbzJ2ZHpON2tyVFZtckdLNllBVE5mM0lPRm1HVmpSd2hLaVY2T1BvekZLMDlSZ2s3cTV0VUhjSFRsbWRaT0FzcWVsTUVHZTJMNXZ2RG5yQkE0NGlQNl9PZllKbHA5VGF5X2Qtd2VpT3EtalZtbmZBUWZrdEVUM2RNTVFnVWhTNnhGbF9DNGJJVUF5VUlwUW9HWWNmTFJrYW1TZDFKTjY3TG9INXdLRl9BWFdQOUktQ3JMa2I4T3I?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:37,244 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:37,244 [INFO] Resolved Google News URL: https://www.elespanol.com/invertia/empresas/energia/20260908/repsol-valida-tecnologia-estadounidense
+2026-10-07 12:13:37,244 [INFO] URL: https://www.elespanol.com/invertia/empresas/energia/20260908/repsol-valida-tecnologia-estadounidense-p2h2-produce-hidrogeno-renovable-barato/1003744376338_0.html
+2026-10-07 12:13:37,564 [INFO] Text length: 3131 chars | source: full
+2026-10-07 12:13:37,564 [INFO] Text preview: Repsol y Power to Hydrogen (P2H2) han culminado una prueba piloto para validar la tecnología híbrida de electrólisis mediante membrana de intercambio aniónico (AEM) de la compañía estadounidense para ...
+2026-10-07 12:13:37,564 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:37,564 [WARNING] LLM returned None — skipping: Repsol valida una tecnología de la estadounidense P2H2 que p
+2026-10-07 12:13:37,564 [INFO] ------- Processing article n. 9: Tesla compra tutta l'energia di un nuovo parco solare in Texas - InsideOver - In -------
+2026-10-07 12:13:37,671 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxOemNYV241YlVjcHAyNzlYa1NvcVc1NEREMWZ2VEZ1TFZCTVVtWjZSbFdpRGVoS2l4cy1sUklockJIaFd4Yzc4eE14UUt6TU5oQm13aG1NNl9ubnNYM1JzOTJEU19FdXpuVUhueUl5RW1abWV2ZlVCVEhQMW52RDUxNThBMU9UbjdwX25KT01XLS1OcWxPdU1V?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:38,774 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:38,775 [INFO] Resolved Google News URL: https://it.insideover.com/energia/tesla-parco-solare-texas-zelestra-energia-rinnovabile.html
+2026-10-07 12:13:38,775 [INFO] URL: https://it.insideover.com/energia/tesla-parco-solare-texas-zelestra-energia-rinnovabile.html
+2026-10-07 12:13:38,861 [INFO] Full text skipped (status 403): https://it.insideover.com/energia/tesla-parco-solare-texas-zelestra-energia-rinn
+2026-10-07 12:13:38,861 [INFO] Text length: 229 chars | source: fallback
+2026-10-07 12:13:38,861 [INFO] Text preview: Tesla compra tutta l'energia di un nuovo parco solare in Texas - InsideOver - Inside the news Over the world
+
+Tesla compra tutta l'energia di un nuovo parco solare in Texas &nbsp;&nbsp; InsideOver - I...
+2026-10-07 12:13:38,861 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:38,861 [WARNING] LLM returned None — skipping: Tesla compra tutta l'energia di un nuovo parco solare in Tex
+2026-10-07 12:13:38,861 [INFO] ------- Processing article n. 9: Solarparks in Asdonkshof und Leucht: 81 Hektar für die Energiewende – Wie Kamp-L -------
+2026-10-07 12:13:38,952 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMidEFVX3lxTE1DQkpRS2pQZ0NkX08yWW0yOW14aGk4Qkx4THpwbnFFWTNWUzZscDJKMG91SVpuMVRHaG1fY2ZTSGlXX3AzVlBqMU5ZUkhKVjZyYXMzVUtNS0xmSjlpOUJrRFQyZGVYQ1hQd0hIcFhYWWpWd1c40gF8QVVfeXFMUFV6cXczVHlES2JqUkhjM09nUkt6YzdMSVZ1dWRnUjVKSU9tbWxraWVlZ0QzTDlWQ296bldLZEoxaWtqZUpfVWx5S3kxbE5hZG9HblBia0s5VFFwZ1otRVRLSkdDTHZCR3M3cFVxUlVLRUxtRk52bnkwbTVyRg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:40,081 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:40,082 [INFO] Resolved Google News URL: https://xpert.digital/it/kamp-lintfort-con-due-mega-parchi-solari/
+2026-10-07 12:13:40,082 [INFO] URL: https://xpert.digital/it/kamp-lintfort-con-due-mega-parchi-solari/
+2026-10-07 12:13:40,169 [INFO] Full text skipped (status 403): https://xpert.digital/it/kamp-lintfort-con-due-mega-parchi-solari/
+2026-10-07 12:13:40,169 [INFO] Text length: 351 chars | source: fallback
+2026-10-07 12:13:40,169 [INFO] Text preview: Solarparks in Asdonkshof und Leucht: 81 Hektar für die Energiewende – Wie Kamp-Lintfort mit zwei Mega-Solarparks Geschichte schreibt - Xpert.Digital - Konrad Wolfenstein
+
+Solarparks in Asdonkshof und ...
+2026-10-07 12:13:40,169 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:40,169 [WARNING] LLM returned None — skipping: Solarparks in Asdonkshof und Leucht: 81 Hektar für die Energ
+2026-10-07 12:13:40,169 [INFO] ------- Processing article n. 9: Auto aziendali elettriche 2026: quali incentivi restano - Incentivimpresa -------
+2026-10-07 12:13:40,263 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMid0FVX3lxTE50VThJTnhvWW9ubzA5c2VuVEJCcnlLU3lQZlhBZkpnSEQ4N0JtdTZib1R0ejhTUW5YWXFCc0Fic25NeEFKZXdJQTFZUjUwMmxBdXNtRUFkMUt3TTYtbkNFQ0ZLUlFiSjRhaF9xaXlwcHFJRXZwaWdn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:41,424 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:41,425 [INFO] Resolved Google News URL: https://www.incentivimpresa.it/bandi-auto-aziendali-elettriche-2026/
+2026-10-07 12:13:41,425 [INFO] URL: https://www.incentivimpresa.it/bandi-auto-aziendali-elettriche-2026/
+2026-10-07 12:13:41,630 [INFO] Full text skipped (status 403): https://www.incentivimpresa.it/bandi-auto-aziendali-elettriche-2026/
+2026-10-07 12:13:41,630 [INFO] Text length: 159 chars | source: fallback
+2026-10-07 12:13:41,630 [INFO] Text preview: Auto aziendali elettriche 2026: quali incentivi restano - Incentivimpresa
+
+Auto aziendali elettriche 2026: quali incentivi restano &nbsp;&nbsp; Incentivimpresa...
+2026-10-07 12:13:41,630 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:41,630 [WARNING] LLM returned None — skipping: Auto aziendali elettriche 2026: quali incentivi restano - In
+2026-10-07 12:13:41,630 [INFO] ------- Processing article n. 9: KI-Rechner LUMI-AI: 387 Millionen für einen Supercomputer – Europa kauft sich hi -------
+2026-10-07 12:13:41,727 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiXkFVX3lxTFBObldtOXlSVDNjMU1JODhUSkwxdGFOc2NNUmdsdDNVV3ZyU05OVXJMVWYtNW04Z2l4MlIxU0lxYWNVQ1AxSndZTEtYX3VydnBGUnNER2JLQldpUFo3NmfSAWZBVV95cUxNc1kwMHFXVWZTQ0lscDItdWg3RlVTQ29fbjZtTVZ0M1hlTUdLSEU0OUVWYW5IVDF4dVZDMHpPclJQZnllWXcyTjh5QWh0R0lHU1VoalBUbzNGWS1kRjRMVmROWDM4cGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:42,846 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:42,847 [INFO] Resolved Google News URL: https://xpert.digital/it/calcolatrice-ai-luma-ai/
+2026-10-07 12:13:42,847 [INFO] URL: https://xpert.digital/it/calcolatrice-ai-luma-ai/
+2026-10-07 12:13:42,883 [INFO] Full text skipped (status 403): https://xpert.digital/it/calcolatrice-ai-luma-ai/
+2026-10-07 12:13:42,883 [INFO] Text length: 349 chars | source: fallback
+2026-10-07 12:13:42,883 [INFO] Text preview: KI-Rechner LUMI-AI: 387 Millionen für einen Supercomputer – Europa kauft sich hier keine Unabhängigkeit, sondern Handlungsfähigkeit - Xpert.Digital - Konrad Wolfenstein
+
+KI-Rechner LUMI-AI: 387 Millio...
+2026-10-07 12:13:42,883 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:42,883 [WARNING] LLM returned None — skipping: KI-Rechner LUMI-AI: 387 Millionen für einen Supercomputer – 
+2026-10-07 12:13:42,883 [INFO] ------- Processing article n. 9: Petrobras fecha contrato de 20 anos com Sempra Infrastructure para compra de GNL -------
+2026-10-07 12:13:42,985 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdGRBckFla3d4bXlIMzRwcHR5ZVJVbzBCSkpySVdwQU1xWDJVUE51aGJBc1FLdjdCTUI5QmZyZDhRUHhqcVdtR0Y5VVZnc3V2V3Y4NldNMVVyMHNfWWVXanZjTGRQZlZmYzhhMFBJWXNsMlNSWmdjb1RIaU4zbmdRRVM1ZnJiQ0FZeWgzRHZ1YVdLcFVkejlpbTF0NjQyandFaE0xR19taGEwOXhlbVdabUtBcWF5MUFHZDFnTGI5aTlKblJfdTdwUWwwNjNRd09xNjhPTNIB4wFBVV95cUxOYV9Eb0FydmhDbFAwNmo2WnBOYXdPSFpheWFuNjdRMTFCT21UUkdSRS1MOEdmb3NwemxLaEZ5aFZDVzBneTRUV2dxbkFTVWlia3V0WF85WVN2TGsxLWJnbHdlUDRyZGE4UVJyMldJRmV4bTdoOFNWVjYyQmpwLUNRampWd2dmTmUtNjhjRHFhTmc4ci12MUdXa216LUM4WHh3dUlMOWRTT19tbDBRQjh2Z3BtT2drUmI2ZzRIdHNLM2c2anpvTkFZaVdGNDJYM2k2Z1FqS2NvOS1oRktfVFZURkxTSQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:44,116 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:44,117 [INFO] Resolved Google News URL: https://valor.globo.com/empresas/noticia/2026/09/14/petrobras-fecha-contrato-de-20-anos-com-sempra-i
+2026-10-07 12:13:44,117 [INFO] URL: https://valor.globo.com/empresas/noticia/2026/09/14/petrobras-fecha-contrato-de-20-anos-com-sempra-infrastructure-para-compra-de-gnl.ghtml
+2026-10-07 12:13:47,208 [INFO] Text length: 1659 chars | source: full
+2026-10-07 12:13:47,208 [INFO] Text preview: Petrobras fecha contrato de 20 anos com Sempra Infrastructure para compra de GNL
+A Sempra Infrastructure desenvolve, constrói, opera e investe em ativos de infraestrutura energética, incluindo projeto...
+2026-10-07 12:13:47,208 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:47,208 [WARNING] LLM returned None — skipping: Petrobras fecha contrato de 20 anos com Sempra Infrastructur
+2026-10-07 12:13:47,208 [INFO] ------- Processing article n. 9: Jerónimo Martins instala 18 centrais solares em lojas Pingo Doce e Recheio - SAP -------
+2026-10-07 12:13:47,307 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxOY0Q3UUlPQUJjd0lIbF9BN0p0U3R3OEk1bE1GRnF4bWVvajhXLUllUGFWbWI0VUdmX2VadHVwWjNfRDVHSURWZXlfYi1SR182djJiYUxiVHNXQ21DY3I1SHlWMWlQNklxWVA0cXcwMDdhd2RhN1c3eDNfNlFjbzd4ZHVLd1E3cWlpbGtIX3VhbWxvMnN2U0V5WnlJUF9SVm9NcUQydGhFdTVRYTdWV3NMMDBBNFpseVR0YzktaDh4TQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 12:13:48,424 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 12:13:48,425 [INFO] Resolved Google News URL: https://sapo.pt/artigo/jeronimo-martins-instala-18-centrais-solares-em-lojas-pingo-doce-e-recheio-6a
+2026-10-07 12:13:48,425 [INFO] URL: https://sapo.pt/artigo/jeronimo-martins-instala-18-centrais-solares-em-lojas-pingo-doce-e-recheio-6aa17b898767c6705c0a0d20
+2026-10-07 12:13:49,369 [INFO] Text length: 3228 chars | source: full
+2026-10-07 12:13:49,369 [INFO] Text preview: Conteúdo
+Esta voz foi gerada com recurso a inteligência artificial, a partir do resumo do artigo original. Embora esta tecnologia tenha sido concebida para ser útil e precisa, pode conter erros.
+- O G...
+2026-10-07 12:13:49,369 [ERROR] No LLM providers available for this run
+2026-10-07 12:13:49,369 [WARNING] LLM returned None — skipping: Jerónimo Martins instala 18 centrais solares em lojas Pingo 
+2026-10-07 12:13:49,369 [INFO] Run complete. New deals: 2, Updates: 7
+2026-10-07 12:13:49,382 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1428 deals)
