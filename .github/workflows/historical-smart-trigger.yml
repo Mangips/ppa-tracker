@@ -4,82 +4,74 @@ on:
   workflow_dispatch:
     inputs:
       start_date:
-        description: 'Start date (YYYY-MM-DD) - ignored if historical_progress.txt exists'
+        description: 'Start date override (YYYY-MM-DD). Leave blank to resume from historical_progress.txt'
         required: false
-        default: '2025-01-01'
+        default: ''
       end_date:
         description: 'Last end date (YYYY-MM-DD)'
         required: true
-        default: '2026-06-08'
-      llm_requests_per_run:
-        description: 'Estimated LLM requests per run (default 30)'
-        required: true
-        default: '30'
+        default: '2026-09-30'
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  
+
 jobs:
   run-historical:
     runs-on: ubuntu-latest
     environment: Test
     permissions:
       contents: write
-      
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v6
         with:
-          # Fetch full history so we can commit back cleanly
           fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-          
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Read last processed date
-        id: read_progress
+      - name: Determine date range
+        id: dates
         run: |
-          if [ -f historical_progress.txt ]; then
+          if [ -n "${{ inputs.start_date }}" ]; then
+            NEXT_START="${{ inputs.start_date }}"
+          elif [ -f historical_progress.txt ]; then
             LAST_PROCESSED=$(cat historical_progress.txt)
             NEXT_START=$(date -d "$LAST_PROCESSED + 1 day" +%Y-%m-%d)
           else
-            NEXT_START="${{ inputs.start_date }}"
-          fi
-          echo "next_start=$NEXT_START" >> $GITHUB_OUTPUT
-
-      - name: Check GitHub Actions usage this month
-        id: check_actions
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
-        run: |
-          NOW=$(date +%Y-%m)
-          FIRST_DAY="${NOW}-01T00:00:00Z"
-          RUN_DATA=$(gh api -H "Accept: application/vnd.github+json" "/repos/$REPO/actions/runs?created=$FIRST_DAY&per_page=100" | jq '[.workflow_runs[] | select(.status == "completed") | .run_duration_ms]')
-          TOTAL_MS=$(echo "$RUN_DATA" | jq 'add // 0')
-          TOTAL_MINUTES=$((TOTAL_MS / 60000))
-          REMAINING_MINUTES=$((2000 - TOTAL_MINUTES))
-          MAX_RUNS_BY_ACTIONS=$((REMAINING_MINUTES / 5))
-          MAX_RUNS_BY_LLM=$((1500 / ${{ inputs.llm_requests_per_run }}))
-          SAFE_RUNS=$((MAX_RUNS_BY_ACTIONS < MAX_RUNS_BY_LLM ? MAX_RUNS_BY_ACTIONS : MAX_RUNS_BY_LLM))
-          if [ $SAFE_RUNS -lt 1 ]; then
-            echo "::error::No safe runs remaining!"
+            echo "::error::No start_date provided and historical_progress.txt does not exist."
             exit 1
           fi
-          echo "safe_runs=$SAFE_RUNS" >> $GITHUB_OUTPUT
-          
-      - name: Run pipeline sequentially for each week
+
+          END_DATE="${{ inputs.end_date }}"
+
+          if [[ "$NEXT_START" > "$END_DATE" ]]; then
+            echo "::error::Start date $NEXT_START is after end date $END_DATE."
+            exit 1
+          fi
+
+          WEEK_END=$(date -d "$NEXT_START +6 days" +%Y-%m-%d)
+
+          if [[ "$WEEK_END" > "$END_DATE" ]]; then
+            WEEK_END="$END_DATE"
+          fi
+
+          echo "week_start=$NEXT_START" >> "$GITHUB_OUTPUT"
+          echo "week_end=$WEEK_END" >> "$GITHUB_OUTPUT"
+
+      - name: Run one historical week
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
-          MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
           NOTIFY_EMAIL_ENABLED: ${{ vars.NOTIFY_EMAIL_ENABLED }}
           NOTIFY_SMTP_HOST: ${{ secrets.NOTIFY_SMTP_HOST }}
           NOTIFY_SMTP_PORT: ${{ secrets.NOTIFY_SMTP_PORT }}
@@ -87,46 +79,24 @@ jobs:
           NOTIFY_SMTP_PASSWORD: ${{ secrets.NOTIFY_SMTP_PASSWORD }}
           NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
           ENVIRONMENT: ${{ vars.ENVIRONMENT }}
-          END_DATE: ${{ inputs.end_date }}
-          SAFE_RUNS: ${{ steps.check_actions.outputs.safe_runs }}
-          NEXT_START: ${{ steps.read_progress.outputs.next_start }}
+          SEARCH_FROM_DATE: ${{ steps.dates.outputs.week_start }}
+          SEARCH_TO_DATE: ${{ steps.dates.outputs.week_end }}
+        run: python src/pipeline.py
+
+      - name: Commit results and progress
         run: |
           git config user.name "ppa-tracker-bot"
           git config user.email "bot@ppa-tracker"
 
-          WEEKS_PROCESSED=0
+          echo "${{ steps.dates.outputs.week_end }}" > historical_progress.txt
 
-          for (( i=0; i<SAFE_RUNS; i++ )); do
-            WEEK_START=$(date -d "$NEXT_START +$((i*7)) days" +%Y-%m-%d)
+          git add \
+            data/ppa_deals.db \
+            data/ppa_deals.csv \
+            data/logs/ \
+            historical_progress.txt
 
-            # Stop if we've passed the end date
-            if [[ "$WEEK_START" > "$END_DATE" ]]; then
-              echo "::notice::All weeks up to $END_DATE have been processed."
-              break
-            fi
+          git diff --staged --quiet || \
+            git commit -m "chore: historical update ${{ steps.dates.outputs.week_start }} to ${{ steps.dates.outputs.week_end }}"
 
-            WEEK_END=$(date -d "$WEEK_START +6 days" +%Y-%m-%d)
-            if [[ "$WEEK_END" > "$END_DATE" ]]; then
-              WEEK_END="$END_DATE"
-            fi
-
-            echo "--- Processing $WEEK_START to $WEEK_END ---"
-
-            SEARCH_FROM_DATE="$WEEK_START" SEARCH_TO_DATE="$WEEK_END" python src/pipeline.py
-
-            # Commit DB, CSV and logs after each week
-            git add data/ppa_deals.db data/ppa_deals.csv data/logs/
-            git diff --staged --quiet || git commit -m "chore: historical update $WEEK_START to $WEEK_END"
-
-            # Update progress file and commit it together
-            echo "$WEEK_END" > historical_progress.txt
-            git add historical_progress.txt
-            git commit -m "chore: progress → $WEEK_END"
-
-            WEEKS_PROCESSED=$((WEEKS_PROCESSED + 1))
-          done
-
-          # Single push at the end covering all weeks
           git push
-
-          echo "::notice::Processed $WEEKS_PROCESSED week(s). Last end: $WEEK_END. Re-trigger tomorrow to continue."
