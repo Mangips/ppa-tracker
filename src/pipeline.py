@@ -44,13 +44,14 @@ LLM_PROVIDERS = [
         "url": "https://api.groq.com/openai/v1/chat/completions",
         "model": os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b"),
         "min_delay": 15,
+        "timeout": 30,
     },
     {
         "name": "gemini",
         "key": os.environ.get("GEMINI_KEY"),
-        "url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
         "model": os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite"),
         "min_delay": 5,
+        "timeout": 20,
     },
     {
         "name": "mistral",
@@ -58,6 +59,7 @@ LLM_PROVIDERS = [
         "url": "https://api.mistral.ai/v1/chat/completions",
         "model": os.environ.get("MISTRAL_MODEL", "mistral-small-latest"),
         "min_delay": 5,
+        "timeout": 20,
     },
 ]
 
@@ -376,14 +378,16 @@ You are an expert energy analyst. Extract structured information about Power Pur
 Analyze the text below and:
 1. Identify **ALL SIGNED/COMPLETED PPA deals** described (not rumours, tenders, negotiations or proposals).
 2. For **EACH deal**, extract all fields below into a **separate JSON object**.
-3. Return a **JSON array** of these objects (one per deal).
-4. If **NO signed deals** are found, return an array with **ONE object** where `is_signed_deal` is `false` and all other fields are `null`.
+3. Return ONE top-level JSON object containing a "deals" array.
+4. If NO signed deals are found, return:
+{"deals":[{"is_signed_deal":false,...}]}
 5. If signed, `is_european` must reflect where the ENERGY IS DELIVERED, not where the companies are based.
 6. If an article describes multiple individual deals, extract EACH separately with its own capacity. Do NOT also extract an aggregate/summary entry. If you cannot determine the capacity of an individual deal, use null — but never create a summary row that combines multiple deals into one.
 7. Distinguish a PPA deal from an M&A / asset transaction. A signed PPA deal is a NEW offtake contract in which a buyer agrees to purchase electricity, capacity, or certificates from a seller under specific terms (price, volume, or tenure). It is NOT a plant/portfolio acquisition, divestment, financing round, refinancing, or equity/company sale — even if the acquired asset already has a PPA attached, and even if the article mentions "PPA" and a capacity in MW. If the core event described is a change of ownership of the plant, project, or company rather than a newly negotiated offtake agreement, set `is_signed_deal` to `false` and `transaction_type` to `"acquisition"`.
 8. A PPA is specifically an ELECTRICITY (or renewable energy certificate) offtake agreement. Do NOT extract gas, LNG, hydrogen, or other non-electricity commodity supply contracts, even if the source article loosely uses the word "PPA" or describes a long-term energy supply agreement. If the agreement is not for electricity/certificates, set `is_signed_deal` to `false` and `transaction_type` to `"other"`.
 
-Return **ONLY** a valid JSON array — no markdown fences, no explanation, nothing else.
+Return **ONLY** valid JSON — no markdown fences, no explanation, nothing else.
+The top-level JSON object MUST contain a "deals" array.
 Each object must include **ALL fields** below (use `null` for missing values):
 
 {{
@@ -428,65 +432,91 @@ def _llm_disable(provider: dict, reason: str) -> None:
 
 
 def _llm_request(provider: dict, prompt: str, title: str):
-    """Make one request and return (response, error_type)."""
+    """Return (JSON text, error_type). JSON text is always a string."""
     name = provider["name"]
 
     _llm_wait(provider)
     last_llm_request[name] = time.monotonic()
 
-    payload = {
-        "model": provider["model"],
-        "temperature": 0.1,
-        "max_tokens": 1024,
-        "messages": [{"role": "user", "content": prompt}],
-    }
-
     try:
-        resp = requests.post(
-            provider["url"],
-            headers={
-                "Authorization": f"Bearer {provider['key']}",
-                "Content-Type": "application/json",
-            },
-            json=payload,
-            timeout=30,
-        )
+        # Gemini native API
+        if name == "gemini":
+            url = (
+                f"https://generativelanguage.googleapis.com/v1beta/"
+                f"models/{provider['model']}:generateContent"
+            )
 
-        log.info(
-            f"LLM [{name}/{provider['model']}] HTTP "
-            f"{resp.status_code} for: {title[:60]}"
-        )
+            payload = {
+                "contents": [
+                    {
+                        "parts": [
+                            {"text": prompt}
+                        ]
+                    }
+                ],
+                "generationConfig": {
+                    "temperature": 0.1,
+                    "maxOutputTokens": 1024,
+                    "responseMimeType": "application/json",
+                },
+            }
 
-        if resp.status_code == 200:
-            return resp, None
+            resp = requests.post(
+                url,
+                params={"key": provider["key"]},
+                headers={"Content-Type": "application/json"},
+                json=payload,
+                timeout=provider["timeout"],
+            )
+
+            log.info(
+                f"LLM [{name}/{provider['model']}] HTTP "
+                f"{resp.status_code} for: {title[:60]}"
+            )
+
+            if resp.status_code == 200:
+                data = resp.json()
+                content = (
+                    data["candidates"][0]["content"]["parts"][0]["text"]
+                )
+                return content, None
+
+        # Groq + Mistral OpenAI-compatible API
+        else:
+            payload = {
+                "model": provider["model"],
+                "temperature": 0.1,
+                "max_tokens": 1024,
+                "messages": [
+                    {"role": "user", "content": prompt}
+                ],
+            }
+
+            if name == "groq":
+                payload["response_format"] = {"type": "json_object"}
+
+            resp = requests.post(
+                provider["url"],
+                headers={
+                    "Authorization": f"Bearer {provider['key']}",
+                    "Content-Type": "application/json",
+                },
+                json=payload,
+                timeout=provider["timeout"],
+            )
+
+            log.info(
+                f"LLM [{name}/{provider['model']}] HTTP "
+                f"{resp.status_code} for: {title[:60]}"
+            )
+
+            if resp.status_code == 200:
+                data = resp.json()
+                content = data["choices"][0]["message"]["content"]
+                return content, None
 
         if resp.status_code == 429:
-            body = resp.text[:500]
-            retry_after = resp.headers.get("retry-after")
-
-            log.warning(
-                f"LLM [{name}] 429 — retry-after={retry_after}; "
-                f"body: {body}"
-            )
-
-            # A 429 can be a short burst limit or a provider quota.
-            # Retry briefly only when Retry-After is small.
-            try:
-                wait = int(float(retry_after)) if retry_after else 30
-            except ValueError:
-                wait = 30
-
-            if wait <= 60:
-                log.warning(
-                    f"LLM [{name}] transient 429 — waiting {wait}s"
-                )
-                time.sleep(wait)
-                return _llm_request(provider, prompt, title)
-
-            _llm_disable(
-                provider,
-                f"429 with retry-after={wait}s; treating as exhausted quota"
-            )
+            _llm_disable(provider, "HTTP 429 rate/quota limit")
             return None, "quota"
 
         if resp.status_code in (401, 403):
@@ -508,8 +538,16 @@ def _llm_request(provider: dict, prompt: str, title: str):
         )
         return None, "error"
 
+    except (KeyError, IndexError, TypeError, json.JSONDecodeError) as e:
+        log.warning(f"LLM [{name}] malformed response: {e}")
+        _llm_disable(provider, "malformed API response")
+        return None, "error"
+
     except requests.Timeout:
         log.warning(f"LLM [{name}] request timeout")
+        if name == "gemini":
+            _llm_disable(provider, "timeout")
+            return None, "disabled"
         return None, "transient"
 
     except requests.RequestException as e:
@@ -517,36 +555,39 @@ def _llm_request(provider: dict, prompt: str, title: str):
         return None, "transient"
 
 
-def _parse_llm_response(resp, title: str, outlet: str):
-    """Parse an OpenAI-compatible response into the expected JSON."""
+def _parse_llm_response(content, title: str, outlet: str):
+    """Parse normalized JSON text from any LLM provider."""
     try:
-        content = resp.json()["choices"][0]["message"]["content"].strip()
+        if not isinstance(content, str):
+            raise TypeError("LLM content is not a string")
+
+        content = content.strip()
 
         if content.startswith("```"):
-            content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+            lines = content.splitlines()
+            if lines and lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].strip() == "```":
+                lines = lines[:-1]
+            content = "\n".join(lines).strip()
 
         parsed = json.loads(content)
 
-        if isinstance(parsed, dict):
-            log.info(
-                f"LLM extracted — signed={parsed.get('is_signed_deal')} "
-                f"confidence={parsed.get('confidence')} "
-                f"buyer={parsed.get('buyer')} seller={parsed.get('seller')} "
-                f"| {title[:50]}"
-            )
+        if isinstance(parsed, dict) and isinstance(parsed.get("deals"), list):
+            deals = parsed["deals"]
         elif isinstance(parsed, list):
-            signed_deals = [
-                d for d in parsed
-                if isinstance(d, dict) and d.get("is_signed_deal")
-            ]
-            log.info(
-                f"LLM extracted {len(parsed)} deals "
-                f"({len(signed_deals)} signed) | {title[:50]}"
-            )
+            deals = parsed
+        elif isinstance(parsed, dict) and "is_signed_deal" in parsed:
+            deals = [parsed]
+        else:
+            raise ValueError("Unexpected JSON structure")
 
-        return parsed
+        log.info(
+            f"LLM extracted {len(deals)} deals | {title[:50]}"
+        )
+        return deals
 
-    except (KeyError, IndexError, TypeError, json.JSONDecodeError) as e:
+    except (TypeError, ValueError, json.JSONDecodeError) as e:
         log.warning(
             f"LLM JSON/response parse error ({outlet}): {e}"
         )
@@ -1007,23 +1048,30 @@ def export_csv(conn: sqlite3.Connection) -> None:
 # ── Extract full text from google news ─────────────────────────────────────────────────────────────
 
 def resolve_google_news_url(url: str) -> str:
-    """Decode Google News RSS URL to get the real article URL."""
+    """Decode a Google News URL to get the real article URL."""
     if not url or "news.google.com" not in url:
         return url
-        
+
     try:
-        decoded = gnewsdecoder(url)
-        
-        if decoded and decoded.get("status"):
-            real_url = decoded.get("decoded_url")
-            log.info(f"Resolved Google News URL: {real_url[:80]}")
+        decoded = gnewsdecoder(
+            url,
+            interval=1,
+            timeout=10,
+        )
+
+        real_url = decoded.get("decoded_url")
+        if decoded.get("success") and real_url:
+            log.info(f"Resolved Google News URL: {real_url[:100]}")
             return real_url
-            
-        log.warning(f"URL decoding failed (status false): {url[:80]}")
+
+        log.warning(
+            f"URL decoding failed: {decoded.get('message', 'unknown error')} "
+            f"| {url[:100]}"
+        )
         return url
-        
+
     except Exception as e:
-        log.warning(f"URL resolution failed ({e}): {url[:80]}")
+        log.warning(f"URL resolution failed ({e}): {url[:100]}")
         return url
 
 # ── Email Notification ─────────────────────────────────────────────────────────
