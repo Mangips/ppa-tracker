@@ -380,13 +380,13 @@ Analyze the text below and:
 2. For **EACH deal**, extract all fields below into a **separate JSON object**.
 3. Return ONE top-level JSON object containing a "deals" array.
 4. If NO signed deals are found, return:
-{"deals":[{"is_signed_deal":false,...}]}
+{{"deals":[{{"is_signed_deal":false,...}}]}}
 5. If signed, `is_european` must reflect where the ENERGY IS DELIVERED, not where the companies are based.
 6. If an article describes multiple individual deals, extract EACH separately with its own capacity. Do NOT also extract an aggregate/summary entry. If you cannot determine the capacity of an individual deal, use null — but never create a summary row that combines multiple deals into one.
 7. Distinguish a PPA deal from an M&A / asset transaction. A signed PPA deal is a NEW offtake contract in which a buyer agrees to purchase electricity, capacity, or certificates from a seller under specific terms (price, volume, or tenure). It is NOT a plant/portfolio acquisition, divestment, financing round, refinancing, or equity/company sale — even if the acquired asset already has a PPA attached, and even if the article mentions "PPA" and a capacity in MW. If the core event described is a change of ownership of the plant, project, or company rather than a newly negotiated offtake agreement, set `is_signed_deal` to `false` and `transaction_type` to `"acquisition"`.
 8. A PPA is specifically an ELECTRICITY (or renewable energy certificate) offtake agreement. Do NOT extract gas, LNG, hydrogen, or other non-electricity commodity supply contracts, even if the source article loosely uses the word "PPA" or describes a long-term energy supply agreement. If the agreement is not for electricity/certificates, set `is_signed_deal` to `false` and `transaction_type` to `"other"`.
 
-Return **ONLY** valid JSON — no markdown fences, no explanation, nothing else.
+Return ONLY valid JSON — no markdown fences, no explanation, nothing else.
 The top-level JSON object MUST contain a "deals" array.
 Each object must include **ALL fields** below (use `null` for missing values):
 
