@@ -1,0 +1,636 @@
+2026-10-07 14:08:45,192 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-07 14:08:45,197 [INFO] Loaded 1526 existing deals for dedup matching
+2026-10-07 14:08:45,198 [INFO] Searching from 2026-10-07 to present with 3 loockback days
+2026-10-07 14:08:45,608 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-07 14:08:46,822 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-07 14:08:47,958 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-07 14:08:49,345 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-07&hl=en&gl=US&ceid=US:en: 16 results
+2026-10-07 14:08:51,614 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-07&hl=en&gl=US&ceid=US:en: 1 results
+2026-10-07 14:08:53,876 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-07&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-10-07 14:08:56,127 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-07&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-07 14:08:58,405 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-07&hl=fr&gl=FR&ceid=FR:fr: 8 results
+2026-10-07 14:09:00,643 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-07&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-07 14:09:02,879 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-07&hl=es&gl=ES&ceid=ES:es: 8 results
+2026-10-07 14:09:05,171 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-07&hl=es&gl=ES&ceid=ES:es: 7 results
+2026-10-07 14:09:07,433 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-07&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-10-07 14:09:09,649 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-07&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-07 14:09:11,894 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-07&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-07 14:09:14,115 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-07&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-07 14:09:16,322 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-07&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-07 14:09:18,646 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-07&hl=pt&gl=PT&ceid=PT:pt: 3 results
+2026-10-07 14:09:21,993 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-07&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-07 14:09:23,993 [INFO] Total raw articles collected: 47
+2026-10-07 14:09:24,121 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-10-07 14:09:25,824 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-10-07 14:09:26,831 [INFO] Unique unseen articles: 46
+2026-10-07 14:09:26,832 [INFO] ------- Processing article n. 0: Zelestra Passes $1 Billion in 2026 US Project Financing with $350 Million Close  -------
+2026-10-07 14:09:26,943 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinAJBVV95cUxPX2YyUHNIaDh1Q0JTTjFTeDZMMk5xMHdYZHZmMGpSMjBwYnRlVWFIdGRQNTc1QjltakViNUxUVXA1SHNPbFBXaHlVS0tmZUhrTmtmZXloRjZEejZBWi1MckE3T1FYTjNveTlDaDZEQ1UteDB5dGsxdmtXd0NsSU1GaExidmgxR2hKTFZEblFqZ3lfNFJxLTg1WFZqcnE1WURZem9NQkt0NDgteW0wMnl5R1pqQVQza1RTUXNhVnAzazBOeGoyQUZtbFc1Qmota3hSVXJWQW1oVXlnUXgyY1lvMzFVc3VaY1NXVDktMmNTWUxVZXBndzdaRjY3a0h3WkFZOHpobVljam9sUlJqLTFmZ3A5bFVSYjNzZXVsVA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:09:28,033 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:09:28,033 [INFO] Resolved Google News URL: https://www.businesswire.com/news/home/20261007571574/en/Zelestra-Passes-%241-Billion-in-2026-US-Pro
+2026-10-07 14:09:28,033 [INFO] URL: https://www.businesswire.com/news/home/20261007571574/en/Zelestra-Passes-%241-Billion-in-2026-US-Project-Financing-with-%24350-Million-Close-for-203-MW-Reclamation-Solar-Project-Backed-by-Meta
+2026-10-07 14:09:28,066 [INFO] Full text skipped (status 403): https://www.businesswire.com/news/home/20261007571574/en/Zelestra-Passes-%241-Bi
+2026-10-07 14:09:28,066 [INFO] Text length: 307 chars | source: fallback
+2026-10-07 14:09:28,066 [INFO] Text preview: Zelestra Passes $1 Billion in 2026 US Project Financing with $350 Million Close for 203 MW Reclamation Solar Project Backed by Meta - Business Wire
+
+Zelestra Passes $1 Billion in 2026 US Project Finan...
+2026-10-07 14:09:28,066 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:09:29,979 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Zelestra Passes $1 Billion in 2026 US Project Financing with
+2026-10-07 14:09:29,979 [INFO] LLM extracted 1 deals | Zelestra Passes $1 Billion in 2026 US Project Fina
+2026-10-07 14:09:29,981 [INFO] Not a signed deal — skipping: Zelestra Passes $1 Billion in 2026 US Project Financing with
+2026-10-07 14:09:29,981 [INFO] ------- Processing article n. 0: Sonnedix adds 54MW of Italian solar assets, taking operational portfolio above 1 -------
+2026-10-07 14:09:30,061 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxQcUpqTjNMbVl0TndYMlJwSFBxYm5za2xMVXZUTVhMcnJoZnFRMzBMaU5fOGJoV3lVT191T1VxWDd6SzV6UlVOMnJyaTVqQkY5OHozZzFLOXdCaTE4WWNIQkdfU09BbkJjQklMV1J3MlpuSDhoY3dMemluRFp1Ty1MVVRzTUlFajZtRzM4cUxQWi13T1Z5cVBfanRXc0Z6WXRRYUEwb3A5VUlPNU5r?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:09:31,148 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:09:31,149 [INFO] Resolved Google News URL: https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-abov
+2026-10-07 14:09:31,149 [INFO] URL: https://www.pv-tech.org/sonnedix-adds-54mw-of-italian-solar-assets-taking-operational-portfolio-above-1-3gw/
+2026-10-07 14:09:31,575 [INFO] Text length: 5619 chars | source: full
+2026-10-07 14:09:31,575 [INFO] Text preview: Renewable energy company Sonnedix has acquired two operational solar PV projects in Italy with a combined capacity of 54MW from EOS ReNewable Infrastructure Fund II, managed by EOS Investment Manageme...
+2026-10-07 14:09:31,575 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:09:45,527 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Sonnedix adds 54MW of Italian solar assets, taking operation
+2026-10-07 14:09:45,528 [INFO] LLM extracted 1 deals | Sonnedix adds 54MW of Italian solar assets, taking
+2026-10-07 14:09:45,530 [INFO] Not a signed deal — skipping: Sonnedix adds 54MW of Italian solar assets, taking operation
+2026-10-07 14:09:45,530 [INFO] ------- Processing article n. 0: Romania – Dama Solar secures funding to generate 1.8 TWh a year - pv Europe -------
+2026-10-07 14:09:45,603 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxNWHItUnppNEcyd3Bob1pxN0MxSzNKd0ViSlN4Q2FSUFNES1JnR05MWmZud1poRjhsMTlvbWxVaXV5QU82TjJDbWZwdXNFTWFFYWZITUhvYTJwbEpXQ1lTVG52REZWNXlOZ3R2R2ZjY3Q5TmxYNHJBR0x5VzBzSy1xdVdxSVRlV2hnTWxxWGNNQUFRX2djMnc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:09:46,686 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:09:46,687 [INFO] Resolved Google News URL: https://www.pveurope.eu/solar-parks/romania-dama-solar-secures-funding-generate-18-twh-year
+2026-10-07 14:09:46,687 [INFO] URL: https://www.pveurope.eu/solar-parks/romania-dama-solar-secures-funding-generate-18-twh-year
+2026-10-07 14:09:47,978 [INFO] Text length: 2529 chars | source: full
+2026-10-07 14:09:47,978 [INFO] Text preview: Rezolv will now take the 1.3 GW plant in Arad county, western Romania, straight into construction. It has yet to name its EPC contractors, but expects the build to employ around 1,500 people at its pe...
+2026-10-07 14:09:47,978 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:10:00,385 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: Romania – Dama Solar secures funding to generate 1.8 TWh a y
+2026-10-07 14:10:00,385 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-07 14:10:00,386 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 14:10:00,386 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:10:01,471 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Romania – Dama Solar secures funding to generate 1.8 TWh a y
+2026-10-07 14:10:01,471 [INFO] LLM extracted 1 deals | Romania – Dama Solar secures funding to generate 1
+2026-10-07 14:10:01,487 [INFO] NEW: Unnamed corporate offtaker / Rezolv Energy (West Power Investments) (Romania, None MW)
+2026-10-07 14:10:06,488 [INFO] ------- Processing article n. 1: Europe's Packaging Regulation Now Reaches Supplier Contracts - Environment+Energ -------
+2026-10-07 14:10:06,560 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPeWttTnFWVEtYNUIxbnFKUnZSZnBERVh1elNmS29qOG9jRUhmamlFa3NJWVJxR2tDVUdHTFIxdVVCazI5YXQ1QnJ4UlNhUUtWWEZXWjk1WXpNa0VleVpPT3lHZjJITGhaZ1JNSlNEMHNwR1hHLVprQmNNSWlsS25XaTZHUTM4U1gxWUFwdXRCMHFOOGxDMlRqVnZzSUlNa0VHYlRQVTVSWmxoSkZJY1BB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:10:07,673 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:10:07,674 [INFO] Resolved Google News URL: https://environmentenergyleader.com/stories/europes-packaging-regulation-now-reaches-supplier-contra
+2026-10-07 14:10:07,674 [INFO] URL: https://environmentenergyleader.com/stories/europes-packaging-regulation-now-reaches-supplier-contracts,142616
+2026-10-07 14:10:07,891 [INFO] Text length: 4420 chars | source: full
+2026-10-07 14:10:07,891 [INFO] Text preview: Any packaging a company buys for the European market this quarter already falls under the EU's new packaging regulation, and the documents that prove it complies have to come from suppliers before nat...
+2026-10-07 14:10:07,891 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:10:14,333 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Europe's Packaging Regulation Now Reaches Supplier Contracts
+2026-10-07 14:10:14,334 [INFO] LLM extracted 1 deals | Europe's Packaging Regulation Now Reaches Supplier
+2026-10-07 14:10:14,335 [INFO] Not a signed deal — skipping: Europe's Packaging Regulation Now Reaches Supplier Contracts
+2026-10-07 14:10:14,335 [INFO] ------- Processing article n. 1: 3 Battery Stocks With Revenue Growth Up To 40% - Simply Wall Street -------
+2026-10-07 14:10:14,419 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxPLVNYTEh4WjNuSW1lMm5uZ0htanV4UTRFRV9TTXZ2cXAtSjhlLUl3eThtREdfTW95WGl1S0pjaXNwaVdfcW9ycklTSmJ3eDloRkpneTlLQVB0OFlTX3dTeVV1ZHVRVE5PZjc5Y1BXbVY0Z3ZHeTVob3FPUFlZSkVsYUpFZVpKd05BWUlMbzcwa3ZSNVBxTXZsWFZFaEQ4VWNrX3V1YUpKU3NfWTNXRTZSQ0t30gGyAUFVX3lxTE8tU1hMSHhaM25JbWUybm5nSG1qdXhRNEVFX1NNdnZxcC1KOGUtSXd5OG1ER19Nb3lYaXVLSmNpc3BpV19xb3JySVNKYnd4OWhGSmd5OUtBUHQ4WVNfd1N5VXVkdVFUTk9mNzljUFdtVjRndkd5NWhvcU9QWVlKRWxhSkVlWkp3TkFZSUxvNzBrdlI1UHFNdmxYVkVoRDhVY2tfdXVhSkpTc19ZM1dFNlJDS3c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:10:15,525 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:10:15,526 [INFO] Resolved Google News URL: https://simplywall.st/stocks/us/utilities/nyse-vst/vistra/news/3-battery-stocks-with-revenue-growth-
+2026-10-07 14:10:15,526 [INFO] URL: https://simplywall.st/stocks/us/utilities/nyse-vst/vistra/news/3-battery-stocks-with-revenue-growth-up-to-40/amp
+2026-10-07 14:10:16,166 [INFO] Text length: 5956 chars | source: full
+2026-10-07 14:10:16,166 [INFO] Text preview: Energy markets feel fragile again. The IMF is warning about a fresh energy shock just as demand for electricity hungry technologies, including AI, keeps building. That squeeze puts long term storage a...
+2026-10-07 14:10:16,166 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:10:29,587 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: 3 Battery Stocks With Revenue Growth Up To 40% - Simply Wall
+2026-10-07 14:10:29,587 [INFO] LLM extracted 1 deals | 3 Battery Stocks With Revenue Growth Up To 40% - S
+2026-10-07 14:10:29,589 [INFO] Not a European deal — skipping: Meta / Vistra (United States, 2600 MW)
+2026-10-07 14:10:29,589 [INFO] ------- Processing article n. 1: Constellation To Invest $4.3 Billion In New Nuclear Capacity After Deal With Goo -------
+2026-10-07 14:10:29,662 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVUdsVS0tcHdnWUVLWno3V2k0TXpzMGdscWNuTFp6bmx3Z01aZHJUZnA2eHloeGNzWGo3cUxRa2M0cVVZUkRDMkNfOHQtS3lzQWNicUZqRkFQLWtNOHVaV0EySXQ2MzRab2pZcGRNWXVfLXhlZThzNHIzeTB1VnVoalNjMTMtUlIycTJXa1VSM1g0UlB4NG9wNU1kWWViTFpWT2R4d1luWkxmZUY2NFhvRGNodTgxalc3dGNjUy04YS0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:10:30,752 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:10:30,752 [INFO] Resolved Google News URL: https://www.nucnet.org/news/constellation-to-invest-usd4-3-billion-in-new-nuclear-capacity-after-dea
+2026-10-07 14:10:30,752 [INFO] URL: https://www.nucnet.org/news/constellation-to-invest-usd4-3-billion-in-new-nuclear-capacity-after-deal-with-google-10-3-2026
+2026-10-07 14:10:30,951 [INFO] Full text skipped (status 403): https://www.nucnet.org/news/constellation-to-invest-usd4-3-billion-in-new-nuclea
+2026-10-07 14:10:30,951 [INFO] Text length: 197 chars | source: fallback
+2026-10-07 14:10:30,951 [INFO] Text preview: Constellation To Invest $4.3 Billion In New Nuclear Capacity After Deal With Google - NucNet
+
+Constellation To Invest $4.3 Billion In New Nuclear Capacity After Deal With Google &nbsp;&nbsp; NucNet...
+2026-10-07 14:10:30,952 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:10:44,785 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 200 for: Constellation To Invest $4.3 Billion In New Nuclear Capacity
+2026-10-07 14:10:44,785 [INFO] LLM extracted 1 deals | Constellation To Invest $4.3 Billion In New Nuclea
+2026-10-07 14:10:44,788 [INFO] Not a signed deal — skipping: Constellation To Invest $4.3 Billion In New Nuclear Capacity
+2026-10-07 14:10:44,788 [INFO] ------- Processing article n. 1: e-Storage to deliver 100 MW/200 MWh BESS for OX2 in Australia - ESS News -------
+2026-10-07 14:10:44,862 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxQdkhaUVRZMnpyR0FOby1zOUozc1Z3eUVYVzNnWklvNUR0cExGSGdyUENIcEViOUk0OEtBeEJ4MHVrOUpJV1otZTBzR1NjM2Q4MEUyVTY3RHVESmQ5dDB2bkRoMi16b0p2bFd1d0ZlYlkwdVVndW9MQmRuOU9DNk1JelkwcFI3dnEzajBSQ3BpN2xpOFNnZmwtZ2dhblMtWVE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:10:45,939 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:10:45,939 [INFO] Resolved Google News URL: https://www.ess-news.com/2026/10/07/e-storage-to-deliver-100-mw-200-mwh-bess-for-ox2-in-australia/
+2026-10-07 14:10:45,939 [INFO] URL: https://www.ess-news.com/2026/10/07/e-storage-to-deliver-100-mw-200-mwh-bess-for-ox2-in-australia/
+2026-10-07 14:10:46,399 [INFO] Text length: 2801 chars | source: full
+2026-10-07 14:10:46,399 [INFO] Text preview: e-Storage, the energy storage-focused subsidiary of PV giant Canadian Solar, has announced it will deliver a 100 MW / 200 MWh battery energy storage system (BESS) to developer OX2 for its Muswellbrook...
+2026-10-07 14:10:46,399 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:11:00,677 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 400 for: e-Storage to deliver 100 MW/200 MWh BESS for OX2 in Australi
+2026-10-07 14:11:00,677 [WARNING] LLM [groq] unexpected HTTP 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"json_validate_failed","failed_generation":""}}
+
+2026-10-07 14:11:00,677 [WARNING] LLM provider groq failed (error); trying next provider
+2026-10-07 14:11:00,677 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:05,272 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: e-Storage to deliver 100 MW/200 MWh BESS for OX2 in Australi
+2026-10-07 14:11:05,272 [INFO] LLM extracted 1 deals | e-Storage to deliver 100 MW/200 MWh BESS for OX2 i
+2026-10-07 14:11:05,273 [INFO] Not a European deal — skipping: Amazon / OX2, Idemitsu (Australia, 164.5 MW)
+2026-10-07 14:11:05,274 [INFO] ------- Processing article n. 1: Google, Constellation ink 3,590-megawatt contract - Northwest Arkansas Democrat- -------
+2026-10-07 14:11:05,363 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxOVXduUGhQZkkzZG50M0tGUF9WejRDTWVOYVo4LUJHWnY3enB1Y3NYOEJLWTRCYVd4dmxWTmtlUnhwa1hJaWhIVThuaVBNYjJSSU55aWJlb3FHUWVuTUt0ekdoZXlIZlBwQ1BsTlRqSzc1SGtrUUJVd1plX1pGSmRLaG5CTTM3dDRWNlQycWdBX0hLaDU1ekE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:11:06,462 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:11:06,463 [INFO] Resolved Google News URL: https://www.nwaonline.com/news/2026/oct/07/google-constellation-ink-3590-megawatt-contract/
+2026-10-07 14:11:06,463 [INFO] URL: https://www.nwaonline.com/news/2026/oct/07/google-constellation-ink-3590-megawatt-contract/
+2026-10-07 14:11:06,820 [INFO] Text length: 3671 chars | source: full
+2026-10-07 14:11:06,820 [INFO] Text preview: NEW YORK -- Google has contracted for 3,590 megawatts of power from Constellation Energy in the largest U.S. power grid, with new nuclear energy accounting for about a quarter of that supply, the comp...
+2026-10-07 14:11:06,820 [INFO] Trying LLM provider: groq (model=openai/gpt-oss-120b)
+2026-10-07 14:11:13,147 [INFO] LLM [groq/openai/gpt-oss-120b] HTTP 429 for: Google, Constellation ink 3,590-megawatt contract - Northwes
+2026-10-07 14:11:13,147 [WARNING] LLM provider DISABLED for this run: groq — HTTP 429 rate/quota limit
+2026-10-07 14:11:13,147 [WARNING] LLM provider groq failed (quota); trying next provider
+2026-10-07 14:11:13,147 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:14,508 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Google, Constellation ink 3,590-megawatt contract - Northwes
+2026-10-07 14:11:14,508 [INFO] LLM extracted 2 deals | Google, Constellation ink 3,590-megawatt contract 
+2026-10-07 14:11:14,509 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 890 MW)
+2026-10-07 14:11:14,509 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 2700 MW)
+2026-10-07 14:11:14,510 [INFO] ------- Processing article n. 1: Beam Global Signs Definitive Agreement to Acquire Drone Technology Company Scout -------
+2026-10-07 14:11:14,582 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAJBVV95cUxOYWlGR2hmRVJlRVBLMU1TSHNtSWRqWkU1N3c1VVpqc3h5d2JKQllLUXc2aGZzSW5EOUZjR0ZaaE1ER2lFRmt0OVdNbFFYZ2RtZExnMmhLalVQSTdJOXRPYVAyem1OMnB2V1VnS0hsb1Vqc3JxYmo3Zm5KcDFSRTYtTWM2YlJOZGJyeGItY2JCWjVpOXAta3BzR1RUdDVtdXJxdUQ1T3ZMLTlpVjVSeURiLWJ0SFZxV1g5ckpDbG1tMjFCUjJ1amc5cTdmWGdQX0pManUzeXhEVVpRRzZZMDdUZXRNd3o0a09Mc0tZSUhROHRybXRnZDFVWC1Jdm96a19vd1pVYkxpSnVJTnZMd0ptN2gxbEwzSWdGQVZ2Qkg2Y0hnVEtacnFDM3JoNk9UMG9pS1V4d1RGcllHekFKeDJKdFhEdVdHc1VKMnFGbQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:11:15,678 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:11:15,678 [INFO] Resolved Google News URL: https://markets.businessinsider.com/news/stocks/beam-global-signs-definitive-agreement-to-acquire-dr
+2026-10-07 14:11:15,678 [INFO] URL: https://markets.businessinsider.com/news/stocks/beam-global-signs-definitive-agreement-to-acquire-drone-technology-company-scoutdi-creating-a-vertically-integrated-u-s-drone-platform-for-industrial-and-defense-markets-1036604540
+2026-10-07 14:11:16,131 [INFO] Text length: 12529 chars | source: full
+2026-10-07 14:11:16,131 [INFO] Text preview: SAN DIEGO, Oct. 07, 2026 (GLOBE NEWSWIRE) -- Beam Global (Nasdaq: BEEM), a leading provider of innovative and sustainable infrastructure solutions for energy storage and security, electrification of m...
+2026-10-07 14:11:16,131 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:20,012 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Beam Global Signs Definitive Agreement to Acquire Drone Tech
+2026-10-07 14:11:20,012 [INFO] LLM extracted 1 deals | Beam Global Signs Definitive Agreement to Acquire 
+2026-10-07 14:11:20,014 [INFO] Not a signed deal — skipping: Beam Global Signs Definitive Agreement to Acquire Drone Tech
+2026-10-07 14:11:20,014 [INFO] ------- Processing article n. 1: Desert Mountain Energy expands UK and Europe pr... - Pluang -------
+2026-10-07 14:11:20,088 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbzlRZUg1ZVVwYl9zakJSbjBfYkRXeG1waTZxY0NFVm41X3RoZ3B6QmJnQlZ6UW5xQWpabG14X21FQ29Zbmc1VGxtcW1IVV9DM3ozUUNVaVItdnAxZ0U4eTNlRGF0YUtteV9Xa0FOVFVHNnJwSTZEbGJSaDFoZVZselZJUGdXSlUwZ3h5ZWpDb3RzZXUxM29Cc2RVcFZZNTZKZ1FKcWt2cGtxQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:11:21,190 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:11:21,191 [INFO] Resolved Google News URL: https://pluang.com/en/news-feed/desert-mountain-energy-umumkan-perjanjian-strategis-dan-pembaruan-ko
+2026-10-07 14:11:21,191 [INFO] URL: https://pluang.com/en/news-feed/desert-mountain-energy-umumkan-perjanjian-strategis-dan-pembaruan-korporat
+2026-10-07 14:11:21,258 [INFO] Full text skipped (status 403): https://pluang.com/en/news-feed/desert-mountain-energy-umumkan-perjanjian-strate
+2026-10-07 14:11:21,259 [INFO] Text length: 131 chars | source: fallback
+2026-10-07 14:11:21,259 [INFO] Text preview: Desert Mountain Energy expands UK and Europe pr... - Pluang
+
+Desert Mountain Energy expands UK and Europe pr... &nbsp;&nbsp; Pluang...
+2026-10-07 14:11:21,259 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:24,055 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Desert Mountain Energy expands UK and Europe pr... - Pluang
+2026-10-07 14:11:24,055 [INFO] LLM extracted 1 deals | Desert Mountain Energy expands UK and Europe pr...
+2026-10-07 14:11:24,057 [INFO] Not a signed deal — skipping: Desert Mountain Energy expands UK and Europe pr... - Pluang
+2026-10-07 14:11:24,057 [INFO] ------- Processing article n. 1: Zelestra closes US$350 million financing at 203MW PV plant in Indiana backed by  -------
+2026-10-07 14:11:24,136 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxQV0FKMWNxSFU2b3VxTkVqWEFaaE1QWFNRMlFMQktjaW5hZ2Jrd013clFhS2NGYnZPRUNJY1YxU25yZjdjRUNzbGFIaElZbU53UTU4dF90ZnBFUnFidmJ5a2hMZjNMQ1JSZTVxX0VNbTdBMDRvOFJFX2lUS05HMXVkbVN4OUVTS1EwWmhsQjQ2MTZwaHhZQU5WY1NscVRfZkVKZi1BaWVOLUU3OW8x?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:11:25,222 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:11:25,222 [INFO] Resolved Google News URL: https://www.pv-tech.org/zelestra-closes-us350-million-financing-at-203mw-pv-plant-in-indiana-backed-
+2026-10-07 14:11:25,222 [INFO] URL: https://www.pv-tech.org/zelestra-closes-us350-million-financing-at-203mw-pv-plant-in-indiana-backed-by-meta/
+2026-10-07 14:11:25,346 [INFO] Text length: 2372 chars | source: full
+2026-10-07 14:11:25,346 [INFO] Text preview: Independent power producer (IPP) Zelestra has closed a US$350 million green credit facility for the 203MW Reclamation Solar project in Indiana.
+Being built on a site previously used for coal mining, t...
+2026-10-07 14:11:25,346 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:30,503 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Zelestra closes US$350 million financing at 203MW PV plant i
+2026-10-07 14:11:30,503 [INFO] LLM extracted 3 deals | Zelestra closes US$350 million financing at 203MW 
+2026-10-07 14:11:30,504 [INFO] Not a signed deal — skipping: Zelestra closes US$350 million financing at 203MW PV plant i
+2026-10-07 14:11:30,508 [INFO] UPDATE: EDP / Zelestra (Spain, 170 MW) — canonical ID: 502
+2026-10-07 14:11:35,514 [INFO] UPDATE: EDP / Zelestra (Spain, None MW) — canonical ID: 502
+2026-10-07 14:11:40,516 [INFO] ------- Processing article n. 3: Who’s holding up Germany’s aluminium game? Meet EGA, Hydro and Constellium - AL  -------
+2026-10-07 14:11:40,585 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbkN2TU9STS1DYm5BWjFNdVpoZ05OaDJ5bFFFV1d0U0JveGJDd19naF93dW4xYTFVR0NUSDR6ZHgtOE9ZRk1KT1IzcTNLSkRzQzFvQXdEbmcydmZJWlk5MFVpQW5ZSjN1dWNhRloxcERhN1JXc2FOb1l6MWdzZUFVVmhVUklhR2VTT2RYVFF4azd6cjFsSDhYbWwyY0xsYUxaQ3MzeVdUcExwNEE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:11:41,699 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:11:41,700 [INFO] Resolved Google News URL: https://www.alcircle.com/news/whos-holding-up-germanys-aluminium-game-meet-ega-hydro-and-constellium
+2026-10-07 14:11:41,700 [INFO] URL: https://www.alcircle.com/news/whos-holding-up-germanys-aluminium-game-meet-ega-hydro-and-constellium-121461
+2026-10-07 14:11:43,102 [INFO] Text length: 6449 chars | source: full
+2026-10-07 14:11:43,102 [INFO] Text preview: Who’s holding up Germany’s aluminium game? Meet EGA, Hydro and Constellium
+The image used in this article is generated with an AI tool and does not depict any real-time moment
+Germany does cars, machi...
+2026-10-07 14:11:43,102 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:44,203 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Who’s holding up Germany’s aluminium game? Meet EGA, Hydro a
+2026-10-07 14:11:44,203 [INFO] LLM extracted 1 deals | Who’s holding up Germany’s aluminium game? Meet EG
+2026-10-07 14:11:44,205 [INFO] NEW: Constellium / None (Germany, None MW)
+2026-10-07 14:11:49,206 [INFO] ------- Processing article n. 4: Google Signs $4.3bn Nuclear Power Deal To Fuel AI - Silicon UK -------
+2026-10-07 14:11:49,282 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KQzFCTThCLVFfQkM3Ql9ub0pTRmlRTlJjS0cxVXJ0YXMteER2TDRPMEtuMWVpVF9HM2RJRzZwZXFPNHhkd3JEWmVrOG5EMW45VmZxWVlvRVBDb256Y0EtOHp6VWF6U1k?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:11:50,382 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:11:50,383 [INFO] Resolved Google News URL: https://www.silicon.co.uk/cloud/ai/google-nuclear-631802
+2026-10-07 14:11:50,383 [INFO] URL: https://www.silicon.co.uk/cloud/ai/google-nuclear-631802
+2026-10-07 14:11:50,723 [INFO] Text length: 1791 chars | source: full
+2026-10-07 14:11:50,723 [INFO] Text preview: Google has formed a $4.3 billion (£3.2bn) deal with Constellation Energy to bring 890 megawatts of power onto the grid through a 20-year purchasing agreement.
+The new capacity is to come from upgrades...
+2026-10-07 14:11:50,723 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:54,526 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Google Signs $4.3bn Nuclear Power Deal To Fuel AI - Silicon 
+2026-10-07 14:11:54,526 [WARNING] LLM JSON/response parse error (Silicon UK): Unterminated string starting at: line 104 column 7 (char 3194)
+2026-10-07 14:11:54,526 [WARNING] LLM provider gemini returned invalid JSON; trying next provider
+2026-10-07 14:11:54,527 [INFO] Trying LLM provider: mistral (model=mistral-small-latest)
+2026-10-07 14:11:55,200 [INFO] LLM [mistral/mistral-small-latest] HTTP 429 for: Google Signs $4.3bn Nuclear Power Deal To Fuel AI - Silicon 
+2026-10-07 14:11:55,200 [WARNING] LLM provider DISABLED for this run: mistral — HTTP 429 rate/quota limit
+2026-10-07 14:11:55,200 [WARNING] LLM provider mistral failed (quota); trying next provider
+2026-10-07 14:11:55,200 [INFO] All available LLM providers failed — retrying with shorter input
+2026-10-07 14:11:55,200 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:11:58,360 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Google Signs $4.3bn Nuclear Power Deal To Fuel AI - Silicon 
+2026-10-07 14:11:58,360 [WARNING] LLM JSON/response parse error (Silicon UK): Unterminated string starting at: line 105 column 18 (char 3170)
+2026-10-07 14:11:58,360 [WARNING] LLM provider gemini returned invalid JSON; trying next provider
+2026-10-07 14:11:58,361 [WARNING] All LLM attempts failed for: Google Signs $4.3bn Nuclear Power Deal To Fuel AI - Silicon 
+2026-10-07 14:11:58,361 [WARNING] LLM returned None — skipping: Google Signs $4.3bn Nuclear Power Deal To Fuel AI - Silicon 
+2026-10-07 14:11:58,361 [INFO] ------- Processing article n. 4: Europa installs 600 kWp rooftop solar system at Dartford warehouse - https://www -------
+2026-10-07 14:11:58,430 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxOb2YweWpick9kOUtUU3BMcmotQURidGR0amFWd0ZFS3BDRjBVMEpMblpxN0p6SUU5Wnh0ZGt4SjU4clhBcU1yVGNDRERHcWtMeXhYMXUxNkE1RjVkN1VuSlNUVHBpUDZvVkJaYk5jX3Y2SUlZOFI1bWltNWVraF9DUDI0QVZTbXlHTVFiZmFXS0xmVXdpSHIwVXZpTkJqX2FmblQ1bXJtZVVsUlpPMVlvSG9ZU2xtUWdtSjAzdjdTMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:11:59,527 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:11:59,527 [INFO] Resolved Google News URL: https://www.facilitiesmanagement-now.com/article/290362/europa-installs-600-kwp-rooftop-solar-system
+2026-10-07 14:11:59,528 [INFO] URL: https://www.facilitiesmanagement-now.com/article/290362/europa-installs-600-kwp-rooftop-solar-system-at-dartford-warehouse
+2026-10-07 14:11:59,759 [WARNING] discarding data: https://www.facilitiesmanagement-now.com/article/290362/europa-installs-600-kwp-rooftop-solar-system-at-dartford-warehouse
+2026-10-07 14:11:59,761 [INFO] Full text extraction empty: https://www.facilitiesmanagement-now.com/article/290362/europa-installs-600-kwp-
+2026-10-07 14:11:59,761 [INFO] Text length: 233 chars | source: fallback
+2026-10-07 14:11:59,762 [INFO] Text preview: Europa installs 600 kWp rooftop solar system at Dartford warehouse - https://www.facilitiesmanagement-now.com/
+
+Europa installs 600 kWp rooftop solar system at Dartford warehouse &nbsp;&nbsp; https://...
+2026-10-07 14:11:59,762 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:01,584 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Europa installs 600 kWp rooftop solar system at Dartford war
+2026-10-07 14:12:01,584 [INFO] LLM extracted 1 deals | Europa installs 600 kWp rooftop solar system at Da
+2026-10-07 14:12:01,586 [INFO] Not a signed deal — skipping: Europa installs 600 kWp rooftop solar system at Dartford war
+2026-10-07 14:12:01,586 [INFO] ------- Processing article n. 4: JNPA secures US$70m loan for shore power rollout - WorldCargo News -------
+2026-10-07 14:12:01,660 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxQc21FWk5jeWZiUXViTTkycTRwQWJIaXJfZHdaXzZRblZ4Uk5STWxFejJZSU9IVGJWcUJZc1NSUWxLNlFWRHVZNklMTk9VLW9LNUw2UGJXNTcyZ1VvaGN0R19YbFZKLThYNmU1LUFiUXdKaTNmMm9oQ09xMzNzbGczYVVRRjNLWlZkQkw1NHQzUEJtbUx0MmpOUTlhNG9FOGJs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:02,764 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:02,765 [INFO] Resolved Google News URL: https://www.worldcargonews.com/environment/2026/10/jnpa-secures-us70m-loan-for-shore-power-rollout/
+2026-10-07 14:12:02,765 [INFO] URL: https://www.worldcargonews.com/environment/2026/10/jnpa-secures-us70m-loan-for-shore-power-rollout/
+2026-10-07 14:12:02,966 [INFO] Full text skipped (status 403): https://www.worldcargonews.com/environment/2026/10/jnpa-secures-us70m-loan-for-s
+2026-10-07 14:12:02,966 [INFO] Text length: 145 chars | source: fallback
+2026-10-07 14:12:02,966 [INFO] Text preview: JNPA secures US$70m loan for shore power rollout - WorldCargo News
+
+JNPA secures US$70m loan for shore power rollout &nbsp;&nbsp; WorldCargo News...
+2026-10-07 14:12:02,966 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:06,579 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: JNPA secures US$70m loan for shore power rollout - WorldCarg
+2026-10-07 14:12:06,579 [INFO] LLM extracted 1 deals | JNPA secures US$70m loan for shore power rollout -
+2026-10-07 14:12:06,580 [INFO] Not a signed deal — skipping: JNPA secures US$70m loan for shore power rollout - WorldCarg
+2026-10-07 14:12:06,580 [INFO] ------- Processing article n. 4: Finland orders halt to work on two Google data centres - Uzalendo News -------
+2026-10-07 14:12:06,649 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQenNsOGhZaVhZbjZHREFLX1BXRzJuOW9MWnFHM3BLVjdLdzU3RGNEdUtFaTZpTmt4aXQ1SkhuMDNWMVd0dkZsMjlLcFlGZlhIcjhVc0FOWWtVM2dZMC14YlJoNGFhcVFwOGFXRC1aeHlvMVk4M01GbTlwWG4xNzN5OVFMMjVNZ1RZ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:07,743 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:07,744 [INFO] Resolved Google News URL: https://uzalendonews.co.ke/finland-orders-halt-to-work-on-two-google-data-centres
+2026-10-07 14:12:07,744 [INFO] URL: https://uzalendonews.co.ke/finland-orders-halt-to-work-on-two-google-data-centres
+2026-10-07 14:12:09,180 [INFO] Text length: 3091 chars | source: full
+2026-10-07 14:12:09,180 [INFO] Text preview: BBC-Finnish authorities have ordered a halt to building work at two planned Google data centres amid concerns over the clearance of more than 300 hectares of forest.
+The sites form part of Google's re...
+2026-10-07 14:12:09,180 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:13,760 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Finland orders halt to work on two Google data centres - Uza
+2026-10-07 14:12:13,760 [INFO] LLM extracted 1 deals | Finland orders halt to work on two Google data cen
+2026-10-07 14:12:13,775 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-07 14:12:18,776 [INFO] ------- Processing article n. 5: Alter Enersun will provide green energy to the renewable hydrogen megaproject On -------
+2026-10-07 14:12:18,855 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxQTVZqVDA3djVGSF9GSW05dGFnYzNXaHpLVS03S2NOZHJScW9CTkF5MVdUcmY4RjB5RlM4UV9ub0VBQWltWUtncjhUX0cwSWZ6SWJCQkFaQkNKbENvSUhDY2pTcFVUeS14RHZIMmJNVlY0SmVad192MS1DUjBJUUNfS1ozMjNsWTZMM0F2UUZ0SWNENjcya0VFZHhJWFNISElOR1RIdmtfQnlvanhraU5kV282TUR4emc1TU5aeUd4YmpJVVEtZ1NVSU5tUmMwUdIBzgFBVV95cUxQTVZqVDA3djVGSF9GSW05dGFnYzNXaHpLVS03S2NOZHJScW9CTkF5MVdUcmY4RjB5RlM4UV9ub0VBQWltWUtncjhUX0cwSWZ6SWJCQkFaQkNKbENvSUhDY2pTcFVUeS14RHZIMmJNVlY0SmVad192MS1DUjBJUUNfS1ozMjNsWTZMM0F2UUZ0SWNENjcya0VFZHhJWFNISElOR1RIdmtfQnlvanhraU5kV282TUR4emc1TU5aeUd4YmpJVVEtZ1NVSU5tUmMwUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:19,946 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:19,946 [INFO] Resolved Google News URL: https://www.democrata.es/en/economy/alter-enersun-will-provide-green-energy-to-the-renewable-hydroge
+2026-10-07 14:12:19,946 [INFO] URL: https://www.democrata.es/en/economy/alter-enersun-will-provide-green-energy-to-the-renewable-hydrogen-megaproject-onuba-by-moeve/amp/
+2026-10-07 14:12:19,993 [INFO] Full text skipped (status 403): https://www.democrata.es/en/economy/alter-enersun-will-provide-green-energy-to-t
+2026-10-07 14:12:19,994 [INFO] Text length: 221 chars | source: fallback
+2026-10-07 14:12:19,994 [INFO] Text preview: Alter Enersun will provide green energy to the renewable hydrogen megaproject Onuba by Moeve - Demócrata
+
+Alter Enersun will provide green energy to the renewable hydrogen megaproject Onuba by Moeve &...
+2026-10-07 14:12:19,994 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:20,950 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alter Enersun will provide green energy to the renewable hyd
+2026-10-07 14:12:20,951 [INFO] LLM extracted 1 deals | Alter Enersun will provide green energy to the ren
+2026-10-07 14:12:20,966 [INFO] NEW: Moeve / Alter Enersun (Spain, None MW)
+2026-10-07 14:12:25,967 [INFO] ------- Processing article n. 6: Markt Thalmässing hat Stromlieferverträge für 2027 bis 2029 neu ausgeschrieben - -------
+2026-10-07 14:12:26,042 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWlNvdGNndnNBeXgwTUJNaGJ3NkgtcXY0bEpsMThzdzhKX0NVb2w0Szc0WTRseUNLX2lsTEltZzFrbXAwcGtkN2JpbkhiSTQ3Z0wxcHg2Y05fOV9wekZubnlBUlE2NVZNU1FYQ3l4SWtlcjBwZ3dwR2Ffd1pydDBkRGdmZHRNMldCem1pOVVHMlVEa0ZXamIwQkhIaEhKNnpyeTROWFRwU3psQlo1WEhEd2hjd0NBVW5xUk5V?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:27,141 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:27,142 [INFO] Resolved Google News URL: https://www.nn.de/region/roth/markt-thalmassing-hat-stromliefervertrage-fur-2027-bis-2029-neu-ausges
+2026-10-07 14:12:27,142 [INFO] URL: https://www.nn.de/region/roth/markt-thalmassing-hat-stromliefervertrage-fur-2027-bis-2029-neu-ausgeschrieben-1.15306689
+2026-10-07 14:12:27,869 [INFO] Text length: 1072 chars | source: full
+2026-10-07 14:12:27,869 [INFO] Text preview: Unterzeichnet
+Markt Thalmässing hat Stromlieferverträge für 2027 bis 2029 neu ausgeschrieben
+Der Markt Thalmässing hat seine Stromlieferverträge für die Jahre 2027 bis 2029 neu ausgeschrieben. Nach Du...
+2026-10-07 14:12:27,869 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:28,735 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Markt Thalmässing hat Stromlieferverträge für 2027 bis 2029 
+2026-10-07 14:12:28,736 [INFO] LLM extracted 1 deals | Markt Thalmässing hat Stromlieferverträge für 2027
+2026-10-07 14:12:28,737 [INFO] Not a signed deal — skipping: Markt Thalmässing hat Stromlieferverträge für 2027 bis 2029 
+2026-10-07 14:12:28,737 [INFO] ------- Processing article n. 6: Google signe un contrat d'approvisionnement en électricité de 3,6 MW avec Conste -------
+2026-10-07 14:12:28,824 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1wJBVV95cUxOTTN5RDBsdEhFZDNSREJsMjJoZEZVRVZMb1E2aVotVDlvTXhyYUFXV1NKNk1VYWRlYWtlRTZ6Ui02ODdsS1hRWjZYT1ZWY0xqbE8xTnUydVNuX0UyMHpEOXhmc0lMdm9NRXYtSWEtY2owY1RyVUxKVEhLN0EtcExZWHhQM05ybDRaUmE0a2w4ZUxXZEYzS3BQYTkwOHBpSXg5UjJZeHdtaHFxTGhjakF3aHp3OVZGNm85SURud2lvYWhwVXczOFRrd25kTEU5Q0UxeC1UYXlPR0M3R216MUYzdm9aNThVNlJ4Z2pXUVh5MWNidnhLM2RRNjJRYzVnS2JsekFPZ280NUhfcTQ2dVdhUEJkazMtWTYxbFhrNUJOdXRlV1NHeDBVSHc2MmIyM3dyc2V0Tk5HcVBvLVFwLVgxQndyTDF2VUl1dVNTMXp3X2NxbE4xSWRj0gHXAkFVX3lxTE5NM3lEMGx0SEVkM1JEQmwyMmhkRlVFVkxvUTZpWi1UOW9NeHJhQVdXU0o2TVVhZGVha2VFNnpSLTY4N2xLWFFaNlhPVlZjTGpsTzFOdTJ1U25fRTIwekQ5eGZzSUx2b01Fdi1JYS1jajBjVHJVTEpUSEs3QS1wTFlYeFAzTnJsNFpSYTRrbDhlTFdkRjNLcFBhOTA4cGlJeDlSMll4d21ocXFMaGNqQXdoenc5VkY2bzlJRG53aW9haHBVdzM4VGt3bmRMRTlDRTF4LVRheU9HQzdHbXoxRjN2b1o1OFU2UnhnaldRWHkxY2J2eEszZFE2MlFjNWdLYmx6QU9nbzQ1SF9xNDZ1V2FQQmRrMy1ZNjFsWGs1Qk51dGVXU0d4MFVIdzYyYjIzd3JzZXROTkdxUG8tUXAtWDFCd3JMMXZVSXV1U1MxendfY3FsTjFJZGM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:29,915 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:29,916 [INFO] Resolved Google News URL: https://green-it.developpez.com/actu/387891/Google-signe-un-contrat-d-approvisionnement-en-electrici
+2026-10-07 14:12:29,916 [INFO] URL: https://green-it.developpez.com/actu/387891/Google-signe-un-contrat-d-approvisionnement-en-electricite-de-3-6-MW-avec-Constellation-Energy-pour-alimenter-l-expansion-de-ses-centres-de-donnees-dont-25-pourcent-via-le-nucleaire-dedie/?amp
+2026-10-07 14:12:35,280 [INFO] Text length: 13961 chars | source: full
+2026-10-07 14:12:35,280 [INFO] Text preview: Google signe un contrat d'approvisionnement en Ã©lectricitÃ© de 3,6 MW avec Constellation Energy pour alimenter l'expansion de ses centres de donnÃ©es
+Dont 25 % via le nuclÃ©aire dÃ©diÃ©
+Le 2026-10-07...
+2026-10-07 14:12:35,280 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:36,616 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Google signe un contrat d'approvisionnement en électricité d
+2026-10-07 14:12:36,616 [INFO] LLM extracted 2 deals | Google signe un contrat d'approvisionnement en éle
+2026-10-07 14:12:36,618 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 890 MW)
+2026-10-07 14:12:36,618 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 2700 MW)
+2026-10-07 14:12:36,618 [INFO] ------- Processing article n. 6: Amazon signe une entente de 20 ans sur l\'énergie nucléaire avec Constellation e -------
+2026-10-07 14:12:36,695 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwJBVV95cUxPbUh5QjdfdlJiQTdrYk9UWWxNSE5udDlQSjBJNjB5NHJkN2lIZkVYLWtFODJibkJYbHVCRFJ1STVrZlFlazNLWHktSldBeDE0YkNQZW9uRXJ6ZEhGcGEtS3ZRVzhrQUhOQmdOd3FoVU1iN2dyWkFsRC1uVUR3NTZndDNSVnlndnZWNnhqRG5hZ25lLUlLMDc3UEtJSFFiMjRNcDFGSEJhMnZLMUFVbFpOajVaTUJXY0hlVTBvQkNQR1RteFAzWXViMmVMeFZiMkcwalJhSG9nRmlrZ0lpQnlMUU1UU2RWME5XNkxiOFFEdWwydTE3NmVUSmxtOHRhaUJFUmw1emdfQzZ4OURnR0VLMjNKb1F1NFU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:37,795 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:37,796 [INFO] Resolved Google News URL: https://www.sphericalinsights.com/fr/blogs/amazon-signs-20-year-nuclear-power-deal-with-constellatio
+2026-10-07 14:12:37,796 [INFO] URL: https://www.sphericalinsights.com/fr/blogs/amazon-signs-20-year-nuclear-power-deal-with-constellation-as-ai-data-centres-drive-rising-u.s.-electricity-demand-and-nuclear-energy-investment-
+2026-10-07 14:12:38,217 [INFO] Text length: 16150 chars | source: full
+2026-10-07 14:12:38,217 [INFO] Text preview: L'accord couvre 690 MW provenant de la centrale nucléaire de Marylands Calvert Cliffs et comprend plus de 3 milliards de dollars d'investissements dans l'infrastructure, car Amazon répond aux besoins ...
+2026-10-07 14:12:38,217 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:42,077 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Amazon signe une entente de 20 ans sur l\'énergie nucléaire 
+2026-10-07 14:12:42,078 [INFO] LLM extracted 1 deals | Amazon signe une entente de 20 ans sur l\'énergie 
+2026-10-07 14:12:42,079 [INFO] Not a European deal — skipping: Amazon / Constellation Energy (United States, 690 MW)
+2026-10-07 14:12:42,079 [INFO] ------- Processing article n. 6: Constellation Energy : +12% grâce à Google : Ces 9 actions sont plus prometteuse -------
+2026-10-07 14:12:42,154 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxOaW5kNVFWSGd5U3dGRTR0Ni1YRDRVZzlwcGU3M28wU29pNUE5NkJKQkNIUVNNMl80b3pLNmxhTnJqdnNVaDQtODdYdnR1Y3NWUGJzSGlfMkpXSFM5TTRmVlJ1Q1Q5ODBDdzZ6V3lsNXo4SFUxNEJBLXdkbUs1S3FpbHk5S2gyMUNkYWQtaVZWd01rcDVqY2loZzVLU2ZydjJMYUVsODJKY0VXR0FGVzhwdmpWbV9HQXVFYXBLRlUtX1hHa2pwRkVGTTJsMEkwdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:43,242 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:43,243 [INFO] Resolved Google News URL: https://fr.investing.com/news/stock-market-news/constellation-energy--12-grace-a-google--ces-9-actio
+2026-10-07 14:12:43,243 [INFO] URL: https://fr.investing.com/news/stock-market-news/constellation-energy--12-grace-a-google--ces-9-actions-sont-plus-prometteuses-3624262
+2026-10-07 14:12:43,283 [INFO] Full text skipped (status 403): https://fr.investing.com/news/stock-market-news/constellation-energy--12-grace-a
+2026-10-07 14:12:43,284 [INFO] Text length: 221 chars | source: fallback
+2026-10-07 14:12:43,284 [INFO] Text preview: Constellation Energy : +12% grâce à Google : Ces 9 actions sont plus prometteuses - Investing.com France
+
+Constellation Energy : +12% grâce à Google : Ces 9 actions sont plus prometteuses &nbsp;&nbsp;...
+2026-10-07 14:12:43,284 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:46,802 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Constellation Energy : +12% grâce à Google : Ces 9 actions s
+2026-10-07 14:12:46,802 [INFO] LLM extracted 1 deals | Constellation Energy : +12% grâce à Google : Ces 9
+2026-10-07 14:12:46,803 [INFO] Not a signed deal — skipping: Constellation Energy : +12% grâce à Google : Ces 9 actions s
+2026-10-07 14:12:46,803 [INFO] ------- Processing article n. 6: Coupure d'électricité dans les Yvelines : congélateur décongelé et appareils gri -------
+2026-10-07 14:12:46,877 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxQMkZBaFVVb2s2bzlqMHV5TzhzMlJOUTlFRGxjNEI4dFUxSmE4dWNRZi1MTzBrc056Y3MyRzlkVEYxeHNhMXdqTTZpNXBYZF9SWDFkQ2pHemF5UF94VWJfOUFIZzRlN1BfRzNNRXAzN2RwSzV2YWpoSmM0UGNKMXJETGlNOVJwemJETzJyUWFGVUx5ZUtyTjExTnFONUlmRU5wSlFyOUVsbG5hQ0dnenhGYkhFal9BZjNHVXpCaE9hZFMwQ1c2?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:47,968 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:47,969 [INFO] Resolved Google News URL: https://kohenavocats.fr/2026/10/07/coupure-electricite-yvelines-congelateur-appareils-assurance-habi
+2026-10-07 14:12:47,969 [INFO] URL: https://kohenavocats.fr/2026/10/07/coupure-electricite-yvelines-congelateur-appareils-assurance-habitation-remboursement-2026/
+2026-10-07 14:12:49,622 [INFO] Text length: 19833 chars | source: full
+2026-10-07 14:12:49,622 [INFO] Text preview: Le mardi 6 octobre 2026 à midi, plus de 30 000 clients se sont retrouvés sans électricité dans plusieurs communes des Yvelines dont Versailles, selon la préfecture du département citée par actu.fr le ...
+2026-10-07 14:12:49,622 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:52,021 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Coupure d'électricité dans les Yvelines : congélateur décong
+2026-10-07 14:12:52,021 [INFO] LLM extracted 1 deals | Coupure d'électricité dans les Yvelines : congélat
+2026-10-07 14:12:52,023 [INFO] Not a signed deal — skipping: Coupure d'électricité dans les Yvelines : congélateur décong
+2026-10-07 14:12:52,023 [INFO] ------- Processing article n. 6: Alphabet Partners with Constellation Energy in Massive New Nuclear Power Deal -  -------
+2026-10-07 14:12:52,094 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiigFBVV95cUxQVFZDMVBpNXc1Qkd1N2w2TjdOUlQ2eDNmWHJzNlplWWNNQ1F6V2NIM1daUHh6Xy1lVk9mdUx6dXQyRkthSXBUOUNHblJDckJXTHF0ZWFGVXlOeXpTemhlbEtTdTZ3TTN1aHliSlNpWUs3VlkwQkJQdGpDOG43ZmxWSjh0c0VmNXNSV1E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:53,174 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:53,175 [INFO] Resolved Google News URL: https://www.tikr.com/fr/blog/constellation-energy-stock-google-nuclear-power-deal?
+2026-10-07 14:12:53,175 [INFO] URL: https://www.tikr.com/fr/blog/constellation-energy-stock-google-nuclear-power-deal?
+2026-10-07 14:12:53,306 [INFO] Text length: 4069 chars | source: full
+2026-10-07 14:12:53,306 [INFO] Text preview: Statistiques clés pour l'action Constellation Energy
+- Variation du cours de l'action Constellation Energy : 12%
+- Cours de l'action $CEG au 6 octobre : $300
+- Plus haut sur 52 semaines : $413
+- Objec...
+2026-10-07 14:12:53,307 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:12:56,660 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alphabet Partners with Constellation Energy in Massive New N
+2026-10-07 14:12:56,660 [INFO] LLM extracted 2 deals | Alphabet Partners with Constellation Energy in Mas
+2026-10-07 14:12:56,662 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 890 MW)
+2026-10-07 14:12:56,662 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 2700 MW)
+2026-10-07 14:12:56,662 [INFO] ------- Processing article n. 6: Google signe un accord en milliards de dollars pour s'alimenter au nucléaire - G -------
+2026-10-07 14:12:56,748 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY0xIVUtFdXd5a3drSzB1b2RWRmdxQnRSUU5FY1Z3X25oTmxNeHRMSjItckxEQy1oaUlQYzE3RF9TZ0FCQmVnbEFmS1p0VG1tV0Y1YkhEZEJJYWFYWGF2OUdVaV94LVNXN3NvU09senN4R01oQ1BKMEM5czhfdHNhbEtHNXlDNWNia3RV0gGQAUFVX3lxTE1BN0NYeDI2cVM1SnR0cF9QLVFiZGxWbkt4cV90SU5lb0JWYy03eGxvNWliV0dsTHlZSm1oSFpoVTZXUHhFUVAxX2puVUlzOVBKdUhSMXdTN2dDeTZzcTJjLXlpTnB2UXc5eEJhYm9yX29Ga1Z4bW5kejVQaThXRUNxSmhua0VSSXg1eVh1MExmNg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:12:57,831 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:12:57,832 [INFO] Resolved Google News URL: https://www.generation-nt.com/actualites/google-accord-historique-nucleaire-2082324
+2026-10-07 14:12:57,832 [INFO] URL: https://www.generation-nt.com/actualites/google-accord-historique-nucleaire-2082324
+2026-10-07 14:12:58,722 [INFO] Text length: 4307 chars | source: full
+2026-10-07 14:12:58,722 [INFO] Text preview: La course à la puissance de calcul franchit un cap énergétique majeur. La maison mère d'Alphabet s'engage sur deux décennies pour sécuriser l'approvisionnement de ses infrastructures massives sur le s...
+2026-10-07 14:12:58,722 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:01,255 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Google signe un accord en milliards de dollars pour s'alimen
+2026-10-07 14:13:01,255 [INFO] LLM extracted 1 deals | Google signe un accord en milliards de dollars pou
+2026-10-07 14:13:01,256 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 890 MW)
+2026-10-07 14:13:01,256 [INFO] ------- Processing article n. 6: La consommation affolante de l'IA : Google mise massivement sur le nucléaire ! - -------
+2026-10-07 14:13:01,327 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxOVnZRUnJ3Y3BMZEctNWdFSkxUWVF2QkNzWjBjZzRQVllZbEtmTmRnc2JNajZjTUd5UHFHNGtwc3ZIeDNfVWNib0Z1N0RzdHJ1azRVZmtWU2N1eTV0dkdabmhqWVAzWUE3WTE4YTcxc1NLT0NYbEhyTnFDVnRmUGJ1V3J0RnNjbmV0QmNYUzkwejJNYksxZzN2LVVXbmozenBVU0NTckU0YmZhNkR1d2c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:02,407 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:02,407 [INFO] Resolved Google News URL: https://www.mac4ever.com/ia/198405-la-consommation-affolante-de-l-ia-google-mise-massivement-sur-le-
+2026-10-07 14:13:02,407 [INFO] URL: https://www.mac4ever.com/ia/198405-la-consommation-affolante-de-l-ia-google-mise-massivement-sur-le-nucleaire
+2026-10-07 14:13:03,339 [INFO] Text length: 11263 chars | source: full
+2026-10-07 14:13:03,339 [INFO] Text preview: L’explosion de l’intelligence artificielle oblige les géants de la tech à trouver toujours plus d’électricité. Google vient de signer un accord de vingt ans avec Constellation pour moderniser six site...
+2026-10-07 14:13:03,339 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:06,649 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: La consommation affolante de l'IA : Google mise massivement 
+2026-10-07 14:13:06,649 [INFO] LLM extracted 2 deals | La consommation affolante de l'IA : Google mise ma
+2026-10-07 14:13:06,650 [INFO] Not a European deal — skipping: Google / Constellation (United States, 890 MW)
+2026-10-07 14:13:06,651 [INFO] Not a European deal — skipping: Google / Constellation (United States, 2700 MW)
+2026-10-07 14:13:06,651 [INFO] ------- Processing article n. 6: Compagnie de Saint-Gobain (SGO) - Cours Action | FR0000125007 - Cotation EURONEX -------
+2026-10-07 14:13:06,732 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxQTDA4d3hWUHBzdEl3ZzlxZU45QmpKZG4yUzh2NTFhanBxQnBSdlFOcWJiZTAzUm56aU4tcktERTl1Q19pTmJBNWZmWF8wOTJtOU9zd09Bc2M1Vlc3aUNWaklvUV9ya3RDa296QnNmMTNiMEhlTm55SFZxMU5aN05SSzdVUjhvam1fa3hxN0FIUVBMMjN3NDA0OEU1M1FsTVEtVlFJUzQ5Y21iZXFJY0dGZg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:07,829 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:07,830 [INFO] Resolved Google News URL: https://www.boursedirect.fr/fr/marche/euronext-paris/compagnie-de-saint-gobain-FR0000125007-SGO-EUR-
+2026-10-07 14:13:07,830 [INFO] URL: https://www.boursedirect.fr/fr/marche/euronext-paris/compagnie-de-saint-gobain-FR0000125007-SGO-EUR-XPAR/seance
+2026-10-07 14:13:19,965 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.boursedirect.fr', port=443): Max retries exceeded with url: /fr/marche/euronext-paris/compagnie-de-saint-gobain-FR0000125007-SGO-EUR-XPAR/seance (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.boursedirect.fr', port=443) at 0x7fbc7b7c8ad0>, 'Connection to www.boursedirect.fr timed out. (connect timeout=12)'))): https://www.boursedirect.fr/fr/marche/euronext-paris/compagnie-de-saint-gobain-F
+2026-10-07 14:13:19,966 [INFO] Text length: 219 chars | source: fallback
+2026-10-07 14:13:19,966 [INFO] Text preview: Compagnie de Saint-Gobain (SGO) - Cours Action | FR0000125007 - Cotation EURONEXT PARIS - Bourse Direct
+
+Compagnie de Saint-Gobain (SGO) - Cours Action | FR0000125007 - Cotation EURONEXT PARIS &nbsp;&...
+2026-10-07 14:13:19,966 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:20,928 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Compagnie de Saint-Gobain (SGO) - Cours Action | FR000012500
+2026-10-07 14:13:20,928 [INFO] LLM extracted 1 deals | Compagnie de Saint-Gobain (SGO) - Cours Action | F
+2026-10-07 14:13:20,930 [INFO] Not a signed deal — skipping: Compagnie de Saint-Gobain (SGO) - Cours Action | FR000012500
+2026-10-07 14:13:20,930 [INFO] ------- Processing article n. 6: Alter Enersun suministrará 500 Gwh de fotovoltaica al 'megaproyecto' de hidrógen -------
+2026-10-07 14:13:21,008 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdjRBeGJhVGpnMThwUnF1Ni1PV0ItdVdEc3FtVnUwQWVjREhaX2dxMVFPSGJYU1A4cVpVNmlQUUZHLWkxNzJXd1hPRXRMdjhJUkNucW0tem1BWmI2UzZ2OTQ5bU5RU2JlR010NFZWQ2k1dUdfUEpSYnVaT28yVnVmWnFLbnp1UHA1cU5HSTE1MC1ibHFEdFFiR2Y3eGdpMDZrcWl5R2daTWtHMGR1ejNVamloUXg5TXhKcXVTSEVPN2xtZzE3Qm1GclRUVUJxeFdPcDFwSm1uem4wdkd0WnM2U1BzMzJhcElNT3pyLVlzd1RuaWdJUjFsZDQzWkhRYW_SAf8BQVVfeXFMTXY0QXhiYVRqZzE4cFJxdTYtT1dCLXVXRHNxbVZ1MEFlY0RIWl9ncTFRT0hiWFNQOHFaVTZpUFFGRy1pMTcyV3dYT0V0THY4SVJDbnFtLXptQVpiNlM2djk0OW1OUVNiZUdNdDRWVkNpNXVHX1BKUmJ1Wk9vMlZ1ZlpxS256dVBwNXFOR0kxNTAtYmxxRHRRYkdmN3hnaTA2a3FpeUdnWk1rRzBkdXozVWppaFF4OU14SnF1U0hFTzdsbWcxN0JtRnJUVFVCcXhXT3AxcEptbnpuMHZHdFpzNlNQczMyYXBJTU96ci1Zc3dUbmlnSVIxbGQ0M1pIUWFv?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:22,094 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:22,095 [INFO] Resolved Google News URL: https://www.elespanol.com/invertia/empresas/energia/20261007/alter-enersun-suministrara-gwh-fotovolt
+2026-10-07 14:13:22,095 [INFO] URL: https://www.elespanol.com/invertia/empresas/energia/20261007/alter-enersun-suministrara-gwh-fotovoltaica-megaproyecto-hidrogeno-verde-onuba-moeve/1003744411410_0.amp.html
+2026-10-07 14:13:22,440 [INFO] Text length: 2604 chars | source: full
+2026-10-07 14:13:22,440 [INFO] Text preview: Alter Enersun suministrará 500 gigavatios hora (GWh) anuales de electricidad renovable al proyecto Onuba, primera fase del Valle Andaluz del Hidrógeno Verde impulsado por Moeve en Palos de la Frontera...
+2026-10-07 14:13:22,440 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:26,050 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alter Enersun suministrará 500 Gwh de fotovoltaica al 'megap
+2026-10-07 14:13:26,051 [INFO] LLM extracted 1 deals | Alter Enersun suministrará 500 Gwh de fotovoltaica
+2026-10-07 14:13:26,066 [INFO] UPDATE: Moeve / Alter Enersun (Spain, None MW) — canonical ID: 1876
+2026-10-07 14:13:31,068 [INFO] ------- Processing article n. 7: Cómo te afectan los nuevos decretos de vivienda aprobados por el Gobierno - Foto -------
+2026-10-07 14:13:31,143 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxPQXdsOUNoRkoxUjlFX3p1cjAxYVNqNHRaY3p6OEZVUUVZcHl2Z2o0dVJwYkxHbGNFaG9zbVZhTjJ3d2t6c3RPYVJVNTBiQU92SGhYSldkblItd1I3THFHaHpKU3hCSklVX05GYU1NQ21sRmF0WG5QM0p6cnZnRG9IZlBibkVaTGRXVUphVERTZ2ROSmdXSDdZ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:32,237 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:32,238 [INFO] Resolved Google News URL: https://www.fotocasa.es/fotocasa-life/sector/como-te-afecta-nuevo-decreto-vivienda-gobierno/
+2026-10-07 14:13:32,238 [INFO] URL: https://www.fotocasa.es/fotocasa-life/sector/como-te-afecta-nuevo-decreto-vivienda-gobierno/
+2026-10-07 14:13:32,584 [INFO] Text length: 6748 chars | source: full
+2026-10-07 14:13:32,584 [INFO] Text preview: El primer decreto recupera además la regulación de los contratos de temporada y los alquileres por habitaciones. Los contratos temporales deben responder a una causa real y acreditable para evitar que...
+2026-10-07 14:13:32,584 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:33,811 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Cómo te afectan los nuevos decretos de vivienda aprobados po
+2026-10-07 14:13:33,811 [INFO] LLM extracted 1 deals | Cómo te afectan los nuevos decretos de vivienda ap
+2026-10-07 14:13:33,813 [INFO] Not a signed deal — skipping: Cómo te afectan los nuevos decretos de vivienda aprobados po
+2026-10-07 14:13:33,813 [INFO] ------- Processing article n. 7: Zelestra cierra financiación por 313 millones para un proyecto solar de 203 MW e -------
+2026-10-07 14:13:33,888 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxPRDhoYmQ0NmlhOXJXb2hPMURTcUNNcHZyRlJqS1c4UEJycHE3QkFsLXdXVkxMbWgzQkFMUjRvdUhzNFViNE4wYm14NVdwT1JjMDRhV3hWQkZvQk9Hcm5pd28tVGFBQ1EtV0kzOTY2WmFibTI4SzFjNjZPTmlUTnk4X01EMlRUWnB0ZUs4TDgzQ3VGZFhybElLWXlBdFVsS0YwYTFnbnRoWHg3ZDJNVXlPZGhkMVptZDJpOERfTkJnTVVlMjBoUHBBam9DdEVsMWJJUjVYcnd3MmFwZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:34,986 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:34,987 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/zelestra-cierra-financiacion-por-313-millones-para-un-proyecto-so
+2026-10-07 14:13:34,987 [INFO] URL: https://elperiodicodelaenergia.com/zelestra-cierra-financiacion-por-313-millones-para-un-proyecto-solar-de-203-mw-en-eeuu-respaldado-por-meta/
+2026-10-07 14:13:35,619 [INFO] Text length: 1012 chars | source: full
+2026-10-07 14:13:35,619 [INFO] Text preview: Zelestra ha cerrado una línea de crédito de financiación verde por un importe de 350 millones de dólares (unos 313 millones de euros) para el proyecto solar 'Reclamation' de 203 megavatios (MW), que d...
+2026-10-07 14:13:35,619 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:38,502 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Zelestra cierra financiación por 313 millones para un proyec
+2026-10-07 14:13:38,503 [INFO] LLM extracted 1 deals | Zelestra cierra financiación por 313 millones para
+2026-10-07 14:13:38,504 [INFO] Not a European deal — skipping: Meta / Zelestra (United States, 203 MW)
+2026-10-07 14:13:38,504 [INFO] ------- Processing article n. 7: Dos Grados compra una cartera de proyectos solares en desarrollo a Akuo de más d -------
+2026-10-07 14:13:38,583 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX0w1SGN6NHh2czVxbWNtb1pRLTlsQ25jWVFFNmlfZTVxdkpvSFpfOS1SSzNmN19qWnNxVHNyRjltWS1Wb3BXU05ITHVOYnF1aUtsckpWdmZULVRUYzZSaHJKLVcxS05kaXBLeV9MRENmOEVtV1VYeVQtYTRZUlhLc3pwdVpvZjY1enRVY21IRGgyQ3d2QWxBYW4yZnUyY2ZuRExvdUhJQnNZSDNudERTWXNib3VJMXJiOXNHQU5sSHlsQ1pGTTlpWXNqRElxT0VYemc0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:39,672 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:39,673 [INFO] Resolved Google News URL: https://forbes.es/ultima-hora/1039016/dos-grados-compra-una-cartera-de-proyectos-solares-en-desarrol
+2026-10-07 14:13:39,673 [INFO] URL: https://forbes.es/ultima-hora/1039016/dos-grados-compra-una-cartera-de-proyectos-solares-en-desarrollo-a-akuo-de-mas-de-500-mw-en-espana/
+2026-10-07 14:13:40,095 [INFO] Text length: 1383 chars | source: full
+2026-10-07 14:13:40,095 [INFO] Text preview: En concreto, las iniciativas se encuentran en fase temprana de desarrollo y se ubican en Castilla y León y Andalucía y refuerzan de manera significativa la cartera solar de la empresa en el mercado es...
+2026-10-07 14:13:40,095 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:44,008 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Dos Grados compra una cartera de proyectos solares en desarr
+2026-10-07 14:13:44,008 [INFO] LLM extracted 1 deals | Dos Grados compra una cartera de proyectos solares
+2026-10-07 14:13:44,009 [INFO] Not a signed deal — skipping: Dos Grados compra una cartera de proyectos solares en desarr
+2026-10-07 14:13:44,009 [INFO] ------- Processing article n. 7: Zelestra obtiene 313 millones para un macroproyecto solar de 203 MW en EE.UU. ap -------
+2026-10-07 14:13:44,121 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAFBVV95cUxPNVY5dldCWE5fZnZBVDE3b0otUDFOaElNZ0pzVjAzcWM1RjhlaTU4SmlVMXFDZnJGY01kWWswNEpRb2dPakhveDVYMGtMMkVfMTAycFlPVzFvNG5wUjh0OTdJaVI4R0FlN3FSSFRORzdISHI0MTZ4c3VTZ2NtT3NpRDZDWmtxQ1J3dG9Pd3dUVXZVQ1BvVURMWWVDVURwZlRSNFluaWhlV3hBT3EwX3padmxUYVQycGROcHZoOXVYUjYzOGVEb3N4VVhHYVPSAcwBQVVfeXFMTzVWOXZXQlhOX2Z2QVQxN29KLVAxTmhJTWdKc1YwM3FjNUY4ZWk1OEppVTFxQ2ZyRmNNZFlrMDRKUW9nT2pIb3g1WDBrTDJFXzEwMnBZT1cxbzRucFI4dDk3SWlSOEdBZTdxUkhUTkc3SEhyNDE2eHN1U2djbU9zaUQ2Q1prcUNSd3RvT3d3VFV2VUNQb1VETFllQ1VEcGZUUjRZbmloZVd4QU9xMF96WnZsVGFUMnBkTnB2aDl1WFI2MzhlRG9zeFVYR2FT?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:45,256 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:45,256 [INFO] Resolved Google News URL: https://www.democrata.es/economia/zelestra-obtiene-313-millones-para-un-macroproyecto-solar-de-203-m
+2026-10-07 14:13:45,256 [INFO] URL: https://www.democrata.es/economia/zelestra-obtiene-313-millones-para-un-macroproyecto-solar-de-203-mw-en-ee-uu-apoyado-por-meta/amp/
+2026-10-07 14:13:45,293 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/zelestra-obtiene-313-millones-para-un-macropro
+2026-10-07 14:13:45,294 [INFO] Text length: 225 chars | source: fallback
+2026-10-07 14:13:45,294 [INFO] Text preview: Zelestra obtiene 313 millones para un macroproyecto solar de 203 MW en EE.UU. apoyado por Meta - Demócrata
+
+Zelestra obtiene 313 millones para un macroproyecto solar de 203 MW en EE.UU. apoyado por Me...
+2026-10-07 14:13:45,294 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:48,438 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Zelestra obtiene 313 millones para un macroproyecto solar de
+2026-10-07 14:13:48,439 [INFO] LLM extracted 1 deals | Zelestra obtiene 313 millones para un macroproyect
+2026-10-07 14:13:48,440 [INFO] Not a signed deal — skipping: Zelestra obtiene 313 millones para un macroproyecto solar de
+2026-10-07 14:13:48,440 [INFO] ------- Processing article n. 7: Propuesta para separar la Corporación Nacional de Transmisión de Energía de EVN. -------
+2026-10-07 14:13:48,516 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFI2ZkQxUi0tR0FsZG1CYV9yTjY5WWNaVlBhRGs5SVNRVkJTSU5OdHhMLS1PVncyWEoycV9jRzNVZXkyMUdJR3JxTjFkcFppdWhxRTlLSExJRGxvTnRMTWJ3SnZrYXhleldMLVFCSDlPOUgyVUYwX1hmUDRCS2ZMcFFlbjVySU9UeGlXczd3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:49,620 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:49,621 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/de-xuat-tach-tong-cong-ty-truyen-tai-dien-quoc-gia-khoi-evn
+2026-10-07 14:13:49,621 [INFO] URL: https://www.vietnam.vn/es/de-xuat-tach-tong-cong-ty-truyen-tai-dien-quoc-gia-khoi-evn
+2026-10-07 14:13:50,065 [INFO] Text length: 7459 chars | source: full
+2026-10-07 14:13:50,065 [INFO] Text preview: Propuesta para separar la Corporación Nacional de Transmisión de Energía de EVN.
+El Ministerio de Industria y Comercio planea separar próximamente la Corporación Nacional de Transmisión de Energía (EV...
+2026-10-07 14:13:50,065 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:53,574 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Propuesta para separar la Corporación Nacional de Transmisió
+2026-10-07 14:13:53,575 [INFO] LLM extracted 1 deals | Propuesta para separar la Corporación Nacional de 
+2026-10-07 14:13:53,576 [INFO] Not a signed deal — skipping: Propuesta para separar la Corporación Nacional de Transmisió
+2026-10-07 14:13:53,576 [INFO] ------- Processing article n. 7: Una multinacional comprará durante al menos 10 años todo el wolframio que salga  -------
+2026-10-07 14:13:53,655 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxQYVczekN5NEpLRE9MaExnSUc5Rmh1SG55V2pGLXVGU0tDZlljT0dTWm4wZzFTSml2dm11TVczOG5PWGJmRnpBYlpwM2FnWFc1WWloRGo5bng2aXh0eUIyN0RVWmRIU2JfSHd4bXpJVF90LVkyLTVLYURkOW1VLTRsamtEcVpBcnNtVUE2d1pSdkdGRnYycnNOd2lkMDhZV0p2cVVlR1g1azJ5TTB5aFZReU92blhQT3NhQTNyQ08yTXZQWGdvRU9DaWZvdUFHekQ3UWVQQTd0TWpGNVByNld6UzM3RldMTklmZmlEMnJnQXdVNWJQMTdr0gH3AUFVX3lxTFBhVzN6Q3k0SktET0xoTGdJRzlGaHVIbnlXakYtdUZTS0NmWWNPR1NabjBnMVNKaXZ2bXVNVzM4bk9YYmZGekFiWnAzYWdYVzVZaWhEajlueDZpeHR5QjI3RFVaZEhTYl9Id3hteklUX3QtWTItNUthRGQ5bVUtNGxqa0RxWkFyc21VQTZ3WlJ2R0ZGdjJyc053aWQwOFlXSnZxVWVHWDVrMnlNMHloVlF5T3ZuWFBPc2FBM3JDTzJNdlBYZ29FT0NpZm91QUd6RDdRZVBBN3RNakY1UHI2V3pTMzdGV0xOSWZmaUQycmdBd1U1YlAxN2s?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:13:54,756 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:13:54,757 [INFO] Resolved Google News URL: https://www.elespanol.com/eldigitalcastillalamancha/economia/empresas/20261007/multinacional-comprar
+2026-10-07 14:13:54,757 [INFO] URL: https://www.elespanol.com/eldigitalcastillalamancha/economia/empresas/20261007/multinacional-comprara-anos-wolframio-salga-mina-ciudad-real/1003744411902_0.amp.html
+2026-10-07 14:13:55,335 [INFO] Text length: 4720 chars | source: full
+2026-10-07 14:13:55,336 [INFO] Text preview: Doble espaldarazo a la mina de wolframio El Moto, en Abenójar (Ciudad Real). El proyecto saldrá a cotizar en la Bolsa de Londres a finales de octubre y ya ha conseguido comprador para su futura produc...
+2026-10-07 14:13:55,336 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:13:59,461 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Una multinacional comprará durante al menos 10 años todo el 
+2026-10-07 14:13:59,461 [INFO] LLM extracted 1 deals | Una multinacional comprará durante al menos 10 año
+2026-10-07 14:13:59,463 [INFO] Not a signed deal — skipping: Una multinacional comprará durante al menos 10 años todo el 
+2026-10-07 14:13:59,463 [INFO] ------- Processing article n. 7: Oklo subió 7,2% por acuerdo nuclear de Google sin participar - FinanceFeeds -------
+2026-10-07 14:13:59,570 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMibkFVX3lxTE1INzVLQ1VoNFZUQ1BZcFBzLUc4aGVvZlowcE1tVzJ5UGR4UTFUYkdkaHh6dllqa1lyU2hEWE5OV1ItZWpNdWllcVBFS0RBWk1qS2gwUGNIV2hWRWlYajNtZV9RclFTSG82Ui05SUtn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:00,665 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:00,666 [INFO] Resolved Google News URL: https://financefeeds.com/es/oklo-sube-acuerdo-nuclear-google/
+2026-10-07 14:14:00,666 [INFO] URL: https://financefeeds.com/es/oklo-sube-acuerdo-nuclear-google/
+2026-10-07 14:14:01,827 [INFO] Text length: 6006 chars | source: full
+2026-10-07 14:14:01,827 [INFO] Text preview: El movimiento fue una reacción sectorial ante otra empresa tecnológica que paga por capacidad nuclear. Esto refuerza el lado de la demanda en la tesis de inversión de Oklo, pero no reduce los riesgos ...
+2026-10-07 14:14:01,827 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:03,964 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Oklo subió 7,2% por acuerdo nuclear de Google sin participar
+2026-10-07 14:14:03,965 [INFO] LLM extracted 2 deals | Oklo subió 7,2% por acuerdo nuclear de Google sin 
+2026-10-07 14:14:03,966 [INFO] Not a European deal — skipping: Google / Constellation (United States, 890 MW)
+2026-10-07 14:14:03,966 [INFO] Not a European deal — skipping: Google / Constellation (United States, 2700 MW)
+2026-10-07 14:14:03,966 [INFO] ------- Processing article n. 7: Anuncios de empresas: Alter Enersun, Sonnedix - pv magazine España -------
+2026-10-07 14:14:04,040 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiigFBVV95cUxOaXJQM2N0Vy1rcGlZNmlSYVBCVWxmU0k3NjY4SjNCRVpENWVHTEZiRTFTVFAwVEVIblJhaElfN2U3ZnRNQTZKMFNlNkJDQ1lmdmFsU3FHWVhUZjRTMnNTRmE3blJIS3F4RkQwejRQV1k5WWhOZmRvdy12aXJPNVZMeGxKRURDdEF5elE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:05,147 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:05,148 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/10/07/anuncios-de-empresas-alter-enersun-sonnedix/
+2026-10-07 14:14:05,148 [INFO] URL: https://www.pv-magazine.es/2026/10/07/anuncios-de-empresas-alter-enersun-sonnedix/
+2026-10-07 14:14:05,499 [INFO] Text length: 2088 chars | source: full
+2026-10-07 14:14:05,500 [INFO] Text preview: Alter Enersun suministrará electricidad renovable al proyecto Onuba de Moeve, en Palos de la Frontera (Huelva), mediante un acuerdo de compraventa de energía a largo plazo (PPA). La generación procede...
+2026-10-07 14:14:05,500 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:09,292 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Anuncios de empresas: Alter Enersun, Sonnedix - pv magazine 
+2026-10-07 14:14:09,292 [INFO] LLM extracted 3 deals | Anuncios de empresas: Alter Enersun, Sonnedix - pv
+2026-10-07 14:14:09,307 [INFO] UPDATE: Moeve / Alter Enersun (Spain, None MW) — canonical ID: 1876
+2026-10-07 14:14:14,308 [INFO] Not a signed deal — skipping: Anuncios de empresas: Alter Enersun, Sonnedix - pv magazine 
+2026-10-07 14:14:14,308 [INFO] Not a signed deal — skipping: Anuncios de empresas: Alter Enersun, Sonnedix - pv magazine 
+2026-10-07 14:14:14,308 [INFO] ------- Processing article n. 8: Alter Enersun suministrará 500 GWh renovables al hidrógeno de Moeve - energelia -------
+2026-10-07 14:14:14,383 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFRfVHUxZWRERUFhSVpTYTZyeVJWNWd1cWktLUlJdWkyQmlRX1BkbWZLY2hJR3FCM2VFVS1BOS1ibXZqS3ZSVk40VTc1NVZVSi12RTFzQktpSTByZXRwelNjLWRXQXRlakNZdnI3TXFNeDhNMzBUY0xWbVNUWnBTWXFtZnE3VXFpNFYwRzlRSkljb3RsdHNTeS1mYUZTUXRESVMwdGpreTdzX3lzZnBLWHNn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:15,480 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:15,480 [INFO] Resolved Google News URL: https://energelia.com/solar-fotovoltaica/alter-enersun-suministrara-energia-renovable-al-proyecto-on
+2026-10-07 14:14:15,480 [INFO] URL: https://energelia.com/solar-fotovoltaica/alter-enersun-suministrara-energia-renovable-al-proyecto-onuba-de-moeve
+2026-10-07 14:14:16,213 [INFO] Text length: 4229 chars | source: full
+2026-10-07 14:14:16,213 [INFO] Text preview: Alter Enersun suministrará 500 GWh renovables al hidrógeno de Moeve
+"
+Un acuerdo solar para impulsar el hidrógeno renovable en Huelva
+La empresa energética Alter Enersun suministrará electricidad de o...
+2026-10-07 14:14:16,213 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:17,442 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alter Enersun suministrará 500 GWh renovables al hidrógeno d
+2026-10-07 14:14:17,442 [INFO] LLM extracted 2 deals | Alter Enersun suministrará 500 GWh renovables al h
+2026-10-07 14:14:17,457 [INFO] UPDATE: Moeve / Alter Enersun (Spain, None MW) — canonical ID: 1876
+2026-10-07 14:14:22,458 [INFO] Not a signed deal — skipping: Alter Enersun suministrará 500 GWh renovables al hidrógeno d
+2026-10-07 14:14:22,459 [INFO] ------- Processing article n. 9: Alter Enersun: quién es el proveedor de renovable del Valle del Hidrógeno de Moe -------
+2026-10-07 14:14:22,533 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaUdFSE44WTMxalM2ZkYydkRROTI5bXZfZDZpLTRxUHBMZnNRMTI5aVpRZy0xZkE4SzA1VFQzejdiVHpsQkhFV29EcHg3dnBHb1ZLQXJKNk9BemxpYkRwQndNa3hxSFlwMEdwWk9ma0daMENiV21uLTUzTGZlbTM2dlMwZ2gwOENveHBhbVFpOUFFLVR4T1dVMnNhM1RrSnU4Y19JQTdXb0pDd9IBqgFBVV95cUxNWTNhN0Y0QTRnMGVPRGV5VXpfQmY3MXhrVHVyN21PNG9kejdSU0pRbmJfSk5NTERXVi1VdkdJczdjbGRvRjF1M2hoY0FJa0NPVDhwX0pISEgzSHpidFQxbzcwS2FlVmsyd29WVXl3MTB2eURIcHRWZjBSdFJfVndUSWtRdnpEdGtMOXNsUDB6cnZkc0I4TlRVY3g4a29iclAyLTlmYjdpQm0zUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:23,620 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:23,621 [INFO] Resolved Google News URL: https://www.expansion.com/sostenibilidad/2026/10/07/alter-enersun-proveedor-renovable-valle-hidrogen
+2026-10-07 14:14:23,621 [INFO] URL: https://www.expansion.com/sostenibilidad/2026/10/07/alter-enersun-proveedor-renovable-valle-hidrogeno.html
+2026-10-07 14:14:23,886 [WARNING] discarding data: https://www.expansion.com/sostenibilidad/2026/10/07/alter-enersun-proveedor-renovable-valle-hidrogeno.html
+2026-10-07 14:14:23,886 [INFO] Full text extraction empty: https://www.expansion.com/sostenibilidad/2026/10/07/alter-enersun-proveedor-reno
+2026-10-07 14:14:23,886 [INFO] Text length: 201 chars | source: fallback
+2026-10-07 14:14:23,886 [INFO] Text preview: Alter Enersun: quién es el proveedor de renovable del Valle del Hidrógeno de Moeve - Expansión
+
+Alter Enersun: quién es el proveedor de renovable del Valle del Hidrógeno de Moeve &nbsp;&nbsp; Expansió...
+2026-10-07 14:14:23,887 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:24,879 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alter Enersun: quién es el proveedor de renovable del Valle 
+2026-10-07 14:14:24,879 [INFO] LLM extracted 1 deals | Alter Enersun: quién es el proveedor de renovable 
+2026-10-07 14:14:24,880 [INFO] Not a signed deal — skipping: Alter Enersun: quién es el proveedor de renovable del Valle 
+2026-10-07 14:14:24,880 [INFO] ------- Processing article n. 9: Alter Enersun llevará energía renovable al proyecto Onuba de Moeve - Andalucía I -------
+2026-10-07 14:14:24,960 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihwJBVV95cUxNSDRGWnZZNlJRQ0dRbHVuQ2Faci1MMzJ2akRDdW94ZlZtZHFzeGo2SnAxNmlNSE5wZ1A0a3liTWJWblA1T0ZBUGJscExSVXdtZXpPXzZjOExJUjFXaHg0YW9rVlR6NXMxdl9qVWdlcjRhdy1OOFJGRW5RanQ0V2tSdUlMTjVCcU9QSDAwd0ZjQVJJWEJ6S185UFE0OGJ6X0hDd0JveGZPYkRqTXEzQldvWENzLWtxb3F3MHNmMjZyREwyQVJXM0R5NjRPZDRTWEJFNFdlbW9NeFliUFVFMnFYWmJBUFR0ZzkyVjg5YkZoUnd1LXM1Y0VXcXJKVEFOcUczblliNjBva9IBjAJBVV95cUxNN2tJeko4NGRBeEFPZXpBOFlqYWVpbTV3V1JyUlNjcEZfb1kxUDlrVGtmRGlibmxLWnplNE9fbk9hblVyc1Jwc0FfaS1LamRJVHU0cEVNUXFXOUd2WTZtNjNTc1FiWVZZZGZDZWI4YWpFMjJma2ozQVQ3clpsZ05KYXZaVjlSc01hRmVIMDU2RnI0Y21meHl6M0dKSGctWFVDTXZMXzZBVl8tckdtTWYxa2I5WGc2M1RwWWZyeXdaUnpjbG8ySllib0J2SEhuSUZ0bUZmRDRDRk4ySml6ektCTzdzWWlyM1BVNXRWMnh3eF80WTBkdlpQRzdDZnBIRS14ektaSXE5VFdYanJ6?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:26,059 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:26,060 [INFO] Resolved Google News URL: https://www.andaluciainformacion.es/articulo/huelva/andalucia-huelva-andaluciaverde-alter-enersun-su
+2026-10-07 14:14:26,060 [INFO] URL: https://www.andaluciainformacion.es/articulo/huelva/andalucia-huelva-andaluciaverde-alter-enersun-suministrara-energia-renovable-proyecto-onuba-moeve/202610071255233499893.html
+2026-10-07 14:14:26,201 [INFO] Full text skipped (status 403): https://www.andaluciainformacion.es/articulo/huelva/andalucia-huelva-andaluciave
+2026-10-07 14:14:26,202 [INFO] Text length: 193 chars | source: fallback
+2026-10-07 14:14:26,202 [INFO] Text preview: Alter Enersun llevará energía renovable al proyecto Onuba de Moeve - Andalucía Información
+
+Alter Enersun llevará energía renovable al proyecto Onuba de Moeve &nbsp;&nbsp; Andalucía Información...
+2026-10-07 14:14:26,202 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:29,779 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alter Enersun llevará energía renovable al proyecto Onuba de
+2026-10-07 14:14:29,779 [INFO] LLM extracted 1 deals | Alter Enersun llevará energía renovable al proyect
+2026-10-07 14:14:29,781 [INFO] Not a signed deal — skipping: Alter Enersun llevará energía renovable al proyecto Onuba de
+2026-10-07 14:14:29,781 [INFO] ------- Processing article n. 9: Fedea critica los "desproporcionados" requisitos del decreto de centros de datos -------
+2026-10-07 14:14:29,870 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSTBKUjNXYzcxQ0MzMTdBRUcxeW1NVHFJaDN5MmpUcmY3SHY3ZlJsZ2F2X2N3RXpDb3dScS1ieHVSQmtTU3BIRmRTdUpwWEpYSXRzdHc2V19BZzdqajZmVXVTLUZobGF6WkVhb21NN1gzekpqSGQzVmpTSElSWWJIUnUwbzVSTndXdjZsZWNhbEYtYWdHdHFqQm9aM2N4SmIwQXFOdEhsOVBwQ1YxNVAtQV9GTm9aY01xZm5DRDJQTTRfTUY0SExrY1dwdFJjODJGaERzdzJEUDc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:30,978 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:30,978 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/fedea-critica-los-desproporcionados-requisitos-del-decreto-de-cen
+2026-10-07 14:14:30,978 [INFO] URL: https://elperiodicodelaenergia.com/fedea-critica-los-desproporcionados-requisitos-del-decreto-de-centros-de-datos-y-su-sesgo-discriminatorio/
+2026-10-07 14:14:31,541 [INFO] Text length: 3539 chars | source: full
+2026-10-07 14:14:31,541 [INFO] Text preview: La Fundación de Estudios de Economía Aplicada (Fedea) ha publicado un informe en el que muestra su rechazo al proyecto de Real Decreto tramitado por el Gobierno para regular los requisitos de sostenib...
+2026-10-07 14:14:31,541 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:34,992 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Fedea critica los "desproporcionados" requisitos del decreto
+2026-10-07 14:14:34,992 [INFO] LLM extracted 1 deals | Fedea critica los "desproporcionados" requisitos d
+2026-10-07 14:14:34,994 [INFO] Not a signed deal — skipping: Fedea critica los "desproporcionados" requisitos del decreto
+2026-10-07 14:14:34,994 [INFO] ------- Processing article n. 9: Alter Enersun invertirá 250 millones para dar 500 GWh al hidrógeno verde Huelva  -------
+2026-10-07 14:14:35,082 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijAFBVV95cUxOWFRIMUQyNmlGbVljbVJldWp3ZzZkMTRPRjV3R093UE5qeXFGZ3h1WTFhcFVYUkhpUjlzQnJULTlpZk5CLTE5ajJxT3Q2SnJfRVQzTkJ3MmFUaV9FX2tJbUJIQzNDOTd4a1NUdTliaVh5OHd0TUVaem5LMXZaZUlYZUNPbGxNTndUVkdPeg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:36,191 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:36,192 [INFO] Resolved Google News URL: https://www.merca2.es/2026/10/07/hidrogeno-verde-huelva-moeve-alter-enersun-2469047/
+2026-10-07 14:14:36,192 [INFO] URL: https://www.merca2.es/2026/10/07/hidrogeno-verde-huelva-moeve-alter-enersun-2469047/
+2026-10-07 14:14:36,413 [INFO] Text length: 7481 chars | source: full
+2026-10-07 14:14:36,413 [INFO] Text preview: El hidrógeno verde de Huelva ya tiene a su primer gran suministrador de energía. Alter Enersun movilizará más de 250 millones de euros a través de un contrato de compraventa de energía (PPA, por sus s...
+2026-10-07 14:14:36,413 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:40,457 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alter Enersun invertirá 250 millones para dar 500 GWh al hid
+2026-10-07 14:14:40,458 [INFO] LLM extracted 2 deals | Alter Enersun invertirá 250 millones para dar 500 
+2026-10-07 14:14:40,473 [INFO] UPDATE: Moeve / Alter Enersun (Spain, None MW) — canonical ID: 1876
+2026-10-07 14:14:45,474 [INFO] Not a signed deal — skipping: Alter Enersun invertirá 250 millones para dar 500 GWh al hid
+2026-10-07 14:14:45,474 [INFO] ------- Processing article n. 10: Il Ministero dell'Industria e del Commercio propone soluzioni per garantire la s -------
+2026-10-07 14:14:45,557 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMGtRNUNZZGIxOWpYa0NaTEtMWWlNVzhQa1dnemJWb1FzY09EYlNuTVYtNi03WGJYRTRCQThZaGRiUGR3RUduY3dab0R4NGRjV3RUbllmRUNUZWx3X1FMLWZPR1l2cHNJUVllLWlIclpHQ3c2bTBuWTkzcmdWQldhck9pcGRvR08x?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:46,654 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:46,655 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/bo-cong-thuong-neu-giai-phap-bao-dam-an-ninh-nang-luong
+2026-10-07 14:14:46,655 [INFO] URL: https://www.vietnam.vn/it/bo-cong-thuong-neu-giai-phap-bao-dam-an-ninh-nang-luong
+2026-10-07 14:14:47,041 [INFO] Text length: 11941 chars | source: full
+2026-10-07 14:14:47,041 [INFO] Text preview: Il Ministero dell'Industria e del Commercio propone soluzioni per garantire la sicurezza energetica.
+Il Ministero dell'Industria e del Commercio sta implementando soluzioni per migliorare le istituzio...
+2026-10-07 14:14:47,041 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:47,902 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Il Ministero dell'Industria e del Commercio propone soluzion
+2026-10-07 14:14:47,902 [INFO] LLM extracted 1 deals | Il Ministero dell'Industria e del Commercio propon
+2026-10-07 14:14:47,903 [INFO] Not a signed deal — skipping: Il Ministero dell'Industria e del Commercio propone soluzion
+2026-10-07 14:14:47,903 [INFO] ------- Processing article n. 10: Zelestra ottiene 313 milioni per un macroprogetto solare di 203 MW negli Stati U -------
+2026-10-07 14:14:47,974 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVUZzU3lvSzVRZVlYUm1lbjlOUHhTUU9JR05ELWUwTk5pXzRrTnBfZ1Z3WGMyNmhQMXJYSkNweEpCWThBUWFMVDY2REh3Z0VWX21WNnN2LVhMa0d4N2hNN09wNWFxNDNkS0hUOEtCRmlfdnp2bHM3Q1hsRFFGSVpHYjF6dXd5ekNIWl9kenh0TE5ENkNFQnF3V1JjbFdzRHc0Wnpab1pnSGF4V0c3RXdGSmt2S2N0SEUyLXE1cG5CRm85MVhEMTd2R2xTQnFyaHhjSEgweEhoZFrSAd4BQVVfeXFMUDJINmppdjJoZ2M3TUtLcUtTel8zc2Y2Rlh5QVRZRFRoTXJfSS0xcHpHXzc4MDBMYVlubHQ5TDRhQ0tHTVE0OUlERkptNnFKOEp1d1A5Rk5CZjk1UkUwWV9lSmlyZFB6TXZkaE1IdDZfenhYVzJWUDRNZ2dhTlFuekZaRDJRV0J2a09MaDRoNDE0OFJSVnZfc1hPT3lkdEItYlZSM2Y3NThhM1Zpajhtdm9nRzZnVzBITlJYSjJ2dTZIM3ZHdG5oLWVqZEpNampGZU54MENQdzVmUV84cTBR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:49,081 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:49,082 [INFO] Resolved Google News URL: https://www.democrata.es/it/economia/zelestra-ottiene-313-milioni-per-un-macroprogetto-solare-di-203
+2026-10-07 14:14:49,082 [INFO] URL: https://www.democrata.es/it/economia/zelestra-ottiene-313-milioni-per-un-macroprogetto-solare-di-203-mw-negli-stati-uniti-supportato-da-meta/
+2026-10-07 14:14:49,150 [INFO] Full text skipped (status 403): https://www.democrata.es/it/economia/zelestra-ottiene-313-milioni-per-un-macropr
+2026-10-07 14:14:49,150 [INFO] Text length: 245 chars | source: fallback
+2026-10-07 14:14:49,150 [INFO] Text preview: Zelestra ottiene 313 milioni per un macroprogetto solare di 203 MW negli Stati Uniti, supportato da Meta - Demócrata
+
+Zelestra ottiene 313 milioni per un macroprogetto solare di 203 MW negli Stati Uni...
+2026-10-07 14:14:49,150 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:53,075 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Zelestra ottiene 313 milioni per un macroprogetto solare di 
+2026-10-07 14:14:53,076 [INFO] LLM extracted 1 deals | Zelestra ottiene 313 milioni per un macroprogetto 
+2026-10-07 14:14:53,077 [INFO] Not a signed deal — skipping: Zelestra ottiene 313 milioni per un macroprogetto solare di 
+2026-10-07 14:14:53,077 [INFO] ------- Processing article n. 10: Google punta sul nucleare: 890 megawatt in più per i data center - TecnoAndroid -------
+2026-10-07 14:14:53,154 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaHpyYVNLME84UkM2Q1dMZTVtX0NqRVFqaXplRXpia2k0QTlicVg1LTZveGx2N0tqTWJWal9qV3Q2SWx3V0ZMNVNMMjQwOWd1RGtPVVh1aG9INGVtYk9Ma3huTWdaenpyeDAtanZ5QmxDQkw2dkxzUVFTSTZNTXg0akFabWgyWFA0cThaS1k3Ym5pYVpOM1EtTjFKRlVPQzQzT2ZCalJobFI?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:54,250 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:54,251 [INFO] Resolved Google News URL: https://www.tecnoandroid.it/news/google-punta-sul-nucleare-890-megawatt-in-piu-per-i-data-center-199
+2026-10-07 14:14:54,251 [INFO] URL: https://www.tecnoandroid.it/news/google-punta-sul-nucleare-890-megawatt-in-piu-per-i-data-center-1990491/
+2026-10-07 14:14:54,618 [INFO] Text length: 4243 chars | source: full
+2026-10-07 14:14:54,618 [INFO] Text preview: In questo articolo Indice dei contenuti 3 sezioni
+Google punta sull’energia nucleare per alimentare i suoi data center, sempre più affamati di elettricità. Il colosso tecnologico ha annunciato un nuov...
+2026-10-07 14:14:54,618 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:14:58,312 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Google punta sul nucleare: 890 megawatt in più per i data ce
+2026-10-07 14:14:58,313 [INFO] LLM extracted 2 deals | Google punta sul nucleare: 890 megawatt in più per
+2026-10-07 14:14:58,314 [INFO] Not a European deal — skipping: Google / Constellation (United States, 890 MW)
+2026-10-07 14:14:58,314 [INFO] Not a European deal — skipping: Google / Constellation (United States, 2700 MW)
+2026-10-07 14:14:58,314 [INFO] ------- Processing article n. 10: Constellation Energy fecha acordos de energia nuclear com Google e Amazon - Jorn -------
+2026-10-07 14:14:58,401 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmZUUTBSd2dEX1lCUFBvVmJVTkU0dEQwUkt5R3lhY1BUdVppZWh4VTVwclNjd2xiYS1ZM3lhSGRvMHAxaV83NGJ4aF8tb2c1X05mQy0wS3dQWlRiZWNNSTREZFZZQllsUnNhTVJVWHh0eTJ0b2UzTHRrU3F6MmlqOFRsbnJGWWtRUkN3RXh3UFItU2ZpU0s2NUdwc0xiRjAxUnNHVlBpQjhtWGp5REs0RmYxaUt3UQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:14:59,488 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:14:59,489 [INFO] Resolved Google News URL: https://jornaleconomico.sapo.pt/noticias/constellation-energy-fecha-acordos-de-energia-nuclear-com-g
+2026-10-07 14:14:59,489 [INFO] URL: https://jornaleconomico.sapo.pt/noticias/constellation-energy-fecha-acordos-de-energia-nuclear-com-google-e-amazon/
+2026-10-07 14:15:02,765 [INFO] Text length: 2768 chars | source: full
+2026-10-07 14:15:02,765 [INFO] Text preview: Constellation Energy fecha acordos de energia nuclear com Google e Amazon
+No caso da Amazon trata-se de um contrato, com uma duração de 20 anos, que inclui 690 megawatts de capacidade nuclear na centr...
+2026-10-07 14:15:02,765 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:15:04,933 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Constellation Energy fecha acordos de energia nuclear com Go
+2026-10-07 14:15:04,933 [INFO] LLM extracted 3 deals | Constellation Energy fecha acordos de energia nucl
+2026-10-07 14:15:04,935 [INFO] Not a European deal — skipping: Amazon / Constellation Energy (United States, 690 MW)
+2026-10-07 14:15:04,935 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 890 MW)
+2026-10-07 14:15:04,935 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 2700 MW)
+2026-10-07 14:15:04,935 [INFO] ------- Processing article n. 10: Zelestra garante US$ 350 milhões para projeto solar Reclamation de 203MW em Indi -------
+2026-10-07 14:15:05,018 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxPeG9rSzRWREJHbmZPZk1BUHJDSnBTZGJmcEVPcUh1STlWaVZZc2NwaGFtMTh1MGJoSG1DYlI3SXJyb2ZZV3hsM0hpSk1QWWkwd3JXWGNUU3hleUMwaVEwS2dZYmozTnE5T0ZVNWRPckpyTm5DVUhBbzloT0h3VFN5akpkQXc3T3ZWejY5X0o2enNMcGkzaFIwZjlDNTNiV0VyU2sw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:15:06,110 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:15:06,111 [INFO] Resolved Google News URL: https://www.indexbox.io/pt-br/blog/zelestra-closes-350m-green-credit-for-203mw-indiana-solar-project
+2026-10-07 14:15:06,111 [INFO] URL: https://www.indexbox.io/pt-br/blog/zelestra-closes-350m-green-credit-for-203mw-indiana-solar-project/
+2026-10-07 14:15:06,513 [INFO] Text length: 2643 chars | source: full
+2026-10-07 14:15:06,513 [INFO] Text preview: Zelestra fecha crédito verde de US$ 350 milhões para projeto solar de 203MW em Indiana
+Produtora independente de energia A Zelestra fechou uma linha de crédito verde de US$ 350 milhões para o projeto ...
+2026-10-07 14:15:06,513 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:15:09,626 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Zelestra garante US$ 350 milhões para projeto solar Reclamat
+2026-10-07 14:15:09,627 [INFO] LLM extracted 2 deals | Zelestra garante US$ 350 milhões para projeto sola
+2026-10-07 14:15:09,628 [INFO] Not a European deal — skipping: Meta / Zelestra (United States, 203 MW)
+2026-10-07 14:15:09,632 [INFO] UPDATE: EDP / Zelestra (Spain, None MW) — canonical ID: 502
+2026-10-07 14:15:14,634 [INFO] ------- Processing article n. 11: Alter Enersun aportará energia verde ao megaproyecto de hidrogênio renovável Onu -------
+2026-10-07 14:15:14,715 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxQNThIN2dHTmhrZnlXMjg2YTEwSExVOHpvdm45YTdBcHQtT3VNczNGSmhwTmUzdmN5cTFRTnowN0xkQnhlcDhxYlpHSXdXbVhScVpOOGd2TjVlQTdCbkRza2hVQlMzc1hjV0dLREh1LXF6aXhPN0ZxYXRGU1ZiY2tra3RQcGpKeUxtUkZ0YlBnaWltRC1Uc2FmUWswQlJUalpDYnlWb0xJckp2Y09lU1B0VDVXc3U5X2taSFFTRmNoN1dvZXdSZmxRRlVsekJYUdIBzgFBVV95cUxQNThIN2dHTmhrZnlXMjg2YTEwSExVOHpvdm45YTdBcHQtT3VNczNGSmhwTmUzdmN5cTFRTnowN0xkQnhlcDhxYlpHSXdXbVhScVpOOGd2TjVlQTdCbkRza2hVQlMzc1hjV0dLREh1LXF6aXhPN0ZxYXRGU1ZiY2tra3RQcGpKeUxtUkZ0YlBnaWltRC1Uc2FmUWswQlJUalpDYnlWb0xJckp2Y09lU1B0VDVXc3U5X2taSFFTRmNoN1dvZXdSZmxRRlVsekJYUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-07 14:15:15,822 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-07 14:15:15,822 [INFO] Resolved Google News URL: https://www.democrata.es/pt/economia/alter-enersun-aportara-energia-verde-ao-megaproyecto-de-hidroge
+2026-10-07 14:15:15,822 [INFO] URL: https://www.democrata.es/pt/economia/alter-enersun-aportara-energia-verde-ao-megaproyecto-de-hidrogenio-renovavel-onuba-de-moeve/amp/
+2026-10-07 14:15:15,871 [INFO] Full text skipped (status 403): https://www.democrata.es/pt/economia/alter-enersun-aportara-energia-verde-ao-meg
+2026-10-07 14:15:15,871 [INFO] Text length: 219 chars | source: fallback
+2026-10-07 14:15:15,872 [INFO] Text preview: Alter Enersun aportará energia verde ao megaproyecto de hidrogênio renovável Onuba de Moeve - Demócrata
+
+Alter Enersun aportará energia verde ao megaproyecto de hidrogênio renovável Onuba de Moeve &nb...
+2026-10-07 14:15:15,872 [INFO] Trying LLM provider: gemini (model=gemini-3.5-flash-lite)
+2026-10-07 14:15:16,697 [INFO] LLM [gemini/gemini-3.5-flash-lite] HTTP 200 for: Alter Enersun aportará energia verde ao megaproyecto de hidr
+2026-10-07 14:15:16,698 [INFO] LLM extracted 1 deals | Alter Enersun aportará energia verde ao megaproyec
+2026-10-07 14:15:16,699 [INFO] Not a signed deal — skipping: Alter Enersun aportará energia verde ao megaproyecto de hidr
+2026-10-07 14:15:16,699 [INFO] Run complete. New deals: 3, Updates: 8
+2026-10-07 14:15:16,716 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1431 deals)
+2026-10-07 14:15:17,982 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
