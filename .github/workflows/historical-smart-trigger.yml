@@ -56,7 +56,7 @@ jobs:
           NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
           ENVIRONMENT: ${{ vars.ENVIRONMENT }}
         run: |
-          set -e
+          set -euo pipefail
 
           if [ -n "${{ inputs.start_date }}" ]; then
             CURRENT_START="${{ inputs.start_date }}"
@@ -73,11 +73,11 @@ jobs:
           git config user.name "ppa-tracker-bot"
           git config user.email "bot@ppa-tracker"
 
-          while [[ "$CURRENT_START" <= "$FINAL_END" ]]; do
+          while [ "$(date -d "$CURRENT_START" +%s)" -le "$(date -d "$FINAL_END" +%s)" ]; do
 
             CURRENT_END=$(date -d "$CURRENT_START +6 days" +%Y-%m-%d)
 
-            if [[ "$CURRENT_END" > "$FINAL_END" ]]; then
+            if [ "$(date -d "$CURRENT_END" +%s)" -gt "$(date -d "$FINAL_END" +%s)" ]; then
               CURRENT_END="$FINAL_END"
             fi
 
@@ -102,7 +102,6 @@ jobs:
             else
               git commit \
                 -m "chore: historical update $CURRENT_START to $CURRENT_END"
-
               git push
             fi
 
