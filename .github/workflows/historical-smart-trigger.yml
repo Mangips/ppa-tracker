@@ -12,6 +12,10 @@ on:
         required: true
         default: '2026-09-30'
 
+concurrency:
+  group: ppa-historical-backfill
+  cancel-in-progress: false
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
