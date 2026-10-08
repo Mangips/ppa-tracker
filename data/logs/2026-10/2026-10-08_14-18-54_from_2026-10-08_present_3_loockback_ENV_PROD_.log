@@ -1,0 +1,677 @@
+2026-10-08 14:18:54,101 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-08 14:18:54,106 [INFO] Loaded 1624 existing deals for dedup matching
+2026-10-08 14:18:54,106 [INFO] Searching from 2026-10-08 to present with 3 loockback days
+2026-10-08 14:18:54,174 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-08 14:18:55,228 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-08 14:18:56,281 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-08 14:18:57,723 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-08&hl=en&gl=US&ceid=US:en: 22 results
+2026-10-08 14:19:00,113 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-08&hl=en&gl=US&ceid=US:en: 5 results
+2026-10-08 14:19:02,335 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-08&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-08 14:19:04,588 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-08&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-10-08 14:19:07,186 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-08&hl=fr&gl=FR&ceid=FR:fr: 4 results
+2026-10-08 14:19:09,433 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-08&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-08 14:19:11,682 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-08&hl=es&gl=ES&ceid=ES:es: 3 results
+2026-10-08 14:19:13,935 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-08&hl=es&gl=ES&ceid=ES:es: 6 results
+2026-10-08 14:19:16,247 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-08&hl=it&gl=IT&ceid=IT:it: 2 results
+2026-10-08 14:19:18,505 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-08&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-08 14:19:20,789 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-08&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-08 14:19:23,027 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-08&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-08 14:19:25,328 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-08&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-08 14:19:27,833 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-08&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-10-08 14:19:30,295 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-08&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-08 14:19:32,296 [INFO] Total raw articles collected: 44
+2026-10-08 14:19:32,520 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-10-08 14:19:34,051 [INFO] Extra RSS [elperiodicodelaenergia.com]: 2 results
+2026-10-08 14:19:35,060 [INFO] Unique unseen articles: 41
+2026-10-08 14:19:35,060 [INFO] ------- Processing article n. 0: German Data Center Renewable Rule May Shift to 2030 - Environment+Energy Leader -------
+2026-10-08 14:19:35,158 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipAFBVV95cUxQOGJlblYyRHF1a0JtY0w0Z0VWMUNQMjMwQ3BHS2R5SVR6Y1NValBxbEVxdGdWbURGSFNocHlJbDlmMEhlVVRVQ0Nhc05QUzFKY1VtVFc1enh2Q0w2M0I5Y0swall0dFp2eXhYblZzRUZ6aXVMbFpMa0VBQ0pFTUsyOGR5Z1lZaUZjZWZkNi1hMmtBY3VGQWxybWRrU3lsNGpQVEVzcg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:19:36,254 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:19:36,255 [INFO] Resolved Google News URL: https://environmentenergyleader.com/stories/german-data-center-renewable-rule-may-shift-to-2030,1428
+2026-10-08 14:19:36,255 [INFO] URL: https://environmentenergyleader.com/stories/german-data-center-renewable-rule-may-shift-to-2030,142880
+2026-10-08 14:19:36,483 [INFO] Full text skipped (status 403): https://environmentenergyleader.com/stories/german-data-center-renewable-rule-ma
+2026-10-08 14:19:36,484 [INFO] Text length: 171 chars | source: fallback
+2026-10-08 14:19:36,484 [INFO] Text preview: German Data Center Renewable Rule May Shift to 2030 - Environment+Energy Leader
+
+German Data Center Renewable Rule May Shift to 2030 &nbsp;&nbsp; Environment+Energy Leader...
+2026-10-08 14:19:36,484 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:19:39,962 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: German Data Center Renewable Rule May Shift to 2030 - Enviro
+2026-10-08 14:19:39,963 [INFO] LLM extracted 1 deals | German Data Center Renewable Rule May Shift to 203
+2026-10-08 14:19:39,965 [INFO] Not a signed deal — skipping: German Data Center Renewable Rule May Shift to 2030 - Enviro
+2026-10-08 14:19:39,965 [INFO] ------- Processing article n. 0: How to achieve sovereignty at scale: building Europe’s data center future - Kear -------
+2026-10-08 14:19:40,036 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnVpbi1qNXBQZVZBVkVkbjVGSUtuOEY2VGZxQlVNcXlEQ3YxU1huY0h5cEh4NnBReFFBYXJ3aDgxcUh2UThhcTRqanlmd2kzdVdpYUdPSDRULVotUFNfcThrOGx4Ni05WFJENEs4TUFPVWdQb0FCMkJJcG1qbEtTREQ5YXYzR0ttLW5rNDVkQy1ydk5RdTFNY0x6dVcyU0hsNlg5REU3MEZENzRyM0plZHQ3QjY0a3N6U2pLTGFzcmNiUk5xMXc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:19:41,139 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:19:41,140 [INFO] Resolved Google News URL: https://www.kearney.com/industry/communications/article/how-to-achieve-sovereignty-at-scale-building
+2026-10-08 14:19:41,140 [INFO] URL: https://www.kearney.com/industry/communications/article/how-to-achieve-sovereignty-at-scale-building-europes-data-center-future
+2026-10-08 14:19:41,478 [WARNING] discarding data: https://www.kearney.com/industry/communications/article/how-to-achieve-sovereignty-at-scale-building-europes-data-center-future
+2026-10-08 14:19:41,480 [INFO] Full text extraction empty: https://www.kearney.com/industry/communications/article/how-to-achieve-sovereign
+2026-10-08 14:19:41,480 [INFO] Text length: 179 chars | source: fallback
+2026-10-08 14:19:41,480 [INFO] Text preview: How to achieve sovereignty at scale: building Europe’s data center future - Kearney
+
+How to achieve sovereignty at scale: building Europe’s data center future &nbsp;&nbsp; Kearney...
+2026-10-08 14:19:41,480 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:19:52,112 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: How to achieve sovereignty at scale: building Europe’s data 
+2026-10-08 14:19:52,112 [INFO] LLM extracted 1 deals | How to achieve sovereignty at scale: building Euro
+2026-10-08 14:19:52,114 [INFO] Not a signed deal — skipping: How to achieve sovereignty at scale: building Europe’s data 
+2026-10-08 14:19:52,114 [INFO] ------- Processing article n. 0: EU?s new energy labelling must include post-purchase information, says the EESC  -------
+2026-10-08 14:19:52,219 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxNWHlRR0pKY19YazdRZ0tudWdBRVRwNXoyUnh4TWE1VmFYc1F1U3k0QWNZRnNJbnBXTVg1OEh2Q0l0Rnh0THhYVjdQZ1BGUUxlQ25QcGZxaVM0NFRaaUo0eUtFQ1MyMTJjR3ZQaFpqSVBKcFNUdTFaSmRtSVN1dnpJQ2tXWXl6Z1lQbmNVZ1gxYmVZRDczT29kUm5zYl9XZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:19:53,312 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:19:53,313 [INFO] Resolved Google News URL: https://www.renewableenergymagazine.com/pv_solar/eua-s-new-energy-labelling-must-include-20261008
+2026-10-08 14:19:53,313 [INFO] URL: https://www.renewableenergymagazine.com/pv_solar/eua-s-new-energy-labelling-must-include-20261008
+2026-10-08 14:19:53,707 [INFO] Text length: 5883 chars | source: full
+2026-10-08 14:19:53,707 [INFO] Text preview: The European Commission’s proposal for a new energy labelling system should extend beyond the pre-contractual data needed for consumers to make a purchasing decision. It should also include post-purch...
+2026-10-08 14:19:53,707 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:20:07,210 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EU?s new energy labelling must include post-purchase informa
+2026-10-08 14:20:07,211 [INFO] LLM extracted 1 deals | EU?s new energy labelling must include post-purcha
+2026-10-08 14:20:07,212 [INFO] Not a signed deal — skipping: EU?s new energy labelling must include post-purchase informa
+2026-10-08 14:20:07,212 [INFO] ------- Processing article n. 0: Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI - Energy-Storage.News -------
+2026-10-08 14:20:07,275 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijAFBVV95cUxNTHp2ZnFsVmlra19nQlpxQWp6dnVsd1lJRUp0SC1MdTV1RzNmT1R4MFRmajE1bG5UeERjdlBlUDdqRFF1a09kU2xTcVBMUklwbTdsbTZuNzI2M0ktM3VObmhtLThZZ3poS0dTVFNzNDJhMzUwUmloNW42OWljT09LMUxtVVA4eUN5RW11Mg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:20:08,365 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:20:08,366 [INFO] Resolved Google News URL: https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/
+2026-10-08 14:20:08,366 [INFO] URL: https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/
+2026-10-08 14:20:08,435 [INFO] Full text skipped (status 403): https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-
+2026-10-08 14:20:08,435 [INFO] Text length: 161 chars | source: fallback
+2026-10-08 14:20:08,435 [INFO] Text preview: Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI - Energy-Storage.News
+
+Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI &nbsp;&nbsp; Energy-Storage.News...
+2026-10-08 14:20:08,435 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:20:22,528 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI - Energ
+2026-10-08 14:20:22,528 [INFO] LLM extracted 1 deals | Actis buys 1.14GWh of BESS in Poland from DTEK’s D
+2026-10-08 14:20:22,529 [INFO] Not a signed deal — skipping: Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI - Energ
+2026-10-08 14:20:22,530 [INFO] ------- Processing article n. 0: Oracle Partners with Scout Clean Energy for Renewable Power - SolarQuarter -------
+2026-10-08 14:20:22,595 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaWk1anRuaFZSamF1M3MwU3RxUHVBUEYySnNnZ2dsMG9YdE5CZ2hnNUlIR3kwemlmUFhVdmFmN1hzblVuTUtRZF83QkF5S3VUai1UVzJ0bENyeUdOV3dpaUZ0VmxJeE9VTTM4WlhBX3pxLXdZQUU4d1NUSFA0Z0p6SjBMTF9BaDJvdzlvVDdMMkt2SERmVGFIOFBGVVlhQzNwQXJiUXhPdTE2ZHpaZlJZWHcyc19lT0IyMHZvenRBOWZVTWVzZmZQNlRITC1BclA2WU9VSDB0anRPNWxyal8wRWhWRUttT3VibVdQYWJB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:20:23,681 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:20:23,686 [INFO] Resolved Google News URL: https://solarquarter.com/2026/10/08/scout-clean-energy-signs-vppa-with-oracle-for-300-mw-ranchero-wi
+2026-10-08 14:20:23,686 [INFO] URL: https://solarquarter.com/2026/10/08/scout-clean-energy-signs-vppa-with-oracle-for-300-mw-ranchero-wind-farm-in-texas-to-support-ai-data-center-energy-demand/
+2026-10-08 14:20:23,729 [INFO] Full text skipped (status 403): https://solarquarter.com/2026/10/08/scout-clean-energy-signs-vppa-with-oracle-fo
+2026-10-08 14:20:23,729 [INFO] Text length: 161 chars | source: fallback
+2026-10-08 14:20:23,729 [INFO] Text preview: Oracle Partners with Scout Clean Energy for Renewable Power - SolarQuarter
+
+Oracle Partners with Scout Clean Energy for Renewable Power &nbsp;&nbsp; SolarQuarter...
+2026-10-08 14:20:23,729 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:20:37,685 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Oracle Partners with Scout Clean Energy for Renewable Power 
+2026-10-08 14:20:37,686 [INFO] LLM extracted 1 deals | Oracle Partners with Scout Clean Energy for Renewa
+2026-10-08 14:20:37,687 [INFO] Not a signed deal — skipping: Oracle Partners with Scout Clean Energy for Renewable Power 
+2026-10-08 14:20:37,687 [INFO] ------- Processing article n. 0: HD Hyundai Marine Solution buys US engine repair firm Goltens for $247M - Dealro -------
+2026-10-08 14:20:37,756 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOLXBlUzVXcXdNbHhXaHJTUS1WSmpIZEFMOERSaDd6ZGpIazlxSEpic2xjM3pfcDZPNVZGaUxDYWZNYUc0YlBZeUFYY3VDRHF4TXNQMVBKczRfWklfSXhIN2VRWkUxUXhpN1IzQ1dDSm5LREtpMF82MjB1dTc4MEk0SDlIb3AyMEFJUkpEWTlOLUZUR1lSUGt2dGlBdnc0aFI0dG9IZDBYMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:20:38,886 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:20:38,887 [INFO] Resolved Google News URL: https://app.dealroom.co/news/note/hd-hyundai-marine-solution-buys-us-engine-repair-firm-goltens-for-
+2026-10-08 14:20:38,887 [INFO] URL: https://app.dealroom.co/news/note/hd-hyundai-marine-solution-buys-us-engine-repair-firm-goltens-for-247m
+2026-10-08 14:20:39,818 [INFO] Text length: 2256 chars | source: full
+2026-10-08 14:20:39,818 [INFO] Text preview: What's the deal? HD Hyundai Marine Solution has agreed to buy 100% of Goltens, a US engine maintenance company, for $247 million. The Korean firm signed the share purchase agreement in a regulatory fi...
+2026-10-08 14:20:39,818 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:20:52,159 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: HD Hyundai Marine Solution buys US engine repair firm Golten
+2026-10-08 14:20:52,159 [INFO] LLM extracted 1 deals | HD Hyundai Marine Solution buys US engine repair f
+2026-10-08 14:20:52,161 [INFO] Not a signed deal — skipping: HD Hyundai Marine Solution buys US engine repair firm Golten
+2026-10-08 14:20:52,161 [INFO] ------- Processing article n. 0: HD Hyundai Marine Solution Acquires U.S. Engine Service Firm Goltens for ₩331.5  -------
+2026-10-08 14:20:52,250 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE53ZDVoRDZhY1R4OUhzcTV1S19CR3BJR2tVdDMxMzAtMndVOUVTUHVjRDNaRFhrQ1FkNXRKSXV3elZTaTFYVVFlRjdVRG0zVEg5RUUzMTloR3BxaFJTU04wT0pVZmFuWkFFYzE5MGhwT3BnaXMwZVE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:20:53,356 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:20:53,357 [INFO] Resolved Google News URL: https://finance.biggo.com/news/b076f89e-7f6d-41b3-a951-ecacb8e291b8
+2026-10-08 14:20:53,357 [INFO] URL: https://finance.biggo.com/news/b076f89e-7f6d-41b3-a951-ecacb8e291b8
+2026-10-08 14:20:54,306 [INFO] Text length: 4607 chars | source: full
+2026-10-08 14:20:54,306 [INFO] Text preview: HD Hyundai Marine Solution Acquires U.S. Engine Service Firm Goltens for ₩331.5 Billion
+South Korea's HD Hyundai Marine Solution (443060.KS) announced on the 8th that it has signed a stock purchase ag...
+2026-10-08 14:20:54,306 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:21:07,204 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: HD Hyundai Marine Solution Acquires U.S. Engine Service Firm
+2026-10-08 14:21:07,205 [INFO] LLM extracted 1 deals | HD Hyundai Marine Solution Acquires U.S. Engine Se
+2026-10-08 14:21:07,206 [INFO] Not a signed deal — skipping: HD Hyundai Marine Solution Acquires U.S. Engine Service Firm
+2026-10-08 14:21:07,206 [INFO] ------- Processing article n. 0: Partner Insight: What if the next valuable crop on your land was energy? - Farme -------
+2026-10-08 14:21:07,274 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxQSEgwRU1WcFpXckRQaTVaV2E1NE5LaDJQNktYWUMxZE9QYlMzX0tkeUVJN3lWNWFNejhIc19OTmFDUEpkcjdxWDBVemRvNkxGZlZ0LVpMdWtBemxmQTBLZUlmN0VCUlNURWw3cm02U1ByM19WTWF0QnIyd2FMU1hCaEpzbEpjMTBOeEFHZ05XeWwxZGVRZ3c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:21:08,367 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:21:08,367 [INFO] Resolved Google News URL: https://www.farmersguardian.com/sponsored/4536423/partner-insight-valuable-crop-land-energy
+2026-10-08 14:21:08,367 [INFO] URL: https://www.farmersguardian.com/sponsored/4536423/partner-insight-valuable-crop-land-energy
+2026-10-08 14:21:09,134 [INFO] Text length: 4411 chars | source: full
+2026-10-08 14:21:09,134 [INFO] Text preview: For generations, farmers have been asked to get more from the same resources. More productivity from every acre, more efficiency from every input and more resilience from businesses exposed to changin...
+2026-10-08 14:21:09,134 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:21:24,760 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Partner Insight: What if the next valuable crop on your land
+2026-10-08 14:21:24,761 [INFO] LLM extracted 1 deals | Partner Insight: What if the next valuable crop on
+2026-10-08 14:21:24,776 [INFO] NEW: Pilgrim's Europe / EDF Power Solutions (United Kingdom, 0.40548 MW)
+2026-10-08 14:21:29,778 [INFO] ------- Processing article n. 1: ERG entered a Polish power deal: ERG stock sits 16.16 percent below its high - A -------
+2026-10-08 14:21:29,847 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaWtyOVRSdE8wd1pMd1ZFbnd3NTFJaDlXNzNfenBqNXpnN0ltQTltM01vTUtXSERfZ2tyMWVEYi1sMlk0OGZCX185WE0tcTE5ZThvaWh6djNUYVFBLW1GZUJQaVJWbTVJREJZdFBmeTl5SjU4TnNkNm1jM3lHU0JoVnpGOV9vcmt6RVgycDZuWk5CUFBDZF9jTWF3UFZDSGl3THJtaHd4WE5nMFh4TFlJQ1hkRnViTjJCUU5tVDVZSzFFOVh3SlRzNA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:21:30,958 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:21:30,959 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/nebenwerte/erg-entered-a-polish-power-deal-erg-stock-sits-16-
+2026-10-08 14:21:30,959 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/nebenwerte/erg-entered-a-polish-power-deal-erg-stock-sits-16-16-percent-below-its/70265887
+2026-10-08 14:21:31,602 [INFO] Text length: 1982 chars | source: full
+2026-10-08 14:21:31,602 [INFO] Text preview: ERG (ISIN IT0001157020) was trading at EUR 21.95 at Lang & Schwarz on October 8, 2026 at 1:06 p.m. CEST, sitting 16.16 percent below its EUR 26.18 52-week high. On September 25, 2026, ERG entered a fi...
+2026-10-08 14:21:31,602 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:21:37,626 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ERG entered a Polish power deal: ERG stock sits 16.16 percen
+2026-10-08 14:21:37,626 [INFO] LLM extracted 1 deals | ERG entered a Polish power deal: ERG stock sits 16
+2026-10-08 14:21:37,642 [INFO] NEW: ERG / Glencore Energy Europe (Poland, None MW)
+2026-10-08 14:21:42,643 [INFO] ------- Processing article n. 2: Rubio says US committed to Mediterranean undersea power cable - The Straits Time -------
+2026-10-08 14:21:42,703 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxQeUd0ZkdibERRQ2JYeEd4SERMem9WVWdaVFgtZ2d0YTVlVUx2YTFYMmpvdXZ1TTVubWxyT183NEZ1Sjc3STNBR2Q1WV9SNmZBZDRDN2VDYVlWNnB1SHY3SjF6a0dybV9LbmZhZmdTTGpEUHQtQmhnR0JFZERIbHYwVjcwYVo1cEFoc1lna25pb1hOajA0NndjazlqWlBNbl9pN21xOThn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:21:43,814 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:21:43,814 [INFO] Resolved Google News URL: https://www.straitstimes.com/world/europe/rubio-says-us-committed-to-mediterranean-undersea-power-ca
+2026-10-08 14:21:43,814 [INFO] URL: https://www.straitstimes.com/world/europe/rubio-says-us-committed-to-mediterranean-undersea-power-cable
+2026-10-08 14:21:44,378 [INFO] Text length: 1584 chars | source: full
+2026-10-08 14:21:44,378 [INFO] Text preview: Rubio says US committed to Mediterranean undersea power cable
+ATHENS, Oct 8 - The US supports an EU-backed undersea power cable scheme in the eastern Mediterranean and will use diplomacy to try to rem...
+2026-10-08 14:21:44,378 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:21:52,232 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rubio says US committed to Mediterranean undersea power cabl
+2026-10-08 14:21:52,232 [INFO] LLM extracted 1 deals | Rubio says US committed to Mediterranean undersea 
+2026-10-08 14:21:52,233 [INFO] Not a signed deal — skipping: Rubio says US committed to Mediterranean undersea power cabl
+2026-10-08 14:21:52,233 [INFO] ------- Processing article n. 2: Costs Rise, Buyers Resist: Can Solar Module Prices Recover in Ex-China Regions?  -------
+2026-10-08 14:21:52,298 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizwFBVV95cUxPdnF6RXRMNW5VWHdSMWlvcEVCZW85dGxiZndUWHktWGJlc1hXNmtzMVFPb3hEdnNNV21NM3dIdGxrRkNnMWtvYlBra3QtelZXSVdLTTh1YkpFZDUtODZ1V3ZXTlVWYmRjbEFjNXJCaVd5RndJSU02bzNwaHlHSE90LUZienZfRVRWNWM0Y25XaEhod3NTS2xzaTZtM1ZhNTJJNWh6RExaWUw1aWY3WlNmVDBOTEVmekRxWlJnbjN1aWpaWG1PUjEtc1RDMVFiT1E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:21:53,404 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:21:53,405 [INFO] Resolved Google News URL: https://news.metal.com/newscontent/104146504-costs-rise-buyers-resist-can-solar-module-prices-recove
+2026-10-08 14:21:53,405 [INFO] URL: https://news.metal.com/newscontent/104146504-costs-rise-buyers-resist-can-solar-module-prices-recover-in-ex-china-regions-smm-analysis
+2026-10-08 14:21:55,338 [INFO] Text length: 20223 chars | source: full
+2026-10-08 14:21:55,338 [INFO] Text preview: The ex-China PV market failed to sustain a broad-based price recovery in the third quarter of 2026. Weak demand and inventory liquidation pushed prices lower in July. Rising upstream material and modu...
+2026-10-08 14:21:55,338 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:22:07,102 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Costs Rise, Buyers Resist: Can Solar Module Prices Recover i
+2026-10-08 14:22:07,102 [INFO] LLM extracted 1 deals | Costs Rise, Buyers Resist: Can Solar Module Prices
+2026-10-08 14:22:07,104 [INFO] Not a signed deal — skipping: Costs Rise, Buyers Resist: Can Solar Module Prices Recover i
+2026-10-08 14:22:07,104 [INFO] ------- Processing article n. 2: Google’s €13 Billion Finland Data-Center Plan Faces Environmental Review - www.t -------
+2026-10-08 14:22:07,175 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiW0FVX3lxTE04UkhFa18yLU5MWC1tb21rQlVfa2NEV0s4X2hXZDNPZVA5czEzeENsM000Tko3b2tKR3NFTmhnYjJfX3NNME9BNExGeHA4c1NVYmQ4Rlp1VXVBRk0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:22:08,282 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:22:08,283 [INFO] Resolved Google News URL: https://www.tokenpost.com/news/technology/27907
+2026-10-08 14:22:08,283 [INFO] URL: https://www.tokenpost.com/news/technology/27907
+2026-10-08 14:22:08,918 [INFO] Text length: 2604 chars | source: full
+2026-10-08 14:22:08,918 [INFO] Text preview: Google’s €13 billion expansion in Finland faces an environmental review after authorities ordered its subsidiary Tuike Finland to suspend preparatory work at planned data-center sites in Muhos and Kaj...
+2026-10-08 14:22:08,918 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:22:23,010 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Google’s €13 Billion Finland Data-Center Plan Faces Environm
+2026-10-08 14:22:23,011 [INFO] LLM extracted 1 deals | Google’s €13 Billion Finland Data-Center Plan Face
+2026-10-08 14:22:23,012 [INFO] Non-electricity energy deal — skipping: Google’s €13 Billion Finland Data-Center Plan Faces Environm
+2026-10-08 14:22:23,012 [INFO] ------- Processing article n. 2: HD Hyundai Marine Solution buys Goltens to boost global engine MRO - CHOSUNBIZ - -------
+2026-10-08 14:22:23,074 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxPSml6UmRPUXNmaDd0eUx1V3dkMFlWd2l5Rk9pcExrVGhHM3dRT2tuODJvQmRReW9tN0JSNG1XM1NXTEVFYXZ4RmJ4RGVZbXFtTFRjVzNabm1xeEE2UnJ4Q21vaEt5RzlUTEl1Uy11N3F0U3JNWDdWNGtfT205ZVpaZllZVHpHTEUxeEtQVGNSNHlaMjE1dHfSAZYBQVVfeXFMT0ppelJkT1FzZmg3dHlMdVd3ZDBZVndpeUZPaXBMa1RoRzN3UU9rbjgyb0JkUXlvbTdCUjRtVzNTV0xFRWF2eEZieERlWW1xbUxUY1czWm5tcXhBNlJyeENtb2hLeUc5VExJdVMtdTdxdFNyTVg3VjRrX09tOWVaWmZZWVR6R0xFMXhLUFRjUjR5WjIxNXR3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:22:24,210 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:22:24,211 [INFO] Resolved Google News URL: https://biz.chosun.com/en/en-industry/2026/10/08/UTM5NHP7FZAUVH3HW3VZ3BTEOM/?outputType=amp
+2026-10-08 14:22:24,211 [INFO] URL: https://biz.chosun.com/en/en-industry/2026/10/08/UTM5NHP7FZAUVH3HW3VZ3BTEOM/?outputType=amp
+2026-10-08 14:22:25,608 [INFO] Text length: 2831 chars | source: full
+2026-10-08 14:22:25,608 [INFO] Text preview: HD Hyndai Marine Solution, HD Hyundai's comprehensive shipbuilding and offshore corporations, will move to expand its aftermarket (AM) business by strengthening engine maintenance capabilities.
+On the...
+2026-10-08 14:22:25,608 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:22:37,357 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: HD Hyundai Marine Solution buys Goltens to boost global engi
+2026-10-08 14:22:37,358 [INFO] LLM extracted 1 deals | HD Hyundai Marine Solution buys Goltens to boost g
+2026-10-08 14:22:37,359 [INFO] Not a signed deal — skipping: HD Hyundai Marine Solution buys Goltens to boost global engi
+2026-10-08 14:22:37,359 [INFO] ------- Processing article n. 2: HD Hyundai Marine Solution to Buy Engine Service Firm Goltens for $247 Million - -------
+2026-10-08 14:22:37,423 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxPRl9hVnJSYnJ4OE54cFhYY191eVQwVnZqTTh2Z3RWbXJwNjFBYXZYb0pVU21zTDdVY0tJNXc5TGp4dW5qc1dfSldWeDliUmhXdl8tZ2tJNmN2UTR5VVRUeGhsUjV5T2RsNmhRaTFjRjNMS1ZNSzVnQVpkR0NhczIwcnRYcDRZX1UtbU0yTTBmU0NlZFI3bFE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:22:38,514 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:22:38,515 [INFO] Resolved Google News URL: https://en.sedaily.com/signal/article/hd-hyundai-marine-solution-to-buy-engine-service-firm
+2026-10-08 14:22:38,515 [INFO] URL: https://en.sedaily.com/signal/article/hd-hyundai-marine-solution-to-buy-engine-service-firm
+2026-10-08 14:22:50,910 [INFO] Full text fetch failed (HTTPSConnectionPool(host='en.sedaily.com', port=443): Read timed out. (read timeout=12)): https://en.sedaily.com/signal/article/hd-hyundai-marine-solution-to-buy-engine-s
+2026-10-08 14:22:50,910 [INFO] Text length: 215 chars | source: fallback
+2026-10-08 14:22:50,910 [INFO] Text preview: HD Hyundai Marine Solution to Buy Engine Service Firm Goltens for $247 Million - Seoul Economic Daily
+
+HD Hyundai Marine Solution to Buy Engine Service Firm Goltens for $247 Million &nbsp;&nbsp; Seoul...
+2026-10-08 14:22:50,910 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:22:55,623 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: HD Hyundai Marine Solution to Buy Engine Service Firm Golten
+2026-10-08 14:22:55,623 [INFO] LLM extracted 1 deals | HD Hyundai Marine Solution to Buy Engine Service F
+2026-10-08 14:22:55,625 [INFO] Not a signed deal — skipping: HD Hyundai Marine Solution to Buy Engine Service Firm Golten
+2026-10-08 14:22:55,625 [INFO] ------- Processing article n. 2: Aoun, Kallas discuss Lebanon EU strategic partnership and support -... - LBCI Le -------
+2026-10-08 14:22:55,690 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxOZGxoUUFfbndHZmNYNndHX085Y2wzMlRYQUZncjRVQWk0ZTgzSVdweENTU080Z19iOTNLQVpvcVF5RWxnMXc4MzNidFJwaHpQLTlLaEFPTDVtMWdqelNSVFc5RE8zTW1CQVlSb2FTaWZ6cUI4OGN4ZFhIT0xXVVJXdndpemVBSGQzeDRqMEI3ZE1hMUZYRHR5VktqQlk4N1dENkU0a0ZfWDdRVmR6dHE0WUU0Z3ZDamM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:22:56,782 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:22:56,783 [INFO] Resolved Google News URL: https://www.lbcgroup.tv/news/lebanon-news/961819/aoun-kallas-discuss-lebanon-eu-strategic-partnershi
+2026-10-08 14:22:56,783 [INFO] URL: https://www.lbcgroup.tv/news/lebanon-news/961819/aoun-kallas-discuss-lebanon-eu-strategic-partnership-and-support/en
+2026-10-08 14:22:57,071 [INFO] Text length: 107 chars | source: full
+2026-10-08 14:22:57,072 [INFO] Text preview: Download now the LBCI mobile app
+To see the latest news, the latest daily programs in Lebanon and the world...
+2026-10-08 14:22:57,072 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:23:07,394 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Aoun, Kallas discuss Lebanon EU strategic partnership and su
+2026-10-08 14:23:07,395 [INFO] LLM extracted 1 deals | Aoun, Kallas discuss Lebanon EU strategic partners
+2026-10-08 14:23:07,396 [INFO] Not a signed deal — skipping: Aoun, Kallas discuss Lebanon EU strategic partnership and su
+2026-10-08 14:23:07,396 [INFO] ------- Processing article n. 2: SK Eternix, Mastern to Develop South Korea's First Fuel Cell-Powered AI Data Cen -------
+2026-10-08 14:23:07,461 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE5KUlE0dDZOdW5jOVU4RjlVeEVhVkJrUWhPZ0tGTER0VlQyZFAycHVnZF8yWVAyTU5Sam56ekIwajVDb3djUFZITmthSWNhOXo4N3RtZ1g5QXlmVWNFZ282RmE2b0ZnOXI0WWVKQ2NlSWxadGdmaWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:23:08,551 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:23:08,552 [INFO] Resolved Google News URL: https://finance.biggo.com/news/da9c7c91-7620-4dfc-9a4b-7a65f22110e3
+2026-10-08 14:23:08,552 [INFO] URL: https://finance.biggo.com/news/da9c7c91-7620-4dfc-9a4b-7a65f22110e3
+2026-10-08 14:23:09,525 [INFO] Text length: 4075 chars | source: full
+2026-10-08 14:23:09,525 [INFO] Text preview: SK Eternix, Mastern to Develop South Korea's First Fuel Cell-Powered AI Data Center
+SK Eternix is partnering with Mastern Investment Management, an alternative investment-focused asset manager, to dev...
+2026-10-08 14:23:09,525 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-08 14:23:21,554 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 429 for: SK Eternix, Mastern to Develop South Korea's First Fuel Cell
+2026-10-08 14:23:21,554 [WARNING] LLM provider DISABLED for this run: groq-120b — HTTP 429 rate/quota limit
+2026-10-08 14:23:21,554 [WARNING] LLM provider groq-120b failed (quota); trying next provider
+2026-10-08 14:23:21,554 [INFO] Trying LLM provider: groq-qwen (model=qwen/qwen3.8-27b)
+2026-10-08 14:23:22,376 [INFO] LLM [groq-qwen/qwen/qwen3.8-27b] HTTP 200 for: SK Eternix, Mastern to Develop South Korea's First Fuel Cell
+2026-10-08 14:23:22,377 [INFO] LLM extracted 1 deals | SK Eternix, Mastern to Develop South Korea's First
+2026-10-08 14:23:22,378 [INFO] Not a signed deal — skipping: SK Eternix, Mastern to Develop South Korea's First Fuel Cell
+2026-10-08 14:23:22,378 [INFO] ------- Processing article n. 2: France is likely to join Germany. Both countries want to further weaken the ban  -------
+2026-10-08 14:23:22,440 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi-AFBVV95cUxQN2JRQjVvbWYzZlhzMDJHTG9LMVFsNmdnUVk4MGk5UHVNTVN2NklTQy03SUtSWVNVdmZvM3JQNkpyNkpiQUFqRWRacTFpbWdCTUxwak5VamVXdTFmVlVmcmZ2RDdDOWJHY2N1Mm5NRXIwU0diSGhrZlNMcURDTkpUOXdfX3gzV2c1NGJvR1dmYzJoY0NNZVJvbThrYk5hbFAtUTNZbWRxY0xlTzlveUluOXFCY0g0eGpfdVN4S3dJVVp2dVlmakFVNHFtZHZRU2Q4dXA0aXdVc1NBenZoQ1hNTkhGT1kyMFI1Q21tMzRJNm5rdHZubmItOQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:23:23,534 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:23:23,535 [INFO] Resolved Google News URL: https://oenergetice.cz/en/electromobility/france-is-likely-to-join-germany-both-countries-want-to-fu
+2026-10-08 14:23:23,535 [INFO] URL: https://oenergetice.cz/en/electromobility/france-is-likely-to-join-germany-both-countries-want-to-further-weaken-the-ban-on-sales-of-new-cars-with-combustion-engines
+2026-10-08 14:23:24,344 [INFO] Text length: 1625 chars | source: full
+2026-10-08 14:23:24,344 [INFO] Text preview: France is likely to join Germany. Both countries want to further weaken the ban on sales of new cars with combustion engines
+France and Germany have agreed, according to media reports, to push for a m...
+2026-10-08 14:23:24,344 [INFO] Trying LLM provider: groq-qwen (model=qwen/qwen3.8-27b)
+2026-10-08 14:23:36,649 [INFO] LLM [groq-qwen/qwen/qwen3.8-27b] HTTP 429 for: France is likely to join Germany. Both countries want to fur
+2026-10-08 14:23:36,649 [WARNING] LLM provider DISABLED for this run: groq-qwen — HTTP 429 rate/quota limit
+2026-10-08 14:23:36,649 [WARNING] LLM provider groq-qwen failed (quota); trying next provider
+2026-10-08 14:23:36,649 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:23:37,001 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: France is likely to join Germany. Both countries want to fur
+2026-10-08 14:23:37,001 [INFO] LLM extracted 1 deals | France is likely to join Germany. Both countries w
+2026-10-08 14:23:37,003 [INFO] Not a signed deal — skipping: France is likely to join Germany. Both countries want to fur
+2026-10-08 14:23:37,003 [INFO] ------- Processing article n. 2: Google drives Finland’s data center boom with largest European investment - Cryp -------
+2026-10-08 14:23:37,067 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMic0FVX3lxTFAyTFE0cVhXX2UyVW9iWDlhU1NjdDQ2enRwWklxcEhrRUVoeDRBYnBDelJtdWl6TTQ2V0dDcDVGWThuQXpEdVB6ZmdRSnF3Qmxia1FsM2NURkYxNWlVRGY3Y3MxV04zN0FualRXOXhXMG9JTGM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:23:38,167 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:23:38,168 [INFO] Resolved Google News URL: https://cryptobriefing.com/google-finland-data-center-investment/
+2026-10-08 14:23:38,168 [INFO] URL: https://cryptobriefing.com/google-finland-data-center-investment/
+2026-10-08 14:23:38,323 [INFO] Text length: 3306 chars | source: full
+2026-10-08 14:23:38,323 [INFO] Text preview: Google drives Finland’s data center boom with largest European investment
+A pledge of at least €13 billion for AI infrastructure is pulling new data center projects into Finland, though regulators hav...
+2026-10-08 14:23:38,323 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:23:52,587 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Google drives Finland’s data center boom with largest Europe
+2026-10-08 14:23:52,587 [INFO] LLM extracted 1 deals | Google drives Finland’s data center boom with larg
+2026-10-08 14:23:52,603 [INFO] UPDATE: Google / Fortum (Finland, 600 MW) — canonical ID: 1862
+2026-10-08 14:23:57,604 [INFO] ------- Processing article n. 3: President Aoun: Agreement is the Only Way to End Hostility Between Lebanon and I -------
+2026-10-08 14:23:57,677 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxNNVcxV3g1RDIzeTZrVWJnLVQxTmNyLXVCeE1KcFNPa0hYbnk4V3gtUS1CRGI0OTk2YmR0WHI0cUpEM2MzV1VoOXlWYTlHOEVnc3NkX0k5V0dzMTlIUERCcW42UGFUUDl3akFwQzJhbHVqQ1JKZkNtdXgzY0R2WEVpMXdHRFlHWFNWSEEtUDFNQVFQRW1oUFA4T0FuVGpqMk1GOTBNeG9B?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:23:58,782 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:23:58,782 [INFO] Resolved Google News URL: https://dailybeirut.com/en/lebanon-news/president-aoun-agreement-only-way-end-hostility-lebanon-isra
+2026-10-08 14:23:58,782 [INFO] URL: https://dailybeirut.com/en/lebanon-news/president-aoun-agreement-only-way-end-hostility-lebanon-israel/
+2026-10-08 14:23:59,180 [INFO] Text length: 1174 chars | source: full
+2026-10-08 14:23:59,180 [INFO] Text preview: Republic President Joseph Aoun received European Union High Representative for Foreign Affairs and Security Policy Kaja Kallas.
+During the meeting, President Aoun affirmed that "Lebanon looks forward ...
+2026-10-08 14:23:59,180 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:24:07,109 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: President Aoun: Agreement is the Only Way to End Hostility B
+2026-10-08 14:24:07,109 [INFO] LLM extracted 1 deals | President Aoun: Agreement is the Only Way to End H
+2026-10-08 14:24:07,110 [INFO] Not a signed deal — skipping: President Aoun: Agreement is the Only Way to End Hostility B
+2026-10-08 14:24:07,110 [INFO] ------- Processing article n. 3: Nvidia expands Halos safety system to robotics as physical AI push grows - Crypt -------
+2026-10-08 14:24:07,178 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMicEFVX3lxTE9HUU1mcWx3ZHBWY3dGcG5TR1JidXhYRlVOc2JJbkJ4STlGWjVpQkFhVVZJSkE5NDFlRFFUNGJzM1pwLUlrcFlIbXZXWnk1bkNySzJib0FTMjNmWDdLckl6cVpmeDVXa1h0RXNtWHJ6NE4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:24:08,294 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:24:08,295 [INFO] Resolved Google News URL: https://cryptobriefing.com/nvidia-halos-robotics-safety-system/
+2026-10-08 14:24:08,295 [INFO] URL: https://cryptobriefing.com/nvidia-halos-robotics-safety-system/
+2026-10-08 14:24:08,380 [INFO] Text length: 3993 chars | source: full
+2026-10-08 14:24:08,380 [INFO] Text preview: Nvidia expands Halos safety system to robotics as physical AI push grows
+The chipmaker's safety platform moves from self-driving cars to warehouse robots and humanoids, with Agility Robotics as the fi...
+2026-10-08 14:24:08,380 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:24:22,773 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Nvidia expands Halos safety system to robotics as physical A
+2026-10-08 14:24:22,773 [INFO] LLM extracted 1 deals | Nvidia expands Halos safety system to robotics as 
+2026-10-08 14:24:22,774 [INFO] Not a signed deal — skipping: Nvidia expands Halos safety system to robotics as physical A
+2026-10-08 14:24:22,775 [INFO] ------- Processing article n. 3: Parliamentary Committee Discusses Optometric Law - Daily Beirut -------
+2026-10-08 14:24:22,840 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxPVjFPUWM1Y0lpOV9Od0NhLXpnZ0JPUGwxajhuellsaEZIdlVVeFpMUzdGejhqS3BfVy1xam5iV2ZsTGJaRHllMEYyendBR2xBTVhsNXRkM0d6SGdtZ3BGZndETVFhRzVnQnViWkJfQWlfOW01N2VhbVdYTW5EMENQeEtJRmZJcEZ0REE3LVRVQjZoWlZBaGViUW9vS2ZvRFVjRGhrR3hUS2t0d09UQVlzWmlCQTVDZGFuRVBBZjdn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:24:23,943 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:24:23,944 [INFO] Resolved Google News URL: https://dailybeirut.com/en/lebanon-news/parliamentary-committee-discusses-regulation-optometric-prof
+2026-10-08 14:24:23,944 [INFO] URL: https://dailybeirut.com/en/lebanon-news/parliamentary-committee-discusses-regulation-optometric-professions-citizen-heal/
+2026-10-08 14:24:24,302 [INFO] Text length: 1377 chars | source: full
+2026-10-08 14:24:24,302 [INFO] Text preview: The parliamentary subcommittee tasked with studying the draft law on regulating optometric professions held a session at the Parliament House, chaired by MP Bilal Abdullah and attended by committee me...
+2026-10-08 14:24:24,302 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:24:36,892 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Parliamentary Committee Discusses Optometric Law - Daily Bei
+2026-10-08 14:24:36,892 [INFO] LLM extracted 1 deals | Parliamentary Committee Discusses Optometric Law -
+2026-10-08 14:24:36,893 [INFO] Not a signed deal — skipping: Parliamentary Committee Discusses Optometric Law - Daily Bei
+2026-10-08 14:24:36,893 [INFO] ------- Processing article n. 3: Israeli Drone Caught in Fishing Nets in South Lebanon - Daily Beirut -------
+2026-10-08 14:24:36,960 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxPRElxcHFTMW8yTlRnMmo0ZDl5N1hpdGM2SnZLX3ZGREs0cnQ2MVRHbGJoUFFIcmlESVlMOGttTnIwM2JFS2RDYnBzbEFKSUdyby1INWNfSnVwcFFBSzk4MUtMWTZRVDRQNjdabV85TUNoRWRNeTEwenUwSk5FNHNzR3R0dTJYcmdZT19WdkxoRVQ1emotc0pXVi1tMEpXQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:24:38,061 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:24:38,062 [INFO] Resolved Google News URL: https://dailybeirut.com/en/lebanon-news/israeli-drone-caught-in-fishing-nets-in-southern-lebanon/
+2026-10-08 14:24:38,062 [INFO] URL: https://dailybeirut.com/en/lebanon-news/israeli-drone-caught-in-fishing-nets-in-southern-lebanon/
+2026-10-08 14:24:38,273 [INFO] Text length: 110 chars | source: full
+2026-10-08 14:24:38,274 [INFO] Text preview: Follow us on Telegram
+Get every new story the moment it goes live — straight to your phone.
+@DailyBeirutNewsEN...
+2026-10-08 14:24:38,274 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:24:52,079 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Israeli Drone Caught in Fishing Nets in South Lebanon - Dail
+2026-10-08 14:24:52,080 [INFO] LLM extracted 1 deals | Israeli Drone Caught in Fishing Nets in South Leba
+2026-10-08 14:24:52,081 [INFO] Not a signed deal — skipping: Israeli Drone Caught in Fishing Nets in South Lebanon - Dail
+2026-10-08 14:24:52,081 [INFO] ------- Processing article n. 3: Enery opens hybrid plant in Bulgaria, unveils PPA with Coca-Cola HBC - Renewable -------
+2026-10-08 14:24:52,143 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEVYV05JS2V0NTRhaTlVblB3Z0kxakl0M3N4amJaSGp1Y1Y1NHJXRHZBM0l4TDdwY1dERy1hTFlQMDBUVG5vVmFReE1ydGdKLVNaY2tNcVRxN2xrbno3TjJOOUpXV0lRWEh4dmdMSFJSamNHOW5vV3FOY2xfNUtiSVI0MkU2czdFTGFsY1BiOVJ1djJSdHRmLU1CbE9vZUIxdGM0dTl4UnRnLUk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:24:53,243 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:24:53,243 [INFO] Resolved Google News URL: https://renewablesnow.com/news/enery-opens-hybrid-plant-in-bulgaria-unveils-ppa-with-coca-cola-hbc-1
+2026-10-08 14:24:53,243 [INFO] URL: https://renewablesnow.com/news/enery-opens-hybrid-plant-in-bulgaria-unveils-ppa-with-coca-cola-hbc-1302659/
+2026-10-08 14:24:53,301 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/enery-opens-hybrid-plant-in-bulgaria-unveils-ppa-
+2026-10-08 14:24:53,302 [INFO] Text length: 183 chars | source: fallback
+2026-10-08 14:24:53,302 [INFO] Text preview: Enery opens hybrid plant in Bulgaria, unveils PPA with Coca-Cola HBC - Renewables Now
+
+Enery opens hybrid plant in Bulgaria, unveils PPA with Coca-Cola HBC &nbsp;&nbsp; Renewables Now...
+2026-10-08 14:24:53,302 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:25:07,031 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Enery opens hybrid plant in Bulgaria, unveils PPA with Coca-
+2026-10-08 14:25:07,031 [INFO] LLM extracted 1 deals | Enery opens hybrid plant in Bulgaria, unveils PPA 
+2026-10-08 14:25:07,046 [INFO] NEW: Coca-Cola HBC / Enery (Bulgaria, None MW)
+2026-10-08 14:25:12,048 [INFO] ------- Processing article n. 4: Cox boosts its presence in Colombia with a 15-year solar PPA and an investment o -------
+2026-10-08 14:25:12,110 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaTV0TWlEZjhNeWZhN3FOSEEzUllFMVp5ZFFnVldoRGtBYS04RHJVLVV6M3RBdUxGSVFwckxjUGxLUEY2LWcyQ2laYm4tN2JkYk1ERFZtcUVtMTc3UGpJcFNHMDlUZnNaWmtuSU44dU92SUZCdE9RRVd1QzFyWkRSeFNOMGxZZkUxWG50Nk5kNnZIQVV4cHFqMUVGYkNNZjlla3R6M2RJaU5nTzA3RDR5SGtzVE1yVWtwRk5YUzdQdnd0cEJCYmxnS9IBzgFBVV95cUxPS3RrNy1RTjh1aXBfVFkwbDJEZ2w4UVV1QkRBOFNyejBOYjhKRjBnSzZRS2NGRVphUS1DWHZWWWpNU3o2V1YtRFN3bWItZ0pRY1h5LTVoOHpUWTRiOVB2ZWZSNnNzZjNUSHdNR21hRXBBQUREeDA3QXRueFlzWDRRRzJHLUtsWU9mNzRzQldtMmQyOUN6SXNvRGdXUWJScmllSVRiVmFOdlFqd25qaXNpaTIwWVFDRC1RTDZUSEdXYnVPOS0zN3p6ZnF1ZWRSUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:25:13,224 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:25:13,225 [INFO] Resolved Google News URL: https://www.democrata.es/en/economy/cox-boosts-its-presence-in-colombia-with-a-15-year-solar-ppa-and
+2026-10-08 14:25:13,225 [INFO] URL: https://www.democrata.es/en/economy/cox-boosts-its-presence-in-colombia-with-a-15-year-solar-ppa-and-an-investment-of-40-million/
+2026-10-08 14:25:13,288 [INFO] Full text skipped (status 403): https://www.democrata.es/en/economy/cox-boosts-its-presence-in-colombia-with-a-1
+2026-10-08 14:25:13,288 [INFO] Text length: 221 chars | source: fallback
+2026-10-08 14:25:13,288 [INFO] Text preview: Cox boosts its presence in Colombia with a 15-year solar PPA and an investment of 40 million - Demócrata
+
+Cox boosts its presence in Colombia with a 15-year solar PPA and an investment of 40 million &...
+2026-10-08 14:25:13,288 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:25:22,254 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Cox boosts its presence in Colombia with a 15-year solar PPA
+2026-10-08 14:25:22,254 [INFO] LLM extracted 1 deals | Cox boosts its presence in Colombia with a 15-year
+2026-10-08 14:25:22,256 [INFO] Not a European deal — skipping: Cox / None (Colombia, None MW)
+2026-10-08 14:25:22,256 [INFO] ------- Processing article n. 4: ContourGlobal begins Arizona solar-storage construction - reNEWS -------
+2026-10-08 14:25:22,322 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0phS2xaRFFMT1liNkNhLUt5MFNrcWx6RDNlZG03TXowa1l0dzdLanhfbXF1MzZUcHlFU1RxNHA5SWkybmh0UXNrTV9fLWh1V0VQUUs3X21qRFp3SE9RUmNhZmJrWnV6ekx0ZWdWYi1HM1k0UDVLSGhRMUVfN1NoVGtyRDlOQUtYRm5CYUFn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:25:23,418 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:25:23,419 [INFO] Resolved Google News URL: https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/
+2026-10-08 14:25:23,419 [INFO] URL: https://www.renews.biz/solar/contourglobal-begins-arizona-solar-storage-construction/
+2026-10-08 14:25:23,931 [INFO] Text length: 2441 chars | source: full
+2026-10-08 14:25:23,931 [INFO] Text preview: ContourGlobal has started construction of its Project Sterling solar-plus-storage facility in Arizona, combining 509MWp of solar capacity with a 360MW/1.4GWh battery energy storage system.
+The company...
+2026-10-08 14:25:23,932 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:25:37,345 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: ContourGlobal begins Arizona solar-storage construction - re
+2026-10-08 14:25:37,345 [INFO] LLM extracted 1 deals | ContourGlobal begins Arizona solar-storage constru
+2026-10-08 14:25:37,346 [INFO] Not a European deal — skipping: Tesla / ContourGlobal (United States, 450 MW)
+2026-10-08 14:25:37,346 [INFO] ------- Processing article n. 4: Deutschlands erstes Hybrid-PPA mit garantiertem Mindesterlös: MaxSolar und ... - -------
+2026-10-08 14:25:37,409 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zTFo4aEUyZF9YM3FEbWtRNENVNjhYcjV1WEcwTXNHWmJiTEdyOHdzTm1SU3d0UXBNSXVDVkhRVkN5UktMdkdRcTBlT1RfNm1vaVYwVEc4S3I?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:25:38,504 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:25:38,504 [INFO] Resolved Google News URL: https://www.presseportal.de/pm/170503/6367331
+2026-10-08 14:25:38,504 [INFO] URL: https://www.presseportal.de/pm/170503/6367331
+2026-10-08 14:25:39,431 [INFO] Text length: 5855 chars | source: full
+2026-10-08 14:25:39,431 [INFO] Text preview: Deutschlands erstes Hybrid-PPA mit garantiertem Mindesterlös: MaxSolar und energy2market schließen einen langfristigen Stromabnahmevertrag für Solarpark und Batteriespeicher in Waren (Müritz)
+Traunste...
+2026-10-08 14:25:39,431 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:25:52,388 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Deutschlands erstes Hybrid-PPA mit garantiertem Mindesterlös
+2026-10-08 14:25:52,389 [INFO] LLM extracted 1 deals | Deutschlands erstes Hybrid-PPA mit garantiertem Mi
+2026-10-08 14:25:52,404 [INFO] NEW: Energy2market / MaxSolar (Germany, 65 MW)
+2026-10-08 14:25:57,406 [INFO] ------- Processing article n. 5: Alphabet Partners with Constellation Energy in Massive New Nuclear Power Deal -  -------
+2026-10-08 14:25:57,478 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3RBa1V6aVQyR2xOS2JGWG9pWEZuYXJIY1pOeFlvVGdYZVNUMGdRdnlFcV92VEo1NW00SnYyT0RxQkFxc3lrYndkN2tiOGw0MmR3cWhUWDFpQWRkVkJxSmlEQ05KUElyZ1c5enJsSDJNTFEwUFNqb2pVR1VWSWcxUWdCQ25JNk1a?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:25:58,593 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:25:58,594 [INFO] Resolved Google News URL: https://www.tikr.com/fr/blog/constellation-energy-stock-google-nuclear-power-deal
+2026-10-08 14:25:58,594 [INFO] URL: https://www.tikr.com/fr/blog/constellation-energy-stock-google-nuclear-power-deal
+2026-10-08 14:25:58,882 [INFO] Text length: 4069 chars | source: full
+2026-10-08 14:25:58,882 [INFO] Text preview: Statistiques clés pour l'action Constellation Energy
+- Variation du cours de l'action Constellation Energy : 12%
+- Cours de l'action $CEG au 6 octobre : $300
+- Plus haut sur 52 semaines : $413
+- Objec...
+2026-10-08 14:25:58,883 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:26:07,489 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Alphabet Partners with Constellation Energy in Massive New N
+2026-10-08 14:26:07,490 [INFO] LLM extracted 2 deals | Alphabet Partners with Constellation Energy in Mas
+2026-10-08 14:26:07,491 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 890 MW)
+2026-10-08 14:26:07,491 [INFO] Not a European deal — skipping: Google / Constellation Energy (United States, 2700 MW)
+2026-10-08 14:26:07,491 [INFO] ------- Processing article n. 5: SAINT-GOBAIN Cours Action SGO, Cotation Bourse Euronext Paris - Boursorama -------
+2026-10-08 14:26:07,598 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yelBQSjVyWUQ4akcwX05xdmJGM2RBWlMySTEzRGsxWlQzSEJuOFdRNm5MMDlhZE5GVGZuYWU4OEFGS2Ixa0FCeEJJU2owRTduVlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:26:08,723 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:26:08,724 [INFO] Resolved Google News URL: https://www.boursorama.com/cours/1rPSGO/
+2026-10-08 14:26:08,724 [INFO] URL: https://www.boursorama.com/cours/1rPSGO/
+2026-10-08 14:26:09,513 [INFO] Text length: 1057 chars | source: full
+2026-10-08 14:26:09,513 [INFO] Text preview: Carnet d'ordres
+Comparer
+FermerComparer avec un indice
+Comparer avec un titre du secteur
+Comparer avec une autre valeur
+Configurer le graphique
+FermerParamètres
+Vos modifications sont automatiquement ...
+2026-10-08 14:26:09,514 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:26:22,779 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: SAINT-GOBAIN Cours Action SGO, Cotation Bourse Euronext Pari
+2026-10-08 14:26:22,779 [INFO] LLM extracted 1 deals | SAINT-GOBAIN Cours Action SGO, Cotation Bourse Eur
+2026-10-08 14:26:22,780 [INFO] Not a signed deal — skipping: SAINT-GOBAIN Cours Action SGO, Cotation Bourse Euronext Pari
+2026-10-08 14:26:22,780 [INFO] ------- Processing article n. 5: Cox impulse sa présence en Colombie avec un PPA solaire de 15 ans et un investis -------
+2026-10-08 14:26:22,848 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYm14NWlGOFlUcnBuMkpjeXZvanRFSGUyS1c5MmFrWWVienRCcUNmelRiQmdOVm9LQ29QREcydXVKLXJZYXQxMFRoTUttVXcxN2ltVlNiWVVESUVoTncwQ2RxSGd4bnkzZEF0ZHBDX1hBaFhaZmY4bGFtVHpULXZoUHM3c2QwN0dHcjZvd1YxNm1YcDdXeEJEVzR5VmhNOWJQTmducGluV2ZVMEYwN0FJd0ZONkZRVmw0WGNJSkRNWHdJYzVFMkt3MjNnaUlSZ3B3NFBJemV1S3BBZ0HSAdsBQVVfeXFMTWJteDVpRjhZVHJwbjJKY3l2b2p0RUhlMktXOTJha1llYnp0QnFDZnpUYkJnTlZvS0NvUERHMnV1Si1yWWF0MTBUaE1LbVV3MTdpbVZTYllVRElFaE53MENkcUhneG55M2RBdGRwQ19YQWhYWmZmOGxhbVR6VC12aFBzN3NkMDdHR3I2b3dWMTZtWHA3V3hCRFc0eVZoTTliUE5nbnBpbldmVTBGMDdBSXdGTjZGUVZsNFhjSUpETVh3SWM1RTJLdzIzZ2lJUmdwdzRQSXpldUtwQWdB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:26:23,938 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:26:23,939 [INFO] Resolved Google News URL: https://www.democrata.es/fr/economie/cox-impulse-sa-presence-en-colombie-avec-un-ppa-solaire-de-15-a
+2026-10-08 14:26:23,939 [INFO] URL: https://www.democrata.es/fr/economie/cox-impulse-sa-presence-en-colombie-avec-un-ppa-solaire-de-15-ans-et-un-investissement-de-40-millions/amp/
+2026-10-08 14:26:23,955 [INFO] Full text skipped (status 403): https://www.democrata.es/fr/economie/cox-impulse-sa-presence-en-colombie-avec-un
+2026-10-08 14:26:23,955 [INFO] Text length: 239 chars | source: fallback
+2026-10-08 14:26:23,955 [INFO] Text preview: Cox impulse sa présence en Colombie avec un PPA solaire de 15 ans et un investissement de 40 millions - Demócrata
+
+Cox impulse sa présence en Colombie avec un PPA solaire de 15 ans et un investissemen...
+2026-10-08 14:26:23,955 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:26:37,108 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Cox impulse sa présence en Colombie avec un PPA solaire de 1
+2026-10-08 14:26:37,109 [INFO] LLM extracted 1 deals | Cox impulse sa présence en Colombie avec un PPA so
+2026-10-08 14:26:37,110 [INFO] Not a European deal — skipping: Cox Impulse / Demócrata (Colombia, None MW)
+2026-10-08 14:26:37,110 [INFO] ------- Processing article n. 5: Joe Sadey signe deux accords solaires au Liban - Daily Beirut -------
+2026-10-08 14:26:37,175 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxORlBReDlDOTVpeG1POWJmX25iblBzdEx0UHBiU3pkYy05dWNDTS1QSzVEZkgtODZwM0JLdlY3Wm5XZUR1cEpzVUpjUExScmYzRlNmZm00QUEwRFRBMGItSi16ZkdrMXcxTy1aSmtkdWxqSmVZYXRHa3NGMHNGUjVlVFFtaTgtZGlHUkhvalUtM2MyYU5SX2FMbkRvNEhuVjNmbEpXQnFNTm5xTkNBa1ZXV1djbHlpZlE5aEpxVTFBMG4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:26:38,277 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:26:38,278 [INFO] Resolved Google News URL: https://dailybeirut.com/fr/actualites-liban/le-ministre-sadey-signe-deux-accords-dachat-denergie-pou
+2026-10-08 14:26:38,278 [INFO] URL: https://dailybeirut.com/fr/actualites-liban/le-ministre-sadey-signe-deux-accords-dachat-denergie-pour-des-projets-solaires/
+2026-10-08 14:26:38,800 [INFO] Text length: 2011 chars | source: full
+2026-10-08 14:26:38,801 [INFO] Text preview: Dans un pas supplémentaire vers la mise en œuvre des projets d'énergies renouvelables licenciés au Liban, le ministre de l'Énergie et de l'Eau, Joe Sadey, a signé les deux accords d'achat d'énergie mo...
+2026-10-08 14:26:38,801 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:26:52,159 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Joe Sadey signe deux accords solaires au Liban - Daily Beiru
+2026-10-08 14:26:52,159 [INFO] LLM extracted 2 deals | Joe Sadey signe deux accords solaires au Liban - D
+2026-10-08 14:26:52,165 [INFO] Not a European deal — skipping: C.D.N / Minister of Energy and Water, Joe Sadey (Lebanon) (Lebanon, None MW)
+2026-10-08 14:26:52,165 [INFO] Not a European deal — skipping: EONE / Minister of Energy and Water, Joe Sadey (Lebanon) (Lebanon, None MW)
+2026-10-08 14:26:52,165 [INFO] ------- Processing article n. 5: Cox firma un contrato a largo plazo con Empresas Públicas de Medellín (EPM) para -------
+2026-10-08 14:26:52,232 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb3BhRFcyUW5SQmFhQXh3dmkxT2g3Q0Jkd0hXSU9vcGs4MlpxT2E1OGZJRnZZTjNDR1puLWZKNWNMbjhkZGdHd2o2Y3VCdEF6c1lDczJvMnBRSFR2b0VrcTRMM3h2bjhlNVJ2YkwzWEpqSmtzSVBRdmJ5NXFxV20xRzVJOVgyZE9zb2UwV0RxNi1FMG5SOGpZeWxwSlFoRTlGTko4ejMzbUtSTU1sUnRIMkFMV2YzUTF5cE1VTnJYR23SAZ8BQVVfeXFMUF8wdGVPY2pzZ054VkJiZUl2MzI0aUEtS2RBaXhseGY3NlBEek52VGVZOGlqenhvZGdFWFdwUm9HTWlKZkhneU9ZSUxEZHlnV0xEenFRSENJdTdwWXpVYmYxalBlRjl3WnQ3emRUUFVNdE9tc3VFaTdQQU8tcmF4LUdBZnhOS19uWHlSZTNHYlFialFfM3B6NE81LWc1MTY4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:26:53,329 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:26:53,330 [INFO] Resolved Google News URL: https://www.estrategiasdeinversion.com/actualidad/noticias/empresas/cox-apuesta-por-colombia-con-un-
+2026-10-08 14:26:53,330 [INFO] URL: https://www.estrategiasdeinversion.com/actualidad/noticias/empresas/cox-apuesta-por-colombia-con-un-nuevo-contrato-n-958463
+2026-10-08 14:26:53,469 [INFO] Text length: 3363 chars | source: full
+2026-10-08 14:26:53,469 [INFO] Text preview: Cox, utility global de agua y energía, ha firmado un nuevo contrato de compraventa de energía a largo plazo (PPA, por sus siglas en inglés) en Colombia con Empresas Públicas de Medellín (EPM), la util...
+2026-10-08 14:26:53,469 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:27:07,186 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 200 for: Cox firma un contrato a largo plazo con Empresas Públicas de
+2026-10-08 14:27:07,187 [INFO] LLM extracted 1 deals | Cox firma un contrato a largo plazo con Empresas P
+2026-10-08 14:27:07,188 [INFO] Not a European deal — skipping: Empresas Públicas de Medellín (EPM) / Cox (Colombia, 58 MW)
+2026-10-08 14:27:07,188 [INFO] ------- Processing article n. 5: Dos Grados compra a Akuo una cartera solar de más de 500 MW en España - energeli -------
+2026-10-08 14:27:07,251 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVcyT1ItcWhzLW9UUGVPWUZwSEZ4Y1luaGdMaGt4NVhDWWdjc2MzVUg0LVlKR05IeXI0M1Nzc1BERlZyLTNZNkp5OWhOeE9TUTV0MHVoaUJWc05lWkZoYkJ4YjlrV0hPaHQwbG41QlhSM2V4UTlqNV9GUDVRNTJDZVF5UmpJelJUODBUNFllSlMxU2EyYWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:27:08,347 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:27:08,348 [INFO] Resolved Google News URL: https://energelia.com/solar-fotovoltaica/dos-grados-compra-cartera-solar-akuo-500-mw-espana
+2026-10-08 14:27:08,348 [INFO] URL: https://energelia.com/solar-fotovoltaica/dos-grados-compra-cartera-solar-akuo-500-mw-espana
+2026-10-08 14:27:08,877 [INFO] Text length: 4291 chars | source: full
+2026-10-08 14:27:08,877 [INFO] Text preview: Dos Grados compra a Akuo una cartera solar de más de 500 MW en España
+Dos Grados refuerza su cartera solar en España con la compra a Akuo
+La empresa de energías renovables Dos Grados ha cerrado un acu...
+2026-10-08 14:27:08,878 [INFO] Trying LLM provider: groq-20b (model=openai/gpt-oss-20b)
+2026-10-08 14:27:21,704 [INFO] LLM [groq-20b/openai/gpt-oss-20b] HTTP 429 for: Dos Grados compra a Akuo una cartera solar de más de 500 MW 
+2026-10-08 14:27:21,704 [WARNING] LLM provider DISABLED for this run: groq-20b — HTTP 429 rate/quota limit
+2026-10-08 14:27:21,704 [WARNING] LLM provider groq-20b failed (quota); trying next provider
+2026-10-08 14:27:21,704 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:27:27,031 [INFO] LLM [gemini-31/gemini-3.1-flash-lite] HTTP 200 for: Dos Grados compra a Akuo una cartera solar de más de 500 MW 
+2026-10-08 14:27:27,031 [WARNING] LLM [gemini-31] HTTP 200 but no choices in response
+2026-10-08 14:27:27,031 [WARNING] LLM provider gemini-31 failed (empty_response); trying next provider
+2026-10-08 14:27:27,032 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:27:27,943 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Dos Grados compra a Akuo una cartera solar de más de 500 MW 
+2026-10-08 14:27:27,943 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:27:27,943 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:27:27,944 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:27:28,745 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Dos Grados compra a Akuo una cartera solar de más de 500 MW 
+2026-10-08 14:27:28,745 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:27:28,745 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:27:28,745 [INFO] Trying LLM provider: openrouter-free (model=openrouter/free)
+2026-10-08 14:27:28,904 [INFO] LLM [openrouter-free/openrouter/free] HTTP 429 for: Dos Grados compra a Akuo una cartera solar de más de 500 MW 
+2026-10-08 14:27:28,905 [WARNING] LLM provider DISABLED for this run: openrouter-free — HTTP 429 rate/quota limit
+2026-10-08 14:27:28,905 [WARNING] LLM provider openrouter-free failed (quota); trying next provider
+2026-10-08 14:27:28,905 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:27:31,035 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Dos Grados compra a Akuo una cartera solar de más de 500 MW 
+2026-10-08 14:27:31,036 [INFO] LLM extracted 1 deals | Dos Grados compra a Akuo una cartera solar de más 
+2026-10-08 14:27:31,037 [INFO] Not a signed deal — skipping: Dos Grados compra a Akuo una cartera solar de más de 500 MW 
+2026-10-08 14:27:31,037 [INFO] ------- Processing article n. 5: Cox firma un PPA solar de 15 años en Colombia por 40 millones - energelia -------
+2026-10-08 14:27:31,105 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxPeDlOcmVTVW12X29aZ1JBSVBPejRYN2RWN2loX2xiYzA4ZlA4QlprUDQydF9WYXhfZVI5RExVRE0wbml5d19senBNZEczUmRBcjVkUlhrbGtIblVFa2pOT3daZXE4VHh0eGl5VXBkbjkwRnphUUxfbnN3bFBmM0g0VnJjNV9NRHpoQUItTDVpdEM5QkE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:27:32,198 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:27:32,199 [INFO] Resolved Google News URL: https://energelia.com/solar-fotovoltaica/cox-ppa-solar-colombia-epm-40-millones-inversion
+2026-10-08 14:27:32,199 [INFO] URL: https://energelia.com/solar-fotovoltaica/cox-ppa-solar-colombia-epm-40-millones-inversion
+2026-10-08 14:27:32,682 [INFO] Text length: 3571 chars | source: full
+2026-10-08 14:27:32,682 [INFO] Text preview: Cox firma un PPA solar de 15 años en Colombia por 40 millones
+Un nuevo PPA solar para consolidar la expansión en Colombia
+La compañía española Cox ha firmado un contrato de compraventa de energía a la...
+2026-10-08 14:27:32,682 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:27:32,948 [INFO] LLM [gemini-31/gemini-3.1-flash-lite] HTTP 503 for: Cox firma un PPA solar de 15 años en Colombia por 40 millone
+2026-10-08 14:27:32,949 [WARNING] LLM [gemini-31] server error 503
+2026-10-08 14:27:32,949 [WARNING] LLM provider gemini-31 failed (transient); trying next provider
+2026-10-08 14:27:32,949 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:27:33,851 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Cox firma un PPA solar de 15 años en Colombia por 40 millone
+2026-10-08 14:27:33,852 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:27:33,852 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:27:33,852 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:27:34,772 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Cox firma un PPA solar de 15 años en Colombia por 40 millone
+2026-10-08 14:27:34,772 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:27:34,772 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:27:34,772 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:27:40,788 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Cox firma un PPA solar de 15 años en Colombia por 40 millone
+2026-10-08 14:27:40,788 [INFO] LLM extracted 1 deals | Cox firma un PPA solar de 15 años en Colombia por 
+2026-10-08 14:27:40,790 [INFO] Not a European deal — skipping: Empresas Públicas de Medellín (EPM) / Cox (Colombia, 58 MW)
+2026-10-08 14:27:40,790 [INFO] ------- Processing article n. 5: Cox invertirá 40 millones en un PPA solar de 15 años en Colombia - América Econó -------
+2026-10-08 14:27:40,866 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxOMDNXTEhsTW4wcjN4RFBiaUxpNFZ6U0RWcnNod1FTcDRCdkprOVlPTUM1R3h0dTZ4MjlRU0Q4TVN1LWc2WHJJS0Z2N2NFT183VjJoNkxaMDgwMk1SN0htakRXM2kwWFpadnljZ2JQMVQwSXFEZ2JQOTBVTVJPWm5lQTVUVEdTdTZqOVBSdTRvQ2RuN0hhc1kxZGE3cms1NXZTcGlvQTJCckF1OWtmU3FYNEkwR3RPQdIBuwFBVV95cUxNZkJVTWtXU2FsM3RsWmNvbm9nS2pxQnl6S0tUSXBCQVY5V2hBU1NhR0M1VlpDeVBXMWw3cG5MWmpTa3k4aTFIMjdNcXlvX3NSSkR2eEVnVk5XOVRqcm53cTgwNUpoLTJIaU1JbHBVSFhfNjd1TFRKNnJNcEIzZGFvSzJoSmVWNzFLbDVjVWFyTlgzLTlaZEk3cWRGaWxSb29SbzBPcHN4TTVTaHY5enNCTkl0WXZvcFdJX0VN?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:27:41,958 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:27:41,959 [INFO] Resolved Google News URL: https://americaeconomica.com/noticia/colombia/cox-invertira-40-millones-en-un-ppa-solar-de-15-anos-e
+2026-10-08 14:27:41,959 [INFO] URL: https://americaeconomica.com/noticia/colombia/cox-invertira-40-millones-en-un-ppa-solar-de-15-anos-en-colombia.html
+2026-10-08 14:27:42,496 [INFO] Text length: 2105 chars | source: full
+2026-10-08 14:27:42,496 [INFO] Text preview: Cox ha firmado un nuevo contrato de compraventa de energía a largo plazo (PPA, por sus siglas en inglés) en Colombia con Empresas Públicas de Medellín (EPM), la utility pública de referencia en el paí...
+2026-10-08 14:27:42,496 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:27:43,011 [INFO] LLM [gemini-31/gemini-3.1-flash-lite] HTTP 503 for: Cox invertirá 40 millones en un PPA solar de 15 años en Colo
+2026-10-08 14:27:43,012 [WARNING] LLM [gemini-31] server error 503
+2026-10-08 14:27:43,012 [WARNING] LLM provider gemini-31 failed (transient); trying next provider
+2026-10-08 14:27:43,012 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:27:44,031 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Cox invertirá 40 millones en un PPA solar de 15 años en Colo
+2026-10-08 14:27:44,031 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:27:44,032 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:27:44,032 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:27:44,892 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Cox invertirá 40 millones en un PPA solar de 15 años en Colo
+2026-10-08 14:27:44,893 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:27:44,893 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:27:44,893 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:27:50,947 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Cox invertirá 40 millones en un PPA solar de 15 años en Colo
+2026-10-08 14:27:50,947 [INFO] LLM extracted 1 deals | Cox invertirá 40 millones en un PPA solar de 15 añ
+2026-10-08 14:27:50,948 [INFO] Not a European deal — skipping: Empresas Públicas de Medellín (EPM) / Cox (Colombia, None MW)
+2026-10-08 14:27:50,948 [INFO] ------- Processing article n. 5: Cox refuerza su apuesta en Colombia con un PPA solar de 15 años que supondrá una -------
+2026-10-08 14:27:51,015 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi6AFBVV95cUxNd0lRWDJmRnlmTTFuZFl5X21hbTROdUdpcUJqMlJVdU1FMVJEUXI4czI2T1Q4Um1GaWd2M1VVQmV3SWNPaU5YMDRoMmdrTGcyemZzcWxtNloxTnp2WGprQlcxTS1TQUZMV0stS2V3NWVycW5TenBqTzZ5aGk0V2VtckhxcFFiellET0VnVWtiaG4zQTdWVExHdU5URWdaT04zaHg0RFVacUNwTTNJMUEwdk5PbDd6SUhQS25ORTFFaEQ4REIwNEdsT2F2Z1FWb0dBRFpOU1lrWDVqb2o2NE5SZnZoaHJldTla?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:27:52,128 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:27:52,129 [INFO] Resolved Google News URL: https://alicanteplaza.es/alicanteplaza/empresas/cox-refuerza-su-apuesta-en-colombia-con-un-ppa-solar
+2026-10-08 14:27:52,129 [INFO] URL: https://alicanteplaza.es/alicanteplaza/empresas/cox-refuerza-su-apuesta-en-colombia-con-un-ppa-solar-de-15-anos-que-supondra-una-inversion-de-40-millones
+2026-10-08 14:27:52,957 [INFO] Text length: 2361 chars | source: full
+2026-10-08 14:27:52,957 [INFO] Text preview: COX (EP). Cox ha firmado un nuevo contrato de compraventa de energía a largo plazo (PPA, por sus siglas en inglés) en Colombia con Empresas Públicas de Medellín (EPM), la 'utility' pública de referenc...
+2026-10-08 14:27:52,957 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:27:58,199 [INFO] LLM [gemini-31/gemini-3.1-flash-lite] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:27:58,199 [WARNING] LLM [gemini-31] HTTP 200 but no choices in response
+2026-10-08 14:27:58,199 [WARNING] LLM provider gemini-31 failed (empty_response); trying next provider
+2026-10-08 14:27:58,199 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:27:58,990 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:27:58,990 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:27:58,990 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:27:58,991 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:27:59,990 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:27:59,990 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:27:59,991 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:27:59,991 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:28:01,856 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:28:01,857 [INFO] LLM extracted 1 deals | Cox refuerza su apuesta en Colombia con un PPA sol
+2026-10-08 14:28:01,858 [INFO] Not a European deal — skipping: Empresas Públicas de Medellín (EPM) / Cox (Colombia, None MW)
+2026-10-08 14:28:01,858 [INFO] ------- Processing article n. 5: Cox firma un PPA de 15 años en Colombia que supondrá una inversión de 40 millone -------
+2026-10-08 14:28:01,935 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQMGExc3gybUVRSmM5UjcxNnEydTFUSFBkLUNPSTZ3dWE1bWNOWHdTU3hDMUhSb0wxdFlfQnpEaTFaY2xqOVhmVFFMUnZxNVhYYnJONG80Z1JTUy0teWpfSXFiRV9ZV3NjOExURExyU2ZhUFVTcHo1N0FLcEJwbDVmSWo4SEZ2NlZONW9fcG1RaXB0OHNZU05WajZYMVF5MFVRWkROWnptR1BJRG92T0s3T2NzQ1Z3Zzl0d1RSS2JB0gHDAUFVX3lxTE9XRFZCZTRtaWJ2QWQ4bXhPTERiM0ZUY1hyWVhZVkhUWExrd2pnWWFkN21yQXVpWVNzNjd0Q0xoM0J1Z0lsS3JXTzNydl91dzdyaXFOTTJUeVhTQTRQTWRQQUFoYkNaRmlvblVLVEdMRGw1czNwbnRtQmNZaS1uQzE2OFFobzBuTkxidVF5Tl9WblNpQU8zV0tiTkxUcjczeHo1eTlFNm5FN0UwcUFEVndjN0Z4NUdQNTgzYmUwajJ5UmVFSQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:28:03,023 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:28:03,024 [INFO] Resolved Google News URL: https://www.bolsamania.com/noticias/empresas/cox-firma-ppa-15-anos-colombia-supondra-inversion-40-mi
+2026-10-08 14:28:03,024 [INFO] URL: https://www.bolsamania.com/noticias/empresas/cox-firma-ppa-15-anos-colombia-supondra-inversion-40-millones--23793536.html
+2026-10-08 14:28:03,247 [INFO] Text length: 2402 chars | source: full
+2026-10-08 14:28:03,247 [INFO] Text preview: Cox ha firmado un nuevo contrato de compraventa de energía a largo plazo (PPA) en Colombia con Empresas Públicas de Medellín (EPM), principal grupo público de energía del país, para el suministro de a...
+2026-10-08 14:28:03,247 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:28:12,522 [INFO] LLM [gemini-31/gemini-3.1-flash-lite] HTTP 200 for: Cox firma un PPA de 15 años en Colombia que supondrá una inv
+2026-10-08 14:28:12,522 [WARNING] LLM [gemini-31] HTTP 200 but no choices in response
+2026-10-08 14:28:12,523 [WARNING] LLM provider gemini-31 failed (empty_response); trying next provider
+2026-10-08 14:28:12,523 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:28:13,392 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Cox firma un PPA de 15 años en Colombia que supondrá una inv
+2026-10-08 14:28:13,392 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:28:13,393 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:28:13,393 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:28:14,370 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Cox firma un PPA de 15 años en Colombia que supondrá una inv
+2026-10-08 14:28:14,370 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:28:14,371 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:28:14,371 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:28:22,146 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Cox firma un PPA de 15 años en Colombia que supondrá una inv
+2026-10-08 14:28:22,146 [WARNING] LLM JSON/response parse error (Bolsamania): Unterminated string starting at: line 8 column 40 (char 191)
+2026-10-08 14:28:22,147 [WARNING] LLM provider mistral-3b returned invalid JSON; trying next provider
+2026-10-08 14:28:22,147 [INFO] Trying LLM provider: mistral-8b (model=ministral-8b-latest)
+2026-10-08 14:28:26,170 [INFO] LLM [mistral-8b/ministral-8b-latest] HTTP 200 for: Cox firma un PPA de 15 años en Colombia que supondrá una inv
+2026-10-08 14:28:26,171 [INFO] LLM extracted 1 deals | Cox firma un PPA de 15 años en Colombia que supond
+2026-10-08 14:28:26,172 [INFO] Not a European deal — skipping: Empresas Públicas de Medellín (EPM) / Cox (Colombia, 58 MW)
+2026-10-08 14:28:26,172 [INFO] ------- Processing article n. 5: Cox refuerza su apuesta en Colombia con un PPA solar de 15 años que supondrá una -------
+2026-10-08 14:28:26,256 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSlpxbGFvVHhYTlBSMy02R2NHZFNIcndHTDl6Z1hpTVBWeVJ6ZzZwVXRSaU9GZnRocFA2alRKS1E2Y0dxQzZadVpPOTlNVWNHNkowcWFSdlREaU5kblhxRGpsNnoyN2dVY0gtdFNoWUFuSGlIbFR6VExHOTcxQlljTFNCRzNoeVNoZ1k1blJWbEp6MXZzX2ppSUwxSEtIVkNzQVpzN045RVJvc0E4Wi1qVjNmSlVhcWo3d2NwR2ctbE5INkZHMV8wTTJUM1pfeER3VHplRkQ4RTVvVlhUZ1FHN0g3TUxvQnQwVUQwVHNEanlmd0Z0NTVz0gH8AUFVX3lxTE5Cd1JtU1BpekNJRTlmaXJEcUh4MkRfVTQxd0hjemI0bDdRaEl1dVRkZjBLWXZ2dlNKdnJnNThjeGQ0eUotM2xtTklLcVNOXzhWZ0dzM21pNmlUS1hPVnhISk1Hb09sS2Y2VGNnZlAyWDFlQ1JZQ0VKNUgxRk12M01laEZGRjBTdmVuZVJEYU1aV3BITDZsZUlqWHBIUmJETVNKVlo2MC1LVG9qRzBreWs1S2xYZWttSzBLOVVkTVRfckZWeHZyNDRxOVduNTZnR3FJRWdrUzJiMnh2MzN2ZjZKWnJYU2FEcmx1cHltUWhGZFJwenZTeVVGQ1FJTw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:28:27,375 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:28:27,376 [INFO] Resolved Google News URL: https://www.andaluciainformacion.es/articulo/andalucia/cox-refuerza-apuesta-colombia-ppa-solar-15-an
+2026-10-08 14:28:27,376 [INFO] URL: https://www.andaluciainformacion.es/articulo/andalucia/cox-refuerza-apuesta-colombia-ppa-solar-15-anos-que-supondra-inversion-40-millones/202610081231573501139.html
+2026-10-08 14:28:27,402 [INFO] Full text skipped (status 403): https://www.andaluciainformacion.es/articulo/andalucia/cox-refuerza-apuesta-colo
+2026-10-08 14:28:27,403 [INFO] Text length: 271 chars | source: fallback
+2026-10-08 14:28:27,403 [INFO] Text preview: Cox refuerza su apuesta en Colombia con un PPA solar de 15 años que supondrá una inversión de 40 millones - Andalucía Información
+
+Cox refuerza su apuesta en Colombia con un PPA solar de 15 años que s...
+2026-10-08 14:28:27,403 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:28:28,280 [INFO] LLM [gemini-31/gemini-3.1-flash-lite] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:28:28,280 [WARNING] LLM [gemini-31] HTTP 200 but no choices in response
+2026-10-08 14:28:28,281 [WARNING] LLM provider gemini-31 failed (empty_response); trying next provider
+2026-10-08 14:28:28,281 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:28:29,461 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:28:29,461 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:28:29,461 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:28:29,461 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:28:30,225 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:28:30,225 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:28:30,226 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:28:30,226 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:28:31,160 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Cox refuerza su apuesta en Colombia con un PPA solar de 15 a
+2026-10-08 14:28:31,161 [INFO] LLM extracted 1 deals | Cox refuerza su apuesta en Colombia con un PPA sol
+2026-10-08 14:28:31,162 [INFO] Not a European deal — skipping: Cox / None (Colombia, None MW)
+2026-10-08 14:28:31,162 [INFO] ------- Processing article n. 5: Cox impulsa su presencia en Colombia con un PPA solar a 15 años y una inversión  -------
+2026-10-08 14:28:31,228 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTXZVRnB3eEpnWjgzak9aTHpCZGFsQUN6Q0NqM2ctNTI1Z1VJdlFYdGFLU2I0SnRJaFZ5N0F6SHFLSFBOMS1jWFNkMUJibUV4bjNFeWVpV2lJUTU2NzBwNUJMdUw0bk01SndWZDhuVkItUUZKVVJZWi1aTk1YT2RsR2NneTBGM3hxUjRUYVdZVGg1ZlVmNHQ1VHQxcTZnNUpCZi1RYlR4VnNIdDhfRnd3ZlF6Z0pyRTRWSmJETEtmRkJjUVQ0U0VDUtIBzgFBVV95cUxPZkwxM3NxYXhHOUhnSTF4dWZFOW14MG5LcmNpYTJVQkhneWpMSGJtZV81ZHRnMG9HSDVpNGpxS0dGZWIxaG1BeGprbzI5RWJManVNZ0V4b01tS3FONVdGd3BCeG1PSDdKd3prZ1M4S0R5ZDAyNmRmRzByaktEd1dkdTBiNzVnT3pLZXFSVk5hWE43VmtkN3NuR21JZ3Z6d1ZweE15bFFfNjRCaEVhOUtIOFdfa1pqMlV1MEEtTmtsV2ZkeF9JUWhIX2VBNEFlUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:28:32,359 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:28:32,360 [INFO] Resolved Google News URL: https://www.democrata.es/economia/cox-impulsa-su-presencia-en-colombia-con-un-ppa-solar-a-15-anos-y-
+2026-10-08 14:28:32,360 [INFO] URL: https://www.democrata.es/economia/cox-impulsa-su-presencia-en-colombia-con-un-ppa-solar-a-15-anos-y-una-inversion-de-40-millones/
+2026-10-08 14:28:32,385 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/cox-impulsa-su-presencia-en-colombia-con-un-pp
+2026-10-08 14:28:32,385 [INFO] Text length: 225 chars | source: fallback
+2026-10-08 14:28:32,385 [INFO] Text preview: Cox impulsa su presencia en Colombia con un PPA solar a 15 años y una inversión de 40 millones - Demócrata
+
+Cox impulsa su presencia en Colombia con un PPA solar a 15 años y una inversión de 40 millon...
+2026-10-08 14:28:32,385 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:28:36,554 [INFO] LLM [gemini-31/gemini-3.1-flash-lite] HTTP 200 for: Cox impulsa su presencia en Colombia con un PPA solar a 15 a
+2026-10-08 14:28:36,554 [WARNING] LLM [gemini-31] HTTP 200 but no choices in response
+2026-10-08 14:28:36,554 [WARNING] LLM provider gemini-31 failed (empty_response); trying next provider
+2026-10-08 14:28:36,554 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:28:37,576 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Cox impulsa su presencia en Colombia con un PPA solar a 15 a
+2026-10-08 14:28:37,576 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:28:37,577 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:28:37,577 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:28:38,279 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Cox impulsa su presencia en Colombia con un PPA solar a 15 a
+2026-10-08 14:28:38,279 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:28:38,280 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:28:38,280 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:28:41,773 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Cox impulsa su presencia en Colombia con un PPA solar a 15 a
+2026-10-08 14:28:41,773 [INFO] LLM extracted 1 deals | Cox impulsa su presencia en Colombia con un PPA so
+2026-10-08 14:28:41,774 [INFO] Not a European deal — skipping: Cox / None (Colombia, None MW)
+2026-10-08 14:28:41,775 [INFO] ------- Processing article n. 5: Bioil e Taebioenergy: accordo da 3,8 milioni per l’energia sostenibile a km zero -------
+2026-10-08 14:28:41,835 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxPQzI3TDJjSkJwNlJtQ2NoTHhtbl80SU03N1R0UDhjRmxiVXMyQVBzMEhzSW53RFlNVDh1RDFpcUpWaGlsQXNFcENkWnVqY3JtSlV5ZDZsYkNnY3JqdmFyRmVVb3N4aUxaRnBleGtycXRMaVdmcXRJdkNnOUI5dWZQMDJCLXpBbElGaFotQWhqQXRUazRjOWlPZEpRN1Q5SGJvTngyblVB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:28:42,958 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:28:42,959 [INFO] Resolved Google News URL: https://www.milanobiz.it/bioil-e-taebioenergy-accordo-da-38-milioni-per-lenergia-sostenibile-a-km-ze
+2026-10-08 14:28:42,959 [INFO] URL: https://www.milanobiz.it/bioil-e-taebioenergy-accordo-da-38-milioni-per-lenergia-sostenibile-a-km-zero/
+2026-10-08 14:28:45,238 [INFO] Text length: 3387 chars | source: full
+2026-10-08 14:28:45,238 [INFO] Text preview: Bioil srl acquista 760 tonnellate di Circular Oil da Taebioenergy: a Pozzo d’Adda la prima centrale termoelettrica al mondo alimentata da olio sostenibile a km zero
+Accordo quinquennale da 3,8 milioni...
+2026-10-08 14:28:45,238 [INFO] Trying LLM provider: gemini-31 (model=gemini-3.1-flash-lite)
+2026-10-08 14:29:05,255 [WARNING] LLM [gemini-31] request timeout
+2026-10-08 14:29:05,255 [WARNING] LLM provider DISABLED for this run: gemini-31 — timeout
+2026-10-08 14:29:05,255 [WARNING] LLM provider gemini-31 failed (disabled); trying next provider
+2026-10-08 14:29:05,255 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:29:06,186 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Bioil e Taebioenergy: accordo da 3,8 milioni per l’energia s
+2026-10-08 14:29:06,186 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:29:06,187 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:29:06,187 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:29:07,153 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Bioil e Taebioenergy: accordo da 3,8 milioni per l’energia s
+2026-10-08 14:29:07,153 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:29:07,153 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:29:07,153 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:29:07,585 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Bioil e Taebioenergy: accordo da 3,8 milioni per l’energia s
+2026-10-08 14:29:07,585 [INFO] LLM extracted 0 deals | Bioil e Taebioenergy: accordo da 3,8 milioni per l
+2026-10-08 14:29:07,586 [INFO] ------- Processing article n. 5: ContourGlobal, al via Project Sterling in Arizona: 509 MWp di solare e batterie  -------
+2026-10-08 14:29:07,660 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwJBVV95cUxQSGdFUnNlVWVXeEN4S0JzVm1fUUpDeXlvZkdyaFZGb29qMmMxQlJqQXk5ejBZZ0RFRFVMQ1FsRkVQSC1lTmlpVnBaZ3JhNHQxUnZERzM3a1ZrQ0ZRMzVycV82dzk3RFV5eUlBQ2NUdUV3M245RXlzSmdyLXpGemJKY3RGSURjS1hsR3ZGaEtfckhNNlZDT0xCRGRxVGRoUU5qOWhyY25UM0pTUHNOd21pQ3BVZFcyeDNkM2hnWWdfNFQySVI4cU9nem9NNWYya0F6QnhMS2tWbmNKanh5TWZOb1FHT3pqaHJ5UzBYbktUMnhRSlpqN3pQbzI3VFVCN0kxYjhmYWFoLWJiSGJYX3RpV24wODEtMFk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:29:08,768 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:29:08,769 [INFO] Resolved Google News URL: https://www.ilgiornaleditalia.it/news/mondo-imprese/828094/contourglobal-al-via-project-sterling-in-
+2026-10-08 14:29:08,769 [INFO] URL: https://www.ilgiornaleditalia.it/news/mondo-imprese/828094/contourglobal-al-via-project-sterling-in-arizona-509-mwp-di-solare-e-batterie-da-1-4-gwh-accordo-con-tesla-su-90-dellenergia.html
+2026-10-08 14:29:09,430 [INFO] Text length: 5754 chars | source: full
+2026-10-08 14:29:09,430 [INFO] Text preview: 08 Ottobre 2026
+ContourGlobal e il progetto Project Sterling in Arizona
+ContourGlobal ha celebrato ieri l’avvio della costruzione di Project Sterling, in Arizona, un impianto ibrido che combinerà 509 ...
+2026-10-08 14:29:09,431 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:29:11,320 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: ContourGlobal, al via Project Sterling in Arizona: 509 MWp d
+2026-10-08 14:29:11,320 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:29:11,320 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:29:11,320 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:29:12,169 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: ContourGlobal, al via Project Sterling in Arizona: 509 MWp d
+2026-10-08 14:29:12,169 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:29:12,169 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:29:12,169 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:29:19,212 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: ContourGlobal, al via Project Sterling in Arizona: 509 MWp d
+2026-10-08 14:29:19,212 [INFO] LLM extracted 1 deals | ContourGlobal, al via Project Sterling in Arizona:
+2026-10-08 14:29:19,213 [INFO] Not a European deal — skipping: Tesla / ContourGlobal (United States, 509 MW)
+2026-10-08 14:29:19,213 [INFO] ------- Processing article n. 5: Energia por assinatura: o que é, como funciona e por que esse modelo vem ganhand -------
+2026-10-08 14:29:19,278 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVR6MmFYTXRYNlozR2F5YzBBWFljY0J1SXU3ODZWRVhKY0sxUm1DQzQ2Y2djYTFmdnBRQkF5ZXUzSTdPLW9jczRVR0pGcXFtZHk4SUdxMlljODdhU1FxRGRIVzdsSmFhSVpJMGZPYVJFTW9xMDZjVEZwU285YjY4Y01nNA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-08 14:29:20,382 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-08 14:29:20,383 [INFO] Resolved Google News URL: https://www.neoenergia.com/w/conheca-a-modalidade-de-energia-por-assinatura-1
+2026-10-08 14:29:20,383 [INFO] URL: https://www.neoenergia.com/w/conheca-a-modalidade-de-energia-por-assinatura-1
+2026-10-08 14:29:20,943 [INFO] Full text skipped (status 403): https://www.neoenergia.com/w/conheca-a-modalidade-de-energia-por-assinatura-1
+2026-10-08 14:29:20,943 [INFO] Text length: 241 chars | source: fallback
+2026-10-08 14:29:20,943 [INFO] Text preview: Energia por assinatura: o que é, como funciona e por que esse modelo vem ganhando espaço nas empresas - Neoenergia
+
+Energia por assinatura: o que é, como funciona e por que esse modelo vem ganhando es...
+2026-10-08 14:29:20,943 [INFO] Trying LLM provider: gemini-35 (model=gemini-3.5-flash-lite)
+2026-10-08 14:29:21,799 [INFO] LLM [gemini-35/gemini-3.5-flash-lite] HTTP 200 for: Energia por assinatura: o que é, como funciona e por que ess
+2026-10-08 14:29:21,800 [WARNING] LLM [gemini-35] HTTP 200 but no choices in response
+2026-10-08 14:29:21,800 [WARNING] LLM provider gemini-35 failed (empty_response); trying next provider
+2026-10-08 14:29:21,800 [INFO] Trying LLM provider: gemini-25lite (model=gemini-2.5-flash-lite)
+2026-10-08 14:29:22,644 [INFO] LLM [gemini-25lite/gemini-2.5-flash-lite] HTTP 200 for: Energia por assinatura: o que é, como funciona e por que ess
+2026-10-08 14:29:22,644 [WARNING] LLM [gemini-25lite] HTTP 200 but no choices in response
+2026-10-08 14:29:22,645 [WARNING] LLM provider gemini-25lite failed (empty_response); trying next provider
+2026-10-08 14:29:22,645 [INFO] Trying LLM provider: mistral-3b (model=ministral-3b-latest)
+2026-10-08 14:29:28,174 [INFO] LLM [mistral-3b/ministral-3b-latest] HTTP 200 for: Energia por assinatura: o que é, como funciona e por que ess
+2026-10-08 14:29:28,174 [INFO] LLM extracted 1 deals | Energia por assinatura: o que é, como funciona e p
+2026-10-08 14:29:28,175 [INFO] Not a signed deal — skipping: Energia por assinatura: o que é, como funciona e por que ess
+2026-10-08 14:29:28,175 [INFO] Run complete. New deals: 4, Updates: 1
+2026-10-08 14:29:28,192 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1488 deals)
+2026-10-08 14:29:29,529 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
