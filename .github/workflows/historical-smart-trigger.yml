@@ -71,6 +71,7 @@ jobs:
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          OPENROUTER_KEY: ${{ secrets.OPENROUTER_KEY }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS }}
           NOTIFY_EMAIL_ENABLED: ${{ vars.NOTIFY_EMAIL_ENABLED }}
           NOTIFY_SMTP_HOST: ${{ secrets.NOTIFY_SMTP_HOST }}
