@@ -39,7 +39,8 @@ NEWSAPI_URL = "https://newsapi.org/v2/everything"
 # ── LLM Providers ─────────────────────────────────────────────────────────────
 LLM_PROVIDERS = [
     {
-        "name": "groq",
+        "name": "groq-120b",
+        "provider": "groq",
         "key": os.environ.get("GROQ_KEY"),
         "url": "https://api.groq.com/openai/v1/chat/completions",
         "model": os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b"),
@@ -47,27 +48,112 @@ LLM_PROVIDERS = [
         "timeout": 30,
     },
     {
-        "name": "gemini",
+        "name": "groq-qwen",
+        "provider": "groq",
+        "key": os.environ.get("GROQ_KEY"),
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "model": "qwen/qwen3.8-27b",
+        "min_delay": 15,
+        "timeout": 30,
+    },
+    {
+        "name": "groq-20b",
+        "provider": "groq",
+        "key": os.environ.get("GROQ_KEY"),
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "model": "openai/gpt-oss-20b",
+        "min_delay": 15,
+        "timeout": 30,
+    },
+    {
+        "name": "gemini-31",
+        "provider": "gemini",
         "key": os.environ.get("GEMINI_KEY"),
-        "model": os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite"),
+        "model": "gemini-3.1-flash-lite",
         "min_delay": 5,
         "timeout": 20,
     },
     {
-        "name": "mistral",
+        "name": "gemini-35",
+        "provider": "gemini",
+        "key": os.environ.get("GEMINI_KEY"),
+        "model": "gemini-3.5-flash-lite",
+        "min_delay": 5,
+        "timeout": 20,
+    },
+    {
+        "name": "gemma-26b",
+        "provider": "gemini",
+        "key": os.environ.get("GEMINI_KEY"),
+        "model": "gemma-4-26b-a4b-it",
+        "min_delay": 5,
+        "timeout": 20,
+    },
+    {
+        "name": "gemma-31b",
+        "provider": "gemini",
+        "key": os.environ.get("GEMINI_KEY"),
+        "model": "gemma-4-31b-it",
+        "min_delay": 5,
+        "timeout": 20,
+    },
+    {
+        "name": "openrouter-qwen",
+        "provider": "openrouter",
+        "key": os.environ.get("OPENROUTER_KEY"),
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "model": "qwen/qwen3.8-27b:free",
+        "min_delay": 5,
+        "timeout": 30,
+    },
+    {
+        "name": "openrouter-gpt20b",
+        "provider": "openrouter",
+        "key": os.environ.get("OPENROUTER_KEY"),
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "model": "openai/gpt-oss-20b:free",
+        "min_delay": 5,
+        "timeout": 30,
+    },
+    {
+        "name": "openrouter-free",
+        "provider": "openrouter",
+        "key": os.environ.get("OPENROUTER_KEY"),
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "model": "openrouter/free",
+        "min_delay": 5,
+        "timeout": 30,
+    },
+    {
+        "name": "mistral-small",
+        "provider": "mistral",
         "key": os.environ.get("MISTRAL_KEY"),
         "url": "https://api.mistral.ai/v1/chat/completions",
-        "model": os.environ.get("MISTRAL_MODEL", "mistral-small-latest"),
-        "min_delay": 5,
+        "model": "mistral-small-latest",
+        "min_delay": 10,
+        "timeout": 20,
+    },
+    {
+        "name": "mistral-8b",
+        "provider": "mistral",
+        "key": os.environ.get("MISTRAL_KEY"),
+        "url": "https://api.mistral.ai/v1/chat/completions",
+        "model": "ministral-8b-latest",
+        "min_delay": 10,
+        "timeout": 20,
+    },
+    {
+        "name": "mistral-3b",
+        "provider": "mistral",
+        "key": os.environ.get("MISTRAL_KEY"),
+        "url": "https://api.mistral.ai/v1/chat/completions",
+        "model": "ministral-3b-latest",
+        "min_delay": 10,
         "timeout": 20,
     },
 ]
 
-# Providers that have exhausted their quota or otherwise become unusable
-# are disabled for the remainder of the current run.
 disabled_llm_providers = set()
-
-# Last successful request time per provider, used for conservative pacing.
 last_llm_request = {}
 
 MAX_ARTICLES = int(os.environ.get("MAX_ARTICLES") or 100000)  # Default: no limit
@@ -434,15 +520,18 @@ def _llm_disable(provider: dict, reason: str) -> None:
 def _llm_request(provider: dict, prompt: str, title: str):
     """Return (JSON text, error_type). JSON text is always a string."""
     name = provider["name"]
+    provider_type = provider["provider"]
 
     _llm_wait(provider)
     last_llm_request[name] = time.monotonic()
 
     try:
-        # Gemini native API
-        if name == "gemini":
+        # ---------------------------------------------------------------
+        # Google Gemini / Gemma native API
+        # ---------------------------------------------------------------
+        if provider_type == "gemini":
             url = (
-                f"https://generativelanguage.googleapis.com/v1beta/"
+                "https://generativelanguage.googleapis.com/v1beta/"
                 f"models/{provider['model']}:generateContent"
             )
 
@@ -455,9 +544,11 @@ def _llm_request(provider: dict, prompt: str, title: str):
                     }
                 ],
                 "generationConfig": {
-                    "temperature": 0.1,
                     "maxOutputTokens": 1024,
                     "responseMimeType": "application/json",
+                    "thinkingConfig": {
+                        "thinkingLevel": "minimal"
+                    },
                 },
             }
 
@@ -477,23 +568,37 @@ def _llm_request(provider: dict, prompt: str, title: str):
             if resp.status_code == 200:
                 data = resp.json()
                 content = (
-                    data["candidates"][0]["content"]["parts"][0]["text"]
+                    data["candidates"][0]
+                    ["content"]["parts"][0]["text"]
                 )
                 return content, None
 
-        # Groq + Mistral OpenAI-compatible API
+        # ---------------------------------------------------------------
+        # Groq / OpenRouter / Mistral OpenAI-compatible APIs
+        # ---------------------------------------------------------------
         else:
             payload = {
                 "model": provider["model"],
-                "temperature": 0.1,
                 "max_tokens": 1024,
                 "messages": [
-                    {"role": "user", "content": prompt}
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
                 ],
             }
 
-            if name == "groq":
-                payload["response_format"] = {"type": "json_object"}
+            if provider_type in ("groq", "openrouter", "mistral"):
+                payload["response_format"] = {
+                    "type": "json_object"
+                }
+
+            # Groq-specific reasoning settings
+            if provider_type == "groq":
+                if provider["model"] == "qwen/qwen3.8-27b":
+                    payload["reasoning_effort"] = "none"
+                else:
+                    payload["reasoning_effort"] = "low"
 
             resp = requests.post(
                 provider["url"],
@@ -515,17 +620,29 @@ def _llm_request(provider: dict, prompt: str, title: str):
                 content = data["choices"][0]["message"]["content"]
                 return content, None
 
+        # ---------------------------------------------------------------
+        # Rate limit / quota
+        # ---------------------------------------------------------------
         if resp.status_code == 429:
-            _llm_disable(provider, "HTTP 429 rate/quota limit")
+            _llm_disable(
+                provider,
+                f"HTTP 429 rate/quota limit"
+            )
             return None, "quota"
 
+        # ---------------------------------------------------------------
+        # Authentication
+        # ---------------------------------------------------------------
         if resp.status_code in (401, 403):
             _llm_disable(
                 provider,
-                f"authentication/permission error HTTP {resp.status_code}"
+                f"authentication/permission HTTP {resp.status_code}"
             )
             return None, "disabled"
 
+        # ---------------------------------------------------------------
+        # Temporary server failure
+        # ---------------------------------------------------------------
         if resp.status_code >= 500:
             log.warning(
                 f"LLM [{name}] server error {resp.status_code}"
@@ -545,9 +662,12 @@ def _llm_request(provider: dict, prompt: str, title: str):
 
     except requests.Timeout:
         log.warning(f"LLM [{name}] request timeout")
-        if name == "gemini":
+
+        # Gemini/Gemma timeout: do not try that model again this run.
+        if provider_type == "gemini":
             _llm_disable(provider, "timeout")
             return None, "disabled"
+
         return None, "transient"
 
     except requests.RequestException as e:
@@ -593,32 +713,33 @@ def _parse_llm_response(content, title: str, outlet: str):
         )
         return None
 
-
-def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
+def extract_with_llm(text: str, title: str, outlet: str):
     """
-    Try every configured LLM provider in priority order.
+    Try all available LLM providers in priority order.
 
-    Provider exhaustion is remembered for the rest of this run, so a
-    backfill can continue using the next available provider instead of
-    repeatedly hammering a provider that has hit its quota.
+    If all providers are exhausted, FAIL the pipeline.
+    Never silently return None after provider exhaustion.
     """
-
-    available = [
-        p for p in LLM_PROVIDERS
-        if p["key"] and p["name"] not in disabled_llm_providers
-    ]
-
-    if not available:
-        log.error("No LLM providers available for this run")
-        return None
 
     for attempt, text_limit in enumerate([6000, 3000]):
 
-        prompt = EXTRACTION_PROMPT.format(text=text[:text_limit])
+        available = [
+            p for p in LLM_PROVIDERS
+            if p["key"]
+            and p["name"] not in disabled_llm_providers
+        ]
+
+        if not available:
+            raise RuntimeError(
+                "All LLM providers exhausted for this run"
+            )
+
+        prompt = EXTRACTION_PROMPT.format(
+            text=text[:text_limit]
+        )
 
         for provider in available:
 
-            # Provider may have been disabled by a previous article.
             if provider["name"] in disabled_llm_providers:
                 continue
 
@@ -627,47 +748,55 @@ def extract_with_llm(text: str, title: str, outlet: str) -> dict | list | None:
                 f"(model={provider['model']})"
             )
 
-            resp, error_type = _llm_request(
+            content, error_type = _llm_request(
                 provider,
                 prompt,
                 title,
             )
 
-            if resp is None:
+            if content is None:
                 log.warning(
                     f"LLM provider {provider['name']} failed "
                     f"({error_type}); trying next provider"
                 )
                 continue
 
-            parsed = _parse_llm_response(resp, title, outlet)
+            parsed = _parse_llm_response(
+                content,
+                title,
+                outlet,
+            )
 
             if parsed is not None:
                 return parsed
 
-            # The provider responded successfully but produced invalid JSON.
-            # Try the next provider before shortening the article.
             log.warning(
                 f"LLM provider {provider['name']} returned invalid JSON; "
                 f"trying next provider"
             )
 
-        # If every provider failed, try the shorter prompt once.
+        # Retry the same article once with the shorter text
+        # ONLY if at least one provider is still available.
         if attempt == 0:
-            log.info(
-                "All available LLM providers failed — "
-                "retrying with shorter input"
-            )
-            available = [
+            remaining = [
                 p for p in LLM_PROVIDERS
-                if p["key"] and p["name"] not in disabled_llm_providers
+                if p["key"]
+                and p["name"] not in disabled_llm_providers
             ]
-            if not available:
-                log.error("All LLM providers exhausted for this run")
-                return None
 
-    log.warning(f"All LLM attempts failed for: {title[:60]}")
-    return None
+            if remaining:
+                log.info(
+                    "LLM providers remain available; "
+                    "retrying article with shorter input"
+                )
+            else:
+                raise RuntimeError(
+                    "All LLM providers exhausted for this run"
+                )
+
+    raise RuntimeError(
+        f"All LLM attempts failed for article: {title[:100]}"
+    )
 
 # ── Deduplication ─────────────────────────────────────────────────────────────
 
