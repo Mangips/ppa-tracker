@@ -538,8 +538,10 @@ def _llm_request(provider: dict, prompt: str, title: str):
 
             resp = requests.post(
                 url,
-                params={"key": provider["key"]},
-                headers={"Content-Type": "application/json"},
+                headers={
+                    "Content-Type": "application/json",
+                    "x-goog-api-key": provider["key"],
+                },
                 json=payload,
                 timeout=provider["timeout"],
             )
@@ -559,42 +561,42 @@ def _llm_request(provider: dict, prompt: str, title: str):
                     )
                     return None, "provider_error"
             
-                choices = data.get("choices") or []
+                candidates = data.get("candidates") or []
             
-                if not choices:
+                if not candidates:
+                    prompt_feedback = data.get("promptFeedback")
                     log.warning(
-                        f"LLM [{name}] HTTP 200 but no choices in response"
+                        f"LLM [{name}] HTTP 200 but no candidates. "
+                        f"promptFeedback={prompt_feedback}"
                     )
                     return None, "empty_response"
             
-                choice = choices[0]
+                candidate = candidates[0]
             
-                if choice.get("error") is not None:
+                finish_reason = candidate.get("finishReason")
+                if finish_reason == "SAFETY":
                     log.warning(
-                        f"LLM [{name}] choice error: {choice.get('error')}"
+                        f"LLM [{name}] response blocked by safety filter"
                     )
-                    return None, "provider_error"
+                    return None, "blocked"
             
-                if choice.get("finish_reason") == "error":
+                content_obj = candidate.get("content") or {}
+                parts = content_obj.get("parts") or []
+            
+                text_parts = [
+                    part.get("text")
+                    for part in parts
+                    if isinstance(part, dict)
+                    and isinstance(part.get("text"), str)
+                ]
+            
+                content = "".join(text_parts).strip()
+            
+                if not content:
                     log.warning(
-                        f"LLM [{name}] finish_reason=error"
-                    )
-                    return None, "provider_error"
-            
-                message = choice.get("message") or {}
-                content = message.get("content")
-            
-                if not isinstance(content, str) or not content.strip():
-                    log.warning(
-                        f"LLM [{name}] HTTP 200 but empty/non-text content"
+                        f"LLM [{name}] HTTP 200 but candidate contained no text"
                     )
                     return None, "empty_content"
-            
-                if name == "openrouter-free":
-                    served_model = data.get("model", "unknown")
-                    log.info(
-                        f"OpenRouter served model: {served_model}"
-                    )
             
                 return content, None
 
