@@ -43,7 +43,7 @@ LLM_PROVIDERS = [
         "provider": "groq",
         "key": os.environ.get("GROQ_KEY"),
         "url": "https://api.groq.com/openai/v1/chat/completions",
-        "model": os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b"),
+        "model": "openai/gpt-oss-120b",
         "min_delay": 15,
         "timeout": 30,
     },
@@ -82,38 +82,12 @@ LLM_PROVIDERS = [
         "timeout": 20,
     },
     {
-        "name": "gemma-26b",
+        "name": "gemini-25lite",
         "provider": "gemini",
         "key": os.environ.get("GEMINI_KEY"),
-        "model": "gemma-4-26b-a4b-it",
+        "model": "gemini-2.5-flash-lite",
         "min_delay": 5,
-        "timeout": 20,
-    },
-    {
-        "name": "gemma-31b",
-        "provider": "gemini",
-        "key": os.environ.get("GEMINI_KEY"),
-        "model": "gemma-4-31b-it",
-        "min_delay": 5,
-        "timeout": 20,
-    },
-    {
-        "name": "openrouter-qwen",
-        "provider": "openrouter",
-        "key": os.environ.get("OPENROUTER_KEY"),
-        "url": "https://openrouter.ai/api/v1/chat/completions",
-        "model": "qwen/qwen3.8-27b:free",
-        "min_delay": 5,
-        "timeout": 30,
-    },
-    {
-        "name": "openrouter-gpt20b",
-        "provider": "openrouter",
-        "key": os.environ.get("OPENROUTER_KEY"),
-        "url": "https://openrouter.ai/api/v1/chat/completions",
-        "model": "openai/gpt-oss-20b:free",
-        "min_delay": 5,
-        "timeout": 30,
+        "timeout": 15,
     },
     {
         "name": "openrouter-free",
@@ -125,11 +99,11 @@ LLM_PROVIDERS = [
         "timeout": 30,
     },
     {
-        "name": "mistral-small",
+        "name": "mistral-3b",
         "provider": "mistral",
         "key": os.environ.get("MISTRAL_KEY"),
         "url": "https://api.mistral.ai/v1/chat/completions",
-        "model": "mistral-small-latest",
+        "model": "ministral-3b-latest",
         "min_delay": 10,
         "timeout": 20,
     },
@@ -143,11 +117,11 @@ LLM_PROVIDERS = [
         "timeout": 20,
     },
     {
-        "name": "mistral-3b",
+        "name": "mistral-small",
         "provider": "mistral",
         "key": os.environ.get("MISTRAL_KEY"),
         "url": "https://api.mistral.ai/v1/chat/completions",
-        "model": "ministral-3b-latest",
+        "model": "mistral-small-latest",
         "min_delay": 10,
         "timeout": 20,
     },
@@ -535,6 +509,22 @@ def _llm_request(provider: dict, prompt: str, title: str):
                 f"models/{provider['model']}:generateContent"
             )
 
+            generation_config = {
+                "maxOutputTokens": 1024,
+                "responseMimeType": "application/json",
+            }
+            
+            # thinkingLevel is supported by Gemini 3.x.
+            # Gemini 2.5 uses thinkingBudget instead.
+            if provider["model"].startswith("gemini-3"):
+                generation_config["thinkingConfig"] = {
+                    "thinkingLevel": "minimal"
+                }
+            elif provider["model"].startswith("gemini-2.5"):
+                generation_config["thinkingConfig"] = {
+                    "thinkingBudget": 0
+                }
+            
             payload = {
                 "contents": [
                     {
@@ -543,13 +533,7 @@ def _llm_request(provider: dict, prompt: str, title: str):
                         ]
                     }
                 ],
-                "generationConfig": {
-                    "maxOutputTokens": 1024,
-                    "responseMimeType": "application/json",
-                    "thinkingConfig": {
-                        "thinkingLevel": "minimal"
-                    },
-                },
+                "generationConfig": generation_config,
             }
 
             resp = requests.post(
@@ -567,10 +551,51 @@ def _llm_request(provider: dict, prompt: str, title: str):
 
             if resp.status_code == 200:
                 data = resp.json()
-                content = (
-                    data["candidates"][0]
-                    ["content"]["parts"][0]["text"]
-                )
+            
+                if data.get("error"):
+                    log.warning(
+                        f"LLM [{name}] API error inside HTTP 200: "
+                        f"{data['error']}"
+                    )
+                    return None, "provider_error"
+            
+                choices = data.get("choices") or []
+            
+                if not choices:
+                    log.warning(
+                        f"LLM [{name}] HTTP 200 but no choices in response"
+                    )
+                    return None, "empty_response"
+            
+                choice = choices[0]
+            
+                if choice.get("error") is not None:
+                    log.warning(
+                        f"LLM [{name}] choice error: {choice.get('error')}"
+                    )
+                    return None, "provider_error"
+            
+                if choice.get("finish_reason") == "error":
+                    log.warning(
+                        f"LLM [{name}] finish_reason=error"
+                    )
+                    return None, "provider_error"
+            
+                message = choice.get("message") or {}
+                content = message.get("content")
+            
+                if not isinstance(content, str) or not content.strip():
+                    log.warning(
+                        f"LLM [{name}] HTTP 200 but empty/non-text content"
+                    )
+                    return None, "empty_content"
+            
+                if name == "openrouter-free":
+                    served_model = data.get("model", "unknown")
+                    log.info(
+                        f"OpenRouter served model: {served_model}"
+                    )
+            
                 return content, None
 
         # ---------------------------------------------------------------
