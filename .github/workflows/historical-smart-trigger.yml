@@ -36,36 +36,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Determine date range
-        id: dates
-        run: |
-          if [ -n "${{ inputs.start_date }}" ]; then
-            NEXT_START="${{ inputs.start_date }}"
-          elif [ -f historical_progress.txt ]; then
-            LAST_PROCESSED=$(cat historical_progress.txt)
-            NEXT_START=$(date -d "$LAST_PROCESSED + 1 day" +%Y-%m-%d)
-          else
-            echo "::error::No start_date provided and historical_progress.txt does not exist."
-            exit 1
-          fi
-
-          END_DATE="${{ inputs.end_date }}"
-
-          if [[ "$NEXT_START" > "$END_DATE" ]]; then
-            echo "::error::Start date $NEXT_START is after end date $END_DATE."
-            exit 1
-          fi
-
-          WEEK_END=$(date -d "$NEXT_START +6 days" +%Y-%m-%d)
-
-          if [[ "$WEEK_END" > "$END_DATE" ]]; then
-            WEEK_END="$END_DATE"
-          fi
-
-          echo "week_start=$NEXT_START" >> "$GITHUB_OUTPUT"
-          echo "week_end=$WEEK_END" >> "$GITHUB_OUTPUT"
-
-      - name: Run one historical week
+      - name: Run historical backfill continuously
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
@@ -80,24 +51,60 @@ jobs:
           NOTIFY_SMTP_PASSWORD: ${{ secrets.NOTIFY_SMTP_PASSWORD }}
           NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
           ENVIRONMENT: ${{ vars.ENVIRONMENT }}
-          SEARCH_FROM_DATE: ${{ steps.dates.outputs.week_start }}
-          SEARCH_TO_DATE: ${{ steps.dates.outputs.week_end }}
-        run: python src/pipeline.py
-
-      - name: Commit results and progress
         run: |
+          set -e
+
+          if [ -n "${{ inputs.start_date }}" ]; then
+            CURRENT_START="${{ inputs.start_date }}"
+          elif [ -f historical_progress.txt ]; then
+            LAST_PROCESSED=$(cat historical_progress.txt)
+            CURRENT_START=$(date -d "$LAST_PROCESSED +1 day" +%Y-%m-%d)
+          else
+            echo "::error::No start_date provided and historical_progress.txt does not exist."
+            exit 1
+          fi
+
+          FINAL_END="${{ inputs.end_date }}"
+
           git config user.name "ppa-tracker-bot"
           git config user.email "bot@ppa-tracker"
 
-          echo "${{ steps.dates.outputs.week_end }}" > historical_progress.txt
+          while [[ "$CURRENT_START" <= "$FINAL_END" ]]; do
 
-          git add \
-            data/ppa_deals.db \
-            data/ppa_deals.csv \
-            data/logs/ \
-            historical_progress.txt
+            CURRENT_END=$(date -d "$CURRENT_START +6 days" +%Y-%m-%d)
 
-          git diff --staged --quiet || \
-            git commit -m "chore: historical update ${{ steps.dates.outputs.week_start }} to ${{ steps.dates.outputs.week_end }}"
+            if [[ "$CURRENT_END" > "$FINAL_END" ]]; then
+              CURRENT_END="$FINAL_END"
+            fi
 
-          git push
+            echo "=================================================="
+            echo "Processing week: $CURRENT_START -> $CURRENT_END"
+            echo "=================================================="
+
+            SEARCH_FROM_DATE="$CURRENT_START" \
+            SEARCH_TO_DATE="$CURRENT_END" \
+            python src/pipeline.py
+
+            echo "$CURRENT_END" > historical_progress.txt
+
+            git add \
+              data/ppa_deals.db \
+              data/ppa_deals.csv \
+              data/logs/ \
+              historical_progress.txt
+
+            if git diff --staged --quiet; then
+              echo "No changes to commit."
+            else
+              git commit \
+                -m "chore: historical update $CURRENT_START to $CURRENT_END"
+
+              git push
+            fi
+
+            CURRENT_START=$(date -d "$CURRENT_END +1 day" +%Y-%m-%d)
+
+            echo "Completed week. Next start: $CURRENT_START"
+          done
+
+          echo "Historical backfill completed through $FINAL_END."
