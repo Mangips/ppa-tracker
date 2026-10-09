@@ -1,0 +1,337 @@
+2026-10-09 14:03:48,941 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-09 14:03:48,951 [INFO] Loaded 1629 existing deals for dedup matching
+2026-10-09 14:03:48,951 [INFO] Searching from 2026-10-09 to present with 3 loockback days
+2026-10-09 14:03:49,087 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-09 14:03:50,218 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-09 14:03:51,364 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-09 14:03:52,750 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-09&hl=en&gl=US&ceid=US:en: 16 results
+2026-10-09 14:03:55,027 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-09&hl=en&gl=US&ceid=US:en: 9 results
+2026-10-09 14:03:57,254 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-09&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-09 14:03:59,467 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-09&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-09 14:04:01,714 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-09&hl=fr&gl=FR&ceid=FR:fr: 4 results
+2026-10-09 14:04:03,940 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-09&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-10-09 14:04:06,216 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-09&hl=es&gl=ES&ceid=ES:es: 4 results
+2026-10-09 14:04:08,435 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-09&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-10-09 14:04:10,707 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-09&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-09 14:04:12,921 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-09&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-09 14:04:15,146 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-09&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-09 14:04:17,354 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-09&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-09 14:04:19,560 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-09&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-09 14:04:21,844 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-09&hl=pt&gl=PT&ceid=PT:pt: 2 results
+2026-10-09 14:04:24,123 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-09&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-09 14:04:26,124 [INFO] Total raw articles collected: 37
+2026-10-09 14:04:26,257 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-10-09 14:04:28,057 [INFO] Extra RSS [elperiodicodelaenergia.com]: 2 results
+2026-10-09 14:04:29,066 [INFO] Unique unseen articles: 26
+2026-10-09 14:04:29,066 [INFO] ------- Processing article n. 0: Grenergy secures $460 Million financing for 446 MW of solar capacity and 1.8 GWh -------
+2026-10-09 14:04:29,188 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxORm9RamhCcU54QlVRUzU0NHltS3JGRmpaemFDMXB5MnVoNl9hdWN0Snp4TTVwWjd6c2JYWFRMS2FLLWZEM0hYVmdDRnJSbUw3S1NhZ3hRTEpJTGJGTUtZb0NGbXF0QnNTa180VTFPUTh3NEhHMDJYRjdkVkgzbzM5WGU3Nk45T29yN0tYYjRrSFNuVm1vX1E2UUdkRkUwSEt4UWlhb011VQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:04:30,290 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:04:30,291 [INFO] Resolved Google News URL: https://www.renewableenergymagazine.com/panorama/grenergy-secures-460-million-financing-for-446-2026
+2026-10-09 14:04:30,291 [INFO] URL: https://www.renewableenergymagazine.com/panorama/grenergy-secures-460-million-financing-for-446-20261009
+2026-10-09 14:04:31,048 [INFO] Text length: 2419 chars | source: full
+2026-10-09 14:04:31,048 [INFO] Text preview: The transaction represents the largest non-recourse financing secured by the company to date. Algobarral consists of 242 MW of solar capacity and 1.5 GWh of energy storage, while the Palmas Cluster to...
+2026-10-09 14:04:31,048 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:04:31,916 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Grenergy secures $460 Million financing for 446 MW of solar 
+2026-10-09 14:04:31,917 [INFO] LLM extracted 1 deals | Grenergy secures $460 Million financing for 446 MW
+2026-10-09 14:04:31,919 [INFO] Not a European deal — skipping: investment-grade off-taker / Grenergy (Chile, 242 MW)
+2026-10-09 14:04:31,919 [INFO] ------- Processing article n. 0: Coca-Cola HBC Bulgaria signs renewable PPA with Enery - Energy Monitor -------
+2026-10-09 14:04:32,031 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiakFVX3lxTFBsMkxVbUl1aHE2M0hCbU9ib3lFUW1PeVZQb0JqSFhjVklUa0MzTmFGZ0hPYVp1WmJBOVQ2c0I1aDFxZXBka092VFpUV3hUWXphYXFrQU9pVk16SUhFMFJtUm5heS1hSkU1U2c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:04:33,150 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:04:33,151 [INFO] Resolved Google News URL: https://www.energymonitor.ai/news/coca-cola-hbc-ppa-enery/
+2026-10-09 14:04:33,151 [INFO] URL: https://www.energymonitor.ai/news/coca-cola-hbc-ppa-enery/
+2026-10-09 14:04:33,193 [INFO] Text length: 2476 chars | source: full
+2026-10-09 14:04:33,193 [INFO] Text preview: Coca-Cola HBC Bulgaria has signed a long-term physical power purchase agreement (PPA) with independent power producer Enery to procure renewable electricity from Enery’s Knizhovnik hybrid power plant....
+2026-10-09 14:04:33,193 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:04:47,054 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Coca-Cola HBC Bulgaria signs renewable PPA with Enery - Ener
+2026-10-09 14:04:47,055 [INFO] LLM extracted 1 deals | Coca-Cola HBC Bulgaria signs renewable PPA with En
+2026-10-09 14:04:47,071 [INFO] NEW: Coca-Cola HBC Bulgaria / Enery (Bulgaria, 122 MW)
+2026-10-09 14:04:52,073 [INFO] ------- Processing article n. 1: Austria's Enery signs PPA with Coca-Cola HBC Bulgaria - SeeNews -------
+2026-10-09 14:04:52,160 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0lVLVNSVEJPQzJ5OWNtRTd4NndIeGMyTjZBQnplTG92bkxnS0VLZHZoVGtoX0phUUF5LXJBbEZCQTZQcnl0UWtyRy16Nks0R3FRTW5PMXdNZEpEMG1TNjdwRlhkY2lTTzBOOWlycVZuM24xeDR2Vll3OFV1aktGZ3k0a2VSWTJ2aG9JZ1J3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:04:53,275 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:04:53,276 [INFO] Resolved Google News URL: https://seenews.com/news/austrias-enery-signs-ppa-with-coca-cola-hbc-bulgaria-1302741
+2026-10-09 14:04:53,276 [INFO] URL: https://seenews.com/news/austrias-enery-signs-ppa-with-coca-cola-hbc-bulgaria-1302741
+2026-10-09 14:04:53,325 [INFO] Full text skipped (status 403): https://seenews.com/news/austrias-enery-signs-ppa-with-coca-cola-hbc-bulgaria-13
+2026-10-09 14:04:53,325 [INFO] Text length: 139 chars | source: fallback
+2026-10-09 14:04:53,325 [INFO] Text preview: Austria's Enery signs PPA with Coca-Cola HBC Bulgaria - SeeNews
+
+Austria's Enery signs PPA with Coca-Cola HBC Bulgaria &nbsp;&nbsp; SeeNews...
+2026-10-09 14:04:53,325 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:05:01,881 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Austria's Enery signs PPA with Coca-Cola HBC Bulgaria - SeeN
+2026-10-09 14:05:01,882 [INFO] LLM extracted 1 deals | Austria's Enery signs PPA with Coca-Cola HBC Bulga
+2026-10-09 14:05:01,883 [INFO] Non-electricity energy deal — skipping: Austria's Enery signs PPA with Coca-Cola HBC Bulgaria - SeeN
+2026-10-09 14:05:01,884 [INFO] ------- Processing article n. 1: ContourGlobal Breaks Ground on 450MW Hybrid Solar and Storage Project in Arizona -------
+2026-10-09 14:05:01,960 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb05abUJiV2lvVlQ2bTlTSG5NNE5zUHJiRklKNEVjNW9qbUZMQ0RjTlF3NG9VdzhCdTN3NnYxbHNZWlBBUV9GV3VCU2JHZGl3c3QybUY1bHRqNGpBSFA5a0NVbXV5dWlwdjRGLTlEVW5PVFRhTHJacjZqdGlmeW5Ec1VpM1NWb1lLdHVlZzduU1VLTWllUGItS1NhSThFdjE3RE84U0Q3ZFFwMWxacURhNGZ2ZUduNEdBUEFV?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:05:03,077 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:05:03,078 [INFO] Resolved Google News URL: https://www.indexbox.io/blog/contourglobal-starts-construction-on-450mw-solar-plus-storage-project-s
+2026-10-09 14:05:03,078 [INFO] URL: https://www.indexbox.io/blog/contourglobal-starts-construction-on-450mw-solar-plus-storage-project-sterling-in-arizona/
+2026-10-09 14:05:04,088 [INFO] Text length: 14748 chars | source: full
+2026-10-09 14:05:04,088 [INFO] Text preview: Search across reports, market insights, and blog stories.
+Type at least 3 characters to see fast results. Press / or ⌘K anytime.
+Searching…
+No fast matches found. Press Enter to see full results.
+Cont...
+2026-10-09 14:05:04,088 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:05:17,193 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ContourGlobal Breaks Ground on 450MW Hybrid Solar and Storag
+2026-10-09 14:05:17,194 [INFO] LLM extracted 1 deals | ContourGlobal Breaks Ground on 450MW Hybrid Solar 
+2026-10-09 14:05:17,195 [INFO] Not a European deal — skipping: Tesla / ContourGlobal (United States, 450 MW)
+2026-10-09 14:05:17,195 [INFO] ------- Processing article n. 1: Kazatomprom Shareholders Approve Major Chinese Uranium Contract, Reject Deal Wit -------
+2026-10-09 14:05:17,281 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZGhRaXdqb25NLXg3VHl0TjRPWTBDQzY1aldmX2cxYVNMejQ4dHZVR25nOWFLdEprM0FmYXJwdmRHaEZnekhHNGsxVkRidWtYSWdpclhMdzJIR0hrQmVtUXFmTm5hUlRjbTR3MkRYSjVaNW5tUF9lNjkxRzVCMnNMQWluTWhZUEF3T2I5SFB6UTBJLWFZNEJxcE9LZWNJajhqOEswVDJwLTZ5OG5BQkM5RXc2Wm1LRmJoTFVmcjkxY0NsSGM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:05:18,393 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:05:18,394 [INFO] Resolved Google News URL: https://www.nucnet.org/news/kazatomprom-shareholders-approve-major-chinese-uranium-contract-reject-d
+2026-10-09 14:05:18,394 [INFO] URL: https://www.nucnet.org/news/kazatomprom-shareholders-approve-major-chinese-uranium-contract-reject-deal-with-russia-10-5-2026
+2026-10-09 14:05:18,675 [INFO] Full text skipped (status 403): https://www.nucnet.org/news/kazatomprom-shareholders-approve-major-chinese-urani
+2026-10-09 14:05:18,675 [INFO] Text length: 209 chars | source: fallback
+2026-10-09 14:05:18,675 [INFO] Text preview: Kazatomprom Shareholders Approve Major Chinese Uranium Contract, Reject Deal With Russia. - NucNet
+
+Kazatomprom Shareholders Approve Major Chinese Uranium Contract, Reject Deal With Russia. &nbsp;&nbs...
+2026-10-09 14:05:18,675 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:05:31,668 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Kazatomprom Shareholders Approve Major Chinese Uranium Contr
+2026-10-09 14:05:31,669 [INFO] LLM extracted 1 deals | Kazatomprom Shareholders Approve Major Chinese Ura
+2026-10-09 14:05:31,670 [INFO] Not a signed deal — skipping: Kazatomprom Shareholders Approve Major Chinese Uranium Contr
+2026-10-09 14:05:31,671 [INFO] ------- Processing article n. 1: Enery Signs PPA With Coca-Cola HBC Bulgaria for Its Knizhovnik Power Plant - ene -------
+2026-10-09 14:05:31,753 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxNYU1rY1ozZnUwZGdGUUgtaDJ6MFk1dnJfaDhOdjlDdUlPTjRycjFHWENoNnlZZDBKUldxRWVxTU5mOVlMaVpxS1NXa1VTT0N4RldkN0lBUWs2MmxkZEQyU2pJRFk0QlQ4bjNaUjJGdmU1TG05d3JSdGo1Rm1WaFJWOGsybFJ4ZWE1MGJZSGxzUVN1RVZpaDRINHJmYjl2WGlqUmc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:05:32,852 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:05:32,853 [INFO] Resolved Google News URL: https://energynews.pro/en/enery-signs-ppa-with-coca-cola-hbc-bulgaria-for-its-knizhovnik-power-plant
+2026-10-09 14:05:32,853 [INFO] URL: https://energynews.pro/en/enery-signs-ppa-with-coca-cola-hbc-bulgaria-for-its-knizhovnik-power-plant
+2026-10-09 14:05:33,390 [INFO] Text length: 2802 chars | source: full
+2026-10-09 14:05:33,390 [INFO] Text preview: Enery, an independent power producer active in Central and Eastern Europe, and Coca-Cola HBC Bulgaria EAD, one of the country's largest beverage producers, have signed a long-term physical Power Purch...
+2026-10-09 14:05:33,390 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:05:47,093 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Enery Signs PPA With Coca-Cola HBC Bulgaria for Its Knizhovn
+2026-10-09 14:05:47,094 [INFO] LLM extracted 1 deals | Enery Signs PPA With Coca-Cola HBC Bulgaria for It
+2026-10-09 14:05:47,110 [INFO] UPDATE: Coca-Cola HBC Bulgaria EAD / Enery (Bulgaria, 122 MW) — canonical ID: 1994
+2026-10-09 14:05:52,112 [INFO] ------- Processing article n. 2: Global Battery Storage News Snippets: Godawari Power To Build 20 GWh BESS Projec -------
+2026-10-09 14:05:52,199 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijAFBVV95cUxQdmxDUGdidnBCSTBoaGVKZExnS2FGZ0dRLWJLYS1DNnpGUzQ3bDRrMnJoUXpmaWpLSkhlRWVhc29jNGd2ZnFGY2J0ZDh6QlZfUFlqY0dyMU9EaXVXMEZ1NDNEQVZRdDlSYlVGQmc2eEdvRTJ3Y3lUTGRod3dTTWVmdXdZNFVzYk1yRXhwRw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:05:53,351 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:05:53,352 [INFO] Resolved Google News URL: https://taiyangnews.info/storage/global-battery-storage-news-snippets-october-9-2026
+2026-10-09 14:05:53,352 [INFO] URL: https://taiyangnews.info/storage/global-battery-storage-news-snippets-october-9-2026
+2026-10-09 14:05:53,495 [INFO] Text length: 5613 chars | source: full
+2026-10-09 14:05:53,496 [INFO] Text preview: Godawari New Energy Private Limited, a wholly owned subsidiary of Indian iron and steel producer Godawari Power and Ispat Limited (GPIL), will build a 20 GWh battery energy storage system (BESS). The ...
+2026-10-09 14:05:53,496 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:06:04,104 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Global Battery Storage News Snippets: Godawari Power To Buil
+2026-10-09 14:06:04,104 [INFO] LLM extracted 3 deals | Global Battery Storage News Snippets: Godawari Pow
+2026-10-09 14:06:04,120 [INFO] UPDATE: energy2market (e2m) / MaxSolar (Germany, 65 MW) — canonical ID: 1993
+2026-10-09 14:06:09,122 [INFO] Not a European deal — skipping: None / Northland Power (Canada, 80 MW)
+2026-10-09 14:06:09,123 [INFO] Not a European deal — skipping: None / Grenergy (Chile, 242 MW)
+2026-10-09 14:06:09,123 [INFO] ------- Processing article n. 3: The Hydrogen Stream: Dutch researchers calculate green H2 costs as low as €7.2/k -------
+2026-10-09 14:06:09,203 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHR0S0dCUElia2NZQnFMcUw0czBybVgyQXZvaGVuOUQ5dGJxc3ljQmpPdlBEcDc2QUQ0Z3Nvc2oyeEswYTFIQ3ZqM1piNVBjRDRLTnBoVFpCR3VuLU5ub2diZFdmMUVETW5GaloyblZQaXBFdDJSQlBnekhKZWl2ZWtEZEVRWGx5RVd4M0pxdmxWRzRfdG9yMS1XTjZmOE00WTdhdUF6SGFjQUlHWUVmM2tUY28xNGgtUGVucA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:06:10,303 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:06:10,304 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-cost
+2026-10-09 14:06:10,304 [INFO] URL: https://www.pv-magazine.com/2026/10/09/the-hydrogen-stream-dutch-researchers-calculate-green-h2-costs-as-low-as-e7-2-kg/
+2026-10-09 14:06:10,638 [INFO] Text length: 5233 chars | source: full
+2026-10-09 14:06:10,638 [INFO] Text preview: Researchers at the University of Groningen in the Netherlands have found that long-term revenue guarantees are essential to making large-scale green hydrogen projects financially viable. The study mod...
+2026-10-09 14:06:10,638 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:06:16,640 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: The Hydrogen Stream: Dutch researchers calculate green H2 co
+2026-10-09 14:06:16,640 [INFO] LLM extracted 1 deals | The Hydrogen Stream: Dutch researchers calculate g
+2026-10-09 14:06:16,642 [INFO] Not a signed deal — skipping: The Hydrogen Stream: Dutch researchers calculate green H2 co
+2026-10-09 14:06:16,642 [INFO] ------- Processing article n. 3: Prozeal Green Energy Signs Deal to Divest 100 MW Solar Project - Energetica Indi -------
+2026-10-09 14:06:16,727 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxNbzhBSDJXUkNleFE4NFRYbGRlcnBRekFjTlczN1hYbW9NMXdxWjhXTGJQbEdLd200TWFWYkJ2OEFzVjgxOWdDYlBEUzlJMm1YSEV6SWRWQ0dPVG15MnQ3dHA3X2pJZ0sydWl4WUtwNEJGLWFNcTBleDlOMzQ5Uzk5czRVU2tZSFhyVUtwQXd3alhNamQyVmlZcUhXZ3pRTzQ3d3l3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:06:17,828 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:06:17,829 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/prozeal-green-energy-signs-deal-to-divest-100-mw-solar-project
+2026-10-09 14:06:17,829 [INFO] URL: https://www.energetica-india.net/news/prozeal-green-energy-signs-deal-to-divest-100-mw-solar-project-
+2026-10-09 14:06:19,391 [INFO] Text length: 2689 chars | source: full
+2026-10-09 14:06:19,391 [INFO] Text preview: Prozeal Green Energy Signs Deal to Divest 100 MW Solar Project
+Prozeal Green Energy’s proposed INR 460 crore transaction covers a 100 MW AC solar project in Gujarat, with the company expected to retai...
+2026-10-09 14:06:19,391 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:06:31,845 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Prozeal Green Energy Signs Deal to Divest 100 MW Solar Proje
+2026-10-09 14:06:31,845 [INFO] LLM extracted 1 deals | Prozeal Green Energy Signs Deal to Divest 100 MW S
+2026-10-09 14:06:31,847 [INFO] Not a signed deal — skipping: Prozeal Green Energy Signs Deal to Divest 100 MW Solar Proje
+2026-10-09 14:06:31,847 [INFO] ------- Processing article n. 3: EU approves $45.4M aid for French firms amid fuel price surge - Anadolu Ajansı -------
+2026-10-09 14:06:31,923 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVNfTHNVck5mazFqSV82NF9OQkhSc0dHTTF2ZDlvM2ZLUlVRbnVPRGI4UTllWFNxak93S1NTTnpNTlN4b0lCZmxhOUFwa1Jac0kybkI1aVQ0OVNsczNydTc0NWU4MWlVdHA1WG5SMllnQk1qd0VlQUU2RUtOYUVKNVU0WDd4aXZ6VGtWUnBKakhSU0x5al9SSXdOU3A5aXRVNzY00gGrAUFVX3lxTE5uSGtwRGJBQjFQaTdPcEhBYmdoNDhrdkxuYmpUbUZWNHhOUnl6WDNVMC0zeDNQWkM2Yk1YMVVNN1NpTE0xRGxfdWRuTy1YU3hEZmEyeExRZm81YUdSSlV5ODdiRF93VjBjRkx6UlVaSmxINFREeXBTaGNsMlFfVmxpOGc5WjdlMExVLS1aaE1oa1lTY0V0RVlIbFZEMkNkMDB5ek1Zc280dXBFNA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:06:33,054 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:06:33,055 [INFO] Resolved Google News URL: https://www.aa.com.tr/en/energy/oil/eu-approves-454m-aid-for-french-firms-amid-fuel-price-surge/6014
+2026-10-09 14:06:33,055 [INFO] URL: https://www.aa.com.tr/en/energy/oil/eu-approves-454m-aid-for-french-firms-amid-fuel-price-surge/60141
+2026-10-09 14:06:36,384 [INFO] Text length: 1234 chars | source: full
+2026-10-09 14:06:36,384 [INFO] Text preview: The European Commission on Friday approved €40.5 million ($45.4 million) in state aid to support French transport, agricultural, fishery and aquaculture companies facing increased fuel prices amid the...
+2026-10-09 14:06:36,385 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:06:46,545 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EU approves $45.4M aid for French firms amid fuel price surg
+2026-10-09 14:06:46,545 [INFO] LLM extracted 1 deals | EU approves $45.4M aid for French firms amid fuel 
+2026-10-09 14:06:46,546 [INFO] Not a signed deal — skipping: EU approves $45.4M aid for French firms amid fuel price surg
+2026-10-09 14:06:46,546 [INFO] ------- Processing article n. 3: Green Hydrogen Costs, Policy Support, and Industrial Deployments - News and Stat -------
+2026-10-09 14:06:46,626 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxQYW1UU3hsbmg4Y2YzSUFhQk5kUG1WbkN0NThEUXEySjNfeTVNbkplQ0hodmdNbm1wdWdRVTlsb0NLeHo2UUwzTnVqR3NLWE1wOGhzcWpNQ2JJdnNQUkZPR0h6R05tekNLNTJfM3JQV1hLcFByY0NkWXl3RHdDTldLeTh3aF96ak5PSDVIa0NiMzhNSldvNjRBWUxoWm1nYWVhUFktdnBpaS1pNGttcVE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:06:47,730 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:06:47,731 [INFO] Resolved Google News URL: https://www.indexbox.io/blog/green-hydrogen-costs-policy-support-and-industrial-deployments-key-deve
+2026-10-09 14:06:47,731 [INFO] URL: https://www.indexbox.io/blog/green-hydrogen-costs-policy-support-and-industrial-deployments-key-developments/
+2026-10-09 14:06:48,373 [INFO] Text length: 7060 chars | source: full
+2026-10-09 14:06:48,373 [INFO] Text preview: Air Liquide
+Major producer and infrastructure developer
+Long-term revenue guarantees are critical for the financial feasibility of utility-scale green hydrogen developments, according to a study by re...
+2026-10-09 14:06:48,374 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:07:01,977 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Green Hydrogen Costs, Policy Support, and Industrial Deploym
+2026-10-09 14:07:01,978 [INFO] LLM extracted 1 deals | Green Hydrogen Costs, Policy Support, and Industri
+2026-10-09 14:07:01,979 [INFO] Not a signed deal — skipping: Green Hydrogen Costs, Policy Support, and Industrial Deploym
+2026-10-09 14:07:01,979 [INFO] ------- Processing article n. 3: Africa GreenCo signs 200 MW solar PPA with AXIAN Group in Zambia - Green Buildin -------
+2026-10-09 14:07:02,054 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxNOGFrUDhOam9EZEh3dkFUX2FmQ1pJbHctMWFmaGZEWFJwVk90emtBdmVhNWcxU2I1ZDhMbXdSb1RKcWpjdE54WEs1aXV0VlE2QlBGQ0ZyT3M0a2NGY1FBOElMN3ZDTzlPNnM4QmFQTVBFcUVLXzlWMmoxdmh3NHc2cEZKMEVPZmROc3g0a2NoZlhaTm9rZW5iZ2dIN08tY011RWJtX09R?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:07:03,176 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:07:03,177 [INFO] Resolved Google News URL: https://www.greenbuildingafrica.co.za/africa-greenco-signs-200-mw-solar-ppa-with-axian-group-in-zamb
+2026-10-09 14:07:03,177 [INFO] URL: https://www.greenbuildingafrica.co.za/africa-greenco-signs-200-mw-solar-ppa-with-axian-group-in-zambia/
+2026-10-09 14:07:07,189 [INFO] Text length: 2305 chars | source: full
+2026-10-09 14:07:07,190 [INFO] Text preview: - Africa GreenCo and AXIAN Group have signed a power purchase agreement for the 200 MWac Kudu solar PV project in Zambia, which is expected to generate 530 GWh of electricity annually.
+- Africa GreenC...
+2026-10-09 14:07:07,190 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:07:17,011 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Africa GreenCo signs 200 MW solar PPA with AXIAN Group in Za
+2026-10-09 14:07:17,012 [INFO] LLM extracted 1 deals | Africa GreenCo signs 200 MW solar PPA with AXIAN G
+2026-10-09 14:07:17,013 [INFO] Not a European deal — skipping: Africa GreenCo / AXIAN Group (Zambia, 200 MW)
+2026-10-09 14:07:17,013 [INFO] ------- Processing article n. 3: Saudi Arabia and UAE agree to strengthen power grid and rail connectivity - アラブニ -------
+2026-10-09 14:07:17,087 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQblZKaHFJZlJtMGx3UVRUZnZrblJXYjhmUXBWX2hLNGxLZ3R4c1lqaGhFLTFocVdtczB3aDEyTS1lbW1qYU5BTHpncUNhaEgzZDl3MDR0YktVUThxVk1DTG1TRGliTTBkcnVLTWNhTEtJTDVYdUg1dXcyQnFiMF81WXlwTE1xZWROZzdWd01SX0RUcHg4Yllqd1dqclRSbHlKd29BcTVtaW5Rc2NadkR0VHNnNU9QaU91T0VwY3V3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:07:18,174 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:07:18,175 [INFO] Resolved Google News URL: https://www.arabnews.jp/en/saudi-arabia/saudi-arabia-and-uae-agree-to-strengthen-power-grid-and-rail
+2026-10-09 14:07:18,175 [INFO] URL: https://www.arabnews.jp/en/saudi-arabia/saudi-arabia-and-uae-agree-to-strengthen-power-grid-and-rail-connectivity-3000675
+2026-10-09 14:07:18,962 [INFO] Text length: 1625 chars | source: full
+2026-10-09 14:07:18,962 [INFO] Text preview: Saudi Arabia and UAE agree to strengthen power grid and rail connectivity
+- Deal is signed by the Saudi energy minister, Prince Abdulaziz bin Salman, and the UAE’s investment minister, Mohammed Alsuwa...
+2026-10-09 14:07:18,962 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:07:32,118 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Saudi Arabia and UAE agree to strengthen power grid and rail
+2026-10-09 14:07:32,119 [INFO] LLM extracted 1 deals | Saudi Arabia and UAE agree to strengthen power gri
+2026-10-09 14:07:32,120 [INFO] Not a signed deal — skipping: Saudi Arabia and UAE agree to strengthen power grid and rail
+2026-10-09 14:07:32,120 [INFO] ------- Processing article n. 3: Biman to sign deal with Airbus for 10 aircraft today - The Business Standard -------
+2026-10-09 14:07:32,199 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxQczFxSFJ5cVVmNHhtYVA1RVIxcTU3cVZTengzWHI1LUlrZ1FNOVY2SjJDbjZ4aWFLeEZHWE9qbTNOQmFRbVFNQ2xJM2RGRnFsanpuREozbHR5QzdvSFphMktKRnZDbmo0VkxqSXdlWXg5NWtGbnFvRkdyaWhVemZ2RENIUUs4c0dYQ2FKd19GZGh3dW8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:07:33,286 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:07:33,287 [INFO] Resolved Google News URL: https://www.tbsnews.net/economy/aviation/biman-sign-deal-airbus-10-aircraft-today-1564866
+2026-10-09 14:07:33,287 [INFO] URL: https://www.tbsnews.net/economy/aviation/biman-sign-deal-airbus-10-aircraft-today-1564866
+2026-10-09 14:07:35,051 [INFO] Text length: 3216 chars | source: full
+2026-10-09 14:07:35,052 [INFO] Text preview: The Biman Bangladesh Airlines is set to sign an agreement with European aircraft manufacturer Airbus today (7 October) to acquire 10 new aircraft as part of its major fleet expansion programme.
+The si...
+2026-10-09 14:07:35,052 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:07:46,550 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Biman to sign deal with Airbus for 10 aircraft today - The B
+2026-10-09 14:07:46,550 [INFO] LLM extracted 1 deals | Biman to sign deal with Airbus for 10 aircraft tod
+2026-10-09 14:07:46,551 [INFO] Not a signed deal — skipping: Biman to sign deal with Airbus for 10 aircraft today - The B
+2026-10-09 14:07:46,552 [INFO] ------- Processing article n. 3: Prozeal Green Energy to handover 100 MW RE project to European IPP in Rs 460-cr  -------
+2026-10-09 14:07:46,629 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT1ZuYXM5S2NWcTVDWDlJdmpLckNicm96YTZ0MVM5d3pPcmhRQl93a0RzNGN6MmZhYnlOdU9LNll3ODAtQlNWc1RxVlVNQXltb2MtLVBrRWRlZTdldlc1WXlLWWhhSVVIYmJfWmZPcndkUmJhaDRHenhJRlVMWEo0N0xUV2pYWks1c19wQ0M1U1RROHBTcnZfSVE4cGJfSWlxYm5PSTRzeTFtTE1EWFNUVEc5SkxZUHU5SzUwVFBWdE1mY2tsczV2MXJIRG5qWmdzRE83RGFOMWxJU045cDc5cTlicDZKM3pwbTNEY18ta9IB9AFBVV95cUxNMDdhakwySDdFbnlvVk9lX3JXZjg5UXU5cmE1aVMwYjJvQnpnSzFSMEx4b0RhMVJvcnR4RGdveDlmeTRTdExVR2lRQ2JTZC1CNWVTamJYdUlnUGpPRi12MkdBaW9GdUxENFdtTnZPSHlKYjZyWVZhdTV4WXJjcjBZRzFKZ1ZEVVJZRGRnMHdQNkMxbW5UaU9ZQ01VUmJXYWducll4dXJBd2dnUmJmS1c3T19DdlhleE1uZFQ2YVU3LTZHQXRrcE8tb2stejM2QV8tOTJFLUVCenFrY3J5em52bkZvQmFTbEszOTBSRE83LTBlUWJC?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:07:47,719 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:07:47,719 [INFO] Resolved Google News URL: https://m.economictimes.com/industry/renewables/prozeal-green-energy-to-handover-100-mw-re-project-t
+2026-10-09 14:07:47,719 [INFO] URL: https://m.economictimes.com/industry/renewables/prozeal-green-energy-to-handover-100-mw-re-project-to-european-ipp-in-rs-460-cr-deal/articleshow/134828880.cms
+2026-10-09 14:07:48,176 [INFO] Text length: 919 chars | source: full
+2026-10-09 14:07:48,176 [INFO] Text preview: The proposed transaction remains subject to necessary approvals, Prozeal Green Energy said in a statement.
+The company said it has entered into a framework agreement with a European IPP (independent p...
+2026-10-09 14:07:48,176 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:08:01,751 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Prozeal Green Energy to handover 100 MW RE project to Europe
+2026-10-09 14:08:01,751 [INFO] LLM extracted 1 deals | Prozeal Green Energy to handover 100 MW RE project
+2026-10-09 14:08:01,752 [INFO] Not a signed deal — skipping: Prozeal Green Energy to handover 100 MW RE project to Europe
+2026-10-09 14:08:01,752 [INFO] ------- Processing article n. 3: Prozeal Green Energy to handover 100 MW RE project to European IPP in ₹460 crore -------
+2026-10-09 14:08:01,837 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcVkzUkhZOUpmd1BKTlkxZkx4OGl5ZU1OdXhLRjJPclFfVW5FUi14NXZpNkxRWi14TlRtckpLQUJqM0haVHdxV20wSVRRNW1LaWtlZ3JiQlJhaTd0NG13SVRFN1B4ZklYQzJhLXZRREFRQWpnTUdCQzBwUXdLWXgyQkRCMjBzT3lUNGhWOEdZRmxZMmJnbHlvTll2RVlCNDlubWFILUhsN0ZHSC1sUkFEVk45eF83U2V5YnQzd2VDYTlCRDJpWTdOcTZ2ZThoNlNFc3dqOUVMQVc2eEE0bVBzZXAtNTlmYTFRTzcxUC1B0gHuAUFVX3lxTE1xWTNSSFk5SmZ3UEpOWTFmTHg4aXllTU51eEtGMk9yUV9VbkVSLXg1dmk2TFFaLXhOVG1ySktBQmozSFpUd3FXbTBJVFE1bUtpa2VncmJCUmFpN3Q0bXdJVEU3UHhmSVhDMmEtdlFEQVFBamdNR0JDMHBRd0tZeDJCREIyMHNPeVQ0aFY4R1lGbFkyYmdseW9OWXZFWUI0OW5tYUgtSGw3RkdILWxSQURWTjl4XzdTZXlidDN3ZUNhOUJEMmlZN05xNnZlOGg2U0Vzd2o5RUxBVzZ4QTRtUHNlcC01OWZhMVFPNzFQLUE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:08:02,948 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:08:02,949 [INFO] Resolved Google News URL: https://energy.economictimes.indiatimes.com/amp/news/renewable/prozeal-green-energy-to-handover-100-
+2026-10-09 14:08:02,949 [INFO] URL: https://energy.economictimes.indiatimes.com/amp/news/renewable/prozeal-green-energy-to-handover-100-mw-re-project-to-european-ipp-in-460-crore-deal/134829946
+2026-10-09 14:08:03,594 [INFO] Text length: 1257 chars | source: full
+2026-10-09 14:08:03,594 [INFO] Text preview: Prozeal Green Energy to handover 100 MW RE project to European IPP in ₹460 crore deal
+The 100-megawatt project awaits essential approvals before activation. Expected to launch by 2027, it will help me...
+2026-10-09 14:08:03,594 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:08:16,977 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Prozeal Green Energy to handover 100 MW RE project to Europe
+2026-10-09 14:08:16,977 [INFO] LLM extracted 1 deals | Prozeal Green Energy to handover 100 MW RE project
+2026-10-09 14:08:16,979 [INFO] Not a signed deal — skipping: Prozeal Green Energy to handover 100 MW RE project to Europe
+2026-10-09 14:08:16,979 [INFO] ------- Processing article n. 3: PowerChina switches on 1 GW PV-CSP hybrid plant in northwestern China - pv magaz -------
+2026-10-09 14:08:17,059 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxQSDVlbkxUaGxHSEVVY0VYVUhzcGZyRGRVRnIxSlN0WjNFbTN6a0NmVVJSN3pOdERVandiQTlWbFBiQ0pKTU9iVVhWaEdrYzJ5MjlyWWxVZ2ZFRjlxNGpMbF9Rbk1TVWowOEZfUTZ5MWprS2tqb285dlJqUUt3WXdfN256a0NEZU1vQk52VFpCVERxZlNnUHhXcFJLV2hkUTBxMzdGdmNzV3ZOY1pMVXc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:08:18,168 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:08:18,169 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/10/09/powerchina-switches-on-1-gw-pv-csp-hybrid-plant-in-northweste
+2026-10-09 14:08:18,169 [INFO] URL: https://www.pv-magazine.com/2026/10/09/powerchina-switches-on-1-gw-pv-csp-hybrid-plant-in-northwestern-china/
+2026-10-09 14:08:18,445 [INFO] Text length: 3447 chars | source: full
+2026-10-09 14:08:18,445 [INFO] Text preview: PowerChina has completed grid connection and started electricity generation at a 1 GW hybrid solar PV and concentrated solar power (CSP) project in Gonghe county, Qinghai province, northwestern China....
+2026-10-09 14:08:18,445 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:08:31,657 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: PowerChina switches on 1 GW PV-CSP hybrid plant in northwest
+2026-10-09 14:08:31,658 [INFO] LLM extracted 1 deals | PowerChina switches on 1 GW PV-CSP hybrid plant in
+2026-10-09 14:08:31,659 [INFO] Not a signed deal — skipping: PowerChina switches on 1 GW PV-CSP hybrid plant in northwest
+2026-10-09 14:08:31,659 [INFO] ------- Processing article n. 3: Data Center Renewable Energy Market Size to Reach USD 52.48 Billion by 2034, Gro -------
+2026-10-09 14:08:31,747 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxQYXdBV0hDS3IySi1GUXVJb1JFT3o4TmtWVkRqZWJmYmtiQWw5WUdMU05yY0V5OTRhc1BNLXRsOVF5REtpa2FMamNoWjdGbWZmdFY0elo0UDBPTGluTGxaS3lLeTFNakFZYnBUVnhLSDFCdG1YTFQwTVl4M09uRV9kZjhtYTdQOVcwS08yUDdlbmFRdEFMYnpJUFVQRQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:08:32,852 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:08:32,852 [INFO] Resolved Google News URL: https://www.openpr.com/news/4656179/data-center-renewable-energy-market-size-to-reach-usd-52-48
+2026-10-09 14:08:32,853 [INFO] URL: https://www.openpr.com/news/4656179/data-center-renewable-energy-market-size-to-reach-usd-52-48
+2026-10-09 14:08:32,921 [INFO] Text length: 11707 chars | source: full
+2026-10-09 14:08:32,921 [INFO] Text preview: Data Center Renewable Energy Market Size to Reach USD 52.48 Billion by 2034, Growing at 16.7% CAGR
+For complete report snapshot visit: https://epignosisinsights.com/reports/data-center-renewable-energ...
+2026-10-09 14:08:32,921 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:08:47,568 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Data Center Renewable Energy Market Size to Reach USD 52.48 
+2026-10-09 14:08:47,568 [INFO] LLM extracted 1 deals | Data Center Renewable Energy Market Size to Reach 
+2026-10-09 14:08:47,570 [INFO] Not a signed deal — skipping: Data Center Renewable Energy Market Size to Reach USD 52.48 
+2026-10-09 14:08:47,570 [INFO] ------- Processing article n. 3: Enery signe un PPA avec Coca-Cola HBC Bulgaria pour sa centrale de Knizhovnik -  -------
+2026-10-09 14:08:47,656 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxNdmI0TVdWenJBM0JkcEVObWZEYVZmV01WZXJ5VTNRa2JScnBNWk5zald4UDdsSTdVYmJPakJJelN5YkxtU1pXVlJvQlZFdU1HaEhRRHFlM3p6enRQYWMwTDZjWnZabks5emFhQlhwLU83YTllQk5EaDhrU1NtT3duLXEzM3RTeDFTQmh1V2EtTm9HcEZBWnJCVFM4d19DSktoS3c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:08:48,754 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:08:48,755 [INFO] Resolved Google News URL: https://energynews.pro/enery-signe-un-ppa-avec-coca-cola-hbc-bulgaria-pour-sa-centrale-de-knizhovnik
+2026-10-09 14:08:48,755 [INFO] URL: https://energynews.pro/enery-signe-un-ppa-avec-coca-cola-hbc-bulgaria-pour-sa-centrale-de-knizhovnik
+2026-10-09 14:08:49,330 [INFO] Text length: 2802 chars | source: full
+2026-10-09 14:08:49,330 [INFO] Text preview: Enery, an independent power producer active in Central and Eastern Europe, and Coca-Cola HBC Bulgaria EAD, one of the country's largest beverage producers, have signed a long-term physical Power Purch...
+2026-10-09 14:08:49,330 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:09:01,972 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Enery signe un PPA avec Coca-Cola HBC Bulgaria pour sa centr
+2026-10-09 14:09:01,973 [INFO] LLM extracted 1 deals | Enery signe un PPA avec Coca-Cola HBC Bulgaria pou
+2026-10-09 14:09:01,989 [INFO] UPDATE: Coca-Cola HBC Bulgaria EAD / Enery (Bulgaria, 122 MW) — canonical ID: 1994
+2026-10-09 14:09:06,990 [INFO] ------- Processing article n. 4: Scout Clean Energy signe avec Oracle un VPPA sur le parc éolien Ranchero - energ -------
+2026-10-09 14:09:07,082 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxPdHEtd0FhVWFQeXZvV0VTc2dLLVdZNGhHaTd5ejFSLVpQSks3U2NLUk1UMHlQWDNpS3djUFp1bkRzTWR3Zmh2cWUteld3QVJvUWZ1bExqUWVmY1hIcjZod1FrOVZFdE9YMk1QTjd5cVBOTF9MY2xkcEVha0lWblhtWXh2eGtYN2otbzlLanBUMHI4T3BRaHpTeGpPcw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:09:08,182 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:09:08,183 [INFO] Resolved Google News URL: https://energynews.pro/scout-clean-energy-signe-avec-oracle-un-vppa-sur-le-parc-eolien-ranchero
+2026-10-09 14:09:08,183 [INFO] URL: https://energynews.pro/scout-clean-energy-signe-avec-oracle-un-vppa-sur-le-parc-eolien-ranchero
+2026-10-09 14:09:08,819 [INFO] Text length: 2087 chars | source: full
+2026-10-09 14:09:08,819 [INFO] Text preview: Scout Clean Energy has announced the signing of a Virtual Power Purchase Agreement (VPPA) with Oracle. The contract covers a majority of the output of the Ranchero wind farm, which has a capacity of 3...
+2026-10-09 14:09:08,819 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:09:16,984 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Scout Clean Energy signe avec Oracle un VPPA sur le parc éol
+2026-10-09 14:09:16,985 [INFO] LLM extracted 1 deals | Scout Clean Energy signe avec Oracle un VPPA sur l
+2026-10-09 14:09:16,986 [INFO] Not a European deal — skipping: Oracle / Scout Clean Energy (United States, 300 MW)
+2026-10-09 14:09:16,986 [INFO] ------- Processing article n. 4: Anuncios de empresas: Cox, Zelestra, Dos Grados, Ignis - pv magazine España -------
+2026-10-09 14:09:17,061 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxNNjVrYzVsMHdkNGZtSVl2dUhCdGF2bVRDNmpfTEtsT0tRS3dRNlpUSjZzVnpDbXNxaml1MlZ2OS1xU0VnVjY4RGNiR2IwYlZvUHdlS3VrSnR2WGlLUkxvb0VJbEttYmpqdjdCUjlyUEhUQjl2UE8yLW5MMy1jREpLVHlraTJxT2RrdU1jSGE5YlJyZG8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:09:18,165 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:09:18,166 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/10/09/anuncios-de-empresas-cox-zelestra-dos-grados-ignis/
+2026-10-09 14:09:18,166 [INFO] URL: https://www.pv-magazine.es/2026/10/09/anuncios-de-empresas-cox-zelestra-dos-grados-ignis/
+2026-10-09 14:09:18,853 [INFO] Text length: 3284 chars | source: full
+2026-10-09 14:09:18,853 [INFO] Text preview: Cox ha firmado un contrato de compraventa de energía a largo plazo (PPA) con Empresas Públicas de Medellín (EPM) para suministrar aproximadamente 115 GWh anuales de electricidad renovable durante 15 a...
+2026-10-09 14:09:18,853 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:09:32,588 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Anuncios de empresas: Cox, Zelestra, Dos Grados, Ignis - pv 
+2026-10-09 14:09:32,588 [INFO] LLM extracted 2 deals | Anuncios de empresas: Cox, Zelestra, Dos Grados, I
+2026-10-09 14:09:32,590 [INFO] Not a European deal — skipping: Empresas Públicas de Medellín (EPM) / Cox (Colombia, 58 MW)
+2026-10-09 14:09:32,590 [INFO] Not a European deal — skipping: Meta / Zelestra (United States, 203 MW)
+2026-10-09 14:09:32,590 [INFO] ------- Processing article n. 4: Grenergy obtiene 457 millones de dólares para financiar la quinta fase de Oasis  -------
+2026-10-09 14:09:32,682 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxPWjl5YkdvSmdjRENxNEZvSDVEU0xsTXNXcTFuVGQ1X3NwUXpISnJuVEpmeThvRWc1VkY1b2ZiOFUxYW9vZEVncUZKX1prM2VxcEluUy1EeDNQZy1oTzN0cjJCRzhjTGZaQ3NPaHAyRXpiSUx5TDdXYWNuQm45b3A1TkRmLTJiNFpFTWl0amJpZ3AtODVzUVplbnR0dw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:09:33,764 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:09:33,765 [INFO] Resolved Google News URL: https://es.finance.yahoo.com/noticias/grenergy-obtiene-457-millones-d%C3%B3lares-072000517.html
+2026-10-09 14:09:33,765 [INFO] URL: https://es.finance.yahoo.com/noticias/grenergy-obtiene-457-millones-d%C3%B3lares-072000517.html
+2026-10-09 14:09:34,118 [INFO] Text length: 1936 chars | source: full
+2026-10-09 14:09:34,119 [INFO] Text preview: Grenergy Renovables ha formalizado una financiación de 457 millones de dólares (407 millones de euros) destinada al desarrollo de la quinta fase de su proyecto Oasis de Atacama, en Chile. La operación...
+2026-10-09 14:09:34,119 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:09:47,015 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Grenergy obtiene 457 millones de dólares para financiar la q
+2026-10-09 14:09:47,016 [INFO] LLM extracted 1 deals | Grenergy obtiene 457 millones de dólares para fina
+2026-10-09 14:09:47,018 [INFO] Not a European deal — skipping: None / Grenergy Renovables (Chile, 242 MW)
+2026-10-09 14:09:47,018 [INFO] ------- Processing article n. 4: YPF compra el 24,99% de YPF Luz por USD 430 millones - Lmneuquen.com -------
+2026-10-09 14:09:47,097 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikAFBVV95cUxPM2Ztb2x3a1pXNkZjcVEtYU1fLU95X1FOY3lJM0o3R0NJMVM0SDQ4Vm4xLWxMcURzSHNZZHMtY0tGOHJFU09ST3dkcXZHZ1RhZExTRlI4cmJBUUdsUWRGcXRGN0hNZllWSzQ1T0VnMjUtbEtHV1BYZU5GUktmVUtOLWtBbDI0UlVHazcyWTl0QkfSAZYBQVVfeXFMUGtfMjFGS2VwU0xnT3lwdEI2VDRXZzlLcmRXak9pX1ZReE9XQTNudnRvT2pGeTNkdU9ISTVoRFVvcUdFUFZkbTZYTG5MYVFLRHhpOXplU1RVUkkxZG5jdWRiXzRQb1VyQS1CUG41a25tWEc5bmhPSUh3LU1Bd3M0OHNicjFKdV9BaHpiNloxbEVhVy1aTU53?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:09:48,180 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:09:48,181 [INFO] Resolved Google News URL: https://mase.lmneuquen.com/energia/ypf-compra-el-2499-ypf-luz-usd-430-millones-n1256739
+2026-10-09 14:09:48,181 [INFO] URL: https://mase.lmneuquen.com/energia/ypf-compra-el-2499-ypf-luz-usd-430-millones-n1256739
+2026-10-09 14:09:48,359 [INFO] Text length: 3059 chars | source: full
+2026-10-09 14:09:48,359 [INFO] Text preview: El directorio de YPF aprobó un desembolso de 430 millones de dólares para adquirir el 24,99% de las acciones de YPF Luz. El paquete accionario pertenecía a BNR Power Investments B.V., un fondo de inve...
+2026-10-09 14:09:48,359 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:10:01,866 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: YPF compra el 24,99% de YPF Luz por USD 430 millones - Lmneu
+2026-10-09 14:10:01,866 [INFO] LLM extracted 1 deals | YPF compra el 24,99% de YPF Luz por USD 430 millon
+2026-10-09 14:10:01,868 [INFO] Not a signed deal — skipping: YPF compra el 24,99% de YPF Luz por USD 430 millones - Lmneu
+2026-10-09 14:10:01,868 [INFO] ------- Processing article n. 4: Inditex logra de la Xunta la autorización del parque eólico de autoconsumo del p -------
+2026-10-09 14:10:01,945 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiigFBVV95cUxNbGwyVE9sS04tTTdzbXFCNzdiRTk5b0dNVGRuT1k5eTJCNU5WTDRacWtSM3gtcDJIdHBDSGs5b2c4NVNfMEx0YmpDNG50UG9hQU93RUVhd2tLZjdFYVltcW5TblRDN2hKUHIwNGlVUFpjb2pEQ2RxOE43dW1rOXI4YjU3eW1SUEpCOWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:10:03,054 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:10:03,054 [INFO] Resolved Google News URL: https://www.merca2.es/2026/10/09/inditex-parque-eolico-autorizacion-xunta-2470340/
+2026-10-09 14:10:03,055 [INFO] URL: https://www.merca2.es/2026/10/09/inditex-parque-eolico-autorizacion-xunta-2470340/
+2026-10-09 14:10:03,221 [INFO] Text length: 5560 chars | source: full
+2026-10-09 14:10:03,221 [INFO] Text preview: Inditex ha logrado de la Xunta la autorización para construir un parque eólico de autoconsumo en el puerto exterior de A Coruña, con una potencia de casi 20 megavatios y una inversión de 21,7 millones...
+2026-10-09 14:10:03,221 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:10:16,818 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Inditex logra de la Xunta la autorización del parque eólico 
+2026-10-09 14:10:16,818 [INFO] LLM extracted 1 deals | Inditex logra de la Xunta la autorización del parq
+2026-10-09 14:10:16,819 [INFO] Not a signed deal — skipping: Inditex logra de la Xunta la autorización del parque eólico 
+2026-10-09 14:10:16,820 [INFO] ------- Processing article n. 4: A dois meses do fim do contrato, MME segura renovação da concessão da Enel Rio - -------
+2026-10-09 14:10:16,896 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7wFBVV95cUxPby1iYUNDSFYtUVg2OElEbVRsb1lqOGFFaFFwOU00UF9WMHVlSEhYczVaQ09KUmtVbm93REdpbk95Y2NhdVgwS3RIMkZWdGR1LUdnMGlHcEFRa2ZsZXdXS3R5RHU3V1dVQm9IcVcwOWdkNkJBb0oyNFdrd2NHQVZJdGV2T1g1SzZ5N3RvemlFMy1Xb01uQjNrN0ppUndURXRYWmJmQ005eG9ReENPM05scEMxeVA1dXB0M3VocWpBRUh2aWJTZ2NIYXZZcDdmTFJsa2lfdzZxWU81OXR2WkRYNGE3V2o3R0Y1ZDVCcDFBNNIB7wFBVV95cUxPby1iYUNDSFYtUVg2OElEbVRsb1lqOGFFaFFwOU00UF9WMHVlSEhYczVaQ09KUmtVbm93REdpbk95Y2NhdVgwS3RIMkZWdGR1LUdnMGlHcEFRa2ZsZXdXS3R5RHU3V1dVQm9IcVcwOWdkNkJBb0oyNFdrd2NHQVZJdGV2T1g1SzZ5N3RvemlFMy1Xb01uQjNrN0ppUndURXRYWmJmQ005eG9ReENPM05scEMxeVA1dXB0M3VocWpBRUh2aWJTZ2NIYXZZcDdmTFJsa2lfdzZxWU81OXR2WkRYNGE3V2o3R0Y1ZDVCcDFBNA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:10:18,010 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:10:18,011 [INFO] Resolved Google News URL: https://oglobo.globo.com/google/amp/economia/manoel-ventura/coluna/2026/10/a-dois-meses-do-fim-do-co
+2026-10-09 14:10:18,011 [INFO] URL: https://oglobo.globo.com/google/amp/economia/manoel-ventura/coluna/2026/10/a-dois-meses-do-fim-do-contrato-mme-segura-renovacao-da-concessao-da-enel-rio.ghtml
+2026-10-09 14:10:19,415 [INFO] Text length: 4156 chars | source: full
+2026-10-09 14:10:19,415 [INFO] Text preview: A dois meses do fim do contrato da concessão da distribuidora de eletricidade Enel Rio, o Ministério de Minas e Energia (MME) segura a renovação do acordo enquanto o Tribunal de Contas da União (TCU) ...
+2026-10-09 14:10:19,415 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:10:31,565 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: A dois meses do fim do contrato, MME segura renovação da con
+2026-10-09 14:10:31,566 [INFO] LLM extracted 1 deals | A dois meses do fim do contrato, MME segura renova
+2026-10-09 14:10:31,567 [INFO] Not a signed deal — skipping: A dois meses do fim do contrato, MME segura renovação da con
+2026-10-09 14:10:31,567 [INFO] ------- Processing article n. 4: Da Nang: Assinatura de regulamento sobre a coordenação da gestão das atividades  -------
+2026-10-09 14:10:31,646 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxPSHZSVmJ4V0hqQlBSU3BpU1g1X0RPV2FsVTYzNVlGQlAtZU02VlZXSTVuWW5kY3VDZnJ0XzJab2FOYWdRR2U4MDRySU9aZzhRcXZTaFNkbjJOeW9uRXZoZVF0NU9VRjRYOFJfMmpMMlVRX2FFQzRsemROXzVTeS04QWVGaXlESWluSU1zTzkxcw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-09 14:10:32,755 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-09 14:10:32,756 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/da-nang-ky-ket-quy-che-phoi-hop-ve-quan-ly-hoat-dong-luat-su
+2026-10-09 14:10:32,756 [INFO] URL: https://www.vietnam.vn/pt/da-nang-ky-ket-quy-che-phoi-hop-ve-quan-ly-hoat-dong-luat-su
+2026-10-09 14:10:32,856 [INFO] Text length: 2427 chars | source: full
+2026-10-09 14:10:32,856 [INFO] Text preview: O diretor do Departamento de Justiça, Trinh Minh Duc, e o presidente da Ordem dos Advogados da Cidade, Tran Tuan Loi, copresidiram a reunião.
+De acordo com o regulamento, o Departamento de Justiça e a...
+2026-10-09 14:10:32,856 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-09 14:10:46,597 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Da Nang: Assinatura de regulamento sobre a coordenação da ge
+2026-10-09 14:10:46,597 [INFO] LLM extracted 1 deals | Da Nang: Assinatura de regulamento sobre a coorden
+2026-10-09 14:10:46,599 [INFO] Not a signed deal — skipping: Da Nang: Assinatura de regulamento sobre a coordenação da ge
+2026-10-09 14:10:46,599 [INFO] Run complete. New deals: 1, Updates: 3
+2026-10-09 14:10:46,615 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1489 deals)
+2026-10-09 14:10:48,804 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
