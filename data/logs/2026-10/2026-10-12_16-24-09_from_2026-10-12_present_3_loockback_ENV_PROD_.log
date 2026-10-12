@@ -1,0 +1,345 @@
+2026-10-12 16:24:09,754 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-12 16:24:09,759 [INFO] Loaded 1633 existing deals for dedup matching
+2026-10-12 16:24:09,759 [INFO] Searching from 2026-10-12 to present with 3 loockback days
+2026-10-12 16:24:09,829 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-12 16:24:11,069 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-12 16:24:12,315 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-12 16:24:13,734 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-12&hl=en&gl=US&ceid=US:en: 15 results
+2026-10-12 16:24:16,057 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-12&hl=en&gl=US&ceid=US:en: 3 results
+2026-10-12 16:24:18,299 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-12&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-12 16:24:20,561 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-12&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-12 16:24:22,828 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-12&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-10-12 16:24:25,086 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-12&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-12 16:24:27,333 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-12&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-10-12 16:24:29,588 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-12&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-10-12 16:24:31,823 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-12&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-10-12 16:24:34,059 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-12&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-12 16:24:36,315 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-12&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-12 16:24:38,545 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-12&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-12 16:24:40,804 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-12&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-12 16:24:43,100 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-12&hl=pt&gl=PT&ceid=PT:pt: 2 results
+2026-10-12 16:24:45,414 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-12&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-12 16:24:47,414 [INFO] Total raw articles collected: 27
+2026-10-12 16:24:47,560 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-10-12 16:24:49,143 [INFO] Extra RSS [elperiodicodelaenergia.com]: 1 results
+2026-10-12 16:24:50,152 [INFO] Unique unseen articles: 26
+2026-10-12 16:24:50,152 [INFO] ------- Processing article n. 0: Lebanon signs amended power purchase agreements with C.D.N and EONE - energynews -------
+2026-10-12 16:24:50,271 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxPWTJPbjU4YzBUWG5TNnZPQlZxWFFYcExidnc2R1dzR3JsdTFBa1phZVpkWWF6ZjRWakljUnZveEdpRnVrVFJzMnFMTmZMRnI3WXRWM2NNN3lGQ3Bwa0xuRlpjRU5qOUtnX0YyYVhlWlpUMjhjWVpkZGQ2NkNqdU5CbWdsbHhTeC1Ba3MzaFlBdU9WMnJyTUE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:24:51,376 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:24:51,377 [INFO] Resolved Google News URL: https://energynews.pro/en/lebanon-signs-amended-power-purchase-agreements-with-cdn-and-eone
+2026-10-12 16:24:51,377 [INFO] URL: https://energynews.pro/en/lebanon-signs-amended-power-purchase-agreements-with-cdn-and-eone
+2026-10-12 16:24:52,758 [INFO] Text length: 3241 chars | source: full
+2026-10-12 16:24:52,758 [INFO] Text preview: Lebanon's Ministry of Energy and Water has signed amended power purchase agreements (PPAs) with the companies C.D.N and EONE. Minister Joe Saddi presents them as a further step towards turning old lic...
+2026-10-12 16:24:52,758 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:24:54,019 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Lebanon signs amended power purchase agreements with C.D.N a
+2026-10-12 16:24:54,019 [INFO] LLM extracted 2 deals | Lebanon signs amended power purchase agreements wi
+2026-10-12 16:24:54,021 [INFO] Not a European deal — skipping: Lebanon Ministry of Energy and Water / C.D.N (Lebanon, None MW)
+2026-10-12 16:24:54,021 [INFO] Not a European deal — skipping: Lebanon Ministry of Energy and Water / EONE (Lebanon, None MW)
+2026-10-12 16:24:54,022 [INFO] ------- Processing article n. 0: Global Energy Storage Market Enters New Phase of Scale and Complexity - IndexBox -------
+2026-10-12 16:24:54,093 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxNajdLdmZWSmI4VndUa3dIZGZkcGc5ZllBUkpPaWVTbG9rRzZUbFBYS3BUR2Q3bGtIUEdTQzdxdEoza2QxSGlKMThoc3dzU05hTG44STdWZ2FkZEdYcEF2cFVELWJtMHlVdWdIVU03ZkpaMW9mQUtfZTgzV1pzVnk0VmpFRkgtaDNOendTSjI4ZjRleERzTlpnd21WY3Iwb2xZ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:24:55,194 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:24:55,194 [INFO] Resolved Google News URL: https://www.indexbox.io/blog/global-energy-storage-market-enters-new-phase-of-scale-and-complexity/
+2026-10-12 16:24:55,194 [INFO] URL: https://www.indexbox.io/blog/global-energy-storage-market-enters-new-phase-of-scale-and-complexity/
+2026-10-12 16:24:55,681 [INFO] Text length: 5964 chars | source: full
+2026-10-12 16:24:55,681 [INFO] Text preview: CATL
+Largest global volume
+According to Wood Mackenzie's newest outlook, the worldwide energy storage sector is entering a period characterized by both scale and complexity. The firm projects that cum...
+2026-10-12 16:24:55,682 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:25:08,602 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Global Energy Storage Market Enters New Phase of Scale and C
+2026-10-12 16:25:08,603 [INFO] LLM extracted 1 deals | Global Energy Storage Market Enters New Phase of S
+2026-10-12 16:25:08,606 [INFO] Not a signed deal — skipping: Global Energy Storage Market Enters New Phase of Scale and C
+2026-10-12 16:25:08,606 [INFO] ------- Processing article n. 0: Germany and Norway back Ukraine renewables scheme - reNEWS -------
+2026-10-12 16:25:08,704 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxQWndMN2ZNYnlNbmFtOWc4R2lqTFhubkQzWE56b3hIOEJsX0xNV0R5dVNrcHNPU19uekVYMkZYV2xWdHdsUVdsWlZwczMxWXpIa3lGZERsMnZHR0tXWHkwaHJrdW44azdSLVhqQ1h2THd3dndHRFl4b19pcGU1SkFrOGlYLUlMX2ljQUJtZ3I1OU5rb0F0aGtJ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:25:09,861 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:25:09,862 [INFO] Resolved Google News URL: https://www.renews.biz/other-news/finance/germany-and-norway-back-ukraine-renewables-scheme/
+2026-10-12 16:25:09,862 [INFO] URL: https://www.renews.biz/other-news/finance/germany-and-norway-back-ukraine-renewables-scheme/
+2026-10-12 16:25:10,349 [INFO] Text length: 5244 chars | source: full
+2026-10-12 16:25:10,349 [INFO] Text preview: Germany and Norway have joined the €300m RAMP UP price stabilisation mechanism, designed to support around 1GW of new renewable energy capacity in Ukraine and mobilise up to €1.5bn in investment.
+The ...
+2026-10-12 16:25:10,349 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:25:23,565 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Germany and Norway back Ukraine renewables scheme - reNEWS
+2026-10-12 16:25:23,566 [INFO] LLM extracted 1 deals | Germany and Norway back Ukraine renewables scheme 
+2026-10-12 16:25:23,568 [INFO] Not a signed deal — skipping: Germany and Norway back Ukraine renewables scheme - reNEWS
+2026-10-12 16:25:23,568 [INFO] ------- Processing article n. 0: Google and Constellation sign nuclear power deal to add 890 MW to PJM grid - W.M -------
+2026-10-12 16:25:23,638 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxPUDVYZF95TGpNcW53eTcyQmluOXozWFpnY1RMVXlzZGhCbXVYOW4zaF9ldnlMdnVVTzBPZUxZbkVoZDVYb1JxbWFBTWI4WVUzMVhwZ0otSjlacmZOQTZYUFBQUGlwWmtSeXhneVNoX0FwR3lLaS1OWThNeVI4eEwwUjBaUk9hZWNMX0ZIaUp2UGxWekd4THc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:25:24,746 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:25:24,747 [INFO] Resolved Google News URL: https://w.media/google-and-constellation-sign-nuclear-power-deal-to-add-890-mw-to-pjm-grid/
+2026-10-12 16:25:24,747 [INFO] URL: https://w.media/google-and-constellation-sign-nuclear-power-deal-to-add-890-mw-to-pjm-grid/
+2026-10-12 16:25:25,483 [INFO] Text length: 3019 chars | source: full
+2026-10-12 16:25:25,483 [INFO] Text preview: Google and Constellation Energy Corporation, an American energy company, have signed a 20 year power purchase agreement (PPA) to add 890 MW of nuclear capacity to the PJM Interconnection grid through ...
+2026-10-12 16:25:25,483 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:25:39,011 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Google and Constellation sign nuclear power deal to add 890 
+2026-10-12 16:25:39,012 [INFO] LLM extracted 2 deals | Google and Constellation sign nuclear power deal t
+2026-10-12 16:25:39,013 [INFO] Not a European deal — skipping: Google / Constellation Energy Corporation (United States, 890 MW)
+2026-10-12 16:25:39,013 [INFO] Not a European deal — skipping: Google / Constellation Energy Corporation (United States, 2700 MW)
+2026-10-12 16:25:39,013 [INFO] ------- Processing article n. 0: Nebius signs LOI with Volt for data center capacity in Rotterdam, the Netherland -------
+2026-10-12 16:25:39,088 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxNcGUtWG0wbkRtTWQzeFhyc01qLWRMUlBTZ3RVcXlwdjJKZ3pORkZZMGUwVjgtaHRLY0x3S18wYUh3X3Q4QUJraHU2Z2xsNFR3dncwU0RCM25ueGxYRDhna3MyckZVY1lFSENmWTh2UVNBZEswWlRzUzZDV3RaeUc5SVJoWUlRejk2WEU3ZXB4WjJXdDA2US1vZnNJdjFadjFiLU15Q1V1VmpUR3dhQVRv?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:25:40,194 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:25:40,195 [INFO] Resolved Google News URL: https://bebeez.eu/2026/10/12/nebius-signs-loi-with-volt-for-data-center-capacity-in-rotterdam-the-ne
+2026-10-12 16:25:40,195 [INFO] URL: https://bebeez.eu/2026/10/12/nebius-signs-loi-with-volt-for-data-center-capacity-in-rotterdam-the-netherlands/
+2026-10-12 16:25:40,907 [INFO] Text length: 2743 chars | source: full
+2026-10-12 16:25:40,907 [INFO] Text preview: AI cloud company Nebius has signed a Letter of Intent (LOI) with Volt for data center capacity in the Netherlands.
+Under the agreement, Nebius will be the first offtaker at Volt’s planned “AI Gigafact...
+2026-10-12 16:25:40,907 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:25:53,716 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Nebius signs LOI with Volt for data center capacity in Rotte
+2026-10-12 16:25:53,717 [INFO] LLM extracted 1 deals | Nebius signs LOI with Volt for data center capacit
+2026-10-12 16:25:53,718 [INFO] Not a signed deal — skipping: Nebius signs LOI with Volt for data center capacity in Rotte
+2026-10-12 16:25:53,718 [INFO] ------- Processing article n. 0: Ukraine accuses Russia of violating Trump’s energy ceasefire as EU imposes new s -------
+2026-10-12 16:25:53,790 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxPWktwek00bE5PRnlicWNrYS1YSHhMTF9zaDQ2MXNkQmFCZkktRzZVZnREcUI1SG9zUE9UV2c3VzVLZXlOVW5ubU44NWpDdmZXYWlKQkE0SmZ1SVdRSnY1c3I5RFV4RjFEc1VUZnNOaEM3SmxCYXMtSkVoNnJmak9RUUxSOWNvYi1tVlZWbl9OSTAzSWVJXzIzSWtya2QyZUJaaHZMYVNwUnEyRUFFZmJBRzEwRGVGUkpnd3c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:25:54,880 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:25:54,880 [INFO] Resolved Google News URL: https://wtvbam.com/2026/10/12/ukraine-accuses-russia-of-violating-trumps-energy-ceasefire-as-eu-impo
+2026-10-12 16:25:54,880 [INFO] URL: https://wtvbam.com/2026/10/12/ukraine-accuses-russia-of-violating-trumps-energy-ceasefire-as-eu-imposes-new-sanctions/
+2026-10-12 16:25:55,039 [INFO] Text length: 5143 chars | source: full
+2026-10-12 16:25:55,039 [INFO] Text preview: By Daniel Flynn and Pavel Polityuk
+KYIV, Oct 12 (Reuters) – Waves of Russian strikes on Ukraine overnight and into Monday killed several people and wounded dozens, including attacks on energy faciliti...
+2026-10-12 16:25:55,039 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:26:08,404 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ukraine accuses Russia of violating Trump’s energy ceasefire
+2026-10-12 16:26:08,404 [INFO] LLM extracted 1 deals | Ukraine accuses Russia of violating Trump’s energy
+2026-10-12 16:26:08,406 [INFO] Not a signed deal — skipping: Ukraine accuses Russia of violating Trump’s energy ceasefire
+2026-10-12 16:26:08,406 [INFO] ------- Processing article n. 0: ITM Power’s Hydropulse Signs 150 MW Green Hydrogen Deal with European Refinery - -------
+2026-10-12 16:26:08,478 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXFJQS1wQTRlUjRRSmJoSHQwTEx5MTZBLTB3Ri1STjhNaWN2eGNGa1VMdlAxUUZwQVZ6akxoLUFCR2Z3TmFDMzQ2ZFI3azhCVWk0ajJ1QWk4ZzRIcG5FQk8tZTRtMnN6NmY4ZlJZNVNmNGJERUpSLWliVGRSOVhFRk8yN01HVzJpZ0tHbWVfcThKdmtmM25CZlBIV19Xc0JEUzJFMDFhaDZ4WDZ0Wi1Sakxscw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:26:09,585 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:26:09,585 [INFO] Resolved Google News URL: https://www.chemanalyst.com/NewsAndDeals/NewsDetails/itm-powers-hydropulse-signs-150-mw-green-hydrog
+2026-10-12 16:26:09,585 [INFO] URL: https://www.chemanalyst.com/NewsAndDeals/NewsDetails/itm-powers-hydropulse-signs-150-mw-green-hydrogen-deal-44946
+2026-10-12 16:26:09,722 [INFO] Text length: 3914 chars | source: full
+2026-10-12 16:26:09,723 [INFO] Text preview: Welcome To ChemAnalyst
+ITM Power’s Build, Own, Operate (BOO) subsidiary, Hydropulse, has signed Heads of Terms with a European oil refinery for a proposed 150 MW green hydrogen project, marking a sign...
+2026-10-12 16:26:09,723 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:26:23,458 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ITM Power’s Hydropulse Signs 150 MW Green Hydrogen Deal with
+2026-10-12 16:26:23,459 [INFO] LLM extracted 1 deals | ITM Power’s Hydropulse Signs 150 MW Green Hydrogen
+2026-10-12 16:26:23,460 [INFO] Not a signed deal — skipping: ITM Power’s Hydropulse Signs 150 MW Green Hydrogen Deal with
+2026-10-12 16:26:23,460 [INFO] ------- Processing article n. 0: October power shortage in Tamil Nadu: TNPDCL signs agreement for costliest ever  -------
+2026-10-12 16:26:23,564 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi_AFBVV95cUxOazBWZEswel9hcHFfRk05a1VTaVpmdkFwOHV1OVR2cnl5WTBXUXV1Mk1sWXRtZlp1cnNESkhBRkQ1ZWNEU3h1VVZPdkF6TDc0N1daLWhBOFlZM1RwWkFIaHZ2WjhUTDdwTjlBRE44RVhfOTN0MlRhdjYwaTlGSlBFcTBWR191eGJ3TlZsY25HN1QycTAwMngtcHVFNWxhQ0dDblUxdDFVRFJXNUJfd2FON29ZLTdSdml1Sy1URmZ0NnRCVHR6WkhVbWxaX2dSTElpblNGVnFDek0zdmhUWW11NXdEWmhmYWxtc2dLVHVMY0lLMTZZN0xHRUU3WXTSAYICQVVfeXFMUFA5RmhQUlpfRWx2WWlLTVVtU050elVlZ0xJMGsyejkzVm9IZGZVU25adFRKdFVVNDE4MG40aDZ3eE5CalNqUXYtU0h4d3NTZGYtSFVLXzRReXZEZjVXUkZsQmR6bXYzUVJSclNKTFlsOUxmZTdwRk9pRTBXWGloYXJ2TGRkQU96X1puNDRwOHp0V2Vmejd1alJSZWlMV1VFUE1Nc29CX0ticFJLMXAzeWI5cGVTbkVTNXBWM0pGRzZZUHdmejA2OFRfWW8yXzctVGpPd2NsZXlobWxhUS14ZXNUOGoxX19WWHM4ZXFWYzJlM0VuTWZNRlBOZy1BamFGRjJ3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:26:24,655 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:26:24,655 [INFO] Resolved Google News URL: https://timesofindia.indiatimes.com/city/chennai/october-power-shortage-in-tamil-nadu-tnpdcl-signs-a
+2026-10-12 16:26:24,655 [INFO] URL: https://timesofindia.indiatimes.com/city/chennai/october-power-shortage-in-tamil-nadu-tnpdcl-signs-agreement-for-costliest-ever-power-purchase/articleshow/134895752.cms
+2026-10-12 16:26:24,863 [INFO] Text length: 2535 chars | source: full
+2026-10-12 16:26:24,863 [INFO] Text preview: CHENNAI: The Tamil Power Distribution Corporation (TNPDCL) has signed agreements to procure the costliest power the discom has ever purchased, to overcome the shortage between the availability and dem...
+2026-10-12 16:26:24,863 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:26:39,772 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: October power shortage in Tamil Nadu: TNPDCL signs agreement
+2026-10-12 16:26:39,772 [INFO] LLM extracted 3 deals | October power shortage in Tamil Nadu: TNPDCL signs
+2026-10-12 16:26:39,773 [INFO] Not a European deal — skipping: Tamil Power Distribution Corporation (TNPDCL) / various gas‑based power generators (unspecified) (India, 1500 MW)
+2026-10-12 16:26:39,773 [INFO] Not a European deal — skipping: Tamil Power Distribution Corporation (TNPDCL) / various gas‑based power generators (unspecified) (India, 2000 MW)
+2026-10-12 16:26:39,774 [INFO] Not a European deal — skipping: Andhra Pradesh Power Coordination Committee (APPCC) / various generators (unspecified) (India, 150 MW)
+2026-10-12 16:26:39,774 [INFO] ------- Processing article n. 0: Trump accused Europe of buying Russian oil following a deal with Putin - UA.NEWS -------
+2026-10-12 16:26:39,846 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxNUE5DZ1UybHFQaDZMcnVaVDJjdkd1YkVtcnpIR3NzRXZOb2pLbkVvZExDajBNanFWRmQ3QmhVWXlsTHZFamhvSTNqalFoSnkzRmpWMmJMMzhEN2FQR1ZYcXNkdXFvZXp5Wk5pZ3VsYUNKUWk4eFdNZmxWd004R19SQ09RLUdYN2poQ3RmVFllNkpzM2Fqbl85XzNrRmIzbkE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:26:40,943 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:26:40,944 [INFO] Resolved Google News URL: https://ua.news/en/world/tramp-zvinuvativ-evropu-v-kupivli-rosiiskoyi-nafti-pislia-ugodi-z-putinim
+2026-10-12 16:26:40,944 [INFO] URL: https://ua.news/en/world/tramp-zvinuvativ-evropu-v-kupivli-rosiiskoyi-nafti-pislia-ugodi-z-putinim
+2026-10-12 16:26:41,206 [INFO] Text length: 791 chars | source: full
+2026-10-12 16:26:41,206 [INFO] Text preview: After signing an agreement on the supply of diesel fuel from Russia, U.S. President Donald Trump pointed out that European countries also purchase Russian oil. He thus mentioned Europe’s purchases of ...
+2026-10-12 16:26:41,206 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:26:53,412 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Trump accused Europe of buying Russian oil following a deal 
+2026-10-12 16:26:53,412 [INFO] LLM extracted 1 deals | Trump accused Europe of buying Russian oil followi
+2026-10-12 16:26:53,414 [INFO] Not a signed deal — skipping: Trump accused Europe of buying Russian oil following a deal 
+2026-10-12 16:26:53,414 [INFO] ------- Processing article n. 0: Eni signs two agreements for the sale of stakes in selected upstream assets in I -------
+2026-10-12 16:26:53,484 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxQNU1DYjRRaXhvaW9zdlZvX2xaTXc0NDk3VDh6a0xIVVRhNFNRTkZHTjZzQzlSZmhINWJUdlZhQkp2aWkxa2JrckZHYmpSWThFWlB1MVY0MGZCSkUyV0t1THdfdEVSNzBSVDBCNUpwUjU4YVpwdFRFN2FwNldJTjBLVzRLTDlCZVVXaGN2UWFUY2pVNmdkT3A3dEJabXJNVmltVzk4enpSQmhwc3ZLbzlHMXRDMlpDaG8xT0pFYlUxMFRvODZLQWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:26:54,571 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:26:54,572 [INFO] Resolved Google News URL: https://www.euro-petrole.com/eni-signs-two-agreements-for-the-sale-of-stakes-in-selected-upstream-as
+2026-10-12 16:26:54,572 [INFO] URL: https://www.euro-petrole.com/eni-signs-two-agreements-for-the-sale-of-stakes-in-selected-upstream-assets-in-indonesia-n-i-30772
+2026-10-12 16:26:55,113 [INFO] Text length: 4003 chars | source: full
+2026-10-12 16:26:55,113 [INFO] Text preview: Eni has signed two binding agreements to sell interests in selected Indonesian upstream assets operated by Searah, the independent 50/50 joint venture between
+Eni and
+Petronas.
+-
+Sale to Pertamina: En...
+2026-10-12 16:26:55,113 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:27:08,613 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Eni signs two agreements for the sale of stakes in selected 
+2026-10-12 16:27:08,613 [INFO] LLM extracted 1 deals | Eni signs two agreements for the sale of stakes in
+2026-10-12 16:27:08,615 [INFO] Not a signed deal — skipping: Eni signs two agreements for the sale of stakes in selected 
+2026-10-12 16:27:08,615 [INFO] ------- Processing article n. 0: Transformer Lead Times Hit 5 Years…Long-Term Contracts Become the Standard in Po -------
+2026-10-12 16:27:08,678 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE54bFU2aEJ1cUVqRHFCOEtxV3E4a2NTQU54Qm1JaEs0cW11aXZnYXFQeGliaDJldF9zYlNNazNUZm83YmdPNExvNV96MjFRX1hWUjhNMzFidnRUOUFmaDRWNVdJZUNKdmVEdlZvdVJyOFRLSWxaOGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:27:09,787 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:27:09,788 [INFO] Resolved Google News URL: https://finance.biggo.com/news/bc090828-e3bb-494e-9c8a-cbb91c8b17f6
+2026-10-12 16:27:09,788 [INFO] URL: https://finance.biggo.com/news/bc090828-e3bb-494e-9c8a-cbb91c8b17f6
+2026-10-12 16:27:10,838 [INFO] Text length: 7162 chars | source: full
+2026-10-12 16:27:10,838 [INFO] Text preview: Transformer Lead Times Hit 5 Years…Long-Term Contracts Become the Standard in Power Equipment Market
+Large-scale long-term supply agreements (LTAs) have become firmly established as the core transacti...
+2026-10-12 16:27:10,838 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:27:23,640 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Transformer Lead Times Hit 5 Years…Long-Term Contracts Becom
+2026-10-12 16:27:23,640 [INFO] LLM extracted 1 deals | Transformer Lead Times Hit 5 Years…Long-Term Contr
+2026-10-12 16:27:23,642 [INFO] Not a signed deal — skipping: Transformer Lead Times Hit 5 Years…Long-Term Contracts Becom
+2026-10-12 16:27:23,642 [INFO] ------- Processing article n. 0: Greener Garments Initiative, Jamuna Group sign agreement for 34 MWp rooftop sola -------
+2026-10-12 16:27:23,705 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxOVmRlN0RZdXBZdFVkWC1BVDRBWGM2aTd4RXUyYkJ2cWNZdDZ0YjlkV25ackR3eE5RanJpbFRQOV9yZFR0QkpoRUpTSXJUMkFkNEJleUJ6TTJlMnBnVUIzVE1hVTF3ZXB4VWNVa3prQ24wYngzaEg0TlY3WWdUdWpVaHFRbFJtclJZVEUzQ213TlBKZFZBdVHSAZYBQVVfeXFMTlZkZTdEWXVwWXRVZFgtQVQ0QVhjNmk3eEV1MmJCdnFjWXQ2dGI5ZFduWnJEd3hOUWpyaWxUUDlfcmRUdEJKaEVKU0lyVDJBZDRCZXlCek0yZTJwZ1VCM1RNYVUxd2VweFVjVWt6a0NuMGJ4M2hINE5WN1lnVHVqVWhxUWxSbXJSWVRFM0Ntd05QSmRWQXVR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:27:24,804 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:27:24,805 [INFO] Resolved Google News URL: https://www.dhakatribune.com/amp/business/421917/ggi-jamuna-group-sign-agreement-for-34-mwp
+2026-10-12 16:27:24,805 [INFO] URL: https://www.dhakatribune.com/amp/business/421917/ggi-jamuna-group-sign-agreement-for-34-mwp
+2026-10-12 16:27:24,874 [INFO] Full text skipped (status 403): https://www.dhakatribune.com/amp/business/421917/ggi-jamuna-group-sign-agreement
+2026-10-12 16:27:24,874 [INFO] Text length: 207 chars | source: fallback
+2026-10-12 16:27:24,874 [INFO] Text preview: Greener Garments Initiative, Jamuna Group sign agreement for 34 MWp rooftop solar - Dhaka Tribune
+
+Greener Garments Initiative, Jamuna Group sign agreement for 34 MWp rooftop solar &nbsp;&nbsp; Dhaka ...
+2026-10-12 16:27:24,874 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:27:38,806 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Greener Garments Initiative, Jamuna Group sign agreement for
+2026-10-12 16:27:38,806 [INFO] LLM extracted 1 deals | Greener Garments Initiative, Jamuna Group sign agr
+2026-10-12 16:27:38,807 [INFO] Not a European deal — skipping: Greener Garments Initiative / Jamuna Group (Bangladesh, 34 MW)
+2026-10-12 16:27:38,807 [INFO] ------- Processing article n. 0: TotalEnergies and KKR expand their solar joint venture in Texas and Ohio - energ -------
+2026-10-12 16:27:38,876 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxQTWVVd1pBS2lPMzFZcFVJWkxoRmpzMTltR3lhYjNqekN2dFJBeUdRby1pSUZmM3ZSMFFXc0o3Z21lMDE5VmlnVXF6TE12ejVXY3Y4R2NJT2FjQlVWT2dHeWN1NkUzWlZhanE1R2Fnck5hVWNrT2xPWTU0TkNFRzJfcE9QZ3pqQVRNOVBnYllqblFaZHQtdVFFc0VxTFg4dDg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:27:39,983 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:27:39,983 [INFO] Resolved Google News URL: https://energynews.pro/en/totalenergies-and-kkr-expand-their-solar-joint-venture-in-texas-and-ohio
+2026-10-12 16:27:39,983 [INFO] URL: https://energynews.pro/en/totalenergies-and-kkr-expand-their-solar-joint-venture-in-texas-and-ohio
+2026-10-12 16:27:40,283 [INFO] Text length: 3649 chars | source: full
+2026-10-12 16:27:40,283 [INFO] Text preview: TotalEnergies and US investment fund KKR have signed an agreement, announced on Monday, October 12, to bring a new portfolio of large power plants located in Texas and Ohio into their US solar joint v...
+2026-10-12 16:27:40,283 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:27:53,509 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: TotalEnergies and KKR expand their solar joint venture in Te
+2026-10-12 16:27:53,509 [INFO] LLM extracted 1 deals | TotalEnergies and KKR expand their solar joint ven
+2026-10-12 16:27:53,510 [INFO] Not a signed deal — skipping: TotalEnergies and KKR expand their solar joint venture in Te
+2026-10-12 16:27:53,511 [INFO] ------- Processing article n. 0: Faster, cleaner data centers that withstand scrutiny - BeBeez International -------
+2026-10-12 16:27:53,580 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeW5HQV9NbG42dEZXek41WWJGYjNla0psV3hxekVnSTVyM25mZVMtaE44UWtnTnFrdjF4NjJCY0dmd2YxQzJITlVycHRHUFUxbWlyUU5mcFBxYWMxcEI3YkZyNjRUR2tTdWRmaFVRU3RkOVpRbG1NVURXdXJudlVKaGxGcjNXdXA4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:27:54,686 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:27:54,687 [INFO] Resolved Google News URL: https://bebeez.eu/2026/10/12/faster-cleaner-data-centers-that-withstand-scrutiny/
+2026-10-12 16:27:54,687 [INFO] URL: https://bebeez.eu/2026/10/12/faster-cleaner-data-centers-that-withstand-scrutiny/
+2026-10-12 16:27:55,391 [INFO] Text length: 8150 chars | source: full
+2026-10-12 16:27:55,392 [INFO] Text preview: Consider a developer planning a new 50MW data center in the UK to service cloud or AI workloads. They’ve secured the land, their investors are ready, and there’s no shortage of customers who need the ...
+2026-10-12 16:27:55,392 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:28:08,854 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Faster, cleaner data centers that withstand scrutiny - BeBee
+2026-10-12 16:28:08,854 [INFO] LLM extracted 1 deals | Faster, cleaner data centers that withstand scruti
+2026-10-12 16:28:08,855 [INFO] Not a signed deal — skipping: Faster, cleaner data centers that withstand scrutiny - BeBee
+2026-10-12 16:28:08,855 [INFO] ------- Processing article n. 0: EU’s carbon rules enter implementation phase, putting Indian MSMEs under pressur -------
+2026-10-12 16:28:08,917 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxNdUZLdHhRQkF4cVRaQWszczk4X2lXZWJ4SnlYaFoyWGRxcXZVdi15Zi1nSFhtWFdtRGFnUVM3YVoyVFV1VVd4WE5MRHJSam04eHFkSlg4RXdMSWIyYlJLc2VrVzBRbEo4aENGU01wVG95Z1U0UFdPWkpUNm42VkhoM1NYa3hRTWlqYWZwZW9NSDZWbS1Sbm5IaVFyREdyekdHYTM4M0xPSnRGek1hcWNXbzgtNUF3UWRWVlFqdGtDYWVJSndnNnBz0gHHAUFVX3lxTE11Rkt0eFFCQXhxVFpBazNzOThfaVdlYnhKeVhoWjJYZHFxdlV2LXlmLWdIWG1YV21EYWdRUzdhWjJUVXVVV3hYTkxEclJqbTh4cWRKWDhFd0xJYjJiUktzZWtXMFFsSjhoQ0ZTTXBUb3lnVTRQV09aSlQ2bjZWSGgzU1hreFFNaWphZnBlb01INlZtLVJubkhpUXJER3J6R0dhMzgzTE9KdEZ6TWFxY1dvOC01QXdRZFZWUWp0a0NhZUlKd2c2cHM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:28:10,023 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:28:10,024 [INFO] Resolved Google News URL: https://www.downtoearth.org.in/amp/story/economy/eus-carbon-rules-enter-implementation-phase-putting
+2026-10-12 16:28:10,024 [INFO] URL: https://www.downtoearth.org.in/amp/story/economy/eus-carbon-rules-enter-implementation-phase-putting-indian-msmes-under-pressure
+2026-10-12 16:28:10,212 [INFO] Text length: 17201 chars | source: full
+2026-10-12 16:28:10,212 [INFO] Text preview: When European buyers stop ordering steel, the consequences for an Indian manufacturer can begin well before a carbon bill arrives. For Chandan Steel Limited, a stainless steel manufacturer based in Gu...
+2026-10-12 16:28:10,212 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:28:23,350 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EU’s carbon rules enter implementation phase, putting Indian
+2026-10-12 16:28:23,351 [INFO] LLM extracted 1 deals | EU’s carbon rules enter implementation phase, putt
+2026-10-12 16:28:23,352 [INFO] Not a signed deal — skipping: EU’s carbon rules enter implementation phase, putting Indian
+2026-10-12 16:28:23,352 [INFO] ------- Processing article n. 0: Stalled or just slow? Four views on the Nordic PPA market - Solarplaza -------
+2026-10-12 16:28:23,419 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxQOUI2aTlrVWdfNXN1eExLXzVkZmpnSGZXZkJJVmNiS2hyUllPbWlMeklkQ2RuQl9NZElhejViTVNoNHByTU9EejRZelVaR0pWMG9oYVVmZG1aWXFXTkFHMzVxVDl4QV9tMzhuWmpsMGtPQUlSZVRucGgwT051SFdTN0VwMGFnS05yNkR4MVl4NEI2bWZIUG5NM3l3N2tRTlFtQm5yZE5SZXJhUEVXcmJRc0hB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:28:24,523 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:28:24,523 [INFO] Resolved Google News URL: https://www.solarplaza.com/resource/13587/article-stalled-or-just-slow-four-views-on-the-nordic-ppa-
+2026-10-12 16:28:24,524 [INFO] URL: https://www.solarplaza.com/resource/13587/article-stalled-or-just-slow-four-views-on-the-nordic-ppa-market-2026/
+2026-10-12 16:28:24,624 [INFO] Full text skipped (status 403): https://www.solarplaza.com/resource/13587/article-stalled-or-just-slow-four-view
+2026-10-12 16:28:24,624 [INFO] Text length: 153 chars | source: fallback
+2026-10-12 16:28:24,624 [INFO] Text preview: Stalled or just slow? Four views on the Nordic PPA market - Solarplaza
+
+Stalled or just slow? Four views on the Nordic PPA market &nbsp;&nbsp; Solarplaza...
+2026-10-12 16:28:24,624 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:28:38,397 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Stalled or just slow? Four views on the Nordic PPA market - 
+2026-10-12 16:28:38,397 [INFO] LLM extracted 1 deals | Stalled or just slow? Four views on the Nordic PPA
+2026-10-12 16:28:38,399 [INFO] Not a signed deal — skipping: Stalled or just slow? Four views on the Nordic PPA market - 
+2026-10-12 16:28:38,399 [INFO] ------- Processing article n. 0: Sunsure Energy signs PPA with Evonith Steel for 30 MWp of solar capacity - pv ma -------
+2026-10-12 16:28:38,468 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxNeTNZMS1sbEVyS05HN3lhWk04WTN5SHR2RGV6UXdCU1dGSlQ1VHlvb3AzR2lyX2xtM1BUVzVMWVVuc3FMaWhiWGoxWFJsS0xQWHlYTFB3enNWaEZkX2tmS3FPM1BoSVdGeWRRWnRyaVo4eGJWcmVPVXFGQVMzT3lJZmdWTmlSU2NZMzZjMk1hNFlhd1I1LURPblJpdzBTS1FNU2pqVWVzYTFBdU4wY0p3ckxMdmVjdnYtRkE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:28:39,575 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:28:39,575 [INFO] Resolved Google News URL: https://www.pv-magazine-india.com/2026/10/12/sunsure-energy-signs-ppa-with-evonith-steel-for-30-mwp-
+2026-10-12 16:28:39,575 [INFO] URL: https://www.pv-magazine-india.com/2026/10/12/sunsure-energy-signs-ppa-with-evonith-steel-for-30-mwp-of-solar-capacity/
+2026-10-12 16:28:40,104 [INFO] Text length: 2131 chars | source: full
+2026-10-12 16:28:40,105 [INFO] Text preview: Sunsure Energy signs PPA with Evonith Steel for 30 MWp of solar capacity
+Sunsure Energy has signed a long-term power purchase agreement (PPA) with Evonith Steel to supply solar power to the steelmaker...
+2026-10-12 16:28:40,105 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:28:54,068 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Sunsure Energy signs PPA with Evonith Steel for 30 MWp of so
+2026-10-12 16:28:54,069 [INFO] LLM extracted 1 deals | Sunsure Energy signs PPA with Evonith Steel for 30
+2026-10-12 16:28:54,071 [INFO] Not a European deal — skipping: Evonith Steel / Sunsure Energy (India, 30 MW)
+2026-10-12 16:28:54,071 [INFO] ------- Processing article n. 0: Le Liban signe des accords d'achat d'électricité amendés avec C.D.N et EONE - en -------
+2026-10-12 16:28:54,141 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWgwa1Z3YVlRVUFaaE5uWF9TVXk3RUN6Zkw5YS1IS2h1LVhWalMyVldFTENDMUo1d2M0M096VEZDVXhCNF9hdkRLZE9kbmdPQ3ptY001NU96dHpiRGxPemJHdUlwMU1SdTlYV3dYS253b3NVb3B1MU95S29iQ2tRQWRyUVdpQk5wbk5ORUpoYTMtU3dYNVhUZHdB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:28:55,258 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:28:55,259 [INFO] Resolved Google News URL: https://energynews.pro/le-liban-signe-des-accords-dachat-delectricite-amendes-avec-cdn-et-eone
+2026-10-12 16:28:55,259 [INFO] URL: https://energynews.pro/le-liban-signe-des-accords-dachat-delectricite-amendes-avec-cdn-et-eone
+2026-10-12 16:28:55,787 [INFO] Text length: 3241 chars | source: full
+2026-10-12 16:28:55,787 [INFO] Text preview: Lebanon's Ministry of Energy and Water has signed amended power purchase agreements (PPAs) with the companies C.D.N and EONE. Minister Joe Saddi presents them as a further step towards turning old lic...
+2026-10-12 16:28:55,787 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:29:09,156 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Le Liban signe des accords d'achat d'électricité amendés ave
+2026-10-12 16:29:09,156 [INFO] LLM extracted 2 deals | Le Liban signe des accords d'achat d'électricité a
+2026-10-12 16:29:09,158 [INFO] Not a European deal — skipping: Lebanese Ministry of Energy and Water / C.D.N (Lebanon, None MW)
+2026-10-12 16:29:09,158 [INFO] Not a European deal — skipping: Lebanese Ministry of Energy and Water / EONE (Lebanon, None MW)
+2026-10-12 16:29:09,158 [INFO] ------- Processing article n. 0: PowerChina lance la construction du parc solaire de Lion Thorn (49 MWc) en Afriq -------
+2026-10-12 16:29:09,231 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTTdBemwyMG16QUdGOVF5SnVZMFFMbVNiaExkeklKREs1MGxnbFpCeTRPQ3RhVEJ0dTduaUN2UEJQTlFSTjM0NWFGMFJ2NkU1MGxMaHNnendobGE1dm5rMGNVSUl0VGswRmVVZW0xZHlKVmVMd2NyVk1ELUltN0ZVZVNQRUlyMDMyWGJvVC0yd1pFc3pkcW9vRy1iampDbl9ZWVpYRE5wWkV1bHFGUGdEcmVtQlFmTDNsNEJCNjdmeXdDRTBWQ1hYVWd3VWYwNVY1dnE4Z3VPNmlUQTBYcUhteWtJVnpudGdRLUpv?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:29:10,335 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:29:10,336 [INFO] Resolved Google News URL: https://www.agenceecofin.com/actualites-infrastructures/1210-142332-powerchina-lance-la-construction
+2026-10-12 16:29:10,336 [INFO] URL: https://www.agenceecofin.com/actualites-infrastructures/1210-142332-powerchina-lance-la-construction-du-parc-solaire-de-lion-thorn-49-mwc-en-afrique-du-sud
+2026-10-12 16:29:11,185 [INFO] Text length: 2377 chars | source: full
+2026-10-12 16:29:11,186 [INFO] Text preview: (Agence Ecofin) - Le groupe chinois multiplie les contrats dans le domaine des énergies renouvelables en Afrique du Sud, tant auprès d'entreprises privées que de l'opérateur public Eskom. Plusieurs pr...
+2026-10-12 16:29:11,186 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:29:23,753 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: PowerChina lance la construction du parc solaire de Lion Tho
+2026-10-12 16:29:23,753 [INFO] LLM extracted 1 deals | PowerChina lance la construction du parc solaire d
+2026-10-12 16:29:23,755 [INFO] Not a European deal — skipping: PPC, POWERX / Yellow Door Energy (South Africa, 49 MW)
+2026-10-12 16:29:23,755 [INFO] ------- Processing article n. 0: Megasa ultima la compra al gigante CSN de su filial SWT por 550 millones - El Ec -------
+2026-10-12 16:29:23,854 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxQemRhWjlNSUdoeHFEcGVkV1ljQXVOUUVfeXBGMldDMHZQbmJ2aXhaVzFWekFwZ0QycHplUjlDcnlTNUc1SjF2UEp5M3dmcW9Td1ZwWHRzM0VGOFpGclRvVm5rellJTmgzbFF4UTVtMnB6SFJVSzQ4UzZlWXNZNEVoTlM4bGMta1o1enpSUEgwOVZlaG5wRkdXd0JYMF9CaFBDMnA4a0c2cnBHV3pvSWNNM0E3RHl1aU9kWV9iMlFHaVpDODYwSTZQNFZiUlNxSU4zOGJDT1JB0gHAAUFVX3lxTFBJLUllTmFsMURRMDh3cG1CRWpnbHVjaGRaakE3VHcxdE8xNjg0MmNRRW5aczc0MkxkdmdzNmotWWFiUXIyMmpjeVEzLVpfYkhnUDlJXzBNV25UV0t0U2UtN0pTZGVwSkpEdlBxTzUySFhUUFZIN0pkNExLNUZPQTUtUmdmUXNJbnJQb1pTbWRYYnNHQzB4SHEwNUhtdlc3RmMyLXlERFViNUhqSE5MS1FCUTh3ajdzYjczYUxkVFk5OQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:29:24,949 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:29:24,949 [INFO] Resolved Google News URL: https://www.eleconomista.es/industria/noticias/14020361/10/26/megasa-ultima-la-compra-al-gigante-csn
+2026-10-12 16:29:24,949 [INFO] URL: https://www.eleconomista.es/industria/noticias/14020361/10/26/megasa-ultima-la-compra-al-gigante-csn-de-su-filial-swt-por-550-millones.html
+2026-10-12 16:29:25,204 [INFO] Full text skipped (status 403): https://www.eleconomista.es/industria/noticias/14020361/10/26/megasa-ultima-la-c
+2026-10-12 16:29:25,205 [INFO] Text length: 189 chars | source: fallback
+2026-10-12 16:29:25,205 [INFO] Text preview: Megasa ultima la compra al gigante CSN de su filial SWT por 550 millones - El Economista
+
+Megasa ultima la compra al gigante CSN de su filial SWT por 550 millones &nbsp;&nbsp; El Economista...
+2026-10-12 16:29:25,205 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:29:38,512 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Megasa ultima la compra al gigante CSN de su filial SWT por 
+2026-10-12 16:29:38,513 [INFO] LLM extracted 1 deals | Megasa ultima la compra al gigante CSN de su filia
+2026-10-12 16:29:38,514 [INFO] Not a signed deal — skipping: Megasa ultima la compra al gigante CSN de su filial SWT por 
+2026-10-12 16:29:38,514 [INFO] ------- Processing article n. 0: Resumen semanal: Arrendamientos de hiperescala por 810 MW y salto de ingresos de -------
+2026-10-12 16:29:38,578 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBOV1hSMmhGZmVIVklMMUd6RV9RRmx3LTluWUppQzI0UXp6S3kxVk1PZDF5UXdmMjVBVmVjVk52UlZiaGYyNWl4TkpWNE11Q3IxUWM0c2prc0JFRHN1LWRfZm1YWkxYcFRLbTd6RA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:29:39,703 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:29:39,704 [INFO] Resolved Google News URL: https://es.tradingview.com/news/tradingview:724ea0c2b3b9d:0/
+2026-10-12 16:29:39,704 [INFO] URL: https://es.tradingview.com/news/tradingview:724ea0c2b3b9d:0/
+2026-10-12 16:29:39,924 [INFO] Text length: 3528 chars | source: full
+2026-10-12 16:29:39,924 [INFO] Text preview: Resumen semanal: Arrendamientos de hiperescala por 810 MW y salto de ingresos del primer trimestre, proyecciones de más de 600 MW
+Applied Digital Corporation (NASDAQ:APLD) está ampliando rápidamente s...
+2026-10-12 16:29:39,925 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:29:54,067 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Resumen semanal: Arrendamientos de hiperescala por 810 MW y 
+2026-10-12 16:29:54,068 [INFO] LLM extracted 1 deals | Resumen semanal: Arrendamientos de hiperescala por
+2026-10-12 16:29:54,069 [INFO] Not a signed deal — skipping: Resumen semanal: Arrendamientos de hiperescala por 810 MW y 
+2026-10-12 16:29:54,069 [INFO] ------- Processing article n. 0: GSE e Banco BPM: incentivi e credito per la transizione energetica delle PMI - P -------
+2026-10-12 16:29:54,136 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxNdmtNdnhMV2s5UzVhZFVFLW1tUzdEc2VKWm5pLXhiSFpJRDhSb0hMY2FRVG1BUDdQcEJMWGNtMWJyX2V2UFdGNmxMTWRWanAzUk81VFFjMG5jYTVIeXdvdUtlQ2FmZ0FvanQ5U2dzczc1dUR4UXlmUDVVdGNfc1M1SDR4VFN3clVoRllJalZ6V25ua0ZXSjRzalhZOFR0a1F2NmRzMUhuWG5NTDU0al9yajR3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:29:55,237 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:29:55,238 [INFO] Resolved Google News URL: https://www.pmi.it/economia/green-economy/501128/gse-banco-bpm-incentivi-credito-transizione-energet
+2026-10-12 16:29:55,238 [INFO] URL: https://www.pmi.it/economia/green-economy/501128/gse-banco-bpm-incentivi-credito-transizione-energetica-pmi.html
+2026-10-12 16:29:55,454 [INFO] Text length: 4447 chars | source: full
+2026-10-12 16:29:55,454 [INFO] Text preview: GSE e Banco BPM mettono insieme incentivi pubblici, assistenza specialistica e credito bancario per sostenere la transizione energetica delle PMI: l’obiettivo è portare a realizzazione gli investiment...
+2026-10-12 16:29:55,455 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:30:08,696 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: GSE e Banco BPM: incentivi e credito per la transizione ener
+2026-10-12 16:30:08,697 [INFO] LLM extracted 1 deals | GSE e Banco BPM: incentivi e credito per la transi
+2026-10-12 16:30:08,698 [INFO] Not a signed deal — skipping: GSE e Banco BPM: incentivi e credito per la transizione ener
+2026-10-12 16:30:08,698 [INFO] ------- Processing article n. 0: Il presidente di TTC Energy, Dang Huynh Anh Tuan, è stato insignito della Coppa  -------
+2026-10-12 16:30:08,801 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxPT09RMXRUNWpFZTJuQktteDFzNVN2R21aMkdqSzZfSHlzYXhiVDBVRElxZHVkeE9CTVpDcm9VYmRibFM2UUlCRGpxNHN0T1ZZSUZXV0NhX05JOXlFUVBYVG96ZTJkUkVXUTBGMFNtaEtjb3lQME5lcTJRSmNuRmd6M2dxRW81bEVBZ3JmTll1VXZ6d1RGbTFkdVljUWpaQXVrejBF?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:30:09,908 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:30:09,908 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/chu-tich-ttc-energy-dang-huynh-anh-tuan-duoc-vinh-danh-cup-thanh-giong-202
+2026-10-12 16:30:09,908 [INFO] URL: https://www.vietnam.vn/it/chu-tich-ttc-energy-dang-huynh-anh-tuan-duoc-vinh-danh-cup-thanh-giong-2026
+2026-10-12 16:30:10,647 [INFO] Text length: 6540 chars | source: full
+2026-10-12 16:30:10,648 [INFO] Text preview: Il presidente di TTC Energy, Dang Huynh Anh Tuan, è stato insignito della Coppa Saint Giong 2026.
+In occasione della Giornata degli Imprenditori Vietnamiti, il signor Dang Huynh Anh Tuan, Presidente d...
+2026-10-12 16:30:10,648 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:30:23,767 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Il presidente di TTC Energy, Dang Huynh Anh Tuan, è stato in
+2026-10-12 16:30:23,767 [INFO] LLM extracted 1 deals | Il presidente di TTC Energy, Dang Huynh Anh Tuan, 
+2026-10-12 16:30:23,768 [INFO] Not a signed deal — skipping: Il presidente di TTC Energy, Dang Huynh Anh Tuan, è stato in
+2026-10-12 16:30:23,768 [INFO] ------- Processing article n. 0: Violi: “Terza Repubblica? No. Dittatura col consenso degli elettori” - Ciavula -------
+2026-10-12 16:30:23,836 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxNTzA3SlhnUUFzbnhXUU90Y0N1WUU2Y0pMaTNHcFNOS2RBVWpfWXlkUlI1UG5xTFgtTTE5MlhJZnMwOWxpcDYyTXh0TXNPNFBqN1dValhoVG52NVlNVUViT09IX0UwLVFsR0taYzlMVkZnc0VSTENjc05yU2ZQSzBPd1U4WTRPMjZHLVIxVU05OW4xbEhCLWxobDhoOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:30:24,935 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:30:24,936 [INFO] Resolved Google News URL: https://www.ciavula.it/2026/10/violi-terza-repubblica-no-dittatura-col-consenso-degli-elettori/
+2026-10-12 16:30:24,936 [INFO] URL: https://www.ciavula.it/2026/10/violi-terza-repubblica-no-dittatura-col-consenso-degli-elettori/
+2026-10-12 16:30:26,207 [INFO] Text length: 7569 chars | source: full
+2026-10-12 16:30:26,207 [INFO] Text preview: Violi: “Terza Repubblica? No. Dittatura col consenso degli elettori”
+Riceviamo da Francesco Violi e pubblichiamo
+Silenzio, parla Lei…
+Dopo quattro anni di governo ancora gli Italiani o almeno quelli c...
+2026-10-12 16:30:26,207 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:30:38,655 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Violi: “Terza Repubblica? No. Dittatura col consenso degli e
+2026-10-12 16:30:38,655 [INFO] LLM extracted 1 deals | Violi: “Terza Repubblica? No. Dittatura col consen
+2026-10-12 16:30:38,657 [INFO] Not a signed deal — skipping: Violi: “Terza Repubblica? No. Dittatura col consenso degli e
+2026-10-12 16:30:38,657 [INFO] ------- Processing article n. 0: IonQ fecha acordo para comprar startup de cibersegurança Elisity por até US$ 1,3 -------
+2026-10-12 16:30:38,727 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUU1yZDBDMXlfWTJtc0ZHdUNHemJ0M0FXQjc2SU9mdVdLTUFMZloxZUVMMllKamMxamxjX01QQW5ndUtXTEpwRHpmZ1NDSGVlSmZfTC1MRmx5UzFBSjhoWlJ1b0dPU01TaUs5TDYzbkpxZlgzNHlTRktpcXVYQWcwYkhFS3pkYkhHOGR2VjlTZUtLMHlPMlZuVVBVNVBpekp5TGo2ZmRSZEwwUlVzLWpTMjdLTFZWalFZc2k2cWtERGRWQ0ZfYTNpdlhmMHJRb3BXOTgwaE9rZHJNQ0FxSWJvV2tR0gHiAUFVX3lxTE5RTXJkMEMxeV9ZMm1zRkd1Q0d6YnQzQVdCNzZJT2Z1V0tNQUxmWjFlRUwyWUpqYzFqbGNfTVBBbmd1S1dMSnBEemZnU0NIZWVKZl9MLUxGbHlTMUFKOGhaUnVvR09TTVNpSzlMNjNuSnFmWDM0eVNGS2lxdVhBZzBiSEVLemRiSEc4ZHZWOVNlS0sweU8yVm5VUFU1UGl6SnlMajZmZFJkTDBSVXMtalMyN0tMVlZqUVlzaTZxa0REZFZDRl9hM2l2WGYwclFvcFc5ODBoT2tkck1DQXFJYm9Xa1E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:30:39,825 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:30:39,826 [INFO] Resolved Google News URL: https://valor.globo.com/google/amp/empresas/noticia/2026/10/12/ionq-fecha-acordo-para-comprar-startu
+2026-10-12 16:30:39,826 [INFO] URL: https://valor.globo.com/google/amp/empresas/noticia/2026/10/12/ionq-fecha-acordo-para-comprar-startup-de-cibersegurana-elisity-por-at-us-13-bi.ghtml
+2026-10-12 16:30:40,734 [INFO] Text length: 934 chars | source: full
+2026-10-12 16:30:40,734 [INFO] Text preview: A empresa de computação quântica IonQ fechou um acordo para comprar a startup Elisity por até US$ 1,3 bilhão, em uma transação integralmente em ações que fortalece seu portfólio no setor de cibersegur...
+2026-10-12 16:30:40,734 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:30:53,637 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: IonQ fecha acordo para comprar startup de cibersegurança Eli
+2026-10-12 16:30:53,637 [INFO] LLM extracted 1 deals | IonQ fecha acordo para comprar startup de ciberseg
+2026-10-12 16:30:53,639 [INFO] Not a signed deal — skipping: IonQ fecha acordo para comprar startup de cibersegurança Eli
+2026-10-12 16:30:53,639 [INFO] ------- Processing article n. 0: TotalEnergies e KKR fecham acordo de US$ 1,2 bi para incluir ativos solares em e -------
+2026-10-12 16:30:53,705 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdGw4QlFmVEY3cHN2T3RBZDJlWURmcVZlZU9uTmpxNWthSWQxWERYVXFIUnpJVENoXzBjUlBDb3BWTWZmVXBZRlNFODlVbXluX3NBT0RoYkU2aWlhbVoxOVFhUlQ5NUlyd3RWakg5aEpCS2EzQkxNMDB3aXpjSmstRTdZTnMtcmRUQXVNU1JPc1pKTHdvVDZfS0JPVTFGWkhhelhyTmJ6RWlUUjFqWnJyQWJfN0dkaEU3ZTRUN0R4SlV3ZC00LU1xMTZlYlNvN3g3bUROZnpRdWhKRlYzb19XWU5FZWEwdF9WNUpyNDR6M1d6TDl10gH0AUFVX3lxTE50bDhCUWZURjdwc3ZPdEFkMmVZRGZxVmVlT25OanE1a2FJZDFYRFhVcUhSeklUQ2hfMGNSUENvcFZNZmZVcFlGU0U4OVVteW5fc0FPRGhiRTZpaWFtWjE5UWFSVDk1SXJ3dFZqSDloSkJLYTNCTE0wMHdpemNKay1FN1lOcy1yZFRBdU1TUk9zWkpMd29UNl9LQk9VMUZaSGF6WHJOYnpFaVRSMWpacnJBYl83R2RoRTdlNFQ3RHhKVXdkLTQtTXExNmViU283eDdtRE5melF1aEpGVjNvX1dZTkVlYTB0X1Y1SnI0NHozV3pMOXU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-12 16:30:54,811 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-12 16:30:54,812 [INFO] Resolved Google News URL: https://valor.globo.com/google/amp/empresas/noticia/2026/10/12/totalenergies-e-kkr-fecham-acordo-de-
+2026-10-12 16:30:54,812 [INFO] URL: https://valor.globo.com/google/amp/empresas/noticia/2026/10/12/totalenergies-e-kkr-fecham-acordo-de-us-12-bi-para-incluir-ativos-solares-em-empresa-conjunta.ghtml
+2026-10-12 16:30:56,280 [INFO] Text length: 655 chars | source: full
+2026-10-12 16:30:56,280 [INFO] Text preview: A TotalEnergies e a gestora KKR fecharam um acordo para adicionar 700 megawatts (MW) de energia solar à sua empresa conjunta de energia renovável, em uma transação avaliada em US$ 1,2 bilhão, incluind...
+2026-10-12 16:30:56,280 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-12 16:31:10,926 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: TotalEnergies e KKR fecham acordo de US$ 1,2 bi para incluir
+2026-10-12 16:31:10,926 [INFO] LLM extracted 1 deals | TotalEnergies e KKR fecham acordo de US$ 1,2 bi pa
+2026-10-12 16:31:10,928 [INFO] Not a signed deal — skipping: TotalEnergies e KKR fecham acordo de US$ 1,2 bi para incluir
+2026-10-12 16:31:10,928 [INFO] Run complete. New deals: 0, Updates: 0
+2026-10-12 16:31:10,944 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1489 deals)
+2026-10-12 16:31:12,260 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
