@@ -1,0 +1,158 @@
+2026-10-16 12:02:58,815 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-16 12:02:58,821 [INFO] Loaded 1648 existing deals for dedup matching
+2026-10-16 12:02:58,821 [INFO] Searching from 2026-10-16 to present with 3 loockback days
+2026-10-16 12:02:59,069 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-16 12:03:00,317 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-16 12:03:01,408 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-16 12:03:02,811 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-16&hl=en&gl=US&ceid=US:en: 6 results
+2026-10-16 12:03:05,115 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-16&hl=en&gl=US&ceid=US:en: 0 results
+2026-10-16 12:03:07,346 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-16&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-16 12:03:09,596 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-16&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-16 12:03:11,866 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-16&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-16 12:03:14,166 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-16&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-16 12:03:16,421 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-16&hl=es&gl=ES&ceid=ES:es: 3 results
+2026-10-16 12:03:18,678 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-16&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-10-16 12:03:20,906 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-16&hl=it&gl=IT&ceid=IT:it: 2 results
+2026-10-16 12:03:23,171 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-16&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-16 12:03:25,454 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-16&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-16 12:03:27,653 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-16&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-16 12:03:29,938 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-16&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-16 12:03:32,219 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-16&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-16 12:03:34,551 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-16&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-16 12:03:36,551 [INFO] Total raw articles collected: 13
+2026-10-16 12:03:36,914 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-10-16 12:03:38,544 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-10-16 12:03:39,553 [INFO] Unique unseen articles: 11
+2026-10-16 12:03:39,553 [INFO] ------- Processing article n. 0: EU member states struggle to reach an agreement to lower energy prices - Le Mond -------
+2026-10-16 12:03:39,681 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaUExS0hFb0Z3VEpCVkczMndIdmRzeEQ3V1VKLWNwVFR1OVNlMWxEX2JocWxjOW8xcEhhaVdUdUFEUUJLSnRZSmcweTBaRGxMenQ1eTMzS1ZhM1ZscDVKcUQ5RUpjQXdYZzVCUHhZeV9iMWM1TENTaEdobGM1ZVJDWEpLd3ZaUmI1anNhVk5JcU9jRHZLNnNHbmJaaFQ0TWRUNTR4VUNuVk1XbUt3MEtyN1RyN3poZ1hMQlY3WlNSNk5fOTRPZ2NlbmJ5aUM5MkhJQWZsODRlWGF3YU9hOWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:03:40,783 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:03:40,783 [INFO] Resolved Google News URL: https://www.lemonde.fr/en/economy/article/2026/10/16/eu-struggles-to-agree-on-fuel-energy-price-cuts
+2026-10-16 12:03:40,783 [INFO] URL: https://www.lemonde.fr/en/economy/article/2026/10/16/eu-struggles-to-agree-on-fuel-energy-price-cuts-leaving-its-economy-in-peril_6758671_19.html
+2026-10-16 12:03:40,950 [INFO] Full text skipped (status 402): https://www.lemonde.fr/en/economy/article/2026/10/16/eu-struggles-to-agree-on-fu
+2026-10-16 12:03:40,951 [INFO] Text length: 181 chars | source: fallback
+2026-10-16 12:03:40,951 [INFO] Text preview: EU member states struggle to reach an agreement to lower energy prices - Le Monde.fr
+
+EU member states struggle to reach an agreement to lower energy prices &nbsp;&nbsp; Le Monde.fr...
+2026-10-16 12:03:40,951 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:03:41,448 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EU member states struggle to reach an agreement to lower ene
+2026-10-16 12:03:41,449 [INFO] LLM extracted 1 deals | EU member states struggle to reach an agreement to
+2026-10-16 12:03:41,451 [INFO] Not a signed deal — skipping: EU member states struggle to reach an agreement to lower ene
+2026-10-16 12:03:41,451 [INFO] ------- Processing article n. 0: India?s largest utility, NTPC, to deploy 247Solar's advanced solar thermal techn -------
+2026-10-16 12:03:41,529 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxOU3A3aGdvQmo5U3JHTnBlMEFQcU8yeXNKNnZEdVRocjVTQ3Jxa3RrelNkRXJxdG5tODI1SGFWZmZIRXZHX0J2Szh0RUdaejBVaW9ERS1DOFh1TXpLd1gwWUh0YklXeVlRTDJNTWZ4TFFPak9yc1c4MEcxbEVQVXQwN2V2YkF0Unk1eWY4SjBGMkk5WnpCS0VkUEZlQUVhQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:03:42,615 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:03:42,616 [INFO] Resolved Google News URL: https://www.renewableenergymagazine.com/pv_solar/indiaa-s-largest-utility-ntpc-to-deploy-20261016
+2026-10-16 12:03:42,616 [INFO] URL: https://www.renewableenergymagazine.com/pv_solar/indiaa-s-largest-utility-ntpc-to-deploy-20261016
+2026-10-16 12:03:43,163 [INFO] Text length: 3391 chars | source: full
+2026-10-16 12:03:43,163 [INFO] Text preview: 247Solar has dramatically improved on the first generation of solar thermal technologies for generating round-the-clock clean electricity. The deployment of the company’s solar thermal technology will...
+2026-10-16 12:03:43,163 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:03:56,686 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: India?s largest utility, NTPC, to deploy 247Solar's advanced
+2026-10-16 12:03:56,687 [INFO] LLM extracted 1 deals | India?s largest utility, NTPC, to deploy 247Solar'
+2026-10-16 12:03:56,688 [INFO] Not a signed deal — skipping: India?s largest utility, NTPC, to deploy 247Solar's advanced
+2026-10-16 12:03:56,688 [INFO] ------- Processing article n. 0: UK gov’t rejects AI Growth Zone bid to power data center with Drax biomass plant -------
+2026-10-16 12:03:56,766 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizwFBVV95cUxPZnlBa2ZXTy1lZENPblZDTXRlZGhPY2p2QjMyU29SUzN4R29NX3g1d3V0Mnd4bnd3NWNzY0JjVnJUeUVnRGg5RW50N1pWUDVXS2hObEhqRjVsVjhBeFQzXzRqMHhvbm4yUU8yeHc0ZWRnMktXcEwzcnA0R2RkWlZLdTZ0bm4zTmdPX2d3OUFCQUJHNTVKcmpZeEZsQ0ZHOU90djdJUndnemdDeG91Y1Z4WXRZVlhjTHIxS3k5LWRvU2NzWVBnNHNRVTlnNXBKelk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:03:57,873 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:03:57,873 [INFO] Resolved Google News URL: https://bebeez.eu/2026/10/16/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-bioma
+2026-10-16 12:03:57,873 [INFO] URL: https://bebeez.eu/2026/10/16/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire/
+2026-10-16 12:03:58,870 [INFO] Text length: 2886 chars | source: full
+2026-10-16 12:03:58,870 [INFO] Text preview: The UK government has rejected a bid by North Yorkshire Council, the University of York, and energy company Drax to utilize a bioenergy power plant near Selby, North Yorkshire, to power an AI data cen...
+2026-10-16 12:03:58,870 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:04:12,336 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: UK gov’t rejects AI Growth Zone bid to power data center wit
+2026-10-16 12:04:12,337 [INFO] LLM extracted 1 deals | UK gov’t rejects AI Growth Zone bid to power data 
+2026-10-16 12:04:12,338 [INFO] Non-electricity energy deal — skipping: UK gov’t rejects AI Growth Zone bid to power data center wit
+2026-10-16 12:04:12,338 [INFO] ------- Processing article n. 0: EU leaders urge urgent action on energy prices, single market reforms - Anadolu  -------
+2026-10-16 12:04:12,419 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDZNLTlXNGhyTUhSWXZuOGd2WXZJckdDZTFhN1YtVDFTRC0xQWtYcThnQndsa1lXZmRyaUk2eDF0b3dNeTYxUm5aUHVlMEFXdm1OdUNacTVDaWZPTVpTRmlzQ1B1RlluWEtUSDJlTXJpTW1US3JjNld1T3YtN05ISk9nUVpLVy11Q3gtUTY4bl80WWY0N0xPRHBHbkVLclZEa2pSUlZYOTMzd1R2M3FNSE5TVlDSAbwBQVVfeXFMUHVkd1B2cmQtUGdUSTVtVlNiNEdZVE1TbTJocEticy1tT20wUmkzSmItTWUzVWx1VGo1NnhKdWt2WDljWjA2YUJncDRXTHFZLUh6Y2pVZ185cVVZRGNfcDZvZFhkbEFBQXF0ZjNwclB2WFRoM0JMcmNFeVJVTlZKVXJMNG1xYlFnc2ZjT0xHSWlxb0tnMWJzdmRHaHNVeWxMY1JyRkdNdF9uWVd6bHZhaVFrQVN5QXBxTVNHdnM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:04:13,519 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:04:13,520 [INFO] Resolved Google News URL: https://www.aa.com.tr/en/energy/general/eu-leaders-urge-urgent-action-on-energy-prices-single-market
+2026-10-16 12:04:13,520 [INFO] URL: https://www.aa.com.tr/en/energy/general/eu-leaders-urge-urgent-action-on-energy-prices-single-market-reforms/60291
+2026-10-16 12:04:15,530 [INFO] Text length: 1820 chars | source: full
+2026-10-16 12:04:15,530 [INFO] Text preview: EU leaders called for urgent action to tackle soaring energy prices, reduce regulatory burdens and strengthen competitiveness, according to European Council summit conclusions released early Friday.
+T...
+2026-10-16 12:04:15,530 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:04:26,443 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EU leaders urge urgent action on energy prices, single marke
+2026-10-16 12:04:26,443 [INFO] LLM extracted 1 deals | EU leaders urge urgent action on energy prices, si
+2026-10-16 12:04:26,445 [INFO] Not a signed deal — skipping: EU leaders urge urgent action on energy prices, single marke
+2026-10-16 12:04:26,445 [INFO] ------- Processing article n. 0: Türkiye, Romania eye deeper energy ties through gas, renewables - Anadolu Ajansı -------
+2026-10-16 12:04:26,519 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxOLXVDaWFXY0lXNmxaZl9SdmhjR1daZHVSNW5uelU4MURqSjV1QzJyWlpLSWUzSlQ0cjBKbHJsYkZDcU9wRWNjOUFQX3Rvc3I1MWVic21CMkFhU1NodXRsdmlQclhHczNYTjkxSmJUcWhUWTB3SEhOd0xJLXhoa2VyZnI0bWNpVm91Y3dfSnZJZ3RCU3dibWdaRmJUcVhSRUotUzlWNFpTRkN3Z2ktN1HSAbABQVVfeXFMTjFFSW5uN2hmWm5mS0c2Z0Y0ZTdrQ0xUT2FYUmljQVRRN2JQc1JhTzJHTWp6bkk1SldweVdsMGotRlFfdGpWWXF2SzFJbEVtTXFDNHFOMnpFbnNyMGE1UEY5R0U3QmJqdzluVy1vQ0lsLUtyYmJwX3Q3NFc1Y05JeHNvM3M4d2tIWkxSTllJVnRoTTdSN1ExSjF2bExZSW5rZmNwOHMxeUFES3NpaU5yaTM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:04:27,632 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:04:27,633 [INFO] Resolved Google News URL: https://www.aa.com.tr/en/energy/renewable/turkiye-romania-eye-deeper-energy-ties-through-gas-renewab
+2026-10-16 12:04:27,633 [INFO] URL: https://www.aa.com.tr/en/energy/renewable/turkiye-romania-eye-deeper-energy-ties-through-gas-renewables/60305
+2026-10-16 12:04:30,048 [INFO] Text length: 6127 chars | source: full
+2026-10-16 12:04:30,048 [INFO] Text preview: Türkiye and Romania are seeking to deepen energy cooperation through natural gas, liquefied petroleum gas (LPG), regional infrastructure and renewable energy investments, with Ukraine's reconstruction...
+2026-10-16 12:04:30,048 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:04:41,761 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Türkiye, Romania eye deeper energy ties through gas, renewab
+2026-10-16 12:04:41,762 [INFO] LLM extracted 1 deals | Türkiye, Romania eye deeper energy ties through ga
+2026-10-16 12:04:41,763 [INFO] Not a signed deal — skipping: Türkiye, Romania eye deeper energy ties through gas, renewab
+2026-10-16 12:04:41,763 [INFO] ------- Processing article n. 0: UTE licitará la compra de energía solar de tres parques por 99 MW en Uruguay - E -------
+2026-10-16 12:04:41,837 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxPNkNzMVR0Mk8ydTZ5cEtqc2xlZFM0dy1WRkUyMUNBUEtZU1p4NTVkSW9jUU1xT1MtTlgwY0tHQ1pNekJTU2JnSk02U3VDQUE0N1R6TEJEcXI3dGlId29BcFpvMDBqSXNMZTdVeDF4cFpObHhPdHBER3FXbWM4ek5GMmFjaFMyVkRqaGJNQXhoZXBGY2JlNWZtT3IyLTNObFZnbXNhRENMZ21oOUlHLXpkeHpTQ3BuRVRSTGIycg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:04:42,941 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:04:42,941 [INFO] Resolved Google News URL: https://www.energiaestrategica.com/es/notes/ute-licitara-la-compra-de-energia-solar-de-tres-parques-
+2026-10-16 12:04:42,941 [INFO] URL: https://www.energiaestrategica.com/es/notes/ute-licitara-la-compra-de-energia-solar-de-tres-parques-por-99-mw-en-uruguay
+2026-10-16 12:04:43,172 [INFO] Text length: 9665 chars | source: full
+2026-10-16 12:04:43,172 [INFO] Text preview: La Administración Nacional de Usinas y Trasmisiones Eléctricas (UTE) de Uruguay prepara una licitación para comprar la energía eléctrica producida por tres nuevos parques solares fotovoltaicos , que s...
+2026-10-16 12:04:43,172 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:04:57,705 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: UTE licitará la compra de energía solar de tres parques por 
+2026-10-16 12:04:57,705 [INFO] LLM extracted 1 deals | UTE licitará la compra de energía solar de tres pa
+2026-10-16 12:04:57,706 [INFO] Not a signed deal — skipping: UTE licitará la compra de energía solar de tres parques por 
+2026-10-16 12:04:57,706 [INFO] ------- Processing article n. 0: Moyuela reúne en un encuentro a las mujeres que hacen territorio - El Periódico  -------
+2026-10-16 12:04:57,781 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0RDcy1ydmV1d29uWTI1LS1IellobDY3REhKeTY3RkpfbEdrYzgyRE1BUU90U2JHbHVLallRNHltRHhvT05ETDY4MEJIUThqb3YydnpwYUd3MzlIRHM5Ym9YQjZ2X1hINmttTTFfc2tHN1laZXVqakxpcHJFYjdPeTJLYjlSTlE0TmRubnEwYUpSeF9LdzdVVEJRb04zdnc0cGx6XzZ3UHc5WjFYRHRJMlktcVRpNVBKMlhTV2VaNmdaQmM3TWk0XzVEd9IB0AFBVV95cUxQTWRMQ21ZbGlXYnJUbVhPcDB1djQ1dEtSbnFBRFBEVnRxY3dSTm1aamNaNE9BRzd0RHMyVS16ZDZmTUx3Q3cwZkN4Y1c1c0d5WXZhSUhMNHdLYWFpcGJkblVjSDY3RWNKUjBxbko5V2xrOTV5aFdwTUdZYk9XVGFMcGlGWTdlUTFaSTI1YXp5VnE4bFhkeUlBOUFKMFR5SmhpZE1jZUFRbHc2VmU0SW56aFBLYzlLMzNDYWticmZKSjF3TzhvdEVTVTJsNXlQV0ZH?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:04:58,877 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:04:58,878 [INFO] Resolved Google News URL: https://www.elperiodicodearagon.com/zaragoza/campo-de-belchite/2026/10/16/moyuela-reune-encuentro-mu
+2026-10-16 12:04:58,878 [INFO] URL: https://www.elperiodicodearagon.com/zaragoza/campo-de-belchite/2026/10/16/moyuela-reune-encuentro-mujeres-territorio-135404583.html
+2026-10-16 12:04:59,414 [INFO] Text length: 2878 chars | source: full
+2026-10-16 12:04:59,414 [INFO] Text preview: La Crónica del Campo de Belchite
+Las mujeres del Campo de Belchite tienen una cita el próximo sábado 28 de noviembre en Moyuela. La localidad acogerá un encuentro abierto y participativo organizado po...
+2026-10-16 12:04:59,414 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:05:12,596 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Moyuela reúne en un encuentro a las mujeres que hacen territ
+2026-10-16 12:05:12,597 [INFO] LLM extracted 1 deals | Moyuela reúne en un encuentro a las mujeres que ha
+2026-10-16 12:05:12,604 [INFO] UPDATE: Microsoft / Zelestra (Spain, None MW) — canonical ID: 860
+2026-10-16 12:05:17,606 [INFO] ------- Processing article n. 1: Los detalles del acuerdo con Solaria: las obras a las que se compromete UTE, las -------
+2026-10-16 12:05:17,710 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikAJBVV95cUxPcVdFYUFmUWV0elJCSmZSdnNhRVh6TWUtTkFibmpPNWVNaU9GY01ocC1ubDlKamxRZjdpQldSbGlfNDBoQmtBLWJiMGctYmpjUnhUaHo3TTY4VjBwRU5MMEF3V2ZYTS1LQmRVckZ5SmlsVGEzN3V3T0U2SklVTVdLbHlkdTNHc2M2NWRfeXJHcDJpaUkxcjNpXy1WTjNmMnBYQ2J2VDZ5NzY1ZHVTV2R4ZVQtSjhxNVpVV0JrQW9JOThXeVdFQ2NVM2xSMTZOem4wRXlJb3VXbkpRRThqMGhpbEo3VjVxZ3RSM3BIdVk1a2pFVVdnQzhkNGJCM05CNUs5WDVIMGZxSHprb1NQUWZNLQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:05:18,828 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:05:18,828 [INFO] Resolved Google News URL: https://www.elobservador.com.uy/nacional/los-detalles-del-acuerdo-solaria-las-obras-las-que-se-compr
+2026-10-16 12:05:18,828 [INFO] URL: https://www.elobservador.com.uy/nacional/los-detalles-del-acuerdo-solaria-las-obras-las-que-se-compromete-ute-las-700-hectareas-parque-solar-y-la-referencia-del-precio-google-n6060623
+2026-10-16 12:05:19,152 [INFO] Text length: 7478 chars | source: full
+2026-10-16 12:05:19,152 [INFO] Text preview: A partir del anuncio del presidente Yamandú Orsi, el Estado uruguayo firmó un Memorándum de Entendimiento (MOU) con Solaria para el desarrollo de un centro de datos de gran escala e inversiones en gen...
+2026-10-16 12:05:19,152 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:05:26,751 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Los detalles del acuerdo con Solaria: las obras a las que se
+2026-10-16 12:05:26,751 [INFO] LLM extracted 1 deals | Los detalles del acuerdo con Solaria: las obras a 
+2026-10-16 12:05:26,753 [INFO] Not a signed deal — skipping: Los detalles del acuerdo con Solaria: las obras a las que se
+2026-10-16 12:05:26,753 [INFO] ------- Processing article n. 1: La industria española resiste y recupera los niveles previos a la guerra de Ucra -------
+2026-10-16 12:05:26,838 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxOVkNOcXZ5dzRNOTRMV2JQOGMyY3AySFlvYklqZ1hqY0NTWnpDZDEzcWdMNTQ3MmgxTnF3RWhWdnMwQ0tLMVlpb1ZpdlRwOEV4Q2FiSERSLUFBZmx6REk4SmN4bGVJYVlqSUtjcENMbGtxTnpwRXZTckdEYTA4d0NqN0hvVC1QOWFpeklFTk5yOGdJVDYzQTJhSk9n?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:05:27,935 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:05:27,935 [INFO] Resolved Google News URL: https://www.muypymes.com/2026/10/16/industria-espanola-resiste-recupera-niveles-guerra-ucrania
+2026-10-16 12:05:27,936 [INFO] URL: https://www.muypymes.com/2026/10/16/industria-espanola-resiste-recupera-niveles-guerra-ucrania
+2026-10-16 12:05:28,623 [INFO] Text length: 5156 chars | source: full
+2026-10-16 12:05:28,623 [INFO] Text preview: La industria europea sigue luchando por recuperarse de las repetidas crisis energéticas y geopolíticas. Sin embargo, en este contexto incierto, España destaca como una excepción. Su producción manufac...
+2026-10-16 12:05:28,623 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:05:41,642 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: La industria española resiste y recupera los niveles previos
+2026-10-16 12:05:41,642 [INFO] LLM extracted 1 deals | La industria española resiste y recupera los nivel
+2026-10-16 12:05:41,644 [INFO] Not a signed deal — skipping: La industria española resiste y recupera los niveles previos
+2026-10-16 12:05:41,644 [INFO] ------- Processing article n. 1: Avanzan proyectos de energía renovable - Reforma -------
+2026-10-16 12:05:41,725 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifEFVX3lxTE1NZHdzb0lqN2paQjBSY3FLNTZHaEV5STAzSTNtTDhJOE1XcmVKd1VvUG9Tcm1ScDJNRHI5azV0SS0tWXNCSjNlWGdpOERGbFRKbmpOTWtjazJPVlZwMllkZ1o2TFhoZ3l5TUZxZVVKQm1OYWJRckx2RFI4RkU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:05:42,824 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:05:42,825 [INFO] Resolved Google News URL: https://www.reforma.com/avanzan-proyectos-de-energia-renovable/ar3295940
+2026-10-16 12:05:42,825 [INFO] URL: https://www.reforma.com/avanzan-proyectos-de-energia-renovable/ar3295940
+2026-10-16 12:05:42,934 [INFO] Text length: 520 chars | source: full
+2026-10-16 12:05:42,934 [INFO] Text preview: Avanzan proyectos de energía renovable
+02 MIN 00 SEG
+Mario López
+Cd. de México (16 octubre 2026) .-05:00 hrs
+De acuerdo con Carranza, estos proyectos tienen mayores probabilidades de ser rentables par...
+2026-10-16 12:05:42,934 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:05:56,546 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Avanzan proyectos de energía renovable - Reforma
+2026-10-16 12:05:56,546 [INFO] LLM extracted 1 deals | Avanzan proyectos de energía renovable - Reforma
+2026-10-16 12:05:56,547 [INFO] Not a signed deal — skipping: Avanzan proyectos de energía renovable - Reforma
+2026-10-16 12:05:56,547 [INFO] ------- Processing article n. 1: Luce, arriva la tariffa a prezzo fisso per 20 anni: quanto costa e cosa sapere - -------
+2026-10-16 12:05:56,622 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdlhad0xjcndfdzZvX2xpRXZqMWdFaGU4WnFDMklFT2pUb1Fpc2ZFQ04zaU43M3NmaklGWm1aeGl2QXZLWG9Xa2RFTVZsaGxhaTQ5a3pnTFRoeUNvNDBzOGFaYzc0Vld0d3d4VVhuODNJYkNiOXpuUXk2QlhjWXZNVWhXS0l1VnpPRk1WMks2UHItWWRsZlNzcWhCbHlUanpQTkx0NnJtVFhEZUgwZVJaZFJJUy1GUzA2dm4tUFBEeFY1QWVwOGI4OU4zYlVTQklyRXEtOdIB1AFBVV95cUxPdlhad0xjcndfdzZvX2xpRXZqMWdFaGU4WnFDMklFT2pUb1Fpc2ZFQ04zaU43M3NmaklGWm1aeGl2QXZLWG9Xa2RFTVZsaGxhaTQ5a3pnTFRoeUNvNDBzOGFaYzc0Vld0d3d4VVhuODNJYkNiOXpuUXk2QlhjWXZNVWhXS0l1VnpPRk1WMks2UHItWWRsZlNzcWhCbHlUanpQTkx0NnJtVFhEZUgwZVJaZFJJUy1GUzA2dm4tUFBEeFY1QWVwOGI4OU4zYlVTQklyRXEtOQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-16 12:05:57,704 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-16 12:05:57,705 [INFO] Resolved Google News URL: https://www.lastampa.it/energie/2026/10/16/news/luce_arriva_la_tariffa_a_prezzo_fisso_per_20_anni_qu
+2026-10-16 12:05:57,705 [INFO] URL: https://www.lastampa.it/energie/2026/10/16/news/luce_arriva_la_tariffa_a_prezzo_fisso_per_20_anni_quanto_costa_e_cosa_sapere-15768126/amp/
+2026-10-16 12:05:57,945 [INFO] Text length: 4544 chars | source: full
+2026-10-16 12:05:57,945 [INFO] Text preview: MILANO. Prezzi bloccati per 20 anni. Con le quotazioni dell’energia tornati a salire nelle ultime settimane e uno scenario ancora incerto, arriva sul mercato una nuova offerta luce che punta a protegg...
+2026-10-16 12:05:57,945 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-16 12:06:11,754 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Luce, arriva la tariffa a prezzo fisso per 20 anni: quanto c
+2026-10-16 12:06:11,754 [INFO] LLM extracted 1 deals | Luce, arriva la tariffa a prezzo fisso per 20 anni
+2026-10-16 12:06:11,755 [INFO] Not a signed deal — skipping: Luce, arriva la tariffa a prezzo fisso per 20 anni: quanto c
+2026-10-16 12:06:11,756 [INFO] Run complete. New deals: 0, Updates: 1
+2026-10-16 12:06:11,772 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1499 deals)
+2026-10-16 12:06:12,852 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
