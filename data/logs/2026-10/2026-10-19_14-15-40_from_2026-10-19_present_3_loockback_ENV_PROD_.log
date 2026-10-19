@@ -1,0 +1,510 @@
+2026-10-19 14:15:40,810 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-19 14:15:40,815 [INFO] Loaded 1650 existing deals for dedup matching
+2026-10-19 14:15:40,815 [INFO] Searching from 2026-10-19 to present with 3 loockback days
+2026-10-19 14:15:40,983 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-19 14:15:42,354 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-19 14:15:43,514 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-19 14:15:44,978 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-19&hl=en&gl=US&ceid=US:en: 14 results
+2026-10-19 14:15:47,327 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-19&hl=en&gl=US&ceid=US:en: 8 results
+2026-10-19 14:15:49,571 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-19&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-19 14:15:51,811 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-19&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-19 14:15:54,089 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-19&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-10-19 14:15:56,359 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-19&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-19 14:15:58,649 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-19&hl=es&gl=ES&ceid=ES:es: 5 results
+2026-10-19 14:16:00,889 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-19&hl=es&gl=ES&ceid=ES:es: 5 results
+2026-10-19 14:16:03,144 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-19&hl=it&gl=IT&ceid=IT:it: 4 results
+2026-10-19 14:16:05,403 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-19&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-19 14:16:07,650 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-19&hl=pl&gl=PL&ceid=PL:pl: 2 results
+2026-10-19 14:16:09,867 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-19&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-19 14:16:12,149 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-19&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-19 14:16:14,498 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-19&hl=pt&gl=PT&ceid=PT:pt: 3 results
+2026-10-19 14:16:16,805 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-19&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-19 14:16:18,805 [INFO] Total raw articles collected: 43
+2026-10-19 14:16:18,980 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-10-19 14:16:20,714 [INFO] Extra RSS [elperiodicodelaenergia.com]: 2 results
+2026-10-19 14:16:21,722 [INFO] Unique unseen articles: 40
+2026-10-19 14:16:21,722 [INFO] ------- Processing article n. 0: SSE completes Microsoft-contracted wind farm in Italy - Renewables Now -------
+2026-10-19 14:16:21,870 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxPRkJwTUozUUhMSDZ0MlJ6QzVPVXdCMk9QS2hkd3FqTnVycWNJcWhHU2VhcVJiVEtkdGdEYzVKMC03ZGEwNm1CWWh0bUowV0JxMUt4U2dDd3FFYzFnOGZRa2JtYnJOcUZ2cWRZZWZTMWJJVG5VdTFmRVE4RENUT18wZi0zb2xlZ0JKWlhKRDd5UmhIMHdRb29JNQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:16:22,998 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:16:22,999 [INFO] Resolved Google News URL: https://renewablesnow.com/news/sse-completes-microsoft-contracted-wind-farm-in-italy-1303262/
+2026-10-19 14:16:22,999 [INFO] URL: https://renewablesnow.com/news/sse-completes-microsoft-contracted-wind-farm-in-italy-1303262/
+2026-10-19 14:16:23,107 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/sse-completes-microsoft-contracted-wind-farm-in-i
+2026-10-19 14:16:23,107 [INFO] Text length: 153 chars | source: fallback
+2026-10-19 14:16:23,107 [INFO] Text preview: SSE completes Microsoft-contracted wind farm in Italy - Renewables Now
+
+SSE completes Microsoft-contracted wind farm in Italy &nbsp;&nbsp; Renewables Now...
+2026-10-19 14:16:23,107 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:16:23,988 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: SSE completes Microsoft-contracted wind farm in Italy - Rene
+2026-10-19 14:16:23,989 [INFO] LLM extracted 1 deals | SSE completes Microsoft-contracted wind farm in It
+2026-10-19 14:16:24,001 [INFO] NEW: Microsoft / SSE (Italy, None MW)
+2026-10-19 14:16:29,003 [INFO] ------- Processing article n. 1: Europe Solar PV News Snippets: Enery Opens Subsidy-Free Solar Plant In Czech Rep -------
+2026-10-19 14:16:29,130 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihwFBVV95cUxQX2lIOTNfbDBVa0IzMjlDeExmR0JaQ1JVSVlCOUp2NC1fN3AwVV9Kd0FBM00tSU8wdkhHbzE4WVIyekNHdEczQnpCUVJqdTlYVVJPd3ZFNzFHOEs5M3FzOXFrRWliVlhGQTk1a2Z4MU9jSjYzMVU5cU1reWh2QlVmZmJfakdXN2M?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:16:30,288 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:16:30,289 [INFO] Resolved Google News URL: https://taiyangnews.info/markets/europe-solar-pv-news-snippets-october-19-2026-2
+2026-10-19 14:16:30,289 [INFO] URL: https://taiyangnews.info/markets/europe-solar-pv-news-snippets-october-19-2026-2
+2026-10-19 14:16:30,429 [INFO] Text length: 5357 chars | source: full
+2026-10-19 14:16:30,429 [INFO] Text preview: Austria’s Enery has commissioned the 37 MW Stella PV Solar Power Plant in Dynín, South Bohemia, Czech Republic. Built without investment subsidies, the project is backed by a long-term green power pur...
+2026-10-19 14:16:30,430 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:16:39,266 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Europe Solar PV News Snippets: Enery Opens Subsidy-Free Sola
+2026-10-19 14:16:39,267 [INFO] LLM extracted 1 deals | Europe Solar PV News Snippets: Enery Opens Subsidy
+2026-10-19 14:16:39,279 [INFO] UPDATE: Benteler / Enery (Czech Republic, 37 MW) — canonical ID: 2004
+2026-10-19 14:16:44,280 [INFO] ------- Processing article n. 2: ACME Solar signs 300MW peak power PPA with India’s SECI - Energy Monitor -------
+2026-10-19 14:16:44,384 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTE9tYWhESXlBempBRkNsZzNsTGxsUHRrUEVycEQ0U3NrVkpnTkR2cWVOaHFVTXVrM1NISGtHUzFpM2djdXh5S1BiRllnRGJNTGxIMlpYYzBWMS1tY1VTRjJzVDZyWlliWFFnUkdfNw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:16:45,560 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:16:45,561 [INFO] Resolved Google News URL: https://www.energymonitor.ai/news/acme-solar-300mw-ppa-seci/
+2026-10-19 14:16:45,561 [INFO] URL: https://www.energymonitor.ai/news/acme-solar-300mw-ppa-seci/
+2026-10-19 14:16:45,661 [INFO] Text length: 2685 chars | source: full
+2026-10-19 14:16:45,661 [INFO] Text preview: ACME Solar, through its subsidiary ACME Greentech Twenty, has entered into a power purchase agreement (PPA) with the Solar Energy Corporation of India (SECI) to deliver 300MW/1.2GW-hours (GWh) of assu...
+2026-10-19 14:16:45,662 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:16:54,161 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ACME Solar signs 300MW peak power PPA with India’s SECI - En
+2026-10-19 14:16:54,161 [INFO] LLM extracted 1 deals | ACME Solar signs 300MW peak power PPA with India’s
+2026-10-19 14:16:54,162 [INFO] Not a European deal — skipping: Solar Energy Corporation of India (SECI) / ACME Solar (via ACME Greentech Twenty) (India, 300 MW)
+2026-10-19 14:16:54,162 [INFO] ------- Processing article n. 2: India’s ACME Solar signs 300 MW/1,200 MWh PPA at $0.063/kWh - pv magazine Global -------
+2026-10-19 14:16:54,258 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxOYzFoR085N3VhcVhZT1Fqbm9UcXkzYkxpb3hsZkhlcEFFdnNyYjVGM0EzdW9tUDBOaDdvZE4xWW5Gc1pUQUVGNWhwV0xsaVFZNUZDSFZicnpBVUpGelQzOS1mdVpWb0dyUTg4Nm9aTU5CSVNaSF9YV2xoOWZTb1FwZ2VpWU1oRGVFandFUGFCSU8wTWtMaFRoeEk5OEk5c3pVdnNpY0Rqd2U4TG9LZVFfbkVuLXYtWnc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:16:55,378 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:16:55,378 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre-proje
+2026-10-19 14:16:55,378 [INFO] URL: https://www.pv-magazine.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre-project-at-inr-6-kwh/
+2026-10-19 14:16:55,737 [INFO] Text length: 1503 chars | source: full
+2026-10-19 14:16:55,738 [INFO] Text preview: Indian renewable energy independent power producer ACME Solar, through its subsidiary ACME Greentech Twenty Pvt Ltd, has signed a power procurement agreement (PPA) with Solar Energy Corporation of Ind...
+2026-10-19 14:16:55,738 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:17:09,411 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: India’s ACME Solar signs 300 MW/1,200 MWh PPA at $0.063/kWh 
+2026-10-19 14:17:09,412 [INFO] LLM extracted 1 deals | India’s ACME Solar signs 300 MW/1,200 MWh PPA at $
+2026-10-19 14:17:09,414 [INFO] Not a European deal — skipping: Solar Energy Corporation of India / ACME Solar (India, 300 MW)
+2026-10-19 14:17:09,414 [INFO] ------- Processing article n. 2: SSE starts operations at first Italian wind farm - reNEWS -------
+2026-10-19 14:17:09,515 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxQbG1pWDFzTW82UjNncTJwb0p3aERObk41VWphclAxdlV6TlFxbHdiLWlYbGhXZzNueWtOb0JJa1hSWjNtOVNra1BOVkc2blFaWmdsSDZHYU5IMmFuZ3ROTHN0bHpZQzR1aEJRcnpzUkV1Rlo0ZFRoZ2s3TV8xUURmY2t4N00tUWZKYlF6V0p3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:17:10,674 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:17:10,675 [INFO] Resolved Google News URL: https://www.renews.biz/onshore-wind/sse-starts-operations-at-first-italian-wind-farm/
+2026-10-19 14:17:10,675 [INFO] URL: https://www.renews.biz/onshore-wind/sse-starts-operations-at-first-italian-wind-farm/
+2026-10-19 14:17:11,564 [INFO] Text length: 1617 chars | source: full
+2026-10-19 14:17:11,565 [INFO] Text preview: SSE’s first operational renewable energy asset in Italy, the 17.3MW Castel Favorito and Masseria la Cattiva wind farm in Puglia, has begun exporting electricity to the local grid.
+The company said the...
+2026-10-19 14:17:11,565 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:17:23,991 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: SSE starts operations at first Italian wind farm - reNEWS
+2026-10-19 14:17:23,991 [INFO] LLM extracted 1 deals | SSE starts operations at first Italian wind farm -
+2026-10-19 14:17:24,003 [INFO] UPDATE: Microsoft / SSE (Italy, 17.3 MW)
+2026-10-19 14:17:29,004 [INFO] ------- Processing article n. 3: Independent power producer ContourGlobal held a groundbreaking ceremon - Shangha -------
+2026-10-19 14:17:29,101 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbjNRWGNrZVZnZFdsVFR1S1NXOXBhWTZxanVNd0MtWjMwNnFxS29RdkR2SGdZQ0l6NnpGcm1EcXJERURNV0Jmd3NZdEx3STAwNDBuNWY0VnJFaGpRc2lIUjJ6YXc2NW9QcjEwVzJnOWlrMkdqajZ6MThKbGQwVXRFWm9qMDJTMTZ2TUZoY3JfZlRLSnZZdDUxRjFWZ2U2REJVM3oyWFhHTG41ZkRhSzA5ZkVENHdaUm0yOUV3LWhfUGt5SERydTVvbHctejY1aDItMzN4bmxJR2hHMXZETXUyTDRUSEk3M2tIVzI1QnpyWnNyWFE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:17:30,229 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:17:30,230 [INFO] Resolved Google News URL: https://news.metal.com/en/newscontent/104165317-smm-pv-flash-contourglobal-breaks-ground-on-509-mw-d
+2026-10-19 14:17:30,230 [INFO] URL: https://news.metal.com/en/newscontent/104165317-smm-pv-flash-contourglobal-breaks-ground-on-509-mw-dc-solar-plus-14-gwh-battery-project-in-arizona-with-tesla-ppa
+2026-10-19 14:17:31,616 [INFO] Text length: 1408 chars | source: full
+2026-10-19 14:17:31,617 [INFO] Text preview: [SMM PV Flash] ContourGlobal Breaks Ground on 509 MW DC Solar Plus 1.4 GWh Battery Project in Arizona with Tesla PPA
+Independent power producer ContourGlobal held a groundbreaking ceremony in early Oc...
+2026-10-19 14:17:31,617 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:17:39,015 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Independent power producer ContourGlobal held a groundbreaki
+2026-10-19 14:17:39,015 [INFO] LLM extracted 1 deals | Independent power producer ContourGlobal held a gr
+2026-10-19 14:17:39,016 [INFO] Not a European deal — skipping: Tesla / ContourGlobal (United States, 509 MW)
+2026-10-19 14:17:39,016 [INFO] ------- Processing article n. 3: Rubio links Europe’s Russian energy dependence to Putin’s invasion of Ukraine -  -------
+2026-10-19 14:17:39,109 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxPOGhkelVReS1qMmg2NVpOdzlHX2lRQVh6NE5LM0VFYV9PSERRZ0NqS1FrdGxnbkJmVVNNX0lweE9hOERpSzFkVndjenN2N0xKQU5TS3JVVk1hR29hbnJUVUN5ekRyRjVpQ2JOLXhtcDlycjdfRl9FbjdiSTZtRXNuZENIZDVuUDJiWC1RaTJJd1psOFZvZmExM2VoSVpRMF90UHRZQ21xa19wRk8wWXhkcDlDMkJjZWFPWVRrQdIBuAFBVV95cUxOdHE4S3RSd3hDZFpKdDFJRGtBRDVNZE9uV0ROS0k1aVVWUEE3a1FmUDBYU09ZR0oxejNSYVJPZkVlWEtKbkZ0WE1oZ1FRRl9mVXdLZ212dHBvWTN6X21aVzBfY0QtOVNZMFNwaFQ0QUI5dnRfS213aVdvdG00QUdqVWRLT3RnY1hYc2JGMjdsTzFyM1dON21tRXRnSmJsbGFMRWJoMklDcUJ0UUNHZ1hlNXFhSy1JZ0st?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:17:40,233 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:17:40,234 [INFO] Resolved Google News URL: https://english.nv.ua/nation/rubio-links-europe-s-russian-energy-dependence-to-putin-s-invasion-of-u
+2026-10-19 14:17:40,234 [INFO] URL: https://english.nv.ua/nation/rubio-links-europe-s-russian-energy-dependence-to-putin-s-invasion-of-ukraine-50651361.html
+2026-10-19 14:17:40,539 [INFO] Text length: 3077 chars | source: full
+2026-10-19 14:17:40,539 [INFO] Text preview: Europe’s dependence on Russian energy was one of the factors
+behind Russia’s decision to launch its full-scale invasion of Ukraine, U.S.
+Secretary of State Marco Rubio said in an interview with the co...
+2026-10-19 14:17:40,539 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:17:53,931 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rubio links Europe’s Russian energy dependence to Putin’s in
+2026-10-19 14:17:53,932 [INFO] LLM extracted 1 deals | Rubio links Europe’s Russian energy dependence to 
+2026-10-19 14:17:53,933 [INFO] Not a signed deal — skipping: Rubio links Europe’s Russian energy dependence to Putin’s in
+2026-10-19 14:17:53,933 [INFO] ------- Processing article n. 3: NTPC to deploy 247Solar’s solar thermal technology for round-the-clock clean pow -------
+2026-10-19 14:17:54,028 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxNVXgwd2JTYTA3TmMzNkthdWkyVnBPVlNQTXNmRlh6bnBoWjFjNmtETDFCbVVmZzBvNXlIYUJaLWlRV3gtLW1GV3ExaXVMQUpyblV4dk55a093NG4wNTh2dUtjSWhEVUdlaEE0UlJJLUVQVVppUnlRbjE0cWI1Um12WTVUeV8zbXZBODBtWUVHSlNWTUhIMzBsZU9ra1ZQR1Ywd3ZBSFJxU1FScWlMY3B1ZVUzV3VTX0ZHbWdJajJZN1JiSEM3OWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:17:55,157 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:17:55,158 [INFO] Resolved Google News URL: https://www.pv-magazine-india.com/2026/10/19/ntpc-to-deploy-247solars-solar-thermal-technology-for-r
+2026-10-19 14:17:55,158 [INFO] URL: https://www.pv-magazine-india.com/2026/10/19/ntpc-to-deploy-247solars-solar-thermal-technology-for-round-the-clock-clean-power/
+2026-10-19 14:17:55,534 [INFO] Text length: 3267 chars | source: full
+2026-10-19 14:17:55,534 [INFO] Text preview: NTPC to deploy 247Solar’s solar thermal technology for round-the-clock clean power
+NTPC Ltd has signed a 25-year PPA with US-based 247Solar for a hybrid power project at Bhadla Solar Park in Rajasthan...
+2026-10-19 14:17:55,534 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:18:08,824 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: NTPC to deploy 247Solar’s solar thermal technology for round
+2026-10-19 14:18:08,825 [INFO] LLM extracted 1 deals | NTPC to deploy 247Solar’s solar thermal technology
+2026-10-19 14:18:08,950 [INFO] Not a European deal — skipping: NTPC Ltd / 247Solar (India, 1 MW)
+2026-10-19 14:18:08,950 [INFO] ------- Processing article n. 3: Iran war drives firms to PPAs at half spot prices - Montel News -------
+2026-10-19 14:18:09,059 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxOUFJnRzJqeU9jSXhSclRfVkh3TXJKdktWaWd4WWF0YzhwVHRkVlk2enctRzA3UjJlc093MXFUamJRMTYtYlVzOVo3N3BtSVJxUmpKcGJEc0ZkWlZlZVh2cURRS3NQNkctSGdHSTBlMk5nWnhhVTllSkpzVmUySTBTMXN5ckQwRmJoX3dYdlAtcF91bHJuc2xBZ2IwVTBPR1A5eDg5aGZzeXZMUXRvcUdKTkNKWWs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:18:10,201 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:18:10,201 [INFO] Resolved Google News URL: https://montelnews.com/news/6568e788-7ab5-4e04-8452-4f4f757a9616/iran-war-drives-firms-to-ppas-at-ha
+2026-10-19 14:18:10,202 [INFO] URL: https://montelnews.com/news/6568e788-7ab5-4e04-8452-4f4f757a9616/iran-war-drives-firms-to-ppas-at-half-spot-prices
+2026-10-19 14:18:11,421 [INFO] Text length: 442 chars | source: full
+2026-10-19 14:18:11,421 [INFO] Text preview: Iran war drives firms to PPAs at half spot prices
+(Montel) A surge in spot power prices in Europe linked to the US war with Iran has swelled interest in long-term power purchase agreements (PPAs), obs...
+2026-10-19 14:18:11,421 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:18:23,790 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iran war drives firms to PPAs at half spot prices - Montel N
+2026-10-19 14:18:23,790 [INFO] LLM extracted 1 deals | Iran war drives firms to PPAs at half spot prices 
+2026-10-19 14:18:23,791 [INFO] Not a signed deal — skipping: Iran war drives firms to PPAs at half spot prices - Montel N
+2026-10-19 14:18:23,791 [INFO] ------- Processing article n. 3: Thermal Coal Hits 1025 Yuan Per Ton: Who Faces Greater Pressure – Coal Enterpris -------
+2026-10-19 14:18:23,916 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QSndVWkZSZllhNnFMdUc5a1VQZzVVdFdhWDZEWXQxd2RwbkJ3YjdoOGViWGlrS2UybWtzdGhmb3lsZTdXZzFJWUZ2dm1uaTE4TlhN?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:18:25,070 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:18:25,071 [INFO] Resolved Google News URL: https://eu.36kr.com/en/p/4032302254282633
+2026-10-19 14:18:25,071 [INFO] URL: https://eu.36kr.com/en/p/4032302254282633
+2026-10-19 14:18:25,834 [INFO] Text length: 11370 chars | source: full
+2026-10-19 14:18:25,834 [INFO] Text preview: When one ton of thermal coal is resold at over 1,000 yuan, who is the first to feel this round of price hikes?
+The answer may be different from what many people expect.
+On October 19, Securities Daily...
+2026-10-19 14:18:25,834 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:18:38,739 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Thermal Coal Hits 1025 Yuan Per Ton: Who Faces Greater Press
+2026-10-19 14:18:38,739 [INFO] LLM extracted 1 deals | Thermal Coal Hits 1025 Yuan Per Ton: Who Faces Gre
+2026-10-19 14:18:38,796 [INFO] Not a signed deal — skipping: Thermal Coal Hits 1025 Yuan Per Ton: Who Faces Greater Press
+2026-10-19 14:18:38,796 [INFO] ------- Processing article n. 3: The Uruguayan government announced on October 16 that it has signed a - Shanghai -------
+2026-10-19 14:18:38,906 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxOdUdoNFVmODgzRVVzeTJ5MG8xU3pVbm5nOXRfclhGZUJJcHBCNmtEUTBtckx2VEVxOXcwcGkzamZuSDNqZy1OZW4wc1FhWjg3MmxSM0ZDejlOdEs4VV9oNENRS2ZDZVk2VEUtYXlxaGowLXMybUJBQXdlUXhUd2oyeHlFRmtHeW8zXzRfZ0pZMXN2aDBGaU5kNFlEcENQbUJtVDBmOFYtRnlSUWJ2ZzZyV3RQalB5WTJLOE5BdEhsQ2UxeF9jSlpz?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:18:40,067 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:18:40,067 [INFO] Resolved Google News URL: https://news.metal.com/newscontent/104165310-smm-pv-flash-uruguay-signs-us57-billion-solar-powered-d
+2026-10-19 14:18:40,067 [INFO] URL: https://news.metal.com/newscontent/104165310-smm-pv-flash-uruguay-signs-us57-billion-solar-powered-data-center-deal-with-solaria
+2026-10-19 14:18:41,233 [INFO] Text length: 1285 chars | source: full
+2026-10-19 14:18:41,233 [INFO] Text preview: [SMM PV Flash] Uruguay Signs US$5.7 Billion Solar-Powered Data Center Deal with Solaria
+The Uruguayan government announced on October 16 that it has signed a US$5.7 billion investment agreement with S...
+2026-10-19 14:18:41,233 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:18:54,415 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: The Uruguayan government announced on October 16 that it has
+2026-10-19 14:18:54,416 [INFO] LLM extracted 1 deals | The Uruguayan government announced on October 16 t
+2026-10-19 14:18:54,417 [INFO] Not a European deal — skipping: UTE / Solaria (Uruguay, 350 MW)
+2026-10-19 14:18:54,417 [INFO] ------- Processing article n. 3: Canada deepens supply-chain ties with South Korea across metals and energy - CHO -------
+2026-10-19 14:18:54,517 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxOZTRYTDZKeWg0ZnUtSEhzb1JCOXA2MnRHUWxRd0duUmlwTzVuODNpT1YxZ3lWNXdkcURqaHhSVUg3WFdEYlZMeGQwd1ZHcFo1VEtMVmExaVlqT2hhVlE3YnhWSjlzVXk2azZ5TnRndlhuVThBWVVEbjl0WTdybWhOWGtB0gGWAUFVX3lxTFB1T1N4V1BJbkR2UUg1ZURWZEw4RjY5cnV5ZVJxUVlhQ1FQeVZ6SXRlRjk2cFY3eDlLd0doX1d5c21ITkFuaFFuTXlBWUlOMWJoRDl0MmlwRTMwRlB5NWhxSy1hQU4wTVVaMlluQzJxOFFVb0l1aTgwQ2tGYzNKU1Zyd0xTYlU3d0FxYVZpS0RDUU5lOVlYdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:18:55,658 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:18:55,658 [INFO] Resolved Google News URL: https://biz.chosun.com/en/en-industry/2026/10/19/J2GELNQIMZG3NGTTZQ5JQNEHAQ/
+2026-10-19 14:18:55,658 [INFO] URL: https://biz.chosun.com/en/en-industry/2026/10/19/J2GELNQIMZG3NGTTZQ5JQNEHAQ/
+2026-10-19 14:18:56,462 [INFO] Text length: 4822 chars | source: full
+2026-10-19 14:18:56,462 [INFO] Text preview: Canada, which is in a trade dispute with the United States, is moving to diversify trade and supply chains and is also expanding cooperation with Korean steel and nonferrous metal corporations. The sc...
+2026-10-19 14:18:56,462 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:19:08,778 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Canada deepens supply-chain ties with South Korea across met
+2026-10-19 14:19:08,778 [INFO] LLM extracted 1 deals | Canada deepens supply-chain ties with South Korea 
+2026-10-19 14:19:08,779 [INFO] Not a signed deal — skipping: Canada deepens supply-chain ties with South Korea across met
+2026-10-19 14:19:08,779 [INFO] ------- Processing article n. 3: Independent power producer ContourGlobal held a groundbreaking ceremon - Shangha -------
+2026-10-19 14:19:08,881 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTkxYWXNlWHVIN0FRRlBfdDNOQ0ozeWgxOXZodklvRVN5VFZQWWFMNTNXWjd1X1R6ektRRW91cXhTc2pJMVkxbGtuVnh1ZDN5M19rSTV3bEEzd3FhVmRHaWRIZ202aXMtbmtpTzlkTC1CRmZuYnA1VVc3SHdza1Q0SDdBZ0V0VFJpeGlYQnU5WUNaMDY5ajI3Mk1SZWZhYVZpa0dhUXdDUGdLU21MbXlyQ0JXeTVYeVVUNTV0OWRmaEU2Y3otOFVSYlBfNEg5dkVkM0p3dm9xT0Y5NWI0Zi1iMUFtSW11cFpMbTdFRDZYWQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:19:10,033 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:19:10,034 [INFO] Resolved Google News URL: https://news.metal.com/newscontent/104165317-smm-pv-flash-contourglobal-breaks-ground-on-509-mw-dc-s
+2026-10-19 14:19:10,034 [INFO] URL: https://news.metal.com/newscontent/104165317-smm-pv-flash-contourglobal-breaks-ground-on-509-mw-dc-solar-plus-14-gwh-battery-project-in-arizona-with-tesla-ppa
+2026-10-19 14:19:11,149 [INFO] Text length: 1408 chars | source: full
+2026-10-19 14:19:11,149 [INFO] Text preview: [SMM PV Flash] ContourGlobal Breaks Ground on 509 MW DC Solar Plus 1.4 GWh Battery Project in Arizona with Tesla PPA
+Independent power producer ContourGlobal held a groundbreaking ceremony in early Oc...
+2026-10-19 14:19:11,149 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:19:24,030 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Independent power producer ContourGlobal held a groundbreaki
+2026-10-19 14:19:24,031 [INFO] LLM extracted 1 deals | Independent power producer ContourGlobal held a gr
+2026-10-19 14:19:24,112 [INFO] Not a European deal — skipping: Tesla / ContourGlobal (United States, 509 MW)
+2026-10-19 14:19:24,112 [INFO] ------- Processing article n. 3: Europe Solar Photovoltaic Market to Reach USD 243.75 Billion by 2035, Growing fr -------
+2026-10-19 14:19:24,208 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxOWWJyVXE1SEV2Vlo0OTZFcHVCNmVUODlrcWJIR1VCOTRmZnRrOVdEMHJLbndZb2JkbGdxbGdkbThFVXNuNHpURER6Z05udWtoSkpUVlJVbUVpeUhWSTVtOW5Oc09IUW50Vjg0Skh2VHprQzlvQlg5NUF5ZThYc29uelYxeVhKeUJBZEVmaTQxYzJnYjFrSURuOGd5amQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:19:25,375 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:19:25,375 [INFO] Resolved Google News URL: https://www.openpr.com/news/4666150/europe-solar-photovoltaic-market-to-reach-usd-243-75-billion
+2026-10-19 14:19:25,375 [INFO] URL: https://www.openpr.com/news/4666150/europe-solar-photovoltaic-market-to-reach-usd-243-75-billion
+2026-10-19 14:19:25,666 [INFO] Text length: 14193 chars | source: full
+2026-10-19 14:19:25,666 [INFO] Text preview: Europe Solar Photovoltaic Market to Reach USD 243.75 Billion by 2035, Growing from USD 75.43 Billion in 2025 - SRI
+https://www.strategicrevenueinsights.com/industry/europe-solar-photovoltaic-market
+Th...
+2026-10-19 14:19:25,666 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:19:38,731 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Europe Solar Photovoltaic Market to Reach USD 243.75 Billion
+2026-10-19 14:19:38,731 [INFO] LLM extracted 1 deals | Europe Solar Photovoltaic Market to Reach USD 243.
+2026-10-19 14:19:38,733 [INFO] Not a signed deal — skipping: Europe Solar Photovoltaic Market to Reach USD 243.75 Billion
+2026-10-19 14:19:38,733 [INFO] ------- Processing article n. 3: Photon Capital completes 33 MW of solar tied to PPAs across Japan - Renewables N -------
+2026-10-19 14:19:38,827 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLTVRSjRMbDVYWkMwN3AtbmsycXoxNFl1bnI3OC12V21hQ3FIejJmX1B5NUU1cmdGeDk3SWNEd1RZWkV6SVFSN3lLUlNkZ01HMFdRUWVlR1hmWlpnZHFGZHNQeXZlLUVuU3htZ1dsczNDemZZQ1VZWGpBNWROd2VQbTF1NzZ1WURIaXpWUVpPSTRYVVZ2cUVBYWlhVHVSVWptcmNoSWhLYmo?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:19:39,947 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:19:39,948 [INFO] Resolved Google News URL: https://renewablesnow.com/news/photon-capital-completes-33-mw-of-solar-tied-to-ppas-across-japan-130
+2026-10-19 14:19:39,948 [INFO] URL: https://renewablesnow.com/news/photon-capital-completes-33-mw-of-solar-tied-to-ppas-across-japan-1303256/
+2026-10-19 14:19:39,989 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/photon-capital-completes-33-mw-of-solar-tied-to-p
+2026-10-19 14:19:39,989 [INFO] Text length: 177 chars | source: fallback
+2026-10-19 14:19:39,989 [INFO] Text preview: Photon Capital completes 33 MW of solar tied to PPAs across Japan - Renewables Now
+
+Photon Capital completes 33 MW of solar tied to PPAs across Japan &nbsp;&nbsp; Renewables Now...
+2026-10-19 14:19:39,989 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:19:54,087 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Photon Capital completes 33 MW of solar tied to PPAs across 
+2026-10-19 14:19:54,087 [INFO] LLM extracted 1 deals | Photon Capital completes 33 MW of solar tied to PP
+2026-10-19 14:19:54,088 [INFO] Not a European deal — skipping: None / Photon Capital (Japan, 33 MW)
+2026-10-19 14:19:54,088 [INFO] ------- Processing article n. 3: ACME Solar inks 300 MW/1,200 MWh peak supply PPA with SECI - Renewables Now -------
+2026-10-19 14:19:54,190 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxPdWtpWjN1WmxPd1RZclhWSWd0N3NMUDd6SUg3T283NWt6UDlDRm5yNElyNlFBTXFabkk1bW1qc0ZnS1V2aGVEeS1DbDgyYXBkREhoS2ZZdHp2Q0NNS196SXlNSTkxU0hDRURsVmNjTVdvd0ZGc1gySUg5XzBlWVlsVWtoMmNZTWFRU3BlWTY5VUZiVVFWX0gxT2gwbktFZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:19:55,324 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:19:55,324 [INFO] Resolved Google News URL: https://renewablesnow.com/news/acme-solar-inks-300-mw1-200-mwh-peak-supply-ppa-with-seci-1303261/
+2026-10-19 14:19:55,325 [INFO] URL: https://renewablesnow.com/news/acme-solar-inks-300-mw1-200-mwh-peak-supply-ppa-with-seci-1303261/
+2026-10-19 14:19:55,375 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/acme-solar-inks-300-mw1-200-mwh-peak-supply-ppa-w
+2026-10-19 14:19:55,376 [INFO] Text length: 163 chars | source: fallback
+2026-10-19 14:19:55,376 [INFO] Text preview: ACME Solar inks 300 MW/1,200 MWh peak supply PPA with SECI - Renewables Now
+
+ACME Solar inks 300 MW/1,200 MWh peak supply PPA with SECI &nbsp;&nbsp; Renewables Now...
+2026-10-19 14:19:55,376 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:20:09,410 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ACME Solar inks 300 MW/1,200 MWh peak supply PPA with SECI -
+2026-10-19 14:20:09,410 [INFO] LLM extracted 1 deals | ACME Solar inks 300 MW/1,200 MWh peak supply PPA w
+2026-10-19 14:20:09,411 [INFO] Not a European deal — skipping: Solar Energy Corporation of India (SECI) / ACME Solar (India, 300 MW)
+2026-10-19 14:20:09,411 [INFO] ------- Processing article n. 3: ACME Solar signs PPA with SECI for 300 MW/1,200 MWh FDRE project at INR 6/kWh -  -------
+2026-10-19 14:20:09,505 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxPalJ5QXVtV1FleU5sU2t2OTZrRTdlaHdaTnB2UWh1Q0JyV2thZHREWkhGWi11ZmlFcTZ0aHhGcFh4bFJjRFpEYkpWVzR3NjBSMEItSW9DSkJtVm94Nzhpc05saFNHYjVCQThRc01GRU8xUWdpWHA2cFJXZVFIdDV2blJadWRLeEZBOWVrUE44NjNUSUl3UHB5M0wwWklzXzI2TENPVG9mQ0MwajRPRFpHOVJwNG5Nb09QclF3QmoxZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:20:10,630 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:20:10,631 [INFO] Resolved Google News URL: https://www.pv-magazine-india.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre
+2026-10-19 14:20:10,631 [INFO] URL: https://www.pv-magazine-india.com/2026/10/19/acme-solar-signs-ppa-with-seci-for-300-mw-1200-mwh-fdre-project-at-inr-6-kwh/
+2026-10-19 14:20:10,934 [INFO] Text length: 1574 chars | source: full
+2026-10-19 14:20:10,934 [INFO] Text preview: ACME Solar signs PPA with SECI for 300 MW/1,200 MWh FDRE project at INR 6/kWh
+ACME Solar, through its subsidiary ACME Greentech Twenty Pvt Ltd, has signed a power procurement agreement (PPA) with Sola...
+2026-10-19 14:20:10,934 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:20:24,061 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ACME Solar signs PPA with SECI for 300 MW/1,200 MWh FDRE pro
+2026-10-19 14:20:24,061 [INFO] LLM extracted 1 deals | ACME Solar signs PPA with SECI for 300 MW/1,200 MW
+2026-10-19 14:20:24,063 [INFO] Not a European deal — skipping: Solar Energy Corp. of India Ltd. (SECI) / ACME Solar (India, 300 MW)
+2026-10-19 14:20:24,063 [INFO] ------- Processing article n. 3: EDPR secures 250 MW of solar PPA in Arkansas - Renewables Now -------
+2026-10-19 14:20:24,162 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijAFBVV95cUxPeHFMaTZGZS1GYnRpZ1Jnd0xaQWpuTjB1Tm4tOWpOaUxUc0ZlY0dLaGF3OUlpM0VXd2hPS19sSnA5VkVpZmxncDN0QmpERGJPVkVvZWhyX19TRGo2ZmZKNjRaM1VWMDBWVXlLekZZeXBRbVZwU0kxSGtoMkpjRk9UWHktazZtWmd5OXI0Sw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:20:25,322 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:20:25,323 [INFO] Resolved Google News URL: https://renewablesnow.com/news/edpr-secures-250-mw-of-solar-ppa-in-arkansas-1303232/
+2026-10-19 14:20:25,323 [INFO] URL: https://renewablesnow.com/news/edpr-secures-250-mw-of-solar-ppa-in-arkansas-1303232/
+2026-10-19 14:20:25,375 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/edpr-secures-250-mw-of-solar-ppa-in-arkansas-1303
+2026-10-19 14:20:25,375 [INFO] Text length: 135 chars | source: fallback
+2026-10-19 14:20:25,375 [INFO] Text preview: EDPR secures 250 MW of solar PPA in Arkansas - Renewables Now
+
+EDPR secures 250 MW of solar PPA in Arkansas &nbsp;&nbsp; Renewables Now...
+2026-10-19 14:20:25,375 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:20:39,296 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EDPR secures 250 MW of solar PPA in Arkansas - Renewables No
+2026-10-19 14:20:39,297 [INFO] LLM extracted 1 deals | EDPR secures 250 MW of solar PPA in Arkansas - Ren
+2026-10-19 14:20:39,298 [INFO] Not a European deal — skipping: None / EDP Renewables (United States, 250 MW)
+2026-10-19 14:20:39,298 [INFO] ------- Processing article n. 3: ACME Solar Signs 300 MW FDRE Power Supply Agreement with SECI - Energetica India -------
+2026-10-19 14:20:39,399 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxPWUM5LUhqcGU0cWlZa3E4M09WU3dsZnlYb29FWkZaQWhkR1J3elF1b1IzZUNZVmdQYVZoZWQtQ2FnZjlDb0Z2SmthakZHTDhURE03QW9zV3Jtcld0b0lqWWVPanhkOGhib1lQSkFoTVk5RFI2eFJuVGQ5cTRUdEVhZnJDZHNKTGlLUzAyY0U1TUFVaUs3V0hLTTQwMUpMRVRISmc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:20:40,555 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:20:40,555 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/acme-solar-signs-300-mw-fdre-power-supply-agreement-with-seci-
+2026-10-19 14:20:40,556 [INFO] URL: https://www.energetica-india.net/news/acme-solar-signs-300-mw-fdre-power-supply-agreement-with-seci-
+2026-10-19 14:20:42,107 [INFO] Text length: 1339 chars | source: full
+2026-10-19 14:20:42,107 [INFO] Text preview: ACME Solar Signs 300 MW FDRE Power Supply Agreement with SECI
+ACME Solar has signed a 300 MW FDRE power procurement agreement with SECI to supply 1,200 MWh during peak demand periods.
+October 19, 2026...
+2026-10-19 14:20:42,107 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:20:54,207 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ACME Solar Signs 300 MW FDRE Power Supply Agreement with SEC
+2026-10-19 14:20:54,207 [INFO] LLM extracted 1 deals | ACME Solar Signs 300 MW FDRE Power Supply Agreemen
+2026-10-19 14:20:54,209 [INFO] Not a European deal — skipping: Solar Energy Corporation of India / ACME Solar Holdings (India, 300 MW)
+2026-10-19 14:20:54,209 [INFO] ------- Processing article n. 3: Alstom signe un contrat de 800 millions d’euros pour fournir des trains au Vietn -------
+2026-10-19 14:20:54,310 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3A5d0NYQzJ6X2NNOXRxT25ULWhNcXBnLVNvaTdQYkVBXzZMMTB6a2lYSlloWG9PNlpHR3JEZTdjY1JUWkdDeE5UMHlKTnphMG83bm9XUms1aGRZRWtyZGg2SVpNRjM2T20waTFGR0tXUWFKeWx2d3duR284bk9DcmhXWVh1MGpTOS1XZVg0MnFuT0ktc1V5dXdhOTlDcXhtNTVtLTNuVE9aSTA0NEdBRTNLRWpGTzN0TVRMelFqdkU2S0NjTjFYM1dVTzg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:20:55,444 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:20:55,445 [INFO] Resolved Google News URL: https://www.capital.fr/entreprises-marches/alstom-signe-un-contrat-de-800-millions-deuros-pour-fourn
+2026-10-19 14:20:55,445 [INFO] URL: https://www.capital.fr/entreprises-marches/alstom-signe-un-contrat-de-800-millions-deuros-pour-fournir-des-trains-au-vietnam-1531096
+2026-10-19 14:20:56,072 [INFO] Text length: 1976 chars | source: full
+2026-10-19 14:20:56,072 [INFO] Text preview: Alstom a obtenu une commande «d'environ 800 millions d'euros» pour fournir des trains Metropolis à Hanoï, au Vietnam, a annoncé le constructeur ferroviaire français dans un communiqué ce lundi 19 octo...
+2026-10-19 14:20:56,072 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:21:08,793 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Alstom signe un contrat de 800 millions d’euros pour fournir
+2026-10-19 14:21:08,793 [INFO] LLM extracted 1 deals | Alstom signe un contrat de 800 millions d’euros po
+2026-10-19 14:21:08,795 [INFO] Not a signed deal — skipping: Alstom signe un contrat de 800 millions d’euros pour fournir
+2026-10-19 14:21:08,795 [INFO] ------- Processing article n. 3: Concentrez-vous sur la résolution des difficultés et des obstacles, et soutenez  -------
+2026-10-19 14:21:08,899 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcXlVYlpMeW1saTlCQzJJZllJal82elptNWVHVjR3Ul9zRG0wV1R1STJzTW1UbDJhSzYyTExxVVloOFFMMG1VbTl4Zmp5Sl9fRHRqc25NOHhqQTg4cFVISGsxSURMd2plV1hTdzhBNzlQMG1GXzBVRE45R1QtcXFsSFJFMEo1UjRma3Rvdlh2ZjdvSVNZeXlhZ3F4M0tsRVVWZG1UUWNYWmpFMGE3cm4zbjFNaG1pajhudGJObTlWdktFdkxTMl9ENDBaNDhBWWJGRzFoZQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:21:10,023 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:21:10,024 [INFO] Resolved Google News URL: https://www.vietnam.vn/fr/tap-trung-thao-go-kho-khan-vuong-mac-ho-tro-trien-khai-day-nhanh-tien-do-d
+2026-10-19 14:21:10,024 [INFO] URL: https://www.vietnam.vn/fr/tap-trung-thao-go-kho-khan-vuong-mac-ho-tro-trien-khai-day-nhanh-tien-do-du-an-nha-may-nhiet-dien-bot-nam-dinh-1
+2026-10-19 14:21:10,323 [INFO] Text length: 6746 chars | source: full
+2026-10-19 14:21:10,323 [INFO] Text preview: Concentrez-vous sur la résolution des difficultés et des obstacles, et soutenez la mise en œuvre accélérée du projet de centrale thermique BOT Nam Dinh 1.
+Le 19 octobre après-midi, le Comité de pilota...
+2026-10-19 14:21:10,323 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:21:23,988 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Concentrez-vous sur la résolution des difficultés et des obs
+2026-10-19 14:21:23,988 [INFO] LLM extracted 1 deals | Concentrez-vous sur la résolution des difficultés 
+2026-10-19 14:21:23,991 [INFO] Not a signed deal — skipping: Concentrez-vous sur la résolution des difficultés et des obs
+2026-10-19 14:21:23,991 [INFO] ------- Processing article n. 3: ACME Solar firma con SECI un acuerdo de 300 MW/1.200 MWh de potencia máxima aseg -------
+2026-10-19 14:21:24,096 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxNekN2aGQ4TGtoZUJINWprWElYY2IzYTh4TFZnM3RNMC00VFVOOGJTc284ZllTOERWcHVoRl9tVjgtR0NjcHpxTnBNdVNIRXhycExTcHJNM21RSk90RlRtd2xjTld1SEtaMmR5cWRRQnFxQm8xQ0dJUFd0TEV1R3JsVHEzaUJ6ZmZfTmwwUXY5WldKYUljMXFuaS1ZMDI1NVlhcW5seGlR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:21:25,222 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:21:25,223 [INFO] Resolved Google News URL: https://www.indexbox.io/es/blog/acme-solar-signs-300-mw1200-mwh-assured-peak-power-agreement-with-se
+2026-10-19 14:21:25,223 [INFO] URL: https://www.indexbox.io/es/blog/acme-solar-signs-300-mw1200-mwh-assured-peak-power-agreement-with-seci/
+2026-10-19 14:21:26,547 [INFO] Text length: 1572 chars | source: full
+2026-10-19 14:21:26,547 [INFO] Text preview: ACME Solar firma con SECI un acuerdo de 300 MW/1.200 MWh de potencia máxima asegurada
+ACME Solar, productor independiente de energía renovable de la India, ha obtenido un acuerdo de compra de energía ...
+2026-10-19 14:21:26,547 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:21:39,300 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ACME Solar firma con SECI un acuerdo de 300 MW/1.200 MWh de 
+2026-10-19 14:21:39,300 [INFO] LLM extracted 1 deals | ACME Solar firma con SECI un acuerdo de 300 MW/1.2
+2026-10-19 14:21:39,500 [INFO] Not a European deal — skipping: Solar Energy Corporation of India (SECI) / ACME Solar (through ACME Greentech Twenty Pvt Ltd) (India, 300 MW)
+2026-10-19 14:21:39,500 [INFO] ------- Processing article n. 3: Cox firma un acuerdo con el Gobierno de El Salvador para invertir 2.900 millones -------
+2026-10-19 14:21:39,606 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihAJBVV95cUxNYWJET3R5bXpBeEN4cEF4RG1pTlpNWGJyTDIzWW9fODFiRHpJV3BGV0hicVVuMWdzcXNjSWZLSS01ZkFPcEZKVkRIOWdlQk56YWxjTC13VHdudFp0bmV0NjFmZkNabzl5U1pWS2p1UDVsSE5hR0Q1TGtVb25QMnR4NUtnM25kWVNNamR2eGplUzh5YWRPWlFiSHZsTEZoUURXR0ZuQVNydVI1TGpmc3JFejR6SFRXSE1GbXkxWURPQ21wa0Y2WDdtR1hLRG5rOFJCM0RLMEdPSTBFZmxEWXJRWDhsbEhtUVlmclVkMHhKX3l1SUxIUnN6NmtwYkVBUWF5YkVqMg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:21:40,767 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:21:40,768 [INFO] Resolved Google News URL: https://andaluciaeconomica.com/cox-firma-un-acuerdo-con-el-gobierno-de-el-salvador-para-invertir-2-9
+2026-10-19 14:21:40,768 [INFO] URL: https://andaluciaeconomica.com/cox-firma-un-acuerdo-con-el-gobierno-de-el-salvador-para-invertir-2-900-millones-de-dolares-en-infraestructuras-estrategicas-de-agua-y-energia/
+2026-10-19 14:21:41,539 [INFO] Text length: 5714 chars | source: full
+2026-10-19 14:21:41,539 [INFO] Text preview: Cox, utility global integrada de agua y energía, ha firmado un acuerdo con el Gobierno de la República de El Salvador para impulsar un programa de inversiones estimado en 2.900 millones de dólares des...
+2026-10-19 14:21:41,539 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:21:54,015 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Cox firma un acuerdo con el Gobierno de El Salvador para inv
+2026-10-19 14:21:54,015 [INFO] LLM extracted 1 deals | Cox firma un acuerdo con el Gobierno de El Salvado
+2026-10-19 14:21:54,017 [INFO] Not a signed deal — skipping: Cox firma un acuerdo con el Gobierno de El Salvador para inv
+2026-10-19 14:21:54,017 [INFO] ------- Processing article n. 3: Resumen semanal: Déficit de flujo de caja libre y lanzamiento de Gemini 4 Argon; -------
+2026-10-19 14:21:54,118 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBYano2RmNWZWlma1p1QlJ0d2lFbzhDal9vUWVoSUNJbVZlLTA1YU00dVRGaExNdEFyd182eWxSdVdxa29PTTltUnBEUV9QY0lobk9EMWVjcFJiTnFIa1pPZXVETEE0NGVjVzhRVA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:21:55,267 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:21:55,268 [INFO] Resolved Google News URL: https://es.tradingview.com/news/tradingview:91425dcf0ce53:0/
+2026-10-19 14:21:55,268 [INFO] URL: https://es.tradingview.com/news/tradingview:91425dcf0ce53:0/
+2026-10-19 14:21:55,436 [INFO] Text length: 3708 chars | source: full
+2026-10-19 14:21:55,436 [INFO] Text preview: Resumen semanal: Déficit de flujo de caja libre y lanzamiento de Gemini 4 Argon; los precios de la API se duplican
+Alphabet Inc. Class C (NASDAQ:GOOG) reportó sólidas ganancias de Cloud y flujo de caj...
+2026-10-19 14:21:55,436 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:22:09,208 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Resumen semanal: Déficit de flujo de caja libre y lanzamient
+2026-10-19 14:22:09,208 [INFO] LLM extracted 1 deals | Resumen semanal: Déficit de flujo de caja libre y 
+2026-10-19 14:22:09,219 [INFO] Not a European deal — skipping: Alphabet Inc. / Bloom Energy (United States, 702 MW)
+2026-10-19 14:22:09,219 [INFO] ------- Processing article n. 3: En lo que va de la gestión Milei, se invirtieron USD 445 millones en insumos par -------
+2026-10-19 14:22:09,319 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMktISXczTnU3WkhCaHpJU2xmSzczdC1SRktNMzZ2UzFUb0p0M2pleEo0eHNoSkhRRTZGdHdWQ2RnUkZNMm1jeE1WT2RXOVdocllDVXZSTVF5RF82UkpKZEM0U3RUZjZvNmRHSENQZTZnWUVDX3ZzRlNGSVdTTXlhR0Q2c3VhcE5iT0hva3NRV0RXUlZRZE83UWZ1WVJxck55TVVGRWZjdnNTWnZ3YV8tNTR2ZkF0LTV3ellDYnY4UmhFQ2xRWU1jYXktNXNJekJ5eGpiaklBS2ZMLTdEZzQ2ZzMxdTRjd0hlbU9fT3R3bm1kVmZ6TWlLRE40M01yQdIBmAJBVV95cUxOMndBel9XcGhvMjlzN2x0dzZXdGUyUm5admtJM1l2WkdIM3lCemxpNVZQVTQwVmlyUE5mamFYUE80dXJuMXdQZUo4STlNak5XbDRqWjQ3VjNkMGd3Nk9wTFlJWjllXzdUU25tbTZESHp1U01yelZ0U05YWGFjZzc1blJETnpYTVV1c2l6Y2haNDBCUGFTNjBpVGR4NTJzQ2drZUgxQmRpTWxURGRTd2xIazFuOEVZRmptYWpqVFdTUk03QXg4WlpjNFZtUkZIUnktanA0V0hhNUpTeE9iVEZidHY5SUpVLWpVd0hSZmFOQ05zNXN4bGhzczk4YUdDVGNMWkxvdXB3SWRxaGM1cDNvaGYzcC1nM3FY?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:22:10,447 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:22:10,447 [INFO] Resolved Google News URL: https://www.infobae.com/politica/2026/10/19/en-lo-que-va-de-la-gestion-milei-se-invirtieron-usd-445-
+2026-10-19 14:22:10,447 [INFO] URL: https://www.infobae.com/politica/2026/10/19/en-lo-que-va-de-la-gestion-milei-se-invirtieron-usd-445-millones-en-insumos-para-armamentos-equipos-militares-y-de-seguridad/
+2026-10-19 14:22:10,682 [INFO] Text length: 10204 chars | source: full
+2026-10-19 14:22:10,682 [INFO] Text preview: Pese al ajuste en múltiples dependencias del Estado, el área de Defensa y Seguridad no fueron alcanzados por la motosierra. Javier Milei decidió bajo su gestión reequipar y modernizar las Fuerzas Arma...
+2026-10-19 14:22:10,682 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:22:23,800 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: En lo que va de la gestión Milei, se invirtieron USD 445 mil
+2026-10-19 14:22:23,800 [INFO] LLM extracted 1 deals | En lo que va de la gestión Milei, se invirtieron U
+2026-10-19 14:22:23,802 [INFO] Not a signed deal — skipping: En lo que va de la gestión Milei, se invirtieron USD 445 mil
+2026-10-19 14:22:23,802 [INFO] ------- Processing article n. 3: YPF y Mercado Libre se unen para retirar compras en estaciones - iProfesional -------
+2026-10-19 14:22:23,901 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPdDdQOGVkYXgwYVVJT3dyQjlhUlljUEtkWjhJSEtRdTVhUGNnSThiVGlMMjIyQ0o3VnpIcldsZ0NBQXVhc1I1RTZENm9Cb0g4UlljVHdNbHhRRVlPYzRyUXY0bGJQSnE3Nk43Y01ER2xJNjcxYmplYXU0SUlPcmNsNTFJUzRkVjI2TUhkVXJhR012RW10emw4N2N2VzU3ak5kQTV5ZDE1TmpIaEZuU0lF0gGvAUFVX3lxTE90N1A4ZWRheDBhVUlPd3JCOWFSWWNQS2RaOElIS1F1NWFQY2dJOGJUaUwyMjJDSjdWekhyV2xnQ0FBdWFzUjVFNkQ2b0JvSDhSWWNUd01seFFFWU9jNHJRdjRsYlBKcTc2TjdjTURHbEk2NzFiamVhdTRJSU9yY2w1MUlTNGRWMjZNSGRVcmFHTXZFbXR6bDg3Y3ZXNTdqTmRBNXlkMTVOakhoRm5TSUU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:22:25,071 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:22:25,071 [INFO] Resolved Google News URL: https://www.iprofesional.com/energia/466868-ypf-y-mercado-libre-se-unen-para-retirar-compras-en-esta
+2026-10-19 14:22:25,071 [INFO] URL: https://www.iprofesional.com/energia/466868-ypf-y-mercado-libre-se-unen-para-retirar-compras-en-estaciones.amp
+2026-10-19 14:22:25,271 [INFO] Text length: 6109 chars | source: full
+2026-10-19 14:22:25,271 [INFO] Text preview: YPF cierra un acuerdo con Mercado Libre para retirar compras en sus estaciones de servicio
+La petrolera busca sumar sus estaciones de servicio a la red de centros de entrega de comercio electrónico de...
+2026-10-19 14:22:25,271 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:22:38,742 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: YPF y Mercado Libre se unen para retirar compras en estacion
+2026-10-19 14:22:38,742 [INFO] LLM extracted 1 deals | YPF y Mercado Libre se unen para retirar compras e
+2026-10-19 14:22:38,743 [INFO] Not a signed deal — skipping: YPF y Mercado Libre se unen para retirar compras en estacion
+2026-10-19 14:22:38,743 [INFO] ------- Processing article n. 3: Engie se incorpora a Multinacionales con España para contribuir al crecimiento y -------
+2026-10-19 14:22:38,846 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZXM4REpza05UQlBjV0VsYmRrNV9RYlpCaE5UdFk4OVZCRVZLQm9MbzJPd0JPNUU0d0h5YXNyUmZuZmNyV0Z0X2FESXBKdnJLcW03WGRBMHRPR3NVcjY0RnJGZFFGN2ZHUkdjdTducUpCNzhDelRuc1FTNTZhRkxIcVBjQnktcXBmZVNqUThXQWNSdlFMRGFUZGVINzJhTE1iVk1KYm1kOUdlZEYzbVRXcDlLbXlfRW5GZkhGcDZKOUJzOHBXSU9aWUVWWDJBLU9aeEM5cFM5NE44dkk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:22:39,980 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:22:39,980 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/engie-se-incorpora-a-multinacionales-con-espana-para-contribuir-a
+2026-10-19 14:22:39,980 [INFO] URL: https://elperiodicodelaenergia.com/engie-se-incorpora-a-multinacionales-con-espana-para-contribuir-al-crecimiento-y-la-competitividad-del-pais/
+2026-10-19 14:22:40,589 [INFO] Text length: 1788 chars | source: full
+2026-10-19 14:22:40,589 [INFO] Text preview: Engie se ha incorporado como nueva empresa asociada a Multinacionales con España, reforzando así la representación de compañías multinacionales comprometidas con el desarrollo económico, social y medi...
+2026-10-19 14:22:40,589 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:22:53,824 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Engie se incorpora a Multinacionales con España para contrib
+2026-10-19 14:22:53,824 [INFO] LLM extracted 1 deals | Engie se incorpora a Multinacionales con España pa
+2026-10-19 14:22:53,827 [INFO] Not a signed deal — skipping: Engie se incorpora a Multinacionales con España para contrib
+2026-10-19 14:22:53,827 [INFO] ------- Processing article n. 3: El 100% de renovables es posible, incluso en los países productores de petróleo  -------
+2026-10-19 14:22:53,928 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxQc0dPeUdyVnowMjNzejlTYjYwa2JhejMtUFFGeThSTTFMWG16bWhGRDFhR2ZRaXJTWm9MdlpUMXhtTFV3WVJpSGZ3T3BnWG5TZU1ObFhzM1FJZnpfUno2MzFjWHRWQ1VvQ01EdmIteVhacWFTcV9pZGVpNmJrbFdhSzdrQ1BSeGZkZjRVTXk5WDNEWGpZSGdhSGhUTEZkZ2JGWnZRTVQ4d0tlRHJDd0I0Y29vVWxiQWs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:22:55,076 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:22:55,077 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/10/19/el-100-de-renovables-es-posible-incluso-en-los-paises-producto
+2026-10-19 14:22:55,077 [INFO] URL: https://www.pv-magazine.es/2026/10/19/el-100-de-renovables-es-posible-incluso-en-los-paises-productores-de-petroleo/
+2026-10-19 14:22:55,481 [INFO] Text length: 5740 chars | source: full
+2026-10-19 14:22:55,482 [INFO] Text preview: La expansión de las energías renovables no tiene por qué entrar en conflicto con los intereses económicos de los países que dependen en gran medida de las exportaciones de petróleo y gas. Por el contr...
+2026-10-19 14:22:55,482 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:23:08,745 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: El 100% de renovables es posible, incluso en los países prod
+2026-10-19 14:23:08,746 [INFO] LLM extracted 1 deals | El 100% de renovables es posible, incluso en los p
+2026-10-19 14:23:08,747 [INFO] Not a signed deal — skipping: El 100% de renovables es posible, incluso en los países prod
+2026-10-19 14:23:08,747 [INFO] ------- Processing article n. 3: Someten a información pública la planta solar de Atlantic Copper y Alter Enersun -------
+2026-10-19 14:23:08,843 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxOb19nRm9mWWJQZDZiSGh2ZmtreVpaZ05YaFJza1RPREhXa05jbkZhWkxYaTZrcjJZeHFHOXhiUWRFYTdnMmlTbkNzMmp0NVdkLWkzWTZyQ1FTWERtSU1DRndnRGhERUVPMFljMzl1clBFSjVQLVFqTnRndjA2RE52UEhRbmZaWjczQW16c2tsbFFjR01kSzN1UnhUa9IBmwFBVV95cUxOb19nRm9mWWJQZDZiSGh2ZmtreVpaZ05YaFJza1RPREhXa05jbkZhWkxYaTZrcjJZeHFHOXhiUWRFYTdnMmlTbkNzMmp0NVdkLWkzWTZyQ1FTWERtSU1DRndnRGhERUVPMFljMzl1clBFSjVQLVFqTnRndjA2RE52UEhRbmZaWjczQW16c2tsbFFjR01kSzN1UnhUaw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:23:09,993 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:23:09,994 [INFO] Resolved Google News URL: https://www.elconciso.es/energia/someten-informacion-publica-planta-solar_0_2008285293.amp.html
+2026-10-19 14:23:09,994 [INFO] URL: https://www.elconciso.es/energia/someten-informacion-publica-planta-solar_0_2008285293.amp.html
+2026-10-19 14:23:11,465 [INFO] Text length: 3290 chars | source: full
+2026-10-19 14:23:11,465 [INFO] Text preview: La planta solar que Alter Enersun promueve para suministrar electricidad a Atlantic Copper en Huelva avanza en su tramitación. La Junta ha abierto el periodo de información pública de la solicitud de ...
+2026-10-19 14:23:11,465 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:23:25,411 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Someten a información pública la planta solar de Atlantic Co
+2026-10-19 14:23:25,411 [INFO] LLM extracted 2 deals | Someten a información pública la planta solar de A
+2026-10-19 14:23:25,423 [INFO] NEW: Atlantic Copper / Alter Enersun (Spain, 30 MW)
+2026-10-19 14:23:30,435 [INFO] UPDATE: Onuba / Alter Enersun (Spain, None MW) — canonical ID: 2006
+2026-10-19 14:23:35,498 [INFO] ------- Processing article n. 5: Avanza en Soria un autoconsumo fotovoltaico de 13 MWp vinculado a hidrógeno verd -------
+2026-10-19 14:23:35,599 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxOYTR6NlBmclpKUnhKWnBIbjRDbnAxZzY3alMwckwyUjJ0a2JxUWM2RnpwTWdJMm4tVU5pREc0czhhV1VremlOR0F1N0cwcnFQbUhyMnlsZTVuQ0pnQzZaSWxfXzRCVldZeTlON19mVGZtWnQxdF80R2lucFpmSVBoQXpmR3otUVdkZXNBcDhGUHFNWEsyR0UxT3duclhlQnlER3NMd1FzWjVDQThvSFhnYTZsV0NKblBwMi1nRw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:23:36,726 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:23:36,726 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/10/19/avanza-en-soria-un-autoconsumo-fotovoltaico-de-13-mwp-vinculad
+2026-10-19 14:23:36,726 [INFO] URL: https://www.pv-magazine.es/2026/10/19/avanza-en-soria-un-autoconsumo-fotovoltaico-de-13-mwp-vinculado-a-hidrogeno-verde/
+2026-10-19 14:23:37,056 [INFO] Text length: 2928 chars | source: full
+2026-10-19 14:23:37,056 [INFO] Text preview: La Consejería de Agricultura, Ganadería, Medio Rural y Política Ambiental de Castilla y León ha formulado el informe de determinación de afección ambiental para el proyecto fotovoltaico Orquídea Autoc...
+2026-10-19 14:23:37,056 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:23:40,270 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Avanza en Soria un autoconsumo fotovoltaico de 13 MWp vincul
+2026-10-19 14:23:40,270 [INFO] LLM extracted 1 deals | Avanza en Soria un autoconsumo fotovoltaico de 13 
+2026-10-19 14:23:40,272 [INFO] Not a signed deal — skipping: Avanza en Soria un autoconsumo fotovoltaico de 13 MWp vincul
+2026-10-19 14:23:40,272 [INFO] ------- Processing article n. 5: 4 ofertas de empleo en el sector fotovoltaico y BESS en España en la última sema -------
+2026-10-19 14:23:40,374 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxONFZEXzdDQkNibjUtY183XzRDX2pKNG5mNDBFUTJ0dXZOR21aLWpLRzVBdVl1ZXZYbEZBMnJpMHVTV2JaVlZHZ2ozZHpTbXB4dXVYM0RSV1paNFBXLWhCd0tRRlBzR2YtNXI0Y1dwel9kTGlOQ2JIaGlObm14OGtEQ18wMnVNakNDUTZmbmFuMGZGSXhMbUU5cnMyVndtdEdIbERBWHg0LWtJRDJmTjBTOHpJLUVkNkRjSEpPYnNVMEQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:23:41,498 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:23:41,499 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/10/19/4-ofertas-de-empleo-en-el-sector-fotovoltaico-y-bess-en-espana
+2026-10-19 14:23:41,499 [INFO] URL: https://www.pv-magazine.es/2026/10/19/4-ofertas-de-empleo-en-el-sector-fotovoltaico-y-bess-en-espana-en-la-ultima-semana-2/
+2026-10-19 14:23:41,765 [INFO] Text length: 3428 chars | source: full
+2026-10-19 14:23:41,765 [INFO] Text preview: 4 ofertas de empleo en el sector fotovoltaico y BESS en España en la última semana
+Posiciones de management
+encargado/a de obra de instalaciones fotovoltaicas en Onda (Castellón), para IM2 Energía Sol...
+2026-10-19 14:23:41,765 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:23:53,734 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: 4 ofertas de empleo en el sector fotovoltaico y BESS en Espa
+2026-10-19 14:23:53,734 [INFO] LLM extracted 1 deals | 4 ofertas de empleo en el sector fotovoltaico y BE
+2026-10-19 14:23:53,735 [INFO] Not a signed deal — skipping: 4 ofertas de empleo en el sector fotovoltaico y BESS en Espa
+2026-10-19 14:23:53,735 [INFO] ------- Processing article n. 5: Le energie rinnovabili devono diventare un vantaggio per attrarre investimenti.  -------
+2026-10-19 14:23:53,834 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifEFVX3lxTE9DTjQtaTNPOWc5emNiaFN1N1ZKc0JkUU9faXJaM0dISkQzc1h6WWk0ZUk4dVlxZmM3ZUE3b29pRGE5YTlReDJGc2doczNtVjdqRVdXejMtU09sTkpxeFczS0dES1NZRlp1SnB1UUNxbExmRmhHQjVLVE5BNmo?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:23:54,947 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:23:54,948 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/dien-xanh-can-tro-thanh-loi-the-thu-hut-dau-tu
+2026-10-19 14:23:54,948 [INFO] URL: https://www.vietnam.vn/it/dien-xanh-can-tro-thanh-loi-the-thu-hut-dau-tu
+2026-10-19 14:23:56,111 [INFO] Text length: 11673 chars | source: full
+2026-10-19 14:23:56,111 [INFO] Text preview: Le energie rinnovabili devono diventare un vantaggio per attrarre investimenti.
+A margine della seconda sessione della XVI Assemblea Nazionale, il 19 ottobre, in un colloquio con un giornalista dell'A...
+2026-10-19 14:23:56,111 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:24:08,661 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Le energie rinnovabili devono diventare un vantaggio per att
+2026-10-19 14:24:08,662 [INFO] LLM extracted 1 deals | Le energie rinnovabili devono diventare un vantagg
+2026-10-19 14:24:08,663 [INFO] Not a signed deal — skipping: Le energie rinnovabili devono diventare un vantaggio per att
+2026-10-19 14:24:08,663 [INFO] ------- Processing article n. 5: Tetto al prezzo del gas a 60 euro: quali utility possono salire di oltre il 20%  -------
+2026-10-19 14:24:08,761 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdE16ekZKbEZGYjFad3Iwbk56ZzFKbGYzSTZsM080QlpaVkVuSlpVOWRucnZoOFAzZC1EOXlPdGtmTFJtTFdvbEQ4X2U0QS01dTBJeFEzTjk5NHdPN0U0UnNySEdCNGNTU3BpbEw1cW1aZHhsUktXc2FMMll5SDQwZGRodGhkMkpMT2FnVXVjMjlHenQ0ODRXS3VjM0VUM1ZXaFRuVEVRQ2lFMDRrcmRrd1Z5MzA1YjhBTVRtUWFLZ1RpeVl5VU50a1F2M2w5WHMxdzZQaE1xb3ZhUjVobEdB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:24:09,900 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:24:09,900 [INFO] Resolved Google News URL: https://www.milanofinanza.it/news/tetto-al-prezzo-del-gas-a-60-euro-quali-utility-possono-salire-di-
+2026-10-19 14:24:09,900 [INFO] URL: https://www.milanofinanza.it/news/tetto-al-prezzo-del-gas-a-60-euro-quali-utility-possono-salire-di-oltre-il-20-a-piazza-affari-202610191252238622
+2026-10-19 14:24:11,180 [INFO] Text length: 8058 chars | source: full
+2026-10-19 14:24:11,180 [INFO] Text preview: Il governo italiano ha annunciato il 16 ottobre di aver raggiunto un accordo con la Commissione Ue sull’attuazione delle misure previste dal decreto-legge bollette. La trattativa con Bruxelles verteva...
+2026-10-19 14:24:11,180 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:24:24,285 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Tetto al prezzo del gas a 60 euro: quali utility possono sal
+2026-10-19 14:24:24,286 [INFO] LLM extracted 1 deals | Tetto al prezzo del gas a 60 euro: quali utility p
+2026-10-19 14:24:24,287 [INFO] Not a signed deal — skipping: Tetto al prezzo del gas a 60 euro: quali utility possono sal
+2026-10-19 14:24:24,287 [INFO] ------- Processing article n. 5: ILLUMIA CELEBRA 20 ANNI CON UNA NUOVA CAMPAGNA SOCIAL PER ENERGIA FIXXA - Media  -------
+2026-10-19 14:24:24,382 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxQSXZHbDZLSjU2OUt4Q0t1c29CMlhlN0dDc05Zck8xbGhDVmVEMWFMMFlPLTZaSkwwOXpKNWh2UjFkZkNLZTh0SkRndHNuY0JDNGxGOTBNclFCQ2k4SVgtdXloU2t6V1NSVUJfUDJJbHBqQWQtTWo0QUpldzhOdW4yUHB4bi1IWXFUbndWclFRTXc5c0pSVEdWbU5KRExrUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:24:25,516 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:24:25,517 [INFO] Resolved Google News URL: https://mediakey.it/news/illumia-celebra-20-anni-con-una-nuova-campagna-social-per-energia-fixxa/
+2026-10-19 14:24:25,517 [INFO] URL: https://mediakey.it/news/illumia-celebra-20-anni-con-una-nuova-campagna-social-per-energia-fixxa/
+2026-10-19 14:24:26,936 [INFO] Text length: 3275 chars | source: full
+2026-10-19 14:24:26,936 [INFO] Text preview: La campagna digital firmata da Blossom accompagna il lancio della nuova offerta luce, che consente di bloccare il prezzo della componente energia per 20 anni.
+Vent’anni di storia e lo sguardo rivolto ...
+2026-10-19 14:24:26,936 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:24:39,458 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ILLUMIA CELEBRA 20 ANNI CON UNA NUOVA CAMPAGNA SOCIAL PER EN
+2026-10-19 14:24:39,459 [INFO] LLM extracted 1 deals | ILLUMIA CELEBRA 20 ANNI CON UNA NUOVA CAMPAGNA SOC
+2026-10-19 14:24:39,460 [INFO] Not a signed deal — skipping: ILLUMIA CELEBRA 20 ANNI CON UNA NUOVA CAMPAGNA SOCIAL PER EN
+2026-10-19 14:24:39,460 [INFO] ------- Processing article n. 5: Suntoward aprirà nelle Filippine un sito produttivo di galleggianti per il solar -------
+2026-10-19 14:24:39,594 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxNVVpadGk5ZUZZYjJaSzlBVjZaUUhIdkxXQklGeGJWMkc2QXJpQ081N2MwOWc1SnRVOEZGZ3dkY0xqcXFiNlgzZ3NqQ29rUnZ0OTluQWtic2JCV2tjQXl2X196c0lTalRxYXFTYU9GdW9wNF9zd09GNWJ3UjdBZHlBbmgzMF9VdzE4bXpFbF9HZ21yNHJydmpWa2VScy1zWXhHcTJSM2Z0RW1qQXVuMmc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:24:40,736 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:24:40,737 [INFO] Resolved Google News URL: https://www.indexbox.io/it/blog/suntoward-to-open-floating-solar-float-manufacturing-site-in-the-phi
+2026-10-19 14:24:40,737 [INFO] URL: https://www.indexbox.io/it/blog/suntoward-to-open-floating-solar-float-manufacturing-site-in-the-philippines/
+2026-10-19 14:24:41,188 [INFO] Text length: 12072 chars | source: full
+2026-10-19 14:24:41,188 [INFO] Text preview: Suntoward aprirà nelle Filippine un sito produttivo di galleggianti per il solare galleggiante
+Suntoward, produttore taiwanese di galleggianti per impianti solari galleggianti, prevede di stabilire la...
+2026-10-19 14:24:41,189 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:24:54,216 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Suntoward aprirà nelle Filippine un sito produttivo di galle
+2026-10-19 14:24:54,216 [INFO] LLM extracted 1 deals | Suntoward aprirà nelle Filippine un sito produttiv
+2026-10-19 14:24:54,218 [INFO] Not a signed deal — skipping: Suntoward aprirà nelle Filippine un sito produttivo di galle
+2026-10-19 14:24:54,218 [INFO] ------- Processing article n. 5: Dlaczego Google wybrało Finlandię, a nie Polskę? 13 mld euro i wyścig o centra d -------
+2026-10-19 14:24:54,317 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxNY09CMkhsNzZxb2RscGZXZ0twSWxJeG9ZaVpxY1dSZ3BKSlJiM20zRzJTTUs0RXgtcEFkZTdfN0JjMEp5NWQ2ZGZjd1NEVnhkU20wQWdPNXE2aWd4c0JsTUI5ZXQ0R09WNTJmUWllZ05uZnViODVKTElITU03RkRqS2NHZ3RWQU1FSWFyUmNQRHNGSVQyRDMyNmhOV1hTV1B3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:24:55,441 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:24:55,442 [INFO] Resolved Google News URL: https://xyz.pl/dlaczego-google-wybralo-finlandie-a-nie-polske-13-mld-euro-i-wyscig-o-centra-danych/
+2026-10-19 14:24:55,442 [INFO] URL: https://xyz.pl/dlaczego-google-wybralo-finlandie-a-nie-polske-13-mld-euro-i-wyscig-o-centra-danych/
+2026-10-19 14:24:55,597 [INFO] Text length: 20101 chars | source: full
+2026-10-19 14:24:55,597 [INFO] Text preview: - Dlaczego Google wybrało Finlandię na miejsce swojej największej pojedynczej inwestycji w Europie i co decyduje dziś o lokalizacji wielkich centrów danych.
+- Dlaczego Polska, mimo silnego zaplecza sp...
+2026-10-19 14:24:55,597 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:25:09,808 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Dlaczego Google wybrało Finlandię, a nie Polskę? 13 mld euro
+2026-10-19 14:25:09,808 [INFO] LLM extracted 2 deals | Dlaczego Google wybrało Finlandię, a nie Polskę? 1
+2026-10-19 14:25:09,823 [INFO] UPDATE: Google / Fortum (Finland, None MW) — canonical ID: 1862
+2026-10-19 14:25:14,835 [INFO] NEW: Google / Valorem, Suomen Hyötytuuli (Finland, 629 MW)
+2026-10-19 14:25:19,852 [INFO] ------- Processing article n. 7: POLREGIO wymieni napędy w czterech EN81. Umowa z APS Energia podpisana - InfoBus -------
+2026-10-19 14:25:19,956 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxPZzJHMDlXQlRRTThSM0lYbFFvb2psem5ZanNYNWxOaDIxaTQ2QnlXYzd5M19pZ2p5MUUzT1JVMzU1aGYtOGlZdHlXOGlZVUwtd20zaERNTm1HbEo2ZnlGYzJSVEdXN0Y2aTNuT01Kek5tSWlIaWc1UEwwZzFyQ1BwbkNNYWxVb0QxTmlybnd2WjRGLUxqWVYxRDA5bGNrRkJ6TEE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:25:21,097 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:25:21,097 [INFO] Resolved Google News URL: https://transinfo.pl/inforail/polregio-wymieni-napedy-w-czterech-en81-umowa-z-aps-energia-podpisana/
+2026-10-19 14:25:21,097 [INFO] URL: https://transinfo.pl/inforail/polregio-wymieni-napedy-w-czterech-en81-umowa-z-aps-energia-podpisana/
+2026-10-19 14:25:22,769 [INFO] Text length: 5087 chars | source: full
+2026-10-19 14:25:22,769 [INFO] Text preview: POLREGIO wymieni napędy w czterech EN81. Umowa z APS Energia podpisana
+POLREGIO rozstrzygnęło przetarg na dostawę i uruchomienie nowych zespołów napędowych w czterech elektrycznych zespołach trakcyjny...
+2026-10-19 14:25:22,769 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:25:23,882 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: POLREGIO wymieni napędy w czterech EN81. Umowa z APS Energia
+2026-10-19 14:25:23,882 [INFO] LLM extracted 1 deals | POLREGIO wymieni napędy w czterech EN81. Umowa z A
+2026-10-19 14:25:23,883 [INFO] Not a signed deal — skipping: POLREGIO wymieni napędy w czterech EN81. Umowa z APS Energia
+2026-10-19 14:25:23,883 [INFO] ------- Processing article n. 7: Portugal e China reforçam cooperação em ciência e tecnologia com acordo assinado -------
+2026-10-19 14:25:23,980 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxOXzVzQVhnbUlENDFTMGZ2LXlRVHZCUkdFU25Wb1hmUVZxTWxtTjEwdVZndE1Ka2xpcEtUN2lod0xaTGU4R1hNUmtkQnRFek1RdC1JYThPbHFCSlNCZ3l0YV92WmRWQVhiNnZac3FrLUFxd1p4akU1MnA4WFNXRWluYXZKZnRtQ3plZm5pTGVzaWZiMTNNYmt4bWdzYWw0NUZDeVFxWGQ0RkZOaEZIeDdZVlQzX3dPbW9LQkNiT3BOb0g?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:25:25,109 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:25:25,110 [INFO] Resolved Google News URL: https://executivedigest.sapo.pt/portugal-e-china-reforcam-cooperacao-em-ciencia-e-tecnologia-com-aco
+2026-10-19 14:25:25,110 [INFO] URL: https://executivedigest.sapo.pt/portugal-e-china-reforcam-cooperacao-em-ciencia-e-tecnologia-com-acordo-assinado-em-pequim/
+2026-10-19 14:25:26,197 [INFO] Text length: 2308 chars | source: full
+2026-10-19 14:25:26,198 [INFO] Text preview: Portugal e a China definiram cinco áreas prioritárias para o desenvolvimento da cooperação bilateral em investigação e inovação, no âmbito da X Comissão Mista de Ciência e Tecnologia, que se realizou ...
+2026-10-19 14:25:26,198 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:25:38,689 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Portugal e China reforçam cooperação em ciência e tecnologia
+2026-10-19 14:25:38,690 [INFO] LLM extracted 1 deals | Portugal e China reforçam cooperação em ciência e 
+2026-10-19 14:25:38,691 [INFO] Not a signed deal — skipping: Portugal e China reforçam cooperação em ciência e tecnologia
+2026-10-19 14:25:38,691 [INFO] ------- Processing article n. 7: ACME Solar firma acordo com a SECI para 300 MW/1.200 MWh de potência firme asseg -------
+2026-10-19 14:25:38,932 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUUhXaE50WXNfX3FiU0N4LS1kd2NlTmZEakZXZm1QdWNoZDhrVktfVkJRcE5OdDk2VHZhQ0dwM1RhWVNWZDFsR3NOZTNxX3BmZThUVjJ4U0VkbDB3THRxckF0X216emdyNnRfTVB4OUs3aGItRHNMVTd4Zmg0N21mQXltdi1GWTRSTnJZM3JMRDFNRW5sbC1aOHZ4Nnozc2ZvU2FPWXY0RVVqQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:25:40,072 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:25:40,073 [INFO] Resolved Google News URL: https://www.indexbox.io/pt-br/blog/acme-solar-signs-300-mw1200-mwh-assured-peak-power-agreement-with
+2026-10-19 14:25:40,073 [INFO] URL: https://www.indexbox.io/pt-br/blog/acme-solar-signs-300-mw1200-mwh-assured-peak-power-agreement-with-seci/
+2026-10-19 14:25:40,590 [INFO] Text length: 1514 chars | source: full
+2026-10-19 14:25:40,590 [INFO] Text preview: ACME Solar assina acordo de 300 MW/1.200 MWh de potência firme assegurada com a SECI
+A ACME Solar, produtora independente de energia renovável da Índia, garantiu um acordo de compra de energia para o ...
+2026-10-19 14:25:40,590 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:25:54,356 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ACME Solar firma acordo com a SECI para 300 MW/1.200 MWh de 
+2026-10-19 14:25:54,356 [INFO] LLM extracted 1 deals | ACME Solar firma acordo com a SECI para 300 MW/1.2
+2026-10-19 14:25:54,357 [INFO] Not a European deal — skipping: Solar Energy Corporation of India (SECI) / ACME Solar (India, 300 MW)
+2026-10-19 14:25:54,357 [INFO] ------- Processing article n. 7: EDP Renováveis assina contrato de longo prazo para projeto solar de 250 MW nos E -------
+2026-10-19 14:25:54,462 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeGo1djhrMy1VRGJPaC1XRlBoN3N0b2FlNzQtajJqakxVTHBzeXp4UnJvWkNIQ0dWd1hVRVRRNGdvSFMzU1dIejBpMm9scEcteE9Yb0R3SVpoU3FraWY1aHpyd04yd2h2S1o2NXdsbGtxOFlabG9vX09QWmJzdkpLZVgteXZfdHEtUnI3bk51NmFVVjlfVGJYTm1jNnVqY2lIa195TUM2Rlo2eEVnSHFia3Z4cGdaSzBYZmMwcFRPdzdKUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-19 14:25:55,583 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-19 14:25:55,584 [INFO] Resolved Google News URL: https://jornaleconomico.sapo.pt/noticias/edp-renovaveis-assina-contrato-de-longo-prazo-para-projeto-
+2026-10-19 14:25:55,584 [INFO] URL: https://jornaleconomico.sapo.pt/noticias/edp-renovaveis-assina-contrato-de-longo-prazo-para-projeto-solar-de-250-mw-nos-eua/
+2026-10-19 14:25:56,560 [INFO] Text length: 1707 chars | source: full
+2026-10-19 14:25:56,560 [INFO] Text preview: EDP Renováveis assina contrato de longo prazo para projeto solar de 250 MW nos EUA
+A operação enquadra-se na estratégia da EDP Renováveis para os EUA, onde a empresa contratou, desde julho de 2025, 1,...
+2026-10-19 14:25:56,560 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-19 14:26:08,921 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EDP Renováveis assina contrato de longo prazo para projeto s
+2026-10-19 14:26:08,921 [INFO] LLM extracted 1 deals | EDP Renováveis assina contrato de longo prazo para
+2026-10-19 14:26:08,923 [INFO] Not a European deal — skipping: None / EDP Renováveis (United States, 250 MW)
+2026-10-19 14:26:08,923 [INFO] Run complete. New deals: 3, Updates: 4
+2026-10-19 14:26:08,937 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1504 deals)
+2026-10-19 14:26:13,459 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
