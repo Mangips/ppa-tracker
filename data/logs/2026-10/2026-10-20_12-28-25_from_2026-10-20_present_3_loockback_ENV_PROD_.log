@@ -1,0 +1,363 @@
+2026-10-20 12:28:25,526 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-20 12:28:25,531 [INFO] Loaded 1656 existing deals for dedup matching
+2026-10-20 12:28:25,532 [INFO] Searching from 2026-10-20 to present with 3 loockback days
+2026-10-20 12:28:25,594 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-20 12:28:26,825 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-20 12:28:27,878 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-20 12:28:29,266 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-20&hl=en&gl=US&ceid=US:en: 8 results
+2026-10-20 12:28:31,597 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-20&hl=en&gl=US&ceid=US:en: 2 results
+2026-10-20 12:28:33,813 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-20&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-10-20 12:28:36,071 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-20&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-20 12:28:38,309 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-20&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-10-20 12:28:40,566 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-20&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-20 12:28:42,853 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-20&hl=es&gl=ES&ceid=ES:es: 8 results
+2026-10-20 12:28:45,064 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-20&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-10-20 12:28:47,306 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-20&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-10-20 12:28:49,685 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-20&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-20 12:28:51,939 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-20&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-10-20 12:28:54,159 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-20&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-20 12:28:56,379 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-20&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-20 12:28:58,730 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-20&hl=pt&gl=PT&ceid=PT:pt: 3 results
+2026-10-20 12:29:00,971 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-20&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-20 12:29:02,971 [INFO] Total raw articles collected: 29
+2026-10-20 12:29:03,208 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-10-20 12:29:04,740 [INFO] Extra RSS [elperiodicodelaenergia.com]: 0 results
+2026-10-20 12:29:05,749 [INFO] Unique unseen articles: 28
+2026-10-20 12:29:05,749 [INFO] ------- Processing article n. 0: Hybrid PPAs gain ground as energy price risks rise in CEE - Montel News -------
+2026-10-20 12:29:05,869 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxQMTNYSkZPeU4zcnp4ajVWcndWbmxqWWhRRTNqTG1JVWszMnFTVEc3clRnNXg4WGUyM2JvTFpfSjVpU3JobC1uS3Y5V0VvSTVubHI5Mzd5cVFqQUFvaWlvVWZjbC1KN2Y2clAwSU8xWkZWZVJQYTRMZGxmQ1J6dUotZHppdTBxNUpvNnpyV3J5cVJkM2I0VlhFdE5ReFVLMzJMSVA3c05kRFo5WEFINHVhelZaRHpCYzZSal9lZ25Ibw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:29:06,955 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:29:06,955 [INFO] Resolved Google News URL: https://montelnews.com/news/b9f08310-a4f5-413d-8ced-7160d9682d4b/hybrid-ppas-gain-ground-as-energy-p
+2026-10-20 12:29:06,955 [INFO] URL: https://montelnews.com/news/b9f08310-a4f5-413d-8ced-7160d9682d4b/hybrid-ppas-gain-ground-as-energy-price-risks-rise-in-cee
+2026-10-20 12:29:07,919 [INFO] Text length: 516 chars | source: full
+2026-10-20 12:29:07,919 [INFO] Text preview: Hybrid PPAs gain ground as energy price risks rise in CEE
+(Montel) Hybrid power purchase agreements (PPAs) are gaining traction in central and eastern Europe as competition intensifies and negative pr...
+2026-10-20 12:29:07,919 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:29:09,220 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Hybrid PPAs gain ground as energy price risks rise in CEE - 
+2026-10-20 12:29:09,220 [INFO] LLM extracted 1 deals | Hybrid PPAs gain ground as energy price risks rise
+2026-10-20 12:29:09,223 [INFO] Not a signed deal — skipping: Hybrid PPAs gain ground as energy price risks rise in CEE - 
+2026-10-20 12:29:09,223 [INFO] ------- Processing article n. 0: Amazon Backs New Advanced Nuclear Energy Project at a Former Coal Plant - ESG To -------
+2026-10-20 12:29:09,287 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxOdzBidzF4M05tSjloel9vWDZLRFBvTWJrdmpscnBqa2dDeEYxNlNOWlk0Z0tjSWlRcFFRMWRSZmh2bWtaVHJLSXdfTktCYktSNi10a0trR2lubDZ2UTBGbTJiSjhVSE5iTWExMmZuVHVkUVhpTnNyU0V5cEtiVVRDYU42ZG5IYklIRjB3eXlnelBXWUoxM3RlSnFkQXBvZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:29:10,380 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:29:10,381 [INFO] Resolved Google News URL: https://www.esgtoday.com/amazon-backs-new-advanced-nuclear-energy-project-at-a-former-coal-plant/
+2026-10-20 12:29:10,381 [INFO] URL: https://www.esgtoday.com/amazon-backs-new-advanced-nuclear-energy-project-at-a-former-coal-plant/
+2026-10-20 12:29:10,549 [INFO] Text length: 3957 chars | source: full
+2026-10-20 12:29:10,549 [INFO] Text preview: Ohio-based electric utility American Electric Power (AEP), nuclear technology company X-energy and Amazon announced a new agreement to explore the deployment of a 960 MW advanced nuclear energy projec...
+2026-10-20 12:29:10,549 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:29:23,619 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Amazon Backs New Advanced Nuclear Energy Project at a Former
+2026-10-20 12:29:23,619 [INFO] LLM extracted 1 deals | Amazon Backs New Advanced Nuclear Energy Project a
+2026-10-20 12:29:23,621 [INFO] Not a signed deal — skipping: Amazon Backs New Advanced Nuclear Energy Project at a Former
+2026-10-20 12:29:23,621 [INFO] ------- Processing article n. 0: AtkinsRéalis And Indiana To Study Up To 6 GW Of Candu Nuclear Capacity - NucNet -------
+2026-10-20 12:29:23,714 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxNZVlvMTdUbVRFUzU0SDNTNlUxNDh0eENhUkppR2E1ODJsaWZtV2MzZzFZNG5JNjA3d3ZEa0EwNkhFaVc3a2tNMUx4MExuQVJlQ003OWhuaUsyaGRrMVNldXJrUFc5Vlp4SVh1aFVhSy1HSlB1QjFQMlQ1dnFzQVpBTS01eTVWS2RteTJGY0NjTXV3ZzRoREx0UWFCLXpfejVKdFJiczRrZGF5ZTdK?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:29:24,814 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:29:24,815 [INFO] Resolved Google News URL: https://www.nucnet.org/news/atkinsrealis-and-indiana-to-study-up-to-6-gw-of-candu-nuclear-capacity-1
+2026-10-20 12:29:24,815 [INFO] URL: https://www.nucnet.org/news/atkinsrealis-and-indiana-to-study-up-to-6-gw-of-candu-nuclear-capacity-10-2-2026
+2026-10-20 12:29:24,873 [INFO] Full text skipped (status 403): https://www.nucnet.org/news/atkinsrealis-and-indiana-to-study-up-to-6-gw-of-cand
+2026-10-20 12:29:24,873 [INFO] Text length: 171 chars | source: fallback
+2026-10-20 12:29:24,873 [INFO] Text preview: AtkinsRéalis And Indiana To Study Up To 6 GW Of Candu Nuclear Capacity - NucNet
+
+AtkinsRéalis And Indiana To Study Up To 6 GW Of Candu Nuclear Capacity &nbsp;&nbsp; NucNet...
+2026-10-20 12:29:24,873 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:29:38,604 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: AtkinsRéalis And Indiana To Study Up To 6 GW Of Candu Nuclea
+2026-10-20 12:29:38,604 [INFO] LLM extracted 1 deals | AtkinsRéalis And Indiana To Study Up To 6 GW Of Ca
+2026-10-20 12:29:38,606 [INFO] Not a signed deal — skipping: AtkinsRéalis And Indiana To Study Up To 6 GW Of Candu Nuclea
+2026-10-20 12:29:38,606 [INFO] ------- Processing article n. 0: France secures more diesel supplies from Gulf during Macron's tour - Daily Sabah -------
+2026-10-20 12:29:38,672 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxNazROX21ubEx4RjNYV1p2TkVNZkRtQjI4UDJJLTltQV9YZzg1QVRiTERYVnQyZVVHamtncUVOSF9TSy1hczdFcVBaT3p0TDNiOXJ4QVpLREM0SFQ1NjJ4MXp0UGRCdWVhdllDektGZUpGTVFBUTU5d1ZWY3dEMnA2NEVud2JlZGQ1ekpFVDlKcnV0M2NiZEstNlowcTIxR21jNFBhQlFSaHlJZFEtUFdNTzVR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:29:39,760 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:29:39,761 [INFO] Resolved Google News URL: https://www.dailysabah.com/business/energy/france-secures-more-diesel-supplies-from-gulf-during-macr
+2026-10-20 12:29:39,761 [INFO] URL: https://www.dailysabah.com/business/energy/france-secures-more-diesel-supplies-from-gulf-during-macrons-tour/amp
+2026-10-20 12:29:40,332 [INFO] Text length: 2323 chars | source: full
+2026-10-20 12:29:40,332 [INFO] Text preview: France announced new diesel supplies from Saudi Arabia, the United Arab Emirates (UAE) and Bahrain to tackle soaring energy prices amid the protests in the country, while also signing advanced technol...
+2026-10-20 12:29:40,332 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:29:53,710 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: France secures more diesel supplies from Gulf during Macron'
+2026-10-20 12:29:53,710 [INFO] LLM extracted 1 deals | France secures more diesel supplies from Gulf duri
+2026-10-20 12:29:53,712 [INFO] Not a signed deal — skipping: France secures more diesel supplies from Gulf during Macron'
+2026-10-20 12:29:53,712 [INFO] ------- Processing article n. 0: Türkiye's Zorlu Enerji sells EV charging venture Electrip for $147.6M - Türkiye  -------
+2026-10-20 12:29:53,773 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxOYTlmUWc4UlI1OEt6VEs4Mldxdm9pdWYxYjAwMmhpdzVoUXcydUwxcm9hRk5tRW50UDlpdWZ3OXBYSkxqc24tcklKc3MyUDFFd3FYMFBoaGhKQTdxM0Z6WmliT3ExT0hmNHA3TV9FOFVRemRMQy1nbHUxSFk5RXhmOHZvUnM0Ylh4MVVIN0hOYU9DWlJ2eW5taldrekJVU0tKc1ktVnNzVjBLM25kdXpMYUpn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:29:54,876 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:29:54,877 [INFO] Resolved Google News URL: https://www.turkiyetoday.com/business/turkiyes-zorlu-enerji-sells-ev-charging-venture-electrip-for-1
+2026-10-20 12:29:54,877 [INFO] URL: https://www.turkiyetoday.com/business/turkiyes-zorlu-enerji-sells-ev-charging-venture-electrip-for-1476m-3230686
+2026-10-20 12:29:55,194 [INFO] Text length: 2234 chars | source: full
+2026-10-20 12:29:55,194 [INFO] Text preview: Turkish energy company Zorlu Enerji has agreed to sell its entire 41.28% stake in electric vehicle charging venture Electrip Global Limited for $147.6 million, as it seeks to fund planned investments ...
+2026-10-20 12:29:55,194 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:30:09,013 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Türkiye's Zorlu Enerji sells EV charging venture Electrip fo
+2026-10-20 12:30:09,013 [INFO] LLM extracted 1 deals | Türkiye's Zorlu Enerji sells EV charging venture E
+2026-10-20 12:30:09,015 [INFO] Not a signed deal — skipping: Türkiye's Zorlu Enerji sells EV charging venture Electrip fo
+2026-10-20 12:30:09,015 [INFO] ------- Processing article n. 0: Vattenfall and Fluence Advance German Battery Storage - www.bestmag.co.uk -------
+2026-10-20 12:30:09,079 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTE1nMXlVXzktM2F1YjZUTHEzdVROdkFMdXo0MlRxVTg0dUkwUXZWVlRHTU4yLTFmYW0wWU5EZ2V6WWpVc2lQalNMUnJzWmdNRkRfdmJhTS1xNldSczNHN3hIdHQ1UHNnZzN3TDBLU01YbDRCNTRnX0NTX0lNMHZiUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:30:10,181 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:30:10,182 [INFO] Resolved Google News URL: https://www.bestmag.co.uk/vattenfall-plans-1-gwh-battery-storage-project/
+2026-10-20 12:30:10,182 [INFO] URL: https://www.bestmag.co.uk/vattenfall-plans-1-gwh-battery-storage-project/
+2026-10-20 12:30:14,208 [INFO] Text length: 2631 chars | source: full
+2026-10-20 12:30:14,208 [INFO] Text preview: European energy company Vattenfall has signed an agreement with Fluence Energy for the delivery and long-term servicing of a major battery energy storage facility at Brunsbüttel, Germany. With a plann...
+2026-10-20 12:30:14,208 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:30:23,846 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Vattenfall and Fluence Advance German Battery Storage - www.
+2026-10-20 12:30:23,846 [INFO] LLM extracted 1 deals | Vattenfall and Fluence Advance German Battery Stor
+2026-10-20 12:30:23,847 [INFO] Not a signed deal — skipping: Vattenfall and Fluence Advance German Battery Storage - www.
+2026-10-20 12:30:23,847 [INFO] ------- Processing article n. 0: Vietnam signs free trade agreement with four European Free Trade Association cou -------
+2026-10-20 12:30:23,916 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQWW1FbUFDU0N0RWt0emk3VWVOblpPeDMtRE94Mnd0VjN1UDJlc0MxdFRLM1NPMjdlX1EwNVFwa2hMUHU3SnpHLUZzQmwyNHc2b0diNTIwUkplVGtNdC01ZFBsVjJtZ29JNW5URWJOeFYxbjhLN1pGZi0zZGRCakRrRjQxcUJTbXJNTFJOSzlJLXRhWFpEZnFUZ1diaFpQMW9maldET1huQzI1S2pDRkxCaEFNaHZ0QjZvTk9UaU1n?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:30:25,062 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:30:25,063 [INFO] Resolved Google News URL: https://theinvestor.vn/vietnam-signs-free-trade-agreement-with-four-european-free-trade-association-
+2026-10-20 12:30:25,063 [INFO] URL: https://theinvestor.vn/vietnam-signs-free-trade-agreement-with-four-european-free-trade-association-countries-d20268.html
+2026-10-20 12:30:25,418 [INFO] Text length: 7469 chars | source: full
+2026-10-20 12:30:25,418 [INFO] Text preview: Vietnam signs free trade agreement with four European Free Trade Association countries
+Vietnam has signed a free trade agreement with the four member states of the European Free Trade Association (EFT...
+2026-10-20 12:30:25,418 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:30:38,799 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Vietnam signs free trade agreement with four European Free T
+2026-10-20 12:30:38,800 [INFO] LLM extracted 1 deals | Vietnam signs free trade agreement with four Europ
+2026-10-20 12:30:38,801 [INFO] Not a signed deal — skipping: Vietnam signs free trade agreement with four European Free T
+2026-10-20 12:30:38,801 [INFO] ------- Processing article n. 0: HAU Energy and Infinity Power Secure Up to USD 566 Million for Nefer Minya - الا -------
+2026-10-20 12:30:38,870 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSXZjR3lsQ0lPbGZidk1FWTV0TnVZdnVISFpNMVB0ckVQV0l3cEtfdmh3WEU2a2JHWm9DTExzSk95V0taN2RRLWVLNEk4NmtBaDkyUlFFRGlmY1FMOFRHU3VrbTdwd084Njg1eEJTWWFQZFJ1SFlNTnRyNVZfb3V1aFJjczVLQk05a1RRNHoxLS05Qmdaa2JkQ2MxYk1OUGpCbmZVYlNacks?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:30:39,962 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:30:39,962 [INFO] Resolved Google News URL: https://eleqtisadenews.com/en/hau-energy-and-infinity-power-secure-up-to-usd-566-million-for-nefer-m
+2026-10-20 12:30:39,962 [INFO] URL: https://eleqtisadenews.com/en/hau-energy-and-infinity-power-secure-up-to-usd-566-million-for-nefer-minya/
+2026-10-20 12:30:40,409 [INFO] Text length: 2970 chars | source: full
+2026-10-20 12:30:40,409 [INFO] Text preview: Infinity Power and HAU Energy secured a total debt financing package of up to USD 566 million, including up to USD 265 million arranged by EBRD, for the development of the Nefer Minya Solar PV Project...
+2026-10-20 12:30:40,409 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:30:55,807 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: HAU Energy and Infinity Power Secure Up to USD 566 Million f
+2026-10-20 12:30:55,808 [INFO] LLM extracted 1 deals | HAU Energy and Infinity Power Secure Up to USD 566
+2026-10-20 12:30:55,809 [INFO] Not a European deal — skipping: Egyptian Electricity Transmission Company / Infinity Power, HAU Energy (Egypt, 1200 MW)
+2026-10-20 12:30:55,809 [INFO] ------- Processing article n. 0: EBRD Backs Africa’s ‘Largest’ Solar Power Plant With $265Mn - TaiyangNews -------
+2026-10-20 12:30:55,872 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxQSW5JREVNcndHZ056S29vMlZCRUZDVFRFdEFSZmZwY01Yb2lJaEFvNGdwS1ZkbzVRbFE5MkJCemMyejZxenQzZ2VSd2tUZW1LODRua182c090Tjg3bjRiSmxvTlNWc2FXaENqYVpIcW0temdqVHhwWUF0RHdIam5ueVg2dXJVT3JiaWpOd2FmV01NYWc5?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:30:56,967 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:30:56,968 [INFO] Resolved Google News URL: https://taiyangnews.info/business/ebrd-backs-africas-largest-solar-power-plant-265-million
+2026-10-20 12:30:56,968 [INFO] URL: https://taiyangnews.info/business/ebrd-backs-africas-largest-solar-power-plant-265-million
+2026-10-20 12:30:57,137 [INFO] Text length: 3153 chars | source: full
+2026-10-20 12:30:57,137 [INFO] Text preview: The EBRD has mobilized $265 million loan package for a solar and storage project in Egypt
+The 1.2 GW solar plant will be paired with a 600 MWh BESS to store daytime electricity and meet peak demand af...
+2026-10-20 12:30:57,137 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:31:09,173 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EBRD Backs Africa’s ‘Largest’ Solar Power Plant With $265Mn 
+2026-10-20 12:31:09,174 [INFO] LLM extracted 1 deals | EBRD Backs Africa’s ‘Largest’ Solar Power Plant Wi
+2026-10-20 12:31:09,175 [INFO] Not a European deal — skipping: Egyptian Electricity Transmission Company / Nefer Menya for Renewable Energy (Infinity Power & HAU Energy) (Egypt, 1200 MW)
+2026-10-20 12:31:09,175 [INFO] ------- Processing article n. 0: Wika kommerzialisiert Freileitungsmonitoring des Fraunhofer IZM - industrielle a -------
+2026-10-20 12:31:09,230 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxPZmxrb3NGQW1OTHJTR2NraU9CcWxTdEZpSHI4dDJTZFBBU1kyTENlNEEtNkV6Uk5DSjZfdVh0ZnpOVkNPOTByUC1rTzZ2U096LWlkekc5RFo5dm1uZzI1ZFI0bkRQaFdpeGE5OERIemVTZVNuTlNXOF9XWTgxZGtsWG16ZXREWWppcHh4ZlFULWRNbXlmMUIyVndCcjBTblRKUEdiZzVPWQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:31:10,335 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:31:10,336 [INFO] Resolved Google News URL: https://www.industrielle-automation.net/wika-kommerzialisiert-freileitungsmonitoring-des-fraunhofer-
+2026-10-20 12:31:10,336 [INFO] URL: https://www.industrielle-automation.net/wika-kommerzialisiert-freileitungsmonitoring-des-fraunhofer-izm/
+2026-10-20 12:31:12,269 [INFO] Text length: 4188 chars | source: full
+2026-10-20 12:31:12,269 [INFO] Text preview: Ein bedeutender Erfolg für den Technologietransfer aus der angewandten Forschung: Zwei Fraunhofer Institute und Wika haben eine Vereinbarung zur Kommerzialisierung der Freileitungsmonitoring-Technolog...
+2026-10-20 12:31:12,269 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:31:23,480 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Wika kommerzialisiert Freileitungsmonitoring des Fraunhofer 
+2026-10-20 12:31:23,481 [INFO] LLM extracted 1 deals | Wika kommerzialisiert Freileitungsmonitoring des F
+2026-10-20 12:31:23,482 [INFO] Not a signed deal — skipping: Wika kommerzialisiert Freileitungsmonitoring des Fraunhofer 
+2026-10-20 12:31:23,482 [INFO] ------- Processing article n. 0: Deep Fission signe un accord d’énergie pour son projet nucléaire au Kansas - Inv -------
+2026-10-20 12:31:23,549 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTFJ0cGhZbmROaXJxMjNSN2xEYTBGY0xiUlNiWElGeV8wLTVGUmxfX2tib3RmdlY3WVBURi1BUFZsQngyb1dqLUc4a0JVM2ZuTVRfeU9kVjFJZ2M0c3FaZjV1NFV2dFVxWVduaUc0UTJ3LUM2QkFwZWk4NThmdWtMVm9VVkpZX0tsa2lIbm1qQ2lTcDZZMmZmeXo0dGIwdjZmbndEX0lpM2huWW41X2pjVFNZUTdNcW52S2tWVEtxR0dKVHNhMm5weA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:31:24,652 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:31:24,653 [INFO] Resolved Google News URL: https://fr.investing.com/news/company-news/deep-fission-signe-un-accord-denergie-pour-son-projet-nuc
+2026-10-20 12:31:24,653 [INFO] URL: https://fr.investing.com/news/company-news/deep-fission-signe-un-accord-denergie-pour-son-projet-nucleaire-au-kansas-93CH-3643104
+2026-10-20 12:31:24,717 [INFO] Full text skipped (status 403): https://fr.investing.com/news/company-news/deep-fission-signe-un-accord-denergie
+2026-10-20 12:31:24,717 [INFO] Text length: 207 chars | source: fallback
+2026-10-20 12:31:24,717 [INFO] Text preview: Deep Fission signe un accord d’énergie pour son projet nucléaire au Kansas - Investing.com France
+
+Deep Fission signe un accord d’énergie pour son projet nucléaire au Kansas &nbsp;&nbsp; Investing.com...
+2026-10-20 12:31:24,717 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:31:38,950 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Deep Fission signe un accord d’énergie pour son projet nuclé
+2026-10-20 12:31:38,950 [INFO] LLM extracted 1 deals | Deep Fission signe un accord d’énergie pour son pr
+2026-10-20 12:31:38,952 [INFO] Non-electricity energy deal — skipping: Deep Fission signe un accord d’énergie pour son projet nuclé
+2026-10-20 12:31:38,952 [INFO] ------- Processing article n. 0: En Espagne, le solaire vend son électricité à moins de la moitié du prix moyen,  -------
+2026-10-20 12:31:39,021 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxQblZxdVhsT29WRGk5VHMyaFFkMUw3S0EzQk9hOThjRmtDNkF2UE85bVVUb3JwOVRXM3NVT0trZXh6ZzMycENUekg0MV9ULXpRbTIweDJLbUNiT1hTckMyNDBTTVQ5eTFYazQ2U2ZUMGRuYm05UlJFbkloYV9YckFjVm1XbmNXNUJKeGNobjg4SWlFc3lwY3ZkTVZJT0FDemZLSHBHcHBkRV9xZHRBdmhIYnhVTnlJcjl1T1pqaU84bWdoVEt4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:31:40,103 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:31:40,103 [INFO] Resolved Google News URL: https://www.lechodusolaire.fr/en-espagne-le-solaire-vend-son-electricite-a-moins-de-la-moitie-du-pri
+2026-10-20 12:31:40,103 [INFO] URL: https://www.lechodusolaire.fr/en-espagne-le-solaire-vend-son-electricite-a-moins-de-la-moitie-du-prix-moyen-contre-82-en-2023/
+2026-10-20 12:31:41,853 [INFO] Text length: 4553 chars | source: full
+2026-10-20 12:31:41,853 [INFO] Text preview: En Espagne, le solaire vend son électricité à moins de la moitié du prix moyen, contre 82% en 2023
+Au premier semestre 2026, le solaire espagnol n’a obtenu en moyenne que 24 €/MWh pour sa production, ...
+2026-10-20 12:31:41,853 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:31:53,542 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: En Espagne, le solaire vend son électricité à moins de la mo
+2026-10-20 12:31:53,543 [INFO] LLM extracted 1 deals | En Espagne, le solaire vend son électricité à moin
+2026-10-20 12:31:53,544 [INFO] Not a signed deal — skipping: En Espagne, le solaire vend son électricité à moins de la mo
+2026-10-20 12:31:53,544 [INFO] ------- Processing article n. 0: Deep Fission firma un acuerdo energético para su proyecto nuclear en Kansas - In -------
+2026-10-20 12:31:53,604 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHpINk1yd2NOLUdRdTQ1UzV1TGVBZW1lMmFLZVhMRDZ0NS13SW15aGZYYmZhOEhFellYSW9YMmlXWjg3a0t0ajJmRjBONkNvWWR2cGdDb2hYZkduZW54dzlwR21qN3VDeXhUZzFveVp4Ymc4bi04bDZnTDNDVGppOFdBV2x4NDRUU09BVDZNSXZURzY1NmNBOGxJdWdQblA5b3FhdU1iQWs3ckNrMUNERl9DdDZnLXBRMGRDNkszZk95Qi1NTHBCem8tMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:31:54,706 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:31:54,707 [INFO] Resolved Google News URL: https://es.investing.com/news/company-news/deep-fission-firma-un-acuerdo-energetico-para-su-proyecto
+2026-10-20 12:31:54,707 [INFO] URL: https://es.investing.com/news/company-news/deep-fission-firma-un-acuerdo-energetico-para-su-proyecto-nuclear-en-kansas-93CH-3881163
+2026-10-20 12:31:54,767 [INFO] Full text skipped (status 403): https://es.investing.com/news/company-news/deep-fission-firma-un-acuerdo-energet
+2026-10-20 12:31:54,768 [INFO] Text length: 209 chars | source: fallback
+2026-10-20 12:31:54,768 [INFO] Text preview: Deep Fission firma un acuerdo energético para su proyecto nuclear en Kansas - Investing.com España
+
+Deep Fission firma un acuerdo energético para su proyecto nuclear en Kansas &nbsp;&nbsp; Investing.c...
+2026-10-20 12:31:54,768 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:32:08,663 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Deep Fission firma un acuerdo energético para su proyecto nu
+2026-10-20 12:32:08,663 [INFO] LLM extracted 1 deals | Deep Fission firma un acuerdo energético para su p
+2026-10-20 12:32:08,665 [INFO] Not a signed deal — skipping: Deep Fission firma un acuerdo energético para su proyecto nu
+2026-10-20 12:32:08,665 [INFO] ------- Processing article n. 0: Los precios de la electricidad deben determinarse en función de costes razonable -------
+2026-10-20 12:32:08,737 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikAFBVV95cUxPc3lMUXQ3ZkwtZlBDTkE4TEktUGV6dWh6ZnJnblB2b3NIZUlIRGRGR2FJa1QzYXFtLXNLV2JuN1FxTjV1dHpuTzhnVmZ0bXJLZjlhVzI0LVJJUGlfcmhaMUVKQ0Zvdk1ZYlBPVHk1RDNkMVhwbzFMaDl1WFJJdzFrcWVXcER5OEFiM0Z5U2xwRkg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:32:09,826 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:32:09,826 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/gia-dien-can-duoc-hinh-thanh-tren-co-so-chi-phi-hop-ly-hop-le
+2026-10-20 12:32:09,827 [INFO] URL: https://www.vietnam.vn/es/gia-dien-can-duoc-hinh-thanh-tren-co-so-chi-phi-hop-ly-hop-le
+2026-10-20 12:32:10,180 [INFO] Text length: 5577 chars | source: full
+2026-10-20 12:32:10,180 [INFO] Text preview: Al presentar el informe, el Ministro de Industria y Comercio, Le Manh Hung, declaró que las principales enmiendas y adiciones incluyen la revisión de las regulaciones sobre la planificación y las dire...
+2026-10-20 12:32:10,180 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:32:23,668 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Los precios de la electricidad deben determinarse en función
+2026-10-20 12:32:23,668 [INFO] LLM extracted 1 deals | Los precios de la electricidad deben determinarse 
+2026-10-20 12:32:23,669 [INFO] Not a signed deal — skipping: Los precios de la electricidad deben determinarse en función
+2026-10-20 12:32:23,669 [INFO] ------- Processing article n. 0: Deep Fission firma acuerdo de energía para proyecto nuclear en Kansas - Investin -------
+2026-10-20 12:32:23,743 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd0pyRlBGZU9neXM2Wk5KZ2Vxam96eEhRQmxtczBTUC1oZUZnNUhtUlY1djBnVFRseDhrcC10cHRuUTVZQmM3WnhsQ09Lbk9mRE40RUdjMGNxNWpEa3lXbkY1OFRad0ZkMnNhQXBPdHJRY2xaaHhMWDAzVUZxY0Z4TUlzWG45WXVoWE9CMmZ1NUEyYUZLa0trN080RnJheU5GS1VSdUQ0eU56Z29hMGJ0c3ZpaWNaY3NnRjVlcnc0RFFJRGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:32:24,839 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:32:24,840 [INFO] Resolved Google News URL: https://mx.investing.com/news/company-news/deep-fission-firma-acuerdo-de-energia-para-proyecto-nucle
+2026-10-20 12:32:24,840 [INFO] URL: https://mx.investing.com/news/company-news/deep-fission-firma-acuerdo-de-energia-para-proyecto-nuclear-en-kansas-93CH-3805306
+2026-10-20 12:32:24,883 [INFO] Full text skipped (status 403): https://mx.investing.com/news/company-news/deep-fission-firma-acuerdo-de-energia
+2026-10-20 12:32:24,883 [INFO] Text length: 249 chars | source: fallback
+2026-10-20 12:32:24,883 [INFO] Text preview: Deep Fission firma acuerdo de energía para proyecto nuclear en Kansas - Investing.com México - Finanzas, Bolsa y Forex
+
+Deep Fission firma acuerdo de energía para proyecto nuclear en Kansas &nbsp;&nbs...
+2026-10-20 12:32:24,883 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:32:38,966 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Deep Fission firma acuerdo de energía para proyecto nuclear 
+2026-10-20 12:32:38,966 [INFO] LLM extracted 1 deals | Deep Fission firma acuerdo de energía para proyect
+2026-10-20 12:32:38,968 [INFO] Non-electricity energy deal — skipping: Deep Fission firma acuerdo de energía para proyecto nuclear 
+2026-10-20 12:32:38,968 [INFO] ------- Processing article n. 0: Garantizar la transparencia y la seguridad energética a través de la nueva factu -------
+2026-10-20 12:32:39,043 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxOc2ZZWEVwdVpUbkY4c2JzTTFyelZwN1NzSWxJZ0VhMEMwR1lFUi02U2ZJTFpTU1JWWDkyMUZfYWt1OW9jUGFDblVYcXU5cjRjbllGVGZkalN2TEhGMV9pb0ZWX3h0ckJVUjh0TXFTWDJfNG5ZNHhseURvc3N0NzF4bE4tb0EzQkFlNGJtYjFLVEVHemRM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:32:40,132 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:32:40,133 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/bao-dam-minh-bach-va-an-ninh-nang-luong-qua-du-luat-dien-luc-moi
+2026-10-20 12:32:40,133 [INFO] URL: https://www.vietnam.vn/es/bao-dam-minh-bach-va-an-ninh-nang-luong-qua-du-luat-dien-luc-moi
+2026-10-20 12:32:40,247 [INFO] Text length: 11669 chars | source: full
+2026-10-20 12:32:40,247 [INFO] Text preview: Garantizar la transparencia y la seguridad energética a través de la nueva factura de electricidad.
+El proyecto de ley que modifica y complementa determinados artículos de la Ley de Electricidad debe ...
+2026-10-20 12:32:40,247 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:32:53,569 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Garantizar la transparencia y la seguridad energética a trav
+2026-10-20 12:32:53,570 [INFO] LLM extracted 1 deals | Garantizar la transparencia y la seguridad energét
+2026-10-20 12:32:53,571 [INFO] Not a signed deal — skipping: Garantizar la transparencia y la seguridad energética a trav
+2026-10-20 12:32:53,571 [INFO] ------- Processing article n. 0: Modificaciones a la Ley de Electricidad: Desarrollo de fuentes de energía fiable -------
+2026-10-20 12:32:53,644 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxPV0lIWmlCdXlRc1NzM1ptWVhnMV9UdXhWMEtpVC1VZ1BtZ2t5Ty1KbU5Kck1qS3E2TUZjZDZ4RmU5SmJPN3hxLUhETlRIN3RpQ2g3ckQ4RGFWWklteEZNQnFYLWlPbkY1UllMNTJReW9uWGowYVlsTjRjbXRuSXQ0Yk13MXZKdy1TeWM2OWlBakNTTlpOQXJCQzhOZ2VvZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:32:54,746 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:32:54,747 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/sua-doi-luat-dien-luc-phat-trien-nguon-dien-bao-dam-trong-tinh-hinh-moi
+2026-10-20 12:32:54,747 [INFO] URL: https://www.vietnam.vn/es/sua-doi-luat-dien-luc-phat-trien-nguon-dien-bao-dam-trong-tinh-hinh-moi
+2026-10-20 12:32:54,951 [INFO] Text length: 9439 chars | source: full
+2026-10-20 12:32:54,952 [INFO] Text preview: Modificaciones a la Ley de Electricidad: Desarrollo de fuentes de energía fiables en la nueva situación.
+El objetivo del proyecto de ley es crear un marco jurídico para el desarrollo de fuentes de ene...
+2026-10-20 12:32:54,952 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:33:08,967 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Modificaciones a la Ley de Electricidad: Desarrollo de fuent
+2026-10-20 12:33:08,967 [INFO] LLM extracted 1 deals | Modificaciones a la Ley de Electricidad: Desarroll
+2026-10-20 12:33:08,968 [INFO] Not a signed deal — skipping: Modificaciones a la Ley de Electricidad: Desarrollo de fuent
+2026-10-20 12:33:08,969 [INFO] ------- Processing article n. 0: La Asamblea Nacional ha presentado oficialmente la normativa sobre la aplicación -------
+2026-10-20 12:33:09,039 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeFpOOGg3c0pqRDBLNzJzekxfWlhpeWZYX1V1OFl5a0p0M1VCV3RnVUhaN0JhZTNJMEFkNjhQaTl6NkFvc3hkZDJONWtmUnZERUMyM1JXUDBQWEdJbFNPSW9fQ2F3RWVmVmQzS0tTTXlNUWxDQ2hQLVZCOElzMkNkRFVJc252eV9nWW9veC1nLXlmNDBfdmNfRWEteWhjaXB2WWFlR3NSTEV5Y1lDUFZxYlBnZkFZSjRkZ0xrOVMtZU9wQUk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:33:10,135 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:33:10,135 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/chinh-thuc-trinh-quoc-hoi-quy-dinh-ap-gia-dien-theo-gio-thap-diem-cao-diem
+2026-10-20 12:33:10,135 [INFO] URL: https://www.vietnam.vn/es/chinh-thuc-trinh-quoc-hoi-quy-dinh-ap-gia-dien-theo-gio-thap-diem-cao-diem-voi-khach-hang-sinh-hoat
+2026-10-20 12:33:10,240 [INFO] Text length: 7712 chars | source: full
+2026-10-20 12:33:10,240 [INFO] Text preview: La Asamblea Nacional ha presentado oficialmente la normativa sobre la aplicación de las tarifas eléctricas en horas punta y fuera de las horas punta para los clientes residenciales.
+En la tarde del 20...
+2026-10-20 12:33:10,240 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:33:23,553 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: La Asamblea Nacional ha presentado oficialmente la normativa
+2026-10-20 12:33:23,553 [INFO] LLM extracted 1 deals | La Asamblea Nacional ha presentado oficialmente la
+2026-10-20 12:33:23,554 [INFO] Not a signed deal — skipping: La Asamblea Nacional ha presentado oficialmente la normativa
+2026-10-20 12:33:23,554 [INFO] ------- Processing article n. 0: Modificación de la Ley de Electricidad: Eliminación de los "obstáculos" en el de -------
+2026-10-20 12:33:23,623 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxPRGNVbDNNbHNFWUpaZUxJUTJvRnBtTHhtLURfNms5Y24yRXU2aXJvemdhRzNOUVo5SktSajlRSGFGM0p5SmExeWpISzJTRFcxNlpaNVl5Q0dSVnpPTjZ1cE1MdzM4VDdtWlhIUlIwb1dsOWpNc2pySk1PcGswM0lfaEVSMUVJYXN6VEkzVjVJeGNuTFpjd2RNNnJxYnpmZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:33:24,734 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:33:24,734 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/sua-doi-luat-dien-luc-go-diem-nghen-trong-phat-trien-nguon-va-luoi-dien
+2026-10-20 12:33:24,734 [INFO] URL: https://www.vietnam.vn/es/sua-doi-luat-dien-luc-go-diem-nghen-trong-phat-trien-nguon-va-luoi-dien
+2026-10-20 12:33:24,828 [INFO] Text length: 6798 chars | source: full
+2026-10-20 12:33:24,828 [INFO] Text preview: Modificación de la Ley de Electricidad: Eliminación de los "obstáculos" en el desarrollo de las fuentes y redes eléctricas.
+(Chinhphu.vn) - En la tarde del 20 de octubre, continuando con el programa d...
+2026-10-20 12:33:24,828 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:33:38,432 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Modificación de la Ley de Electricidad: Eliminación de los "
+2026-10-20 12:33:38,433 [INFO] LLM extracted 1 deals | Modificación de la Ley de Electricidad: Eliminació
+2026-10-20 12:33:38,434 [INFO] Not a signed deal — skipping: Modificación de la Ley de Electricidad: Eliminación de los "
+2026-10-20 12:33:38,434 [INFO] ------- Processing article n. 0: La nueva propuesta del gobierno sobre los precios de la electricidad y una hoja  -------
+2026-10-20 12:33:38,502 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFZ1R1M0MVRLcm9KN3ZZZjY5WVBpVXllUF9OWEJBcm1qem5OV0JXcm1BRWNDWlF4RFpkYUtVdzVEX21fYUZXdlJVZjdTOEw3OE5Ta1BFcUFkUEdRV0JrWWlKLXh1OUZjeklacFNlMnNjZ2ZXcWNqSVg4bG00SG1FcVU3ckZHNzFDNi10YTlLdk5CRjFv?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:33:39,604 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:33:39,605 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/de-xuat-moi-cua-chinh-phu-ve-gia-dien-va-lo-trinh-xoa-bo-bu-cheo
+2026-10-20 12:33:39,605 [INFO] URL: https://www.vietnam.vn/es/de-xuat-moi-cua-chinh-phu-ve-gia-dien-va-lo-trinh-xoa-bo-bu-cheo
+2026-10-20 12:33:39,705 [INFO] Text length: 6830 chars | source: full
+2026-10-20 12:33:39,705 [INFO] Text preview: La nueva propuesta del gobierno sobre los precios de la electricidad y una hoja de ruta para eliminar la subvención cruzada.
+(Periódico Dan Tri) - La enmienda a la Ley de Electricidad se está elaboran...
+2026-10-20 12:33:39,705 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:33:53,666 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: La nueva propuesta del gobierno sobre los precios de la elec
+2026-10-20 12:33:53,666 [INFO] LLM extracted 1 deals | La nueva propuesta del gobierno sobre los precios 
+2026-10-20 12:33:53,668 [INFO] Not a signed deal — skipping: La nueva propuesta del gobierno sobre los precios de la elec
+2026-10-20 12:33:53,668 [INFO] ------- Processing article n. 0: Alcampo supera los 10 MW de autoconsumo fotovoltaico conjunto en 19 de sus centr -------
+2026-10-20 12:33:53,731 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ0YyY0RWWEt4MTltZS16RGl2bEMtNFY1eHo4dDdDbllMelJIQkV0cUh3VkYwcTRNV3dUeWZJM1dYY0pEN05FcTFXOWhUQnVXRjRTUkZXLWNXS2JaMENrb1dsWkhKaXJ6bkpDalVGNE01ZWpROTFBbGRaVngySnpxN1V3VTItWnN3d2tKVDFrR3VPM2lRTWhrOXZTc1REUWlpbkhqQkFEbjg0ck5LZk9yQnVSWHVUSU9YZ1NxVG1VaWYwRnU5WEV0TDhkdkxiZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:33:54,815 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:33:54,816 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/10/20/alcampo-supera-los-10-mw-de-autoconsumo-fotovoltaico-conjunto-
+2026-10-20 12:33:54,816 [INFO] URL: https://www.pv-magazine.es/2026/10/20/alcampo-supera-los-10-mw-de-autoconsumo-fotovoltaico-conjunto-en-19-de-sus-centros-comerciales/
+2026-10-20 12:33:55,134 [INFO] Text length: 1876 chars | source: full
+2026-10-20 12:33:55,134 [INFO] Text preview: Alcampo supera los 10 MW de autoconsumo fotovoltaico conjunto en 19 de sus centros comerciales
+Helexia, compañía francesa especializada en el desarrollo y la gestión de proyectos de eficiencia energét...
+2026-10-20 12:33:55,135 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:34:08,664 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Alcampo supera los 10 MW de autoconsumo fotovoltaico conjunt
+2026-10-20 12:34:08,664 [INFO] LLM extracted 1 deals | Alcampo supera los 10 MW de autoconsumo fotovoltai
+2026-10-20 12:34:08,666 [INFO] Not a signed deal — skipping: Alcampo supera los 10 MW de autoconsumo fotovoltaico conjunt
+2026-10-20 12:34:08,666 [INFO] ------- Processing article n. 0: Meccanismi per lo sviluppo dell'ecosistema dell'elettricità verde. - Vietnam.vn -------
+2026-10-20 12:34:08,737 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxOVV9kNV9Gb29MNHR3dnZVOHRYcGRydzNKYTdvMGdWdzVLdHJLTV9UcDhNQXJmOTVKazVMQmpiQlZrelp0eHdIZzIyVzV2NV94S0c2cWVXU21jUER0U3lKQ0dwWEVSSHo5ejJPRHBPanI5b0FLbVFNUmo5a19ud01JMzZBNA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:34:09,858 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:34:09,859 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/hoan-thien-co-che-phat-trien-he-sinh-thai-dien-xanh
+2026-10-20 12:34:09,859 [INFO] URL: https://www.vietnam.vn/it/hoan-thien-co-che-phat-trien-he-sinh-thai-dien-xanh
+2026-10-20 12:34:09,960 [INFO] Text length: 7058 chars | source: full
+2026-10-20 12:34:09,960 [INFO] Text preview: Meccanismi per lo sviluppo dell'ecosistema dell'elettricità verde.
+Nel pomeriggio del 20 ottobre, durante la discussione di gruppo sul progetto di legge di modifica e integrazione di alcuni articoli d...
+2026-10-20 12:34:09,960 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:34:23,971 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Meccanismi per lo sviluppo dell'ecosistema dell'elettricità 
+2026-10-20 12:34:23,972 [INFO] LLM extracted 1 deals | Meccanismi per lo sviluppo dell'ecosistema dell'el
+2026-10-20 12:34:23,973 [INFO] Not a signed deal — skipping: Meccanismi per lo sviluppo dell'ecosistema dell'elettricità 
+2026-10-20 12:34:23,973 [INFO] ------- Processing article n. 0: Garantire trasparenza e sicurezza energetica attraverso la nuova bolletta elettr -------
+2026-10-20 12:34:24,074 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxNM2dVZ0dIT09aOHdpU2UybmpOQmwwVHRlck1uWmdPS1BSblp4enhCazFvYWZkWFlsbFlRZEdBblBMdnpxOWpnTlhmaHRYR0w4enJLUjlyNFVsRWlqVVE3LWw0cnlORkVJMEVHS1NrYk9idVNnZHp0QUZLS3kwb1Z1ZE5zbHNCYUtVZmZKcHRNMEdqeU96?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:34:25,158 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:34:25,159 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/bao-dam-minh-bach-va-an-ninh-nang-luong-qua-du-luat-dien-luc-moi
+2026-10-20 12:34:25,159 [INFO] URL: https://www.vietnam.vn/it/bao-dam-minh-bach-va-an-ninh-nang-luong-qua-du-luat-dien-luc-moi
+2026-10-20 12:34:25,586 [INFO] Text length: 12189 chars | source: full
+2026-10-20 12:34:25,586 [INFO] Text preview: Garantire trasparenza e sicurezza energetica attraverso la nuova bolletta elettrica.
+Il progetto di legge che modifica e integra alcuni articoli della legge sull'energia elettrica deve garantire trasp...
+2026-10-20 12:34:25,587 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:34:38,552 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Garantire trasparenza e sicurezza energetica attraverso la n
+2026-10-20 12:34:38,553 [INFO] LLM extracted 1 deals | Garantire trasparenza e sicurezza energetica attra
+2026-10-20 12:34:38,554 [INFO] Not a signed deal — skipping: Garantire trasparenza e sicurezza energetica attraverso la n
+2026-10-20 12:34:38,554 [INFO] ------- Processing article n. 0: Il Primo Ministro Le Minh Hung: la mancata rimozione tempestiva dei colli di bot -------
+2026-10-20 12:34:38,624 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxNd1d2S3hBS3hMTGRtaE43Uko4OGpxTE5rOGZfNV9uWHZIbzRGZ2NRZm9jbHc4REk5YUtoeTZucWpQUEpPbW1BS3BKNWRlYjNlVUN0REZvaUhfSXYwQTBZNHJSanRHdENUbko5V04yN3BDeE4wTnFGZXM1bmVsbUVxZWx2VTgyR2FRN2xPMk5hWE9wRU9oQURCMldkQ00tVFZRR1JzMk04T3pJdDRHeWtjbld3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:34:39,729 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:34:39,730 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/thu-tuong-le-minh-hung-khong-thao-go-kip-diem-nghen-nguy-co-thieu-dien-cho
+2026-10-20 12:34:39,730 [INFO] URL: https://www.vietnam.vn/it/thu-tuong-le-minh-hung-khong-thao-go-kip-diem-nghen-nguy-co-thieu-dien-cho-tang-truong
+2026-10-20 12:34:40,059 [INFO] Text length: 13429 chars | source: full
+2026-10-20 12:34:40,059 [INFO] Text preview: Una crescita a doppia cifra richiede un'ampia fornitura di energia elettrica.
+Nel pomeriggio del 20 ottobre, intervenendo alla sessione di discussione di gruppo sul progetto di legge di modifica e int...
+2026-10-20 12:34:40,059 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:34:53,632 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Il Primo Ministro Le Minh Hung: la mancata rimozione tempest
+2026-10-20 12:34:53,632 [INFO] LLM extracted 1 deals | Il Primo Ministro Le Minh Hung: la mancata rimozio
+2026-10-20 12:34:53,635 [INFO] Not a signed deal — skipping: Il Primo Ministro Le Minh Hung: la mancata rimozione tempest
+2026-10-20 12:34:53,635 [INFO] ------- Processing article n. 0: 315 mln zł dla PSE. Umowa z MKiŚ podpisana - Energetyka24 -------
+2026-10-20 12:34:53,706 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxNbHZYbnZDcU1PaXU1UElJVkZ2QWt3WGNYX0xsUUFUeHNqc3hSeFhEbkhFdXVrS2V5QlpMNFk1S3lnMHZUNWR3QnVpY3dSaURINzA2Sm9paVhEaEgyOTNHR19mQjk5M3JSQjNYaWNKMFMycDV2NUhhakVpTHp4MTlwbGV3LTd2RzZ3a0pxQ2RQaHdEOXdiRGZ0c0xtTQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:34:54,792 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:34:54,792 [INFO] Resolved Google News URL: https://energetyka24.com/energetyka/elektroenergetyka/315-mln-zl-dla-pse-umowa-z-mkis-podpisana
+2026-10-20 12:34:54,793 [INFO] URL: https://energetyka24.com/energetyka/elektroenergetyka/315-mln-zl-dla-pse-umowa-z-mkis-podpisana
+2026-10-20 12:34:55,162 [INFO] Text length: 1409 chars | source: full
+2026-10-20 12:34:55,163 [INFO] Text preview: Koszt planowanych przedsięwzięć wynosi łącznie ok. 813 mln zł. Podpisana 15 października br. między PSE a MKiŚ umowa zakłada dofinansowanie ze środków programu FenIKS 2021-2027.
+Na co zostaną przeznac...
+2026-10-20 12:34:55,163 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:35:08,921 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: 315 mln zł dla PSE. Umowa z MKiŚ podpisana - Energetyka24
+2026-10-20 12:35:08,921 [INFO] LLM extracted 1 deals | 315 mln zł dla PSE. Umowa z MKiŚ podpisana - Energ
+2026-10-20 12:35:08,923 [INFO] Not a signed deal — skipping: 315 mln zł dla PSE. Umowa z MKiŚ podpisana - Energetyka24
+2026-10-20 12:35:08,923 [INFO] ------- Processing article n. 0: Os preços da eletricidade devem ser determinados com base em custos razoáveis ​​ -------
+2026-10-20 12:35:08,985 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikAFBVV95cUxOYW54a3RnSXBTWmE1bXN0eFZaYkdudXRlcElXOHc1bEw3MzhvajgyQUxBbjJ2YzZxOVVkYTdMTEZWNWo5eGdBQlN3UE14Ni1YeUhhTEkxQzBRTUp5YW12WnNlZ3l1WW9wVm5jeDRZRWtHR2J2ZVAwbk1GVDA1NEhzNjlINkVVTk1IbXpiZ3BDNEs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:35:10,074 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:35:10,074 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/gia-dien-can-duoc-hinh-thanh-tren-co-so-chi-phi-hop-ly-hop-le
+2026-10-20 12:35:10,075 [INFO] URL: https://www.vietnam.vn/pt/gia-dien-can-duoc-hinh-thanh-tren-co-so-chi-phi-hop-ly-hop-le
+2026-10-20 12:35:10,433 [INFO] Text length: 5306 chars | source: full
+2026-10-20 12:35:10,433 [INFO] Text preview: Ao apresentar o relatório, o Ministro da Indústria e Comércio, Le Manh Hung, afirmou que as principais alterações e acréscimos incluem a revisão das normas sobre o planejamento e as diretrizes de dese...
+2026-10-20 12:35:10,433 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:35:23,662 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Os preços da eletricidade devem ser determinados com base em
+2026-10-20 12:35:23,662 [INFO] LLM extracted 1 deals | Os preços da eletricidade devem ser determinados c
+2026-10-20 12:35:23,663 [INFO] Not a signed deal — skipping: Os preços da eletricidade devem ser determinados com base em
+2026-10-20 12:35:23,664 [INFO] ------- Processing article n. 0: Alteração da Lei da Eletricidade: Eliminação dos "gargalos" no desenvolvimento d -------
+2026-10-20 12:35:23,730 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxOdE56Y2hUS0d1cl9jQnR6RXBFS3NXaE00akFQTWVZdWhPZ0RiTFpWWmcwX1NpS1hpNEdfbWNLZGw1cnlfOGUyMzVtTEZvQlVuSlhKOE9GRFc4XzJIWHhTMEdnWDJPUXhQRWV0NUZTX2VkV3l5b3BxWDVCbkNIQ1FHMk9QbUcwbHpKazZ1RDB0ZVNLWDNyWnRRa244MnBwQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:35:24,822 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:35:24,823 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/sua-doi-luat-dien-luc-go-diem-nghen-trong-phat-trien-nguon-va-luoi-dien
+2026-10-20 12:35:24,823 [INFO] URL: https://www.vietnam.vn/pt/sua-doi-luat-dien-luc-go-diem-nghen-trong-phat-trien-nguon-va-luoi-dien
+2026-10-20 12:35:25,150 [INFO] Text length: 6404 chars | source: full
+2026-10-20 12:35:25,150 [INFO] Text preview: Alteração da Lei da Eletricidade: Eliminação dos "gargalos" no desenvolvimento de fontes e redes de energia.
+(Chinhphu.vn) - Na tarde de 20 de outubro, dando continuidade à programação da Segunda Sess...
+2026-10-20 12:35:25,150 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:35:38,515 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Alteração da Lei da Eletricidade: Eliminação dos "gargalos" 
+2026-10-20 12:35:38,515 [INFO] LLM extracted 1 deals | Alteração da Lei da Eletricidade: Eliminação dos "
+2026-10-20 12:35:38,517 [INFO] Not a signed deal — skipping: Alteração da Lei da Eletricidade: Eliminação dos "gargalos" 
+2026-10-20 12:35:38,518 [INFO] ------- Processing article n. 0: Acordo de Livre Comércio Vietnã-EFTA assinado: Quais setores serão beneficiados? -------
+2026-10-20 12:35:38,576 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnY2OXRRdm1rSnA5Q0xFaFYxTEpNdFRGMldpbUgzQ0FDWDhQWmxFaXZ2QzRYZXc0LVVrR2ZTX3NVdzdqRXc1Wk45bkU5OUdVeFFkUGhrOUVsWVd1WlR4U0NTTFhNNnR5bE1VTlZmNGw5N3R0eXFPSXU5SFpNdXNqUjR1bXdHb3M?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-20 12:35:39,681 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-20 12:35:39,682 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/ky-ket-fta-viet-nam-efta-nhom-nganh-nao-duoc-huong-loi
+2026-10-20 12:35:39,682 [INFO] URL: https://www.vietnam.vn/pt/ky-ket-fta-viet-nam-efta-nhom-nganh-nao-duoc-huong-loi
+2026-10-20 12:35:39,780 [INFO] Text length: 3889 chars | source: full
+2026-10-20 12:35:39,780 [INFO] Text preview: Após 14 anos de negociações, o 18º Acordo de Livre Comércio (ALC) do Vietnã foi oficialmente assinado com a Associação Europeia de Livre Comércio (EFTA), composta por Suíça, Noruega , Islândia e Liech...
+2026-10-20 12:35:39,780 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-20 12:35:53,535 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Acordo de Livre Comércio Vietnã-EFTA assinado: Quais setores
+2026-10-20 12:35:53,535 [INFO] LLM extracted 1 deals | Acordo de Livre Comércio Vietnã-EFTA assinado: Qua
+2026-10-20 12:35:53,537 [INFO] Not a signed deal — skipping: Acordo de Livre Comércio Vietnã-EFTA assinado: Quais setores
+2026-10-20 12:35:53,537 [INFO] Run complete. New deals: 0, Updates: 0
+2026-10-20 12:35:53,553 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1504 deals)
+2026-10-20 12:35:54,640 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
