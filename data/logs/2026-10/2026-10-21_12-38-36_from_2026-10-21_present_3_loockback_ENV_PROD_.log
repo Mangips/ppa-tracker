@@ -1,0 +1,379 @@
+2026-10-21 12:38:36,339 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-21 12:38:36,345 [INFO] Loaded 1656 existing deals for dedup matching
+2026-10-21 12:38:36,345 [INFO] Searching from 2026-10-21 to present with 3 loockback days
+2026-10-21 12:38:36,429 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-21 12:38:37,679 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-21 12:38:38,805 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-21 12:38:40,271 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-21&hl=en&gl=US&ceid=US:en: 14 results
+2026-10-21 12:38:42,553 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-21&hl=en&gl=US&ceid=US:en: 5 results
+2026-10-21 12:38:44,751 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-21&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-21 12:38:46,978 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-21&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-10-21 12:38:49,215 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-21&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-10-21 12:38:51,428 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-21&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-10-21 12:38:53,662 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-21&hl=es&gl=ES&ceid=ES:es: 3 results
+2026-10-21 12:38:55,971 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-21&hl=es&gl=ES&ceid=ES:es: 5 results
+2026-10-21 12:38:58,193 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-21&hl=it&gl=IT&ceid=IT:it: 2 results
+2026-10-21 12:39:00,435 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-21&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-21 12:39:02,718 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-21&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-21 12:39:04,920 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-21 12:39:07,144 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-21 12:39:09,549 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-21&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-21 12:39:11,828 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-21&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-21 12:39:13,828 [INFO] Total raw articles collected: 33
+2026-10-21 12:39:14,124 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-10-21 12:39:15,765 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-10-21 12:39:16,774 [INFO] Unique unseen articles: 28
+2026-10-21 12:39:16,774 [INFO] ------- Processing article n. 0: Deep Fission Signs 25-Year Power Agreement For Planned US Nuclear Project - NucN -------
+2026-10-21 12:39:16,894 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEFFYWRueVlEUUltT29WUXlwNEVjd2NtNnB1YVZZM1p0RXZRWDUtenh5Nk1tY1hxdEJsbUZvMEJvNlN1Ym1qbS11UE1DbHEwaWJMamdPS3dKSWhLY3V3eEk1OTV0MjdaSWVLVmoxNV80WDNqdXVnUUJxdFpWZGFfTUZFNFFFS1N1MTRlbWY1ZzJHRHRUNkZRQzhId1JlWi01aDNjTFpvempjRmJPYUVPdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:39:17,974 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:39:17,975 [INFO] Resolved Google News URL: https://www.nucnet.org/news/deep-fission-signs-25-year-power-agreement-for-planned-us-nuclear-projec
+2026-10-21 12:39:17,975 [INFO] URL: https://www.nucnet.org/news/deep-fission-signs-25-year-power-agreement-for-planned-us-nuclear-project-10-3-2026
+2026-10-21 12:39:18,084 [INFO] Full text skipped (status 403): https://www.nucnet.org/news/deep-fission-signs-25-year-power-agreement-for-plann
+2026-10-21 12:39:18,084 [INFO] Text length: 177 chars | source: fallback
+2026-10-21 12:39:18,084 [INFO] Text preview: Deep Fission Signs 25-Year Power Agreement For Planned US Nuclear Project - NucNet
+
+Deep Fission Signs 25-Year Power Agreement For Planned US Nuclear Project &nbsp;&nbsp; NucNet...
+2026-10-21 12:39:18,084 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:39:19,166 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Deep Fission Signs 25-Year Power Agreement For Planned US Nu
+2026-10-21 12:39:19,167 [INFO] LLM extracted 1 deals | Deep Fission Signs 25-Year Power Agreement For Pla
+2026-10-21 12:39:19,169 [INFO] Non-electricity energy deal — skipping: Deep Fission Signs 25-Year Power Agreement For Planned US Nu
+2026-10-21 12:39:19,169 [INFO] ------- Processing article n. 0: European Energy signs 30-year agreements for three Aussie projects - Renewables  -------
+2026-10-21 12:39:19,246 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdzRUcjVJRzFjMER4SVhlellZUDY1dS16RmRhSi01dkFsYzQ5enBCM1hvaEpxMnhPSTZ2U1oteERBSjFSVURnN0czZmFMc3ZENmQ5UldobWVOTTdqcC0tMmFKeExpcEI0M3RKRDBtYThCUWJXTVd5VVpzdmFrOEFid0d2MFdSOEU2aTFQX2RkcXNySGJJTjVvSGtFeGJucUNHdFJyUFJBNS1OZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:39:20,331 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:39:20,332 [INFO] Resolved Google News URL: https://renewablesnow.com/news/european-energy-signs-30-year-agreements-for-three-aussie-projects-13
+2026-10-21 12:39:20,332 [INFO] URL: https://renewablesnow.com/news/european-energy-signs-30-year-agreements-for-three-aussie-projects-1303391/
+2026-10-21 12:39:20,470 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/european-energy-signs-30-year-agreements-for-thre
+2026-10-21 12:39:20,470 [INFO] Text length: 179 chars | source: fallback
+2026-10-21 12:39:20,471 [INFO] Text preview: European Energy signs 30-year agreements for three Aussie projects - Renewables Now
+
+European Energy signs 30-year agreements for three Aussie projects &nbsp;&nbsp; Renewables Now...
+2026-10-21 12:39:20,471 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:39:33,945 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: European Energy signs 30-year agreements for three Aussie pr
+2026-10-21 12:39:33,945 [INFO] LLM extracted 1 deals | European Energy signs 30-year agreements for three
+2026-10-21 12:39:33,948 [INFO] Not a European deal — skipping: European Energy / None (Australia, None MW)
+2026-10-21 12:39:33,948 [INFO] ------- Processing article n. 0: Project Finance Brief: energyRe Secures $815 Million - Mercom Capital Group -------
+2026-10-21 12:39:34,034 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxQNW9oR1FfT2V6T0JJWnBOUVBocGIyU0Q5eEE0c01HY3dUVldRa25SRHBqVlBMM25CVGtJSEQzMTVHbThVcUVnS2E4STBLc0pQenhvUTVXbDhpUnZGZnE4Zk9rUWUteDB5Qk5nUnZtN194M3IxZWZWUkdoU1ZHeTc1QmUxOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:39:35,119 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:39:35,120 [INFO] Resolved Google News URL: https://mercomcapital.com/project-finance-brief-energyre-secures-815-million/
+2026-10-21 12:39:35,120 [INFO] URL: https://mercomcapital.com/project-finance-brief-energyre-secures-815-million/
+2026-10-21 12:39:35,239 [INFO] Text length: 2424 chars | source: full
+2026-10-21 12:39:35,239 [INFO] Text preview: energyRe, a solar, wind, and energy storage project developer, has secured $815 million in financing for five utility-scale solar projects totaling approximately 360 MW in South Carolina. U.S. Bank of...
+2026-10-21 12:39:35,239 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:39:49,587 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Project Finance Brief: energyRe Secures $815 Million - Merco
+2026-10-21 12:39:49,588 [INFO] LLM extracted 1 deals | Project Finance Brief: energyRe Secures $815 Milli
+2026-10-21 12:39:49,589 [INFO] Not a signed deal — skipping: Project Finance Brief: energyRe Secures $815 Million - Merco
+2026-10-21 12:39:49,589 [INFO] ------- Processing article n. 0: Europe's nation-controlled AI center opportunity tops 40 gigawatts of capacity,  -------
+2026-10-21 12:39:49,686 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxOMTFuTkRVYXhTYUluZmtJZ1hEV2VuZTdhME5iWU1rdFAtSVRGNEtzNHpoQkhxeF9KTDZ1SFlGazJTSDA5b2psWHFhSEN2UEJvTGUta285VmNDc3VCU293UmxlN3ZtU0hXdnM4Vjg0UG1fYlRiUDZhUE8zVVBvc1hKbzJoZkNqU3NFSHk0a0ptT1psbm90OUVTS2o5cUZrSnRONXd4aEJlQTU0aGE3SXVvdWUzV0t6S050cE5OdkNZOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:39:50,797 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:39:50,798 [INFO] Resolved Google News URL: https://www.stocktitan.net/news/VIVO/vivo-power-signs-definitive-heads-of-agreement-with-open-innova
+2026-10-21 12:39:50,798 [INFO] URL: https://www.stocktitan.net/news/VIVO/vivo-power-signs-definitive-heads-of-agreement-with-open-innovation-gi11csktngli.html
+2026-10-21 12:39:51,081 [INFO] Text length: 20287 chars | source: full
+2026-10-21 12:39:51,081 [INFO] Text preview: VivoPower Signs Definitive Heads of Agreement with Open Innovation AI to Develop Secure Sovereign AI Data Centers Across the Nordics, Mainland Europe, the GCC and selective countries in Asia
+The partn...
+2026-10-21 12:39:51,081 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:40:04,003 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Europe's nation-controlled AI center opportunity tops 40 gig
+2026-10-21 12:40:04,003 [INFO] LLM extracted 1 deals | Europe's nation-controlled AI center opportunity t
+2026-10-21 12:40:04,005 [INFO] Not a signed deal — skipping: Europe's nation-controlled AI center opportunity tops 40 gig
+2026-10-21 12:40:04,005 [INFO] ------- Processing article n. 0: Encavis signs first hybrid PPA in Spain - reNEWS -------
+2026-10-21 12:40:04,290 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxPX2lpM3FFQXloN3RkQVhVRko3UXJodjR2WnNOM1lOMWl2aUhvTUZXTkwxNGZCUFZVcS05SDh6REFhV00tMTZ5d0lORXlJdWdIeFZ5WVhMeWgzazFLbVB4aFFwa0JCQjNyMGEyY3pLdUtzb1BHeUItUk9rcmRPLWxPbmlR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:40:05,374 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:40:05,374 [INFO] Resolved Google News URL: https://www.renews.biz/onshore-wind/encavis-signs-first-hybrid-ppa-in-spain/
+2026-10-21 12:40:05,374 [INFO] URL: https://www.renews.biz/onshore-wind/encavis-signs-first-hybrid-ppa-in-spain/
+2026-10-21 12:40:06,363 [INFO] Text length: 2126 chars | source: full
+2026-10-21 12:40:06,364 [INFO] Text preview: Encavis has signed its first hybrid power purchase agreement (PPA) combining solar and wind generation in Spain with energy company Visalia.
+The company said the three-and-a-half-year agreement will s...
+2026-10-21 12:40:06,364 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:40:18,809 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis signs first hybrid PPA in Spain - reNEWS
+2026-10-21 12:40:18,809 [INFO] LLM extracted 1 deals | Encavis signs first hybrid PPA in Spain - reNEWS
+2026-10-21 12:40:18,826 [INFO] NEW: Visalia / Encavis (Spain, 199 MW)
+2026-10-21 12:40:23,827 [INFO] ------- Processing article n. 1: [SMM Analysis] China's PV Module Exports, Sep 2026: Up 44% MoM as Middle East Su -------
+2026-10-21 12:40:23,903 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQk4xRWZBOVM4eU9CNGlZVkxzT2ZhUWYxLVpmaEd1TGJPUFhIcmJ1V0lGZGRHSjl3V0xza2Q0V2k5ZHpXTERHVmdWZG9HelEwcmxyUm9zSXRZQlZkbVYxWUZ0NE1WcldrbDlnT2NwOFJSSkh4VV9oblFWV1h4YXBCSDhGclh3YU5KVHB3SFRCb1lrdnl3V1lpbWFGaWMwVEN6bzBFT2U5aWpUNGlTV3dSeVZIWUdPV0RJQ0xDMUFkc0phUkxoVlVWZDAtQjZ5bEQzcHZxanFtVVJRNUxJMEhhYVRLOVpzMzgxTm1KdDUtUHM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:40:24,991 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:40:24,992 [INFO] Resolved Google News URL: https://news.metal.com/newscontent/104171278-smm-analysis-chinas-pv-module-exports-sep-2026-up-44-mo
+2026-10-21 12:40:24,992 [INFO] URL: https://news.metal.com/newscontent/104171278-smm-analysis-chinas-pv-module-exports-sep-2026-up-44-mom-as-middle-east-surges-and-southeast-asian-demand-improves
+2026-10-21 12:40:26,513 [INFO] Text length: 8883 chars | source: full
+2026-10-21 12:40:26,513 [INFO] Text preview: 1. China overview: September exports rebound, but year-to-date volumes remain lower
+China exported approximately 23.92 GW of photovoltaic (PV) modules in September 2026, according to SMM data. Shipmen...
+2026-10-21 12:40:26,513 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:40:33,895 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: [SMM Analysis] China's PV Module Exports, Sep 2026: Up 44% M
+2026-10-21 12:40:33,895 [INFO] LLM extracted 1 deals | [SMM Analysis] China's PV Module Exports, Sep 2026
+2026-10-21 12:40:33,897 [INFO] Not a signed deal — skipping: [SMM Analysis] China's PV Module Exports, Sep 2026: Up 44% M
+2026-10-21 12:40:33,897 [INFO] ------- Processing article n. 1: EU approves Siemens’ MERMEC deal ahead of expected year-end closing - Railway Su -------
+2026-10-21 12:40:33,977 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxNd2diREZXTHphVWgtZUhUdHF1YkRTMWd5T1VUakdjMGNtVlk5V1FpZml6NUVLek56dXBCR3lCMVhGVS1SMHNnc1RyZFNYUTBOalNuSXZDTVVhbHJUZ0l1U3NqaVhPY2hRQVhMaFE0LUlaSWNJV0NUQml5THF2cW9HWW1HWEZPMHdGR3k2MU13U1F4N3AxQ3dzX0Zn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:40:35,063 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:40:35,064 [INFO] Resolved Google News URL: https://www.railway.supply/eu-approves-siemens-mermec-deal-ahead-of-expected-year-end-closing/
+2026-10-21 12:40:35,064 [INFO] URL: https://www.railway.supply/eu-approves-siemens-mermec-deal-ahead-of-expected-year-end-closing/
+2026-10-21 12:40:35,786 [INFO] Text length: 3523 chars | source: full
+2026-10-21 12:40:35,786 [INFO] Text preview: EU approves Siemens’ MERMEC deal ahead of expected year-end closing
+The European Commission has cleared the Siemens Mobility MERMEC acquisition, covering Italian signaling and diagnostics businesses w...
+2026-10-21 12:40:35,786 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:40:48,980 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EU approves Siemens’ MERMEC deal ahead of expected year-end 
+2026-10-21 12:40:48,981 [INFO] LLM extracted 1 deals | EU approves Siemens’ MERMEC deal ahead of expected
+2026-10-21 12:40:48,982 [INFO] Not a signed deal — skipping: EU approves Siemens’ MERMEC deal ahead of expected year-end 
+2026-10-21 12:40:48,982 [INFO] ------- Processing article n. 1: Encavis signs first hybrid solar and wind PPA with Visalia in Spain - AD HOC NEW -------
+2026-10-21 12:40:49,082 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxOMjVmNXJPcnRaQkFSOU5tZnNDRTdnTkZFb0phU2dSMHRSZTZrakRjOTdwS3RGM2NFcDFFaEVnTUx2OEZGMThtTXA1YkM0RTZ6T0ZjUTM4LXd0cUVkVzBiTnRJYmxOSldEbEQ0d2p6Mm5YR3FXaC1qZmhnZUdWdVlUVDVEM3doRWhxRkJnSmNyZUpMdy13MlJ5V3psaTBDYTlyTllneHdhTDhYVHFicC1qZlh3eXRTMWtLNXlKSThrXzUwMWE4WVhwdzdn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:40:50,192 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:40:50,193 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/encavis-signs-first-hybrid-solar-and-wind-ppa-
+2026-10-21 12:40:50,193 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/encavis-signs-first-hybrid-solar-and-wind-ppa-with-visalia-in-spain/70380777
+2026-10-21 12:40:51,440 [INFO] Text length: 4362 chars | source: full
+2026-10-21 12:40:51,441 [INFO] Text preview: Corporate News
+Hamburg, 21 October 2026 – Encavis has signed its first hybrid Power Purchase Agreement (PPA) combining solar and wind generation in Spain. Under the three-and-a-half-year agreement wit...
+2026-10-21 12:40:51,441 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:41:03,940 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis signs first hybrid solar and wind PPA with Visalia i
+2026-10-21 12:41:03,940 [INFO] LLM extracted 1 deals | Encavis signs first hybrid solar and wind PPA with
+2026-10-21 12:41:03,956 [INFO] DUPLICATE skipped: Visalia / Encavis (Spain) — same as ID: 2023
+2026-10-21 12:41:03,956 [INFO] ------- Processing article n. 1: Sunsure Energy Signs 21 MWp PPA with SPR Auto Technologies and SPR Takahata Prec -------
+2026-10-21 12:41:04,125 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ2NhSzNyOEdfdlNsM1VQWHZKOW5NbF9sZ21fV1l0eHRCV01zaXE4YmwwOUFXVEgyUDdmdVdKM01TbzhhZm5Ta19oUEZseWt5dnB0TTBZWUlTQmJqRlRlUlNZX25GSjVHenZpTUdEczItOHk4M3VaVFJlSGRteGo4SmVaUDN2YmtBbEVYTUFZOFh0NjFjaUhrUkpBQ1QtSTFaZk80dWtyN3lfVEJTV2hjYUZPTEdHOTh6WkVKWU9pSVU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:41:05,205 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:41:05,206 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/sunsure-energy-signs-21-mwp-ppa-with-spr-auto-technologies-and
+2026-10-21 12:41:05,206 [INFO] URL: https://www.energetica-india.net/news/sunsure-energy-signs-21-mwp-ppa-with-spr-auto-technologies-and-spr-takahata-precision
+2026-10-21 12:41:06,708 [INFO] Text length: 2895 chars | source: full
+2026-10-21 12:41:06,708 [INFO] Text preview: Sunsure Energy Signs 21 MWp PPA with SPR Auto Technologies and SPR Takahata Precision
+Sunsure Energy has signed a long-term PPA with SPR Auto Technologies and SPR Takahata Precision India to supply 21...
+2026-10-21 12:41:06,708 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:41:19,200 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Sunsure Energy Signs 21 MWp PPA with SPR Auto Technologies a
+2026-10-21 12:41:19,200 [INFO] LLM extracted 1 deals | Sunsure Energy Signs 21 MWp PPA with SPR Auto Tech
+2026-10-21 12:41:19,201 [INFO] Not a European deal — skipping: SPR Auto Technologies, SPR Takahata Precision India / Sunsure Energy (India, 21 MW)
+2026-10-21 12:41:19,201 [INFO] ------- Processing article n. 1: [Daniel Yoo’s Canadian Perspective] Canada Turns to Europe. Can Industrial Coope -------
+2026-10-21 12:41:19,311 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMicEFVX3lxTE1BUVRUdFBOMm02VjdNOWxoSTM2TlA4VEI0YVpjaDFkM1ZLemNOdHBsMXZDQ3kzaERHMTVvVlFnMnNpbmVxVTcyUjNXOHE1S01QMnFndjBMR3dQRTdmY21waEY3YjZhcll3SzNHSURINmY?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:41:20,392 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:41:20,393 [INFO] Resolved Google News URL: https://www.koreaittimes.com/news/articleView.html?idxno=158402
+2026-10-21 12:41:20,393 [INFO] URL: https://www.koreaittimes.com/news/articleView.html?idxno=158402
+2026-10-21 12:41:21,717 [INFO] Text length: 7364 chars | source: full
+2026-10-21 12:41:21,717 [INFO] Text preview: By Daniel Yoo | Columnist, Vancouver
+Canada is seeking to reshape its relationship with Europe as U.S. tariff pressure and trade uncertainty expose the risks of its dependence on the American market. ...
+2026-10-21 12:41:21,717 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:41:33,541 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: [Daniel Yoo’s Canadian Perspective] Canada Turns to Europe. 
+2026-10-21 12:41:33,542 [INFO] LLM extracted 1 deals | [Daniel Yoo’s Canadian Perspective] Canada Turns t
+2026-10-21 12:41:33,543 [INFO] Not a signed deal — skipping: [Daniel Yoo’s Canadian Perspective] Canada Turns to Europe. 
+2026-10-21 12:41:33,543 [INFO] ------- Processing article n. 1: Encavis signs with Visalia its first hybrid solar and wind PPA in Spain for 60 G -------
+2026-10-21 12:41:33,616 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxOVTdxQWNKMzdYWkRPY2FlWnpYMVlxTG5FN3IwQjc3V2QtNWlUSGM5N3ZvTG00TnJCR1MxelJkakQ4MGMxVEhMMHVreGt3OVdnOFRfc3RlSV9uMG0xRHlHRnh0NGl2bWJKRVFIdzRWYnRoN09ZemxuTmFseWVDVlBzMjhONGx3ZWFSdFRwT3loU01RM1VkTkJuaFoyMUllLUxkMkx1YVhIR3FGSWZTZThfT3FtZ0FpUFRPM2tzTk5yc2FKU2NZOHRF0gHMAUFVX3lxTE54dzBjemNGYkRiS2pCUzVGZnZFOEhiUDNjVlJacUNFQ0piYnpFUmtpc1Rhb0pOczRKcFhoeENtU3lwd19lcl9IUTI0dEl2eVEzSWZuUzNRd1gweC13akstSm8yOHlXLUQ0dzd0WHZwbFhUYnA1SmtOTzI4REVRbkswR1JjTUVjUHZLNFBXVFhpM2ZaanZFeklfRjEzWWtmVzVnYmRGV1h1Vy1fUUNxeHA4ZGpVbHQzRzdlVGI0eGQyLVJPZkF6ZGl1b2lKcQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:41:34,716 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:41:34,717 [INFO] Resolved Google News URL: https://www.democrata.es/en/economy/encavis-signs-with-visalia-its-first-hybrid-solar-and-wind-ppa-i
+2026-10-21 12:41:34,717 [INFO] URL: https://www.democrata.es/en/economy/encavis-signs-with-visalia-its-first-hybrid-solar-and-wind-ppa-in-spain-for-60-gwh-annually/
+2026-10-21 12:41:34,812 [INFO] Full text skipped (status 403): https://www.democrata.es/en/economy/encavis-signs-with-visalia-its-first-hybrid-
+2026-10-21 12:41:34,812 [INFO] Text length: 219 chars | source: fallback
+2026-10-21 12:41:34,812 [INFO] Text preview: Encavis signs with Visalia its first hybrid solar and wind PPA in Spain for 60 GWh annually - Demócrata
+
+Encavis signs with Visalia its first hybrid solar and wind PPA in Spain for 60 GWh annually &nb...
+2026-10-21 12:41:34,812 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:41:49,120 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis signs with Visalia its first hybrid solar and wind P
+2026-10-21 12:41:49,120 [INFO] LLM extracted 1 deals | Encavis signs with Visalia its first hybrid solar 
+2026-10-21 12:41:49,136 [INFO] DUPLICATE skipped: Visalia / Encavis (Spain) — same as ID: 2023
+2026-10-21 12:41:49,136 [INFO] ------- Processing article n. 1: Hungary's MOL has signed an agreement to acquire the Russian stake in Serbia's N -------
+2026-10-21 12:41:49,214 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxOdHFVZDdhclNUci1vay1ZUTNtMW9Sd2l1c3hZVFVHZExEa2pwcjNweGNpTVFKZHNoOTJZaHIwQ2l0WEJXTG5JdV9sT3dfV2xhV25ka19BeFYwN2VFa3MyeUttTzZNcktNc1REMl8yclFKS0RHZ2p5WUVsdnR5cHc2dUVBeTZsdi1Iejd3QlZJZ0dzcjNOVWJGVHB6ZkM3MllxYXdLVEh0V1RBMWdCWExBLUc0T1JKZUHSAbwBQVVfeXFMTnY0eUNpQkVMb3NaeEhRVzdHT094cjVqdjl0WG9tTXFtWDQzVXpPVUR0RnZWQmNzMXFpYTNYWnFNdHNNLXBPczlSb2xrdXMxX3JCRGc3WHUxTUZHZ2REaUdSLXdlVGp2WXVhX0g4b0RadlMyMVRaV2tjNEVHZnRUZmlPNXZGQ2NBZWw2YVdvZFlaV2xoa25UU3o0Z3E1cmc4UGI5eGs4cElXcktYN081b3Y2c29xYmdkenZkYkI?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:41:50,291 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:41:50,292 [INFO] Resolved Google News URL: https://biz.liga.net/en/energy/news/hungarys-mol-has-signed-an-agreement-to-acquire-the-russian-stak
+2026-10-21 12:41:50,292 [INFO] URL: https://biz.liga.net/en/energy/news/hungarys-mol-has-signed-an-agreement-to-acquire-the-russian-stake-in-serbias-nis
+2026-10-21 12:41:50,354 [INFO] Full text skipped (status 403): https://biz.liga.net/en/energy/news/hungarys-mol-has-signed-an-agreement-to-acqu
+2026-10-21 12:41:50,354 [INFO] Text length: 199 chars | source: fallback
+2026-10-21 12:41:50,354 [INFO] Text preview: Hungary's MOL has signed an agreement to acquire the Russian stake in Serbia's NIS - LIGA.net
+
+Hungary's MOL has signed an agreement to acquire the Russian stake in Serbia's NIS &nbsp;&nbsp; LIGA.net...
+2026-10-21 12:41:50,354 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:42:03,781 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Hungary's MOL has signed an agreement to acquire the Russian
+2026-10-21 12:42:03,782 [INFO] LLM extracted 1 deals | Hungary's MOL has signed an agreement to acquire t
+2026-10-21 12:42:03,783 [INFO] Not a signed deal — skipping: Hungary's MOL has signed an agreement to acquire the Russian
+2026-10-21 12:42:03,783 [INFO] ------- Processing article n. 1: Compromise on emissions allowances reached. EU backs away from tougher proposal  -------
+2026-10-21 12:42:03,877 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxONTZ6T1ZlX2YzUnFLT3hRM2ZxQnU2V3lDYWhnQWN6a2RIYzRadjJwYzBzSUtrZGFhemNRV0Z3YWFkdTdLVV9lTDhMX0M0MWFFVTV6TE9odUJCX1l2enRLQjFOVGhrSktmMzlVeWNYSnBNQmFTTVNOVGFneXpMTnRwUTBEeFNDeDFNU2VZZUNVSnBtS3RpbXluRGxqMWRhR05Qb090cloxckVNQlU4YnZlcXFMc21VUWJnb1A4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:42:04,985 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:42:04,986 [INFO] Resolved Google News URL: https://oenergetice.cz/en/european-union/compromise-on-emissions-allowances-reached-eu-backs-away-fr
+2026-10-21 12:42:04,986 [INFO] URL: https://oenergetice.cz/en/european-union/compromise-on-emissions-allowances-reached-eu-backs-away-from-tougher-proposal
+2026-10-21 12:42:06,237 [INFO] Text length: 4238 chars | source: full
+2026-10-21 12:42:06,237 [INFO] Text preview: Compromise on emissions allowances reached. EU backs away from tougher proposal
+Brussels, 21 October (CTK correspondent) - EU member states and the European Parliament have reached a provisional agree...
+2026-10-21 12:42:06,237 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:42:18,619 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Compromise on emissions allowances reached. EU backs away fr
+2026-10-21 12:42:18,619 [INFO] LLM extracted 1 deals | Compromise on emissions allowances reached. EU bac
+2026-10-21 12:42:18,621 [INFO] Not a signed deal — skipping: Compromise on emissions allowances reached. EU backs away fr
+2026-10-21 12:42:18,621 [INFO] ------- Processing article n. 1: EIB’s Nehammer visits Ukraine to advance border upgrades, business loans and rec -------
+2026-10-21 12:42:18,699 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU2Y3WXJEeWJPZVNWZDNPOHZhdlpGaktlMjNFdEZlbkRBMDJZcWVvTHYwVU01aUtDVVpYV3VVbUVXbldVc2VkSnpOemhjanB4N2JMWnRrbjVVOWRlbEdCU09aOUk5SFVpVEI1YjI0ckIxNXRwNDJpQzd2WG1yQU83UFdfTGRxOEVWLUthOWtJbmFqWldCRUhpaEZ2am44c0RaZzl4aUxySWFnRDlnZEgwazN4aXJWRGxRN202MHV2b3VyMURRM1h4bmlZNnpBb1EyNkR4Uk50VGnSAdgBQVVfeXFMTVNmN1lyRHliT2VTVmQzTzh2YXZaRmpLZTIzRXRGZW5EQTAyWXFlb0x2MFVNNWlLQ1VaWFd1VW1FV25XVXNlZEp6TnpoY2pweDdiTFp0a241VTlkZWxHQlNPWjlJOUhVaVRCNWIyNHJCMTV0cDQyaUM3dlhtckFPN1BXX0xkcThFVi1LYTlrSW5halpXQkVIaWhGdmpuOHNEWmc5eGlMcklhZ0Q5Z2RIMGszeGlyVkRsUTdtNjB1dm91cjFEUTNYeG5pWTZ6QW9RMjZEeFJOdFRp?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:42:19,808 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:42:19,809 [INFO] Resolved Google News URL: https://www.devdiscourse.com/article/business/3995548-eibs-nehammer-visits-ukraine-to-advance-border
+2026-10-21 12:42:19,809 [INFO] URL: https://www.devdiscourse.com/article/business/3995548-eibs-nehammer-visits-ukraine-to-advance-border-upgrades-business-loans-and-recovery?amp
+2026-10-21 12:42:21,650 [INFO] Text length: 3127 chars | source: full
+2026-10-21 12:42:21,650 [INFO] Text preview: Devdiscourse News Desk | Ukraine
+European Investment Bank Group Vice-President Karl Nehammer is visiting Ukraine from 20 to 22 October to advance financing for reconstruction, infrastructure and busin...
+2026-10-21 12:42:21,650 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:42:33,662 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EIB’s Nehammer visits Ukraine to advance border upgrades, bu
+2026-10-21 12:42:33,662 [INFO] LLM extracted 1 deals | EIB’s Nehammer visits Ukraine to advance border up
+2026-10-21 12:42:33,664 [INFO] Not a signed deal — skipping: EIB’s Nehammer visits Ukraine to advance border upgrades, bu
+2026-10-21 12:42:33,664 [INFO] ------- Processing article n. 1: Visalia to procure 60 GWh of renewable energy p/a from Encavis - Renewables Now -------
+2026-10-21 12:42:33,762 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxQTlhKWUZUY1pDVXhWS25VN2hhaExpbDMtTDZGUFBvOEoxeUVZQ2xkY3hqSmVjSGtXMDRtc2RZWUZzS3RSVjczdDV3alpxX0xLU1NPUFJWQ2l2dTc5bGRfTXFCMlc1cVc1YWl1cU1RXzRCUkl1RnoxamgtdU9vQVBTS25QSGhucnNZdDVOS1FVLWNqaG11Nms0Z3IwQ0JzR1hzMXVN?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:42:34,842 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:42:34,843 [INFO] Resolved Google News URL: https://renewablesnow.com/news/visalia-to-procure-60-gwh-of-renewable-energy-pa-from-encavis-1303399
+2026-10-21 12:42:34,843 [INFO] URL: https://renewablesnow.com/news/visalia-to-procure-60-gwh-of-renewable-energy-pa-from-encavis-1303399/
+2026-10-21 12:42:34,861 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/visalia-to-procure-60-gwh-of-renewable-energy-pa-
+2026-10-21 12:42:34,862 [INFO] Text length: 171 chars | source: fallback
+2026-10-21 12:42:34,862 [INFO] Text preview: Visalia to procure 60 GWh of renewable energy p/a from Encavis - Renewables Now
+
+Visalia to procure 60 GWh of renewable energy p/a from Encavis &nbsp;&nbsp; Renewables Now...
+2026-10-21 12:42:34,862 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:42:48,899 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Visalia to procure 60 GWh of renewable energy p/a from Encav
+2026-10-21 12:42:48,900 [INFO] LLM extracted 1 deals | Visalia to procure 60 GWh of renewable energy p/a 
+2026-10-21 12:42:48,901 [INFO] Not a European deal — skipping: Visalia / Encavis (None, None MW)
+2026-10-21 12:42:48,901 [INFO] ------- Processing article n. 1: Encavis vereinbart erstmals gemeinsamen PPA für Photovoltaik und Windkraft - pv  -------
+2026-10-21 12:42:48,980 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxQS1hmTjdGTWRGeERyME1ZeTRFRWhTYWswVXpUUFNzdlZIT3dmcE82Mi1xRnQ3UTRJbGVwVWF4aWFpcUswekQ3b3o5U1pnelVKYmp6ZFVKdVN4ZDMxZUZqckZROWpXc3E3NG9PYm1fUXRFeGk1NXc3TDNkMWNCOWhXemt6MFhXNm1XcmZsQldKR0dmZTFVejV5bkJuZXJGWUdTcExkQXlXTkg5akFEOGhFZXNSdmE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:42:50,075 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:42:50,076 [INFO] Resolved Google News URL: https://www.pv-magazine.de/2026/10/21/encavis-vereinbart-erstmals-gemeinsamen-ppa-fuer-photovoltaik-
+2026-10-21 12:42:50,076 [INFO] URL: https://www.pv-magazine.de/2026/10/21/encavis-vereinbart-erstmals-gemeinsamen-ppa-fuer-photovoltaik-und-windkraft/
+2026-10-21 12:42:50,495 [INFO] Text length: 1796 chars | source: full
+2026-10-21 12:42:50,495 [INFO] Text preview: Encavis hat mit dem spanischen Energieunternehmen Visalia seinen ersten hybriden Stromabnahmevertrag (PPA) geschlossen, der Photovoltaik und Windenergie kombiniert. Der Vertrag umfasst eine jährliche ...
+2026-10-21 12:42:50,495 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:43:03,877 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis vereinbart erstmals gemeinsamen PPA für Photovoltaik
+2026-10-21 12:43:03,877 [INFO] LLM extracted 1 deals | Encavis vereinbart erstmals gemeinsamen PPA für Ph
+2026-10-21 12:43:03,893 [INFO] DUPLICATE skipped: Visalia / Encavis (Spain) — same as ID: 2023
+2026-10-21 12:43:03,893 [INFO] ------- Processing article n. 1: Côte d’Ivoire : 50 millions d’euros pour le projet solaire de Kong - Sika Financ -------
+2026-10-21 12:43:03,965 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOV2llMDZmdC0tTkFhT2hFNzJ1Mm9zUXdNLWxBUlFua095bEtPMTBwd1A0aTZENy01c08wY1k1SGh6T3NLY21weWdYOVVsRmN5ZW0zNTBvT1RfZjFVcGEtU1JOWXpHTVBCV3k2VGZGUU9iZWZnSUVEUkpTenhDNjF5YUJIZERsTlZ6Q0gxQ0ozVm4tcWFORU9fUWRWZVJZNDdYNE9yUlVwYw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:43:05,059 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:43:05,060 [INFO] Resolved Google News URL: https://www.sikafinance.com/marches/cote-divoire-50-millions-deuros-pour-le-projet-solaire-de-kong_6
+2026-10-21 12:43:05,060 [INFO] URL: https://www.sikafinance.com/marches/cote-divoire-50-millions-deuros-pour-le-projet-solaire-de-kong_65123
+2026-10-21 12:43:05,295 [INFO] Text length: 4433 chars | source: full
+2026-10-21 12:43:05,295 [INFO] Text preview: Le projet de centrale photovoltaïque de Kong, dans le Nord de la Côte d'Ivoire, passe le cap d'une nouvelle phase avec la signature d'un accord de financement de 50 millions d'euros, soit environ 31,8...
+2026-10-21 12:43:05,295 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:43:19,370 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Côte d’Ivoire : 50 millions d’euros pour le projet solaire d
+2026-10-21 12:43:19,370 [INFO] LLM extracted 1 deals | Côte d’Ivoire : 50 millions d’euros pour le projet
+2026-10-21 12:43:19,373 [INFO] Not a European deal — skipping: CI-ENERGIES / Africa Via, InfraCo (Ivory Coast, 50 MW)
+2026-10-21 12:43:19,373 [INFO] ------- Processing article n. 1: Énergies renouvelables : Scatec et Aeolus confirment leur engagement en Tunisie  -------
+2026-10-21 12:43:19,473 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxNMGpPWWkzQmlfRDFtaGdRV01NTVE4ZWlsR2RuTnYwX1BtUVlab2Q4M2ZRWHFEN1lrNTJOZHdYQ1dwY3lTRlg5OENpdkNyZGt3TGY0YzBfU0JJM1U2YmFMT2EwTzFuVURwbUNFa3hISnRiUkRYajRzVGxJVzJlUUlMemR4Qm5mM1JvMkVYLWJXV3lHc0h4SVRKVVRLdjUwRzB6UVg1N01QbFdDTE5fWW82eEVkSm5JQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:43:20,558 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:43:20,559 [INFO] Resolved Google News URL: https://www.entreprises-magazine.com/energies-renouvelables-scatec-et-aeolus-confirment-leur-engagem
+2026-10-21 12:43:20,559 [INFO] URL: https://www.entreprises-magazine.com/energies-renouvelables-scatec-et-aeolus-confirment-leur-engagement-en-tunisie/
+2026-10-21 12:43:24,234 [INFO] Text length: 1873 chars | source: full
+2026-10-21 12:43:24,235 [INFO] Text preview: Le ministre de l’Équipement et de l’Habitat, chargé de la gestion du ministère de l’Industrie, des Mines et de l’Énergie, Salah Zouari, a reçu une délégation du groupe norvégien Scatec et d’Aeolus, fi...
+2026-10-21 12:43:24,235 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:43:34,498 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Énergies renouvelables : Scatec et Aeolus confirment leur en
+2026-10-21 12:43:34,499 [INFO] LLM extracted 1 deals | Énergies renouvelables : Scatec et Aeolus confirme
+2026-10-21 12:43:34,500 [INFO] Not a signed deal — skipping: Énergies renouvelables : Scatec et Aeolus confirment leur en
+2026-10-21 12:43:34,500 [INFO] ------- Processing article n. 1: Encavis signe avec Visalia son premier PPA hybride solaire et éolien en Espagne  -------
+2026-10-21 12:43:34,580 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaXgyMC1YRG4wOUtWYTNadUcwS3Y4b1hLcjE1dzF2THNjQkQ5QlphWmc1SVdrZ1BtU00zOVVmTjFXcHl3aU9rVU5jNTIxU1lkSFVZb3BRUUQzU2RCSUtoNC1BRjZ5NWxyLWZDZ0xxTjZLVW5HM1pXU2x5QXhqOG5UV1lSbWVvQU1FbDBsUmFFSlBCdlN2c3hFYmRDeDFmSUJZUDk0SlAyMU0wbzFSZUdQUlB1Q2x5X09hc2tPMk1qSFNaUC1KenZzVWJfemtReVlWSHQw0gHYAUFVX3lxTE5OYzB0bkF1dzh3bkxnQ3pEY2RpQkZMZjNyM21TMW8tREdBcmFROHg2d24xMEg0S3dXOHQ5MGtqMTRWemdOaGtNS09GaWM0bnhlNTllYkJsbVV0Y1JaSU1yUUdkMFFHRl9fOE5UQzBpOHZ6TjBfUDRIVFdqLXlUaEJlMGdKZ1R0djMwRXVJWDFyVWhxLUZNMGc5Rm5XMW8zVmMyd1Yxal8wV3dLeWRCRlRPcGphRGs0ZW5vaHhDUlNBTkN0dWdjd2ZYSFNtRmY3RnladGRRVlB4Yg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:43:35,684 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:43:35,684 [INFO] Resolved Google News URL: https://www.democrata.es/fr/economie/encavis-signe-avec-visalia-son-premier-ppa-hybride-solaire-et-e
+2026-10-21 12:43:35,684 [INFO] URL: https://www.democrata.es/fr/economie/encavis-signe-avec-visalia-son-premier-ppa-hybride-solaire-et-eolien-en-espagne-pour-60-gwh-annuels/
+2026-10-21 12:43:35,723 [INFO] Full text skipped (status 403): https://www.democrata.es/fr/economie/encavis-signe-avec-visalia-son-premier-ppa-
+2026-10-21 12:43:35,723 [INFO] Text length: 235 chars | source: fallback
+2026-10-21 12:43:35,723 [INFO] Text preview: Encavis signe avec Visalia son premier PPA hybride solaire et éolien en Espagne pour 60 GWh annuels - Demócrata
+
+Encavis signe avec Visalia son premier PPA hybride solaire et éolien en Espagne pour 60...
+2026-10-21 12:43:35,723 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:43:48,840 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis signe avec Visalia son premier PPA hybride solaire e
+2026-10-21 12:43:48,840 [INFO] LLM extracted 1 deals | Encavis signe avec Visalia son premier PPA hybride
+2026-10-21 12:43:48,856 [INFO] NEW: Visalia / Encavis (Spain, None MW)
+2026-10-21 12:43:53,858 [INFO] ------- Processing article n. 2: Parques solares y eólicos de Aragón abastecerán el primer PPA híbrido de Encavis -------
+2026-10-21 12:43:53,941 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRDRhektxeHUzRzNSb1dVbk8wME5ZcVBZTVVWRGZBbjVRT1lYZl9jQVNUbjMxdGc1LXpESldNb0hhUVRTT2ppV1FQTWpQdUpZYkk4MkVXVlF4ZFRISnE5Njgzd0NyX3RaM203bDluM2dYeVJodzU3ZHpIXzM3M2NaZ2NmeUp3TllVbS1vbzBteUZWNTEya2YyWXdDSHhoRk12QWFSbDIyTWZOZjdfQmY4U0Y5M2c1N2dlZGlrQ3hGam1XYUpYOUdkcDhkYnV1c2hnYW95UmVn0gHWAUFVX3lxTE1ENGF6S3F4dTNHM1JvV1VuTzAwTllxUFlNVVZEZkFuNVFPWVhmX2NBU1RuMzF0ZzUtekRKV01vSGFRVFNPamlXUVBNalB1SlliSTgyRVdWUXhkVEhKcTk2ODN3Q3JfdFozbTdsOW4zZ1h5Umh3NTdkekhfMzczY1pnY2Z5SndOWVVtLW9vMG15RlY1MTJrZjJZd0NIeGhGTXZBYVJsMjJNZk5mN19CZjhTRjkzZzU3Z2VkaWtDeEZqbVdhSlg5R2RwOGRidXVzaGdhb3lSZWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:43:55,050 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:43:55,050 [INFO] Resolved Google News URL: https://www.eleconomista.es/energia/amp/14022496/parques-solares-y-eolicos-de-aragon-abasteceran-el-
+2026-10-21 12:43:55,050 [INFO] URL: https://www.eleconomista.es/energia/amp/14022496/parques-solares-y-eolicos-de-aragon-abasteceran-el-primer-ppa-hibrido-de-encavis-en-espana
+2026-10-21 12:43:55,483 [INFO] Full text skipped (status 403): https://www.eleconomista.es/energia/amp/14022496/parques-solares-y-eolicos-de-ar
+2026-10-21 12:43:55,483 [INFO] Text length: 225 chars | source: fallback
+2026-10-21 12:43:55,483 [INFO] Text preview: Parques solares y eólicos de Aragón abastecerán el primer PPA híbrido de Encavis en España - El Economista
+
+Parques solares y eólicos de Aragón abastecerán el primer PPA híbrido de Encavis en España &...
+2026-10-21 12:43:55,483 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:44:03,919 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Parques solares y eólicos de Aragón abastecerán el primer PP
+2026-10-21 12:44:03,919 [INFO] LLM extracted 1 deals | Parques solares y eólicos de Aragón abastecerán el
+2026-10-21 12:44:03,921 [INFO] NEW: Encavis / None (Spain, None MW)
+2026-10-21 12:44:08,922 [INFO] ------- Processing article n. 3: Raymond James rebaja el precio objetivo de Vistra Energy por la debilidad en ERC -------
+2026-10-21 12:44:09,010 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2AFBVV95cUxObEZTang4cjllQTVsUFVrcmcxekRPTkRDRThrZmNYZ0toOWZWVXRoQnBrSFhoZEJyZFJ0NGJWci1Xbm5SaTEzYWRmX1BOOTBPakpVMjN0bjJ3eTdmR1c3ZWNiS1o2anVldmdHcWV2YnpoLTNVN3FhdDJXTmtORnhmbklBUUg0ZG1kWEZLbEF3SXlqWkJPOWhiTkFfS0VOUlBYNUZKRk93OVNldHE5dzlqZWh6N3Iyb29LNG9pTkZPcmt1RmpSSk9oOGRvU2JLcnpjTUhiV0VrNGU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:44:10,091 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:44:10,092 [INFO] Resolved Google News URL: https://es.investing.com/news/analyst-ratings/raymond-james-rebaja-el-precio-objetivo-de-vistra-ener
+2026-10-21 12:44:10,092 [INFO] URL: https://es.investing.com/news/analyst-ratings/raymond-james-rebaja-el-precio-objetivo-de-vistra-energy-por-la-debilidad-en-ercot-93CH-3883040
+2026-10-21 12:44:10,126 [INFO] Full text skipped (status 403): https://es.investing.com/news/analyst-ratings/raymond-james-rebaja-el-precio-obj
+2026-10-21 12:44:10,126 [INFO] Text length: 223 chars | source: fallback
+2026-10-21 12:44:10,126 [INFO] Text preview: Raymond James rebaja el precio objetivo de Vistra Energy por la debilidad en ERCOT - Investing.com España
+
+Raymond James rebaja el precio objetivo de Vistra Energy por la debilidad en ERCOT &nbsp;&nbs...
+2026-10-21 12:44:10,126 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:44:18,857 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Raymond James rebaja el precio objetivo de Vistra Energy por
+2026-10-21 12:44:18,857 [INFO] LLM extracted 1 deals | Raymond James rebaja el precio objetivo de Vistra 
+2026-10-21 12:44:18,859 [INFO] Not a signed deal — skipping: Raymond James rebaja el precio objetivo de Vistra Energy por
+2026-10-21 12:44:18,859 [INFO] ------- Processing article n. 3: Megaproyecto de Solaria: UTE requerirá presupuesto adicional de US$ 120 millones -------
+2026-10-21 12:44:18,940 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAJBVV95cUxPNTRpNTMzQjdXNVprUkt4c0ZyUkVEcHdYdGZNbVBLdTBqQkM1Mjh3ZHlOX19DUVdpNGdabTktRzZWai1oTjBiZnRwVWc1UG9BWmdaamQ3S1lzOHRtajFsSENVb2d2Sll6MUE5bXZ1VjduWlpJWHBhNHNxX3JEYmdSQmxqdjk2ZVdjUHhPN0VMeUZ6NDVrZGkwTllhWjhQZjlza181VkkwYkJYV1JiSmhhNUREWHZ3MGNMeW9OV2pzemRNVEY3R2lUQ1AwN3RURDNRMXlGWmMtbjE4d2EyeFBFRVdjalNRcG01aVpiYjIyTTNCa0NCTDdOMktJRlBNbVhKd2JfN2JPMFJuOWtINVNOaU1vRXQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:44:20,026 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:44:20,027 [INFO] Resolved Google News URL: https://www.elobservador.com.uy/nacional/megaproyecto-solaria-ute-requerira-presupuesto-adicional-us
+2026-10-21 12:44:20,027 [INFO] URL: https://www.elobservador.com.uy/nacional/megaproyecto-solaria-ute-requerira-presupuesto-adicional-us-120-millones-adelantar-inversiones-que-respalden-la-demanda-los-data-centers-n6061137
+2026-10-21 12:44:20,394 [INFO] Text length: 7171 chars | source: full
+2026-10-21 12:44:20,395 [INFO] Text preview: UTE proyecta que va a requerir un presupuesto adicional de US$ 120 millones para hacer frente a las inversiones a su cargo asociadas al megaproyecto de Solaria en Uruguay. El refuerzo a su presupuesto...
+2026-10-21 12:44:20,395 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:44:34,005 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Megaproyecto de Solaria: UTE requerirá presupuesto adicional
+2026-10-21 12:44:34,006 [INFO] LLM extracted 1 deals | Megaproyecto de Solaria: UTE requerirá presupuesto
+2026-10-21 12:44:34,007 [INFO] Not a signed deal — skipping: Megaproyecto de Solaria: UTE requerirá presupuesto adicional
+2026-10-21 12:44:34,007 [INFO] ------- Processing article n. 3: Encavis y Visalia firman su primer PPA híbrido solar-eólico en España - energeli -------
+2026-10-21 12:44:34,076 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxNODNTRGFqODk5d0ltUnJVS1ZnOEsxSGtWSnFKTUpFQ21jR0p6Tm9ha0hfLTFXcU1SczNmYy01MHhva1FLajFiVTd5LWdvR0I4RHM3MXZRM21CekRCbGwtMGVCTFEtb3dnRGEtY1dMYnFWLVdTVzBwY0tEOGF2VUM1UlpzY2p3Rno4NmNja1pDTElMblAzUFh6SjdZZ1RkSTZDWkE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:44:35,163 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:44:35,164 [INFO] Resolved Google News URL: https://energelia.com/solar-fotovoltaica/encavis-y-visalia-firman-ppa-hibrido-solar-eolico-en-espana
+2026-10-21 12:44:35,164 [INFO] URL: https://energelia.com/solar-fotovoltaica/encavis-y-visalia-firman-ppa-hibrido-solar-eolico-en-espana
+2026-10-21 12:44:35,646 [INFO] Text length: 4302 chars | source: full
+2026-10-21 12:44:35,646 [INFO] Text preview: Encavis y Visalia firman su primer PPA híbrido solar-eólico en España
+Un acuerdo pionero que combina sol y viento
+La energética alemana Encavis y la comercializadora española Visalia han cerrado su pr...
+2026-10-21 12:44:35,646 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:44:49,034 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis y Visalia firman su primer PPA híbrido solar-eólico 
+2026-10-21 12:44:49,034 [INFO] LLM extracted 1 deals | Encavis y Visalia firman su primer PPA híbrido sol
+2026-10-21 12:44:49,049 [INFO] DUPLICATE skipped: Visalia / Encavis (Spain) — same as ID: 2023
+2026-10-21 12:44:49,050 [INFO] ------- Processing article n. 3: Encavis firma con Visalia su primer PPA híbrido de energía solar y eólica en Esp -------
+2026-10-21 12:44:49,130 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdkdJcnR2cXdvLTFaX0NDd2pVWlpjb1d1VUlMUmNtMzNqRWN2SVBiZjRfMkJUYkkyV0laN3lwSGJITm9haTJuTTVxampZUjZKY3BHd3c1dllWR2JjX0NsRmJGOC1MZTVRZXNRNWxkYllUWHVXY2dsMkpvNXdDUWRwTHcteGo4N21ELVdWVmhWXzFfbzZXQkFYamowRTJDdVgyODd4eWhralV3ME1GVFNOQkJmbWtseUpKdVh0WUNMZzBlRXJVeU5zd09HSU5pYWEyaTd4NEpnbGRCczdSY2U0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:44:50,234 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:44:50,235 [INFO] Resolved Google News URL: https://www.elmundofinanciero.com/noticia/129239/mercados/encavis-firma-con-visalia-su-primer-ppa-hi
+2026-10-21 12:44:50,235 [INFO] URL: https://www.elmundofinanciero.com/noticia/129239/mercados/encavis-firma-con-visalia-su-primer-ppa-hibrido-de-energia-solar-y-eolica-en-espana.html
+2026-10-21 12:44:50,297 [INFO] Full text skipped (status 403): https://www.elmundofinanciero.com/noticia/129239/mercados/encavis-firma-con-visa
+2026-10-21 12:44:50,297 [INFO] Text length: 223 chars | source: fallback
+2026-10-21 12:44:50,297 [INFO] Text preview: Encavis firma con Visalia su primer PPA híbrido de energía solar y eólica en España - El Mundo Financiero
+
+Encavis firma con Visalia su primer PPA híbrido de energía solar y eólica en España &nbsp;&nb...
+2026-10-21 12:44:50,297 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:45:03,951 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis firma con Visalia su primer PPA híbrido de energía s
+2026-10-21 12:45:03,951 [INFO] LLM extracted 1 deals | Encavis firma con Visalia su primer PPA híbrido de
+2026-10-21 12:45:03,967 [INFO] NEW: Visalia / Encavis (Spain, None MW)
+2026-10-21 12:45:08,968 [INFO] ------- Processing article n. 4: Encavis suministrará a Visalia 60 GWh anuales con su primer PPA híbrido solar y  -------
+2026-10-21 12:45:09,062 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS1BzYjZPQzdfZ0dEYkRtZ1NadVM4NEU4ODR2aFdaMWh4a3hmdG9KMlFTOFZvSkxIVHJWWDNLSHpTTDFmM3kyNGhWck44cUJRXzN0ems1REZ6cVN3SWNHOTh6d05QQmdWLTI1YUQzNWNhRWlwYnhrSy1JaHUtUlBjOTJobXlqdkRkWGZFT1ZURTZoM292akpLMU9YWFlPX1BoMWdRT3NlLWRvWk1ZWElEWjZkLWhSWXJFVUtPbUpHR3hXc2JycHNZVlNjdG5LMFlu?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:45:10,154 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:45:10,155 [INFO] Resolved Google News URL: https://forbes.es/ultima-hora/1050639/encavis-suministrara-a-visalia-60-gwh-anuales-con-su-primer-pp
+2026-10-21 12:45:10,155 [INFO] URL: https://forbes.es/ultima-hora/1050639/encavis-suministrara-a-visalia-60-gwh-anuales-con-su-primer-ppa-hibrido-solar-y-eolico-en-espana/
+2026-10-21 12:45:10,850 [INFO] Text length: 2231 chars | source: full
+2026-10-21 12:45:10,850 [INFO] Text preview: La energía procederá de dos parques solares y tres parques eólicos de la cartera de Encavis en Aragón, situada cerca de Zaragoza y con una capacidad instalada conjunta de 199 megavatios (MW). La combi...
+2026-10-21 12:45:10,850 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:45:19,079 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis suministrará a Visalia 60 GWh anuales con su primer 
+2026-10-21 12:45:19,079 [INFO] LLM extracted 1 deals | Encavis suministrará a Visalia 60 GWh anuales con 
+2026-10-21 12:45:19,095 [INFO] NEW: Visalia / Encavis (Spain, 199 MW)
+2026-10-21 12:45:24,096 [INFO] ------- Processing article n. 5: Encavis firma con Visalia su primer PPA híbrido solar y eólico en España por 60  -------
+2026-10-21 12:45:24,176 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ1dnMTFxOG5xSEFydlV2c0xoM2N3NE1jQ3VucVdmWm5ocm5lZVpOZ2J6NFFTMnY4QXRjT3pzZVM5QmEwWUhqMWZSb1RRU01oNzUwbjNIV1lqdHIyT0hKZUVCR2pBUWpsMVhSaDdVZWpBdGFYNmlTVjRBNkw4ci1QQzJ5UnZJVW9KM2lLSWpFMXZVRXYzVThVMjNsdGNvLUZOVlJCbG9wcjJNVTJwXzJkVm80OUF1V0ZXTXJ2TElCUzloZkc20gHKAUFVX3lxTE1aLS1zcHNFc1d6X3dDdFhIZXpRR3JSQlFvT1hIdU9nNXMxNUVUWHYzcXA5SmF0b2d2cW1TRWNhMkJLblJkcVdmSkRaNDR1WE1VR3pqVjUwM21MSDQxckZlUEhGS1F2UXVWMWprTGZQY3hxTW9vZk8wRWJKNkc1SXdfT010UEkzd3VENXFLYWlTdFN5dE9fTTliNFNQTEJraHl4cFRuTFI2MjR6bENCYTFoTVd6RFhLUzJndk1UeGV1aXFNZXFCMkZDN2c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:45:25,266 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:45:25,267 [INFO] Resolved Google News URL: https://www.democrata.es/economia/encavis-firma-con-visalia-su-primer-ppa-hibrido-solar-y-eolico-en-
+2026-10-21 12:45:25,267 [INFO] URL: https://www.democrata.es/economia/encavis-firma-con-visalia-su-primer-ppa-hibrido-solar-y-eolico-en-espana-por-60-gwh-anuales/
+2026-10-21 12:45:25,316 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/encavis-firma-con-visalia-su-primer-ppa-hibrid
+2026-10-21 12:45:25,316 [INFO] Text length: 219 chars | source: fallback
+2026-10-21 12:45:25,316 [INFO] Text preview: Encavis firma con Visalia su primer PPA híbrido solar y eólico en España por 60 GWh anuales - Demócrata
+
+Encavis firma con Visalia su primer PPA híbrido solar y eólico en España por 60 GWh anuales &nb...
+2026-10-21 12:45:25,316 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:45:34,168 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis firma con Visalia su primer PPA híbrido solar y eóli
+2026-10-21 12:45:34,168 [INFO] LLM extracted 1 deals | Encavis firma con Visalia su primer PPA híbrido so
+2026-10-21 12:45:34,184 [INFO] NEW: Visalia / Encavis (Spain, None MW)
+2026-10-21 12:45:39,186 [INFO] ------- Processing article n. 6: Epc e servizi energetici, alta domanda di incentivi ma risorse insufficienti - A -------
+2026-10-21 12:45:39,278 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0drVFN5dFJtbHFVOEpyYV91OGtjNnRPTmRtS1NPM1Uwd29jZUxqcVNBYzdJb3ZKWS1ETmZNNlFucjZBWl9UM2V2aVY2VjZGQ1dKSlZwWFdNNE9VUGdDOS1HVkk2bVdTZ2ptTDR3MzBzWF8xTXRicURNbUlzN19VZjgxUmU3SnhGYXFPMHdnSXpHNjVtQVN3VGxfYlNTd1FyQjNtMHZwNmstQ1I5ekE4SVhvTnFMZ0Y5UGdPeDdxVnJXV1RrdUQ3V2xLRElHZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:45:40,401 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:45:40,401 [INFO] Resolved Google News URL: https://www.adnkronos.com/economia/epc-e-servizi-energetici-alta-domanda-di-incentivi-ma-risorse-ins
+2026-10-21 12:45:40,402 [INFO] URL: https://www.adnkronos.com/economia/epc-e-servizi-energetici-alta-domanda-di-incentivi-ma-risorse-insufficienti_10pD1PfqtjAJKFNZjZk6fd
+2026-10-21 12:45:41,530 [INFO] Text length: 6207 chars | source: full
+2026-10-21 12:45:41,530 [INFO] Text preview: Contratti di prestazione energetica, PPP, verifiche dei risparmi e applicazioni concrete. Sono stati questi i temi al centro della conferenza Fire 'Servizi energetici: modelli, contratti e misura e ve...
+2026-10-21 12:45:41,530 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:45:49,066 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Epc e servizi energetici, alta domanda di incentivi ma risor
+2026-10-21 12:45:49,066 [INFO] LLM extracted 1 deals | Epc e servizi energetici, alta domanda di incentiv
+2026-10-21 12:45:49,068 [INFO] Not a signed deal — skipping: Epc e servizi energetici, alta domanda di incentivi ma risor
+2026-10-21 12:45:49,068 [INFO] ------- Processing article n. 6: Plenitude lancia SunStep, il fotovoltaico domestico in abbonamento da 39,90 euro -------
+2026-10-21 12:45:49,159 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigAJBVV95cUxNd2FMM2NRdzd3NGhkX0FTd2lUU3dZSDA4ZVViQlZabFREMkVfRGgtX3huWjZKdEtjMlZNRzNfT1U5SHZtWHpQanZlemFibkt0bUxIM0pnZGpLUDFxTnVtUm1Nd2Z1QVB1RUg3YkEtNGw2U0w2NUtUTXRsQXJad2hibktMMHVWUFB1NWlXcWp5NnJmTGVoTXhWVFFiNnkxb2V4NDVvRmRpdW5LUl96Qk9OU2tCQVBWQnBMVXdjdzlIRDVORVgzdktZM1daUlFSTTN5MFJBYlNsR0JlZFVWLVk5NEdPWWhJUmExaEZraURnZTVKQ2JBdGpfU3ZZY1g1OFFf?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-21 12:45:50,250 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-21 12:45:50,250 [INFO] Resolved Google News URL: https://www.ilgiornaleditalia.it/news/mondo-imprese/831380/plenitude-lancia-sunstep-il-fotovoltaico-
+2026-10-21 12:45:50,250 [INFO] URL: https://www.ilgiornaleditalia.it/news/mondo-imprese/831380/plenitude-lancia-sunstep-il-fotovoltaico-domestico-in-abbonamento-da-39-90-euro-al-mese-e-799-euro-iniziali.html
+2026-10-21 12:45:50,673 [INFO] Text length: 2608 chars | source: full
+2026-10-21 12:45:50,673 [INFO] Text preview: 21 Ottobre 2026
+SunStep
+Plenitude presenta SunStep, il nuovo servizio che rende l’energia solare per la casa più semplice e accessibile, con una formula innovativa simile a un abbonamento. Pensato per...
+2026-10-21 12:45:50,673 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-21 12:46:03,673 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Plenitude lancia SunStep, il fotovoltaico domestico in abbon
+2026-10-21 12:46:03,673 [INFO] LLM extracted 1 deals | Plenitude lancia SunStep, il fotovoltaico domestic
+2026-10-21 12:46:03,675 [INFO] Not a signed deal — skipping: Plenitude lancia SunStep, il fotovoltaico domestico in abbon
+2026-10-21 12:46:03,675 [INFO] Run complete. New deals: 6, Updates: 0
+2026-10-21 12:46:03,693 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1507 deals)
+2026-10-21 12:46:05,214 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
