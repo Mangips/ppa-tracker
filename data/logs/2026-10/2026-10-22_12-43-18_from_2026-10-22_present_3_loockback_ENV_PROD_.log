@@ -1,0 +1,455 @@
+2026-10-22 12:43:18,209 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-22 12:43:18,213 [INFO] Loaded 1659 existing deals for dedup matching
+2026-10-22 12:43:18,213 [INFO] Searching from 2026-10-22 to present with 3 loockback days
+2026-10-22 12:43:18,338 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-22 12:43:19,454 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-22 12:43:20,579 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-22 12:43:22,030 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-22&hl=en&gl=US&ceid=US:en: 16 results
+2026-10-22 12:43:24,370 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-22&hl=en&gl=US&ceid=US:en: 8 results
+2026-10-22 12:43:26,641 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-22&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-22 12:43:28,927 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-22&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-10-22 12:43:31,207 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-22&hl=fr&gl=FR&ceid=FR:fr: 3 results
+2026-10-22 12:43:33,463 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-22&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-22 12:43:35,732 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-22&hl=es&gl=ES&ceid=ES:es: 3 results
+2026-10-22 12:43:38,073 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-22&hl=es&gl=ES&ceid=ES:es: 6 results
+2026-10-22 12:43:40,361 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-22&hl=it&gl=IT&ceid=IT:it: 1 results
+2026-10-22 12:43:42,634 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-22&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-22 12:43:44,906 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-22&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-22 12:43:47,176 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-22&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-22 12:43:49,558 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-22&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-22 12:43:51,883 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-22&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-22 12:43:54,252 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-22&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-22 12:43:56,252 [INFO] Total raw articles collected: 39
+2026-10-22 12:43:56,550 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-10-22 12:43:58,270 [INFO] Extra RSS [elperiodicodelaenergia.com]: 4 results
+2026-10-22 12:43:59,278 [INFO] Unique unseen articles: 34
+2026-10-22 12:43:59,278 [INFO] ------- Processing article n. 0: Operational projects gain share of European power purchase agreement market - Wi -------
+2026-10-22 12:43:59,418 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxNemppZmlGTkZmQXR4Q09JcmJTa3BwamVPN3JIV2J6VmZxVXA1aVZORmdIMGFMRjI3NjNQaUUwenFNTDBKSmc4dGVZc2NVZ1VDS1d3WkN5ODc3cWhsbzBIcVNIT2VtUjlNVWVmdFNUNjZTV3U4djBQaTNQX1ZPYXBLNnloN3RkWDdfeHJ3M2JYTFRwTGo2dDhHSUJWUFdmenJWY2lNMFZwNUJUbkk1VlBacEpEMXlzTGkxZmowWU5ZTW15Xzc0QlVr?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:44:00,541 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:44:00,541 [INFO] Resolved Google News URL: https://www.windtech-international.com/industry-news/operational-projects-gain-share-of-european-pow
+2026-10-22 12:44:00,541 [INFO] URL: https://www.windtech-international.com/industry-news/operational-projects-gain-share-of-european-power-purchase-agreement-market
+2026-10-22 12:44:01,973 [INFO] Text length: 1649 chars | source: full
+2026-10-22 12:44:01,973 [INFO] Text preview: Operational renewable energy projects account for almost 40% of standalone power purchase agreement (PPA) offers in Europe, according to the latest quarterly PPA Price Index from LevelTen Energy. For ...
+2026-10-22 12:44:01,973 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:44:02,616 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Operational projects gain share of European power purchase a
+2026-10-22 12:44:02,617 [INFO] LLM extracted 1 deals | Operational projects gain share of European power 
+2026-10-22 12:44:02,619 [INFO] Not a signed deal — skipping: Operational projects gain share of European power purchase a
+2026-10-22 12:44:02,620 [INFO] ------- Processing article n. 0: Elkem and Landsvirkjun sign long-term power agreement in Iceland - Cision News -------
+2026-10-22 12:44:02,716 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdFhqM2gtMERtR3AtaElsYzNkWXVsU01fNGx2T19pZ3ZMMWUzeGF4dVpCZ1dfMFJ1QjF3ajFNaXJweWx6ZG1WelgxcUFvam4xRUdKTnNfNVlINGJHY0plTk8zLUtrZEloWXZfQ1pGT2EwRGFrQ1o0UTFfaWdNMU4wbndTRk1RX1J0SVk1cGVKb0wtcUdwWDZ2Zkx1SUFaS1hlTllJa29KR1Y?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:44:03,838 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:44:03,839 [INFO] Resolved Google News URL: https://news.cision.com/elkem/r/elkem-and-landsvirkjun-sign-long-term-power-agreement-in-iceland,c44
+2026-10-22 12:44:03,839 [INFO] URL: https://news.cision.com/elkem/r/elkem-and-landsvirkjun-sign-long-term-power-agreement-in-iceland,c4413811
+2026-10-22 12:44:04,355 [INFO] Text length: 3866 chars | source: full
+2026-10-22 12:44:04,355 [INFO] Text preview: Elkem and Landsvirkjun sign long-term power agreement in Iceland
+Oslo, 22 October 2026
+Elkem and Landsvirkjun have signed a new power purchase agreement (PPA) that secures long-term electricity supply...
+2026-10-22 12:44:04,355 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:44:18,034 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Elkem and Landsvirkjun sign long-term power agreement in Ice
+2026-10-22 12:44:18,035 [INFO] LLM extracted 1 deals | Elkem and Landsvirkjun sign long-term power agreem
+2026-10-22 12:44:18,048 [INFO] UPDATE: Elkem / Landsvirkjun (Iceland, 127 MW)
+2026-10-22 12:44:23,049 [INFO] ------- Processing article n. 1: Japanese newspaper publisher Niigata Nippo signs solar PPA - Renewables Now -------
+2026-10-22 12:44:23,163 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxPTTF0Q0FlTkJOQ0FCS0ZIYjU2eVdwNUxVRWVwSEFVcUlNMTVhQzQ2STFQaC1yRElSUTdBN2ZjOS1UMUhNT2dMa0JxNWhCcldYc05YcnZmNlI5T3NVY0ZMRV85NzNLWEduTG9VYzJIZG1LR3JtQ2x5QzlTVU9RdUpGc1VkbXRUd2JrTm1IV183cEgzeklpZnowT2F5d2JIdW8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:44:24,284 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:44:24,285 [INFO] Resolved Google News URL: https://renewablesnow.com/news/japanese-newspaper-publisher-niigata-nippo-signs-solar-ppa-1303487/
+2026-10-22 12:44:24,285 [INFO] URL: https://renewablesnow.com/news/japanese-newspaper-publisher-niigata-nippo-signs-solar-ppa-1303487/
+2026-10-22 12:44:24,391 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/japanese-newspaper-publisher-niigata-nippo-signs-
+2026-10-22 12:44:24,391 [INFO] Text length: 163 chars | source: fallback
+2026-10-22 12:44:24,391 [INFO] Text preview: Japanese newspaper publisher Niigata Nippo signs solar PPA - Renewables Now
+
+Japanese newspaper publisher Niigata Nippo signs solar PPA &nbsp;&nbsp; Renewables Now...
+2026-10-22 12:44:24,391 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:44:32,721 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Japanese newspaper publisher Niigata Nippo signs solar PPA -
+2026-10-22 12:44:32,722 [INFO] LLM extracted 1 deals | Japanese newspaper publisher Niigata Nippo signs s
+2026-10-22 12:44:32,723 [INFO] Not a European deal — skipping: Niigata Nippo / None (Japan, None MW)
+2026-10-22 12:44:32,723 [INFO] ------- Processing article n. 1: Encavis Signs First Hybrid Solar-Wind PPA with Visalia in Spain - News and Stati -------
+2026-10-22 12:44:32,825 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ0U3cEYwWmtiY0NCLWlSVmtKM0JzbDR0bXlfOFdkTEdJS0FDVDRNVVVRQWJPVXJMTUFhTTVHTHJlQ1BoUEhZWlQ4eUp6MUZQbk1NQ2h1TDNVdWwybmQxalpnQ1ZQWFJva2N5WmdJRVpTNWFtS3NZWUFSYzdycFJtU1dsdmZUWTkxdWhxV1pLZ0tFQmRPdm02dmRZQjFVazVSMG9B?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:44:33,930 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:44:33,931 [INFO] Resolved Google News URL: https://www.indexbox.io/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visalia
+2026-10-22 12:44:33,931 [INFO] URL: https://www.indexbox.io/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visalia/
+2026-10-22 12:44:34,355 [INFO] Text length: 9747 chars | source: full
+2026-10-22 12:44:34,355 [INFO] Text preview: Encavis Signs First Hybrid Solar-Wind PPA with Spanish Supplier Visalia
+Encavis, a German producer of renewable energy, has entered its first hybrid power purchase agreement that pairs solar and wind ...
+2026-10-22 12:44:34,355 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:44:47,846 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis Signs First Hybrid Solar-Wind PPA with Visalia in Sp
+2026-10-22 12:44:47,846 [INFO] LLM extracted 1 deals | Encavis Signs First Hybrid Solar-Wind PPA with Vis
+2026-10-22 12:44:47,859 [INFO] UPDATE: Visalia / Encavis (Spain, 199 MW) — canonical ID: 2023
+2026-10-22 12:44:52,860 [INFO] ------- Processing article n. 2: Encavis signs first solar-wind PPA with Spanish supplier - pv magazine Global -------
+2026-10-22 12:44:52,978 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxPdjIxM3NFYWNVM2tYVkZaOXdxZkdzdm9SdlNCREc4NjRTc1h1Y1RBZTJPNU9jcWdqM1VESXlVYlF1MGRDaDRoMlM1eWpfVFluXzhrUDRDdlBPeHpqS3BhRDg2NWtiNU8yZ1NBWFdnbWc1YWRLMTh3TzlkZ3BLd3FiLWlEcHlZd0ZCMEtsNF9QWEVFRTNySEVsbktWa2Y?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:44:54,101 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:44:54,101 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/10/22/encavis-signs-first-solar-wind-ppa-with-spanish-supplier/
+2026-10-22 12:44:54,102 [INFO] URL: https://www.pv-magazine.com/2026/10/22/encavis-signs-first-solar-wind-ppa-with-spanish-supplier/
+2026-10-22 12:44:54,804 [INFO] Text length: 1661 chars | source: full
+2026-10-22 12:44:54,804 [INFO] Text preview: German renewable energy producer Encavis has signed its first hybrid power purchase agreement (PPA) combining solar and wind generation, agreeing to supply Spanish energy company Visalia with 60 GWh o...
+2026-10-22 12:44:54,804 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:45:03,115 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis signs first solar-wind PPA with Spanish supplier - p
+2026-10-22 12:45:03,115 [INFO] LLM extracted 1 deals | Encavis signs first solar-wind PPA with Spanish su
+2026-10-22 12:45:03,147 [INFO] UPDATE: Visalia / Encavis (Spain, 199 MW) — canonical ID: 2023
+2026-10-22 12:45:08,148 [INFO] ------- Processing article n. 3: VivoPower Signs Definitive Heads of Agreement with Open Innovation AI to Develop -------
+2026-10-22 12:45:08,263 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAJBVV95cUxOdkw3b1pOQ1NSTTRKZ05pYnc5eUtjRHNTd3VoZzlFR09CR1pKemN5Sm5zRjRJWUpWMVc1TDJCa0o3TTRzNzVPZ1o2d0lxTDhfSWdzbmNiOGhub0ZQbnNFeEZibkhiTWpJbE9fWHl2a00ydkE5RGJreHFmTkNaZ1V4VFNZNmZrNHl4NWZEdWV1dWdrdWhpVDhkSmJoN3JpSnBxamlyT3k0TFQxTjA5ZV9HVnM0WElxSVpDSnRPb0FiUUVkUVU5eGxnVnctLUhGTHh1WUZfbUp2SW45S0F2al84Wl9MYmlwV0ZULXUxalJFWlpJZkhsNm9IT3RZLTZ3c21JTlhmZEY4RmhabU5HMG5HaDdjY1dXN1gyNXJPNy1zQ3h0NEJmUW5ORW55RWx3c3AtRHZXSFJ4LUdTLXAtUlBfQlViUTh6aEtXa1R4YQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:45:09,399 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:45:09,399 [INFO] Resolved Google News URL: https://aithority.com/machine-learning/vivopower-signs-definitive-heads-of-agreement-with-open-innov
+2026-10-22 12:45:09,399 [INFO] URL: https://aithority.com/machine-learning/vivopower-signs-definitive-heads-of-agreement-with-open-innovation-ai-to-develop-secure-sovereign-ai-data-centers-across-the-nordics-mainland-europe-the-gcc-and-selective-countries-in-asia/
+2026-10-22 12:45:12,142 [INFO] Text length: 12028 chars | source: full
+2026-10-22 12:45:12,142 [INFO] Text preview: VivoPower Signs Definitive Heads of Agreement with Open Innovation AI to Develop Secure Sovereign AI Data Centers Across the Nordics, Mainland Europe, the GCC and selective countries in Asia
+Agreement...
+2026-10-22 12:45:12,142 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:45:17,677 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: VivoPower Signs Definitive Heads of Agreement with Open Inno
+2026-10-22 12:45:17,677 [INFO] LLM extracted 1 deals | VivoPower Signs Definitive Heads of Agreement with
+2026-10-22 12:45:17,678 [INFO] Not a signed deal — skipping: VivoPower Signs Definitive Heads of Agreement with Open Inno
+2026-10-22 12:45:17,679 [INFO] ------- Processing article n. 3: Azerbaijan targets 2029 final investment decision on Green Energy Corridor - Lat -------
+2026-10-22 12:45:17,782 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxPc2xxc3M0Rm9fUTRsRXY5RjBYWjJKZFpoUzFRdWtyU3NHVnBMaWQ2XzVfa200Z1JIaEFyUTJiSU9wNW4wNzJVLXd2cnNFa1VKUzlEZTFjTFJNWDRqWHZTYVFSWW9sRUY2M282ckVjTklZMWVkM0JNVDBybE1tYmZKR3F0cFVIR29vQTEwTWZCZWhibWxfeS04QlZUdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:45:18,901 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:45:18,902 [INFO] Resolved Google News URL: https://news.az/news/azerbaijan-targets-2029-final-investment-decision-on-green-energy-corridor
+2026-10-22 12:45:18,902 [INFO] URL: https://news.az/news/azerbaijan-targets-2029-final-investment-decision-on-green-energy-corridor
+2026-10-22 12:45:19,044 [INFO] Full text skipped (status 403): https://news.az/news/azerbaijan-targets-2029-final-investment-decision-on-green-
+2026-10-22 12:45:19,044 [INFO] Text length: 221 chars | source: fallback
+2026-10-22 12:45:19,044 [INFO] Text preview: Azerbaijan targets 2029 final investment decision on Green Energy Corridor - Latest news from Azerbaijan
+
+Azerbaijan targets 2029 final investment decision on Green Energy Corridor &nbsp;&nbsp; Latest...
+2026-10-22 12:45:19,044 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:45:32,961 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Azerbaijan targets 2029 final investment decision on Green E
+2026-10-22 12:45:32,961 [INFO] LLM extracted 1 deals | Azerbaijan targets 2029 final investment decision 
+2026-10-22 12:45:32,962 [INFO] Not a signed deal — skipping: Azerbaijan targets 2029 final investment decision on Green E
+2026-10-22 12:45:32,963 [INFO] ------- Processing article n. 3: Lebanon’s distributed solar boom grows as financing woes stall big projects - Re -------
+2026-10-22 12:45:33,061 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHhtWlBtVkFDRm9HcXRCNUJDdVBldTRSSDlocVlNRWZYWWtBLVRDME51X3JnRG1wc3doeUNKX3pjMmNGUEk3NTdoaWhfY3lBU0J4Wi1vcVN1SlRIdVpvVkJYOV9mYTI5bWxCNlRfaDZpUUZ1WUFJOVNEZmNEZ1p0RjZlOVBGOGcyWWhobUZPb3NoTVBSRnA0QWEtVjZpeGgwUjhIbkRkcXpVZi1RckpqUUdlRTg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:45:34,202 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:45:34,202 [INFO] Resolved Google News URL: https://renewablesnow.com/news/lebanons-distributed-solar-boom-grows-as-financing-woes-stall-big-pro
+2026-10-22 12:45:34,202 [INFO] URL: https://renewablesnow.com/news/lebanons-distributed-solar-boom-grows-as-financing-woes-stall-big-projects-1303455/
+2026-10-22 12:45:34,275 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/lebanons-distributed-solar-boom-grows-as-financin
+2026-10-22 12:45:34,275 [INFO] Text length: 197 chars | source: fallback
+2026-10-22 12:45:34,275 [INFO] Text preview: Lebanon’s distributed solar boom grows as financing woes stall big projects - Renewables Now
+
+Lebanon’s distributed solar boom grows as financing woes stall big projects &nbsp;&nbsp; Renewables Now...
+2026-10-22 12:45:34,275 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:45:47,716 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Lebanon’s distributed solar boom grows as financing woes sta
+2026-10-22 12:45:47,716 [INFO] LLM extracted 1 deals | Lebanon’s distributed solar boom grows as financin
+2026-10-22 12:45:47,718 [INFO] Not a signed deal — skipping: Lebanon’s distributed solar boom grows as financing woes sta
+2026-10-22 12:45:47,718 [INFO] ------- Processing article n. 3: Energy Storage Brief By BessXChange: Rwanda's Floating Solar Tender, Dutch Regul -------
+2026-10-22 12:45:47,827 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTEpiTW1BRkpMRUFSNklGR0lmbUZNbDR6djdzejVrQjhabDVZcFp4ZEhYaFFreEc5Nmk1ckIzSmRHY0NKOVFYNUtSOUcwSVhleDRXYkRoNXV5WkphM0lJUkxJV01xS1FwWlVOLWNGNEt4TnFWOEJyZm81NkZqVzVJXzBYYjRMM0VhSUU5Ni1vUGdQb3NHTURTdjl2TUZzSHowbjBnOWxGMUxNV1lhNTBIMWNNWWJqWXZPcjB2SGpXYjgxYWg3Y0ZnSGVUQml0RVlFNjVKN1Zua2FReEJzc0JCV1lPdi04QQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:45:48,953 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:45:48,953 [INFO] Resolved Google News URL: https://www.saurenergy.com/solar-energy-news/ess-brief-by-bessxchange-rwandas-floating-solar-tender-
+2026-10-22 12:45:48,953 [INFO] URL: https://www.saurenergy.com/solar-energy-news/ess-brief-by-bessxchange-rwandas-floating-solar-tender-dutch-regulator-solarera-green-bess-forays-12706208
+2026-10-22 12:45:49,112 [INFO] Text length: 2055 chars | source: full
+2026-10-22 12:45:49,112 [INFO] Text preview: Energy Storage Briefs
+Rwanda has opened prequalification for a 200 MW floating solar plant paired with a 200 MW/800 MWh battery on Lake Sake in Ngoma District, Eastern Province. Rwanda Energy Group an...
+2026-10-22 12:45:49,112 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:46:02,739 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Energy Storage Brief By BessXChange: Rwanda's Floating Solar
+2026-10-22 12:46:02,739 [INFO] LLM extracted 1 deals | Energy Storage Brief By BessXChange: Rwanda's Floa
+2026-10-22 12:46:02,741 [INFO] Not a signed deal — skipping: Energy Storage Brief By BessXChange: Rwanda's Floating Solar
+2026-10-22 12:46:02,741 [INFO] ------- Processing article n. 3: Baku hosts First International Forum on Green Energy Corridor - azərtac -------
+2026-10-22 12:46:02,869 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxQWjltYmN4NjN4RXZlSzRfY0FrcmxvbnZUSXk0bUxmaDl5N1l5UjYtc0Yxd3NETXFGV21QenNRREQySGExM3h0dGtCd1lDR1RjLU1DMW9VQk1RSXozc1VEZTFYNjRmcWdmbER5S0VrUERKUWt2a1lGOTN3a0gwMHN4OEdzYWo1NnFIYWdrcVp6QnVSeE1tUUFralBfTGVTQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:46:04,024 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:46:04,025 [INFO] Resolved Google News URL: https://azertag.az/en/xeber/baku_hosts_first_international_forum_on_green_energy_corridor-4474542
+2026-10-22 12:46:04,025 [INFO] URL: https://azertag.az/en/xeber/baku_hosts_first_international_forum_on_green_energy_corridor-4474542
+2026-10-22 12:46:04,309 [INFO] Full text skipped (status 403): https://azertag.az/en/xeber/baku_hosts_first_international_forum_on_green_energy
+2026-10-22 12:46:04,309 [INFO] Text length: 155 chars | source: fallback
+2026-10-22 12:46:04,309 [INFO] Text preview: Baku hosts First International Forum on Green Energy Corridor - azərtac
+
+Baku hosts First International Forum on Green Energy Corridor &nbsp;&nbsp; azərtac...
+2026-10-22 12:46:04,309 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:46:17,538 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Baku hosts First International Forum on Green Energy Corrido
+2026-10-22 12:46:17,538 [INFO] LLM extracted 1 deals | Baku hosts First International Forum on Green Ener
+2026-10-22 12:46:17,540 [INFO] Not a signed deal — skipping: Baku hosts First International Forum on Green Energy Corrido
+2026-10-22 12:46:17,540 [INFO] ------- Processing article n. 3: Rwanda Tenders 200 MW Floating Solar + 800 MWh BESS on Lake Sake - News and Stat -------
+2026-10-22 12:46:17,654 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxNZFVpNVBpWWFfN0owck9UNXlBT2VpUXhDb0pSeTZyelZQZzB0dDd1eU55WWU5WGdxSDVvVk9lbjdpZ1VOQUlRTk53TXVlTmR4b05LNk50MzJ6X0VBTnBEMTBodmVBSE44TDJaa01JMW5mOUk2djlPbURxek84VzZDSnhqVVlaSnpOejBrM1MtRlk5eHQtZFBEVUJ3UkpOanl4Rm5YVkpodTdWRWxxOTAzbg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:46:18,808 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:46:18,808 [INFO] Resolved Google News URL: https://www.indexbox.io/blog/rwanda-issues-tender-for-200-mw-floating-solar-plant-with-800-mwh-batte
+2026-10-22 12:46:18,808 [INFO] URL: https://www.indexbox.io/blog/rwanda-issues-tender-for-200-mw-floating-solar-plant-with-800-mwh-battery-storage/
+2026-10-22 12:46:19,391 [INFO] Text length: 15052 chars | source: full
+2026-10-22 12:46:19,391 [INFO] Text preview: Search across reports, market insights, and blog stories.
+Type at least 3 characters to see fast results. Press / or ⌘K anytime.
+Searching…
+No fast matches found. Press Enter to see full results.
+Rwan...
+2026-10-22 12:46:19,391 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:46:33,242 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rwanda Tenders 200 MW Floating Solar + 800 MWh BESS on Lake 
+2026-10-22 12:46:33,242 [INFO] LLM extracted 1 deals | Rwanda Tenders 200 MW Floating Solar + 800 MWh BES
+2026-10-22 12:46:33,244 [INFO] Not a signed deal — skipping: Rwanda Tenders 200 MW Floating Solar + 800 MWh BESS on Lake 
+2026-10-22 12:46:33,244 [INFO] ------- Processing article n. 3: Axpo and Fortia close a second PPA to supply wind energy to Votorantim Cimentos  -------
+2026-10-22 12:46:33,360 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxPRVZpUkV1dlhseTVIZUg0MEJZNE5wekN5S3BfMmtVdkxxWXU5TjlqT1BhUmhvY2Y3UjJzTVVydjdRRDBqTnNGeHE3a1RlYWduRnZQSmhLX25uQXFGTHNwVWVXQ3dBelRka0lIQmJpOW53S09SMFNCajJLVjN0RDlTaVFoZlBfdDZ5aTVYMUxuSFppXzFXQ1dudnlwM0FiX0FuZ1dNOXc3N0hiam1FRWt0WklwTmZReDTSAbwBQVVfeXFMT3dKa2VERzJwNDFJTGJIdGt5LTVjN3J5bnlxb19feHltaGl4Y1h2bVpVdktqaGkySGF2ODJJVEEtY1dHUjB6NHRFajA1cXZhM0l0alJhVHZxVmt5emc2aFBQN3RrSm1OOUhhN1MwSGVVR1VTMW1rYmE3bVg2NTdBYlpmRFo4RGhqZGdoX0JEc1h3TFh5Rl90NmJVanJVamhVOUs2UzVkQnU0M2NXWVFmaElOUDZ0NFlyM29MOGE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:46:34,467 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:46:34,468 [INFO] Resolved Google News URL: https://www.democrata.es/en/economy/axpo-and-fortia-close-a-second-ppa-to-supply-wind-energy-to-voto
+2026-10-22 12:46:34,468 [INFO] URL: https://www.democrata.es/en/economy/axpo-and-fortia-close-a-second-ppa-to-supply-wind-energy-to-votorantim-cimentos/
+2026-10-22 12:46:34,567 [INFO] Full text skipped (status 403): https://www.democrata.es/en/economy/axpo-and-fortia-close-a-second-ppa-to-supply
+2026-10-22 12:46:34,568 [INFO] Text length: 195 chars | source: fallback
+2026-10-22 12:46:34,568 [INFO] Text preview: Axpo and Fortia close a second PPA to supply wind energy to Votorantim Cimentos - Demócrata
+
+Axpo and Fortia close a second PPA to supply wind energy to Votorantim Cimentos &nbsp;&nbsp; Demócrata...
+2026-10-22 12:46:34,568 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:46:47,872 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Axpo and Fortia close a second PPA to supply wind energy to 
+2026-10-22 12:46:47,872 [INFO] LLM extracted 1 deals | Axpo and Fortia close a second PPA to supply wind 
+2026-10-22 12:46:47,875 [INFO] Not a European deal — skipping: Votorantim Cimentos / Axpo, Fortia (Brazil, None MW)
+2026-10-22 12:46:47,875 [INFO] ------- Processing article n. 3: Greece's Gas Market at an Inflection Point: Regional Export Hub in a Tight Europ -------
+2026-10-22 12:46:47,981 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxNV0o1OTRfblNpLUhlMU9vZjRhZUFDZ1RMRzdZOU5lUk5jWWg5TkxwTjdVQzd2eUw0cFFCSkVFaEFTQUJXRzJ0ZGVCTm5GYnR4Y2pTYU43dFNGNXpMbWhGVEs5ZnBIbjh5aTQ1MFJsMXlzUmdEVC1YRTR1N2RXMzhJdFNEcUlxYnJ2R294VWZR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:46:49,094 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:46:49,094 [INFO] Resolved Google News URL: https://www.grant-thornton.gr/en/insights/article/greece-gas-market-inflection-point/
+2026-10-22 12:46:49,094 [INFO] URL: https://www.grant-thornton.gr/en/insights/article/greece-gas-market-inflection-point/
+2026-10-22 12:46:50,215 [INFO] Text length: 13773 chars | source: full
+2026-10-22 12:46:50,215 [INFO] Text preview: The strategic resilience of the Greek gas market is predicated on the optimization of its supply dualism: the baseline stability of fixed pipeline infrastructure and the high-degree flexibility afford...
+2026-10-22 12:46:50,215 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:47:03,212 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Greece's Gas Market at an Inflection Point: Regional Export 
+2026-10-22 12:47:03,212 [INFO] LLM extracted 1 deals | Greece's Gas Market at an Inflection Point: Region
+2026-10-22 12:47:03,214 [INFO] Not a signed deal — skipping: Greece's Gas Market at an Inflection Point: Regional Export 
+2026-10-22 12:47:03,214 [INFO] ------- Processing article n. 3: Azerbaijan plans FID on Caspian-Black Sea-Europe Green Energy Corridor in 2029 - -------
+2026-10-22 12:47:03,316 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbWg4d19uMHNzTzBBNHY0RTdveDJtMWU2RTFramY0UkhBdUlfczN3OUFONmFIdEFBREllVk5PYVF0Yms2dHlOUGdtRkp5TkJDZzJkVzF3Q2hMWWVreF9PdVc0MXE3TVFwZVM2UTdFdDRKWVQydDd3MzBaUGdJeWR2MDRYOWVLRjZmMVFfaF9zRG8wVEN2QTlMVTJrZW9UNTJPZjFEQ1R4S1hpdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:47:04,429 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:47:04,430 [INFO] Resolved Google News URL: https://report.az/en/energy/azerbaijan-plans-fid-on-caspian-black-sea-europe-green-energy-corridor-i
+2026-10-22 12:47:04,430 [INFO] URL: https://report.az/en/energy/azerbaijan-plans-fid-on-caspian-black-sea-europe-green-energy-corridor-in-2029
+2026-10-22 12:47:04,582 [INFO] Full text skipped (status 403): https://report.az/en/energy/azerbaijan-plans-fid-on-caspian-black-sea-europe-gre
+2026-10-22 12:47:04,582 [INFO] Text length: 193 chars | source: fallback
+2026-10-22 12:47:04,582 [INFO] Text preview: Azerbaijan plans FID on Caspian-Black Sea-Europe Green Energy Corridor in 2029 - Report.az
+
+Azerbaijan plans FID on Caspian-Black Sea-Europe Green Energy Corridor in 2029 &nbsp;&nbsp; Report.az...
+2026-10-22 12:47:04,582 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:47:17,468 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Azerbaijan plans FID on Caspian-Black Sea-Europe Green Energ
+2026-10-22 12:47:17,469 [INFO] LLM extracted 1 deals | Azerbaijan plans FID on Caspian-Black Sea-Europe G
+2026-10-22 12:47:17,470 [INFO] Not a signed deal — skipping: Azerbaijan plans FID on Caspian-Black Sea-Europe Green Energ
+2026-10-22 12:47:17,470 [INFO] ------- Processing article n. 3: Green Hydrogen Price Forecast 2026-2027: Key Trends for Buyers and Procurement T -------
+2026-10-22 12:47:17,583 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxORDV3SEliMk1xYmJWNGpVOENjNmJyY290R2hFa3p5eXFRRGcyYjNVQmZ6ZnFDYWM5U2lJemU4ZFdSdzFWQk5SN0VnekxNM2FSaXZiYWl1WDZkNTRzZUlCcjlZMVhIRXpEV0ctV3l3TUlELW5kNHFIeHU1RDJfOVktR0VHMTc1VTBGbThYUmFBZzVteEZ4MlVJZlJka19LQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:47:18,710 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:47:18,711 [INFO] Resolved Google News URL: https://www.openpr.com/news/4669113/green-hydrogen-price-forecast-2026-2027-key-trends-for-buyers
+2026-10-22 12:47:18,711 [INFO] URL: https://www.openpr.com/news/4669113/green-hydrogen-price-forecast-2026-2027-key-trends-for-buyers
+2026-10-22 12:47:20,280 [INFO] Text length: 18744 chars | source: full
+2026-10-22 12:47:20,280 [INFO] Text preview: Green Hydrogen Price Forecast 2026-2027: Key Trends for Buyers and Procurement Teams
+Green hydrogen is produced by splitting water through electrolysis powered by renewable electricity. Although it of...
+2026-10-22 12:47:20,280 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:47:32,434 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Green Hydrogen Price Forecast 2026-2027: Key Trends for Buye
+2026-10-22 12:47:32,434 [INFO] LLM extracted 1 deals | Green Hydrogen Price Forecast 2026-2027: Key Trend
+2026-10-22 12:47:32,435 [INFO] Not a signed deal — skipping: Green Hydrogen Price Forecast 2026-2027: Key Trends for Buye
+2026-10-22 12:47:32,435 [INFO] ------- Processing article n. 3: Top 10 Best Renewable Energy Companies In Denmark 2026 - Nubia Magazine! -------
+2026-10-22 12:47:32,552 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifEFVX3lxTE96ZTBjZ3ZfeFZsQ2h4QS0yUnJCeWpacG5VMS0wYkZqNXZybUJtYXpqVHpvMTE1aGFLSDNqQUozdnp0VzRJbEZuZk1lXzlmVlJsTXdzOUU3WFNmUWFvbEc5aHRfYVgtSzRPZzNVWW9PVTRCWWxuaUFIQkZKcUs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:47:33,684 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:47:33,685 [INFO] Resolved Google News URL: https://nubiapage.com/top-10-best-renewable-energy-companies-in-denmark/
+2026-10-22 12:47:33,685 [INFO] URL: https://nubiapage.com/top-10-best-renewable-energy-companies-in-denmark/
+2026-10-22 12:47:34,167 [INFO] Text length: 11321 chars | source: full
+2026-10-22 12:47:34,167 [INFO] Text preview: Table of Contents
+Denmark built its first commercial wind turbine in 1891 and has spent the decades since turning that early curiosity into an industrial base that now supplies clean power machinery t...
+2026-10-22 12:47:34,167 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:47:47,946 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Top 10 Best Renewable Energy Companies In Denmark 2026 - Nub
+2026-10-22 12:47:47,946 [INFO] LLM extracted 1 deals | Top 10 Best Renewable Energy Companies In Denmark 
+2026-10-22 12:47:47,954 [INFO] Not a signed deal — skipping: Top 10 Best Renewable Energy Companies In Denmark 2026 - Nub
+2026-10-22 12:47:47,954 [INFO] ------- Processing article n. 3: Operational projects now make up 40% of Europe’s PPA offers - LevelTen - Renewab -------
+2026-10-22 12:47:48,077 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1ozUEV2M2FzZVZKRXlOMHBrc0pWaXdNU3ZnN2ZQUm5hMzhvYU9iU01scDRCSTRQMDUxeERmZmZHWXpYTWxXc0l0bGZ4cTRfalNDUHdxMU9IZmtjSV9xQ3dBdDlnMFlCdnNkYUtSb3BTb3cwS3oyT25iRTZPejN6QzVGSENWQ3ZmUGVpQ1d1M1FCbG1KbktmVXJiWHZyZTQwX2Vza0sxa3FVU1NxNGhTUXVwTEc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:47:49,240 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:47:49,241 [INFO] Resolved Google News URL: https://renewablesnow.com/news/operational-projects-now-make-up-40-percent-of-europes-ppa-offers-lev
+2026-10-22 12:47:49,241 [INFO] URL: https://renewablesnow.com/news/operational-projects-now-make-up-40-percent-of-europes-ppa-offers-levelten-1303495/
+2026-10-22 12:47:49,321 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/operational-projects-now-make-up-40-percent-of-eu
+2026-10-22 12:47:49,321 [INFO] Text length: 187 chars | source: fallback
+2026-10-22 12:47:49,321 [INFO] Text preview: Operational projects now make up 40% of Europe’s PPA offers - LevelTen - Renewables Now
+
+Operational projects now make up 40% of Europe’s PPA offers - LevelTen &nbsp;&nbsp; Renewables Now...
+2026-10-22 12:47:49,321 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:48:02,580 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Operational projects now make up 40% of Europe’s PPA offers 
+2026-10-22 12:48:02,580 [INFO] LLM extracted 1 deals | Operational projects now make up 40% of Europe’s P
+2026-10-22 12:48:02,581 [INFO] Not a signed deal — skipping: Operational projects now make up 40% of Europe’s PPA offers 
+2026-10-22 12:48:02,582 [INFO] ------- Processing article n. 3: Swedish solar developer aims to more than double its capacity in the coming year -------
+2026-10-22 12:48:02,699 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiakFVX3lxTE1tMmV3NTZIcS1XMnYwTFdSOUhlU0ttRUtUQlhZOFZuc3FmRHltNUVNandLdWd1SmhkYWZLdVE2TEp6b2RyclYwU280enZIWDhXWFNwOXIwUWExWmVrMWk5ODJsNFdLdnN0YlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:48:03,843 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:48:03,843 [INFO] Resolved Google News URL: https://energywatch.com/EnergyNews/sun/article19718980.ece
+2026-10-22 12:48:03,843 [INFO] URL: https://energywatch.com/EnergyNews/sun/article19718980.ece
+2026-10-22 12:48:05,232 [INFO] Text length: 247 chars | source: full
+2026-10-22 12:48:05,232 [INFO] Text preview: Swedish solar developer aims to more than double its capacity in the coming years
+CEO Warren Campbell doubts Alight will reach a previously announced 5GW target by 2030, but sees a market on a positiv...
+2026-10-22 12:48:05,232 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:48:17,804 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Swedish solar developer aims to more than double its capacit
+2026-10-22 12:48:17,804 [INFO] LLM extracted 1 deals | Swedish solar developer aims to more than double i
+2026-10-22 12:48:17,806 [INFO] Not a signed deal — skipping: Swedish solar developer aims to more than double its capacit
+2026-10-22 12:48:17,806 [INFO] ------- Processing article n. 3: Promigas unveils LatAm clean power platform at Chile solar farm opening - Renewa -------
+2026-10-22 12:48:17,916 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPTXh0cUlGejB6d1p0UHEydllPODcwRWd1QmhPR1RnNFZnM19senFjSlVFZEpoOFJIQWUxMUhIUFNZN0JuR1FEZXM5V3piWG5jUjBlS3pjQ3lZTDhwREtwZ1JaN1ZvSk5UcnpfZ1VRSUdwc3VKeVpmSDYwWHJNMENtamVVUmVkajJNX25MV21WbHRHVl83bUxnaEhKRFlWdENyeU9nLS16anNxUFpUMzhUTA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:48:19,048 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:48:19,049 [INFO] Resolved Google News URL: https://renewablesnow.com/news/promigas-unveils-latam-clean-power-platform-at-chile-solar-farm-openi
+2026-10-22 12:48:19,049 [INFO] URL: https://renewablesnow.com/news/promigas-unveils-latam-clean-power-platform-at-chile-solar-farm-opening-1303458/
+2026-10-22 12:48:19,124 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/promigas-unveils-latam-clean-power-platform-at-ch
+2026-10-22 12:48:19,124 [INFO] Text length: 189 chars | source: fallback
+2026-10-22 12:48:19,124 [INFO] Text preview: Promigas unveils LatAm clean power platform at Chile solar farm opening - Renewables Now
+
+Promigas unveils LatAm clean power platform at Chile solar farm opening &nbsp;&nbsp; Renewables Now...
+2026-10-22 12:48:19,124 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:48:32,675 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Promigas unveils LatAm clean power platform at Chile solar f
+2026-10-22 12:48:32,675 [INFO] LLM extracted 1 deals | Promigas unveils LatAm clean power platform at Chi
+2026-10-22 12:48:32,676 [INFO] Not a signed deal — skipping: Promigas unveils LatAm clean power platform at Chile solar f
+2026-10-22 12:48:32,676 [INFO] ------- Processing article n. 3: Encavis schließt ersten hybriden Solar-Wind-PPA mit Visalia in Spanien ab - Nach -------
+2026-10-22 12:48:32,802 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxNTnIyRWlmVEVfbV9OeEFfbjg0WGFHS2ZxcTE0ZWFEM0cteUluWDlvZGdFRzdCVnZhdmk3Q2lnUk9LNkQ0eXktQ0RPV3ZTTGtjWkpaX1ZOdWFjaG1jSFJWVWcyY1ZHcXc3bUV4SGpvdFNKSzJ0VjZfNDNqbzhDYzJGRG9iNnUwdjVmZnFNcExzbkQzVWlIYVRhd1l1Y05KcDkwaFhNZTZWbw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:48:33,939 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:48:33,940 [INFO] Resolved Google News URL: https://www.indexbox.io/de/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visa
+2026-10-22 12:48:33,940 [INFO] URL: https://www.indexbox.io/de/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visalia/
+2026-10-22 12:48:34,280 [INFO] Text length: 1664 chars | source: full
+2026-10-22 12:48:34,280 [INFO] Text preview: Encavis schließt ersten hybriden Solar-Wind-PPA mit dem spanischen Anbieter Visalia ab
+Encavis, ein deutscher Produzent erneuerbarer Energien, hat seinen ersten hybriden Stromabnahmevertrag abgeschlos...
+2026-10-22 12:48:34,280 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:48:47,858 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis schließt ersten hybriden Solar-Wind-PPA mit Visalia 
+2026-10-22 12:48:47,858 [INFO] LLM extracted 1 deals | Encavis schließt ersten hybriden Solar-Wind-PPA mi
+2026-10-22 12:48:47,871 [INFO] UPDATE: Visalia / Encavis (Spain, 199 MW) — canonical ID: 2023
+2026-10-22 12:48:52,872 [INFO] ------- Processing article n. 4: Level Ten Energy sieht deutlichen Preisrückgang bei Hybrid-PPAs in Deutschland - -------
+2026-10-22 12:48:52,996 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxOMzJHU1B3S0ZRUFF0elNzTktQZEFPb1VSU0J6cjdNNkFHX04yWjQzSzBOMjJGQ0I2aUtKOXhyT2hPeHlrdzVZWmg4YTJhSEY0ZFdnaUkteVB6akVnVVBabFE5SXByaFk0MVpOMXFxVUdRQVVjUW1wNEdreUV0cU9EaGIxS01LWHBPdUxVc3B1WUNoZTBYQVJYMC1PV3NrODhhWEJHQ28tOGNLOEw1S25IcFdqS2VlbG00WlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:48:54,130 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:48:54,131 [INFO] Resolved Google News URL: https://www.pv-magazine.de/2026/10/22/level-ten-energy-sieht-deutlichen-preisrueckgang-bei-hybrid-pp
+2026-10-22 12:48:54,131 [INFO] URL: https://www.pv-magazine.de/2026/10/22/level-ten-energy-sieht-deutlichen-preisrueckgang-bei-hybrid-ppas-in-deutschland/
+2026-10-22 12:48:54,590 [INFO] Text length: 2431 chars | source: full
+2026-10-22 12:48:54,590 [INFO] Text preview: Die Angebotspreise für Hybrid-Stromlieferverträge haben in Deutschland im dritten Quartal 2026 nachgegeben. Nach Angaben von Level Ten Energy ging der P25-Angebotspreis auf der Plattform gegenüber dem...
+2026-10-22 12:48:54,590 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:49:03,077 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Level Ten Energy sieht deutlichen Preisrückgang bei Hybrid-P
+2026-10-22 12:49:03,078 [INFO] LLM extracted 1 deals | Level Ten Energy sieht deutlichen Preisrückgang be
+2026-10-22 12:49:03,079 [INFO] Not a signed deal — skipping: Level Ten Energy sieht deutlichen Preisrückgang bei Hybrid-P
+2026-10-22 12:49:03,079 [INFO] ------- Processing article n. 4: Encavis signe son premier PPA hybride solaire-éolien avec Visalia en Espagne - A -------
+2026-10-22 12:49:03,227 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxORnBsbml5RmN1d3VuQXZzTkZrczBWZ2UzRHdMREpZZ29CNkFoMHFWa3B5cFppWHJ3VGtzT3NCS0RoNUFxYUpkZFBicnhhWDkzOXBpQmI2WldpNE5FVTlQSWhFWElnUXlLOWYwMTNQQV9jNHd5WGV1LVVHMGtCaDVmUm5QYldLa1hxZURVUkpZa0ZENXhpN0pMX0NJSzdvSjhFUEk3Ui1hSQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:49:04,361 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:49:04,362 [INFO] Resolved Google News URL: https://www.indexbox.io/fr/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visa
+2026-10-22 12:49:04,362 [INFO] URL: https://www.indexbox.io/fr/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visalia/
+2026-10-22 12:49:04,693 [INFO] Text length: 1781 chars | source: full
+2026-10-22 12:49:04,693 [INFO] Text preview: Encavis signe son premier PPA hybride solaire-éolien avec le fournisseur espagnol Visalia
+Encavis, producteur allemand d'énergie renouvelable, a conclu son premier contrat d'achat d'électricité hybrid...
+2026-10-22 12:49:04,693 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:49:18,020 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis signe son premier PPA hybride solaire-éolien avec Vi
+2026-10-22 12:49:18,020 [INFO] LLM extracted 1 deals | Encavis signe son premier PPA hybride solaire-éoli
+2026-10-22 12:49:18,032 [INFO] UPDATE: Visalia / Encavis (Spain, 199 MW) — canonical ID: 2023
+2026-10-22 12:49:23,033 [INFO] ------- Processing article n. 5: Maroc. Leila Benali : Du gaz pour bientôt - Le Courrier de l'Atlas -------
+2026-10-22 12:49:23,160 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMif0FVX3lxTE5jdnQwSnM5MWNRY2lBeFlXSGFtSTNBVm9Dd016UTRZYU9uYUNnSUhLS3NlRzhqY0p3SFRST2hJY2pXRXdmQ19tX3Nsa2tYU2ZvNDBGYks2TnFEcV9SZzFyWU12U1VKdzVnMndYQUNYeTNjeUZvdjlNVzdIZFd4WFE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:49:24,295 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:49:24,296 [INFO] Resolved Google News URL: https://www.lecourrierdelatlas.com/maroc-leila-benali-du-gaz-pour-bientot/
+2026-10-22 12:49:24,296 [INFO] URL: https://www.lecourrierdelatlas.com/maroc-leila-benali-du-gaz-pour-bientot/
+2026-10-22 12:49:25,842 [INFO] Text length: 1572 chars | source: full
+2026-10-22 12:49:25,842 [INFO] Text preview: A ceux qui s’inquiétaient de l’approvisionnement du royaume en gaz, la réponse est venue de la ministre de la Transition énergétique, elle-même. Leila Benali, a ainsi annoncé la signature « dans quelq...
+2026-10-22 12:49:25,842 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:49:32,590 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Maroc. Leila Benali : Du gaz pour bientôt - Le Courrier de l
+2026-10-22 12:49:32,591 [INFO] LLM extracted 1 deals | Maroc. Leila Benali : Du gaz pour bientôt - Le Cou
+2026-10-22 12:49:32,592 [INFO] Not a signed deal — skipping: Maroc. Leila Benali : Du gaz pour bientôt - Le Courrier de l
+2026-10-22 12:49:32,592 [INFO] ------- Processing article n. 5: Metro Mondego investit 3 millions d'euros dans de nouveaux véhicules - The Portu -------
+2026-10-22 12:49:32,720 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiywFBVV95cUxPSFpTTTdZTDBZRFVKSnVfbEYwNDVWMlJvTGN4ck9FdUhfZklIbGNLX3AybHRBdDdvSFlUbXJSb2tqd2tITUwzY25WQ3Zld3VYWUhYRDQ4OThrUFpRZWlDbDRXelVDUVRYSW9JUHdlUk9WWk9KS0dUZGlxZXdBZjlYYUlxdkVtRF9lOTdEeFJxenc2T19zVUs2Z3pnZ0sxMHlwN0hXT3hZdFhQWHB0b05CWGtYZlQxM3QyekZ0Mk5sbnNKTUYyeXV4OEZvcw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:49:33,844 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:49:33,845 [INFO] Resolved Google News URL: https://www.theportugalnews.com/fr/nouvelles/2026-10-22/metro-mondego-investit-3-millions-deuros-dan
+2026-10-22 12:49:33,845 [INFO] URL: https://www.theportugalnews.com/fr/nouvelles/2026-10-22/metro-mondego-investit-3-millions-deuros-dans-de-nouveaux-vehicules/1104148
+2026-10-22 12:49:34,073 [INFO] Text length: 2718 chars | source: full
+2026-10-22 12:49:34,073 [INFO] Text preview: Dans un communiqué de presse transmis aujourd’hui à l’agence de presse Lusa, Metro Mondego, qui dessert Coimbra, Lousã et Miranda do Corvo, a annoncé avoir décidé d’exercer l’option d’achat de cinq bu...
+2026-10-22 12:49:34,073 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:49:47,622 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Metro Mondego investit 3 millions d'euros dans de nouveaux v
+2026-10-22 12:49:47,623 [INFO] LLM extracted 1 deals | Metro Mondego investit 3 millions d'euros dans de 
+2026-10-22 12:49:47,624 [INFO] Not a signed deal — skipping: Metro Mondego investit 3 millions d'euros dans de nouveaux v
+2026-10-22 12:49:47,624 [INFO] ------- Processing article n. 5: Axpo y Fortia Energía acuerdan un segundo PPA para suministrar energía eólica a  -------
+2026-10-22 12:49:47,749 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMic0FVX3lxTE1keTdIU3RtMW1jNXdVZEpDSzd2Z0dhTG9JREVJemswQldKRWQ0WE9pNmJ0QWZPdW1vZnZnQlU0UWZjeV9vRTF4eUtIa2UyVGNGeXMzTk54ZGNaSW1IVFJXdHZmdkd4eDRDRWo1czN5TVUyNnc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:49:48,887 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:49:48,888 [INFO] Resolved Google News URL: https://www.energynews.es/axpo-fortia-energia-ppa-energia-eolica/
+2026-10-22 12:49:48,888 [INFO] URL: https://www.energynews.es/axpo-fortia-energia-ppa-energia-eolica/
+2026-10-22 12:49:48,983 [INFO] Full text skipped (status 403): https://www.energynews.es/axpo-fortia-energia-ppa-energia-eolica/
+2026-10-22 12:49:48,983 [INFO] Text length: 239 chars | source: fallback
+2026-10-22 12:49:48,983 [INFO] Text preview: Axpo y Fortia Energía acuerdan un segundo PPA para suministrar energía eólica a Votorantim Cimentos - Energy News
+
+Axpo y Fortia Energía acuerdan un segundo PPA para suministrar energía eólica a Votor...
+2026-10-22 12:49:48,983 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:50:02,770 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Axpo y Fortia Energía acuerdan un segundo PPA para suministr
+2026-10-22 12:50:02,770 [INFO] LLM extracted 1 deals | Axpo y Fortia Energía acuerdan un segundo PPA para
+2026-10-22 12:50:02,772 [INFO] Not a European deal — skipping: Votorantim Cimentos / Axpo, Fortia Energía (Brazil, None MW)
+2026-10-22 12:50:02,772 [INFO] ------- Processing article n. 5: Proyecto nuclear propuesto en Indiana: papel de Amazon - NeoTeo -------
+2026-10-22 12:50:02,895 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipAFBVV95cUxPUkttY2lEelpWWnJ3TWxqNldraFlZVnNxbHdmd2IwRzR1RGt3bWRvQ2wtSHo3QkE0enMyTWROZHRvZVl6bmxaMzdyV0NtdUc3QnJXWDhaSlh3N281Zm52TjlTYkVzTjd4MDlkUXhOTkVianBwZjRjRGNWQW95ZW9peUE5SFhhT0pxSDNpejFZcWZRTUJJS3RFNzNKd1R4aFpYQmpRdg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:50:04,020 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:50:04,021 [INFO] Resolved Google News URL: https://www.neoteo.com/es/aep-y-x-energy-estudiaran-una-central-nuclear-con-apoyo-de-amazon-en-india
+2026-10-22 12:50:04,021 [INFO] URL: https://www.neoteo.com/es/aep-y-x-energy-estudiaran-una-central-nuclear-con-apoyo-de-amazon-en-indiana
+2026-10-22 12:50:04,743 [INFO] Text length: 1671 chars | source: full
+2026-10-22 12:50:04,743 [INFO] Text preview: AEP y X-energy acordaron el 19 de octubre de 2026 evaluar una central nuclear propuesta en Indiana. Amazon apoyará el desarrollo mediante un acuerdo de financiación independiente y prevé comprar energ...
+2026-10-22 12:50:04,743 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:50:18,318 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Proyecto nuclear propuesto en Indiana: papel de Amazon - Neo
+2026-10-22 12:50:18,319 [INFO] LLM extracted 1 deals | Proyecto nuclear propuesto en Indiana: papel de Am
+2026-10-22 12:50:18,320 [INFO] Not a signed deal — skipping: Proyecto nuclear propuesto en Indiana: papel de Amazon - Neo
+2026-10-22 12:50:18,320 [INFO] ------- Processing article n. 5: Metro Mondego invierte 3 millones de euros en nuevos vehículos - The Portugal Ne -------
+2026-10-22 12:50:18,435 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUw0Rm1WeUdlaWhvbzdEbkI2SDNqSnc1LV9uSUtWSnJpdXdMYnRVNHBUbUl3ZjQzQVpJMjlmN253ZURTZUdPaHBRTFppN0JPQXp5MXVHUTFqREVCQ3V6YjRsYnFtd2hHaVhJeGJtTGk1LWZaQ1ptV1ZlaFNuNHJVbThFUEZTNHo0YkQtYnYtcnRzTm8xYi1heC05aTFmVnI1b21KZlRhSUtTdEotMldkSjB5c1ZvVDQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:50:19,563 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:50:19,564 [INFO] Resolved Google News URL: https://www.theportugalnews.com/es/noticias/2026-10-22/metro-mondego-invierte-3-millones-en-nuevos-v
+2026-10-22 12:50:19,564 [INFO] URL: https://www.theportugalnews.com/es/noticias/2026-10-22/metro-mondego-invierte-3-millones-en-nuevos-vehiculos/1104149
+2026-10-22 12:50:19,726 [INFO] Text length: 2679 chars | source: full
+2026-10-22 12:50:19,726 [INFO] Text preview: En un comunicado de prensa enviado hoy a la agencia de noticias Lusa, Metro Mondego —que presta servicio en Coimbra, Lousã y Miranda do Corvo— ha anunciado que ha decidido ejercer la opción de compra ...
+2026-10-22 12:50:19,726 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:50:32,486 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Metro Mondego invierte 3 millones de euros en nuevos vehícul
+2026-10-22 12:50:32,487 [INFO] LLM extracted 1 deals | Metro Mondego invierte 3 millones de euros en nuev
+2026-10-22 12:50:32,488 [INFO] Not a signed deal — skipping: Metro Mondego invierte 3 millones de euros en nuevos vehícul
+2026-10-22 12:50:32,488 [INFO] ------- Processing article n. 5: Encavis firma su primer PPA híbrido de solar y eólica con Visalia en España - No -------
+2026-10-22 12:50:32,619 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkdfQzFuSW44UVd1S1htd1JTUjlSQktMTVV2VW9wSmpxSEREVV9BaWlMRjlvVFB6Mkl3YWI4dGxXN3I3Q0JJdzgyMHRabmdGYVlnaFFvX2pNV2dyZTlwRUFpb0JTTFpIa3RLYTZ1QXM3U2w0MWd6a0dBZklQeFpIdklGcE1BcGJvNG1EWjdXNnFoTUdsT2VaQmRuLWxyNDNRR0Z2LWdoZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:50:33,769 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:50:33,770 [INFO] Resolved Google News URL: https://www.indexbox.io/es/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visa
+2026-10-22 12:50:33,770 [INFO] URL: https://www.indexbox.io/es/blog/encavis-signs-first-hybrid-solar-wind-ppa-with-spanish-supplier-visalia/
+2026-10-22 12:50:34,135 [INFO] Text length: 1760 chars | source: full
+2026-10-22 12:50:34,135 [INFO] Text preview: Encavis firma su primer PPA híbrido de solar y eólica con la española Visalia
+Encavis, productor alemán de energía renovable, ha suscrito su primer contrato de compraventa de energía híbrido que combi...
+2026-10-22 12:50:34,135 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:50:47,862 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Encavis firma su primer PPA híbrido de solar y eólica con Vi
+2026-10-22 12:50:47,862 [INFO] LLM extracted 1 deals | Encavis firma su primer PPA híbrido de solar y eól
+2026-10-22 12:50:47,876 [INFO] UPDATE: Visalia / Encavis (Spain, 199 MW) — canonical ID: 2023
+2026-10-22 12:50:52,877 [INFO] ------- Processing article n. 6: Axpo y Fortia refuerzan su alianza con un nuevo PPA eólico para Votorantim Cimen -------
+2026-10-22 12:50:52,986 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU2ZZZ1dIbWVoMmRKb1ZTVk9KRTNERFVsdEJlUmg3V19NZS1pQ0FkeF8xdFptVnNSVEJaVkQ3RGllR182S3dEVGJTcjF4QTBGdFIzSzctWHMyd2hDRzYxNlo0Qk1YaG1ySnE1NWpDQnJrMkk1OTJxaEtuWkxITlBfd0V0T1NSZjE4MTQ2ZGpJd294OVZWZEZONkFTVEhObXJZVzRZTXVrNzZ6TnFkdTFZcTRJUzEtUzRxOGlSVVBJYURZWjJBZkVHLWE0a0NTWTA0bDIteDNkOW5BR1FtNEFJVDdB0gHMAUFVX3lxTE40ZzJpeVliZUxnb0pFWFpCVFcwNlloeWt4MGJVaEt6cWRBdGNyRkZhclRmNm1QVmtWZUlxTVpkRnJQc1lOVnpsMV9MdHVKb3hLdFlVMEZlaVcyRVF6c0EzQkdYdnNYNTFpMXNDYkRQaHc5MVItSThKNUhvTjE3RG8zS1NpVnoxRk9INXJvN0hyQmRZSG5yQ2VzNmdHNDljWHFuQnBKcFYzTnVXeGJxd1JhZXZpcnljWW5iT1huckVJTkFxU0xfZmY5VU9XZg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:50:54,098 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:50:54,098 [INFO] Resolved Google News URL: https://www.eleconomista.es/energia/noticias/14022879/10/26/axpo-y-fortia-refuerzan-su-alianza-con-u
+2026-10-22 12:50:54,098 [INFO] URL: https://www.eleconomista.es/energia/noticias/14022879/10/26/axpo-y-fortia-refuerzan-su-alianza-con-un-nuevo-ppa-eolico-para-votorantim-cimentos.html
+2026-10-22 12:50:54,409 [INFO] Full text skipped (status 403): https://www.eleconomista.es/energia/noticias/14022879/10/26/axpo-y-fortia-refuer
+2026-10-22 12:50:54,409 [INFO] Text length: 211 chars | source: fallback
+2026-10-22 12:50:54,409 [INFO] Text preview: Axpo y Fortia refuerzan su alianza con un nuevo PPA eólico para Votorantim Cimentos - El Economista
+
+Axpo y Fortia refuerzan su alianza con un nuevo PPA eólico para Votorantim Cimentos &nbsp;&nbsp; El...
+2026-10-22 12:50:54,409 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:51:03,292 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Axpo y Fortia refuerzan su alianza con un nuevo PPA eólico p
+2026-10-22 12:51:03,292 [INFO] LLM extracted 1 deals | Axpo y Fortia refuerzan su alianza con un nuevo PP
+2026-10-22 12:51:03,293 [INFO] Not a European deal — skipping: Votorantim Cimentos / Axpo, Fortia (Brazil, None MW)
+2026-10-22 12:51:03,293 [INFO] ------- Processing article n. 6: Axpo y Fortia suman un segundo 'PPA' para suministrar energía eólica a Votoranti -------
+2026-10-22 12:51:03,413 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxQa3ZQVmhUUkZBRlBtZmtqOWxnVExYd0w2M1RLVl9tdFNuQWUzc05ESlRBZUx3YkZER2pRNDFHLUVFd2JDNnZSMmcwdHVSY2p5eXIzRDZwN1FPZmFFZEFlcnYxMXgxcHF3akYwZzI5Zk5JbUtSTGVPc2xJUTJibmlqdl9jVDlkRFE3VDJLUm4xWU05WkVRSVRTY3lRd21nZ2hZQVp1aHlVbnlQOUJ3a204N1VJUXNCQUtJd09ESUNVakJyU3RzMlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:51:04,537 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:51:04,538 [INFO] Resolved Google News URL: https://forbes.es/ultima-hora/1051889/axpo-y-fortia-suman-un-segundo-ppa-para-suministrar-energia-eo
+2026-10-22 12:51:04,538 [INFO] URL: https://forbes.es/ultima-hora/1051889/axpo-y-fortia-suman-un-segundo-ppa-para-suministrar-energia-eolica-a-votorantim-cimentos/
+2026-10-22 12:51:05,504 [INFO] Text length: 1971 chars | source: full
+2026-10-22 12:51:05,504 [INFO] Text preview: En concreto, este nuevo contrato comprende un volumen adicional de 26,28 gigavatios hora (GWh) anuales de origen eólico y tendrá una duración de diez años, habiendo comenzado el pasado 1 de octubre, i...
+2026-10-22 12:51:05,504 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:51:18,600 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Axpo y Fortia suman un segundo 'PPA' para suministrar energí
+2026-10-22 12:51:18,600 [INFO] LLM extracted 1 deals | Axpo y Fortia suman un segundo 'PPA' para suminist
+2026-10-22 12:51:18,612 [INFO] UPDATE: Fortia Energia / Axpo Iberia (Spain, None MW)
+2026-10-22 12:51:23,614 [INFO] ------- Processing article n. 7: Axpo y Fortia Energía amplían su colaboración con un segundo PPA para suministra -------
+2026-10-22 12:51:23,739 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS2FQbmhET0pqOHFUQTk5TF9UVUw0cUI5T0N6a0h5VHllRjVLQW9SaGJicVc1TGVnaVRwcktYVUZNQy1DUzZLNHJoYXg3Wi1wZTV0aUI5bEo0WnJlVk1VTGJwd05yWkhXakctVndiSkNOR21uV1JDYlg1bFZhWjFXYmNtUVloZXdRc0NuZFNkbHRYQ0QwcEM1SGZZVHR0RTE0QlBwb2I4c3JIY3pxXzJhWHJPN0JEREtFQXI0WEUtbUpjZDBnRWJUaFdLemZiX0dIWmFmd3VqZ1JtMTdKNFNENEhxNW5VamtDR2c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:51:24,864 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:51:24,865 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/axpo-y-fortia-energia-amplian-su-colaboracion-con-un-segundo-ppa-
+2026-10-22 12:51:24,865 [INFO] URL: https://elperiodicodelaenergia.com/axpo-y-fortia-energia-amplian-su-colaboracion-con-un-segundo-ppa-para-suministrar-energia-eolica-a-votorantim-cimentos/
+2026-10-22 12:51:25,450 [INFO] Text length: 1649 chars | source: full
+2026-10-22 12:51:25,450 [INFO] Text preview: Axpo y Fortia Energía han firmado un segundo acuerdo de compraventa de energía (PPA, por sus siglas en inglés) destinado al suministro eléctrico de Votorantim Cimentos. El nuevo contrato comprende un ...
+2026-10-22 12:51:25,450 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:51:32,930 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Axpo y Fortia Energía amplían su colaboración con un segundo
+2026-10-22 12:51:32,930 [INFO] LLM extracted 1 deals | Axpo y Fortia Energía amplían su colaboración con 
+2026-10-22 12:51:32,931 [INFO] Not a European deal — skipping: Fortia Energía / Axpo (Brazil, None MW)
+2026-10-22 12:51:32,931 [INFO] ------- Processing article n. 7: Axpo y Fortia Energía firman un segundo PPA eólico para suministrar electricidad -------
+2026-10-22 12:51:33,056 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeExtY3FXNURUWTY5eEp4eHpXb2JGZ2lJam05QVdmYXQ1Vk5fV0tvUEZaREY1MzZZVUFxYUZEdG1sTW95UFl5WFNDLWZKSzI2dG5jNlhlM3ZCU3JKRzQtTWdBREZPbHNZcWtkUjFfdVZCVGo4bWk5VmEycWRMR3k3ekFXdjgzU19kSUFzVWdYSkdDVlRNbmJPeGRmcVpGQWhkN0ExNlJKdnBVUE5YZEotbHNLN2NYR1UtZWIyRl9yaDFDd1FKVDhxdmxnam1qUjJOTFBrSDNwYVZ1em9j?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:51:34,187 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:51:34,187 [INFO] Resolved Google News URL: https://www.industriambiente.com/noticias/20261022/axpo-fortia-energia-firman-un-segundo-ppa-eolico-
+2026-10-22 12:51:34,187 [INFO] URL: https://www.industriambiente.com/noticias/20261022/axpo-fortia-energia-firman-un-segundo-ppa-eolico-suministrar-electricidad-votorantim-cimentos
+2026-10-22 12:51:35,133 [INFO] Text length: 3296 chars | source: full
+2026-10-22 12:51:35,133 [INFO] Text preview: El nuevo acuerdo incorpora 26,28 GWh anuales de energía eólica durante diez años y amplía la colaboración iniciada en abril de 2026 para reforzar la estabilidad de los costes energéticos y avanzar en ...
+2026-10-22 12:51:35,134 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:51:48,190 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Axpo y Fortia Energía firman un segundo PPA eólico para sumi
+2026-10-22 12:51:48,190 [INFO] LLM extracted 1 deals | Axpo y Fortia Energía firman un segundo PPA eólico
+2026-10-22 12:51:48,193 [INFO] Not a European deal — skipping: Fortia Energía / Axpo (Brazil, None MW)
+2026-10-22 12:51:48,193 [INFO] ------- Processing article n. 7: Axpo y Fortia cierran un segundo PPA para suministrar energía eólica a Votoranti -------
+2026-10-22 12:51:48,318 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNWQyT0FRQ1gyeXktSm12ZVdvckdETzIxY180UUhSN0gtTDRFa0J0RjB4VTNkNm1qb0EzVTNLN1o2YWEtSVZUQXdidnl4TUgzQjl1U1FPR2hKTnp1ZXIzZEN4MTdCQVh1dWdRWEtvdXlpTm5sOTFlQ3ZRRWpSeVJkN1UxeVpNR0RsX2hPRDY0ZVpGdmJqQWVXQ1Y5MHBPOGdQNmNJaFJOZV8xSUVzRDJSMVFyNE52RWpvQ1NhVWtlNVRaMVZzNjFJZNIByAFBVV95cUxQNWQyT0FRQ1gyeXktSm12ZVdvckdETzIxY180UUhSN0gtTDRFa0J0RjB4VTNkNm1qb0EzVTNLN1o2YWEtSVZUQXdidnl4TUgzQjl1U1FPR2hKTnp1ZXIzZEN4MTdCQVh1dWdRWEtvdXlpTm5sOTFlQ3ZRRWpSeVJkN1UxeVpNR0RsX2hPRDY0ZVpGdmJqQWVXQ1Y5MHBPOGdQNmNJaFJOZV8xSUVzRDJSMVFyNE52RWpvQ1NhVWtlNVRaMVZzNjFJZA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:51:49,453 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:51:49,454 [INFO] Resolved Google News URL: https://www.democrata.es/economia/axpo-y-fortia-cierran-un-segundo-ppa-para-suministrar-energia-eoli
+2026-10-22 12:51:49,454 [INFO] URL: https://www.democrata.es/economia/axpo-y-fortia-cierran-un-segundo-ppa-para-suministrar-energia-eolica-a-votorantim-cimentos/amp/
+2026-10-22 12:51:49,555 [INFO] Full text skipped (status 403): https://www.democrata.es/economia/axpo-y-fortia-cierran-un-segundo-ppa-para-sumi
+2026-10-22 12:51:49,555 [INFO] Text length: 217 chars | source: fallback
+2026-10-22 12:51:49,555 [INFO] Text preview: Axpo y Fortia cierran un segundo PPA para suministrar energía eólica a Votorantim Cimentos - Demócrata
+
+Axpo y Fortia cierran un segundo PPA para suministrar energía eólica a Votorantim Cimentos &nbsp...
+2026-10-22 12:51:49,555 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:52:03,468 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Axpo y Fortia cierran un segundo PPA para suministrar energí
+2026-10-22 12:52:03,469 [INFO] LLM extracted 1 deals | Axpo y Fortia cierran un segundo PPA para suminist
+2026-10-22 12:52:03,470 [INFO] Not a European deal — skipping: Votorantim Cimentos / Axpo, Fortia (Brazil, None MW)
+2026-10-22 12:52:03,470 [INFO] ------- Processing article n. 7: Decreto Bollette 2026, accordo Italia-UE per ridurre l’impatto del gas sull’elet -------
+2026-10-22 12:52:03,583 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPRUZZZ2s1LXJXTDgwd3hKM0dvNUxNbGprY3lDZFRtY1R3NktyTkQ1N29YRlZpbWlqWFkzNlV4Q1hfcENzRlZZQ1J0TldLeldlTWNHbDBFX3k4VFFVZjkta1JqYi0wam9NQWpJSWV0U1NVcHc2bFg1bGJwa1VrZzk3REExNHlCMl9UU0JobC1ndFpOTmNsX3JCN3BoUW5RS240Rnp5NHdjenMxWTVxYnN1TtIBtgFBVV95cUxNZjVRcFVkZ21mTjAyNTY1cGhMMDJFampiRW9zRDVpX1ZBWjZCYl9kX2Z4aXdHOGhZT0Q5emVYYWROcE1oa2puX29MdkhKV244WTdJWmhOaGVjU0F6VFAxOUlSLTd4MVo2UENaVXppX3lReEM5cy1yMnBablZHb3U3cHJLTzNhU2hNcVVoUmFBbGt6YXlEODNLcEpFOFJWV2RKZVIwM3FKT1FGSnJJcmxRekJKTnNZQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-22 12:52:04,710 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-22 12:52:04,711 [INFO] Resolved Google News URL: https://businessweekly.it/decreto-bollette-2026-accordo-italia-ue-per-ridurre-limpatto-del-gas-sulle
+2026-10-22 12:52:04,711 [INFO] URL: https://businessweekly.it/decreto-bollette-2026-accordo-italia-ue-per-ridurre-limpatto-del-gas-sullelettricita/
+2026-10-22 12:52:05,451 [INFO] Full text fetch failed (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))): https://businessweekly.it/decreto-bollette-2026-accordo-italia-ue-per-ridurre-li
+2026-10-22 12:52:05,451 [INFO] Text length: 221 chars | source: fallback
+2026-10-22 12:52:05,452 [INFO] Text preview: Decreto Bollette 2026, accordo Italia-UE per ridurre l’impatto del gas sull’elettricità - BusinessWeekly
+
+Decreto Bollette 2026, accordo Italia-UE per ridurre l’impatto del gas sull’elettricità &nbsp;...
+2026-10-22 12:52:05,452 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-22 12:52:17,794 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Decreto Bollette 2026, accordo Italia-UE per ridurre l’impat
+2026-10-22 12:52:17,795 [INFO] LLM extracted 1 deals | Decreto Bollette 2026, accordo Italia-UE per ridur
+2026-10-22 12:52:17,797 [INFO] Not a signed deal — skipping: Decreto Bollette 2026, accordo Italia-UE per ridurre l’impat
+2026-10-22 12:52:17,797 [INFO] Run complete. New deals: 0, Updates: 7
+2026-10-22 12:52:17,810 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1509 deals)
+2026-10-22 12:52:32,320 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-10-22 12:52:32,320 [INFO] Email log summary generated by groq-120b
+2026-10-22 12:52:33,483 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
