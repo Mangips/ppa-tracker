@@ -1,0 +1,400 @@
+2026-10-26 13:48:03,777 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-26 13:48:03,780 [INFO] Loaded 1663 existing deals for dedup matching
+2026-10-26 13:48:03,780 [INFO] Searching from 2026-10-26 to present with 3 loockback days
+2026-10-26 13:48:03,938 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-26 13:48:05,117 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-26 13:48:06,317 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-26 13:48:07,761 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-26&hl=en&gl=US&ceid=US:en: 14 results
+2026-10-26 13:48:10,159 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-26&hl=en&gl=US&ceid=US:en: 1 results
+2026-10-26 13:48:12,424 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-26&hl=de&gl=DE&ceid=DE:de: 3 results
+2026-10-26 13:48:14,704 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-26&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-26 13:48:16,973 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-26&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-10-26 13:48:19,242 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-26&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-26 13:48:21,583 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-26&hl=es&gl=ES&ceid=ES:es: 5 results
+2026-10-26 13:48:23,834 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-26&hl=es&gl=ES&ceid=ES:es: 4 results
+2026-10-26 13:48:26,093 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-26&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-10-26 13:48:28,344 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-26&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-26 13:48:30,617 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-26&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-10-26 13:48:32,828 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-26&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-26 13:48:35,086 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-26&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-26 13:48:37,411 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-26&hl=pt&gl=PT&ceid=PT:pt: 1 results
+2026-10-26 13:48:39,705 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-26&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-26 13:48:41,706 [INFO] Total raw articles collected: 33
+2026-10-26 13:48:42,125 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-10-26 13:48:43,815 [INFO] Extra RSS [elperiodicodelaenergia.com]: 6 results
+2026-10-26 13:48:44,821 [INFO] Unique unseen articles: 31
+2026-10-26 13:48:44,821 [INFO] ------- Processing article n. 0: Generation Steel secures green power supply for Aussie steel mill - Renewables N -------
+2026-10-26 13:48:44,956 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYXF3OHlDcEhEMTJtZnlUMVFobWY2aXJKMTlZaE1QTEZDRTRZb3pzQ1hwcVRFcnhHSjl6dzFDbHFzbTRNN1Vlc1F2eTdmalNNemZBcHp6d3BDanNjUDZTM0I2U29KMDU2Y1pSLTZnTE4wY3A3dDNoenl1cVVta3p0TWxLX0syZ0xGS0xKUGJ0TVMzSEF3WG5LRUJxYnFzc2RlMHcxYzl2TUI?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:48:46,059 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:48:46,060 [INFO] Resolved Google News URL: https://renewablesnow.com/news/generation-steel-secures-green-power-supply-for-aussie-steel-mill-130
+2026-10-26 13:48:46,060 [INFO] URL: https://renewablesnow.com/news/generation-steel-secures-green-power-supply-for-aussie-steel-mill-1303624/
+2026-10-26 13:48:46,314 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/generation-steel-secures-green-power-supply-for-a
+2026-10-26 13:48:46,314 [INFO] Text length: 177 chars | source: fallback
+2026-10-26 13:48:46,314 [INFO] Text preview: Generation Steel secures green power supply for Aussie steel mill - Renewables Now
+
+Generation Steel secures green power supply for Aussie steel mill &nbsp;&nbsp; Renewables Now...
+2026-10-26 13:48:46,314 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:48:47,248 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Generation Steel secures green power supply for Aussie steel
+2026-10-26 13:48:47,248 [INFO] LLM extracted 1 deals | Generation Steel secures green power supply for Au
+2026-10-26 13:48:47,251 [INFO] Not a European deal — skipping: Generation Steel / None (Australia, None MW)
+2026-10-26 13:48:47,251 [INFO] ------- Processing article n. 0: Masdar To Acquire 550+ MW Solar Project In Greece, Plans Battery Storage Integra -------
+2026-10-26 13:48:47,362 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRVJkMmluaFFRVHBCWTZ4SlVJSERmMGg0X0pNNktmdlVNTDNRWXRJN2hvZW1tSlUxZzE5RktOQTFDNnQzZnhOVFdhdDA0czlPZHpRREhKVUJlZTViWi1EcnJPNElYMnA4a280TG02WkR4ZXNVSVNSQXpNNzlDaHhGUXZNT0xPVHNsS3NvOGVFU0U1aGpKZUVtSWtSd3lIY2hNWndObElYcXVVeDUwQzBHT0Q5ZmV0WUg5d3F3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:48:48,489 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:48:48,490 [INFO] Resolved Google News URL: https://solarquarter.com/2026/10/26/masdar-to-acquire-550-mw-solar-project-in-greece-plans-battery-s
+2026-10-26 13:48:48,490 [INFO] URL: https://solarquarter.com/2026/10/26/masdar-to-acquire-550-mw-solar-project-in-greece-plans-battery-storage-integration/
+2026-10-26 13:48:48,616 [INFO] Full text skipped (status 403): https://solarquarter.com/2026/10/26/masdar-to-acquire-550-mw-solar-project-in-gr
+2026-10-26 13:48:48,617 [INFO] Text length: 211 chars | source: fallback
+2026-10-26 13:48:48,617 [INFO] Text preview: Masdar To Acquire 550+ MW Solar Project In Greece, Plans Battery Storage Integration - SolarQuarter
+
+Masdar To Acquire 550+ MW Solar Project In Greece, Plans Battery Storage Integration &nbsp;&nbsp; S...
+2026-10-26 13:48:48,617 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:49:01,827 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Masdar To Acquire 550+ MW Solar Project In Greece, Plans Bat
+2026-10-26 13:49:01,827 [INFO] LLM extracted 1 deals | Masdar To Acquire 550+ MW Solar Project In Greece,
+2026-10-26 13:49:01,829 [INFO] Not a signed deal — skipping: Masdar To Acquire 550+ MW Solar Project In Greece, Plans Bat
+2026-10-26 13:49:01,829 [INFO] ------- Processing article n. 0: EBRD, Scatec launch Egypt renewable energy platform - Africa Business Communitie -------
+2026-10-26 13:49:01,944 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxQWWVheGY4SThhMm9sdXRSdGg1UmRFSFpMT1JfakU2eXlNam9BVlhnX2tWREtEYWdidGVtX0ZpbWowR0laQW43Z0ZpYlItTlBXdUE5dS1SOFdocFNxTmxIVzNYdzFudU9sUVFuMXd4ZUlOSDMxVWJwMlF4Rkkyano3YkZWeGRUb0JLMHpjRE4xMVVFY1RJX3lVSW83MWdsWGNDb2dhXy1Tb1pKWmRE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:49:03,060 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:49:03,061 [INFO] Resolved Google News URL: https://africabusinesscommunities.com/sustainable-energy/ebrd-scatec-launch-egypt-renewable-energy-p
+2026-10-26 13:49:03,061 [INFO] URL: https://africabusinesscommunities.com/sustainable-energy/ebrd-scatec-launch-egypt-renewable-energy-platform/
+2026-10-26 13:49:03,202 [INFO] Full text skipped (status 403): https://africabusinesscommunities.com/sustainable-energy/ebrd-scatec-launch-egyp
+2026-10-26 13:49:03,202 [INFO] Text length: 175 chars | source: fallback
+2026-10-26 13:49:03,202 [INFO] Text preview: EBRD, Scatec launch Egypt renewable energy platform - Africa Business Communities
+
+EBRD, Scatec launch Egypt renewable energy platform &nbsp;&nbsp; Africa Business Communities...
+2026-10-26 13:49:03,202 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:49:16,951 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EBRD, Scatec launch Egypt renewable energy platform - Africa
+2026-10-26 13:49:16,951 [INFO] LLM extracted 1 deals | EBRD, Scatec launch Egypt renewable energy platfor
+2026-10-26 13:49:16,953 [INFO] Not a signed deal — skipping: EBRD, Scatec launch Egypt renewable energy platform - Africa
+2026-10-26 13:49:16,953 [INFO] ------- Processing article n. 0: PPA deals changing to handle rise of negative power prices - Montel News -------
+2026-10-26 13:49:17,074 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNTVEM3A3TXhBOUVWS3BKMFd3Skx3MFFMMWFkeTNFZk9JT2N2SU9ESzRBekt1ZEFhQm1HSnB2Qy1ndHdoQ19hcmxzRzZjYzRmZlR3Uk8wekFOUEQwdEZLVll0UzhHTHNiREMteHZyekZXX2kyVk5QYjEydVdRdzM1M2djaFpBSFdYaXFiQmM1Wk5UQ2pSMEN4bTFtUk9WcnAyTl9qa1cwZ3RxUW5qM3RMZVdPOC1yLTBhR21oR29KTTM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:49:18,198 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:49:18,199 [INFO] Resolved Google News URL: https://montelnews.com/news/d8aa8cf8-2351-4c60-a104-7472a2755bc4/ppa-deals-changing-to-handle-rise-o
+2026-10-26 13:49:18,199 [INFO] URL: https://montelnews.com/news/d8aa8cf8-2351-4c60-a104-7472a2755bc4/ppa-deals-changing-to-handle-rise-of-negative-power-prices
+2026-10-26 13:49:19,312 [INFO] Text length: 437 chars | source: full
+2026-10-26 13:49:19,313 [INFO] Text preview: PPA deals changing to handle rise of negative power prices
+(Montel) Buyers and sellers are negotiating clauses into power purchase agreements (PPAs) to manage the risk of negative power prices, expert...
+2026-10-26 13:49:19,313 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:49:31,766 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: PPA deals changing to handle rise of negative power prices -
+2026-10-26 13:49:31,766 [INFO] LLM extracted 1 deals | PPA deals changing to handle rise of negative powe
+2026-10-26 13:49:31,768 [INFO] Not a signed deal — skipping: PPA deals changing to handle rise of negative power prices -
+2026-10-26 13:49:31,768 [INFO] ------- Processing article n. 0: Masdar Eyes European Growth Through TERNA ENERGY - tovima.com -------
+2026-10-26 13:49:31,886 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihwFBVV95cUxNdERKVTk4N2lueXBGUV9SYnB3MXZubjJFLTN3MzBfYVlQV0FPblE3Vzg1MXBna1Z5QnlPMUdaaldwVFFvSm5kVGx4V3lmNXpTb2FBV2t1ME02UEZlTUZHTmd5TXExWk5LYm1sclJZLW0xV09WVTgzZTQzSzBEeDRMRDJ6cDlPMWs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:49:33,016 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:49:33,017 [INFO] Resolved Google News URL: https://www.tovima.com/finance/masdar-eyes-european-growth-through-terna-energy/
+2026-10-26 13:49:33,017 [INFO] URL: https://www.tovima.com/finance/masdar-eyes-european-growth-through-terna-energy/
+2026-10-26 13:49:33,742 [INFO] Text length: 5876 chars | source: full
+2026-10-26 13:49:33,742 [INFO] Text preview: TERNA ENERGY is serving as a key vehicle for Masdar’s growth in Southeast and Central Europe, according to the UAE renewable energy company’s CEO, Mohamed Jameel Al Ramahi.
+In an interview with the pr...
+2026-10-26 13:49:33,743 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:49:47,360 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Masdar Eyes European Growth Through TERNA ENERGY - tovima.co
+2026-10-26 13:49:47,360 [INFO] LLM extracted 1 deals | Masdar Eyes European Growth Through TERNA ENERGY -
+2026-10-26 13:49:47,370 [INFO] UPDATE: cloud service provider / Masdar (through TERNA ENERGY) (Greece, 550 MW)
+2026-10-26 13:49:52,371 [INFO] ------- Processing article n. 1: Parron Maam Marang, Western Australia's Biggest Wind Farm Starts Construction, E -------
+2026-10-26 13:49:52,490 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizwFBVV95cUxOUkEzZFpzOXNwbU9OVFdpb0Y5QTB4MGViTnNzTWRiXy1GdDlSX1lBcHkyRWpwNnVYQzZkTDRJWDVDdWtwbGdVeU42czVlbE1ya0xCdDBZdGM2MVd2WXRPM3FtbVU2cFd0aVlUbFgtaEVUOEJlSE1odFRfS0tyUUhiTms0bEpyWjRhRjJseFMzUVlSckdlSFAwWjIyUk5ZLVRmNkpCV0JjWUZKcEFXemJIdlhraXhIejVCR1ViRUdoSkdtdGc5VXo0bTdyemZ2N1E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:49:53,623 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:49:53,624 [INFO] Resolved Google News URL: https://constructionreviewonline.com/parron-maam-marang-western-australias-biggest-wind-farm-starts-
+2026-10-26 13:49:53,624 [INFO] URL: https://constructionreviewonline.com/parron-maam-marang-western-australias-biggest-wind-farm-starts-construction-eyes-2028-completion/
+2026-10-26 13:49:53,791 [INFO] Text length: 6884 chars | source: full
+2026-10-26 13:49:53,792 [INFO] Text preview: Construction has officially begun on the 470 MW Parron Maam Marang Wind Farm in Western Australia, marking the start of the state’s largest wind farm project to date and the biggest wind project to en...
+2026-10-26 13:49:53,792 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:50:02,152 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Parron Maam Marang, Western Australia's Biggest Wind Farm St
+2026-10-26 13:50:02,153 [INFO] LLM extracted 1 deals | Parron Maam Marang, Western Australia's Biggest Wi
+2026-10-26 13:50:02,154 [INFO] Not a European deal — skipping: Synergy / Atmos Renewables (Australia, 470 MW)
+2026-10-26 13:50:02,154 [INFO] ------- Processing article n. 1: Masdar acquires 550MW-plus Greek solar project - reNEWS -------
+2026-10-26 13:50:02,262 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigAFBVV95cUxOUWIxZE9xVFowQkpEQVFmdURIUzMxM0VXWldIanpJcDVOUHRfVXlmcFNNdUp1TzNYVEZia0hXZlh6MDZtTFhoRHBwb2x2OWhyem52MlJxUk5jaUdHcEplLVpodE0zUVdHWkNDZjgyVHFNY0ljZjdNR09jbldKdktsMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:50:03,363 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:50:03,363 [INFO] Resolved Google News URL: https://www.renews.biz/solar/masdar-acquires-550mw-plus-greek-solar-project
+2026-10-26 13:50:03,363 [INFO] URL: https://www.renews.biz/solar/masdar-acquires-550mw-plus-greek-solar-project
+2026-10-26 13:50:05,839 [INFO] Text length: 2747 chars | source: full
+2026-10-26 13:50:05,839 [INFO] Text preview: Masdar has signed an agreement to acquire and further develop a solar project in Greece with a capacity of more than 550MW from Lightsource bp.
+The Abu Dhabi-based renewable energy company said the pr...
+2026-10-26 13:50:05,839 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:50:17,460 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Masdar acquires 550MW-plus Greek solar project - reNEWS
+2026-10-26 13:50:17,461 [INFO] LLM extracted 1 deals | Masdar acquires 550MW-plus Greek solar project - r
+2026-10-26 13:50:17,462 [INFO] Not a signed deal — skipping: Masdar acquires 550MW-plus Greek solar project - reNEWS
+2026-10-26 13:50:17,462 [INFO] ------- Processing article n. 1: EIB backs Azerbaijan-led green energy corridor but seeks clarity on financing an -------
+2026-10-26 13:50:17,569 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiV0FVX3lxTE1heGc2V2ZPOEhrRHBhVmVJMk96QTE5eXRQNGJTMHU4eW5mQy1sX3h4VGtPVHBpdVhVeHlJSURTRGR3TkktNFFYWUVaVjRuSkw4aThMd2UyVQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:50:18,692 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:50:18,692 [INFO] Resolved Google News URL: https://www.azernews.az/business/266198.html
+2026-10-26 13:50:18,693 [INFO] URL: https://www.azernews.az/business/266198.html
+2026-10-26 13:50:19,244 [INFO] Text length: 7694 chars | source: full
+2026-10-26 13:50:19,244 [INFO] Text preview: EIB backs Azerbaijan-led green energy corridor but seeks clarity on financing and risks
+The European Investment Bank (EIB) has reaffirmed its support for the Caspian–Black Sea–Europe Green Energy Corr...
+2026-10-26 13:50:19,244 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:50:31,848 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EIB backs Azerbaijan-led green energy corridor but seeks cla
+2026-10-26 13:50:31,848 [INFO] LLM extracted 1 deals | EIB backs Azerbaijan-led green energy corridor but
+2026-10-26 13:50:31,850 [INFO] Not a signed deal — skipping: EIB backs Azerbaijan-led green energy corridor but seeks cla
+2026-10-26 13:50:31,850 [INFO] ------- Processing article n. 1: 2026 Russia Energy Week Forum: A Wider Energy Trade Network Across Asia, Eurasia -------
+2026-10-26 13:50:31,994 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR19MdkpPR3VoZ1lIajBmWGhCcFlFbk1TakZPUi0wbmJIejZaQjBrMXNwOUlHSUk2MFZSN1Vibm1JUGd0ZTg3bzdnWXlYQmtfZTBFQ3hQY3RBV3FPX016eUtqSXQxRlpZLUZrM2toMFZDSmlJQzN0LWVaMHhSYU5hU1VjRk9DOW92OW53ZmdXRThJTGxmWS1nZUd3Ym85eHdwcGdCdThSX09LcXRBNkVwVGhicGUyZDZTY1NHRnZIdE1Bd3g0c0xLcHpaM3llaHRuXzl6U3pn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:50:33,128 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:50:33,129 [INFO] Resolved Google News URL: https://russiaspivottoasia.com/2026-russia-energy-week-forum-a-wider-energy-trade-network-across-asi
+2026-10-26 13:50:33,129 [INFO] URL: https://russiaspivottoasia.com/2026-russia-energy-week-forum-a-wider-energy-trade-network-across-asia-eurasia-africa-and-the-west-analysis/
+2026-10-26 13:50:33,980 [INFO] Text length: 29581 chars | source: full
+2026-10-26 13:50:33,980 [INFO] Text preview: The 2026 Russia Energy Week (REW) forum has been taking place in Moscow, combining energy trade discussions with industrial modernisation, nuclear technology exports, engineering cooperation and inves...
+2026-10-26 13:50:33,980 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:50:47,499 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: 2026 Russia Energy Week Forum: A Wider Energy Trade Network 
+2026-10-26 13:50:47,499 [INFO] LLM extracted 1 deals | 2026 Russia Energy Week Forum: A Wider Energy Trad
+2026-10-26 13:50:47,501 [INFO] Not a European deal — skipping: PT Pembangkit Listrik Nuklir / Rosatom State Corporation (Indonesia, 200 MW)
+2026-10-26 13:50:47,501 [INFO] ------- Processing article n. 1: EIB outlines conditions for financing Caspian–Black Sea green energy corridor -  -------
+2026-10-26 13:50:47,616 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ieksxVlNEWG9CaDEzbW92T2t4YUlpUXlLWk11Z3J4QnV3MFRGT180SndfWHhwdURMb3p3ZHcwOEgxemVqUV9HaS11emxzT2s3LXNDS0Q5UnRKcElmNHc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:50:48,739 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:50:48,740 [INFO] Resolved Google News URL: https://www.trend.az/business/energy/4239012.html
+2026-10-26 13:50:48,740 [INFO] URL: https://www.trend.az/business/energy/4239012.html
+2026-10-26 13:50:49,294 [INFO] Text length: 7751 chars | source: full
+2026-10-26 13:50:49,294 [INFO] Text preview: BAKU, Azerbaijan, October 26. The European Investment Bank (EIB) supports the “Caspian–Black Sea–Europe Green Energy Corridor” project; however, before a decision on its financing can be made, the dis...
+2026-10-26 13:50:49,294 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:51:01,841 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EIB outlines conditions for financing Caspian–Black Sea gree
+2026-10-26 13:51:01,841 [INFO] LLM extracted 1 deals | EIB outlines conditions for financing Caspian–Blac
+2026-10-26 13:51:01,842 [INFO] Not a signed deal — skipping: EIB outlines conditions for financing Caspian–Black Sea gree
+2026-10-26 13:51:01,842 [INFO] ------- Processing article n. 1: Masdar’s Greek solar acquisition - Utilities Middle East -------
+2026-10-26 13:51:01,960 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMic0FVX3lxTE43MGo4cFRFVEZfNnUtTE03MUpJeG5GQ3oxSnNxb0V4amdVMzBoaVdjSlcyYnFfOGJhV0k0QWhoV3lsY2RrWV96Rk5qYWpsZXNzTlFRMGFtSTlBVjBNT1AyeUU2N3QtV3JSZmZCdVBSc3d1V28?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:51:03,098 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:51:03,098 [INFO] Resolved Google News URL: https://www.utilities-me.com/news/masdars-greek-solar-acquisition
+2026-10-26 13:51:03,098 [INFO] URL: https://www.utilities-me.com/news/masdars-greek-solar-acquisition
+2026-10-26 13:51:03,223 [INFO] Full text skipped (status 405): https://www.utilities-me.com/news/masdars-greek-solar-acquisition
+2026-10-26 13:51:03,223 [INFO] Text length: 125 chars | source: fallback
+2026-10-26 13:51:03,223 [INFO] Text preview: Masdar’s Greek solar acquisition - Utilities Middle East
+
+Masdar’s Greek solar acquisition &nbsp;&nbsp; Utilities Middle East...
+2026-10-26 13:51:03,223 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:51:17,005 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Masdar’s Greek solar acquisition - Utilities Middle East
+2026-10-26 13:51:17,006 [INFO] LLM extracted 1 deals | Masdar’s Greek solar acquisition - Utilities Middl
+2026-10-26 13:51:17,007 [INFO] Not a signed deal — skipping: Masdar’s Greek solar acquisition - Utilities Middle East
+2026-10-26 13:51:17,007 [INFO] ------- Processing article n. 1: The EU Commission launches the T-MED platform for investments in renewables in t -------
+2026-10-26 13:51:17,120 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU3NCcXFqdmZSVlNBWE9ZdTl0R3FIZU9iMHFSUWFIc2RUSkZ4SklGa0sySHpEUzVJYm0xQWZDQlFnM3RDd3BFWWt4U2xlbV9kQkZvNDl4TlhSUUFGVWQ5cU5NVm0xeWIzSXVrNllyVmhTUFI0a2JQZGJxMW1iLVlUYkZqLVdIdURpTlNJRVNkME9obHdFT2NXZzQzNDlMZ3I2NzM3TXpRVFA1bTJmb2lxLVMxRDRLMFhxSXRrS2s2UlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:51:18,246 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:51:18,247 [INFO] Resolved Google News URL: https://www.italpress.com/the-eu-commission-launches-the-t-med-platform-for-investments-in-renewable
+2026-10-26 13:51:18,247 [INFO] URL: https://www.italpress.com/the-eu-commission-launches-the-t-med-platform-for-investments-in-renewables-in-the-mediterranean/
+2026-10-26 13:51:19,144 [INFO] Text length: 2052 chars | source: full
+2026-10-26 13:51:19,144 [INFO] Text preview: BRUXELLES (BELGIUM) (ITALPRESS) – Today, the European Commission launched the T-MED Investment Platform, to mobilise large-scale investment in renewable energy and clean technologies across the Medite...
+2026-10-26 13:51:19,144 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:51:31,941 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: The EU Commission launches the T-MED platform for investment
+2026-10-26 13:51:31,941 [INFO] LLM extracted 1 deals | The EU Commission launches the T-MED platform for 
+2026-10-26 13:51:31,948 [INFO] Not a signed deal — skipping: The EU Commission launches the T-MED platform for investment
+2026-10-26 13:51:31,948 [INFO] ------- Processing article n. 1: VEFTA Agreement: Expanding markets and attracting high-quality investment from E -------
+2026-10-26 13:51:32,071 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxNYS1JZmdHcW1yUHN6R0tERmVuRHNJY2RmY2hZU3czbDdtbzVmekE4dEZSQmdxS1VBR3ZlZ1h6eXJmdUpTX3FsLWR5ZFBvQ2tLMk5VdnNnUlZicVhjY256cWF0cVZ1SVlESmtYRElpT3hKb2FxbjQ5b2l3UDhIRGRQUTV2cHdUV1pRQ1NOTlFKQWNLbjhjWnB6LTZpaTVMeWdXM3Fj?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:51:33,205 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:51:33,205 [INFO] Resolved Google News URL: https://www.vietnam.vn/en/hiep-dinh-vefta-mo-rong-thi-truong-thu-hut-dau-tu-chat-luong-cao-tu-chau-a
+2026-10-26 13:51:33,205 [INFO] URL: https://www.vietnam.vn/en/hiep-dinh-vefta-mo-rong-thi-truong-thu-hut-dau-tu-chat-luong-cao-tu-chau-au
+2026-10-26 13:51:33,672 [INFO] Text length: 7400 chars | source: full
+2026-10-26 13:51:33,672 [INFO] Text preview: VEFTA Agreement: Expanding markets and attracting high-quality investment from Europe.
+In the context of volatile global trade, VEFTA not only opens up more opportunities to access markets in Europe b...
+2026-10-26 13:51:33,672 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:51:46,810 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: VEFTA Agreement: Expanding markets and attracting high-quali
+2026-10-26 13:51:46,810 [INFO] LLM extracted 1 deals | VEFTA Agreement: Expanding markets and attracting 
+2026-10-26 13:51:46,811 [INFO] Not a signed deal — skipping: VEFTA Agreement: Expanding markets and attracting high-quali
+2026-10-26 13:51:46,811 [INFO] ------- Processing article n. 1: Qatar Airways Cargo adds freighter routes in Europe, North America - The Banglad -------
+2026-10-26 13:51:46,912 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaGhJSmhkNEg0T09pMldXcE0xRnlXVTYyLS1peVdZS1p6SWpoVC1leDBYVjUyRGI1WmloODV0eG1QQVhvdTVnNENsVUNHTlBvZ3RtTTkwNzJQMDd1M2tuVDcyblVvUG42R19JeDJ2T3RMN29KTUw1Y0NlUThaZHlGY3dGcUJtZ3pKU0lINm5uTWE5SkZoNmR0Y29fbTU4cnhrLVVTdHB0RTU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:51:48,015 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:51:48,015 [INFO] Resolved Google News URL: https://www.bangladeshmonitor.com.bd/en/qatar-airways-cargo-adds-freighter-routes-in-europe-north-am
+2026-10-26 13:51:48,015 [INFO] URL: https://www.bangladeshmonitor.com.bd/en/qatar-airways-cargo-adds-freighter-routes-in-europe-north-america
+2026-10-26 13:51:50,083 [INFO] Text length: 1730 chars | source: full
+2026-10-26 13:51:50,084 [INFO] Text preview: Dhaka: Qatar Airways Cargo is expanding its freighter network for the Winter 2026 season with new services from Copenhagen, New York, Dallas Fort Worth, and Warsaw. The airline said the additions will...
+2026-10-26 13:51:50,084 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:52:02,051 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Qatar Airways Cargo adds freighter routes in Europe, North A
+2026-10-26 13:52:02,052 [INFO] LLM extracted 1 deals | Qatar Airways Cargo adds freighter routes in Europ
+2026-10-26 13:52:02,053 [INFO] Not a signed deal — skipping: Qatar Airways Cargo adds freighter routes in Europe, North A
+2026-10-26 13:52:02,053 [INFO] ------- Processing article n. 1: EVN unterzeichnet einen Vertrag über ein mechanisches und elektrisches Paket im  -------
+2026-10-26 13:52:02,151 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxORTB1UVdiUXJHRHBGS2VKMVBqUUtITkFuOFV2RTM5YzFsdzZMeHFBM25qeFMybG5XYjlxLXo1OThEVUxKNUNqNHlWQkJDUEZGTGZjcjMyZURpR21ZbHp3QXNER0MzUFN3Skx4alY4MmRYUDRMWlgzcWtlTmc1bW83WmFKOHV3VURiNFpwQUI3RjJCZ3dNeVNnamZWc19sN0IyNWJRX09CUFFUWmM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:52:03,269 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:52:03,269 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/evn-ky-hop-dong-goi-thau-co-dien-hon-4-462-ty-dong-cho-thuy-dien-tich-nang
+2026-10-26 13:52:03,269 [INFO] URL: https://www.vietnam.vn/de/evn-ky-hop-dong-goi-thau-co-dien-hon-4-462-ty-dong-cho-thuy-dien-tich-nang-bac-ai
+2026-10-26 13:52:03,645 [INFO] Text length: 6489 chars | source: full
+2026-10-26 13:52:03,645 [INFO] Text preview: EVN unterzeichnet einen Vertrag über ein mechanisches und elektrisches Paket im Wert von über 4,462 Milliarden VND für das Pumpspeicherkraftwerk Bac Ai.
+Am 26. Oktober unterzeichneten die Vietnam Elec...
+2026-10-26 13:52:03,645 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:52:17,175 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EVN unterzeichnet einen Vertrag über ein mechanisches und el
+2026-10-26 13:52:17,175 [INFO] LLM extracted 1 deals | EVN unterzeichnet einen Vertrag über ein mechanisc
+2026-10-26 13:52:17,176 [INFO] Not a signed deal — skipping: EVN unterzeichnet einen Vertrag über ein mechanisches und el
+2026-10-26 13:52:17,176 [INFO] ------- Processing article n. 1: Vietnams erstes Pumpspeicherkraftwerk wird ab Ende 2029 Strom erzeugen. - Vietna -------
+2026-10-26 13:52:17,311 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxNZEt5dWNZNGFNMnhGMHBkSG45akF5UUk1T2FpSk14X0FTQWplMEZid0hWN25lS18tcEtZS21hOVlGWUZDUEdjWEE3WEFBS0trRjlSLW53Sl9wVTJ3SExVMjhPaFVnY3NaMzAwMUc5SUF0Smw1aVZxSHRJY3Z5WXhuc3hQaUpsaEFSemhfcFZ1QThseDI5R3FrdHRSWXF2bk5SVmpF?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:52:18,456 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:52:18,457 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/nha-may-thuy-dien-tich-nang-dau-tien-cua-viet-nam-se-phat-dien-tu-cuoi-202
+2026-10-26 13:52:18,457 [INFO] URL: https://www.vietnam.vn/de/nha-may-thuy-dien-tich-nang-dau-tien-cua-viet-nam-se-phat-dien-tu-cuoi-2029
+2026-10-26 13:52:18,868 [INFO] Text length: 4514 chars | source: full
+2026-10-26 13:52:18,868 [INFO] Text preview: Vietnams erstes Pumpspeicherkraftwerk wird ab Ende 2029 Strom erzeugen.
+(Dan Tri Zeitung) - Die Führungskräfte von EVN haben gefordert, dass beim Pumpspeicherkraftwerksprojekt Bac Ai Fortschritte erzi...
+2026-10-26 13:52:18,868 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:52:31,980 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Vietnams erstes Pumpspeicherkraftwerk wird ab Ende 2029 Stro
+2026-10-26 13:52:31,981 [INFO] LLM extracted 1 deals | Vietnams erstes Pumpspeicherkraftwerk wird ab Ende
+2026-10-26 13:52:31,982 [INFO] Not a signed deal — skipping: Vietnams erstes Pumpspeicherkraftwerk wird ab Ende 2029 Stro
+2026-10-26 13:52:31,982 [INFO] ------- Processing article n. 1: EVN unterzeichnet einen Ausrüstungsvertrag im Wert von über 4,462 Milliarden VND -------
+2026-10-26 13:52:32,087 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxPeFdfbWF3WHZNbERzM0xaeENoS3Q2VHBlajVONW5LOThWOVAwaHNMSUM1THJTYkFiQzd4YVZnZmF3ME5BaWZXR3VPdVJPTklHVUZUc3RFc3p2WFFEUVlfQzVRSDBncFhSUU5CVXRsUFF3UjNuMWhKZlNheDNQUlJOcDZyc21ONHdER01YVXBjV2tnSDEtWS01dk5pY1I1dDA5?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:52:33,192 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:52:33,193 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/evn-ky-hop-dong-thiet-bi-hon-4-462-ty-dong-cho-thuy-dien-tich-nang-bac-ai
+2026-10-26 13:52:33,193 [INFO] URL: https://www.vietnam.vn/de/evn-ky-hop-dong-thiet-bi-hon-4-462-ty-dong-cho-thuy-dien-tich-nang-bac-ai
+2026-10-26 13:52:34,222 [INFO] Text length: 8765 chars | source: full
+2026-10-26 13:52:34,222 [INFO] Text preview: Der Auftrag für die elektromechanische Ausrüstung hat einen Wert von über 4,462 Milliarden VND.
+Am 26. Oktober 2026 unterzeichneten die Vietnam Electricity Group ( EVN ) und das Voith Hydro Shanghai -...
+2026-10-26 13:52:34,222 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:52:47,474 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EVN unterzeichnet einen Ausrüstungsvertrag im Wert von über 
+2026-10-26 13:52:47,474 [INFO] LLM extracted 1 deals | EVN unterzeichnet einen Ausrüstungsvertrag im Wert
+2026-10-26 13:52:47,476 [INFO] Not a signed deal — skipping: EVN unterzeichnet einen Ausrüstungsvertrag im Wert von über 
+2026-10-26 13:52:47,476 [INFO] ------- Processing article n. 1: Voiture électrique : toutes les aides en 2026 et les règles à connaître avant d’ -------
+2026-10-26 13:52:47,593 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxPOUMwSGktUVBXTVFsQ1Y4bEE4MzBUWlJEYmZWLXJzcVpGMFQ0SWNnbGo3cVRtMFdsdER6TlB0cC0zVzlZa0Y1VjJwWFhiUFFRbTZNSGFCN0NKRHBFamszMG1VaGJxMXRfSXozZlJ4WENHMlhtUUg0MnIzTS1mUTZMTVhTSGY2VHVHamJoVURDTW9jYW55UTA2MFBIcHJoRlk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:52:48,727 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:52:48,728 [INFO] Resolved Google News URL: https://lautomobiliste.fr/26/10/2026/voiture-electrique-aides-2026-guide-eco-score-leasing-social/
+2026-10-26 13:52:48,728 [INFO] URL: https://lautomobiliste.fr/26/10/2026/voiture-electrique-aides-2026-guide-eco-score-leasing-social/
+2026-10-26 13:52:49,044 [INFO] Text length: 21415 chars | source: full
+2026-10-26 13:52:49,044 [INFO] Text preview: La voiture électrique a changé de prix, mais les règles pour l’acheter ont changé encore plus vite. Bonus écologique remplacé, prime variable selon les revenus, avantage supplémentaire pour certaines ...
+2026-10-26 13:52:49,044 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:53:02,466 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Voiture électrique : toutes les aides en 2026 et les règles 
+2026-10-26 13:53:02,466 [INFO] LLM extracted 1 deals | Voiture électrique : toutes les aides en 2026 et l
+2026-10-26 13:53:02,467 [INFO] Not a signed deal — skipping: Voiture électrique : toutes les aides en 2026 et les règles 
+2026-10-26 13:53:02,467 [INFO] ------- Processing article n. 1: Iberdrola y MediaMarkt firman un acuerdo de suministro de energía renovable para -------
+2026-10-26 13:53:02,563 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcXNseWhKbF9vNVBxSkNxRnc5ZWxuUzNZSUtXMlprY1p3eTRwdEtfQ3VaLWtvN2pkZks4Y2ktZDZQTmc0Q2RVVWZhVUdLaWR4REhWbVhESHA0T18zRWI2NlVvZHB3M3BJcXp5cExINWZBcElTb0hJRXdsdTBlLWotaEh5aDZBejAzLVRNa0VYS2EySTg2SDVHa0VtRnZCbjJmck0wd1dRQ283cDVPYVpVSG1PREE5UThodmEyZUJiZDk5T0hxNVJFRHlCNmktQ2RMMUxoUWU2aW1tUkRuYWdUd29R?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:53:03,668 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:53:03,668 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/iberdrola-y-mediamarkt-firman-un-acuerdo-de-suministro-de-energia
+2026-10-26 13:53:03,668 [INFO] URL: https://elperiodicodelaenergia.com/iberdrola-y-mediamarkt-firman-un-acuerdo-de-suministro-de-energia-renovable-para-el-100-de-sus-centros-en-espana/
+2026-10-26 13:53:04,250 [INFO] Text length: 1879 chars | source: full
+2026-10-26 13:53:04,250 [INFO] Text preview: MediaMarkt e Iberdrola dan un nuevo impulso a la electrificación. Ambas compañías han firmado un acuerdo para suministrar energía renovable al 100% de sus centros en toda España durante el periodo 202...
+2026-10-26 13:53:04,250 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:53:17,270 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola y MediaMarkt firman un acuerdo de suministro de en
+2026-10-26 13:53:17,270 [INFO] LLM extracted 1 deals | Iberdrola y MediaMarkt firman un acuerdo de sumini
+2026-10-26 13:53:17,279 [INFO] NEW: MediaMarkt / Iberdrola (Spain, None MW)
+2026-10-26 13:53:22,280 [INFO] ------- Processing article n. 2: Iberdrola suministrará energía 100% renovable a MediaMarkt España - energelia.co -------
+2026-10-26 13:53:22,380 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0JvRnJmOUpaTFBrdVZCQ2F2cTFrSW9GWkNYZW1WSndESnVWRmc0dXUtSkpaeEVwaXhyZWVDTkY3ZEJiNWgwdlRPal8xVDI4bVJLUDFVY3dJZDlkZFEyOUxfclVjYnlEUnRXQmxKcDZuZGZ4aE1ETC1WV2tuRlpyUGhPUTUtZ3p4XzI2Qkg5S3ZGZ0d5N0xuRU5WN2g1UTIz?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:53:23,496 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:53:23,497 [INFO] Resolved Google News URL: https://energelia.com/solar-fotovoltaica/iberdrola-suministrara-energia-renovable-mediamarkt-espana
+2026-10-26 13:53:23,497 [INFO] URL: https://energelia.com/solar-fotovoltaica/iberdrola-suministrara-energia-renovable-mediamarkt-espana
+2026-10-26 13:53:24,046 [INFO] Text length: 3893 chars | source: full
+2026-10-26 13:53:24,046 [INFO] Text preview: Iberdrola suministrará energía 100% renovable a MediaMarkt España
+Un acuerdo de suministro renovable a largo plazo
+Iberdrola ha alcanzado un acuerdo con MediaMarkt para abastecer con energía 100% reno...
+2026-10-26 13:53:24,046 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:53:32,164 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola suministrará energía 100% renovable a MediaMarkt E
+2026-10-26 13:53:32,164 [INFO] LLM extracted 1 deals | Iberdrola suministrará energía 100% renovable a Me
+2026-10-26 13:53:32,173 [INFO] NEW: MediaMarkt España / Iberdrola (Spain, None MW)
+2026-10-26 13:53:37,174 [INFO] ------- Processing article n. 3: El mercado de eliminación de carbono contrata 30 millones de toneladas en 2025 p -------
+2026-10-26 13:53:37,290 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikgFBVV95cUxPd0VrWERIX2tBTkczeXU4ZTlqd0I2Nk9fUVh0bFFCM0J6RHExNjVCcVpIOHBzbmtabFM0cjUxdGN4b21VNkpjTXJsZHRMbXBCdThfVVpqOHRUX1EydUYwN2xzbkpGOXZWX0o3MFdneURWOFR4ekFCblVWNlM4d0MwVFFsQjV4WHpLcEwwbVFQNXJ3Zw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:53:38,431 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:53:38,432 [INFO] Resolved Google News URL: https://www.moncloa.com/2026/10/26/mercado-eliminacion-carbono-450000-toneladas-3455549/
+2026-10-26 13:53:38,432 [INFO] URL: https://www.moncloa.com/2026/10/26/mercado-eliminacion-carbono-450000-toneladas-3455549/
+2026-10-26 13:53:38,798 [INFO] Text length: 6391 chars | source: full
+2026-10-26 13:53:38,798 [INFO] Text preview: El mercado de eliminación de carbono cerró 2025 con cerca de 30 millones de toneladas contratadas, el triple que el año anterior, y solo 450.000 toneladas entregadas: en torno al 1,5% de lo firmado, s...
+2026-10-26 13:53:38,798 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:53:46,862 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: El mercado de eliminación de carbono contrata 30 millones de
+2026-10-26 13:53:46,862 [INFO] LLM extracted 1 deals | El mercado de eliminación de carbono contrata 30 m
+2026-10-26 13:53:46,863 [INFO] Not a signed deal — skipping: El mercado de eliminación de carbono contrata 30 millones de
+2026-10-26 13:53:46,863 [INFO] ------- Processing article n. 3: Iberdrola suma 100.000 clientes con Contigo Energía - Business People España -------
+2026-10-26 13:53:46,983 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikgFBVV95cUxQMHFCMTJ4OUhZWlhGb1VpM25pWTRObnRVVnk1cWpUTUtpUmlRRHdZa3NYQjQza1l6eUdBd0lOeVlvV3R5V1VFSGczUWt6Z2ZpWFNUWmpmbEs0VWhzamF4NDN5M3lrRzduVHdfTUtOdzBPOWE0cEwyelFHaFE4UG5faE5qU3JGU2Q1UEZvRWdOeXhEQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:53:48,114 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:53:48,115 [INFO] Resolved Google News URL: https://business-people.es/economia/iberdrola-suma-100-000-clientes-con-contigo-energia/
+2026-10-26 13:53:48,115 [INFO] URL: https://business-people.es/economia/iberdrola-suma-100-000-clientes-con-contigo-energia/
+2026-10-26 13:53:50,982 [INFO] Text length: 5244 chars | source: full
+2026-10-26 13:53:50,982 [INFO] Text preview: Iberdrola avanza en la compra del negocio de comercialización de electricidad de Contigo Energía en España. La Comisión Nacional de los Mercados y la Competencia (CNMC) ha autorizado la operación en p...
+2026-10-26 13:53:50,982 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:54:02,213 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola suma 100.000 clientes con Contigo Energía - Busine
+2026-10-26 13:54:02,213 [INFO] LLM extracted 1 deals | Iberdrola suma 100.000 clientes con Contigo Energí
+2026-10-26 13:54:02,218 [INFO] Not a signed deal — skipping: Iberdrola suma 100.000 clientes con Contigo Energía - Busine
+2026-10-26 13:54:02,218 [INFO] ------- Processing article n. 3: Telefónica compra el 10% de OGA, la tecnológica sevillana especializada en intel -------
+2026-10-26 13:54:02,338 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxPNnp5ZWJPQ1EwblQ2d2xBZ3M0NXdhc2w3cWpPd0U2TjZMY2I4QWUxSTRubGhCZ0FWWVNTRkVhOW90aUZVdWNDZlZ6ai04c25CTFZ4RzZ1Q003SGdheThUQkZEY2VjTklHbXR6cUFsM3BucmpxQUx1Um5XRWx5NVRXWnAyNHBBem1zdHAtWUhhSUR6OVpQMUFJ0gGXAUFVX3lxTE82enllYk9DUTBuVDZ3bEFnczQ1d2FzbDdxak93RTZONkxjYjhBZTFJNG5saEJnQVZZU1NGRWE5b3RpRlV1Y0NmVnpqLThzbkJMVnhHNnVDTTdIZ2F5OFRCRkRjZWNOSUdtdHpxQWwzcG5yanFBTHVSbldFbHk1VFdacDI0cEF6bXN0cC1ZSGFJRHo5WlAxQUk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:54:03,480 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:54:03,480 [INFO] Resolved Google News URL: https://www.elconciso.es/empresas/telefonica-compra-10-oga-tecnologica_0_2008350505.amp.html
+2026-10-26 13:54:03,480 [INFO] URL: https://www.elconciso.es/empresas/telefonica-compra-10-oga-tecnologica_0_2008350505.amp.html
+2026-10-26 13:54:05,202 [INFO] Text length: 3217 chars | source: full
+2026-10-26 13:54:05,203 [INFO] Text preview: Telefónica España ha adquirido una participación del 10% en OGA, compañía tecnológica con sede en Camas (Sevilla) especializada en inteligencia artificial (IA) y optimización de procesos industriales....
+2026-10-26 13:54:05,203 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:54:16,944 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Telefónica compra el 10% de OGA, la tecnológica sevillana es
+2026-10-26 13:54:16,944 [INFO] LLM extracted 1 deals | Telefónica compra el 10% de OGA, la tecnológica se
+2026-10-26 13:54:16,946 [INFO] Not a signed deal — skipping: Telefónica compra el 10% de OGA, la tecnológica sevillana es
+2026-10-26 13:54:16,946 [INFO] ------- Processing article n. 3: Iberdrola suministrará energía renovable a todos los centros de MediaMarkt en Es -------
+2026-10-26 13:54:17,074 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZHBrazY0VlhjQmxEVml4Ukh0eDhPSlNhejczdVBRSDItY2w5SURocVg4VHhUcHpRNGpRNHM4TFVYTzNMNnYxWUxuNGhBUmVWMmhLMTR4VG9yZUZ0dUtzaFlTZE5CQWxVUV92SjU4WDB4RGVzemY3eWxVNXZTcDY2c2hPdnFLaHllWWxSaG53LWhodVFOTHk1TnVMSnRoam5obUlrRTNOcm1kUVkyeTJlN0N2bVBndFRmVWF4aDBTQ210aU5PMnk3WXZZRE56M0Z5amxFVzRfWS1vLVVvU3E2Ng?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:54:18,211 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:54:18,211 [INFO] Resolved Google News URL: https://revistacentroscomerciales.com/noticias/sostenibilidad/iberdrola-suministrara-energia-renovab
+2026-10-26 13:54:18,211 [INFO] URL: https://revistacentroscomerciales.com/noticias/sostenibilidad/iberdrola-suministrara-energia-renovable-a-todos-los-centros-de-mediamarkt-en-espana/
+2026-10-26 13:54:19,576 [INFO] Text length: 1168 chars | source: full
+2026-10-26 13:54:19,576 [INFO] Text preview: Iberdrola y MediaMarkt han firmado un acuerdo para suministrar energía renovable a la totalidad de los centros de la compañía de distribución de electrónica en España durante el periodo 2028-2030. El ...
+2026-10-26 13:54:19,576 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:54:32,944 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola suministrará energía renovable a todos los centros
+2026-10-26 13:54:32,944 [INFO] LLM extracted 1 deals | Iberdrola suministrará energía renovable a todos l
+2026-10-26 13:54:32,953 [INFO] UPDATE: MediaMarkt / Iberdrola (Spain, None MW) — canonical ID: 2038
+2026-10-26 13:54:37,955 [INFO] ------- Processing article n. 4: Iberdrola suministrará energía renovable a todos los centros de MediaMarkt en Es -------
+2026-10-26 13:54:38,062 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZFVRdnhDbExjLWZrQUZtTXdFRFhhbFIxblZETy0xNzZrc1NYRl9POVlrUTFZUnFLRGJEbmNBWVJLZnhRUGFVTVZLeThtelZOZk9nb3B0TFVDTWtScmZxTXpObG1CZUxVSkhkMm1ybWZzSXUwaHdqUU1nd3M4d3gwcHBUTm5Uc3lxak1tVlFOX3VrX1pqQTM5eTJ6VHpYR1RMWTdybE9OUWJPU2JQWUR2Wng1dDE0eUlfQ3R1V3pkaF9ZNFIyYlZxci1XVm1Wc2NRYVVVMUlwQ292dw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:54:39,174 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:54:39,175 [INFO] Resolved Google News URL: https://www.industriambiente.com/noticias/20261026/iberdrola-suministrara-energia-renovable-todos-ce
+2026-10-26 13:54:39,175 [INFO] URL: https://www.industriambiente.com/noticias/20261026/iberdrola-suministrara-energia-renovable-todos-centros-mediamarkt-en-espana-entre-2028-2030
+2026-10-26 13:54:40,243 [INFO] Text length: 2977 chars | source: full
+2026-10-26 13:54:40,243 [INFO] Text preview: El acuerdo contempla más de 160 GWh de electricidad con garantías de origen renovable y busca reforzar la estabilidad de los costes energéticos y los objetivos de sostenibilidad de la compañía de dist...
+2026-10-26 13:54:40,243 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:54:47,233 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola suministrará energía renovable a todos los centros
+2026-10-26 13:54:47,234 [INFO] LLM extracted 1 deals | Iberdrola suministrará energía renovable a todos l
+2026-10-26 13:54:47,243 [INFO] UPDATE: MediaMarkt / Iberdrola (Spain, None MW) — canonical ID: 2038
+2026-10-26 13:54:52,245 [INFO] ------- Processing article n. 5: Bruselas anuncia 4.500 millones en avales para proyectos renovables en el Medite -------
+2026-10-26 13:54:52,362 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxPNU9kY0NKaEdlQ2F2UFlyUWNLYkI0a3BuZDFQLU1sZVJYU3BXMzUwUmkzYUlFN21SLWVqNnZWSXhIMllMTE5SUU9LbzV5SVVtS1FOb2xJOVFqV01lTURoWGNrMUZ6cGtxVk9hMXgxRGc3Q1VNN3M4TnZ1T3pIaVk2a3AybFpKclJWNDY4aG5lQ0NaYVdLRHo0Wjl3R2lTeDhZTXlOcmdKaGZlNGpYZW1TNGg0RmNydEFEalpFd3FfeWxYblIx?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:54:53,482 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:54:53,482 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/bruselas-anuncia-4-500-millones-en-avales-para-proyectos-renovabl
+2026-10-26 13:54:53,482 [INFO] URL: https://elperiodicodelaenergia.com/bruselas-anuncia-4-500-millones-en-avales-para-proyectos-renovables-en-el-mediterraneo-sur/
+2026-10-26 13:54:54,136 [INFO] Text length: 1671 chars | source: full
+2026-10-26 13:54:54,136 [INFO] Text preview: La Comisión Europea ha lanzado la plataforma de inversiones T-MED, compuesta por una línea de avales de 4.500 millones de euros con los que pretende movilizar inversiones a "gran escala" en proyectos ...
+2026-10-26 13:54:54,136 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:55:02,186 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Bruselas anuncia 4.500 millones en avales para proyectos ren
+2026-10-26 13:55:02,186 [INFO] LLM extracted 1 deals | Bruselas anuncia 4.500 millones en avales para pro
+2026-10-26 13:55:02,187 [INFO] Not a signed deal — skipping: Bruselas anuncia 4.500 millones en avales para proyectos ren
+2026-10-26 13:55:02,187 [INFO] ------- Processing article n. 5: La Commissione Ue lancia la piattaforma T-MED per investimenti sulle rinnovabili -------
+2026-10-26 13:55:02,320 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2MxYmtBdnpIWGVDWVZURVdFc0lvWUNNcU43VmFBY0ViVWc1bl9YcjFVRVktUnoyQ0U2U0JnVGZ5TjlveTJHcl9JdXlsb0dNRlZkc2ZocHJFekM3SkxwTlp4bXVFNGV2S0ltakRSV2k5dElYVl9fNTY0U3hZWThkVllWZmo0RFpadmNQNUhNS284MzdhYVlfS2lHdnRCNWVWWjkyeG8yTHNHQXFuaUtVTlhrMUJVbElWdERlUi1zcTlOQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:55:03,449 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:55:03,450 [INFO] Resolved Google News URL: https://www.italpress.com/la-commissione-ue-lancia-la-piattaforma-t-med-per-investimenti-sulle-rinno
+2026-10-26 13:55:03,450 [INFO] URL: https://www.italpress.com/la-commissione-ue-lancia-la-piattaforma-t-med-per-investimenti-sulle-rinnovabili-nel-mediterraneo/
+2026-10-26 13:55:03,939 [INFO] Text length: 2465 chars | source: full
+2026-10-26 13:55:03,939 [INFO] Text preview: BRUXELLES (BELGIO) (ITALPRESS) – La Commissione europea ha lanciato la Piattaforma di investimento T-MED, per mobilitare investimenti su larga scala nelle energie rinnovabili e nelle tecnologie pulite...
+2026-10-26 13:55:03,939 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:55:17,009 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: La Commissione Ue lancia la piattaforma T-MED per investimen
+2026-10-26 13:55:17,009 [INFO] LLM extracted 1 deals | La Commissione Ue lancia la piattaforma T-MED per 
+2026-10-26 13:55:17,010 [INFO] Not a signed deal — skipping: La Commissione Ue lancia la piattaforma T-MED per investimen
+2026-10-26 13:55:17,010 [INFO] ------- Processing article n. 5: Rapporto ECCO: la transizione energetica in Italia rallenta - Il Bo Live -------
+2026-10-26 13:55:17,118 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxNVV85SkhXTXZOaXZmcU5mb0g4SU1uQWtIU0pEYXFmTTdjU2lpcEN6dFZ6WllhU3J6dmcwMmEyQlgtdXJpZkRuWXFqREQ0V2VKT2ZjLTdhdW1hV01sNTFNX1VuNU1UcjJzMXNDb0ZvaW9Wb2dRQ3Y0bzUyTHBiUnd5NmFnUFNRU2E0ZXNFcHFB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:55:18,238 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:55:18,239 [INFO] Resolved Google News URL: https://ilbolive.unipd.it/it/news/societa/rapporto-ecco-transizione-energetica-italia
+2026-10-26 13:55:18,239 [INFO] URL: https://ilbolive.unipd.it/it/news/societa/rapporto-ecco-transizione-energetica-italia
+2026-10-26 13:55:30,782 [INFO] Full text fetch failed (HTTPSConnectionPool(host='ilbolive.unipd.it', port=443): Read timed out. (read timeout=12)): https://ilbolive.unipd.it/it/news/societa/rapporto-ecco-transizione-energetica-i
+2026-10-26 13:55:30,782 [INFO] Text length: 157 chars | source: fallback
+2026-10-26 13:55:30,782 [INFO] Text preview: Rapporto ECCO: la transizione energetica in Italia rallenta - Il Bo Live
+
+Rapporto ECCO: la transizione energetica in Italia rallenta &nbsp;&nbsp; Il Bo Live...
+2026-10-26 13:55:30,782 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:55:32,033 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rapporto ECCO: la transizione energetica in Italia rallenta 
+2026-10-26 13:55:32,033 [INFO] LLM extracted 1 deals | Rapporto ECCO: la transizione energetica in Italia
+2026-10-26 13:55:32,034 [INFO] Not a signed deal — skipping: Rapporto ECCO: la transizione energetica in Italia rallenta 
+2026-10-26 13:55:32,034 [INFO] ------- Processing article n. 5: Per attrarre investimenti diretti esteri di alta qualità, Ho Chi Minh City deve  -------
+2026-10-26 13:55:32,186 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxPUEpuc0ZncnNLYVpJeHF3LXN4eG4wazJqSHR3UWM0V25faXNyYWdsZExRVGdIdEFabXZXOFo5bGhPbkUzSlRYXzNjdzBMQzVabHNZRTJhRFJ2TDR0Qzd0U3dkbEU3aV84R2dLRFpLRTZNdzdvVXhHZTZBdjdvRTRfS0NldE9XaVk4SlBkVUhQNUhMWlFfejByMGxIMXozWWhCMGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:55:33,325 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:55:33,325 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/ha-tang-nang-luong-phai-di-truoc-de-tp-hcm-don-dong-von-fdi-chat-luong-cao
+2026-10-26 13:55:33,325 [INFO] URL: https://www.vietnam.vn/it/ha-tang-nang-luong-phai-di-truoc-de-tp-hcm-don-dong-von-fdi-chat-luong-cao
+2026-10-26 13:55:33,685 [INFO] Text length: 6049 chars | source: full
+2026-10-26 13:55:33,685 [INFO] Text preview: Questo è stato uno dei temi evidenziati dagli investitori internazionali al CEO 500, evento che si è svolto nell'ambito dell'Autumn Economic Forum 2026, nel pomeriggio del 26 ottobre.
+Secondo il signo...
+2026-10-26 13:55:33,685 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:55:47,242 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Per attrarre investimenti diretti esteri di alta qualità, Ho
+2026-10-26 13:55:47,242 [INFO] LLM extracted 1 deals | Per attrarre investimenti diretti esteri di alta q
+2026-10-26 13:55:47,243 [INFO] Not a signed deal — skipping: Per attrarre investimenti diretti esteri di alta qualità, Ho
+2026-10-26 13:55:47,243 [INFO] ------- Processing article n. 5: Termomodernizacja szkoły w Brzeznej – umowa podpisana - Podegrodzkie.info -------
+2026-10-26 13:55:47,347 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxOZkhhZnpfM1pzY0tTb0xONHUtMmtRbTFYTVUzSTVsN3ZYNmtOc2hCMTRUWmUtVXJ1TGhHX0h6WmZhWXk1Z2VWZUR1bnYtUTRacGw4YUtsWDFPTTlPZ3JWVzRPMzdPQXlvMlhkVXFpRU1aRHNQcHJ5SG5vdWRFbmpUcUNZT3p6UjVYWWlQblVzOERJVlhLb21DdVRXcXAtZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:55:48,458 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:55:48,458 [INFO] Resolved Google News URL: https://podegrodzkie.info/brzezna-umowa-na-termomodernizacje-szkoly-podpisana-prace-za-28-mln-zl/
+2026-10-26 13:55:48,458 [INFO] URL: https://podegrodzkie.info/brzezna-umowa-na-termomodernizacje-szkoly-podpisana-prace-za-28-mln-zl/
+2026-10-26 13:55:49,145 [INFO] Text length: 1287 chars | source: full
+2026-10-26 13:55:49,146 [INFO] Text preview: - Ostatnia modyfikacja:26 października 2026, 12:00
+Brzezna: Umowa na termomodernizację szkoły podpisana – prace za 2,8 mln zł
+16 października 2026 r. Gmina Podegrodzie podpisała umowę na termomoderniz...
+2026-10-26 13:55:49,146 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:56:03,069 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Termomodernizacja szkoły w Brzeznej – umowa podpisana - Pode
+2026-10-26 13:56:03,069 [INFO] LLM extracted 1 deals | Termomodernizacja szkoły w Brzeznej – umowa podpis
+2026-10-26 13:56:03,070 [INFO] Not a signed deal — skipping: Termomodernizacja szkoły w Brzeznej – umowa podpisana - Pode
+2026-10-26 13:56:03,070 [INFO] ------- Processing article n. 5: Empresas estrangeiras estão fornecendo equipamentos no valor de mais de 4,46 tri -------
+2026-10-26 13:56:03,199 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbmxjd1dSb3FKaHA1ZXdsUU1wYmpfQnBkUWliaXEzc0tTX203Z0o3dlRQLWJDRG9GMXdsSHpDWnBnYWJRUl9hbENVNG5adXVIZ1NfVFl0QWdRYmJIVFM2RjVMd3hoTF9mY21QVkViR2J1VWZQMXlFaGszYkpTQllBWldQZ3pGT1hHMER5LW1KVDBzOER1N0ZudlgyUHdNQ3F6eW9RbUw4ZGtha1U?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-26 13:56:04,309 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-26 13:56:04,310 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/nha-thau-ngoai-cung-cap-thiet-bi-hon-4-460-ty-dong-cho-thuy-dien-tich-nang
+2026-10-26 13:56:04,310 [INFO] URL: https://www.vietnam.vn/pt/nha-thau-ngoai-cung-cap-thiet-bi-hon-4-460-ty-dong-cho-thuy-dien-tich-nang-bac-ai
+2026-10-26 13:56:04,671 [INFO] Text length: 4803 chars | source: full
+2026-10-26 13:56:04,671 [INFO] Text preview: Empresas estrangeiras estão fornecendo equipamentos no valor de mais de 4,46 trilhões de VND para a usina hidrelétrica reversível de Bac Ai.
+O Grupo de Eletricidade do Vietnã (EVN) acaba de assinar um...
+2026-10-26 13:56:04,671 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-26 13:56:17,193 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Empresas estrangeiras estão fornecendo equipamentos no valor
+2026-10-26 13:56:17,194 [INFO] LLM extracted 1 deals | Empresas estrangeiras estão fornecendo equipamento
+2026-10-26 13:56:17,195 [INFO] Not a signed deal — skipping: Empresas estrangeiras estão fornecendo equipamentos no valor
+2026-10-26 13:56:17,195 [INFO] Run complete. New deals: 2, Updates: 3
+2026-10-26 13:56:17,204 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1513 deals)
+2026-10-26 13:56:31,688 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-10-26 13:56:31,688 [INFO] Email log summary generated by groq-120b
+2026-10-26 13:56:33,226 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
