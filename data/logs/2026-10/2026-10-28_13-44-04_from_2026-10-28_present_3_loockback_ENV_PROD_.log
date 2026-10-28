@@ -1,0 +1,660 @@
+2026-10-28 13:44:04,966 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-28 13:44:04,970 [INFO] Loaded 1669 existing deals for dedup matching
+2026-10-28 13:44:04,970 [INFO] Searching from 2026-10-28 to present with 3 loockback days
+2026-10-28 13:44:05,239 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-28 13:44:06,506 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-28 13:44:07,645 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-28 13:44:09,174 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-28&hl=en&gl=US&ceid=US:en: 26 results
+2026-10-28 13:44:11,724 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-28&hl=en&gl=US&ceid=US:en: 10 results
+2026-10-28 13:44:14,022 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-28&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-10-28 13:44:16,285 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-28&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-10-28 13:44:18,631 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-28&hl=fr&gl=FR&ceid=FR:fr: 4 results
+2026-10-28 13:44:20,919 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-28&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-28 13:44:23,224 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-28&hl=es&gl=ES&ceid=ES:es: 4 results
+2026-10-28 13:44:25,545 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-28&hl=es&gl=ES&ceid=ES:es: 7 results
+2026-10-28 13:44:27,830 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-28&hl=it&gl=IT&ceid=IT:it: 5 results
+2026-10-28 13:44:30,082 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-28&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-28 13:44:32,354 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-28&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-10-28 13:44:34,627 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-28 13:44:36,933 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-28&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-28 13:44:39,299 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-28&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-28 13:44:41,836 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-28&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-28 13:44:43,837 [INFO] Total raw articles collected: 59
+2026-10-28 13:44:43,959 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-10-28 13:44:45,824 [INFO] Extra RSS [elperiodicodelaenergia.com]: 5 results
+2026-10-28 13:44:46,831 [INFO] Unique unseen articles: 50
+2026-10-28 13:44:46,832 [INFO] ------- Processing article n. 0: Power Purchase Agreements Explained: Benefits, Risks, and 2026 Market Reality -  -------
+2026-10-28 13:44:46,971 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOEZVbHg0MUZLcUZvS0k0cGhlX2FXVlNpRVdPdXFsU2FmVE1SLTVlTURVLUIxRU5EZlpBeWRwNm1ZU0dVYkR6RFpncktfS2R1dy1qMnR5LTVWYVZELXg1eFM3cEJ5b2VWZl9IdGM2d3ExUktYaVMwNkNXMUFQSUxDRG0zTXlKSVlRNGNzUGs1SDNnQ1RlYzA4WW5LUVk2aVFEdC02eUNoekh4TUtMMDRXaEt4Z0J5bFNaNW15a05aWmZ4ZVRkczdqQw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:44:48,187 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:44:48,187 [INFO] Resolved Google News URL: https://www.environmentenergyleader.com/articles/44461-power-purchase-agreements-explained-benefits-
+2026-10-28 13:44:48,187 [INFO] URL: https://www.environmentenergyleader.com/articles/44461-power-purchase-agreements-explained-benefits-risks-and-2026-market-reality
+2026-10-28 13:44:48,598 [INFO] Text length: 14948 chars | source: full
+2026-10-28 13:44:48,598 [INFO] Text preview: ● Explainer
+By Environment+Energy Leader Editorial Staff · Updated June 2026
+Definition
+Power Purchase Agreement (PPA)
+A power purchase agreement (PPA) is a long-term contract that allows an organizat...
+2026-10-28 13:44:48,598 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:44:49,178 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Power Purchase Agreements Explained: Benefits, Risks, and 20
+2026-10-28 13:44:49,178 [INFO] LLM extracted 1 deals | Power Purchase Agreements Explained: Benefits, Ris
+2026-10-28 13:44:49,194 [INFO] Not a signed deal — skipping: Power Purchase Agreements Explained: Benefits, Risks, and 20
+2026-10-28 13:44:49,194 [INFO] ------- Processing article n. 0: Greenvolt to install 25 MWp of solar carports at Carrefour France sites - Renewa -------
+2026-10-28 13:44:49,290 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1FadV92SlRoM04wOWFEM2dHSzFzWU51MjZjSTVkc1I5eEhleHN0WEs1ZHpqeUtaM1VkMEFHb28zNzZQV3VPN3B0eGNmcF9QM0g4TkxvY1RLdFdhR2pNQnEzZ3ZkT01RQmN5b0R6Y0d5b0Mta2tRaEYxb3FQeUFJVW1weEc3SF91OGJxeUZlSjVYMWRsdDRMei11dGo3SXFuM29RMTVfb0I0TXdBUExXSg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:44:50,490 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:44:50,491 [INFO] Resolved Google News URL: https://renewablesnow.com/news/greenvolt-to-install-25-mwp-of-solar-carports-at-carrefour-france-sit
+2026-10-28 13:44:50,491 [INFO] URL: https://renewablesnow.com/news/greenvolt-to-install-25-mwp-of-solar-carports-at-carrefour-france-sites-1303832/
+2026-10-28 13:44:50,563 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/greenvolt-to-install-25-mwp-of-solar-carports-at-
+2026-10-28 13:44:50,563 [INFO] Text length: 189 chars | source: fallback
+2026-10-28 13:44:50,563 [INFO] Text preview: Greenvolt to install 25 MWp of solar carports at Carrefour France sites - Renewables Now
+
+Greenvolt to install 25 MWp of solar carports at Carrefour France sites &nbsp;&nbsp; Renewables Now...
+2026-10-28 13:44:50,563 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:45:04,617 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Greenvolt to install 25 MWp of solar carports at Carrefour F
+2026-10-28 13:45:04,617 [INFO] LLM extracted 1 deals | Greenvolt to install 25 MWp of solar carports at C
+2026-10-28 13:45:04,619 [INFO] Not a signed deal — skipping: Greenvolt to install 25 MWp of solar carports at Carrefour F
+2026-10-28 13:45:04,619 [INFO] ------- Processing article n. 0: The Need for Maintaining Renewable Energy Directive Stability in the Post-2030 E -------
+2026-10-28 13:45:04,730 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxQTUJpeS1JdUZGdE9tWUZBQjBYZXB3RDFjQ2t3VkFid1ZLOVlvQnJkRzBwTlJWX3RhVGVpamFGUHNMSkl6UHVXY3VocUdVaTlocmpQQzVyRjJTc081enFOTzdYdTRzZzdWQnZHZHJTbkJUaDN6cEx1bkJBRHFORWpIZjZQa0l1UDY1WWhqUlVJRmgwSFk1OElUUFhxZWpoeHB6ZXktQmNNbUNrSUN0ZFhndGQ5MXUwR2hrV1dpOHlFVHR5TXZYVUZYYU1GQXBEZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:45:05,937 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:45:05,938 [INFO] Resolved Google News URL: https://cleantechnica.com/2026/10/28/the-need-for-maintaining-renewable-energy-directive-stability-i
+2026-10-28 13:45:05,938 [INFO] URL: https://cleantechnica.com/2026/10/28/the-need-for-maintaining-renewable-energy-directive-stability-in-the-post-2030-energy-framework/
+2026-10-28 13:45:06,055 [INFO] Text length: 2911 chars | source: full
+2026-10-28 13:45:06,055 [INFO] Text preview: Support CleanTechnica's work through a Substack subscription, on Patreon, or on Stripe. Help us produce all of the high-quality, original content we publish week after week despite the challenges of c...
+2026-10-28 13:45:06,055 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:45:19,288 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: The Need for Maintaining Renewable Energy Directive Stabilit
+2026-10-28 13:45:19,288 [INFO] LLM extracted 1 deals | The Need for Maintaining Renewable Energy Directiv
+2026-10-28 13:45:19,290 [INFO] Not a signed deal — skipping: The Need for Maintaining Renewable Energy Directive Stabilit
+2026-10-28 13:45:19,291 [INFO] ------- Processing article n. 0: SPECIAL FEATURE | FLAP-D no longer unflappable: Powered land becoming scarce - W -------
+2026-10-28 13:45:19,391 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxPX09ocGFrcm92MmFyYTczWVpMNzlXLXFRYnROVEJFMFZFNTc3QVlKTVlXTmZsVXlNU1BuUXZvQWhGYmtnLVBQRDhLS2lDeFZMeGpaNVBqdnlkSVprckp1bjFHdWk0NTIxMWhabWs1OG5DbE5kMmZTdDdQYlk2eGlSU3RVV1gtbE1PX2piYXJ1MFFhY0h4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:45:20,564 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:45:20,565 [INFO] Resolved Google News URL: https://w.media/special-feature-flap-d-no-longer-unflappable-powered-land-becoming-scarce/
+2026-10-28 13:45:20,565 [INFO] URL: https://w.media/special-feature-flap-d-no-longer-unflappable-powered-land-becoming-scarce/
+2026-10-28 13:45:21,923 [INFO] Text length: 21013 chars | source: full
+2026-10-28 13:45:21,923 [INFO] Text preview: Europe’s data center industry is entering a strategic inflection point. For more than two decades, the Frankfurt, London, Amsterdam, Paris, and Dublin (FLAP-D) markets have served as the continent’s d...
+2026-10-28 13:45:21,924 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:45:35,758 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: SPECIAL FEATURE | FLAP-D no longer unflappable: Powered land
+2026-10-28 13:45:35,758 [INFO] LLM extracted 4 deals | SPECIAL FEATURE | FLAP-D no longer unflappable: Po
+2026-10-28 13:45:35,766 [INFO] UPDATE: Amazon / RWE (Germany, 110 MW) — canonical ID: 1092
+2026-10-28 13:45:40,774 [INFO] UPDATE: Shell Energy Europe Limited / HANSAINVEST Real Assets (Germany, 600 MW) — canonical ID: 1244
+2026-10-28 13:45:45,787 [INFO] NEW: Microsoft Corporation / Shell Energy Europe Limited (Germany, 323 MW)
+2026-10-28 13:45:50,795 [INFO] UPDATE: Google / EnBW (Germany, 100 MW) — canonical ID: 1059
+2026-10-28 13:45:55,798 [INFO] ------- Processing article n. 4: Google and Amazon agreements highlight growing hyperscaler nuclear demand amid a -------
+2026-10-28 13:45:55,902 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWXMweXNtaUhfanhjVlNtVXVsbGs4am5WNVZTVmVWQk85S0xHTk93cVRjWWRtQlZPNGVqazF0M2xyY0JZVWVTSzFjV0dGM2J5aHpZZWxUVW5DTEtHYmtyWWlDalpHYlZhbWxiSHB2X0tMd1BwVVpIMlA4QTUxelhNZzBCMlpWaVNsdU8xd1VYcUJFdzNjVno5aHhZS1A1dDBERWlfTU9Sa2FiVUhVUVlxZkQtd1k4OHYyRllhT1NyWDBLQmxwelFuNzlJV2RjUExHZVdXdTlMc0V4M01oMENpZzBPa1ZSSTg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:45:57,087 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:45:57,088 [INFO] Resolved Google News URL: https://source.benchmarkminerals.com/article/google-and-amazon-agreements-highlight-growing-hypersca
+2026-10-28 13:45:57,088 [INFO] URL: https://source.benchmarkminerals.com/article/google-and-amazon-agreements-highlight-growing-hyperscaler-nuclear-demand-amid-already-tight-uranium-market
+2026-10-28 13:45:57,312 [INFO] Text length: 606 chars | source: full
+2026-10-28 13:45:57,312 [INFO] Text preview: Big Tech’s nuclear ambitions are starting to impact uranium demand. Volumes are small but growing in a market where mined supply already falls short. On 6 October, Google signed a 20-year power purcha...
+2026-10-28 13:45:57,312 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:45:58,954 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Google and Amazon agreements highlight growing hyperscaler n
+2026-10-28 13:45:58,955 [INFO] LLM extracted 2 deals | Google and Amazon agreements highlight growing hyp
+2026-10-28 13:45:58,956 [INFO] Not a European deal — skipping: Google / Constellation (United States, 890 MW)
+2026-10-28 13:45:58,956 [INFO] Not a European deal — skipping: Google / Constellation (United States, 2700 MW)
+2026-10-28 13:45:58,956 [INFO] ------- Processing article n. 4: Belarus and Russia sign common electricity market agreement - Belsat -------
+2026-10-28 13:45:59,061 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxQSXU4c2J5OE9WYXJJTUwzeDc1aENEVlRXUXRRenIxZGMxd2o4RS0zVDdkaEk2U0tSOUVvYlBadlVIdm92TlE1eWFfMDRia1A4WWRSeGl3a2JMLVRLWm94SmZXOVk3S1dDYUtERXFzanQydnNSOXZhNGt6MzViNU8zdGJmT1JwRE5wdTBVNi03SUFpVHc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:46:00,270 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:46:00,271 [INFO] Resolved Google News URL: https://en.belsat.eu/96173914/belarus-and-russia-sign-common-electricity-market-agreement
+2026-10-28 13:46:00,271 [INFO] URL: https://en.belsat.eu/96173914/belarus-and-russia-sign-common-electricity-market-agreement
+2026-10-28 13:46:01,864 [INFO] Text length: 264 chars | source: full
+2026-10-28 13:46:01,865 [INFO] Text preview: Belarus and Russia have signed an agreement approving the rules for the functioning of the unified electric energy market of the Union State. The Ministry of Energy says the market will start operatin...
+2026-10-28 13:46:01,865 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:46:13,054 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Belarus and Russia sign common electricity market agreement 
+2026-10-28 13:46:13,054 [INFO] LLM extracted 1 deals | Belarus and Russia sign common electricity market 
+2026-10-28 13:46:13,056 [INFO] Not a signed deal — skipping: Belarus and Russia sign common electricity market agreement 
+2026-10-28 13:46:13,056 [INFO] ------- Processing article n. 4: Jinko ESS Powers 135MWh Green Battery Energy Storage Project in Germany - ESS Ne -------
+2026-10-28 13:46:13,160 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxNLU1CanNyQ3pVR2JiaVRrTkxlZFBTR0ZvMXFvQVNuQ1IzOW5TOGpOMW13XzJ3ZXpXS3lEbzBPN0owblY1WnBrcHBKeWxvTU9lb0RGaTZwWVJWYkc0VW9UVEYwUENqUFBfck1hUFZnX0c0TDV6blJaZm10MmZUcTNUbGlicUhUbXEwSFB3ZUpXbk9mV01PelZOM0tzNnl6TDVpX3FRZHdMS3JUcmNn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:46:14,389 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:46:14,389 [INFO] Resolved Google News URL: https://www.ess-news.com/2026/10/28/jinko-ess-powers-135mwh-green-battery-energy-storage-project-in-
+2026-10-28 13:46:14,389 [INFO] URL: https://www.ess-news.com/2026/10/28/jinko-ess-powers-135mwh-green-battery-energy-storage-project-in-germany/
+2026-10-28 13:46:14,960 [INFO] Text length: 2111 chars | source: full
+2026-10-28 13:46:14,960 [INFO] Text preview: Jinko ESS, a leading global energy storage company and a subsidiary of JinkoSolar Co., Ltd., is advancing a 135MWh green battery energy storage project in Germany. Connected with a photovoltaic plant ...
+2026-10-28 13:46:14,960 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:46:28,753 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Jinko ESS Powers 135MWh Green Battery Energy Storage Project
+2026-10-28 13:46:28,753 [INFO] LLM extracted 1 deals | Jinko ESS Powers 135MWh Green Battery Energy Stora
+2026-10-28 13:46:28,755 [INFO] Not a signed deal — skipping: Jinko ESS Powers 135MWh Green Battery Energy Storage Project
+2026-10-28 13:46:28,755 [INFO] ------- Processing article n. 4: Edison: QatarEnergy extends force majeure until the end of December - euro petro -------
+2026-10-28 13:46:28,857 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTUZJaE1CX25rSTBRTUxzRl9zenF0eG93NFhKZFNhU1hCU3ZnRk1VbXozemJreVpVMnlQWXZkRmFWQ1VYNTBwWmFmemEzdllQTTdOYkxKXzJvQkVZakNBeEFhSF9PN2xOTDdoQjRJUzJiSXduTUlxcmtCdkNvM0luYW16dUhlLUhPdUdZZUNqWmtlblhuWEF1eEMxYnZqZGlrMHE3TERyY1k?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:46:30,052 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:46:30,053 [INFO] Resolved Google News URL: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-end-of-december-n-i-
+2026-10-28 13:46:30,053 [INFO] URL: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-end-of-december-n-i-30852
+2026-10-28 13:46:30,875 [WARNING] discarding data: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-end-of-december-n-i-30852
+2026-10-28 13:46:30,875 [INFO] Full text extraction empty: https://www.euro-petrole.com/edison-qatarenergy-extends-force-majeure-until-the-
+2026-10-28 13:46:30,875 [INFO] Text length: 177 chars | source: fallback
+2026-10-28 13:46:30,875 [INFO] Text preview: Edison: QatarEnergy extends force majeure until the end of December - euro petrole
+
+Edison: QatarEnergy extends force majeure until the end of December &nbsp;&nbsp; euro petrole...
+2026-10-28 13:46:30,875 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:46:43,021 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Edison: QatarEnergy extends force majeure until the end of D
+2026-10-28 13:46:43,022 [INFO] LLM extracted 1 deals | Edison: QatarEnergy extends force majeure until th
+2026-10-28 13:46:43,023 [INFO] Not a signed deal — skipping: Edison: QatarEnergy extends force majeure until the end of D
+2026-10-28 13:46:43,023 [INFO] ------- Processing article n. 4: Microsoft signs two PPAs with Macquarie-backed Blueleaf Energy in Japan - Data C -------
+2026-10-28 13:46:43,149 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxQN05PdGpQWWUzMGJ3cWc4MElMSE5TSFItYkdEeTlSZ20tZC1tdmRMTGFTMmdqZ1JVZVc0eDNhbXRaOTBfYmdPaWhmUTRFclVrdWhJVEhOQXNUTVh3RExJZWdXRFBBWnlDYko3ZmlhbGJwLW04aTEyZUFlQ0UxenpLRjBwdTROclNwVmV6eWpJaVQyT1BYTXJGYzVEQ3VOUWlORjFuR2NUWGRXMUpjVzVaY3RLb3Vidw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:46:44,327 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:46:44,327 [INFO] Resolved Google News URL: https://www.datacenterdynamics.com/en/news/microsoft-signs-two-ppas-with-macquarie-backed-blueleaf-e
+2026-10-28 13:46:44,327 [INFO] URL: https://www.datacenterdynamics.com/en/news/microsoft-signs-two-ppas-with-macquarie-backed-blueleaf-energy-in-japan/
+2026-10-28 13:46:44,461 [INFO] Text length: 2505 chars | source: full
+2026-10-28 13:46:44,461 [INFO] Text preview: Microsoft has signed two solar Power Purchase Agreements (PPAs) in Japan with Macquarie Asset Management's portfolio company, Blueleaf Energy.
+Details on the PPA are sparse, and the companies have not...
+2026-10-28 13:46:44,461 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:46:58,755 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Microsoft signs two PPAs with Macquarie-backed Blueleaf Ener
+2026-10-28 13:46:58,755 [INFO] LLM extracted 2 deals | Microsoft signs two PPAs with Macquarie-backed Blu
+2026-10-28 13:46:58,757 [INFO] Not a European deal — skipping: Microsoft / Blueleaf Energy (Japan, None MW)
+2026-10-28 13:46:58,757 [INFO] Not a European deal — skipping: Microsoft / Blueleaf Energy (Japan, None MW)
+2026-10-28 13:46:58,757 [INFO] ------- Processing article n. 4: SEFE signs supply agreement with Ksi Lisims LNG - Hydrocarbon Engineering -------
+2026-10-28 13:46:58,860 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPRlNJM1V1VUNnNFk3ajZhNWJRRUloeHVMLVpOVjJFYkR4YXJOUFBQQkExY19WLTdlOUdfUFdhOWdMeHFqUVgybUVjNzhyeElqNHV5MDg0SGQtdFEweGh2b3psSGExSzM4a2d4SnZBaFhEclM2OTJMNUpvTnBCZkZUVHh2bEItcmw1aFZjWTBJZVVGd1VDZTlBM3J2M1hqY3hDeVQ1dUlIZE9aMERSOXBOZQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:47:00,051 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:47:00,052 [INFO] Resolved Google News URL: https://www.hydrocarbonengineering.com/gas-processing/28102026/sefe-signs-supply-agreement-with-ksi-
+2026-10-28 13:47:00,052 [INFO] URL: https://www.hydrocarbonengineering.com/gas-processing/28102026/sefe-signs-supply-agreement-with-ksi-lisims-lng/
+2026-10-28 13:47:00,478 [INFO] Text length: 1970 chars | source: full
+2026-10-28 13:47:00,478 [INFO] Text preview: SEFE Securing Energy for Europe has entered into a long-term LNG supply agreement with Ksi Lisims LNG for 1 million tpy of LNG on a free-on-board basis for 20 years.
+Following the signing of a heads o...
+2026-10-28 13:47:00,478 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:47:12,828 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: SEFE signs supply agreement with Ksi Lisims LNG - Hydrocarbo
+2026-10-28 13:47:12,828 [INFO] LLM extracted 1 deals | SEFE signs supply agreement with Ksi Lisims LNG - 
+2026-10-28 13:47:12,830 [INFO] Not a signed deal — skipping: SEFE signs supply agreement with Ksi Lisims LNG - Hydrocarbo
+2026-10-28 13:47:12,830 [INFO] ------- Processing article n. 4: Melexis CEO says China now beats Europe in new design wins - Reuters -------
+2026-10-28 13:47:12,940 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxQNnFXbURvVVpNNWJTMXVGUjdvNW1yV254VEZuSmhJM2R6Y3g4WTJKdm04bmMzdUhqM3ZaRVNCOG9pS0s5cGQ3WnpXYnNwRDNwemZDVGNFQnZGTXBSLWtoMWNwVzBYOWFIOVBRbkYtYmFfdW9zSjdrdDlFLWJFYk03Y2MzSTdXRG5vNTd6bWJ2Zm5nZERyenBHckhhdFFpTUF4X21QckVR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:47:14,151 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:47:14,152 [INFO] Resolved Google News URL: https://www.reuters.com/world/china/melexis-ceo-says-china-now-beats-europe-new-design-wins-2026-10-
+2026-10-28 13:47:14,152 [INFO] URL: https://www.reuters.com/world/china/melexis-ceo-says-china-now-beats-europe-new-design-wins-2026-10-28/
+2026-10-28 13:47:14,229 [INFO] Full text skipped (status 401): https://www.reuters.com/world/china/melexis-ceo-says-china-now-beats-europe-new-
+2026-10-28 13:47:14,229 [INFO] Text length: 149 chars | source: fallback
+2026-10-28 13:47:14,229 [INFO] Text preview: Melexis CEO says China now beats Europe in new design wins - Reuters
+
+Melexis CEO says China now beats Europe in new design wins &nbsp;&nbsp; Reuters...
+2026-10-28 13:47:14,229 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:47:27,887 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Melexis CEO says China now beats Europe in new design wins -
+2026-10-28 13:47:27,888 [INFO] LLM extracted 1 deals | Melexis CEO says China now beats Europe in new des
+2026-10-28 13:47:27,889 [INFO] Not a signed deal — skipping: Melexis CEO says China now beats Europe in new design wins -
+2026-10-28 13:47:27,889 [INFO] ------- Processing article n. 4: Bangladesh moves to cut tariffs for long-delayed solar projects - pv magazine In -------
+2026-10-28 13:47:27,994 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxNaEVpajZoM25GOVBvTWNOMlNrVjBvOGs4Zkd1VDZPdG1UaV94OHFaQ284S0ZzOGFZZllpZW45Qml1SF95WWc0VERVS29MOUpUM2NjNms5bnZJSTZlaXZKZnNldDRjc0U3TVlRVVJPbG4zVGk0d3VmVHM3UjJYdnhyX0lOZ0lVTU5RUlNvX1J3R1VDNzNmaFd3VE9mUWhrVTcxQnJTalRSYW1HQ1YxaGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:47:29,161 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:47:29,162 [INFO] Resolved Google News URL: https://www.pv-magazine-india.com/2026/10/28/bangladesh-moves-to-cut-tariffs-for-long-delayed-solar-
+2026-10-28 13:47:29,162 [INFO] URL: https://www.pv-magazine-india.com/2026/10/28/bangladesh-moves-to-cut-tariffs-for-long-delayed-solar-projects/
+2026-10-28 13:47:29,270 [INFO] Full text skipped (status 403): https://www.pv-magazine-india.com/2026/10/28/bangladesh-moves-to-cut-tariffs-for
+2026-10-28 13:47:29,270 [INFO] Text length: 179 chars | source: fallback
+2026-10-28 13:47:29,270 [INFO] Text preview: Bangladesh moves to cut tariffs for long-delayed solar projects - pv magazine India
+
+Bangladesh moves to cut tariffs for long-delayed solar projects &nbsp;&nbsp; pv magazine India...
+2026-10-28 13:47:29,270 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:47:42,952 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Bangladesh moves to cut tariffs for long-delayed solar proje
+2026-10-28 13:47:42,952 [INFO] LLM extracted 1 deals | Bangladesh moves to cut tariffs for long-delayed s
+2026-10-28 13:47:42,954 [INFO] Not a signed deal — skipping: Bangladesh moves to cut tariffs for long-delayed solar proje
+2026-10-28 13:47:42,954 [INFO] ------- Processing article n. 4: Supercapacitator market to reach over $950 million by 2037 - Gas to Power Journa -------
+2026-10-28 13:47:43,052 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXczQnlFcmE2M01IS0tlTHl4RHprbkhOd1dTYWZSTkp4QXNjMzFFQmgtU1ZVZXNaQ3cwMVJkMV9OLTBFRDFFZGc0OERubTNEQmdoSi1iTlRPN2N1cmhWV2tZcEpHRHN2S0RpN0c0aEhVOGU4VVZJY3RBMXdxaEU2a3J2VUZOcV9kb3dCRjlmYkp4YWtSMG44WnFuYjREMzBOdlRwaFBOR1B4R0NEZGd4S0RUNXU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:47:44,213 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:47:44,214 [INFO] Resolved Google News URL: https://gastopowerjournal.com/news/technologyinnovation/supercapacitator-market-to-reach-over-950-mi
+2026-10-28 13:47:44,214 [INFO] URL: https://gastopowerjournal.com/news/technologyinnovation/supercapacitator-market-to-reach-over-950-million-by-2037/
+2026-10-28 13:47:44,910 [INFO] Full text skipped (status 202): https://gastopowerjournal.com/news/technologyinnovation/supercapacitator-market-
+2026-10-28 13:47:44,910 [INFO] Text length: 175 chars | source: fallback
+2026-10-28 13:47:44,911 [INFO] Text preview: Supercapacitator market to reach over $950 million by 2037 - Gas to Power Journal
+
+Supercapacitator market to reach over $950 million by 2037 &nbsp;&nbsp; Gas to Power Journal...
+2026-10-28 13:47:44,911 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:47:57,993 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Supercapacitator market to reach over $950 million by 2037 -
+2026-10-28 13:47:57,994 [INFO] LLM extracted 1 deals | Supercapacitator market to reach over $950 million
+2026-10-28 13:47:57,995 [INFO] Not a signed deal — skipping: Supercapacitator market to reach over $950 million by 2037 -
+2026-10-28 13:47:57,995 [INFO] ------- Processing article n. 4: Fortum Misses Profit View, Sees Data Centres Driving Long-Term Demand - Global B -------
+2026-10-28 13:47:58,114 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxNbUFjQ2tDcHQ5a2dZMXo3azJrNHVtLXJnRE9HeXUtRXpiV2Q3Z2lZM1ZGWDhPRlpTaHBoaUhqV19NSHNrX29IRTlpVXNnSlNoakpveDJvVk1rUGZES1l2QzF3aXJJZGlaYmxaLXBSMmNLQ1Y2VEtIZ0VmNzF1cUVQSGpWLUhwdl85NVRkbkY5VEJUcFhnZ3BBMTBfTEQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:47:59,267 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:47:59,268 [INFO] Resolved Google News URL: https://www.globalbankingandfinance.com/finlands-fortum-misses-profit-view-data-centres-hold-up/
+2026-10-28 13:47:59,268 [INFO] URL: https://www.globalbankingandfinance.com/finlands-fortum-misses-profit-view-data-centres-hold-up/
+2026-10-28 13:47:59,826 [INFO] Text length: 6590 chars | source: full
+2026-10-28 13:47:59,826 [INFO] Text preview: Global Banking & Finance ReviewÂ® is an online platform providing news, analysis, interviews, opinions, press releases, market information and other content relating to banking, finance, insurance, in...
+2026-10-28 13:47:59,826 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:48:12,835 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Fortum Misses Profit View, Sees Data Centres Driving Long-Te
+2026-10-28 13:48:12,835 [INFO] LLM extracted 1 deals | Fortum Misses Profit View, Sees Data Centres Drivi
+2026-10-28 13:48:12,837 [INFO] Not a signed deal — skipping: Fortum Misses Profit View, Sees Data Centres Driving Long-Te
+2026-10-28 13:48:12,837 [INFO] ------- Processing article n. 4: Microsoft Signs Clean Energy Deals in Japan with Macquarie’s Blueleaf - ESG Toda -------
+2026-10-28 13:48:12,937 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxOdmFNa2o2Vy1JZy1hLVJkeFpLc0R2WGR1R2NjNXMzaGFCcHMwQTVvRC1yWE9rOWhnemg0dzRxYzlDeHRLVkU4cFBfckRPRW5ZZTV6UjBmcXA4QWJNaktkOVZaYURzc2pQWVZGOTdXWnhuSmVqam5MaXlfc3Bkc0RDRWpfTGl6WEt0WUtwODRpbkRkNXNobTZQZTBB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:48:14,081 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:48:14,081 [INFO] Resolved Google News URL: https://www.esgtoday.com/microsoft-signs-clean-energy-deals-in-japan-with-macquaries-blueleaf/
+2026-10-28 13:48:14,081 [INFO] URL: https://www.esgtoday.com/microsoft-signs-clean-energy-deals-in-japan-with-macquaries-blueleaf/
+2026-10-28 13:48:14,273 [INFO] Text length: 1380 chars | source: full
+2026-10-28 13:48:14,273 [INFO] Text preview: Macquarie Asset Management-owned pan-Asian renewable energy platform Blueleaf Energy announced today that it has signed two long-term power purchase agreements (PPAs) with Microsoft for new solar proj...
+2026-10-28 13:48:14,273 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:48:28,551 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Microsoft Signs Clean Energy Deals in Japan with Macquarie’s
+2026-10-28 13:48:28,552 [INFO] LLM extracted 2 deals | Microsoft Signs Clean Energy Deals in Japan with M
+2026-10-28 13:48:28,554 [INFO] Not a European deal — skipping: Microsoft / Blueleaf Energy (Japan, None MW)
+2026-10-28 13:48:28,554 [INFO] Not a European deal — skipping: Microsoft / Blueleaf Energy (Japan, None MW)
+2026-10-28 13:48:28,554 [INFO] ------- Processing article n. 4: Aluminium manufacturer UACJ unveils solar PPA in Japan - Renewables Now -------
+2026-10-28 13:48:28,653 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxQb2VkajA0ODgzZElsZ0tLZVBxTE5zZk92eFdjQzA1cWxKcGp3WWVMOUhjUzBRaGdNSk42X2htYUhqZ3dJRF92bzVSS1l1alRYcW1IOTR2RHR0N1V6YWR2aVFzQzNCekhfNng2M0h1aDBRQmE4Znk0Z0dKaHZFOGlxTE5SZ1cxMkVtMlh0VTZLSXVGVUZtVjRpVHdn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:48:29,799 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:48:29,799 [INFO] Resolved Google News URL: https://renewablesnow.com/news/aluminium-manufacturer-uacj-unveils-solar-ppa-in-japan-1303790/
+2026-10-28 13:48:29,799 [INFO] URL: https://renewablesnow.com/news/aluminium-manufacturer-uacj-unveils-solar-ppa-in-japan-1303790/
+2026-10-28 13:48:29,837 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/aluminium-manufacturer-uacj-unveils-solar-ppa-in-
+2026-10-28 13:48:29,837 [INFO] Text length: 155 chars | source: fallback
+2026-10-28 13:48:29,837 [INFO] Text preview: Aluminium manufacturer UACJ unveils solar PPA in Japan - Renewables Now
+
+Aluminium manufacturer UACJ unveils solar PPA in Japan &nbsp;&nbsp; Renewables Now...
+2026-10-28 13:48:29,837 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:48:43,912 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Aluminium manufacturer UACJ unveils solar PPA in Japan - Ren
+2026-10-28 13:48:43,912 [INFO] LLM extracted 1 deals | Aluminium manufacturer UACJ unveils solar PPA in J
+2026-10-28 13:48:43,913 [INFO] Not a European deal — skipping: UACJ / None (Japan, None MW)
+2026-10-28 13:48:43,914 [INFO] ------- Processing article n. 4: Finland's Fortum misses profit view, says data centres hold up long-term demand  -------
+2026-10-28 13:48:44,016 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVFdLUDQtZU5seXpkX1E3WjJ5cmp2SXNGNHBpMTZ6YWNvUTN2VkJWYzZLYUpYczM4MkI0ZHM2OFRsTmNEdkYzYzIxTWhjT0pWQUYwUlppZ2tURk1CN0JSZDdLUEtleXA4VzRxNjJMU1hiV1duZ3JwZlh5VEVpMjJhaDNyWTVzUEVvT3FxNWRFdHktdG5ldExtS0ZoekFnbWVSTzFmT1pwdFd0NmFjQmY5TTZOdHNfOXgydTJKZDhRa3E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:48:45,171 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:48:45,171 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/finlands-fortum-lags-profit-estimates-trims-nuclear-generati
+2026-10-28 13:48:45,171 [INFO] URL: https://www.reuters.com/business/energy/finlands-fortum-lags-profit-estimates-trims-nuclear-generation-forecast-2026-10-28/
+2026-10-28 13:48:45,215 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/finlands-fortum-lags-profit-estimates-tr
+2026-10-28 13:48:45,215 [INFO] Text length: 191 chars | source: fallback
+2026-10-28 13:48:45,215 [INFO] Text preview: Finland's Fortum misses profit view, says data centres hold up long-term demand - Reuters
+
+Finland's Fortum misses profit view, says data centres hold up long-term demand &nbsp;&nbsp; Reuters...
+2026-10-28 13:48:45,215 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:48:57,816 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Finland's Fortum misses profit view, says data centres hold 
+2026-10-28 13:48:57,816 [INFO] LLM extracted 1 deals | Finland's Fortum misses profit view, says data cen
+2026-10-28 13:48:57,817 [INFO] Not a signed deal — skipping: Finland's Fortum misses profit view, says data centres hold 
+2026-10-28 13:48:57,817 [INFO] ------- Processing article n. 4: Fortescue's Green Grid to power lithium producer PLS' ops in Pilbara - Renewable -------
+2026-10-28 13:48:57,923 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY3Z2bDZnQ0FObkQwVU9kQWtiWTN4MWl2UmdnMlU3NnozZUJoWWRYbWhpSDlMcG5Va3h1a2hvWDNCU2gyUkpWMVlPcktJeWdJMkhKNTFLbWluYUw1bzhia0tXR3BmNTlDMkl1Q3lKU19URG4yb19DNHZMTUdlcU03Q29XbFU1QnJENDdOUUl2SjlTTEpfUjYzajVSazI1VGhPQmVFTHZjMDFLQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:48:59,099 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:48:59,100 [INFO] Resolved Google News URL: https://renewablesnow.com/news/fortescues-green-grid-to-power-lithium-producer-pls-ops-in-pilbara-13
+2026-10-28 13:48:59,100 [INFO] URL: https://renewablesnow.com/news/fortescues-green-grid-to-power-lithium-producer-pls-ops-in-pilbara-1303786/
+2026-10-28 13:48:59,144 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/fortescues-green-grid-to-power-lithium-producer-p
+2026-10-28 13:48:59,144 [INFO] Text length: 183 chars | source: fallback
+2026-10-28 13:48:59,144 [INFO] Text preview: Fortescue's Green Grid to power lithium producer PLS' ops in Pilbara - Renewables Now
+
+Fortescue's Green Grid to power lithium producer PLS' ops in Pilbara &nbsp;&nbsp; Renewables Now...
+2026-10-28 13:48:59,144 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:49:13,211 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Fortescue's Green Grid to power lithium producer PLS' ops in
+2026-10-28 13:49:13,211 [INFO] LLM extracted 1 deals | Fortescue's Green Grid to power lithium producer P
+2026-10-28 13:49:13,213 [INFO] Not a European deal — skipping: PLS / Fortescue's Green Grid (Australia, None MW)
+2026-10-28 13:49:13,213 [INFO] ------- Processing article n. 4: Statkraft, DB Energie ink hybrid PPA for solar, storage in Germany - Renewables  -------
+2026-10-28 13:49:13,336 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxPUTRpNlljdGdnTkNMY21OSHdFUWc4T1d4aGkwd2NOaFlSTVB6aTVfcUdEWElrbG9FajhibDAxd01vY0xZQWVxS01uV3p1NGVtTXBrcmdPNmFjeUM0dVhxUWlEcEw5S29xamVOUkpQcjFjVnNSUEthRTUwTVlQSFhtTXBHdGZMVUdQdmVnemw0MnY0Vk9nR3MtMkVHWDUxeE9HREcwM2xuSQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:49:14,534 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:49:14,534 [INFO] Resolved Google News URL: https://renewablesnow.com/news/statkraft-db-energie-ink-hybrid-ppa-for-solar-storage-in-germany-1303
+2026-10-28 13:49:14,534 [INFO] URL: https://renewablesnow.com/news/statkraft-db-energie-ink-hybrid-ppa-for-solar-storage-in-germany-1303825/
+2026-10-28 13:49:14,581 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/statkraft-db-energie-ink-hybrid-ppa-for-solar-sto
+2026-10-28 13:49:14,581 [INFO] Text length: 179 chars | source: fallback
+2026-10-28 13:49:14,581 [INFO] Text preview: Statkraft, DB Energie ink hybrid PPA for solar, storage in Germany - Renewables Now
+
+Statkraft, DB Energie ink hybrid PPA for solar, storage in Germany &nbsp;&nbsp; Renewables Now...
+2026-10-28 13:49:14,581 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:49:28,247 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Statkraft, DB Energie ink hybrid PPA for solar, storage in G
+2026-10-28 13:49:28,248 [INFO] LLM extracted 1 deals | Statkraft, DB Energie ink hybrid PPA for solar, st
+2026-10-28 13:49:28,261 [INFO] NEW: DB Energie / Statkraft (Germany, None MW)
+2026-10-28 13:49:33,262 [INFO] ------- Processing article n. 5: INTILION and CATL Sign 5-Year Collaboration with Total Scale of 3 GWh! - Gasgoo -------
+2026-10-28 13:49:33,334 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiywFBVV95cUxNTzJYNGh0YnAtcWQ5eTRPZXZMSXZ1bnhiZzdyS0x4WnIxUHNJeWlka094LWcxd04zYV9SZG45dlNRQk5OY3FDaUUzcHBDaTBGVkJ2RUxFbF9Zcl9BQkRBcURqRVZMSXBKRHlmWDhQMFdMbGRtdXI3X2RDUzJGc2o4WEljMzFsV2xQRHVVSXJwclcwckpZUHJSTDRvYjJfOHpBSjlhZTh0QnU0ODF6eVlFazZFQUlZOWZjZUI1TDFOWE1aVHZ4Q3cyYnNVRQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:49:34,445 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:49:34,445 [INFO] Resolved Google News URL: https://autonews.gasgoo.com/articles/news/intilion-and-catl-sign-5-year-collaboration-with-total-sca
+2026-10-28 13:49:34,445 [INFO] URL: https://autonews.gasgoo.com/articles/news/intilion-and-catl-sign-5-year-collaboration-with-total-scale-of-3-gwh-2115418443129700353
+2026-10-28 13:49:35,776 [INFO] Text length: 1892 chars | source: full
+2026-10-28 13:49:35,776 [INFO] Text preview: Gasgoo Munich-European energy storage provider INTILION has signed a memorandum of understanding with CATL. Under the agreement, the two plan to deploy 3GWh of TENER Sodium Energy Storage System acros...
+2026-10-28 13:49:35,776 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:49:43,179 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: INTILION and CATL Sign 5-Year Collaboration with Total Scale
+2026-10-28 13:49:43,180 [INFO] LLM extracted 1 deals | INTILION and CATL Sign 5-Year Collaboration with T
+2026-10-28 13:49:43,181 [INFO] Not a signed deal — skipping: INTILION and CATL Sign 5-Year Collaboration with Total Scale
+2026-10-28 13:49:43,181 [INFO] ------- Processing article n. 5: Melexis CEO says China now beats Europe in new design wins - Global Banking & Fi -------
+2026-10-28 13:49:43,285 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikAFBVV95cUxQNWhUZTg2NU1zSjRJNnNZVnlPaTZOeVBLS1hnRmRiOFRpcHJ4aUZDeW50MWJHYzZOYUZWM2l4MG9XaTFJaTNzLWl1Rm42SDNBTGdia2hNbERzdTdDYlBuZ0tGUWtJcENMcjZmUmJRX3RrN2dDamh3SEt4dVBBR1V3dFRlSUVZbE16aG80NG1qdkg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:49:44,501 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:49:44,502 [INFO] Resolved Google News URL: https://www.globalbankingandfinance.com/melexis-ceo-china-beats-europe-new-design-wins/
+2026-10-28 13:49:44,502 [INFO] URL: https://www.globalbankingandfinance.com/melexis-ceo-china-beats-europe-new-design-wins/
+2026-10-28 13:49:44,662 [INFO] Text length: 6590 chars | source: full
+2026-10-28 13:49:44,662 [INFO] Text preview: Global Banking & Finance ReviewÂ® is an online platform providing news, analysis, interviews, opinions, press releases, market information and other content relating to banking, finance, insurance, in...
+2026-10-28 13:49:44,662 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:49:58,090 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Melexis CEO says China now beats Europe in new design wins -
+2026-10-28 13:49:58,090 [INFO] LLM extracted 1 deals | Melexis CEO says China now beats Europe in new des
+2026-10-28 13:49:58,092 [INFO] Not a signed deal — skipping: Melexis CEO says China now beats Europe in new design wins -
+2026-10-28 13:49:58,092 [INFO] ------- Processing article n. 5: PLS Group Locks In Fortescue Power For Pilgangoora Expansion - Finimize -------
+2026-10-28 13:49:58,163 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxNMDNlZWd1TnBIVUdWQWdyUThaNUdPTFY2djJQSURjUXJ0SWFOVnpwcHhHa2ljRkkyVDlTMXRBM2wtblFZRGNGWS0yd1RjamIyR0VtdEdoa2FuYXhEakRicUFHbkhIeGNfR3hBcFlJNnozRlNyRXM2dlM5dTZFNkpDYmxpTEt5b1U1SEdNNGJmSnl0dlk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:49:59,294 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:49:59,295 [INFO] Resolved Google News URL: https://finimize.com/content/pls-group-locks-in-fortescue-power-for-pilgangoora-expansion
+2026-10-28 13:49:59,295 [INFO] URL: https://finimize.com/content/pls-group-locks-in-fortescue-power-for-pilgangoora-expansion
+2026-10-28 13:49:59,382 [INFO] Full text skipped (status 202): https://finimize.com/content/pls-group-locks-in-fortescue-power-for-pilgangoora-
+2026-10-28 13:49:59,382 [INFO] Text length: 155 chars | source: fallback
+2026-10-28 13:49:59,383 [INFO] Text preview: PLS Group Locks In Fortescue Power For Pilgangoora Expansion - Finimize
+
+PLS Group Locks In Fortescue Power For Pilgangoora Expansion &nbsp;&nbsp; Finimize...
+2026-10-28 13:49:59,383 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:50:13,044 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: PLS Group Locks In Fortescue Power For Pilgangoora Expansion
+2026-10-28 13:50:13,044 [INFO] LLM extracted 1 deals | PLS Group Locks In Fortescue Power For Pilgangoora
+2026-10-28 13:50:13,046 [INFO] Not a signed deal — skipping: PLS Group Locks In Fortescue Power For Pilgangoora Expansion
+2026-10-28 13:50:13,046 [INFO] ------- Processing article n. 5: Infinity Power issues notice to proceed for Egypt’s Nefer Minya solar project -  -------
+2026-10-28 13:50:13,157 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZMXo1SEhFRzhPNUZUZzAweHlLOFZrcFFIZ09OLUVTdDlVS1VOTlFXZXg1UnhZb3lYa2oza29HdGVQY3UteFpGSjdtTHFtNnhubmduaTVndjFlNTVyOVZ5czEtWlB0MnZYcVRPNUpkQjM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:50:14,389 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:50:14,390 [INFO] Resolved Google News URL: https://www.utilities-me.com/news/nefer-minya-solar-works-begin
+2026-10-28 13:50:14,390 [INFO] URL: https://www.utilities-me.com/news/nefer-minya-solar-works-begin
+2026-10-28 13:50:14,459 [INFO] Full text skipped (status 405): https://www.utilities-me.com/news/nefer-minya-solar-works-begin
+2026-10-28 13:50:14,459 [INFO] Text length: 215 chars | source: fallback
+2026-10-28 13:50:14,460 [INFO] Text preview: Infinity Power issues notice to proceed for Egypt’s Nefer Minya solar project - Utilities Middle East
+
+Infinity Power issues notice to proceed for Egypt’s Nefer Minya solar project &nbsp;&nbsp; Utilit...
+2026-10-28 13:50:14,460 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:50:27,961 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Infinity Power issues notice to proceed for Egypt’s Nefer Mi
+2026-10-28 13:50:27,962 [INFO] LLM extracted 1 deals | Infinity Power issues notice to proceed for Egypt’
+2026-10-28 13:50:27,963 [INFO] Not a signed deal — skipping: Infinity Power issues notice to proceed for Egypt’s Nefer Mi
+2026-10-28 13:50:27,963 [INFO] ------- Processing article n. 5: What messages did the 2026 Russian Energy Week forum convey to the world about g -------
+2026-10-28 13:50:28,070 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxPWlpHdDBjTERQSWE5V0hTcEF2ajBTZEV3M3B0S0FaUWpiX1hLN1JHanBaLTBLVVpTMUpiSDU5cUN6Z0JJbEtvQktBZ3VVX1ZWdC1vbWxnN21naXQ3dmtFR0w2TzZXakQ1MGUtUDdocmZBLUtmdm8wRVNJc2Y1Y1VJaWp4TnFJWGZvNXpBSmJBSEtsS1ZTb2fSAZYBQVVfeXFMT1paR3QwY0xEUElhOVdIU3BBdmowU2RFdzNwdEtBWlFqYl9YSzdSR2pwWi0wS1VaUzFKYkg1OXFDemdCSWxLb0JLQWd1VV9WVnQtb21sZzdtZ2l0N3ZrRUdMNk82V2pENTBlLVA3aHJmQS1LZnZvMEVTSXNmNWNVSWlqeE5xSVhmbzV6QUpiQUhLbEtWU29n?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:50:29,238 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:50:29,238 [INFO] Resolved Google News URL: https://www.modernghana.com/news/1539942/what-messages-did-the-2026-russian-energy-week.amp
+2026-10-28 13:50:29,238 [INFO] URL: https://www.modernghana.com/news/1539942/what-messages-did-the-2026-russian-energy-week.amp
+2026-10-28 13:50:30,081 [INFO] Text length: 8508 chars | source: full
+2026-10-28 13:50:30,081 [INFO] Text preview: 2026 Russia Energy Week Forum: A Wider Energy Trade Network Across Asia, Eurasia, Africa And The West: Analysis Russia Energy Week (REW) 2026, held in Moscow, highlighted Russia’s continuing pivot to ...
+2026-10-28 13:50:30,081 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:50:43,314 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: What messages did the 2026 Russian Energy Week forum convey 
+2026-10-28 13:50:43,315 [INFO] LLM extracted 1 deals | What messages did the 2026 Russian Energy Week for
+2026-10-28 13:50:43,316 [INFO] Not a European deal — skipping: PT Pembangkit Listrik Nuklir (Indonesia) / Rosatom (Indonesia, 200 MW)
+2026-10-28 13:50:43,316 [INFO] ------- Processing article n. 5: Ksi Lisims LNG inches closer to green light by turning German utility agreement  -------
+2026-10-28 13:50:43,413 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUWd5VFhKOEY0VUdPdU5CX1N3Z19aMkVwbTBiUGcyUWM0N3dBZHdTVk90Y2JTYkswaFBFTVNtTjk0Y3M2cndqVlhMOFdBdWJDTXlJaVlaOU5SSFlqTHNPdHNiSkZIWUtJcTZmUnpTOVFyTjJOR0xQY242aWRFODR5aXRJZGtOanVZTE9zMXMtWmY4dmFoM18tTXM1VmRmWFY1STdEZmhUNGZyWklITnRxNmFqQVBpY2Jla1RJMG04RUEybHQtb0o1clF5Y1NLNjJ6N0MwZWRpTkVqdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:50:44,542 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:50:44,543 [INFO] Resolved Google News URL: https://vancouversun.com/business/ksi-lisims-lng-bc-north-coast-inches-closer-to-green-light-turning
+2026-10-28 13:50:44,543 [INFO] URL: https://vancouversun.com/business/ksi-lisims-lng-bc-north-coast-inches-closer-to-green-light-turning-german-utility-agreement-to-firm-contract
+2026-10-28 13:50:45,145 [INFO] Text length: 4102 chars | source: full
+2026-10-28 13:50:45,145 [INFO] Text preview: Ksi Lisims LNG has turned another letter of intent from a potential customer into a binding, 20-year sales contract that moves the potentially $30-billion liquefied natural gas project on B.C.’s North...
+2026-10-28 13:50:45,145 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:50:57,910 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ksi Lisims LNG inches closer to green light by turning Germa
+2026-10-28 13:50:57,911 [INFO] LLM extracted 1 deals | Ksi Lisims LNG inches closer to green light by tur
+2026-10-28 13:50:57,913 [INFO] Not a signed deal — skipping: Ksi Lisims LNG inches closer to green light by turning Germa
+2026-10-28 13:50:57,913 [INFO] ------- Processing article n. 5: Qatar locks in US LNG through 2054 as it looks beyond Hormuz - Al-Monitor -------
+2026-10-28 13:50:57,992 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxNalIyazEzaVk1N05PclN3QklzX3BhZE5UZjVJby1RNHpzc0ZsNVhWNVg5OXRzN3pEOGpCSjdDS2o1VmhFNWw0R1hBSVBnbW1vQWV2X1ZyT21tZVpQeXN3VElMRTdmWldNSWpVX01pMlRwVU9sRHJETmpRcFU5ckxwNWM2dnd2V1NRMm9GRVluOVZoMTlIYmN3RDNHUHkwUFdX?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:50:59,115 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:50:59,115 [INFO] Resolved Google News URL: https://www.al-monitor.com/originals/2026/10/qatar-locks-us-lng-through-2054-it-looks-beyond-hormuz
+2026-10-28 13:50:59,116 [INFO] URL: https://www.al-monitor.com/originals/2026/10/qatar-locks-us-lng-through-2054-it-looks-beyond-hormuz
+2026-10-28 13:51:00,357 [INFO] Text length: 1429 chars | source: full
+2026-10-28 13:51:00,358 [INFO] Text preview: Qatar locks in US LNG through 2054 as it looks beyond Hormuz
+The Gulf state agreed to buy up to 4 million tons of US liquefied natural gas annually through 2054.
+QatarEnergy has agreed to buy up to 4 ...
+2026-10-28 13:51:00,358 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:51:13,131 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Qatar locks in US LNG through 2054 as it looks beyond Hormuz
+2026-10-28 13:51:13,132 [INFO] LLM extracted 1 deals | Qatar locks in US LNG through 2054 as it looks bey
+2026-10-28 13:51:13,133 [INFO] Not a signed deal — skipping: Qatar locks in US LNG through 2054 as it looks beyond Hormuz
+2026-10-28 13:51:13,133 [INFO] ------- Processing article n. 5: Macquarie’s Blueleaf signs Japanese solar PPAs with Microsoft - Renewables Now -------
+2026-10-28 13:51:13,222 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxQVkFHOUFOdWRFelYxZVA0X25EeWR1clcxT2syb3pPQ1JKMUx3ZF9kcGo3N1V6TVNLOVJhVXltZ1l2b2FiLWRSZGNCMVdpR1Uxa25QcnN0aGdzY0ZrTGcxM08zelF5TTU1VWRLODJLWU52MHBtdEtsd3V6eWg2dlAxR3VCX3Ixd2luNEowNjZEalN2U3A4OVBJU1ZSRlh5Yjc5d0E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:51:14,337 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:51:14,337 [INFO] Resolved Google News URL: https://renewablesnow.com/news/macquaries-blueleaf-signs-japanese-solar-ppas-with-microsoft-1303811/
+2026-10-28 13:51:14,337 [INFO] URL: https://renewablesnow.com/news/macquaries-blueleaf-signs-japanese-solar-ppas-with-microsoft-1303811/
+2026-10-28 13:51:14,443 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/macquaries-blueleaf-signs-japanese-solar-ppas-wit
+2026-10-28 13:51:14,443 [INFO] Text length: 169 chars | source: fallback
+2026-10-28 13:51:14,443 [INFO] Text preview: Macquarie’s Blueleaf signs Japanese solar PPAs with Microsoft - Renewables Now
+
+Macquarie’s Blueleaf signs Japanese solar PPAs with Microsoft &nbsp;&nbsp; Renewables Now...
+2026-10-28 13:51:14,443 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:51:28,107 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Macquarie’s Blueleaf signs Japanese solar PPAs with Microsof
+2026-10-28 13:51:28,107 [INFO] LLM extracted 1 deals | Macquarie’s Blueleaf signs Japanese solar PPAs wit
+2026-10-28 13:51:28,109 [INFO] Not a European deal — skipping: Microsoft / Macquarie Blueleaf (Japan, None MW)
+2026-10-28 13:51:28,109 [INFO] ------- Processing article n. 5: Equinor reports 26% rise in Q3 renewable generation - Renewables Now -------
+2026-10-28 13:51:28,209 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxQRTV6dEJYVnlCek5SODV3R2FTanB3d04xczZjY0VUc0VISWdJbzFXUEkzMW1BRmJtQTRJanhKY1F5VGkzSTdLN1pkSV9oUHV3dzBwVlRQV2VPVkZMM1NUaE91VG9wZjF1SjdzN1pCU0JOR0N6djkwdzNvYUxOa3BUNTI0MXJDdTVvMHE4U2xTWTN0S1FKRXI1Um95TDFzc0k?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:51:29,411 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:51:29,412 [INFO] Resolved Google News URL: https://renewablesnow.com/news/equinor-reports-26-percent-rise-in-q3-renewable-generation-1303809/
+2026-10-28 13:51:29,412 [INFO] URL: https://renewablesnow.com/news/equinor-reports-26-percent-rise-in-q3-renewable-generation-1303809/
+2026-10-28 13:51:29,467 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/equinor-reports-26-percent-rise-in-q3-renewable-g
+2026-10-28 13:51:29,468 [INFO] Text length: 149 chars | source: fallback
+2026-10-28 13:51:29,468 [INFO] Text preview: Equinor reports 26% rise in Q3 renewable generation - Renewables Now
+
+Equinor reports 26% rise in Q3 renewable generation &nbsp;&nbsp; Renewables Now...
+2026-10-28 13:51:29,468 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:51:42,987 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Equinor reports 26% rise in Q3 renewable generation - Renewa
+2026-10-28 13:51:42,987 [INFO] LLM extracted 1 deals | Equinor reports 26% rise in Q3 renewable generatio
+2026-10-28 13:51:42,988 [INFO] Not a signed deal — skipping: Equinor reports 26% rise in Q3 renewable generation - Renewa
+2026-10-28 13:51:42,988 [INFO] ------- Processing article n. 5: Solarcentury Africa targets 500 MW of owned capacity by 2030 - Renewables Now -------
+2026-10-28 13:51:43,105 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxQd19RY2xiR0gyU3RUUXJXbG1UNDk4akZxdWxUQzE0dmlnNlRqQmMtMHFubm1lM29SZFFMS01aT3pMdkVFRTZ6NUtkLXc3TWJ1ZFNZdDhZdEU3Vk9ZamlTSEt4QmhsTmJ2UjJKZnBUdXZ6QzJNN1hIMTliUEhpRmlxTDZub2MxVmlfSy1UOTR4ZncwWUNWQ2hGazd4enlraUdXYWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:51:44,268 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:51:44,269 [INFO] Resolved Google News URL: https://renewablesnow.com/news/solarcentury-africa-targets-500-mw-of-owned-capacity-by-2030-1303788/
+2026-10-28 13:51:44,269 [INFO] URL: https://renewablesnow.com/news/solarcentury-africa-targets-500-mw-of-owned-capacity-by-2030-1303788/
+2026-10-28 13:51:44,307 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/solarcentury-africa-targets-500-mw-of-owned-capac
+2026-10-28 13:51:44,307 [INFO] Text length: 167 chars | source: fallback
+2026-10-28 13:51:44,307 [INFO] Text preview: Solarcentury Africa targets 500 MW of owned capacity by 2030 - Renewables Now
+
+Solarcentury Africa targets 500 MW of owned capacity by 2030 &nbsp;&nbsp; Renewables Now...
+2026-10-28 13:51:44,307 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:51:58,136 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Solarcentury Africa targets 500 MW of owned capacity by 2030
+2026-10-28 13:51:58,137 [INFO] LLM extracted 1 deals | Solarcentury Africa targets 500 MW of owned capaci
+2026-10-28 13:51:58,139 [INFO] Not a signed deal — skipping: Solarcentury Africa targets 500 MW of owned capacity by 2030
+2026-10-28 13:51:58,140 [INFO] ------- Processing article n. 5: Nghe An: Die Hauptaufgabe besteht darin, die Stromversorgungssicherheit im Zeitr -------
+2026-10-28 13:51:58,233 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxPLXQ4anhPRWhMc190T2g1Q3YyQ2txay1RTWcyQ19Cc1hsaVNJZFYxbHBHUU44TFhhaHJEM21OMmVZV1poX3RMMjhvU2pzaGtkTTdhT2RqNHJEemc3ZmNPM19KSzlfSFk2cUMtZmtTeEN1dDRRMlh2d3l6LUFXVjdLblRDMjBWalBtdW9pY2FIN3N2cjVyRmF2M0hIckVFY3lqT08yR2pB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:51:59,359 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:51:59,359 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/nghe-an-nhiem-vu-chinh-phai-dam-bao-an-ninh-cung-ung-dien-giai-doan-2027-2
+2026-10-28 13:51:59,359 [INFO] URL: https://www.vietnam.vn/de/nghe-an-nhiem-vu-chinh-phai-dam-bao-an-ninh-cung-ung-dien-giai-doan-2027-2030
+2026-10-28 13:51:59,898 [INFO] Text length: 5200 chars | source: full
+2026-10-28 13:51:59,898 [INFO] Text preview: Nghe An: Die Hauptaufgabe besteht darin, die Stromversorgungssicherheit im Zeitraum 2027-2030 zu gewährleisten.
+Das Volkskomitee der Provinz Nghe An hat soeben ein Dokument unterzeichnet und herausgeg...
+2026-10-28 13:51:59,898 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:52:12,856 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Nghe An: Die Hauptaufgabe besteht darin, die Stromversorgung
+2026-10-28 13:52:12,857 [INFO] LLM extracted 1 deals | Nghe An: Die Hauptaufgabe besteht darin, die Strom
+2026-10-28 13:52:12,860 [INFO] Not a signed deal — skipping: Nghe An: Die Hauptaufgabe besteht darin, die Stromversorgung
+2026-10-28 13:52:12,860 [INFO] ------- Processing article n. 5: MaxSolar schließt Corporate PPA mit SAP: Erneuerbarer Strom aus zwei deutschen S -------
+2026-10-28 13:52:12,936 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2b1Q2a0JfbzNka1NuZ2lULThrbWZXcmxXVlQ0MnVGeUo4UEYwOEFLS0lSM3YtNzZOQWYzbXpZRzVTSzRRSUlWU2dpMnA0NkdLUnBZNG1tcGQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:52:14,052 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:52:14,052 [INFO] Resolved Google News URL: https://www.presseportal.de/pm/170503/6379466
+2026-10-28 13:52:14,052 [INFO] URL: https://www.presseportal.de/pm/170503/6379466
+2026-10-28 13:52:15,635 [INFO] Text length: 4961 chars | source: full
+2026-10-28 13:52:15,635 [INFO] Text preview: MaxSolar schließt Corporate PPA mit SAP: Erneuerbarer Strom aus zwei deutschen Solarparks
+Traunstein (ots)
+Der zehnjährige Vertrag umfasst Strom aus zwei Solarparks von MaxSolar mit einer installierte...
+2026-10-28 13:52:15,635 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:52:28,887 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: MaxSolar schließt Corporate PPA mit SAP: Erneuerbarer Strom 
+2026-10-28 13:52:28,888 [INFO] LLM extracted 1 deals | MaxSolar schließt Corporate PPA mit SAP: Erneuerba
+2026-10-28 13:52:28,900 [INFO] NEW: SAP SE / MaxSolar GmbH (Germany, 36.5 MW)
+2026-10-28 13:52:33,901 [INFO] ------- Processing article n. 6: Maxsolar und SAP schließen Solarstrom-PPA - pv magazine Deutschland -------
+2026-10-28 13:52:33,976 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ2wybXJHLTNoX0E5TXNqWmJCU0JMV0l0X05iZ0lmblZPVTA3Y3ZSY1BNRDNCTHJWcFR3bWt6dXM1LUlrWnNaVUpGckhldURnZFhOYUNwTTFvaU9jeTNkNHpiTTRBX00xcC1YbU9wWHV6RXE1Y2xxRXktalRNUTZ1UGlDQk00WVpm?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:52:35,082 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:52:35,083 [INFO] Resolved Google News URL: https://www.pv-magazine.de/2026/10/28/maxsolar-und-sap-schliessen-solarstrom-ppa/
+2026-10-28 13:52:35,083 [INFO] URL: https://www.pv-magazine.de/2026/10/28/maxsolar-und-sap-schliessen-solarstrom-ppa/
+2026-10-28 13:52:35,282 [INFO] Full text skipped (status 403): https://www.pv-magazine.de/2026/10/28/maxsolar-und-sap-schliessen-solarstrom-ppa
+2026-10-28 13:52:35,282 [INFO] Text length: 147 chars | source: fallback
+2026-10-28 13:52:35,282 [INFO] Text preview: Maxsolar und SAP schließen Solarstrom-PPA - pv magazine Deutschland
+
+Maxsolar und SAP schließen Solarstrom-PPA &nbsp;&nbsp; pv magazine Deutschland...
+2026-10-28 13:52:35,282 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:52:43,232 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Maxsolar und SAP schließen Solarstrom-PPA - pv magazine Deut
+2026-10-28 13:52:43,232 [INFO] LLM extracted 1 deals | Maxsolar und SAP schließen Solarstrom-PPA - pv mag
+2026-10-28 13:52:43,245 [INFO] NEW: SAP / Maxsolar (Germany, None MW)
+2026-10-28 13:52:48,246 [INFO] ------- Processing article n. 7: La société finlandaise Fortum n'atteint pas ses objectifs de bénéfices, mais est -------
+2026-10-28 13:52:48,350 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiywJBVV95cUxOa2wyTUg0ZTZBSF93QjItWXFsVE14TlU3dFE1RWJGd29JaWVDaW04eVIyTi1FSEhvZ25xN1NHeUc1Q2pLM3lIVHhxdzN2ai1ZZGRXREhYdVRfQVJnYXZDbUF5a29vOHVqZkl0T0YwSDZJQUNIWkhuaUFJUUJ1cll3T0ZQZVcwdjdDVkhIejRqTVJmMlZCUEFaaDhYSWY3aHZsWXJadE5TdmI0ZzZFU19aZXRzQXRHRjF4bU5OT0tYaWRUd0x3YmppT044cXFfVk4wYlRvOXo0QmdvZ0hxaDNNcDl2TnlUekg2ajNicGJDd2pNSVc3V0NFN2l5ZDZ4eEZGeVAycEFqTFBqejk4SldRT1l3ak40S0EwdXp6UG5VT1AxX0paeU5KNk1zYVpTMlYxd1MyLTRFaTctMXU0Ml9LcGhfbjA2U29Eb0Q40gHLAkFVX3lxTE5rbDJNSDRlNkFIX3dCMi1ZcWxUTXhOVTd0UTVFYkZ3b0lpZUNpbTh5UjJOLUVISG9nbnE3U0d5RzVDakszeUhUeHF3M3ZqLVlkZFdESFh1VF9BUmdhdkNtQXlrb284dWpmSXRPRjBINklBQ0haSG5pQUlRQnVyWXdPRlBlVzB2N0NWSEh6NGpNUmYyVkJQQVpoOFhJZjdodmxZclp0TlN2YjRnNkVTX1pldHNBdEdGMXhtTk5PS1hpZFR3THdiamlPTjhxcV9WTjBiVG85ejRCZ29nSHFoM01wOXZOeVR6SDZqM2JwYkN3ak1JVzdXQ0U3aXlkNnh4RkZ5UDJwQWpMUGp6OThKV1FPWXdqTjRLQTB1enpQblVPUDFfSlp5Tko2TXNhWlMyVjF3UzItNEVpNy0xdTQyX0twaF9uMDZTb0RvRDg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:52:49,541 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:52:49,542 [INFO] Resolved Google News URL: https://www.boursorama.com/bourse/actualites-amp/la-societe-finlandaise-fortum-n-atteint-pas-ses-obj
+2026-10-28 13:52:49,542 [INFO] URL: https://www.boursorama.com/bourse/actualites-amp/la-societe-finlandaise-fortum-n-atteint-pas-ses-objectifs-de-benefices-mais-estime-que-les-centres-de-donnees-soutiennent-la-demande-a-long-terme-fdf5e0796f025c840e4f0f2ce4bb8ae4
+2026-10-28 13:52:50,504 [INFO] Text length: 3710 chars | source: full
+2026-10-28 13:52:50,504 [INFO] Text preview: La société finlandaise Fortum n'atteint pas ses objectifs de bénéfices, mais estime que les centres de données soutiennent la demande à long terme information fournie par Reuters 28/10/2026 à 12:35
+((...
+2026-10-28 13:52:50,504 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:52:59,543 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: La société finlandaise Fortum n'atteint pas ses objectifs de
+2026-10-28 13:52:59,543 [INFO] LLM extracted 1 deals | La société finlandaise Fortum n'atteint pas ses ob
+2026-10-28 13:52:59,545 [INFO] Non-electricity energy deal — skipping: La société finlandaise Fortum n'atteint pas ses objectifs de
+2026-10-28 13:52:59,545 [INFO] ------- Processing article n. 7: Distributed Energy Infrastructure adapte son projet solaire de 3,37 MWdc au socl -------
+2026-10-28 13:52:59,632 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXRDR1BzSUtzQ0lhWnFuTkxBVDNwTUM3UjNESEgtVXNPT0Q4bzNvWmxxUDl0UHlqc282am43VW5fY0dQNngxMWhrRGluekRaM21nNmJmcHR1TURRUjNvMXZrd0hRaHZObzhuU0R2WkNxb0pWNE9EbGNXbTBHSHdvUXg5QlFJSjgybkM1aWNfTXJROFJjdl8xcWhFaDA2WUJpNzdVd0FKWndtX0k5YlpfMQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:53:00,756 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:53:00,756 [INFO] Resolved Google News URL: https://energynews.pro/distributed-energy-infrastructure-adapte-son-projet-solaire-de-337-mwdc-au-so
+2026-10-28 13:53:00,757 [INFO] URL: https://energynews.pro/distributed-energy-infrastructure-adapte-son-projet-solaire-de-337-mwdc-au-socle-rocheux
+2026-10-28 13:53:01,395 [INFO] Text length: 2074 chars | source: full
+2026-10-28 13:53:01,396 [INFO] Text preview: Distributed Energy Infrastructure (DEI) has begun work on the 3.37 MWdc Sapphire Solar project in Jefferson County, New York. The company describes itself as an engineering, procurement and constructi...
+2026-10-28 13:53:01,396 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:53:13,745 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Distributed Energy Infrastructure adapte son projet solaire 
+2026-10-28 13:53:13,745 [INFO] LLM extracted 1 deals | Distributed Energy Infrastructure adapte son proje
+2026-10-28 13:53:13,747 [INFO] Not a European deal — skipping: Chubu Electric Power Miraiz / HEXA Renewables Japan (Japan, 20 MW)
+2026-10-28 13:53:13,747 [INFO] ------- Processing article n. 7: Reprise du réseau électrique de la coopérative agricole de Dai Quang : modernisa -------
+2026-10-28 13:53:13,833 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVFZiZ1loTnc2T3R2YWhjUW90Z2wzdGlrN1NuUmtlV0c1d2ZoVjZSenBYRzBIMmdZa0RlcGVhNHNFYkpnZ3ZTNXBnNEN1ek4zNFJ5WFE4N1hYUnBTdkZpbEg2VlNIY3VOMTZnclRCaXBnQ1Jra29UM1dPYWV5LUJGMGd2RlR2MVhPR2JSQm1KRVU5X2NHbTRSQmViWlRiMXZwTzBlZjdKUW94UlFYcmJGTFZOZnd5V2RmRGtYdm5hZ1JsbklqLWpsYTdnTnNWWHNvaDNObkJieWxDZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:53:14,975 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:53:14,976 [INFO] Resolved Google News URL: https://www.vietnam.vn/fr/tiep-nhan-luoi-dien-tu-htx-nong-nghiep-dai-quang-hien-dai-hoa-he-thong-do-
+2026-10-28 13:53:14,976 [INFO] URL: https://www.vietnam.vn/fr/tiep-nhan-luoi-dien-tu-htx-nong-nghiep-dai-quang-hien-dai-hoa-he-thong-do-dem-nang-cao-chat-luong-dich-vu-khach-hang
+2026-10-28 13:53:15,098 [INFO] Text length: 5232 chars | source: full
+2026-10-28 13:53:15,098 [INFO] Text preview: Parallèlement à la promotion de la transformation numérique , l'unité continue d'examiner et de réparer le réseau électrique et d'accroître la capacité des sous-stations afin d'améliorer la fiabilité ...
+2026-10-28 13:53:15,098 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:53:28,303 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Reprise du réseau électrique de la coopérative agricole de D
+2026-10-28 13:53:28,303 [INFO] LLM extracted 1 deals | Reprise du réseau électrique de la coopérative agr
+2026-10-28 13:53:28,304 [INFO] Not a signed deal — skipping: Reprise du réseau électrique de la coopérative agricole de D
+2026-10-28 13:53:28,304 [INFO] ------- Processing article n. 7: Carrefour firma un PPA para instalar 25 MW solares en 120 centros comerciales de -------
+2026-10-28 13:53:28,402 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxQYzBvbHlHeFd1S19JejVXNElpOWdSQ2hWYTd6MjNGVzB2LUxhMHR2SXNPZEk5Uy1hcHlfanRDUFVpUkVwVnY1MktvSHFqZGZoVGpLRUtJT1dSN2E1LV9OMkF4VTRSSU92NG5sM3hka013RWwyQmlvUGFueERmRUdFUm5Zd240TE5fT1lQdmNGcXNxc1d0eWVGSEJzblYwY1ktc05jYWhpRERDLU9hT1h5eS1lT1UyT3FYOGpmbnNnVFI3bFRaeHc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:53:29,576 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:53:29,577 [INFO] Resolved Google News URL: https://www.pv-magazine.es/2026/10/28/carrefour-firma-un-ppa-para-instalar-25-mw-solares-en-120-cent
+2026-10-28 13:53:29,577 [INFO] URL: https://www.pv-magazine.es/2026/10/28/carrefour-firma-un-ppa-para-instalar-25-mw-solares-en-120-centros-comerciales-de-francia/
+2026-10-28 13:53:29,872 [INFO] Text length: 1747 chars | source: full
+2026-10-28 13:53:29,872 [INFO] Text preview: Carrefour firma un PPA para instalar 25 MW solares en 120 centros comerciales de Francia
+Greenvolt Next, empresa de Greenvolt Group especializada en soluciones de energía renovable descentralizadas pa...
+2026-10-28 13:53:29,872 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:53:43,242 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Carrefour firma un PPA para instalar 25 MW solares en 120 ce
+2026-10-28 13:53:43,242 [INFO] LLM extracted 1 deals | Carrefour firma un PPA para instalar 25 MW solares
+2026-10-28 13:53:43,259 [INFO] NEW: Carrefour Property / Greenvolt Next (France, 25 MW)
+2026-10-28 13:53:48,260 [INFO] ------- Processing article n. 8: Actualización: Rumores del mercado: EQT, Norges Bank y Ardian se retiran de la o -------
+2026-10-28 13:53:48,355 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOeVZGMWJSYzNmY29lZTRTM191RTZLTW5ieXhVNmxHd2VDaGgxaWxzMG9oY2diakxOQTUyVV9FZWxMcVl5cVhfRXVjMjNQbWRCd2t1c2FtVWtHdGZIZkZJMGVaSlU2cDBWMWhoN2hSemhVWEYyUmx4NkZ0R3hnSDJMclhGSWNmWkZMS0J3OFJnNjJfUGpPMTY5eEF4MGVHSWM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:53:49,502 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:53:49,503 [INFO] Resolved Google News URL: https://es.finance.yahoo.com/noticias/actualizaci%C3%B3n-rumores-mercado-eqt-norges-112416359.html
+2026-10-28 13:53:49,503 [INFO] URL: https://es.finance.yahoo.com/noticias/actualizaci%C3%B3n-rumores-mercado-eqt-norges-112416359.html
+2026-10-28 13:53:49,923 [INFO] Text length: 1002 chars | source: full
+2026-10-28 13:53:49,923 [INFO] Text preview: (Actualizado con la declaración de Norges Bank Investment Management)El gigante sueco de capital privado EQT (EQT.ST), el banco noruego Norges Bank y la firma de inversión francesa Ardian han retirado...
+2026-10-28 13:53:49,924 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:53:58,066 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Actualización: Rumores del mercado: EQT, Norges Bank y Ardia
+2026-10-28 13:53:58,067 [INFO] LLM extracted 1 deals | Actualización: Rumores del mercado: EQT, Norges Ba
+2026-10-28 13:53:58,069 [INFO] Not a signed deal — skipping: Actualización: Rumores del mercado: EQT, Norges Bank y Ardia
+2026-10-28 13:53:58,069 [INFO] ------- Processing article n. 8: Carrefour Property apuesta por la instalación de marquesinas solares de la mano  -------
+2026-10-28 13:53:58,165 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxPbTJBM0VtdFRqUHRDSWgyVlc0TTMxY05mQ3dzdUUydDNUbHlLdXM5SmFPckw4T0s3VkZ3eDdyNXhBbjRHTEZFMld5STF4QnBSRklyYkdHcWJfQ29JZEc4dHFtN2FNbmU5dFNwSm82YUN6SFRxaktFVGFZWXdBQ1dELUdCSGZKRUduUkRTdjV2OGRYS205NG83TDlBdGc1anpPeVJFY0x5WkZieUpueW1hTThKMTFfcC10MWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:53:59,270 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:53:59,271 [INFO] Resolved Google News URL: https://financialfood.es/carrefour-property-apuesta-por-la-instalacion-de-marquesinas-solares-de-la-
+2026-10-28 13:53:59,271 [INFO] URL: https://financialfood.es/carrefour-property-apuesta-por-la-instalacion-de-marquesinas-solares-de-la-mano-de-greenvolt/
+2026-10-28 13:54:11,320 [INFO] Full text fetch failed (HTTPSConnectionPool(host='financialfood.es', port=443): Max retries exceeded with url: /carrefour-property-apuesta-por-la-instalacion-de-marquesinas-solares-de-la-mano-de-greenvolt/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='financialfood.es', port=443) at 0x7f7ff72446d0>, 'Connection to financialfood.es timed out. (connect timeout=12)'))): https://financialfood.es/carrefour-property-apuesta-por-la-instalacion-de-marque
+2026-10-28 13:54:11,320 [INFO] Text length: 235 chars | source: fallback
+2026-10-28 13:54:11,320 [INFO] Text preview: Carrefour Property apuesta por la instalación de marquesinas solares de la mano de Greenvolt - - Financial Food
+
+Carrefour Property apuesta por la instalación de marquesinas solares de la mano de Gree...
+2026-10-28 13:54:11,320 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:54:13,895 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Carrefour Property apuesta por la instalación de marquesinas
+2026-10-28 13:54:13,895 [INFO] LLM extracted 1 deals | Carrefour Property apuesta por la instalación de m
+2026-10-28 13:54:13,897 [INFO] Not a signed deal — skipping: Carrefour Property apuesta por la instalación de marquesinas
+2026-10-28 13:54:13,897 [INFO] ------- Processing article n. 8: Amper obtiene 50 millones de euros del FIEX para la compra de Teltronic - Tradin -------
+2026-10-28 13:54:13,972 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBEVkJnU1ZDMlowSVMyc3VRWlZ5ZEcxRklOOHY3UGU2Sndva1ZLN0w5a0RUdmgyeENROUZ4ZS1DZ0ZpOTIxVllsZUFRMmFxV1U1dlMtOWcxbjd1VkUyeW9QVVJmLUlVUlBCMVhtbw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:54:15,083 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:54:15,084 [INFO] Resolved Google News URL: https://es.tradingview.com/news/europapress:e13912b4409cd:0/
+2026-10-28 13:54:15,084 [INFO] URL: https://es.tradingview.com/news/europapress:e13912b4409cd:0/
+2026-10-28 13:54:15,196 [INFO] Text length: 1550 chars | source: full
+2026-10-28 13:54:15,196 [INFO] Text preview: Amper obtiene 50 millones de euros del FIEX para la compra de Teltronic
+Amper ha firmado un acuerdo con la Compañía Española de Financiación del Desarrollo (Cofides) para que esta participe con 50 mil...
+2026-10-28 13:54:15,197 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:54:28,115 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Amper obtiene 50 millones de euros del FIEX para la compra d
+2026-10-28 13:54:28,116 [INFO] LLM extracted 1 deals | Amper obtiene 50 millones de euros del FIEX para l
+2026-10-28 13:54:28,118 [INFO] Not a signed deal — skipping: Amper obtiene 50 millones de euros del FIEX para la compra d
+2026-10-28 13:54:28,118 [INFO] ------- Processing article n. 8: La financiación fotovoltaica ante un nuevo mercado: adaptar al deuda, los PPA y  -------
+2026-10-28 13:54:28,231 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdWJnN3hPNWZwdE9wejhYY0gwTGU4Y2FZYkRJLW1MMEZ2ZDAtVG1lZGlmcUlkNzdSazR2eHFCQktzLXJKdjlQQ3dGYmxSVGgtTzBab2dpZ2VUazBLTFF2Z2JUZGEwTkw2ZF9Vb3k3M25WX2xieGpsV195eU83YlBwS0tDSGZyTXp2VnppeFd5ZVZmaUVZZ2pmZlMwcWVxUUJBTEU2S2ZGWHB1SDlkUkprb2pGMzJXandZRkRlR3FIcTY4VGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:54:29,444 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:54:29,444 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/la-financiacion-fotovoltaica-ante-un-nuevo-mercado-adaptar-al-deu
+2026-10-28 13:54:29,444 [INFO] URL: https://elperiodicodelaenergia.com/la-financiacion-fotovoltaica-ante-un-nuevo-mercado-adaptar-al-deuda-los-ppa-y-los-activos/
+2026-10-28 13:54:30,162 [INFO] Text length: 9178 chars | source: full
+2026-10-28 13:54:30,162 [INFO] Text preview: Ningún comentario
+La evolución de los precios de los mercados eléctricos y de los ingresos capturados por la fotovoltaica plantea nuevos retos para la financiación de proyectos renovables. Adaptar la ...
+2026-10-28 13:54:30,163 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:54:42,942 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: La financiación fotovoltaica ante un nuevo mercado: adaptar 
+2026-10-28 13:54:42,943 [INFO] LLM extracted 1 deals | La financiación fotovoltaica ante un nuevo mercado
+2026-10-28 13:54:42,944 [INFO] Not a signed deal — skipping: La financiación fotovoltaica ante un nuevo mercado: adaptar 
+2026-10-28 13:54:42,944 [INFO] ------- Processing article n. 8: Pulso por el Real Decreto de Centros de Datos: el Gobierno defiende una regulaci -------
+2026-10-28 13:54:43,018 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxNaW94bkZPakFibUdlek5FRG5CY25xaDNHWjZCdE1lT2pzSmR3MW96eExZQkhuRU5XMlBUbGhaRnhlMDRFYmhhNjQ4REs2M21ubC1tTUQxSlhCa0J6N0FFY0VUM29lTzEweWV3NkJuaVF6YTVMUnYzeS1KbFUxZ2FsejV5S2tlYndmZjk4eXNTRzFydU9XTFJZbFJDZEgySldJMXdHVkQweGNyVGRVa3Z3SjctUlREYXhPOWU5dA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:54:44,163 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:54:44,164 [INFO] Resolved Google News URL: https://material-electrico.cdecomunicacion.es/centros-de-datos/211464/pulso-por-real-decreto-centros
+2026-10-28 13:54:44,164 [INFO] URL: https://material-electrico.cdecomunicacion.es/centros-de-datos/211464/pulso-por-real-decreto-centros-de-datos-espana/amp
+2026-10-28 13:54:44,212 [INFO] Full text skipped (status 403): https://material-electrico.cdecomunicacion.es/centros-de-datos/211464/pulso-por-
+2026-10-28 13:54:44,212 [INFO] Text length: 399 chars | source: fallback
+2026-10-28 13:54:44,213 [INFO] Text preview: Pulso por el Real Decreto de Centros de Datos: el Gobierno defiende una regulación pionera mientras la industria advierte de un riesgo de "muerte" digital y fuga millonaria - CdeComunicacion.es
+
+Pulso...
+2026-10-28 13:54:44,213 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:54:57,873 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Pulso por el Real Decreto de Centros de Datos: el Gobierno d
+2026-10-28 13:54:57,874 [INFO] LLM extracted 1 deals | Pulso por el Real Decreto de Centros de Datos: el 
+2026-10-28 13:54:57,875 [INFO] Not a signed deal — skipping: Pulso por el Real Decreto de Centros de Datos: el Gobierno d
+2026-10-28 13:54:57,875 [INFO] ------- Processing article n. 8: Greenvolt firma un acuerdo con Carrefour Property para instalar marquesinas sola -------
+2026-10-28 13:54:57,945 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxNWTdnZnVnVW1TSk9oUUFzYTlZVDFraldGWVBnNkxDRnhURmZLY3NKRG9wMVFsT1lFSnFlZ0w3Snp0WmIxejdKcHltRFp4cDA2V0I1R0h5eV9DakxTS2dGN1FYTWxmY0FTUFd1VmxrZVM4NkVtN3ZDQW9FNDRTdHpvbldzMTFjd0lGOGducnlNaVJjU3ROcjV6Nk9YYVBNdk44OUd6eUZaY0Z6Y2Fa0gGyAUFVX3lxTFBvc25BdVQ1Z2tWVTV2QU5ic1RMOVkyRk51YUZsRjRuN1ZLeGpNc0JKdTFQVGYzQ3lmOGtNbVVySWdLVjJWbWNYUlVuTEdFbzhaM1Y5aG1ObzNiT0dVSnhXbk1lZWpSUjBodlpUX1h5dXNabGdUYmF6TUlZWlBsYmFnbXdyZEVtRGFtSWl1S05ucWk2RmZIeS1OTFhlSkNab3FQZzJXOElLa2tYS3VFeGZxZlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:54:59,067 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:54:59,067 [INFO] Resolved Google News URL: https://hiretail.es/esg/greenvolt-firma-un-acuerdo-con-carrefour-property-para-instalar-marquesinas-
+2026-10-28 13:54:59,067 [INFO] URL: https://hiretail.es/esg/greenvolt-firma-un-acuerdo-con-carrefour-property-para-instalar-marquesinas-solares/
+2026-10-28 13:55:03,732 [INFO] Text length: 3076 chars | source: full
+2026-10-28 13:55:03,732 [INFO] Text preview: Greenvolt Next, empresa de Greenvolt Group especializada en soluciones de energía renovable descentralizadas para los sectores comercial e industrial, ha firmado un acuerdo con Carrefour Property para...
+2026-10-28 13:55:03,732 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:55:13,302 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Greenvolt firma un acuerdo con Carrefour Property para insta
+2026-10-28 13:55:13,302 [INFO] LLM extracted 1 deals | Greenvolt firma un acuerdo con Carrefour Property 
+2026-10-28 13:55:13,315 [INFO] UPDATE: Carrefour Property / Greenvolt Next (France, 25 MW) — canonical ID: 2052
+2026-10-28 13:55:18,316 [INFO] ------- Processing article n. 9: Qualitas Energy cierra una financiación de 286 millones de dólares para una cart -------
+2026-10-28 13:55:18,419 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAJBVV95cUxNVzdQV2ZXbnRmNmlIbDZGRURjLVhkYlRiMHE2Ry1yZ2NpUnBoOEtBR3lLbFZqbHRsYnZLb1dCRXI3a1pTaVAzYXR5aEtVVTc3LTFQdEg1SjJCbWRETmw5LVdkSDE3bXpQcVFMWjJ2RlU5c1JpZTU2TzI5SkFMOTNTZTNSSU9mbmxMV0lTWWRkdjltWXZEMW5FS2JEdlpmRlJOV3NjelNfYjZqMVhDeHBTbC1qVUo5Nm1wZE1ab2p2OTdKaG80UncxMFM0N1dsUVhORGZpSm1xU3N0aHNSdmtqVUVDQ2g1R0lpRnV4el9pNFNjbDlacEl0ZGdMVEl5QVB1S3pCQXVudENMZV9HRVFVUDVQSVhFNERS?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:55:19,555 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:55:19,556 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/qualitas-energy-cierra-una-financiacion-de-286-millones-de-dolare
+2026-10-28 13:55:19,556 [INFO] URL: https://elperiodicodelaenergia.com/qualitas-energy-cierra-una-financiacion-de-286-millones-de-dolares-para-una-cartera-de-259-mw-de-energias-renovables-y-840-mwh-de-almacenamiento-en-chile/
+2026-10-28 13:55:20,201 [INFO] Text length: 1822 chars | source: full
+2026-10-28 13:55:20,202 [INFO] Text preview: Qualitas Energy ha cerrado una financiación sin recurso por valor de 286 millones de dólares (unos 257 millones de euros) para la totalidad de su cartera en Chile bajo Qualitas Energy Fondo V (QE V), ...
+2026-10-28 13:55:20,202 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:55:28,070 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Qualitas Energy cierra una financiación de 286 millones de d
+2026-10-28 13:55:28,070 [INFO] LLM extracted 1 deals | Qualitas Energy cierra una financiación de 286 mil
+2026-10-28 13:55:28,081 [INFO] Not a signed deal — skipping: Qualitas Energy cierra una financiación de 286 millones de d
+2026-10-28 13:55:28,081 [INFO] ------- Processing article n. 9: Exolum, líder de su sector a nivel mundial y máxima puntuación en el índice de s -------
+2026-10-28 13:55:28,188 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifEFVX3lxTE9hUmVtbmQySWlEWllnNml2MkYxNWlpQzFOTDk4RE5aT2pMMFR2a2RObFB3Vl9COWJvVk5EQzQ3QmtkWVlhOGxHM09DZGlISjlTT29CM1JOS01TR3FYUmR0bHpRXzJmdVlSTWpZNE1JUXA0cXdBNEN1OUFyT2k?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:55:29,380 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:55:29,381 [INFO] Resolved Google News URL: https://www.energynews.es/exolum-lider-indice-sostenibilidad-gresb-2026/
+2026-10-28 13:55:29,381 [INFO] URL: https://www.energynews.es/exolum-lider-indice-sostenibilidad-gresb-2026/
+2026-10-28 13:55:30,413 [INFO] Text length: 3424 chars | source: full
+2026-10-28 13:55:30,414 [INFO] Text preview: - Exolum logra por segundo año consecutivo la máxima puntuación en el índice GRESB Infraestructure Asset Assessment.
+- La compañía se posiciona entre los 40 mejores activos de infraestructuras evaluad...
+2026-10-28 13:55:30,414 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:55:43,000 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Exolum, líder de su sector a nivel mundial y máxima puntuaci
+2026-10-28 13:55:43,001 [INFO] LLM extracted 1 deals | Exolum, líder de su sector a nivel mundial y máxim
+2026-10-28 13:55:43,003 [INFO] Not a signed deal — skipping: Exolum, líder de su sector a nivel mundial y máxima puntuaci
+2026-10-28 13:55:43,003 [INFO] ------- Processing article n. 9: Explorando Nuevas Fronteras: Estrategias de Financiación Fotovoltaica en Mercado -------
+2026-10-28 13:55:43,102 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5wFBVV95cUxOaWllTDc3RkR5X3JKWE56TTdtYzBQNjI1OHVjeHFxZ21VNEZDSXI5NnM0RjFidkJaZmNiaXpXN182OFpKaWoyMk5LT2R2UHhYQlRoSkpmMFNDa3dfQ0xJZzlQVzk0eFRxRWZCcVJtaURQNWJMY0wweFp3MU5wNGlUQ2djQnBFb2VQZno0Sm10eVY1MlphSUZqaXJ1TS1rNmZpU1dMQkZ6eWt6dnRRNVJiWVE3X1ZiT3VoeHNUeU5qYW5seFZxN1JBdUpUbUxCUXlTa2pobUduelBKVzFRRTQ5YTlKRUpHdDQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:55:44,297 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:55:44,298 [INFO] Resolved Google News URL: https://noticias.madrid/explorando-nuevas-fronteras-estrategias-de-financiacion-fotovoltaica-en-merc
+2026-10-28 13:55:44,298 [INFO] URL: https://noticias.madrid/explorando-nuevas-fronteras-estrategias-de-financiacion-fotovoltaica-en-mercados-emergentes-con-deuda-ppa-y-activos-en-aleasoft/
+2026-10-28 13:55:46,537 [INFO] Text length: 3010 chars | source: full
+2026-10-28 13:55:46,537 [INFO] Text preview: La reciente evolución en los mercados eléctricos y la dinámica cambiante de los ingresos por producción de energía solar fotovoltaica presentan un complejo panorama para los proyectos de energías reno...
+2026-10-28 13:55:46,537 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:55:58,143 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Explorando Nuevas Fronteras: Estrategias de Financiación Fot
+2026-10-28 13:55:58,143 [INFO] LLM extracted 1 deals | Explorando Nuevas Fronteras: Estrategias de Financ
+2026-10-28 13:55:58,151 [INFO] Not a signed deal — skipping: Explorando Nuevas Fronteras: Estrategias de Financiación Fot
+2026-10-28 13:55:58,152 [INFO] ------- Processing article n. 9: Google e Fervo: accordo geotermico da quasi 400 MW - Elettronauti -------
+2026-10-28 13:55:58,239 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTHEyamV1M3BqalhJanJRRXJ1R2JmbzJ6R0Jnc3lWQkVjUC1pZG02d0Z2MEhzU0VXU0FzSjFIUUNMeWdQVUkzMFA4RjdlYjIycXdkbzRkVDJrUWttaHRvcnBQZzdveFVYVTByY2QxeTVwam00OWpQSmRyNk5lU2xLbGMwby1KY1Vyd1ZlTUlTYVFvckN0ajBQWDBrT1haUV94YTRCd0F3WWZFU28?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:55:59,368 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:55:59,368 [INFO] Resolved Google News URL: https://elettronauti.it/articolo/google-punta-sulla-geotermia-di-fervo-accordo-per-quasi-400-mw-nell
+2026-10-28 13:55:59,368 [INFO] URL: https://elettronauti.it/articolo/google-punta-sulla-geotermia-di-fervo-accordo-per-quasi-400-mw-nello-utah/
+2026-10-28 13:55:59,867 [INFO] Text length: 4193 chars | source: full
+2026-10-28 13:55:59,867 [INFO] Text preview: Google punta sulla geotermia di Fervo: accordo per quasi 400 MW nello Utah
+Fervo Energy fornirà a Google quasi 400 MW di elettricità geotermica dal progetto Cape Station, in costruzione nel sud-ovest ...
+2026-10-28 13:55:59,867 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:56:13,130 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Google e Fervo: accordo geotermico da quasi 400 MW - Elettro
+2026-10-28 13:56:13,131 [INFO] LLM extracted 1 deals | Google e Fervo: accordo geotermico da quasi 400 MW
+2026-10-28 13:56:13,132 [INFO] Not a European deal — skipping: Google / Fervo Energy (United States, 400 MW)
+2026-10-28 13:56:13,132 [INFO] ------- Processing article n. 9: VinEnergo gestisce un impianto di energia solare ad Ha Tinh. - Vietnam.vn -------
+2026-10-28 13:56:13,247 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxQdGZpeUVEa2VHRXhGbTRORDRZbENFMTh4ZTJYTlA0c0cwMV9aTFh5cWQxcG5kZ1JzMzRTVUVyZXVZUmhvOEhLZVBxNzNpYVRkak1VRVJSdFV3S1NidFpGZ3YwcG9zaFhwWnNOOW5MX0RnXzFnVTZmbEJwRHJ0cmpVZ2VTWnZYQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:56:14,414 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:56:14,415 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/vinenergo-van-hanh-he-thong-dien-mat-troi-tai-ha-tinh
+2026-10-28 13:56:14,415 [INFO] URL: https://www.vietnam.vn/it/vinenergo-van-hanh-he-thong-dien-mat-troi-tai-ha-tinh
+2026-10-28 13:56:14,668 [INFO] Text length: 4692 chars | source: full
+2026-10-28 13:56:14,668 [INFO] Text preview: VinEnergo gestisce un impianto di energia solare ad Ha Tinh.
+L'impianto fotovoltaico sul tetto con accumulo a batteria nella zona economica di Vung Ang ha una capacità di 22 MWp e una capacità di accu...
+2026-10-28 13:56:14,669 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:56:28,263 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: VinEnergo gestisce un impianto di energia solare ad Ha Tinh.
+2026-10-28 13:56:28,264 [INFO] LLM extracted 1 deals | VinEnergo gestisce un impianto di energia solare a
+2026-10-28 13:56:28,266 [INFO] Not a European deal — skipping: Future Production Investment and Development Joint Stock Company, VinES Ha Tinh Energy Solutions Joint Stock Company, joint venture VG battery plant / VinEnergo Energy Joint Stock Company (Vietnam, 22 MW)
+2026-10-28 13:56:28,266 [INFO] ------- Processing article n. 9: Ecosuntek lancia in Toscana H2-Era Green Valley: energie rinnovabili, accumulo e -------
+2026-10-28 13:56:28,371 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTVZrRzdsTGhSWHAxdjFTZGxVVTJsWlptMGlERWdvdE5ZZVdPNU5hSmEtMl9ycldRZGdBeFJpei1pVHlrSVBtWnNWMTZtQmZYWUN6dV91bVVnTDF1ZjI2eE42TjlWalRqTlVzLXVNVXVIYXhVRmJyYXZ3Tjd3S21VT3gwaHhVTFdyUTBtNHBQRWFhcndoOUJ3RTZRQzBRa2ZOUGtLcGVLWHBidTZkczNySUhEbktFVUlESEttTk5Bdmt6OWhSQ1kwODgwbW9hQWhKbG5yU3N3Nm5wOTQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:56:29,571 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:56:29,572 [INFO] Resolved Google News URL: https://finanza.repubblica.it/News/2026/10/28/ecosuntek_lancia_in_toscana_h2_era_green_valley_energi
+2026-10-28 13:56:29,572 [INFO] URL: https://finanza.repubblica.it/News/2026/10/28/ecosuntek_lancia_in_toscana_h2_era_green_valley_energie_rinnovabili_accumulo_e_idrogeno_verde-13/
+2026-10-28 13:56:29,973 [INFO] Text length: 3757 chars | source: full
+2026-10-28 13:56:29,973 [INFO] Text preview: 28 ottobre 2026 - 08.21
+(Teleborsa) - Ecosuntek, società attiva nel settore delle energie rinnovabili e player di riferimento nella power generation, annuncia un nuovo progetto strategico per la trans...
+2026-10-28 13:56:29,973 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:56:42,957 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ecosuntek lancia in Toscana H2-Era Green Valley: energie rin
+2026-10-28 13:56:42,958 [INFO] LLM extracted 1 deals | Ecosuntek lancia in Toscana H2-Era Green Valley: e
+2026-10-28 13:56:42,967 [INFO] Not a signed deal — skipping: Ecosuntek lancia in Toscana H2-Era Green Valley: energie rin
+2026-10-28 13:56:42,967 [INFO] ------- Processing article n. 9: Perché il titolo Fortum è in calo oggi? - Investing.com -------
+2026-10-28 13:56:43,081 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxNMERLWXc2ck91amoxRk5MN19wMDNsZUM2ZHFOZUUxM3cyQnd3VTNjWGdJeEFrRWJhZWN2YU5IRENsUnBId001bGswZWpBb0hsR3hQcGhURzVFNXNTOFktZXd6eGxzZ0M5akloRk13cy1WQ0oySDJZVHdrVVgwcXctLWE0cktmTXNGRm5QRW5wcWdVVWtLWjhkeTZ2djRuQzR5?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:56:44,266 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:56:44,266 [INFO] Resolved Google News URL: https://it.investing.com/news/stock-market-news/perche-il-titolo-fortum-e-in-calo-oggi-93CH-3610602
+2026-10-28 13:56:44,266 [INFO] URL: https://it.investing.com/news/stock-market-news/perche-il-titolo-fortum-e-in-calo-oggi-93CH-3610602
+2026-10-28 13:56:44,311 [INFO] Full text skipped (status 403): https://it.investing.com/news/stock-market-news/perche-il-titolo-fortum-e-in-cal
+2026-10-28 13:56:44,311 [INFO] Text length: 123 chars | source: fallback
+2026-10-28 13:56:44,311 [INFO] Text preview: Perché il titolo Fortum è in calo oggi? - Investing.com
+
+Perché il titolo Fortum è in calo oggi? &nbsp;&nbsp; Investing.com...
+2026-10-28 13:56:44,311 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:56:57,757 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Perché il titolo Fortum è in calo oggi? - Investing.com
+2026-10-28 13:56:57,757 [INFO] LLM extracted 1 deals | Perché il titolo Fortum è in calo oggi? - Investin
+2026-10-28 13:56:57,759 [INFO] Not a signed deal — skipping: Perché il titolo Fortum è in calo oggi? - Investing.com
+2026-10-28 13:56:57,759 [INFO] ------- Processing article n. 9: VinEnergo gestisce un impianto fotovoltaico sui tetti, abbinato a batterie di ac -------
+2026-10-28 13:56:57,871 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxOSnNiZUl2VzhjU0RmYmM1YW1sZDhLdWcxQTFpSDFiSVZjaXRsNUlOU2NHeGVwUnduMFlhdi1qQm5DOVM3X3dTSEdRMEVaaGlwYjZRTmg4NGhuN1NZeEdfU18ySC1ScWp6Q3lPakpveExHYWZpblVuNVRhMjgzeDF3ajRIR0djc1dRT0M5S0dGNGNqLWZFcTJRcGRxOU5fM0J4WUVPdG94Q3dfZ0ZnLWFldE1lYTlyWjVjN3c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-28 13:56:59,055 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-28 13:56:59,055 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/vinenergo-van-hanh-he-thong-dien-mat-troi-mai-nha-ket-hop-pin-luu-tru-nang
+2026-10-28 13:56:59,056 [INFO] URL: https://www.vietnam.vn/it/vinenergo-van-hanh-he-thong-dien-mat-troi-mai-nha-ket-hop-pin-luu-tru-nang-luong-tai-ha-tinh
+2026-10-28 13:56:59,145 [INFO] Text length: 4371 chars | source: full
+2026-10-28 13:56:59,145 [INFO] Text preview: Il progetto di energia solare sui tetti, integrato con un sistema di accumulo a batterie (BESS) nella zona economica di Vung Ang, è il primo progetto gestito da VinEnergo nell'ambito di un contratto d...
+2026-10-28 13:56:59,145 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-28 13:57:13,377 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: VinEnergo gestisce un impianto fotovoltaico sui tetti, abbin
+2026-10-28 13:57:13,378 [INFO] LLM extracted 1 deals | VinEnergo gestisce un impianto fotovoltaico sui te
+2026-10-28 13:57:13,379 [INFO] Not a European deal — skipping: Future Production, Investment and Development Joint Stock Company, VinES Ha Tinh Energy Solutions Joint Stock Company, VG joint venture / VinEnergo Energy Joint Stock Company (Vietnam, 22 MW)
+2026-10-28 13:57:13,379 [INFO] Run complete. New deals: 5, Updates: 4
+2026-10-28 13:57:13,393 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1519 deals)
+2026-10-28 13:57:28,005 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-10-28 13:57:28,005 [INFO] Email log summary generated by groq-120b
+2026-10-28 13:57:30,429 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
