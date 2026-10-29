@@ -1,0 +1,442 @@
+2026-10-29 13:53:18,805 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-10-29 13:53:18,811 [INFO] Loaded 1678 existing deals for dedup matching
+2026-10-29 13:53:18,811 [INFO] Searching from 2026-10-29 to present with 3 loockback days
+2026-10-29 13:53:19,100 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-10-29 13:53:20,216 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-10-29 13:53:21,442 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-10-29 13:53:22,809 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-10-29&hl=en&gl=US&ceid=US:en: 18 results
+2026-10-29 13:53:25,178 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-10-29&hl=en&gl=US&ceid=US:en: 5 results
+2026-10-29 13:53:27,416 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-10-29&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-29 13:53:29,638 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-10-29&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-10-29 13:53:31,949 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-10-29&hl=fr&gl=FR&ceid=FR:fr: 5 results
+2026-10-29 13:53:34,190 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-10-29&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-10-29 13:53:36,451 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-10-29&hl=es&gl=ES&ceid=ES:es: 4 results
+2026-10-29 13:53:38,703 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-10-29&hl=es&gl=ES&ceid=ES:es: 3 results
+2026-10-29 13:53:40,988 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-10-29&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-29 13:53:43,251 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-10-29&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-10-29 13:53:45,510 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-10-29&hl=pl&gl=PL&ceid=PL:pl: 1 results
+2026-10-29 13:53:47,780 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-10-29&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-29 13:53:50,073 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-10-29&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-10-29 13:53:52,369 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-10-29&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-29 13:53:54,697 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-10-29&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-10-29 13:53:56,698 [INFO] Total raw articles collected: 36
+2026-10-29 13:53:56,983 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-10-29 13:53:58,517 [INFO] Extra RSS [elperiodicodelaenergia.com]: 3 results
+2026-10-29 13:53:59,527 [INFO] Unique unseen articles: 34
+2026-10-29 13:53:59,527 [INFO] ------- Processing article n. 0: European Solar PPA Prices Rise 0.4% in Q3 2026: LevelTen Report - News and Stati -------
+2026-10-29 13:53:59,636 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxOTlgxNFJHM3JQdmRHRnV1ZzdjNU1KcEphLW5RV29KajdYYmwwVU8xWlFqdmFnclJ0dWZOVXYxaTNuMHgzOEZLRmI2WXkyTmtkTWFzYkxJSWlsM1c5eUVBQmlEVlNmLVJ3WUt3dlFyeUQ4R3dJR3ktc2VfR0x6b2lHbjU3cWJfQlZyV1lSU0YxaU9rSmlOWUdNaHBac1pkYjVydmx5cmVmMzAtWURhN1E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:54:00,739 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:54:00,740 [INFO] Resolved Google News URL: https://www.indexbox.io/blog/european-solar-ppa-prices-edge-up-04-in-q3-2026-as-hybrid-contracts-gai
+2026-10-29 13:54:00,740 [INFO] URL: https://www.indexbox.io/blog/european-solar-ppa-prices-edge-up-04-in-q3-2026-as-hybrid-contracts-gain-ground/
+2026-10-29 13:54:01,770 [INFO] Text length: 19795 chars | source: full
+2026-10-29 13:54:01,770 [INFO] Text preview: Search across reports, market insights, and blog stories.
+Type at least 3 characters to see fast results. Press / or ⌘K anytime.
+Searching…
+No fast matches found. Press Enter to see full results.
+Euro...
+2026-10-29 13:54:01,770 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:54:02,307 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: European Solar PPA Prices Rise 0.4% in Q3 2026: LevelTen Rep
+2026-10-29 13:54:02,308 [INFO] LLM extracted 1 deals | European Solar PPA Prices Rise 0.4% in Q3 2026: Le
+2026-10-29 13:54:02,309 [INFO] Not a signed deal — skipping: European Solar PPA Prices Rise 0.4% in Q3 2026: LevelTen Rep
+2026-10-29 13:54:02,309 [INFO] ------- Processing article n. 0: Scatec secures $217 million for Egypt smelter solar-plus-storage plant - pv maga -------
+2026-10-29 13:54:02,370 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxNcmVidFJvTW5zZzhORGFkVDFUNWF3QXNON0UwaVAxYVJHYmN4LXNBTUlUUGpmUHBHOWg0RDBwMlN0dTRvcUFFZnZYdGo3ZVpLY2xtN1Z4SkR2ZEJ3aDRHeW92V2FpVVRrY0hHdF9CUWNzNVh2OHlBVEg2aEkwR2RxZXBGOGNLbWgzWjcwekZyeE5kYXJ1NGc2TTh1aDVZQzNJZUIydjR3aGs2QUdEN3c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:54:03,477 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:54:03,478 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/10/29/scatec-secures-217-million-for-egypt-smelter-solar-plus-stora
+2026-10-29 13:54:03,478 [INFO] URL: https://www.pv-magazine.com/2026/10/29/scatec-secures-217-million-for-egypt-smelter-solar-plus-storage-plant/
+2026-10-29 13:54:03,851 [INFO] Text length: 1803 chars | source: full
+2026-10-29 13:54:03,852 [INFO] Text preview: Scatec has signed $217 million in non-recourse loans with the European Bank for Reconstruction and Development (EBRD), the African Development Bank (AfDB), and the European Investment Bank (EIB) for t...
+2026-10-29 13:54:03,852 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:54:18,257 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Scatec secures $217 million for Egypt smelter solar-plus-sto
+2026-10-29 13:54:18,258 [INFO] LLM extracted 2 deals | Scatec secures $217 million for Egypt smelter sola
+2026-10-29 13:54:18,260 [INFO] Not a European deal — skipping: Egypt Aluminium / Scatec (Egypt, None MW)
+2026-10-29 13:54:18,260 [INFO] Not a European deal — skipping: None / Scatec (Egypt, 1950 MW)
+2026-10-29 13:54:18,260 [INFO] ------- Processing article n. 0: African Development Bank to co-finance $650 million Egyptian solar project along -------
+2026-10-29 13:54:18,329 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMicEFVX3lxTE1JYUtrVGZmeGdVRzlYVG9VdmpabFVBWDl5M0tLSnpzNU9nb0N1bEc1NC1vbG0ybldVX0JVcG9iOVhYMjlyOU9rQ0NPM1BiWXF3Qk8wU29OWXA2M2ppanZNdldUVDR4b1ZiS0VXQ3ZtMmw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:54:19,442 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:54:19,443 [INFO] Resolved Google News URL: https://businessfront.com/energy/news/afdb-dandara-solar-egypt/
+2026-10-29 13:54:19,443 [INFO] URL: https://businessfront.com/energy/news/afdb-dandara-solar-egypt/
+2026-10-29 13:54:19,679 [INFO] Text length: 2846 chars | source: full
+2026-10-29 13:54:19,679 [INFO] Text preview: The African Development Bank (AfDB) is committing up to $66 million to the first phase of Egypt’s Dandara solar project, joining the European Investment Bank (EIB) and the European Bank for Reconstruc...
+2026-10-29 13:54:19,679 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:54:32,362 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: African Development Bank to co-finance $650 million Egyptian
+2026-10-29 13:54:32,362 [INFO] LLM extracted 1 deals | African Development Bank to co-finance $650 millio
+2026-10-29 13:54:32,364 [INFO] Not a signed deal — skipping: African Development Bank to co-finance $650 million Egyptian
+2026-10-29 13:54:32,364 [INFO] ------- Processing article n. 0: Studsvik announces partnership to deploy four BWRX-300s in Sweden - American Nuc -------
+2026-10-29 13:54:32,438 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVEtempDRW5Fc2ltam9PTkRiZlFLVGJVVzNUNWgtWmRUcklXYkRTd0VpNHItaE10VWFFSENvb1VCMm9IaGtMQUhCR2NtakZJWmhianF1NU14OHJ3N3pwYk9meVo2VjY3MVFIdVZwYnlOZFQ5c2RnR044anQ4b2dHaFpmRDFMVUstTVVZVFNBMHJGSHZiZEprSDRNRGh3UVJCcENYUXB3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:54:33,535 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:54:33,536 [INFO] Resolved Google News URL: https://www.ans.org/news/article-8366/studsvik-announces-partnership-to-deploy-four-bwrx300s-in-swed
+2026-10-29 13:54:33,536 [INFO] URL: https://www.ans.org/news/article-8366/studsvik-announces-partnership-to-deploy-four-bwrx300s-in-sweden/
+2026-10-29 13:54:34,087 [INFO] Text length: 693 chars | source: full
+2026-10-29 13:54:34,087 [INFO] Text preview: Swedish engineering services firm Studsvik and its partners have teamed up on a four-unit BWRX-300 new build project in southern Sweden. On Thursday, Studsvik entered into a joint development agreemen...
+2026-10-29 13:54:34,087 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:54:47,649 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Studsvik announces partnership to deploy four BWRX-300s in S
+2026-10-29 13:54:47,649 [INFO] LLM extracted 1 deals | Studsvik announces partnership to deploy four BWRX
+2026-10-29 13:54:47,651 [INFO] Not a signed deal — skipping: Studsvik announces partnership to deploy four BWRX-300s in S
+2026-10-29 13:54:47,651 [INFO] ------- Processing article n. 0: Scatec Secures $217 Mn Financing for Egypt’s Dandara Solar Project - Egypt Oil & -------
+2026-10-29 13:54:47,724 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxQcGpTcTMtU1FwV3Z0a2RCLXc1R01wYUdxWXJMV0dhRnBaSTZUemFKbkwtX0tMM1JjSGFWYlMwdko4N09xQkdyb1hNbG5VYzhoQmZ1YTBCRWlJcVl5YUxlMFNPek5wR2h3M21ZOFlBdF81LVoyN1JndDlFcjNseVE4UUdVRkExeTNrVkR4U1VUeGJqaWNxcU1XOUl5aw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:54:48,849 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:54:48,850 [INFO] Resolved Google News URL: https://egyptoil-gas.com/news/scatec-secures-217-mn-financing-for-egypts-dandara-solar-project/
+2026-10-29 13:54:48,850 [INFO] URL: https://egyptoil-gas.com/news/scatec-secures-217-mn-financing-for-egypts-dandara-solar-project/
+2026-10-29 13:54:49,972 [INFO] Text length: 3160 chars | source: full
+2026-10-29 13:54:49,972 [INFO] Text preview: Scatec has secured $217 million in non-recourse financing for the first phase of the Dandara solar and battery energy storage project in Egypt and is starting construction, said the Norwegian renewabl...
+2026-10-29 13:54:49,972 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:55:03,073 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Scatec Secures $217 Mn Financing for Egypt’s Dandara Solar P
+2026-10-29 13:55:03,074 [INFO] LLM extracted 1 deals | Scatec Secures $217 Mn Financing for Egypt’s Danda
+2026-10-29 13:55:03,075 [INFO] Not a European deal — skipping: Misr Aluminium Company (Egyptalum) / Scatec (Egypt, 569 MW)
+2026-10-29 13:55:03,075 [INFO] ------- Processing article n. 0: EIB puts up $90M for Egypt’s Dandara solar-and-battery project - Dealroom -------
+2026-10-29 13:55:03,140 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxOM2lmdkYwNWxfZnhoMWZ3SnBDLWhCRnJDVUVHbEFtTV96a2F1MDJTbGpHQkZnMGxjckVpbW1IYjExb2VkaFVjSnNrNXFWN3ZhOVVZbnQ3ZzQtY2NiQzUzQWV5c3VmdTd0Q1ZIRktfWTJXZW5zWmQzeF8xMUZqNkR1ZGdFY1lxeUQ0WDVGSU4wbnM0bGNIcTJEcnNMNA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:55:04,228 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:55:04,229 [INFO] Resolved Google News URL: https://app.dealroom.co/news/note/eib-puts-up-90m-for-egypt-s-dandara-solar-and-battery-project
+2026-10-29 13:55:04,229 [INFO] URL: https://app.dealroom.co/news/note/eib-puts-up-90m-for-egypt-s-dandara-solar-and-battery-project
+2026-10-29 13:55:04,752 [INFO] Text length: 2261 chars | source: full
+2026-10-29 13:55:04,752 [INFO] Text preview: What's the deal? The European Investment Bank, through EIB Global, is lending up to $90 million for the first phase of the Dandara solar and battery project in Egypt’s Qena Governorate. The loan, guar...
+2026-10-29 13:55:04,752 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:55:17,945 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EIB puts up $90M for Egypt’s Dandara solar-and-battery proje
+2026-10-29 13:55:17,945 [INFO] LLM extracted 1 deals | EIB puts up $90M for Egypt’s Dandara solar-and-bat
+2026-10-29 13:55:17,946 [INFO] Not a European deal — skipping: Misr Aluminium Company (EgyptAlum) / Dandara Solar Power S.A.E. (Egypt, 569 MW)
+2026-10-29 13:55:17,946 [INFO] ------- Processing article n. 0: Statkraft and Borregaard sign 10-year power purchase agreement - GlobeNewswire -------
+2026-10-29 13:55:18,007 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0wFBVV95cUxNckNhNExoVVlsbEUxUDVxdzlrN2lLNi1ZSHM5TVFPYTFIcmVCTF91U0RFUS12ZVc1YUxkTWtIRWJsMGtCeFRERF9MN1JkVVFNZjQ3Q0YwUWtWNldVbkVKbWVsbmNDU2MtOWpxa0FtakFjYk5xRm1kRG1XaVBYaVBhZ19pbzRPbEJmVGNSSW5DcVAzWUxuNkxTN1RUbi1WTjc3eUJHdGl3YW05ZGdaTXlBNzlHMDd5YUNfR1Z0WGxOZEgwbDM4UnZWaGtGU1VHcGNGaDJV?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:55:19,118 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:55:19,119 [INFO] Resolved Google News URL: https://www.globenewswire.com/de/news-release/2026/10/29/3391006/0/en/statkraft-and-borregaard-sign-
+2026-10-29 13:55:19,119 [INFO] URL: https://www.globenewswire.com/de/news-release/2026/10/29/3391006/0/en/statkraft-and-borregaard-sign-10-year-power-purchase-agreement.html
+2026-10-29 13:55:19,163 [INFO] Full text skipped (status 403): https://www.globenewswire.com/de/news-release/2026/10/29/3391006/0/en/statkraft-
+2026-10-29 13:55:19,163 [INFO] Text length: 169 chars | source: fallback
+2026-10-29 13:55:19,163 [INFO] Text preview: Statkraft and Borregaard sign 10-year power purchase agreement - GlobeNewswire
+
+Statkraft and Borregaard sign 10-year power purchase agreement &nbsp;&nbsp; GlobeNewswire...
+2026-10-29 13:55:19,164 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:55:32,504 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Statkraft and Borregaard sign 10-year power purchase agreeme
+2026-10-29 13:55:32,504 [INFO] LLM extracted 1 deals | Statkraft and Borregaard sign 10-year power purcha
+2026-10-29 13:55:32,520 [INFO] NEW: Borregaard / Statkraft (Norway, None MW)
+2026-10-29 13:55:37,522 [INFO] ------- Processing article n. 1: Scatec Secures $217 Million Financing For 569 MW Solar And 100 MWh BESS Project  -------
+2026-10-29 13:55:37,590 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMWpJVXEzbUt4Qm5FQXBTaEF2OXl1U2Y1SGU5UHVWb0xkd3Z6Y0xhRnp3Qk01YWRDaVViOWtZNFpDSGJ1empiVXpMWUVWV2lZTDNIMDNzRjB4SWd5SFNPWFE1Qk51LXlUdkNDOE5NY19Ma29BLTh2N2Y5cFFoMDFXOVdpclZKNmRVV0x2THN3V1JTLVhXS1FhWDBxck96VUdrMXZfeTUyemlFZDhTcmZsMkZqSVFNdUpwbmpEOGVaZzZhQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:55:38,701 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:55:38,702 [INFO] Resolved Google News URL: https://solarquarter.com/2026/10/29/scatec-secures-217-million-financing-for-569-mw-solar-and-100-mw
+2026-10-29 13:55:38,702 [INFO] URL: https://solarquarter.com/2026/10/29/scatec-secures-217-million-financing-for-569-mw-solar-and-100-mwh-bess-project-in-egypt/
+2026-10-29 13:55:38,794 [INFO] Text length: 3167 chars | source: full
+2026-10-29 13:55:38,794 [INFO] Text preview: Scatec ASA has signed loan agreements to finance the first phase of the Dandara solar and battery energy storage project in Egypt and is commencing construction of the power plant. The project, also k...
+2026-10-29 13:55:38,794 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:55:48,201 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Scatec Secures $217 Million Financing For 569 MW Solar And 1
+2026-10-29 13:55:48,202 [INFO] LLM extracted 1 deals | Scatec Secures $217 Million Financing For 569 MW S
+2026-10-29 13:55:48,203 [INFO] Not a European deal — skipping: Egypt Aluminium / Scatec ASA (Egypt, 569 MW)
+2026-10-29 13:55:48,204 [INFO] ------- Processing article n. 1: Update: The EU Critical Medicines Act – Political Agreement Reached, Formal Adop -------
+2026-10-29 13:55:48,264 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAFBVV95cUxQelU2aWdXRmlTX2dnRGhaWE1Ma1RMTWJBcFVRYV9lNlYtVHQzaFJaYjhYNHl5aXhaWFFaeElMVUhnTUQ2WjVRMHQybEc1a1lnZ3dHUkIzSHRtalN6Um10YldNNnE2OUtEdnRPa3YxSTFxLTZfcm1rdWxCSmR0cE5zQS1lTHdRRkd1ZVU3cWRPZE15RmZwUHdrZE1pME1jYThiWWtXMDFnRnJ3V3RxTnBNMzZOYkNDSC1TdFFRb3pEQ0lwT2xWZ0syeWVfNEQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:55:49,346 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:55:49,347 [INFO] Resolved Google News URL: https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol
+2026-10-29 13:55:49,347 [INFO] URL: https://www.taylorwessing.com/de/international-life-sciences-newsletter/life-sciences-legal-lens-vol-3/the-eu-critical-medicines-act
+2026-10-29 13:55:54,538 [INFO] Text length: 6954 chars | source: full
+2026-10-29 13:55:54,538 [INFO] Text preview: Shortages of essential medicines – from antibiotics to oncology products – have exposed how heavily Europe’s pharmaceutical supply depends on a small number of manufacturing sites in third countries, ...
+2026-10-29 13:55:54,538 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:56:02,340 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Update: The EU Critical Medicines Act – Political Agreement 
+2026-10-29 13:56:02,340 [INFO] LLM extracted 1 deals | Update: The EU Critical Medicines Act – Political 
+2026-10-29 13:56:02,342 [INFO] Not a signed deal — skipping: Update: The EU Critical Medicines Act – Political Agreement 
+2026-10-29 13:56:02,342 [INFO] ------- Processing article n. 1: Scatec secures financing for solar and battery project in Egypt - EnergyWatch -------
+2026-10-29 13:56:02,415 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiakFVX3lxTFBjTk1hbWdkUnY5THlYNkxidUI1bDk2b25BU09lTnRBSmhvUVZVWWFtNVJjQUYtd0xLblRJMVIwT1RiVFBhenFPSi11MzgtbjNYTXJrSEdpOFRrUmZlNHRwQUtQRUtuaGhIZWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:56:03,512 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:56:03,513 [INFO] Resolved Google News URL: https://energywatch.com/EnergyNews/sun/article19781180.ece
+2026-10-29 13:56:03,513 [INFO] URL: https://energywatch.com/EnergyNews/sun/article19781180.ece
+2026-10-29 13:56:04,189 [WARNING] discarding data: https://energywatch.com/EnergyNews/sun/article19781180.ece
+2026-10-29 13:56:04,191 [INFO] Full text extraction empty: https://energywatch.com/EnergyNews/sun/article19781180.ece
+2026-10-29 13:56:04,191 [INFO] Text length: 167 chars | source: fallback
+2026-10-29 13:56:04,191 [INFO] Text preview: Scatec secures financing for solar and battery project in Egypt - EnergyWatch
+
+Scatec secures financing for solar and battery project in Egypt &nbsp;&nbsp; EnergyWatch...
+2026-10-29 13:56:04,192 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:56:17,557 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Scatec secures financing for solar and battery project in Eg
+2026-10-29 13:56:17,557 [INFO] LLM extracted 1 deals | Scatec secures financing for solar and battery pro
+2026-10-29 13:56:17,559 [INFO] Not a signed deal — skipping: Scatec secures financing for solar and battery project in Eg
+2026-10-29 13:56:17,559 [INFO] ------- Processing article n. 1: Statkraft inks Norwegian power play - reNEWS -------
+2026-10-29 13:56:17,624 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiekFVX3lxTE8wT3FIWTRXVzhIQW1RSFQ2UlpTMXhtQjNXZWUyWHIxbTNWSzJtanVzM1U5S3lneFhpeVdtd2ZOenpzdWQ4OGkyS0NkWnVuazJmeXVNc3dHYU9MTXdRcFJQQW5fNUlyZUx6QkduTmRMVTJEc0pGTXE3b3Z3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:56:18,725 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:56:18,726 [INFO] Resolved Google News URL: https://www.renews.biz/other-news/statkraft-inks-norwegian-power-play/
+2026-10-29 13:56:18,726 [INFO] URL: https://www.renews.biz/other-news/statkraft-inks-norwegian-power-play/
+2026-10-29 13:56:19,086 [INFO] Text length: 976 chars | source: full
+2026-10-29 13:56:19,086 [INFO] Text preview: Statkraft has signed a new long-term power purchase agreement to supply biorefining company Borregaard with 445GWh of electricity.
+Power deliveries will start on 1 November 2026 and continuing through...
+2026-10-29 13:56:19,086 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:56:32,867 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Statkraft inks Norwegian power play - reNEWS
+2026-10-29 13:56:32,868 [INFO] LLM extracted 1 deals | Statkraft inks Norwegian power play - reNEWS
+2026-10-29 13:56:32,884 [INFO] UPDATE: Borregaard / Statkraft (Norway, None MW) — canonical ID: 2054
+2026-10-29 13:56:37,885 [INFO] ------- Processing article n. 2: Hungary to stick with Orban-era nuclear cooperation deal with US - The Straits T -------
+2026-10-29 13:56:37,955 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQblBMUmdiZ1MteXVaV2libjRib1RydnJvd3VwR1M0eUtnUDFqOGZ3dnNCM0J3VzQ2RlRwQXpaM0o3MFFrSnVvQktTYkRmS0pzRXhXQ2tvbms3a2dwQ0h5LWtueHN3TGlmd0ZfbjRHVTlHUl9UMUE3d01nZ2lRbERFVFhFdGFhb1RNZFpjMFRjUko2UThmdEl0aTBNUU1Gb3p0b0UyNkpvbGNXQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:56:39,071 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:56:39,072 [INFO] Resolved Google News URL: https://www.straitstimes.com/world/europe/hungary-to-stick-with-orban-era-nuclear-cooperation-deal-w
+2026-10-29 13:56:39,072 [INFO] URL: https://www.straitstimes.com/world/europe/hungary-to-stick-with-orban-era-nuclear-cooperation-deal-with-us
+2026-10-29 13:56:39,195 [INFO] Text length: 2054 chars | source: full
+2026-10-29 13:56:39,195 [INFO] Text preview: Hungary to stick with Orban-era nuclear cooperation deal with US
+BUDAPEST, Oct 29 - Hungary's government has asked parliament to make legally binding a nuclear cooperation agreement with the United St...
+2026-10-29 13:56:39,195 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:56:48,183 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Hungary to stick with Orban-era nuclear cooperation deal wit
+2026-10-29 13:56:48,184 [INFO] LLM extracted 1 deals | Hungary to stick with Orban-era nuclear cooperatio
+2026-10-29 13:56:48,185 [INFO] Not a signed deal — skipping: Hungary to stick with Orban-era nuclear cooperation deal wit
+2026-10-29 13:56:48,185 [INFO] ------- Processing article n. 2: Earnings call transcript: Elkem Q3 2026 profit rises as margins stay under press -------
+2026-10-29 13:56:48,257 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMFcyczJkbWxtRGs5WGpUYkRRdGpZZFBNSVJXMGJSVzM4MEdUSGE3a18xZ0lXYmpVUFRlamVKRnlOcEZuLTR3alVncEJOZkprWUV6bUh4NWxBQUxxTUp1bmVMVW9xNURFNVRMMDRsSENCa0ZpenMyWGNQeVhONFlWSjV0Zldhck9HWDJVMXBOelpnSlV2OENxZEhOUWtKbDBIbEFDV1ZwdEZWc0FidHlGdHJCa2dXMHdVcy1iTXRsRGJ5VVRVamdQdDhUaE5qUVVQSk1mdkdyd3o0UG8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:56:49,345 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:56:49,346 [INFO] Resolved Google News URL: https://uk.investing.com/news/stock-market-news/earnings-call-transcript-elkem-q3-2026-profit-rises-
+2026-10-29 13:56:49,346 [INFO] URL: https://uk.investing.com/news/stock-market-news/earnings-call-transcript-elkem-q3-2026-profit-rises-as-margins-stay-under-pressure-93CH-4941036
+2026-10-29 13:56:49,383 [INFO] Full text skipped (status 403): https://uk.investing.com/news/stock-market-news/earnings-call-transcript-elkem-q
+2026-10-29 13:56:49,384 [INFO] Text length: 217 chars | source: fallback
+2026-10-29 13:56:49,384 [INFO] Text preview: Earnings call transcript: Elkem Q3 2026 profit rises as margins stay under pressure - Investing.com UK
+
+Earnings call transcript: Elkem Q3 2026 profit rises as margins stay under pressure &nbsp;&nbsp;...
+2026-10-29 13:56:49,384 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:57:03,615 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Earnings call transcript: Elkem Q3 2026 profit rises as marg
+2026-10-29 13:57:03,615 [INFO] LLM extracted 1 deals | Earnings call transcript: Elkem Q3 2026 profit ris
+2026-10-29 13:57:03,616 [INFO] Not a signed deal — skipping: Earnings call transcript: Elkem Q3 2026 profit rises as marg
+2026-10-29 13:57:03,616 [INFO] ------- Processing article n. 2: Borregaard ASA: Statkraft and Borregaard enter into 10-year power supply agreeme -------
+2026-10-29 13:57:03,681 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSlBHa04yUTRFZDR6MUdpTldqMWxkRk1IYWhjaXZDcUpvbWVhTjFtNTlMTjJsWXZzYng1dGhVeUVzSy1vZ1FPZ3o0QVdHNS1uWXlKRU1JZFdlTTctclFER1BrSm9OQ1ZNUHFiTXNkYUphcnVpZkR1djBwdDVNaE1BTlJDaXNqUkFkU2U3dUdObG9rS2lSb19KTV9vV2FNb3ZwZGtMV2NtenFlNk1xV2dDbHBteEJmT09BRG9ORGloLWRueWxlTUc5c1p2NDQyYjNHUzJtMVlLRGtxYTRkdUdrRGpFUWt0U2pKMTdWTTBsdTLSAfABQVVfeXFMT0pQR2tOMlE0RWQ0ejFHaU5XajFsZEZNSGFoY2l2Q3FKb21lYU4xbTU5TE4ybFl2c2J4NXRoVXlFc0stb2dRT2d6NEFXRzUtbll5SkVNSWRXZU03LXJRREdQa0pvTkNWTVBxYk1zZGFKYXJ1aWZEdXYwcHQ1TWhNQU5SQ2lzalJBZFNlN3VHTmxva0tpUm9fSk1fb1dhTW92cGRrTFdjbXpxZTZNcVdnQ2xwbXhCZk9PQURvTkRpaC1kbnlsZU1HOXNadjQ0MmIzR1MybTFZS0RrcWE0ZHVHa0RqRVFrdFNqSjE3Vk0wbHUy?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:57:04,769 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:57:04,770 [INFO] Resolved Google News URL: https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/borregaard-asa-statkraft-and-borre
+2026-10-29 13:57:04,770 [INFO] URL: https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/borregaard-asa-statkraft-and-borregaard-enter-into-10-year-power-supply-agreement/2457013/amp
+2026-10-29 13:57:04,936 [INFO] Text length: 2186 chars | source: full
+2026-10-29 13:57:04,936 [INFO] Text preview: Statkraft and Borregaard have entered into a new long-term power supply agreement. Deliveries will start on 1 November 2026 and continue until the end of 2036. The total volume is 445 GWh, covering ar...
+2026-10-29 13:57:04,936 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:57:18,131 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Borregaard ASA: Statkraft and Borregaard enter into 10-year 
+2026-10-29 13:57:18,131 [INFO] LLM extracted 1 deals | Borregaard ASA: Statkraft and Borregaard enter int
+2026-10-29 13:57:18,148 [INFO] UPDATE: Borregaard / Statkraft (Norway, None MW) — canonical ID: 2054
+2026-10-29 13:57:23,150 [INFO] ------- Processing article n. 3: LNG INSIGHT: Germany May Never Burn Much of the Canadian LNG It Buys - And That’ -------
+2026-10-29 13:57:23,221 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxNaTJWNzV1eWhFcjVRai1HR1U5a0dlMzkyaTljUXJ0SU1mZGlwbWNpcGdoVlcxRklkNVk5WHIya1pBNUNpbG5JVFJIdTRLS3l0N0FROXlWZmcyaEl0ekt3aERiR0JMQlVsQmRkRDh4TWpRUG9saVFmZjRlNXBYcDhjRnBUYnBvZndyTm1qNGlZNWdVbW4tRmsyZEtacFl4b0ZWQXdDRFVmMkNaT01Nb1k5TjNYMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:57:24,312 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:57:24,313 [INFO] Resolved Google News URL: https://energynow.ca/2026/06/insight-germany-may-never-burn-much-of-the-canadian-lng-it-buys-and-tha
+2026-10-29 13:57:24,313 [INFO] URL: https://energynow.ca/2026/06/insight-germany-may-never-burn-much-of-the-canadian-lng-it-buys-and-thats-the-point/
+2026-10-29 13:57:24,494 [INFO] Full text skipped (status 403): https://energynow.ca/2026/06/insight-germany-may-never-burn-much-of-the-canadian
+2026-10-29 13:57:24,495 [INFO] Text length: 219 chars | source: fallback
+2026-10-29 13:57:24,495 [INFO] Text preview: LNG INSIGHT: Germany May Never Burn Much of the Canadian LNG It Buys - And That’s the Point - EnergyNow
+
+LNG INSIGHT: Germany May Never Burn Much of the Canadian LNG It Buys - And That’s the Point &nb...
+2026-10-29 13:57:24,495 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:57:33,228 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: LNG INSIGHT: Germany May Never Burn Much of the Canadian LNG
+2026-10-29 13:57:33,229 [INFO] LLM extracted 1 deals | LNG INSIGHT: Germany May Never Burn Much of the Ca
+2026-10-29 13:57:33,230 [INFO] Not a signed deal — skipping: LNG INSIGHT: Germany May Never Burn Much of the Canadian LNG
+2026-10-29 13:57:33,230 [INFO] ------- Processing article n. 3: Viet Nam, Nordics push to turn new frameworks into business deals - Nhan Dan Onl -------
+2026-10-29 13:57:33,295 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDZUQmtrYk9OOUNTR0lXUDZmUHRJMUpiZmdFVUdtSm84YXZGaktNUDIwajIxUWdUcjhJcTVrTzUzR0NzWThCY0wwLW9YTUZWbHl6RC1mVXFVUzluRGRGZDNMd1VuOTVZSEZOTlI5ZWNrOW52SG5wME14OTJlY3RXSVRZYmRNb3BiRTRPOVlNS3p6LXJOamg0dlJ3REEtYUxSajVfYQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:57:34,398 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:57:34,399 [INFO] Resolved Google News URL: https://en.nhandan.vn/viet-nam-nordics-push-to-turn-new-frameworks-into-business-deals-post168419.ht
+2026-10-29 13:57:34,399 [INFO] URL: https://en.nhandan.vn/viet-nam-nordics-push-to-turn-new-frameworks-into-business-deals-post168419.html
+2026-10-29 13:57:36,374 [INFO] Text length: 3195 chars | source: full
+2026-10-29 13:57:36,374 [INFO] Text preview: It was spotlighted at the Nordic–Viet Nam Business Forum on October 29, part of the 2026 Autumn Economic Forum in Ho Chi Minh City.
+The forum, themed “The Next Growth Decade: Where Vietnamese Ambition...
+2026-10-29 13:57:36,374 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:57:47,302 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Viet Nam, Nordics push to turn new frameworks into business 
+2026-10-29 13:57:47,302 [INFO] LLM extracted 1 deals | Viet Nam, Nordics push to turn new frameworks into
+2026-10-29 13:57:47,304 [INFO] Not a signed deal — skipping: Viet Nam, Nordics push to turn new frameworks into business 
+2026-10-29 13:57:47,304 [INFO] ------- Processing article n. 3: EIB to provide up to $90 mln for Egypt’s Dandara solar, battery project - Energy -------
+2026-10-29 13:57:47,374 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wcW1yNGM3alY0dVZwVWNPNktjdk54aUdsQXo4VjVBbmtsVHhURUFaajFQVWRacWtZYm9VVzBTOTJOYjFOcG9iWmRyVWFua1RHMFZUTlI3ZDc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:57:48,473 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:57:48,474 [INFO] Resolved Google News URL: https://english.ahram.org.eg/News/581188.aspx
+2026-10-29 13:57:48,474 [INFO] URL: https://english.ahram.org.eg/News/581188.aspx
+2026-10-29 13:57:48,699 [INFO] Full text skipped (status 403): https://english.ahram.org.eg/News/581188.aspx
+2026-10-29 13:57:48,699 [INFO] Text length: 225 chars | source: fallback
+2026-10-29 13:57:48,699 [INFO] Text preview: EIB to provide up to $90 mln for Egypt’s Dandara solar, battery project - Energy - Business - Ahram Online
+
+EIB to provide up to $90 mln for Egypt’s Dandara solar, battery project - Energy - Business ...
+2026-10-29 13:57:48,699 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:58:02,498 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EIB to provide up to $90 mln for Egypt’s Dandara solar, batt
+2026-10-29 13:58:02,498 [INFO] LLM extracted 1 deals | EIB to provide up to $90 mln for Egypt’s Dandara s
+2026-10-29 13:58:02,500 [INFO] Not a signed deal — skipping: EIB to provide up to $90 mln for Egypt’s Dandara solar, batt
+2026-10-29 13:58:02,500 [INFO] ------- Processing article n. 3: Borregaard ASA: Reporting of transactions in Borregaard ASA's shares made by per -------
+2026-10-29 13:58:02,571 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgJBVV95cUxNQW01Z1RDVUtLcHlsYXYtYkVhd2lnU2JlMjk3LVVRa1oyQURsMjZRWTVQVi1BaTRoVUp2bjZJWnAwRXQ0WDJsMXhxOTdrbkZZR0JXbkhmNDJOZjhpOTcxLTFRUjNUN2dZc2F6cC1NRjFiLUpJSWV3ai03cGh3b0Nkc2dzX1pNRUo5TXVUV1dzTDhqb0FhZUNOTHMxTWdVZHFFUEgtZEtNUklNY1FMWlZGeGFiVG9GS2lwWWNra0pmMGNLcVB1OGFnUkkyVFBBeFF6X05YUDZhcFppS2ZjRlRid0RsS0w1cmlXNUEyQjB6TXlqU0NHWW1GTUI4cllneTlDazBDUUVHdWFSanRmWWlXS2g1RHRLZmdtZHJ5NzdYVkhYLWFvQlHSAaYCQVVfeXFMTUFtNWdUQ1VLS3B5bGF2LWJFYXdpZ1NiZTI5Ny1VUWtaMkFEbDI2UVk1UFYtQWk0aFVKdm42SVpwMEV0NFgybDF4cTk3a25GWUdCV25IZjQyTmY4aTk3MS0xUVIzVDdnWXNhenAtTUYxYi1KSUlld2otN3Bod29DZHNnc19aTUVKOU11VFdXc0w4am9BYWVDTkxzMU1nVWRxRVBILWRLTVJJTWNRTFpWRnhhYlRvRktpcFlja2tKZjBjS3FQdThhZ1JJMlRQQXhRel9OWFA2YXBaaUtmY0ZUYndEbEtMNXJpVzVBMkIwek15alNDR1ltRk1COHJZZ3k5Q2swQ1FFR3VhUmp0ZllpV0toNUR0S2ZnbWRyeTc3WFZIWC1hb0JR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:58:03,674 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:58:03,675 [INFO] Resolved Google News URL: https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/borregaard-asa-reporting-of-transa
+2026-10-29 13:58:03,675 [INFO] URL: https://www.manilatimes.net/2026/10/29/tmt-newswire/globenewswire/borregaard-asa-reporting-of-transactions-in-borregaard-asas-shares-made-by-person-discharging-managerial-responsibilities/2457022/amp
+2026-10-29 13:58:03,821 [INFO] Text length: 1122 chars | source: full
+2026-10-29 13:58:03,821 [INFO] Text preview: Magnus Krogh Ankarstrand, member of the board of Borregaard ASA, has on 29 October 2026 purchased 500 shares in Borregaard ASA at a price of NOK 154.70 per share. Following this transaction, Magnus Kr...
+2026-10-29 13:58:03,821 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:58:17,493 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Borregaard ASA: Reporting of transactions in Borregaard ASA'
+2026-10-29 13:58:17,493 [INFO] LLM extracted 1 deals | Borregaard ASA: Reporting of transactions in Borre
+2026-10-29 13:58:17,495 [INFO] Not a signed deal — skipping: Borregaard ASA: Reporting of transactions in Borregaard ASA'
+2026-10-29 13:58:17,495 [INFO] ------- Processing article n. 3: Jinko ESS powers 135MWh green battery energy storage project in Germany - Energy -------
+2026-10-29 13:58:17,558 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxPOGtJdkVuLTRaQ080U0drWE5BTFNvaUtoM1c3OW9yaXlMaGJfaUJiYmg4eEVjaGZOVjN1UVRTM2J4Vm1kM2h5eWRjOHRERHhucmJRRlpxeUhaMlo2SzlIUHlmUVFWdnIxVTlLbVFBSWR2MVlLenNBanlmVFhjcUc0T3VnOXk3RmtPbWJGWGFLQnI3d0NoelphTWhWcHRwTF9BQWM3MjZoWEpTMnN6SW1UOWJUQ09FUjRrcF81bDlR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:58:18,649 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:58:18,650 [INFO] Resolved Google News URL: https://www.energy-storage.news/industry-updates/jinko-ess-powers-135mwh-green-battery-energy-storag
+2026-10-29 13:58:18,650 [INFO] URL: https://www.energy-storage.news/industry-updates/jinko-ess-powers-135mwh-green-battery-energy-storage-project-in-germany/
+2026-10-29 13:58:18,756 [INFO] Full text skipped (status 403): https://www.energy-storage.news/industry-updates/jinko-ess-powers-135mwh-green-b
+2026-10-29 13:58:18,756 [INFO] Text length: 199 chars | source: fallback
+2026-10-29 13:58:18,756 [INFO] Text preview: Jinko ESS powers 135MWh green battery energy storage project in Germany - Energy-Storage.News
+
+Jinko ESS powers 135MWh green battery energy storage project in Germany &nbsp;&nbsp; Energy-Storage.News...
+2026-10-29 13:58:18,756 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:58:32,961 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Jinko ESS powers 135MWh green battery energy storage project
+2026-10-29 13:58:32,962 [INFO] LLM extracted 1 deals | Jinko ESS powers 135MWh green battery energy stora
+2026-10-29 13:58:32,964 [INFO] Not a signed deal — skipping: Jinko ESS powers 135MWh green battery energy storage project
+2026-10-29 13:58:32,964 [INFO] ------- Processing article n. 3: Scatec advances 1-GW Egypt hybrid with central bank as 20% partner - Renewables  -------
+2026-10-29 13:58:33,038 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHVvdDNvcW1GLU5wcGhrdWVjNGxNRTcybFNoSHljNFhNeVhTSjA5aDg0cnU5X2RtVXNpRHFnSFJGc2xudDJXaEpwcmdVNmVjR2hWbnNiMXpBeWUycWFwWE5VLVhSVXd5a0kxUkpjcWllTGV5ZzlZSldZMFhuUXZPUXU4bDFUUlVzU2NHdTVtQzJoMUtiZGYteGh2X21kRng4dkZaLWFJeUc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:58:34,143 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:58:34,143 [INFO] Resolved Google News URL: https://renewablesnow.com/news/scatec-advances-1-gw-egypt-hybrid-with-central-bank-as-20-partner-130
+2026-10-29 13:58:34,143 [INFO] URL: https://renewablesnow.com/news/scatec-advances-1-gw-egypt-hybrid-with-central-bank-as-20-partner-1303906/
+2026-10-29 13:58:34,247 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/scatec-advances-1-gw-egypt-hybrid-with-central-ba
+2026-10-29 13:58:34,247 [INFO] Text length: 179 chars | source: fallback
+2026-10-29 13:58:34,247 [INFO] Text preview: Scatec advances 1-GW Egypt hybrid with central bank as 20% partner - Renewables Now
+
+Scatec advances 1-GW Egypt hybrid with central bank as 20% partner &nbsp;&nbsp; Renewables Now...
+2026-10-29 13:58:34,247 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:58:47,453 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Scatec advances 1-GW Egypt hybrid with central bank as 20% p
+2026-10-29 13:58:47,453 [INFO] LLM extracted 1 deals | Scatec advances 1-GW Egypt hybrid with central ban
+2026-10-29 13:58:47,455 [INFO] Not a signed deal — skipping: Scatec advances 1-GW Egypt hybrid with central bank as 20% p
+2026-10-29 13:58:47,455 [INFO] ------- Processing article n. 3: Bright Sunday raises EUR 6m for solar, battery investments - Renewables Now -------
+2026-10-29 13:58:47,523 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxQbHJTMkpQUGtjYnVjNUNya0NEUi1hejg1eDRmVkRMVG5HWEtPU0V5RUZ4M0FxNFhKcFdXSGdPNlJ1OGhVWHJnWmlDSkNzYWVvM3J5WnBFU0lHRmpMZEhTa1J6d2JPMHF2ZWJscnF0emowTm5Nc2dVUFBjZy1BZmI2VzRRd2k1WjQ0LTBneVFxOGptd2tfM1pTMVRWQzlzZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:58:48,621 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:58:48,622 [INFO] Resolved Google News URL: https://renewablesnow.com/news/bright-sunday-raises-eur-6m-for-solar-battery-investments-1303883/
+2026-10-29 13:58:48,622 [INFO] URL: https://renewablesnow.com/news/bright-sunday-raises-eur-6m-for-solar-battery-investments-1303883/
+2026-10-29 13:58:48,743 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/bright-sunday-raises-eur-6m-for-solar-battery-inv
+2026-10-29 13:58:48,743 [INFO] Text length: 163 chars | source: fallback
+2026-10-29 13:58:48,743 [INFO] Text preview: Bright Sunday raises EUR 6m for solar, battery investments - Renewables Now
+
+Bright Sunday raises EUR 6m for solar, battery investments &nbsp;&nbsp; Renewables Now...
+2026-10-29 13:58:48,743 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:59:02,523 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Bright Sunday raises EUR 6m for solar, battery investments -
+2026-10-29 13:59:02,523 [INFO] LLM extracted 1 deals | Bright Sunday raises EUR 6m for solar, battery inv
+2026-10-29 13:59:02,525 [INFO] Not a signed deal — skipping: Bright Sunday raises EUR 6m for solar, battery investments -
+2026-10-29 13:59:02,525 [INFO] ------- Processing article n. 3: Nucléaire flottant : Rosatom négocie avec quatre pays africains et signe un acco -------
+2026-10-29 13:59:02,601 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUR6dndHaWdaekh0NHE4R2tYczViN203MDN6RHhFYjg2RFJ5Z2ZHeFZMblIzNnVCQUEyV0ZnWjQwV1FreUVlVDNsYnoxZDhHQkdxbk8wOENPdlZHUE9rSThwTW0tS29yM3NhdjIzM1dNUHMzU0ZrQU9aQVVFWFphbmlXMXNUMDdEbVhuOE1JTWFseURsa1R5RA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:59:03,691 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:59:03,691 [INFO] Resolved Google News URL: https://lenergeek.com/2026/10/29/rosatom-nucleaire-flottant-afrique-togo-accord-octobre-2026/
+2026-10-29 13:59:03,691 [INFO] URL: https://lenergeek.com/2026/10/29/rosatom-nucleaire-flottant-afrique-togo-accord-octobre-2026/
+2026-10-29 13:59:04,066 [INFO] Text length: 4267 chars | source: full
+2026-10-29 13:59:04,066 [INFO] Text preview: Rosatom veut faire du nucléaire flottant une nouvelle porte d’entrée sur les marchés électriques africains. Le groupe public russe a indiqué le 28 octobre 2026, pendant le sommet Russie-Afrique de Mos...
+2026-10-29 13:59:04,066 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:59:18,205 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Nucléaire flottant : Rosatom négocie avec quatre pays africa
+2026-10-29 13:59:18,206 [INFO] LLM extracted 1 deals | Nucléaire flottant : Rosatom négocie avec quatre p
+2026-10-29 13:59:18,207 [INFO] Not a signed deal — skipping: Nucléaire flottant : Rosatom négocie avec quatre pays africa
+2026-10-29 13:59:18,207 [INFO] ------- Processing article n. 3: L'État veut revenir sur des tarifs de rachat solaire signés pour 20 ans : votre  -------
+2026-10-29 13:59:18,278 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxOd1lfQ0g1azdkRndlelZ6NF81WnZ3RXJIczktQ1hBcUF2UGVzZ01vRFdJZXZwZjFJNHNuNXV4bzJsczhHYkQ5RnJHNDBBR0xGZzlMY1FXVmswN21BME9GanBhemtEVTRGMXowUzlZVm1JdVJ6OWhoVmNPR3J6REt5UlhuY1ZTLWx6RVZaN3ZoNGpyelp3cHVhS2hUMmhXZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:59:19,399 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:59:19,399 [INFO] Resolved Google News URL: https://selectra.info/energie/actualites/marche/budget-2027-panneaux-solaires-tarif-achat-300-kwc
+2026-10-29 13:59:19,399 [INFO] URL: https://selectra.info/energie/actualites/marche/budget-2027-panneaux-solaires-tarif-achat-300-kwc
+2026-10-29 13:59:19,697 [INFO] Text length: 6636 chars | source: full
+2026-10-29 13:59:19,697 [INFO] Text preview: Le budget 2027 ne s'en prend qu'aux tarifs de rachat solaire des grosses installations. Il baisserait ceux des contrats récents dès 300 kWc et résilierait les contrats de 2006 et 2010 au-dessus de 250...
+2026-10-29 13:59:19,698 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:59:32,452 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: L'État veut revenir sur des tarifs de rachat solaire signés 
+2026-10-29 13:59:32,453 [INFO] LLM extracted 1 deals | L'État veut revenir sur des tarifs de rachat solai
+2026-10-29 13:59:32,454 [INFO] Not a signed deal — skipping: L'État veut revenir sur des tarifs de rachat solaire signés 
+2026-10-29 13:59:32,454 [INFO] ------- Processing article n. 3: Entech signe un contrat de stockage de 170 MW en Belgique avec Eiffage - pv maga -------
+2026-10-29 13:59:32,531 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxNUDVtanJCYm5INWd5YVJDTjJZN0ljUjZ3ZDNDREZBYWdHLW1KTXR0ZG13RW9RRndNLUVZanlNYVRXaUJibDJGVWhPMFJlOXZDazNKa3F3dnI5aHJRYmxoTnc4VGRaSFBtVFlzWlBuaGVWai0xN25kdk9yYkctcjhBdmFUU3dJV0x6U3ptR01OVG0yck5FdXRHVzBRa2o1dFZkdXJERW5MOC1SYnNUMUE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:59:33,630 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:59:33,631 [INFO] Resolved Google News URL: https://www.pv-magazine.fr/2026/10/29/entech-signe-un-contrat-de-stockage-de-170-mw-en-belgique-avec
+2026-10-29 13:59:33,631 [INFO] URL: https://www.pv-magazine.fr/2026/10/29/entech-signe-un-contrat-de-stockage-de-170-mw-en-belgique-avec-eiffage/
+2026-10-29 13:59:34,094 [INFO] Text length: 2441 chars | source: full
+2026-10-29 13:59:34,094 [INFO] Text preview: Entech, société quimpéroise active dans le stockage et le pilotage des EnR, annonce la construction d’une unité de stockage par batteries de 170 MW / 340 MWh à La Louvière, en Belgique, dans le cadre ...
+2026-10-29 13:59:34,094 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 13:59:47,747 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Entech signe un contrat de stockage de 170 MW en Belgique av
+2026-10-29 13:59:47,748 [INFO] LLM extracted 1 deals | Entech signe un contrat de stockage de 170 MW en B
+2026-10-29 13:59:47,749 [INFO] Not a signed deal — skipping: Entech signe un contrat de stockage de 170 MW en Belgique av
+2026-10-29 13:59:47,749 [INFO] ------- Processing article n. 3: Lhyfe : perte semestrielle réduite à 20,1 M€, trésorerie consommée de 29,5 M€ -  -------
+2026-10-29 13:59:47,813 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaVRPTWE4YXljVUFuMmVzdHQ0V1Jhc3h0Y0JKUnNIajVMZFNVSFJyaGJ0MGFwQTkzYXBtLXdUSmhMdTZyZ1dqZHF1RlFMTUNENVA1TmNEaEFPdDhKaXRsZ0N3QVU4RE9lZVhndDNUX2VJTTNaX0phNTE2TGVzZGpUWmdjVjhFdmZ1R1IxYm9YSGVJdmUtbENCZklEY3VSOURUSThrbjFlQXdMZW5XTkpsTTA2WFk1WGQwR1NmNk9JUG9RTG8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 13:59:48,916 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 13:59:48,917 [INFO] Resolved Google News URL: https://www.ideal-investisseur.fr/actions-b/lhyfe-perte-semestrielle-reduite-a-201-m-tresorerie-cons
+2026-10-29 13:59:48,917 [INFO] URL: https://www.ideal-investisseur.fr/actions-b/lhyfe-perte-semestrielle-reduite-a-201-m-tresorerie-consommee-de-295-m/28130.html
+2026-10-29 13:59:50,140 [INFO] Text length: 3192 chars | source: full
+2026-10-29 13:59:50,140 [INFO] Text preview: Perte d'exploitation ramenée à 17,6 M€, EBITDA ajusté stable
+Le chiffre d'affaires du premier semestre 2026 s'établit à 4,7 M€, contre 4,6 M€ un an plus tôt. Cette stabilité recouvre deux mouvements o...
+2026-10-29 13:59:50,140 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:00:04,060 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Lhyfe : perte semestrielle réduite à 20,1 M€, trésorerie con
+2026-10-29 14:00:04,060 [INFO] LLM extracted 1 deals | Lhyfe : perte semestrielle réduite à 20,1 M€, trés
+2026-10-29 14:00:04,062 [INFO] Not a signed deal — skipping: Lhyfe : perte semestrielle réduite à 20,1 M€, trésorerie con
+2026-10-29 14:00:04,062 [INFO] ------- Processing article n. 3: Togo : la Russie propose des centrales nucléaires flottantes - www.africactu.com -------
+2026-10-29 14:00:04,124 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxNd2J3ZThyNkwzakZFdDRLMXFZRUdpQjkxR1FvY3BPV2xNdlZ6RHM3TnJ2YU1GYkxQbFpuOGtuOXBuSDZZTlRKYXo5OVIwcWpua3NnSWdscTdMQXprWWc2eFhTVG41LVZtclBFOVM0amR5WVJLQjRKZTViQUNMNzlLVkwxUFZSeFFLMl8yeHZEZXBEZkV1SDJsSA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:00:05,221 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:00:05,221 [INFO] Resolved Google News URL: https://www.africactu.com/afrique/togo-la-russie-propose-des-centrales-nucleaires-flottantes/
+2026-10-29 14:00:05,221 [INFO] URL: https://www.africactu.com/afrique/togo-la-russie-propose-des-centrales-nucleaires-flottantes/
+2026-10-29 14:00:06,961 [INFO] Text length: 5275 chars | source: full
+2026-10-29 14:00:06,961 [INFO] Text preview: Le Togo pourrait produire de l’électricité grâce à des centrales nucléaires flottantes développées par la Russie. Un accord signé le 28 octobre 2026 avec le groupe public russe Rosatom ouvre la voie à...
+2026-10-29 14:00:06,961 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:00:20,030 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Togo : la Russie propose des centrales nucléaires flottantes
+2026-10-29 14:00:20,031 [INFO] LLM extracted 1 deals | Togo : la Russie propose des centrales nucléaires 
+2026-10-29 14:00:20,032 [INFO] Not a signed deal — skipping: Togo : la Russie propose des centrales nucléaires flottantes
+2026-10-29 14:00:20,032 [INFO] ------- Processing article n. 3: Google financiará que hogares y empresas gasten menos luz en los picos: así es l -------
+2026-10-29 14:00:20,100 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxNandUMmNSMkREUUR2c3V3ZDFSa0dYWXFtSTdPbG9jMFVUMnE0YkVVZ2o2M0pjV1JBTjl0RThuRkc4Nk02TUZVUXVuSkktYmhDVkxIRGJXWU9iR0pUSHFhRFpUeDVGSmlzMU9kVlM2Ym1FcThFYkJha2NGdGV2VmtPaXV5YmpvR0N5LUZxbXRZaGNZR2w4NnptTXZjONIBmwFBVV95cUxNandUMmNSMkREUUR2c3V3ZDFSa0dYWXFtSTdPbG9jMFVUMnE0YkVVZ2o2M0pjV1JBTjl0RThuRkc4Nk02TUZVUXVuSkktYmhDVkxIRGJXWU9iR0pUSHFhRFpUeDVGSmlzMU9kVlM2Ym1FcThFYkJha2NGdGV2VmtPaXV5YmpvR0N5LUZxbXRZaGNZR2w4NnptTXZjOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:00:21,196 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:00:21,197 [INFO] Resolved Google News URL: https://okdiario.com/techy/central-electrica-virtual-google-voltus-1-gigavatio-pjm-20640969/amp
+2026-10-29 14:00:21,197 [INFO] URL: https://okdiario.com/techy/central-electrica-virtual-google-voltus-1-gigavatio-pjm-20640969/amp
+2026-10-29 14:00:22,355 [INFO] Text length: 7128 chars | source: full
+2026-10-29 14:00:22,355 [INFO] Text preview: Google financiará que hogares y empresas gasten menos luz en los picos: así es la central eléctrica virtual de 1 gigavatio que levanta con Voltus en EEUU
+La red PJM abastece a más de 67 millones de pe...
+2026-10-29 14:00:22,355 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:00:34,649 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Google financiará que hogares y empresas gasten menos luz en
+2026-10-29 14:00:34,650 [INFO] LLM extracted 1 deals | Google financiará que hogares y empresas gasten me
+2026-10-29 14:00:34,651 [INFO] Not a signed deal — skipping: Google financiará que hogares y empresas gasten menos luz en
+2026-10-29 14:00:34,651 [INFO] ------- Processing article n. 3: Carrefour instalará marquesinas fotovoltaicas en los aparcamientos - Distribució -------
+2026-10-29 14:00:34,711 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2NYbnJaVHYtbFNnakZGakoya2dpRFd6UGRSMUVYemVNQk1ucHJMTEdWckNiWE1vRTNTTmt0Zzk5NzU4MnR1cVp3Q1Z1anVkSHBMYTluSkwtWDlBUFVmcGQzeGota2RNR3VwNkNhdnBmbG9aTzE3eGhaTzBwbEZqRjRsMEllbnZUdG5MQ1VXdVkzaW9wODFOclJwQmZNeFk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:00:35,799 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:00:35,800 [INFO] Resolved Google News URL: https://distribucionactualidad.com/carrefour-instalara-marquesinas-fotovoltaicas-en-aparcamientos/
+2026-10-29 14:00:35,800 [INFO] URL: https://distribucionactualidad.com/carrefour-instalara-marquesinas-fotovoltaicas-en-aparcamientos/
+2026-10-29 14:00:35,884 [INFO] Text length: 2231 chars | source: full
+2026-10-29 14:00:35,884 [INFO] Text preview: Carrefour Property ha firmado un acuerdo con Greenvolt Next, especializada en soluciones de energía renovable para los sectores comercial e industrial, para instalar marquesinas fotovoltaicas en los a...
+2026-10-29 14:00:35,885 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:00:48,952 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Carrefour instalará marquesinas fotovoltaicas en los aparcam
+2026-10-29 14:00:48,953 [INFO] LLM extracted 1 deals | Carrefour instalará marquesinas fotovoltaicas en l
+2026-10-29 14:00:48,969 [INFO] UPDATE: Carrefour Property / Greenvolt Next (France, 25 MW) — canonical ID: 2052
+2026-10-29 14:00:53,970 [INFO] ------- Processing article n. 4: Fabián Cáceres advierte de crisis energética y el futuro de Itaipú tras eleccion -------
+2026-10-29 14:00:54,034 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5gFBVV95cUxOa2tMTHhLa0dXM1gwX09BV1FoWnh4Q05fVGQtM2pnWG1uWlk1N2hzWFNqNTVuR2Z2TFlESHdMaTJLcU53MG1YbU5QRm52cVBYQTJVaktDYVRWSmxXblJtaFd2VkRqQTVKZWRzTTR4THpxc2tkOEh1dmd5bUZxdUR2X1hZOEdKU2o4MzdCRHVnVHdlN2g5WHdBU3dWLUtRWUQ2dDM0NXVHTFFSMFpzNWdjXzQ3R05FUGt2dGdvWnZ6VS1lR1JuTFJDVFczb3NhM1pfcTlCZURIVUhodlVqU3JUZTlUNzBvQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:00:55,111 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:00:55,112 [INFO] Resolved Google News URL: https://www.latribuna.com.py/negocios/economia/2026/10/29/fabian-caceres-advierte-de-crisis-energeti
+2026-10-29 14:00:55,112 [INFO] URL: https://www.latribuna.com.py/negocios/economia/2026/10/29/fabian-caceres-advierte-de-crisis-energetica-y-el-futuro-de-itaipu-tras-elecciones-en-brasil/
+2026-10-29 14:00:55,387 [INFO] Text length: 2349 chars | source: full
+2026-10-29 14:00:55,387 [INFO] Text preview: El exgerente de la Administración Nacional de Electricidad (ANDE), Fabián Cáceres, analizó durante una entrevista a La Tribu 650 AM, el panorama de las negociaciones energéticas con Brasil. Al compara...
+2026-10-29 14:00:55,387 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:01:03,895 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Fabián Cáceres advierte de crisis energética y el futuro de 
+2026-10-29 14:01:03,896 [INFO] LLM extracted 1 deals | Fabián Cáceres advierte de crisis energética y el 
+2026-10-29 14:01:03,897 [INFO] Not a signed deal — skipping: Fabián Cáceres advierte de crisis energética y el futuro de 
+2026-10-29 14:01:03,897 [INFO] ------- Processing article n. 4: Power Expectations asegura que “carga con la culpa de las fallas de AEE” - El Vo -------
+2026-10-29 14:01:03,959 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7wFBVV95cUxQXzdjdHFlWTBCanRWelJ2TnJQR2hUeDlxRjRXUkU1cFFmYXhPMFllUDd1WnZ6dVhZVXYzWnNkbkFlX0lzd1dxWkxoWUlGaWtacUdpX2VPQ0ItSHNFQjhpZ29ockZFY1U4M25aUmwxdHF3cXBDenozSWpFWndsZkFzbGlSR2x6TG4yVGJ2SXQ3WWdvTzNFRm1mUEZRSVVSQzZ0MG5Pb2kydzNkRDh6WFVmMnFZZDVGLW1EZ1lzRlA4S3FkS1d3T1UtbURSUl94clNJMExGbDViNGpQSGZUVUlDSndRa01fLVVxYkxNREpEY9IB7wFBVV95cUxQXzdjdHFlWTBCanRWelJ2TnJQR2hUeDlxRjRXUkU1cFFmYXhPMFllUDd1WnZ6dVhZVXYzWnNkbkFlX0lzd1dxWkxoWUlGaWtacUdpX2VPQ0ItSHNFQjhpZ29ockZFY1U4M25aUmwxdHF3cXBDenozSWpFWndsZkFzbGlSR2x6TG4yVGJ2SXQ3WWdvTzNFRm1mUEZRSVVSQzZ0MG5Pb2kydzNkRDh6WFVmMnFZZDVGLW1EZ1lzRlA4S3FkS1d3T1UtbURSUl94clNJMExGbDViNGpQSGZUVUlDSndRa01fLVVxYkxNREpEYw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:01:05,057 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:01:05,058 [INFO] Resolved Google News URL: https://www.elvocero.com/gobierno/power-expectations-asegura-que-carga-con-la-culpa-de-las-fallas-de
+2026-10-29 14:01:05,058 [INFO] URL: https://www.elvocero.com/gobierno/power-expectations-asegura-que-carga-con-la-culpa-de-las-fallas-de-aee/article_467c1503-2d1b-4ddf-b81c-2057cd77d98d.amp.html
+2026-10-29 14:01:05,172 [INFO] Text length: 4300 chars | source: full
+2026-10-29 14:01:05,172 [INFO] Text preview: Power Expectations LLC insistió en su reclamo para que se le prohíba a la Autoridad de Energía Eléctrica (AEE) buscar otras empresas que puedan interconectarse a la Central Aguirre para proveer 400 me...
+2026-10-29 14:01:05,172 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:01:19,187 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Power Expectations asegura que “carga con la culpa de las fa
+2026-10-29 14:01:19,188 [INFO] LLM extracted 1 deals | Power Expectations asegura que “carga con la culpa
+2026-10-29 14:01:19,189 [INFO] Not a signed deal — skipping: Power Expectations asegura que “carga con la culpa de las fa
+2026-10-29 14:01:19,189 [INFO] ------- Processing article n. 4: Qualitas Energy cierra la financiación de 840 megavatios hora de almacenamiento  -------
+2026-10-29 14:01:19,257 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxPU2xwOVc0c0FTMnVkRlNxYkdTaWw5bjJJSlNOVWNPTjFiUS1zT2V2dXNrWkFNU21SVllhVENXc1NTSkRpOU5uemt4eWwwTUNqWTZIRzZWX1E3S3VTRHVxcHhQTmdzNS0tTXZrS3ppakVYeWk2bl9wM3BwbWZZcW1fOHgyQUNHZWFPWm50MC15bHVLcEFQOXE0UmJhbw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:01:20,366 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:01:20,366 [INFO] Resolved Google News URL: https://www.energias-renovables.com/panorama/qualitas-energy-cierra-la-financiaci-n-de-20261029
+2026-10-29 14:01:20,367 [INFO] URL: https://www.energias-renovables.com/panorama/qualitas-energy-cierra-la-financiaci-n-de-20261029
+2026-10-29 14:01:20,829 [INFO] Text length: 3034 chars | source: full
+2026-10-29 14:01:20,830 [INFO] Text preview: Qualitas Energy, plataforma global especializada en "inversión y gestión con un enfoque dual en la financiación y el desarrollo de energías renovables, transición energética e infraestructuras sosteni...
+2026-10-29 14:01:20,830 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:01:32,539 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Qualitas Energy cierra la financiación de 840 megavatios hor
+2026-10-29 14:01:32,539 [INFO] LLM extracted 1 deals | Qualitas Energy cierra la financiación de 840 mega
+2026-10-29 14:01:32,541 [INFO] Not a signed deal — skipping: Qualitas Energy cierra la financiación de 840 megavatios hor
+2026-10-29 14:01:32,541 [INFO] ------- Processing article n. 4: Qualitas Energy logra 257 millones para renovables y baterías en Chile - energel -------
+2026-10-29 14:01:32,643 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxQbGFYZm05ZER4UmNhMGJ2S1NVVWUzak5iU0tPRGpvaWxGbFR4UHV4NXpGUVdacDdWQzJCQjRpRkZ1ZFozUXcxVGlkR1hLZE1qUnJSdmRNVU9BN240TTdHWG9faFQwbkhGLXN5eHpCMUMzaEphSEdDbVFtd2JoQUxFb1R5dGtuSU9CRGtGeXlsWW9XNGpQZHR1Vl9ROEgtYVRuN0dBN0tuRXlGZkRUbFE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:01:33,751 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:01:33,751 [INFO] Resolved Google News URL: https://energelia.com/otras-fuentes/qualitas-energy-financiacion-257-millones-renovables-almacenamie
+2026-10-29 14:01:33,752 [INFO] URL: https://energelia.com/otras-fuentes/qualitas-energy-financiacion-257-millones-renovables-almacenamiento-chile
+2026-10-29 14:01:34,201 [INFO] Text length: 4486 chars | source: full
+2026-10-29 14:01:34,201 [INFO] Text preview: Qualitas Energy logra 257 millones para renovables y baterías en Chile
+Una financiación verde de 257 millones para diversificar tecnologías
+La plataforma de inversión en renovables Qualitas Energy ha ...
+2026-10-29 14:01:34,201 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:01:47,485 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Qualitas Energy logra 257 millones para renovables y batería
+2026-10-29 14:01:47,485 [INFO] LLM extracted 1 deals | Qualitas Energy logra 257 millones para renovables
+2026-10-29 14:01:47,487 [INFO] Not a signed deal — skipping: Qualitas Energy logra 257 millones para renovables y batería
+2026-10-29 14:01:47,487 [INFO] ------- Processing article n. 4: El precio PPA solar en España cae un 7,7% hasta 30,93 €/MWh y los híbridos con b -------
+2026-10-29 14:01:47,552 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMif0FVX3lxTE91TjdnRTc2VFNwbUZudjFHaHMzUG5kMWVsMXVVLVl3cEE1QkcxWDI5eE9MQ1dwb2hKb1VrNE1acnRwRWJaVEFsM3piNE0ta0tjZXEwTjZrNEtsVUh2SF9QcnF3M0gyUDQxUm9kejlHYktXSFU1STBtSUUyendkZEU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:01:48,655 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:01:48,656 [INFO] Resolved Google News URL: https://www.merca2.es/2026/10/29/precio-ppa-solar-espana-baterias-2486743/
+2026-10-29 14:01:48,656 [INFO] URL: https://www.merca2.es/2026/10/29/precio-ppa-solar-espana-baterias-2486743/
+2026-10-29 14:01:48,865 [INFO] Text length: 6388 chars | source: full
+2026-10-29 14:01:48,865 [INFO] Text preview: El precio PPA solar en España cae un 7,7% interanual hasta 30,93 €/MWh en el tercer trimestre de 2026, mientras los contratos híbridos con baterías alcanzan 48 €/MWh, según LevelTen Energy.
+Vamos a lo...
+2026-10-29 14:01:48,865 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:02:05,386 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: El precio PPA solar en España cae un 7,7% hasta 30,93 €/MWh 
+2026-10-29 14:02:05,386 [INFO] LLM extracted 1 deals | El precio PPA solar en España cae un 7,7% hasta 30
+2026-10-29 14:02:05,388 [INFO] Not a signed deal — skipping: El precio PPA solar en España cae un 7,7% hasta 30,93 €/MWh 
+2026-10-29 14:02:05,388 [INFO] ------- Processing article n. 4: Adamietz Warszawa generalnym wykonawcą inwestycji Aleje 138. Umowa o wartości 29 -------
+2026-10-29 14:02:05,457 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi_AFBVV95cUxPaHF6WXlwZzZsUUt0eklfVE1zdHRRYjdlTVBrcHlPSnp3eHk5anBEWHVlMzlHbHFXZ3QzVHlOdGMtZ3NUNTRhUnhWV2JvSjkxTzJYRDJjbnFaTFVnQ25DRUpZamFOQUJlcEd3bVVDRUt5Nm9SanNaZFZqOUpYZnI4aWxIblJTVEpNamtUUVhFNlY4Z25yZXBCM3VEQ0JsWE9RaXNCa3BWb1lNZDQtT1Facm9vaEw0VUQzeFVnX2EyY29ESkRhckZGNmE3elI1X2MwcEJ5elFHTExfZy0yN2dDV3k0MnU3a0ctOFA0ZDhtNTcwT01Zbm5RV0ozNFo?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-10-29 14:02:06,548 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-10-29 14:02:06,549 [INFO] Resolved Google News URL: https://www.rp.pl/nieruchomosci-mieszkaniowe/art45415881-adamietz-warszawa-generalnym-wykonawca-inwe
+2026-10-29 14:02:06,549 [INFO] URL: https://www.rp.pl/nieruchomosci-mieszkaniowe/art45415881-adamietz-warszawa-generalnym-wykonawca-inwestycji-aleje-138-umowa-o-wartosci-295-mln-zl-netto-zostala-podpisana
+2026-10-29 14:02:06,899 [INFO] Text length: 6004 chars | source: full
+2026-10-29 14:02:06,899 [INFO] Text preview: Przedmiotem umowy jest kompleksowa realizacja budynku mieszkalnego wielorodzinnego z częścią usługową, garażem podziemnym oraz niezbędną infrastrukturą techniczną. W ramach największego projektu apart...
+2026-10-29 14:02:06,899 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-10-29 14:02:17,651 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Adamietz Warszawa generalnym wykonawcą inwestycji Aleje 138.
+2026-10-29 14:02:17,652 [INFO] LLM extracted 1 deals | Adamietz Warszawa generalnym wykonawcą inwestycji 
+2026-10-29 14:02:17,654 [INFO] Not a signed deal — skipping: Adamietz Warszawa generalnym wykonawcą inwestycji Aleje 138.
+2026-10-29 14:02:17,654 [INFO] Run complete. New deals: 1, Updates: 3
+2026-10-29 14:02:17,672 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1520 deals)
+2026-10-29 14:02:32,662 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-10-29 14:02:32,662 [INFO] Email log summary generated by groq-120b
+2026-10-29 14:02:34,410 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
