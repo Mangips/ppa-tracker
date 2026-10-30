@@ -442,9 +442,11 @@ Analyze the text below and:
 4. If NO signed deals are found, return:
 {{"deals":[{{"is_signed_deal":false,...}}]}}
 5. If signed, `is_european` must reflect where the ENERGY IS DELIVERED, not where the companies are based.
-6. If an article describes multiple individual deals, extract EACH separately with its own capacity. Do NOT also extract an aggregate/summary entry. If you cannot determine the capacity of an individual deal, use null — but never create a summary row that combines multiple deals into one.
-7. Distinguish a PPA deal from an M&A / asset transaction. A signed PPA deal is a NEW offtake contract in which a buyer agrees to purchase electricity, capacity, or certificates from a seller under specific terms (price, volume, or tenure). It is NOT a plant/portfolio acquisition, divestment, financing round, refinancing, or equity/company sale — even if the acquired asset already has a PPA attached, and even if the article mentions "PPA" and a capacity in MW. If the core event described is a change of ownership of the plant, project, or company rather than a newly negotiated offtake agreement, set `is_signed_deal` to `false` and `transaction_type` to `"acquisition"`.
-8. A PPA is specifically an ELECTRICITY (or renewable energy certificate) offtake agreement. Do NOT extract gas, LNG, hydrogen, or other non-electricity commodity supply contracts, even if the source article loosely uses the word "PPA" or describes a long-term energy supply agreement. If the agreement is not for electricity/certificates, set `is_signed_deal` to `false` and `transaction_type` to `"other"`.
+6. If an article describes multiple individual PPAs, extract EACH signed agreement separately, even when the buyer and seller are the same. Different named plants, parks, projects, locations, or capacities may be separate contracts. Do not combine them because the counterparties are shared.
+7. Do NOT also extract an aggregate/summary entry when the article separately identifies the component PPAs. If the article gives only a portfolio-level contract and does not describe separate contracts, extract the portfolio once and make that scope clear in notes.
+8. Interpret capacity separators according to the language and locale of the source. For example, a dot may be a thousands separator in an Italian/German source and a decimal separator in an English source. Convert capacity to MW as a JSON number using a dot for decimals and no thousands separators. Never guess when the source's notation is ambiguous: set capacity_mw to null and preserve the original wording in notes for review.
+9. Distinguish a PPA deal from an M&A / asset transaction. A signed PPA deal is a NEW offtake contract in which a buyer agrees to purchase electricity, capacity, or certificates from a seller under specific terms (price, volume, or tenure). It is NOT a plant/portfolio acquisition, divestment, financing round, refinancing, or equity/company sale — even if the acquired asset already has a PPA attached, and even if the article mentions "PPA" and a capacity in MW. If the core event described is a change of ownership of the plant, project, or company rather than a newly negotiated offtake agreement, set `is_signed_deal` to `false` and `transaction_type` to `"acquisition"`.
+10. A PPA is specifically an ELECTRICITY (or renewable energy certificate) offtake agreement. Do NOT extract gas, LNG, hydrogen, or other non-electricity commodity supply contracts, even if the source article loosely uses the word "PPA" or describes a long-term energy supply agreement. If the agreement is not for electricity/certificates, set `is_signed_deal` to `false` and `transaction_type` to `"other"`.
 
 Return ONLY valid JSON — no markdown fences, no explanation, nothing else.
 The top-level JSON object MUST contain a "deals" array.
@@ -861,11 +863,20 @@ ENTITY_MATCH_THRESHOLD = 85
 # Words too generic to count as a project-identifying token when comparing
 # two deals' `notes` fields (used only as a tie-breaker, see find_similar_duplicate).
 PROJECT_TOKEN_STOPWORDS = {
-    "the", "ppa", "mw", "gwh", "spain", "italy", "portugal", "france", "germany",
-    "uk", "europe", "european", "project", "plant", "farm", "solar", "wind",
-    "energy", "energia", "energía", "group", "corp", "first", "new", "data",
-    "center", "centre", "power", "renewable", "renewables", "agreement", "deal",
-    "company", "for", "with", "initial",
+    "the", "ppa", "mw", "mwh", "gwh", "spain", "italy", "portugal",
+    "france", "germany", "uk", "europe", "european", "project", "plant",
+    "farm", "solar", "wind", "energy", "energia", "energía", "group",
+    "corp", "first", "new", "data", "center", "centre", "power",
+    "renewable", "renewables", "agreement", "deal", "company", "companies",
+    "for", "with", "initial", "hybrid", "hybridization", "hybridisation",
+    "battery", "batteries", "storage", "bess", "integration", "integrated",
+    "operational", "existing", "additional", "capacity", "total", "combined",
+    "portfolio", "development", "construction", "under", "expected", "online",
+    "commissioning", "phase", "phases", "facility", "facilities", "system",
+    "systems", "electricity", "electric", "output", "supply", "purchase",
+    "long", "term", "signed", "contract", "contracts", "located", "location",
+    "site", "sites", "windfarm", "windpark", "solarpark", "park", "farm",
+    "renewable", "energy", "solar", "wind", "onshore", "offshore",
 }
 
 # Deals with generic, non-specific counterparty names — usually a sign the LLM
@@ -930,15 +941,36 @@ def _date_close(a: str, b: str, days: int = 120):
         return None
     return abs((da - db).days) <= days
 
-def extract_project_tokens(notes: str) -> set:
-    """Pulls out capitalized, non-generic words from a notes field — a cheap
-    proxy for project/place names ('Ginosa', 'Castaño', 'Arasur') without
-    needing embeddings. Used only as a tie-breaker when capacity is unknown
-    on one or both sides of a comparison."""
+def extract_project_tokens(notes: str, buyer: str = "", seller: str = "") -> set:
+    """Extract likely place/project names from notes, excluding deal parties.
+
+    This deliberately errs on the side of flagging different named projects as
+    separate. A missed duplicate can be reviewed; merging two different PPAs is
+    harder to undo.
+    """
     if not notes:
         return set()
-    words = _re.findall(r"[A-ZÀ-Ý][a-zà-ÿ]{3,}", notes)
-    return {w.lower() for w in words if w.lower() not in PROJECT_TOKEN_STOPWORDS}
+
+    text = str(notes)
+    text = _re.sub(r"(?i)\[UPDATE\]", " ", text)
+    text = _re.sub(r"(?i)original deal id\s*:\s*\d+", " ", text)
+
+    entity_words = set()
+    for entity in (buyer, seller):
+        entity_words.update(_normalize_entity(entity or "").split())
+
+    # Proper-name tokens catch project and location names such as Valkyria,
+    # Pedroso, Trujillo, Pizarroso, Fageråsen and Malung-Sälen.
+    words = _re.findall(r"\b[A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ]{3,}\b", text)
+    tokens = set()
+    for word in words:
+        token = _normalize_entity(word)
+        if not token or token in PROJECT_TOKEN_STOPWORDS:
+            continue
+        if token in entity_words:
+            continue
+        tokens.add(token)
+    return tokens
 
 def make_deal_hash(extracted: dict) -> str:
     """Deterministic fingerprint stored alongside each row for auditing/export
@@ -968,31 +1000,7 @@ def make_deal_hash(extracted: dict) -> str:
     return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
 
 def find_similar_duplicate(existing_rows: list[dict], extracted: dict) -> dict | None:
-    """
-    Fuzzy dedup against an in-memory list of already-stored deals (loaded once
-    per run, updated as new deals are written — see run()).
-
-    Matches on:
-      - buyer AND seller name similarity (token_set_ratio, robust to legal
-        suffixes, geo-subsidiary qualifiers, and small typos like
-        "Zelestra"/"Zalestra")
-      - at least one country in common
-      - capacity: if both sides have a capacity_mw, it must be within 15% of
-        each other, AND — if both sides' notes name specific project tokens —
-        those tokens must not be entirely disjoint (guards against two
-        different real projects for the same recurring buyer/seller pair
-        coincidentally landing within tolerance, e.g. a 110 MW and a 105 MW
-        solar farm for the same offtaker). If capacity is missing on one/both
-        sides, fall back to requiring one of: a shared project-name token in
-        `notes`, dates within ~4 months where BOTH dates have at least
-        month-level precision (a bare year like "2024" is too imprecise to
-        trust on its own), or a matching contract tenure (years) when neither
-        notes nor dates give a usable signal.
-
-    Once buyer/seller/country/capacity all agree closely, date proximity is
-    NOT required — the same signed deal routinely gets re-reported over
-    months as it moves through signing/construction/commissioning coverage.
-    """
+    """Find a likely re-report, while protecting distinct named projects."""
     buyer_n = _normalize_entity(extracted.get("buyer") or "")
     seller_n = _normalize_entity(extracted.get("seller") or "")
     if not buyer_n or not seller_n:
@@ -1001,12 +1009,15 @@ def find_similar_duplicate(existing_rows: list[dict], extracted: dict) -> dict |
     country = extracted.get("country") or ""
     capacity = extracted.get("capacity_mw")
     date_agreement = extracted.get("date_agreement") or ""
-    new_tokens = extract_project_tokens(extracted.get("notes") or "")
+    new_tokens = extract_project_tokens(
+        extracted.get("notes") or "",
+        extracted.get("buyer") or "",
+        extracted.get("seller") or "",
+    )
 
     for row in existing_rows:
         row_buyer_n = _normalize_entity(row.get("buyer") or "")
         row_seller_n = _normalize_entity(row.get("seller") or "")
-
         if fuzz.token_set_ratio(buyer_n, row_buyer_n) < ENTITY_MATCH_THRESHOLD:
             continue
         if fuzz.token_set_ratio(seller_n, row_seller_n) < ENTITY_MATCH_THRESHOLD:
@@ -1014,45 +1025,46 @@ def find_similar_duplicate(existing_rows: list[dict], extracted: dict) -> dict |
         if not _country_overlap(country, row.get("country") or ""):
             continue
 
+        row_tokens = extract_project_tokens(
+            row.get("notes") or "", row.get("buyer") or "", row.get("seller") or ""
+        )
+        # Two explicit, different project/location identities are stronger
+        # evidence than similar counterparties and near-equal capacity.
+        if new_tokens and row_tokens and not (new_tokens & row_tokens):
+            continue
+
         cap_result = _capacity_close(capacity, row.get("capacity_mw"))
         if cap_result is False:
-            continue  # capacities clearly differ -> different deal, not a re-report
-
-        row_tokens = extract_project_tokens(row.get("notes") or "")
-
-        if cap_result is True:
-            # Capacity looks close, but two different real projects between the
-            # same recurring buyer/seller pair can still coincidentally land
-            # within tolerance (e.g. a 110 MW and a 105 MW solar farm for the
-            # same offtaker). If both sides name specific, non-overlapping
-            # project tokens, that's conflicting evidence — don't merge.
-            if new_tokens and row_tokens and not (new_tokens & row_tokens):
-                continue
+            # Never guess whether a 1,000x discrepancy is a unit or separator
+            # issue. Leave it for source-level review instead of auto-merging.
+            try:
+                cap_a, cap_b = float(capacity), float(row.get("capacity_mw"))
+                ratio = max(cap_a, cap_b) / min(cap_a, cap_b) if min(cap_a, cap_b) > 0 else None
+                if ratio is not None and ratio >= 100:
+                    log.warning(
+                        f"Possible capacity scale/locale discrepancy ({ratio:.1f}x); "
+                        f"not auto-matching IDs {row.get('id')} and new article"
+                    )
+            except (TypeError, ValueError):
+                pass
+            continue
 
         if cap_result is None:
-            # Capacity unknown on one/both sides: same recurring buyer/seller
-            # pair could easily be two unrelated deals (see Amazon/Iberdrola
-            # false-positive case), so require corroborating evidence.
+            # Missing capacity needs independent corroboration.
             tokens_match = bool(new_tokens and row_tokens and (new_tokens & row_tokens))
-
-            # Bare years ("2024") parse to Jan 1st, which can look artificially
-            # "close" to a precise month elsewhere — only trust the date
-            # fallback when both sides have at least month-level precision.
             row_date = row.get("date_agreement") or ""
             dates_precise = len(date_agreement) >= 7 and len(row_date) >= 7
             dates_corroborate = dates_precise and _date_close(date_agreement, row_date) is True
-
-            # Matching, non-null contract terms (tenure) are also meaningful
-            # corroboration when neither notes nor dates give a signal —
-            # e.g. two sparse-notes reports of the same deal that both cite
-            # the same 10-year term.
-            new_tenure, row_tenure = extracted.get("tenure_years"), row.get("tenure_years")
-            tenure_corroborates = (
-                new_tenure is not None
-                and row_tenure is not None
-                and abs(float(new_tenure) - float(row_tenure)) < 0.01
-            )
-
+            new_tenure = extracted.get("tenure_years")
+            row_tenure = row.get("tenure_years")
+            try:
+                tenure_corroborates = (
+                    new_tenure not in (None, "")
+                    and row_tenure not in (None, "")
+                    and abs(float(new_tenure) - float(row_tenure)) < 0.01
+                )
+            except (TypeError, ValueError):
+                tenure_corroborates = False
             if not tokens_match and not dates_corroborate and not tenure_corroborates:
                 continue
 
@@ -1060,34 +1072,120 @@ def find_similar_duplicate(existing_rows: list[dict], extracted: dict) -> dict |
 
     return None
 
+def resolve_canonical_deal_id(existing: dict, existing_rows_by_id: dict) -> int | None:
+    """Return the original N-row ID for an existing match, or None if broken.
+
+    This prevents new U rows from pointing to another U/D row and creating
+    orphaned or unnecessarily long canonical chains.
+    """
+    try:
+        current_id = int(existing.get("id"))
+    except (TypeError, ValueError):
+        return None
+
+    visited = set()
+    while current_id not in visited:
+        visited.add(current_id)
+        row = existing_rows_by_id.get(current_id)
+        if row is None:
+            return None
+
+        event_type = str(row.get("event_type") or "N").strip().upper()
+        parent = row.get("canonical_id")
+
+        if event_type == "N":
+            # An original record should not itself point to another record.
+            return current_id if parent in (None, "") else None
+
+        if parent in (None, ""):
+            return None
+        try:
+            current_id = int(parent)
+        except (TypeError, ValueError):
+            return None
+
+    return None
+
+def _has_explicit_aggregate_language(notes: str) -> bool:
+    text = (notes or "").lower()
+    markers = (
+        "combined capacity", "total combined capacity", "combined total",
+        "aggregate capacity", "portfolio total", "total portfolio capacity",
+        "in total across", "collectively total", "cumulative capacity",
+        "overall portfolio capacity",
+    )
+    return any(marker in text for marker in markers)
+
+
 def _drop_aggregate_rows(deals: list[dict]) -> list[dict]:
+    """Drop only clearly-labelled aggregate rows whose components are present.
+
+    A capacity that happens to equal the sum of other deals is not enough.
+    Parties and country must also agree, and the row must explicitly describe a
+    combined/portfolio total. Ambiguous rows are retained for review.
     """
-    Guards against the model returning both itemized deals AND their combined
-    total in the same response, despite the prompt instructing otherwise
-    (observed e.g. wind 49.5 MW + solar 212 MW + a 257 MW "combined" entry,
-    all from one article). If one deal's capacity is within 5% of the sum of
-    all the others', it's an aggregate row layered on top of the itemized
-    ones — drop it and keep the itemized rows.
-    """
-    if len(deals) < 2:
+    if len(deals) < 3:
         return deals
 
-    caps = [d.get("capacity_mw") for d in deals]
-    if any(c is None for c in caps):
-        return deals  # can't safely reason about sums with missing values
+    dropped_indices = set()
+    for i, aggregate in enumerate(deals):
+        explicitly_aggregate = _has_explicit_aggregate_language(aggregate.get("notes") or "")
 
-    total = sum(caps)
-    kept = []
-    for d, c in zip(deals, caps):
-        other_sum = total - c
-        if other_sum > 0 and abs(c - other_sum) / max(c, other_sum) <= 0.05:
-            log.info(
-                f"Dropping aggregate deal (capacity {c} MW ≈ sum of the other "
-                f"{other_sum} MW in the same article): {d.get('buyer')} / {d.get('seller')}"
-            )
+        try:
+            aggregate_capacity = float(aggregate.get("capacity_mw"))
+        except (TypeError, ValueError):
             continue
-        kept.append(d)
-    return kept or deals  # never let this guard empty out a real single-deal list
+        if aggregate_capacity <= 0:
+            continue
+
+        aggregate_buyer = _normalize_entity(aggregate.get("buyer") or "")
+        aggregate_seller = _normalize_entity(aggregate.get("seller") or "")
+        aggregate_country = aggregate.get("country") or ""
+        component_indices = []
+        component_capacities = []
+
+        for j, item in enumerate(deals):
+            if i == j or j in dropped_indices:
+                continue
+            if _has_explicit_aggregate_language(item.get("notes") or ""):
+                continue
+            if _normalize_entity(item.get("buyer") or "") != aggregate_buyer:
+                continue
+            if _normalize_entity(item.get("seller") or "") != aggregate_seller:
+                continue
+            if not _country_overlap(aggregate_country, item.get("country") or ""):
+                continue
+            try:
+                component_capacity = float(item.get("capacity_mw"))
+            except (TypeError, ValueError):
+                continue
+            if component_capacity > 0:
+                component_indices.append(j)
+                component_capacities.append(component_capacity)
+
+        if len(component_indices) < 2:
+            continue
+
+        component_total = sum(component_capacities)
+        if component_total <= 0:
+            continue
+        difference = abs(aggregate_capacity - component_total) / max(aggregate_capacity, component_total)
+        if difference <= 0.05:
+            if explicitly_aggregate:
+                dropped_indices.add(i)
+                log.warning(
+                    f"Dropping explicitly-labelled aggregate row ({aggregate_capacity:g} MW) "
+                    f"because matching itemized deals total {component_total:g} MW: "
+                    f"{aggregate.get('buyer')} / {aggregate.get('seller')}"
+                )
+            else:
+                log.warning(
+                    f"Possible aggregate capacity ({aggregate_capacity:g} MW) matches "
+                    f"itemized deals totalling {component_total:g} MW, but the notes "
+                    "do not explicitly label it as a combined total; retaining it for review"
+                )
+
+    return [deal for i, deal in enumerate(deals) if i not in dropped_indices]
 
 def _flag_if_vague(field_name: str, value: str, title: str) -> None:
     """Soft warning only — logs for manual review, doesn't drop the deal,
@@ -1410,17 +1508,18 @@ def run() -> None:
     # against them too, not just what was in the DB at the start.
     existing_rows = [
         dict(zip(
-            ["id", "buyer", "seller", "country", "capacity_mw", "date_agreement",
-             "energy_gwh", "tenure_years", "price_eur_mwh", "technology",
-             "notes", "publication_date"],
+            ["id", "event_type", "canonical_id", "buyer", "seller", "country",
+             "capacity_mw", "date_agreement", "energy_gwh", "tenure_years",
+             "price_eur_mwh", "technology", "notes", "publication_date"],
             row,
         ))
         for row in conn.execute(
-            "SELECT id, buyer, seller, country, capacity_mw, date_agreement, "
-            "energy_gwh, tenure_years, price_eur_mwh, technology, notes, publication_date "
-            "FROM deals"
+            "SELECT id, event_type, canonical_id, buyer, seller, country, capacity_mw, "
+            "date_agreement, energy_gwh, tenure_years, price_eur_mwh, technology, "
+            "notes, publication_date FROM deals"
         ).fetchall()
     ]
+    existing_rows_by_id = {int(row["id"]): row for row in existing_rows}
     log.info(f"Loaded {len(existing_rows)} existing deals for dedup matching")
 
     from_date = SEARCH_FROM_DATE or (
@@ -1614,6 +1713,8 @@ def run() -> None:
             # are matched against it too, not just what was in the DB at start.
             existing_rows.append({
                 "id": new_id,
+                "event_type": match_type,
+                "canonical_id": canonical_id,
                 "buyer": deal.get("buyer"),
                 "seller": deal.get("seller"),
                 "country": deal.get("country"),
@@ -1626,6 +1727,7 @@ def run() -> None:
                 "notes": deal.get("notes"),
                 "publication_date": new_pub,
             })
+            existing_rows_by_id[int(new_id)] = existing_rows[-1]
 
             if match_type == "U":
                 updates += 1
