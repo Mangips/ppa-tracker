@@ -29,6 +29,12 @@ jobs:
             exit 1
           fi
 
+      - name: Run duplicate-safety tests
+        env:
+          NEWSAPI_KEY: AUDIT_MODE_NO_API_CALLS
+          ENVIRONMENT: AUDIT
+        run: python -m unittest discover -s tests -v
+
       - name: Generate read-only audit reports
         env:
           NEWSAPI_KEY: AUDIT_MODE_NO_API_CALLS
