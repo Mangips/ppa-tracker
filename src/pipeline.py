@@ -1679,18 +1679,31 @@ def run() -> None:
             _flag_if_vague("buyer", deal.get("buyer") or "", title)
             _flag_if_vague("seller", deal.get("seller") or "", title)
 
-            existing    = find_similar_duplicate(existing_rows, deal)
-            new_pub     = (article.get("publishedAt") or "")[:10]
+            existing = find_similar_duplicate(existing_rows, deal)
+            new_pub = (article.get("publishedAt") or "")[:10]
+
+            canonical_id = None
+            if existing:
+                canonical_id = resolve_canonical_deal_id(existing, existing_rows_by_id)
+                if canonical_id is None:
+                    log.warning(
+                        f"Matched row ID {existing.get('id')} has no valid original N record; "
+                        "not linking a new update to a broken canonical chain"
+                    )
+                    existing = None
 
             if existing:
-                match_type  = classify_match(existing, deal, new_pub)
-                canonical_id = existing["id"]
-            elif deal.get("is_likely_update", False):
-                match_type  = "U"
-                canonical_id = None
+                match_type = classify_match(existing, deal, new_pub)
             else:
-                match_type  = "N"
+                # An update clue without a valid matched original is not enough
+                # to create an orphan U row. Store it as a new N row instead.
+                match_type = "N"
                 canonical_id = None
+                if deal.get("is_likely_update", False):
+                    log.warning(
+                        "Article looked like an update but no valid canonical deal "
+                        "could be resolved; storing it as a new record for review"
+                    )
 
             if match_type == "D":
                 log.info(
