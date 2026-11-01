@@ -1,0 +1,112 @@
+2026-11-01 13:58:25,524 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-11-01 13:58:25,533 [INFO] Loaded 1681 existing deals for dedup matching
+2026-11-01 13:58:25,533 [INFO] Searching from 2026-11-01 to present with 3 loockback days
+2026-11-01 13:58:25,702 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-11-01 13:58:26,762 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-11-01 13:58:27,928 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-11-01 13:58:29,266 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-11-01&hl=en&gl=US&ceid=US:en: 5 results
+2026-11-01 13:58:31,966 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-11-01&hl=en&gl=US&ceid=US:en: 0 results
+2026-11-01 13:58:34,174 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-11-01&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-11-01 13:58:36,411 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-11-01&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-11-01 13:58:38,632 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-11-01&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-11-01 13:58:40,879 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-11-01&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-11-01 13:58:43,144 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-11-01&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-11-01 13:58:45,912 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-11-01&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-11-01 13:58:48,119 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-11-01&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-01 13:58:50,377 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-11-01&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-01 13:58:52,630 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-11-01&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-11-01 13:58:54,844 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-11-01&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-01 13:58:57,062 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-11-01&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-01 13:58:59,330 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-11-01&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-01 13:59:01,666 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-11-01&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-01 13:59:03,666 [INFO] Total raw articles collected: 7
+2026-11-01 13:59:03,878 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-11-01 13:59:05,401 [INFO] Extra RSS [elperiodicodelaenergia.com]: 1 results
+2026-11-01 13:59:06,410 [INFO] Unique unseen articles: 7
+2026-11-01 13:59:06,410 [INFO] ------- Processing article n. 0: Egypt: Over $250m in finance agreed for vast renewable plant - African Energy -------
+2026-11-01 13:59:06,496 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1FSdnEtdHFqcG04MGU5cDlnUmMzLVlaVGVxTUJObld1RUM2NmN2S2RibFEyVFpPNF9xLU1xV0lWakxuc1FmMnRtRnAxSnJRUUhHWTNTMlNGTXlpYS1BT19IS1NkNUkzU3AyOVVSMFhKeVVzbTJHcTBVc0FCajNRd04zUTlSbDNIY0FxS25tMTFLT1Y4M1kxZEYzM1dzR3R5VHZV?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-01 13:59:07,602 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-01 13:59:07,602 [INFO] Resolved Google News URL: https://www.africa-energy.com/news-centre/article/egypt-over-250m-finance-agreed-vast-renewable-plan
+2026-11-01 13:59:07,602 [INFO] URL: https://www.africa-energy.com/news-centre/article/egypt-over-250m-finance-agreed-vast-renewable-plant
+2026-11-01 13:59:08,284 [INFO] Text length: 145 chars | source: full
+2026-11-01 13:59:08,284 [INFO] Text preview: One of Africa’s largest-ever renewable energy plants has secured over $250m of debt finance, bringing the total raised for the IPP to over $500m....
+2026-11-01 13:59:08,284 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-01 13:59:09,074 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Egypt: Over $250m in finance agreed for vast renewable plant
+2026-11-01 13:59:09,074 [INFO] LLM extracted 1 deals | Egypt: Over $250m in finance agreed for vast renew
+2026-11-01 13:59:09,076 [INFO] Not a signed deal — skipping: Egypt: Over $250m in finance agreed for vast renewable plant
+2026-11-01 13:59:09,076 [INFO] ------- Processing article n. 0: TITAN Egypt expands solar power partnership with SolarizEgypt - Zawya -------
+2026-11-01 13:59:09,124 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxPekVyZzJzWjhoNEtSUlBIZnVTLV9yek1SRjhrSVpHWTE4c2VzeHBiVzJ6Q1RCR0NqTUo1NUdBRGo0Z2trYWRpalRjaWktQWNEOVZjOXFuYmltTEYya2Eyb05Qc0huLXNaOExqZ0g0VU9nbUlOMnptQzFvdWpXdGFBNkI0M3BFb2ZtYnMtNmxfdEJVeFduMnB1OFhpRFJJRnlIS3dGV0lwN2ZBX0RfUERJeDF5cDlOczlUNlNuYktjcld4ZXZ5cHRkZQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-01 13:59:10,217 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-01 13:59:10,217 [INFO] Resolved Google News URL: https://www.zawya.com/en/press-release/green-press-releases/titan-egypt-expands-solar-power-partners
+2026-11-01 13:59:10,217 [INFO] URL: https://www.zawya.com/en/press-release/green-press-releases/titan-egypt-expands-solar-power-partnership-with-solarizegypt-1858884
+2026-11-01 13:59:10,449 [INFO] Text length: 3307 chars | source: full
+2026-11-01 13:59:10,449 [INFO] Text preview: Cairo – TITAN Egypt has expanded its strategic partnership with SolarizEgypt, a leading provider of renewable energy solutions, specializing in solar power development and generation, with the signing...
+2026-11-01 13:59:10,449 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-01 13:59:24,422 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: TITAN Egypt expands solar power partnership with SolarizEgyp
+2026-11-01 13:59:24,422 [INFO] LLM extracted 1 deals | TITAN Egypt expands solar power partnership with S
+2026-11-01 13:59:24,424 [INFO] Not a European deal — skipping: TITAN Egypt / SolarizEgypt (Egypt, 10 MW)
+2026-11-01 13:59:24,424 [INFO] ------- Processing article n. 0: Small Nuclear Reactors in Future Warfare: Energy Sovereignty - Military Vulnerab -------
+2026-11-01 13:59:24,477 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi_wFBVV95cUxOSTljWThWeVBkanRwdGxXaVVOTG9zTGZQN3BheXhDbHpsY2VxZEg0UTRNTW9FbkEtRExTY0RfTkViUXJtUThENmNrOE5kd2Vrc2xnVDQ4N01IS1FHdjVGMVpiVkphNUs2SDU5cFFBYTU0eUZROFBJbXo4alQtSmlmRVVsT3puZUVWTkl1aXJvbXgxM1k3a0FDMmZPSkZhdWpNUnZkbm5XUUc2ZW9YcFZTU2VBUWp0dWMxcUNJeVV2U05BVkFGZ1F5aG5OX2VCMXhNckNLQllqLWlrODQ0NkVzUXNhcXpPNTBWOFZtYnpjN2k3dzd3SlRtTnJ1aHRSTmc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-01 13:59:25,576 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-01 13:59:25,577 [INFO] Resolved Google News URL: https://debuglies.com/2026/11/01/small-nuclear-reactors-in-future-warfare-energy-sovereignty-militar
+2026-11-01 13:59:25,577 [INFO] URL: https://debuglies.com/2026/11/01/small-nuclear-reactors-in-future-warfare-energy-sovereignty-military-vulnerability-and-the-emerging-architecture-of-strategic-deterrence/
+2026-11-01 13:59:26,837 [INFO] Text length: 31995 chars | source: full
+2026-11-01 13:59:26,837 [INFO] Text preview: Strategic Intelligence Dossier | Nuclear Security, Defence Infrastructure, International Humanitarian Law and Industrial Geopolitics | 2026–2031 Scope: This assessment examines the strategic, military...
+2026-11-01 13:59:26,837 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-01 13:59:38,927 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Small Nuclear Reactors in Future Warfare: Energy Sovereignty
+2026-11-01 13:59:38,928 [INFO] LLM extracted 1 deals | Small Nuclear Reactors in Future Warfare: Energy S
+2026-11-01 13:59:38,929 [INFO] Not a signed deal — skipping: Small Nuclear Reactors in Future Warfare: Energy Sovereignty
+2026-11-01 13:59:38,929 [INFO] ------- Processing article n. 0: National Grid sparks deal to pave way for giant UK data centre - Sky News -------
+2026-11-01 13:59:38,982 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxNSjNVNmhfYkN2ay1Yb19ZNmFWaTRhMUtqXzBKM0NGTWFjVDJiQlZHM1pORF95WkRxdmd0UE1xNi1IOFNnLXBZZXdZV1djTGxjUXk2M3dOZ2ZKVHdEOUtxbldURmJ2TTlCM0UyaTR2ZFRrWXZDQ2JCbU5uWTFxT1FnTm5BUTQ4Y3ZxSVRqUlQ0M2Y4ODJqZXZrT2RmUlh3RDg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-01 13:59:40,089 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-01 13:59:40,090 [INFO] Resolved Google News URL: https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-data-centre-13606573
+2026-11-01 13:59:40,090 [INFO] URL: https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-data-centre-13606573
+2026-11-01 13:59:40,135 [INFO] Full text skipped (status 403): https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-da
+2026-11-01 13:59:40,135 [INFO] Text length: 159 chars | source: fallback
+2026-11-01 13:59:40,135 [INFO] Text preview: National Grid sparks deal to pave way for giant UK data centre - Sky News
+
+National Grid sparks deal to pave way for giant UK data centre &nbsp;&nbsp; Sky News...
+2026-11-01 13:59:40,135 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-01 13:59:54,435 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: National Grid sparks deal to pave way for giant UK data cent
+2026-11-01 13:59:54,436 [INFO] LLM extracted 1 deals | National Grid sparks deal to pave way for giant UK
+2026-11-01 13:59:54,438 [INFO] Not a signed deal — skipping: National Grid sparks deal to pave way for giant UK data cent
+2026-11-01 13:59:54,438 [INFO] ------- Processing article n. 0: Moldova and Romania Plan Joint Military Equipment Purchases Under SAFE - logos-p -------
+2026-11-01 13:59:54,494 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxOYUs1eGE0eEY4ZUhPVUZpa2tJNFp0YzlielY1TVB1RERmcWQxbnRwM3FMUDZiZURqUUhwWmtpZFdYdXZtQXBSYXFLa1FsbDkwbnlkV0NabXphdGp4U1NMa1RDX3d4R2hlMmFhajNUelFwTUpZdVBPUG1WYS13ZzJZOGY5MHJlLW84eEEyZkwtdFpaQ2gxREg0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-01 13:59:55,595 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-01 13:59:55,596 [INFO] Resolved Google News URL: https://logos-pres.md/en/news/moldova-will-purchase-military-equipment-jointly-with-romania/
+2026-11-01 13:59:55,596 [INFO] URL: https://logos-pres.md/en/news/moldova-will-purchase-military-equipment-jointly-with-romania/
+2026-11-01 13:59:56,315 [INFO] Text length: 1875 chars | source: full
+2026-11-01 13:59:56,315 [INFO] Text preview: This was stated by Defence Minister Anatoli Nosatîi on the programme ‘Cabinetul din umbră’ (‘Shadow Cabinet’) on Jurnal TV.
+To this end, the minister plans to travel to Bucharest on 2 November, where ...
+2026-11-01 13:59:56,315 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-01 14:00:08,972 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Moldova and Romania Plan Joint Military Equipment Purchases 
+2026-11-01 14:00:08,973 [INFO] LLM extracted 1 deals | Moldova and Romania Plan Joint Military Equipment 
+2026-11-01 14:00:08,974 [INFO] Not a signed deal — skipping: Moldova and Romania Plan Joint Military Equipment Purchases 
+2026-11-01 14:00:08,974 [INFO] ------- Processing article n. 0: Multas por no legalizar el contrato por la compra de un auto usado - www.elteleg -------
+2026-11-01 14:00:09,024 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxPNE1ibklmZ2phLTFLamRSdjhJVGkxeDVXclZ0a1otQ1BHcnZaa3hhczVCYmVCVzRRVEktNWVnaHViTzNjcE0tLVVjN2kyZnhzeEVDeGtPcFY2ZlkxM08ycG52dUZObVd0THBhOGlSeTRBOXdYbWZhZnpnamk0UFB1eDhqWXU1dWxDZ0F2c2JNTVR3dWFXRzJzazltckdWODYydVlKa1Rqdm9GOFRHdEhTMUlCQ1Q5eGgwMVpKcQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-01 14:00:10,154 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-01 14:00:10,155 [INFO] Resolved Google News URL: https://www.eltelegrafo.com.ec/noticias/nacionales/44/multas-por-no-legalizar-el-contrato-por-la-com
+2026-11-01 14:00:10,155 [INFO] URL: https://www.eltelegrafo.com.ec/noticias/nacionales/44/multas-por-no-legalizar-el-contrato-por-la-compra-de-un-auto-usado
+2026-11-01 14:00:11,603 [INFO] Text length: 1360 chars | source: full
+2026-11-01 14:00:11,603 [INFO] Text preview: En el caso de que una persona quiera comprar o vender un vehículo se debe realizar un cambio de domino. Esto se debe reflejar en el sistema único de matriculación vehicular.
+Para el cambio de propieta...
+2026-11-01 14:00:11,603 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-01 14:00:24,095 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Multas por no legalizar el contrato por la compra de un auto
+2026-11-01 14:00:24,095 [INFO] LLM extracted 1 deals | Multas por no legalizar el contrato por la compra 
+2026-11-01 14:00:24,097 [INFO] Not a signed deal — skipping: Multas por no legalizar el contrato por la compra de un auto
+2026-11-01 14:00:24,097 [INFO] ------- Processing article n. 0: El nuevo decreto de centros de datos amenaza el liderazgo digital de España - Ra -------
+2026-11-01 14:00:24,146 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxPTHJmOXZQdFotbGlhQVlRY0RjaG43c1Mxd0d2SmZ5SFdtb2NRZW0zc0U2N2VYZ3FaTHlwTjFNWW5vWDJTbFBtMVRZR3dHTHZULUEzUUcyQ3ZmY0x4T2swTHpzNEpxZ1hocnJock5WbVpOTlhRTkxwaGQtTDFMS2dGak5ZYVVQeEgwU21aTXhJMmROcm9qTWktbDdSc3BxQUVtOFZlTXhIdmdDc1liNkZNd3kta0llNzd1VzJxV0VleTV2M1pBN0x6VkxzZHdaZ9IB0wFBVV95cUxQT21LN25xRFh5bERzZ08xVE5RU2xGd1ZKbEJDTGlLcnA5RXRKN2hBVjBVeGVfNW9LUTFCSDBHMExJa3d0OU5XazU2Ymc2UFFpUTBnVTYtSXVFV0dfYXg1eGQ4YnY1S056UHF5TkNXaHB0a1JMWHdFTVhzV0pxNDlmcE43YTZDMXU5YzZlb0JsYXdpR3gtZzdSc0N5ay02NzRCZEZ5cTA2XzEtU005OHhGUmVHRXZBbUhZVF84RWNFeExpd09Uc3hqSXBaMEc1NjJiQmQ0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-01 14:00:25,246 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-01 14:00:25,247 [INFO] Resolved Google News URL: https://intereconomia.com/noticia/finanzas/el-nuevo-decreto-de-centros-de-datos-amenaza-el-liderazgo
+2026-11-01 14:00:25,247 [INFO] URL: https://intereconomia.com/noticia/finanzas/el-nuevo-decreto-de-centros-de-datos-amenaza-el-liderazgo-digital-de-espana-20261101-1058/
+2026-11-01 14:00:25,353 [INFO] Text length: 9638 chars | source: full
+2026-11-01 14:00:25,353 [INFO] Text preview: Sara Anguera. España aspira a convertirse en uno de los principales puntos de conexión digital del sur de Europa y aprovechar el crecimiento de la inteligencia artificial para atraer nuevas inversione...
+2026-11-01 14:00:25,353 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-01 14:00:38,876 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: El nuevo decreto de centros de datos amenaza el liderazgo di
+2026-11-01 14:00:38,876 [INFO] LLM extracted 1 deals | El nuevo decreto de centros de datos amenaza el li
+2026-11-01 14:00:38,878 [INFO] Not a signed deal — skipping: El nuevo decreto de centros de datos amenaza el liderazgo di
+2026-11-01 14:00:38,878 [INFO] Run complete. New deals: 0, Updates: 0
+2026-11-01 14:00:38,894 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1520 deals)
+2026-11-01 14:00:53,804 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-11-01 14:00:53,805 [INFO] Email log summary generated by groq-120b
+2026-11-01 14:00:55,933 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
