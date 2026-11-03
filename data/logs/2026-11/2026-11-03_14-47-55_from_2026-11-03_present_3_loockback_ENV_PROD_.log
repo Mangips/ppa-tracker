@@ -1,0 +1,371 @@
+2026-11-03 14:47:55,811 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-11-03 14:47:55,820 [INFO] Loaded 1681 existing deals for dedup matching
+2026-11-03 14:47:55,821 [INFO] Searching from 2026-11-03 to present with 3 loockback days
+2026-11-03 14:47:56,009 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-11-03 14:47:57,093 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-11-03 14:47:58,147 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-11-03 14:47:59,599 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-11-03&hl=en&gl=US&ceid=US:en: 13 results
+2026-11-03 14:48:02,019 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-11-03&hl=en&gl=US&ceid=US:en: 3 results
+2026-11-03 14:48:04,294 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-11-03&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-11-03 14:48:06,574 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-11-03&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-11-03 14:48:08,843 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-11-03&hl=fr&gl=FR&ceid=FR:fr: 4 results
+2026-11-03 14:48:11,073 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-11-03&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-11-03 14:48:13,337 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-11-03&hl=es&gl=ES&ceid=ES:es: 3 results
+2026-11-03 14:48:15,576 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-11-03&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-11-03 14:48:17,827 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-11-03&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-11-03 14:48:20,080 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-11-03&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-03 14:48:22,510 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-11-03&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-11-03 14:48:24,921 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-11-03&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-03 14:48:27,171 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-11-03&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-03 14:48:29,467 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-11-03&hl=pt&gl=PT&ceid=PT:pt: 3 results
+2026-11-03 14:48:31,770 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-11-03&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-03 14:48:33,771 [INFO] Total raw articles collected: 30
+2026-11-03 14:48:34,039 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-11-03 14:48:35,570 [INFO] Extra RSS [elperiodicodelaenergia.com]: 2 results
+2026-11-03 14:48:36,579 [INFO] Unique unseen articles: 28
+2026-11-03 14:48:36,579 [INFO] ------- Processing article n. 0: YPF CEO says contracts for Argentina LNG are being signed in Europe, Asia - Reut -------
+2026-11-03 14:48:36,665 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVXQyX05EVmF4WUlqSG80VzRtaTJQbUZNaWhIeEZXLUp1Smh3aFpQeUszU2V1LWVrNGZpVXdYMElDcnBTU0hWS3ZWZC1tZFJJenVoT2hHMXJ2Ry1JNGk3SzdVQzc5dzJyc1p0TGw4dDZwV1MzV2V3MDBQMmdsOUl1YXN3RkJTYmYxSkRxSnBEc2lmWWpaOTdGdnZNcWltQVpVZU1JY25BSWZGZU85bUlBVW9FQU5LM2xF?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:48:37,765 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:48:37,766 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/ypf-ceo-says-contracts-argentina-lng-are-being-signed-europe
+2026-11-03 14:48:37,766 [INFO] URL: https://www.reuters.com/business/energy/ypf-ceo-says-contracts-argentina-lng-are-being-signed-europe-asia-2026-11-03/
+2026-11-03 14:48:37,918 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/ypf-ceo-says-contracts-argentina-lng-are
+2026-11-03 14:48:37,918 [INFO] Text length: 179 chars | source: fallback
+2026-11-03 14:48:37,918 [INFO] Text preview: YPF CEO says contracts for Argentina LNG are being signed in Europe, Asia - Reuters
+
+YPF CEO says contracts for Argentina LNG are being signed in Europe, Asia &nbsp;&nbsp; Reuters...
+2026-11-03 14:48:37,918 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:48:38,699 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: YPF CEO says contracts for Argentina LNG are being signed in
+2026-11-03 14:48:38,699 [INFO] LLM extracted 1 deals | YPF CEO says contracts for Argentina LNG are being
+2026-11-03 14:48:38,701 [INFO] Not a signed deal — skipping: YPF CEO says contracts for Argentina LNG are being signed in
+2026-11-03 14:48:38,701 [INFO] ------- Processing article n. 0: AWS appoints new manager of energy policy - BeBeez International -------
+2026-11-03 14:48:38,750 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE1xaWVLdlFGdU9KaEhVUXZNaTJ1eGZFcWFqWW5NaEw0cUl6ZzJTTGVBejRZZXBiT1h2aFVLVnhneDJTdmFxTW5DMGp0RGxXQklsRTQyYjI5RlUwVm11aDhYd0w2TjVfZ3l2ZG1udlRaWVY3c2huaEpMcm5Naw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:48:39,853 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:48:39,854 [INFO] Resolved Google News URL: https://bebeez.eu/2026/11/03/aws-appoints-new-manager-of-energy-policy/
+2026-11-03 14:48:39,854 [INFO] URL: https://bebeez.eu/2026/11/03/aws-appoints-new-manager-of-energy-policy/
+2026-11-03 14:48:40,867 [INFO] Text length: 1271 chars | source: full
+2026-11-03 14:48:40,867 [INFO] Text preview: Amazon Web Services (AWS) has hired a new manager within its energy policy department.
+Robert Fourqurean joined AWS from the British Embassy in Washington, DC, where he held the position of policy adv...
+2026-11-03 14:48:40,867 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:48:53,793 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: AWS appoints new manager of energy policy - BeBeez Internati
+2026-11-03 14:48:53,794 [INFO] LLM extracted 1 deals | AWS appoints new manager of energy policy - BeBeez
+2026-11-03 14:48:53,796 [INFO] Not a European deal — skipping: Amazon Web Services (AWS) / Constellation Energy (United States, 690 MW)
+2026-11-03 14:48:53,796 [INFO] ------- Processing article n. 0: Shenzhen Nanshan Power seeks majority stake in Trina Solar’s tracker business -  -------
+2026-11-03 14:48:53,847 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxPOGlKdkRZMldvMmNIWHdORzZjMmg0SlZNTEJIRzhqaXBiaUFZbFNmbTlITjRqSDRGci1sWHNkc3dISExOS3A0b0NlWWxYNlhGTzl0QTZHQVJVNUZ6TzBybUVhVEplTGp2RnlxRVBjOWVYWUhlWi1DRENvb2VBMHk1T1JSeWJJU0w2aXMyTXdaQ1NiVi1WOGhOUVlxRWlDSTdYcWhJaFBYZEtINU45TEZZb2FpMzU4emc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:48:54,959 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:48:54,960 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/11/03/shenzhen-nanshan-power-seeks-majority-stake-in-trina-solars-t
+2026-11-03 14:48:54,960 [INFO] URL: https://www.pv-magazine.com/2026/11/03/shenzhen-nanshan-power-seeks-majority-stake-in-trina-solars-tracker-business/
+2026-11-03 14:48:55,332 [INFO] Text length: 3530 chars | source: full
+2026-11-03 14:48:55,332 [INFO] Text preview: Shenzhen Nanshan Power, a Chinese power producer backed by state-owned capital, plans to acquire a controlling stake in Trina Solar’s tracker business.
+According to an Oct. 30 announcement, Shenzhen N...
+2026-11-03 14:48:55,332 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:49:08,604 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Shenzhen Nanshan Power seeks majority stake in Trina Solar’s
+2026-11-03 14:49:08,605 [INFO] LLM extracted 1 deals | Shenzhen Nanshan Power seeks majority stake in Tri
+2026-11-03 14:49:08,606 [INFO] Not a signed deal — skipping: Shenzhen Nanshan Power seeks majority stake in Trina Solar’s
+2026-11-03 14:49:08,606 [INFO] ------- Processing article n. 0: Strategic investments, wider benefits: decarbonising road transport - IRU | Worl -------
+2026-11-03 14:49:08,664 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxQZzdxNE1vRDZhSURpRkJqWFpiVVIyUFBndk9PQmdzblBXbUZXdWhhSHMySnR3d1RSUUQxSXZYR2ZRNmtmNFp3Smd6UzRJSzlrelJ5Z2drZlNuSGw4WjhmMEhLWExpdm9HM1did1VyRTMwUzdLbkxIamlRVUs1MVpGOTdSRV9haHRqQm8zNS1Xek9uaG5tb2djZmxPRFprRFJ1Wm5RQU9nYWY1T1FvR2c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:49:09,757 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:49:09,757 [INFO] Resolved Google News URL: https://www.iru.org/news-resources/newsroom/strategic-investments-wider-benefits-decarbonising-road-
+2026-11-03 14:49:09,758 [INFO] URL: https://www.iru.org/news-resources/newsroom/strategic-investments-wider-benefits-decarbonising-road-transport
+2026-11-03 14:49:10,432 [INFO] Text length: 6602 chars | source: full
+2026-11-03 14:49:10,432 [INFO] Text preview: Battery-electric vehicle adoption remains concentrated among larger operators and on shorter routes. But large-scale deployment can also help create the conditions for others to follow, Amazon’s Andre...
+2026-11-03 14:49:10,432 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:49:23,459 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Strategic investments, wider benefits: decarbonising road tr
+2026-11-03 14:49:23,460 [INFO] LLM extracted 1 deals | Strategic investments, wider benefits: decarbonisi
+2026-11-03 14:49:23,461 [INFO] Not a signed deal — skipping: Strategic investments, wider benefits: decarbonising road tr
+2026-11-03 14:49:23,461 [INFO] ------- Processing article n. 0: Solar Energy to Power Egypt's Aluminium Industry Through $66 Million AfDB Deal - -------
+2026-11-03 14:49:23,517 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxQX052dnJqQk50YVpIS1hVX0Z5NVVIMXU2S0xxSnI4Zkp6czN2UFJtcEFvNzFKVUFTNG9SZl9zbWVfalNBZTRJRlR0NGFsdG9kQ2d6bkhmTVJFYXR0dGxsdDJLcmRsMUE3M1BVMVhJVXNLYzNmeTUxYjZ1azNLT0JtbXZPWE5ZaFZGNEh5dVhxWnd1V0tkMEVaNHNjaWxjaTVYZTNPR3l6MVc5b2x2bll0eC1vbndWekd6dnNxWVVsUXdLVmZLRmx2eGx30gHPAUFVX3lxTFB3c0tsc0xTV3J6bktKWDM1UTI2MXlJRVAtT3V0WVU4RVVxeEU0VEgxM2dpNmkzOFNwbnlDM3I3bjZ3RHE2cHRvcDhVc1FPckhUU2hQSlF6dFZfSnBZaUh5SUZqbU9KRUcxNG9iZmtXUWdxOVhYbWlVNWZPRkV4ZFpYWl9kNzhQeVdLaEhHWHd6VXNQeEZwVXNVN2ZneElzTGVtc1A4TnA3VTVBYnFkUDZJT1RpcGs3Nld5UFVPZjdZSmlYN2s2OWpIS25yWXlZdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:49:24,597 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:49:24,598 [INFO] Resolved Google News URL: https://www.devdiscourse.com/article/business/4001099-solar-energy-to-power-egypts-aluminium-industr
+2026-11-03 14:49:24,598 [INFO] URL: https://www.devdiscourse.com/article/business/4001099-solar-energy-to-power-egypts-aluminium-industry-through-66-million-afdb-deal
+2026-11-03 14:49:25,508 [INFO] Text length: 3573 chars | source: full
+2026-11-03 14:49:25,508 [INFO] Text preview: Solar Energy to Power Egypt's Aluminium Industry Through $66 Million AfDB Deal
+The plant’s electricity will be sold exclusively to the Aluminium Company of Egypt, known as EgyptAlum, under a 25-year p...
+2026-11-03 14:49:25,508 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:49:39,001 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Solar Energy to Power Egypt's Aluminium Industry Through $66
+2026-11-03 14:49:39,001 [INFO] LLM extracted 1 deals | Solar Energy to Power Egypt's Aluminium Industry T
+2026-11-03 14:49:39,003 [INFO] Not a European deal — skipping: Aluminium Company of Egypt (EgyptAlum) / Dandara Solar Power S.A.E. (Egypt, 500 MW)
+2026-11-03 14:49:39,003 [INFO] ------- Processing article n. 0: LG Energy Solution Reports 160GWh ESS Backlog, Secures Most 2028 Orders - THE EL -------
+2026-11-03 14:49:39,045 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rTENJWGhVcS1VbUhqLVI5WDU5Mks4NVZtOG9jTGFUcUlCWDdIYUpUTk5Td3RTdE9yMnFsYzAxRGtNa0dTcjlVWmh3NXpIMkdZc1h2N0RGQl9tR3NUeEw2bjBrTl9iWGM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:49:40,124 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:49:40,125 [INFO] Resolved Google News URL: https://www.thelec.net/news/articleView.html?idxno=15222
+2026-11-03 14:49:40,125 [INFO] URL: https://www.thelec.net/news/articleView.html?idxno=15222
+2026-11-03 14:49:41,731 [INFO] Text length: 23706 chars | source: full
+2026-11-03 14:49:41,731 [INFO] Text preview: LG Energy Solution reported third-quarter revenue of 9.6434 trillion won and operating profit of 756 billion won. Revenue increased 28% from the previous quarter, while the operating margin reached 7....
+2026-11-03 14:49:41,731 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:49:53,938 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: LG Energy Solution Reports 160GWh ESS Backlog, Secures Most 
+2026-11-03 14:49:53,938 [INFO] LLM extracted 1 deals | LG Energy Solution Reports 160GWh ESS Backlog, Sec
+2026-11-03 14:49:53,940 [INFO] Not a signed deal — skipping: LG Energy Solution Reports 160GWh ESS Backlog, Secures Most 
+2026-11-03 14:49:53,940 [INFO] ------- Processing article n. 0: Drax inks £20bn deal to develop GW-scale data centre at biomass power plant - Bu -------
+2026-11-03 14:49:53,990 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQczROemkxTGJTVHZFcUFYS2lmMll1UmIyRldxX1NMOU9xQXFmTWZGZUNwdHFWZEFDZzU0eVYtVld3TzI3ZUVwNmlZWHZnSUxjMTB4bV9ONDd3b1BYTHJWTDVLV3JqNjlMNnBTb0tmNDM2QVJpcGE1WVRGS0lGTTVBcmE4UzRhQ3JMU0FMaUlrNVc3WlZ4bkJCY2U3WS1FdkJpaW9oMGl6OTdMdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:49:55,096 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:49:55,097 [INFO] Resolved Google News URL: https://www.businessgreen.com/news/4538280/drax-inks-20bn-deal-develop-gw-scale-centre-biomass-power
+2026-11-03 14:49:55,097 [INFO] URL: https://www.businessgreen.com/news/4538280/drax-inks-20bn-deal-develop-gw-scale-centre-biomass-power-plant
+2026-11-03 14:49:55,195 [INFO] Full text skipped (status 403): https://www.businessgreen.com/news/4538280/drax-inks-20bn-deal-develop-gw-scale-
+2026-11-03 14:49:55,195 [INFO] Text length: 195 chars | source: fallback
+2026-11-03 14:49:55,195 [INFO] Text preview: Drax inks £20bn deal to develop GW-scale data centre at biomass power plant - BusinessGreen
+
+Drax inks £20bn deal to develop GW-scale data centre at biomass power plant &nbsp;&nbsp; BusinessGreen...
+2026-11-03 14:49:55,195 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:50:09,061 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Drax inks £20bn deal to develop GW-scale data centre at biom
+2026-11-03 14:50:09,061 [INFO] LLM extracted 1 deals | Drax inks £20bn deal to develop GW-scale data cent
+2026-11-03 14:50:09,063 [INFO] Not a signed deal — skipping: Drax inks £20bn deal to develop GW-scale data centre at biom
+2026-11-03 14:50:09,063 [INFO] ------- Processing article n. 0: BMF GRUP signs the acquisition of Flash Lighting Services and extends its servic -------
+2026-11-03 14:50:09,126 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWXdLM0ZXYnVoUmt1MEV2T0FBaDFDa0pURzI4cnptcXg1bVg1X2hYQ3JGejhnUWZfcHhqUkNibkdaZkJGQnNHQkZRblVUQ2tZWE95SHVxZWg1VkhLYW5sQkpjYWMxSlpoRkNnRm9rR3kwcFdwWWpuRkpDbGtyb3N0U2JnTVlZNzNXWWZ2aEtzR3VpQzY1d2dROWdnVjYyWmJuVFBSRWdlcUF4eDcxX2F6c242Qm1PczBlVVRpWHhpaF9rYlFjaUJuTU9ZcFNtQzlTSENUNUVyUDJ2Y21JVFIwMlNLalk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:50:10,219 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:50:10,220 [INFO] Resolved Google News URL: https://business-review.eu/business/bmf-grup-signs-the-acquisition-of-flash-lighting-services-and-ex
+2026-11-03 14:50:10,220 [INFO] URL: https://business-review.eu/business/bmf-grup-signs-the-acquisition-of-flash-lighting-services-and-extends-its-services-from-buildings-to-cities-302634
+2026-11-03 14:50:11,680 [INFO] Text length: 11675 chars | source: full
+2026-11-03 14:50:11,680 [INFO] Text preview: BMF GRUP has signed the agreement to acquire 100% of the shares of Flash Lighting Services, one of Romania’s leading companies in the design, implementation and management of smart lighting systems. T...
+2026-11-03 14:50:11,680 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:50:23,863 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: BMF GRUP signs the acquisition of Flash Lighting Services an
+2026-11-03 14:50:23,863 [INFO] LLM extracted 1 deals | BMF GRUP signs the acquisition of Flash Lighting S
+2026-11-03 14:50:23,864 [INFO] Not a signed deal — skipping: BMF GRUP signs the acquisition of Flash Lighting Services an
+2026-11-03 14:50:23,864 [INFO] ------- Processing article n. 0: How can the EU support 50 million Europeans who can’t heat their homes? - inkl -------
+2026-11-03 14:50:23,919 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxOdkNjbWRzMXNBeGhQM1JpVnYzRFlvTHdLdVpJZWpsNVVUQ2UzOWkxX1VuSEU4dlNlQ2tXLWJzSHNLNlFCS1JCQXpGblNZX0FUOFVxZ01pcHViTHlVaDBUZG0yaVpLUEJldDNLekVaSU5ObkRuWl82T2Q5YUQwYUFab0lsR2dhTlQxNzNGWkdSdFRGeGNadVI0ZEpqVQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:50:25,015 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:50:25,016 [INFO] Resolved Google News URL: https://www.inkl.com/news/how-can-the-eu-support-50-million-europeans-who-cant-heat-their-homes
+2026-11-03 14:50:25,016 [INFO] URL: https://www.inkl.com/news/how-can-the-eu-support-50-million-europeans-who-cant-heat-their-homes
+2026-11-03 14:50:25,223 [INFO] Text length: 612 chars | source: full
+2026-11-03 14:50:25,223 [INFO] Text preview: EU Energy Commissioner Dan Jørgensen has warned that nearly 50 million Europeans cannot adequately heat their homes. Although the EU does not anticipate oil or gas shortages, the main threat is an eco...
+2026-11-03 14:50:25,223 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:50:38,566 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: How can the EU support 50 million Europeans who can’t heat t
+2026-11-03 14:50:38,567 [INFO] LLM extracted 1 deals | How can the EU support 50 million Europeans who ca
+2026-11-03 14:50:38,568 [INFO] Not a signed deal — skipping: How can the EU support 50 million Europeans who can’t heat t
+2026-11-03 14:50:38,568 [INFO] ------- Processing article n. 0: ADNOC Gas Signs 5 Year LNG Supply Agreement With TotalEnergies - Forbes Middle E -------
+2026-11-03 14:50:38,619 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxQZEpseVpxT3hFWXNSTlZTTE9BblBGejNxc1BYbnk4S0drb1ZHbVBNREdkY3NWdHdfaUhVNkJBVFNwcV9zS3F1bEdOZnJGaGcyVDI2bHhIMnRocHZGaDZNZ184XzA4OFliSmR1d0EtR2pVaWg3QWpPWXo1Z0VKNzdWVC1aTy1jT1Iyc1ZITVhEcjB6T1oxSVZ1MW9mNDdjdWtMb1hkU09oMGVrZnlNV3dqR3E3dVg2cS1rWEVfNWFqeC1fSGNCYU5R?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:50:39,719 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:50:39,720 [INFO] Resolved Google News URL: https://forbesmiddleeast.com/industry/energy/adnoc-gas-signs-5-year-lng-supply-agreement-with-totale
+2026-11-03 14:50:39,720 [INFO] URL: https://forbesmiddleeast.com/industry/energy/adnoc-gas-signs-5-year-lng-supply-agreement-with-totalenergies-for-up-to-16m-tonnes
+2026-11-03 14:50:40,278 [WARNING] discarding data: https://forbesmiddleeast.com/industry/energy/adnoc-gas-signs-5-year-lng-supply-agreement-with-totalenergies-for-up-to-16m-tonnes
+2026-11-03 14:50:40,278 [INFO] Full text extraction empty: https://forbesmiddleeast.com/industry/energy/adnoc-gas-signs-5-year-lng-supply-a
+2026-11-03 14:50:40,279 [INFO] Text length: 179 chars | source: fallback
+2026-11-03 14:50:40,279 [INFO] Text preview: ADNOC Gas Signs 5 Year LNG Supply Agreement With TotalEnergies - Forbes Middle East
+
+ADNOC Gas Signs 5 Year LNG Supply Agreement With TotalEnergies &nbsp;&nbsp; Forbes Middle East...
+2026-11-03 14:50:40,279 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:50:53,813 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ADNOC Gas Signs 5 Year LNG Supply Agreement With TotalEnergi
+2026-11-03 14:50:53,813 [INFO] LLM extracted 1 deals | ADNOC Gas Signs 5 Year LNG Supply Agreement With T
+2026-11-03 14:50:53,815 [INFO] Not a signed deal — skipping: ADNOC Gas Signs 5 Year LNG Supply Agreement With TotalEnergi
+2026-11-03 14:50:53,815 [INFO] ------- Processing article n. 0: Drax partners with Brookfield and Radiant for up to 1GW data center at North Yor -------
+2026-11-03 14:50:53,861 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxQaG1Od2FjUXlCVDBaLTRmc2gtRU5wYWIwMUFxQVRwUlpEVEVsb3NyY3lJZmtVZFB4cThpczdEU1dBeDZXUkhZNDZ5VGl4bkZrOXd6OGo4c0l1VXhfQWFNdXlyU3pKdUpKUFo2ZmlTTFVMYlBwU3pfZ3kxZzBvNmdjc3NGTmFsZUdZSXFabnBjUVJZT2RYVjh4ZzdLMlNrbGl2N3Y2YkNPa0FyU2kyTEJDSFo0dG1YRmtxZjZhTC1SYXNwR0JCMlhqRkZR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:50:54,943 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:50:54,944 [INFO] Resolved Google News URL: https://bebeez.eu/2026/11/03/drax-partners-with-brookfield-and-radiant-for-up-to-1gw-data-center-at-
+2026-11-03 14:50:54,944 [INFO] URL: https://bebeez.eu/2026/11/03/drax-partners-with-brookfield-and-radiant-for-up-to-1gw-data-center-at-north-yorkshire-power-station/
+2026-11-03 14:50:55,716 [INFO] Text length: 4277 chars | source: full
+2026-11-03 14:50:55,716 [INFO] Text preview: UK power company Drax has finally unveiled its plans for a data center at its 2.6GW Drax Power Station in Selby, North Yorkshire, UK.
+The company partnered with Brookfield and its UK-headquartered AI ...
+2026-11-03 14:50:55,716 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:51:08,873 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Drax partners with Brookfield and Radiant for up to 1GW data
+2026-11-03 14:51:08,873 [INFO] LLM extracted 1 deals | Drax partners with Brookfield and Radiant for up t
+2026-11-03 14:51:08,875 [INFO] Non-electricity energy deal — skipping: Drax partners with Brookfield and Radiant for up to 1GW data
+2026-11-03 14:51:08,875 [INFO] ------- Processing article n. 0: Enlight Renewable Energy Reports Third Quarter 2026 Financial Results - GlobeNew -------
+2026-11-03 14:51:08,927 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSDdOc1I1eFBfYzZCenNMRV9CWVBsX3d5bWU5WFp1ZjJIM0VFMWV3UXJkX3dHelhqQl9ZUVhtNEF1YUY5RVVnVkxCcE9XaEowQ3JNSkVTdkRJMS10eWZ5Y0tWTi16RWN3OWU5bGVjUUl2UFA5RjlfZTdna1NreGliQkFqb19nMHozVWN6c21mMDl2OEFSOHVwSFFKSEkxNU9WdFZibnRYVTgwT25mek55RE0tRmp2TVRNMmotVVliOTA5VlhIdEpxWGpXOEpCZnhRM01oUllubnM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:51:10,023 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:51:10,024 [INFO] Resolved Google News URL: https://www.globenewswire.com/news-release/2026/11/03/3394003/0/en/enlight-renewable-energy-reports-
+2026-11-03 14:51:10,024 [INFO] URL: https://www.globenewswire.com/news-release/2026/11/03/3394003/0/en/enlight-renewable-energy-reports-third-quarter-2026-financial-results.html
+2026-11-03 14:51:10,102 [INFO] Full text skipped (status 403): https://www.globenewswire.com/news-release/2026/11/03/3394003/0/en/enlight-renew
+2026-11-03 14:51:10,103 [INFO] Text length: 183 chars | source: fallback
+2026-11-03 14:51:10,103 [INFO] Text preview: Enlight Renewable Energy Reports Third Quarter 2026 Financial Results - GlobeNewswire
+
+Enlight Renewable Energy Reports Third Quarter 2026 Financial Results &nbsp;&nbsp; GlobeNewswire...
+2026-11-03 14:51:10,103 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:51:23,477 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Enlight Renewable Energy Reports Third Quarter 2026 Financia
+2026-11-03 14:51:23,477 [INFO] LLM extracted 1 deals | Enlight Renewable Energy Reports Third Quarter 202
+2026-11-03 14:51:23,481 [INFO] Not a signed deal — skipping: Enlight Renewable Energy Reports Third Quarter 2026 Financia
+2026-11-03 14:51:23,481 [INFO] ------- Processing article n. 0: Nordic power strain forces rethink on grid access rules - Montel News -------
+2026-11-03 14:51:23,542 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdVhBdGJOUGJpQTlhRzljVEE3ajRTYnB5UmVja25vdTF1aHNqSkVRZU9DeXBic2JqUVFPeHBmTXkzN2hfbS1vek9PcEswOWZmclJDOVJhYW53Y2d6MXkxX3RyblJfYTVCWGs4bzl1dS1uRzhFS2Juc2VtdGJCMGg2djhVaGVUaHRf?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:51:24,632 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:51:24,633 [INFO] Resolved Google News URL: https://montelnews.com/fr/videos/92593299/montel-news-energy-insights?v=133746526
+2026-11-03 14:51:24,633 [INFO] URL: https://montelnews.com/fr/videos/92593299/montel-news-energy-insights?v=133746526
+2026-11-03 14:51:25,830 [INFO] Text length: 534 chars | source: full
+2026-11-03 14:51:25,830 [INFO] Text preview: Nordic power strain forces rethink on grid access rules
+Soaring demand for grid access from data centres, battery energy storage systems and energy intensive industries is stretching already-limited c...
+2026-11-03 14:51:25,830 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:51:38,385 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Nordic power strain forces rethink on grid access rules - Mo
+2026-11-03 14:51:38,386 [INFO] LLM extracted 1 deals | Nordic power strain forces rethink on grid access 
+2026-11-03 14:51:38,387 [INFO] Not a signed deal — skipping: Nordic power strain forces rethink on grid access rules - Mo
+2026-11-03 14:51:38,387 [INFO] ------- Processing article n. 0: KPI Green Energy Signs 300 MW Wind Power PPA with SJVN - Energetica India Magazi -------
+2026-11-03 14:51:38,435 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxPZElNSlRfOVZMRXFWV0dhUmx4c05JMGZ3TFZOMTZoRnNjUXZmckNwczBKaEJ6OVVmUGs4V2tlaEVyVVVZdjg0YXlTbEdZSmpDR01hZTk2aTBrSGFZLVFCRkVnTzlRS0Z0WV9mQU1zVkVCSWVRUHJaRHFBdVc5SHpDNHNEcEtqUVd2WEJFSVl6NWt2bG9pbUIw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:51:39,550 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:51:39,550 [INFO] Resolved Google News URL: https://www.energetica-india.net/news/kpi-green-energy-signs-300-mw-wind-power-ppa-with-sjvn
+2026-11-03 14:51:39,550 [INFO] URL: https://www.energetica-india.net/news/kpi-green-energy-signs-300-mw-wind-power-ppa-with-sjvn
+2026-11-03 14:51:40,577 [INFO] Text length: 1957 chars | source: full
+2026-11-03 14:51:40,577 [INFO] Text preview: KPI Green Energy Signs 300 MW Wind Power PPA with SJVN
+KPI Green Energy has signed a 25-year PPA with SJVN for a 300 MW ISTS-connected wind power project at a fixed tariff of INR 3.64 per unit.
+Novemb...
+2026-11-03 14:51:40,577 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:51:53,802 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: KPI Green Energy Signs 300 MW Wind Power PPA with SJVN - Ene
+2026-11-03 14:51:53,803 [INFO] LLM extracted 1 deals | KPI Green Energy Signs 300 MW Wind Power PPA with 
+2026-11-03 14:51:53,804 [INFO] Not a European deal — skipping: KPI Green Energy / SJVN (India, 300 MW)
+2026-11-03 14:51:53,804 [INFO] ------- Processing article n. 0: „Schnellstmöglich und dauerhaft“: 13 Verbände appellieren an Klingbeil zur sofor -------
+2026-11-03 14:51:53,863 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMWdtQnpIWDNqMjE1SDJMUndGS2d5YnR6cDk2eFJPYWR0aWpIZ0hNcTdSN254X0RiYnd0UXJ3aVFDckVIWW5zd0JmMkMwMW9VS25sZFoxaUFkaDBvNnVJT3ZBNG5pNTc5R2QwTi1lbTZSSnByckxMdXhWd1NveGoxd0NGWWl2NUNMWUQ4VEtNUWtlXzBnRkpYczFSUU9tOURyb2k0R2pWZ2dqU3FqLU5VdFhGUHNPcFE2aWt2MVNjN1I?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:51:54,956 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:51:54,957 [INFO] Resolved Google News URL: https://www.fr.de/wirtschaft/stromsteuer-senkung-13-verbaende-fordern-sofortiger-handeln-von-klingbe
+2026-11-03 14:51:54,957 [INFO] URL: https://www.fr.de/wirtschaft/stromsteuer-senkung-13-verbaende-fordern-sofortiger-handeln-von-klingbeil-spd-zr-94572022.html
+2026-11-03 14:51:55,558 [INFO] Text length: 7776 chars | source: full
+2026-11-03 14:51:55,558 [INFO] Text preview: Stromsteuer senken – und zwar jetzt: 13 Verbände appellieren an Klingbeil
+Uns auf Google folgen13 Verbände fordern von Finanzminister Klingbeil, die Stromsteuer für alle sofort auf das EU-Mindestmaß z...
+2026-11-03 14:51:55,558 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:52:08,427 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: „Schnellstmöglich und dauerhaft“: 13 Verbände appellieren an
+2026-11-03 14:52:08,427 [INFO] LLM extracted 1 deals | „Schnellstmöglich und dauerhaft“: 13 Verbände appe
+2026-11-03 14:52:08,428 [INFO] Not a signed deal — skipping: „Schnellstmöglich und dauerhaft“: 13 Verbände appellieren an
+2026-11-03 14:52:08,429 [INFO] ------- Processing article n. 0: Drax signe un partenariat pour un centre de données dédié à l’IA sur un site éne -------
+2026-11-03 14:52:08,474 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0RnMVhkLTRxeDF3eC1HWFNqR1A2YjRrV3hlZDVHSWJJNVN5cTk0RHVlU0F2UURNSmo5alVDM3Q0Y3dLWGItR1ZxbGdYNHBRLUFtWWVRMzk3NTdueS1JbE5PMmYwSHBxeHAyQ2ZfRUt3a0syNzJtZ05yNllCN0lsOUNYMGtjdlI4bDVtYUJQLWlOZFRSVUt5UA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:52:09,597 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:52:09,598 [INFO] Resolved Google News URL: https://www.unite.ai/fr/drax-signs-ai-data-center-partnership-for-north-yorkshire-power-site/
+2026-11-03 14:52:09,598 [INFO] URL: https://www.unite.ai/fr/drax-signs-ai-data-center-partnership-for-north-yorkshire-power-site/
+2026-11-03 14:52:09,765 [INFO] Text length: 5482 chars | source: full
+2026-11-03 14:52:09,765 [INFO] Text preview: Drax a annoncé le 3 novembre 2026 avoir signé un accord avec Brookfield et Radiant pour développer, livrer et exploiter des capacités de centres de données dédiés à l’IA sur le site de Drax Power Stat...
+2026-11-03 14:52:09,766 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:52:24,187 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Drax signe un partenariat pour un centre de données dédié à 
+2026-11-03 14:52:24,188 [INFO] LLM extracted 1 deals | Drax signe un partenariat pour un centre de donnée
+2026-11-03 14:52:24,189 [INFO] Not a signed deal — skipping: Drax signe un partenariat pour un centre de données dédié à 
+2026-11-03 14:52:24,189 [INFO] ------- Processing article n. 0: Émirats arabes unis : TotalEnergies signe un accord d’approvisionnement en gaz n -------
+2026-11-03 14:52:24,245 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxObXNOVFBDdlpzeWlBdkdIR2J4ek9mTXVWeU9CV29aV21BTTlNUW92MlhfOHpCclEwa210ZjdteHM5dDl5cXdzRnVzTnpzMk5KWTBVeXJYemU5c3pYclVMSzl2SGwtNl8wdkR1T2owTEtBUE1kZ1JXMHloY0YtU3prN3htNklkNWdNVGoxVTBRMjRvVnlma0JVXzJUVTdDMW1s?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:52:25,330 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:52:25,331 [INFO] Resolved Google News URL: https://fr.finance.yahoo.com/actualites/%C3%A9mirats-arabes-unis-totalenergies-signe-083100751.html
+2026-11-03 14:52:25,331 [INFO] URL: https://fr.finance.yahoo.com/actualites/%C3%A9mirats-arabes-unis-totalenergies-signe-083100751.html
+2026-11-03 14:52:25,651 [INFO] Text length: 3094 chars | source: full
+2026-11-03 14:52:25,652 [INFO] Text preview: PARIS, November 03, 2026--(BUSINESS WIRE)--TotalEnergies (Paris:TTE) (LSE:TTE) (NYSE:TTE) et ADNOC Gas annoncent aujourd'hui la signature d'un accord d'approvisionnement en gaz naturel liquéfié (GNL) ...
+2026-11-03 14:52:25,652 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:52:38,635 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Émirats arabes unis : TotalEnergies signe un accord d’approv
+2026-11-03 14:52:38,635 [INFO] LLM extracted 1 deals | Émirats arabes unis : TotalEnergies signe un accor
+2026-11-03 14:52:38,637 [INFO] Not a signed deal — skipping: Émirats arabes unis : TotalEnergies signe un accord d’approv
+2026-11-03 14:52:38,637 [INFO] ------- Processing article n. 0: CanAsia finalise la vente d'Andora Energy à Logan Oil pour 30 M CAD - energynews -------
+2026-11-03 14:52:38,691 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxNN0NEbnVaVG4xeVBKVFNHS0pjSlpVaXI1eXlEWmtyUkh6YXFyLV9lM21QYzY5ZjQ4Ym1TWHg1NTNhWktOTkVFeGNfMmVfVkZ2aFZNeVcyNjZ1SjVvQlAtT2dOM3pNVGd4ajRnc290UFp4bzFTaG5JcFBjQUdtQzNiS0dOLTI2REJ0SjdJSE1XZzdWV00?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:52:39,772 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:52:39,773 [INFO] Resolved Google News URL: https://energynews.pro/canasia-finalise-la-vente-dandora-energy-a-logan-oil-pour-30-m-cad
+2026-11-03 14:52:39,773 [INFO] URL: https://energynews.pro/canasia-finalise-la-vente-dandora-energy-a-logan-oil-pour-30-m-cad
+2026-11-03 14:52:40,226 [INFO] Text length: 2332 chars | source: full
+2026-11-03 14:52:40,226 [INFO] Text preview: CanAsia Energy Corp., listed on the TSX Venture Exchange (TSXV) under the symbol CEC, has completed the sale of all the shares of Andora Energy Corporation to Logan Oil Corp. The buyer is a newly form...
+2026-11-03 14:52:40,226 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:52:54,008 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: CanAsia finalise la vente d'Andora Energy à Logan Oil pour 3
+2026-11-03 14:52:54,009 [INFO] LLM extracted 1 deals | CanAsia finalise la vente d'Andora Energy à Logan 
+2026-11-03 14:52:54,010 [INFO] Not a signed deal — skipping: CanAsia finalise la vente d'Andora Energy à Logan Oil pour 3
+2026-11-03 14:52:54,011 [INFO] ------- Processing article n. 0: L'application du prix de l'électricité horaire doit prêter attention aux locatai -------
+2026-11-03 14:52:54,059 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxNZXJkcHpnN1NmZmQ4bGdhRVlTMmxlaXNKcWZWUHFITi05OXZ3WWNlWElQR3lMekFVRzZGY2dRNm9FWEZGbmhWZ3dWcFhXWWttVk9EMEdEWGhmSFVOLVhYQUloc3MteWY1YUQ2aTJOcl81ckl6OGt5VHBTc2w5N2J6U1h3ajRPZ2pPR3hnRTJKdkhvajZEeEdwQlhlVF8?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:52:55,172 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:52:55,173 [INFO] Resolved Google News URL: https://fr.laodong.vn/thoi-su/ap-dung-gia-dien-theo-gio-can-chu-y-den-nguoi-thue-tro-1794216.ldo
+2026-11-03 14:52:55,173 [INFO] URL: https://fr.laodong.vn/thoi-su/ap-dung-gia-dien-theo-gio-can-chu-y-den-nguoi-thue-tro-1794216.ldo
+2026-11-03 14:52:56,657 [WARNING] discarding data: https://fr.laodong.vn/thoi-su/ap-dung-gia-dien-theo-gio-can-chu-y-den-nguoi-thue-tro-1794216.ldo
+2026-11-03 14:52:56,657 [INFO] Full text extraction empty: https://fr.laodong.vn/thoi-su/ap-dung-gia-dien-theo-gio-can-chu-y-den-nguoi-thue
+2026-11-03 14:52:56,657 [INFO] Text length: 205 chars | source: fallback
+2026-11-03 14:52:56,657 [INFO] Text preview: L'application du prix de l'électricité horaire doit prêter attention aux locataires - Laodong.vn
+
+L'application du prix de l'électricité horaire doit prêter attention aux locataires &nbsp;&nbsp; Laodo...
+2026-11-03 14:52:56,657 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:53:08,680 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: L'application du prix de l'électricité horaire doit prêter a
+2026-11-03 14:53:08,680 [INFO] LLM extracted 1 deals | L'application du prix de l'électricité horaire doi
+2026-11-03 14:53:08,682 [INFO] Not a signed deal — skipping: L'application du prix de l'électricité horaire doit prêter a
+2026-11-03 14:53:08,682 [INFO] ------- Processing article n. 0: Amazon intensifica su interés por los reactores modulares pequeños - Foro Nuclea -------
+2026-11-03 14:53:08,744 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxPQzRKU0p1UDAxMmZ0d0JuWHUxRDVwMU9MdVF2Ym1QS01hOVJQVXBiam1ZZ0pVSWFqNl9TSmJzXzR0d2lRcnl1ZXNnYldZa2NDeGF6RGp5YTM3RWFHTmdiS2V0b2F1UUg1SHpHcVhJRDJoTTUzUGV2bFBGajVWNVBxeVEtaDk0TkJ5aXprVE81SFVWU2l2dHRfc2N1LW15S3JHVXdUUFlyR0hsaUN1NG1sbXRUclEtUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:53:09,855 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:53:09,856 [INFO] Resolved Google News URL: https://www.foronuclear.org/actualidad/noticias/amazon-intensifica-su-interes-por-los-reactores-modu
+2026-11-03 14:53:09,856 [INFO] URL: https://www.foronuclear.org/actualidad/noticias/amazon-intensifica-su-interes-por-los-reactores-modulares-pequenos/
+2026-11-03 14:53:14,967 [INFO] Text length: 3784 chars | source: full
+2026-11-03 14:53:14,967 [INFO] Text preview: Amazon, X-energy y American Electric Power (AEP) han llegado a un acuerdo para explorar la construcción de 12 reactores modulares pequeños del modelo Xe-100 de X-energy en el emplazamiento de una anti...
+2026-11-03 14:53:14,967 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:53:23,708 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Amazon intensifica su interés por los reactores modulares pe
+2026-11-03 14:53:23,709 [INFO] LLM extracted 1 deals | Amazon intensifica su interés por los reactores mo
+2026-11-03 14:53:23,710 [INFO] Not a signed deal — skipping: Amazon intensifica su interés por los reactores modulares pe
+2026-11-03 14:53:23,710 [INFO] ------- Processing article n. 0: República Dominicana fija las reglas para incorporar 200 MW y 800 MWh de batería -------
+2026-11-03 14:53:23,773 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQVp0SWJFcUNfc2tkOWMzWWdsOUFDVjNEekpIQVNzbkdYRGx5RFN3Q0ZwbGR6eTYyeTFSMXhvcS1lenQ3V2YtWXQ1MnlRS0VIemxJNm1yY0ZpbUZ4eGJ1Z21hVkRvTjB1VXZqa3BPTzY1MmJlWGc2ZWRMblpCNDh1T2VhR1FxZFhVa0NJRGVSM2VMMVNvSFRQdEhfU2JwaGJXRXFCa0VMMFQ4c0RBOGtWU24zZHlmNFY3MmZld3N5a2RvcG1MeGswYnZEYzY1ZnZBS3lNZi1oNGRScFFCQWZQVDdSTFZRYWNJWVpVcFViQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:53:24,880 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:53:24,881 [INFO] Resolved Google News URL: https://www.review-energy.com/almacenamiento/republica-dominicana-fija-las-reglas-para-incorporar-20
+2026-11-03 14:53:24,881 [INFO] URL: https://www.review-energy.com/almacenamiento/republica-dominicana-fija-las-reglas-para-incorporar-200-mw-y-800-mwh-de-baterias-a-parques-renovables-existentes
+2026-11-03 14:53:25,625 [INFO] Text length: 5551 chars | source: full
+2026-11-03 14:53:25,625 [INFO] Text preview: La Superintendencia de Electricidad (SIE) de República Dominicana aprobó las bases de la licitación para contratar hasta 200 MW de potencia y 800 MWh de almacenamiento en baterías, destinados a proyec...
+2026-11-03 14:53:25,626 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:53:38,552 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: República Dominicana fija las reglas para incorporar 200 MW 
+2026-11-03 14:53:38,553 [INFO] LLM extracted 1 deals | República Dominicana fija las reglas para incorpor
+2026-11-03 14:53:38,554 [INFO] Not a signed deal — skipping: República Dominicana fija las reglas para incorporar 200 MW 
+2026-11-03 14:53:38,554 [INFO] ------- Processing article n. 0: El puerto de Nador, cerca de Melilla, se prepara para suministrar queroxeno de a -------
+2026-11-03 14:53:38,626 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSGVMZWN2RWgzYTdDYmNKNEh0TU9nUENaMzJDMENsZVZ1dGVKQzczaHRWTUxyaFAxS21PRHRnRmJfcG5TaXh1NUlxWmk3S0lVdVZ2LUpNTDZyUXVocWptNHF3OHVfbXRXUENwdVVEekw1RkIyVVRXMFZ2SFlwdUZ1X3pESUpFOFRzMWdXRjE5N05GTV9aOHdDR0NpQjdEUUQ2Q1lZeGlhTndBNnp3NllMMVBvdzZ5enYwX1NZTnBYXzdNOGRBTWhyZldDb1hXZzR3Y2h5R25UWXN1bjBaSFRxQnBMQTLSAeQBQVVfeXFMTkhlTGVjdkVoM2E3Q2JjSjRIdE1PZ1BDWjMyQzBDbGVWdXRlSkM3M2h0Vk1McmhQMUttT0R0Z0ZiX3BuU2l4dTVJcVppN0tJVXVWdi1KTUw2clF1aHFqbTRxdzh1X210V1BDcHVVRHpMNUZCMlVUVzBWdkhZcHVGdV96RElKRThUczFnV0YxOTdORk1fWjh3Q0dDaUI3RFFENkNZWXhpYU53QTZ6dzZZTDFQb3c2eXp2MF9TWU5wWF83TThkQU1ocmZXQ29YV2c0d2NoeUduVFlzdW4wWkhUcUJwTEEy?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:53:39,723 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:53:39,723 [INFO] Resolved Google News URL: https://www.larazon.es/economia/puerto-nador-cerca-melilla-prepara-suministrar-queroxeno-aviacion_20
+2026-11-03 14:53:39,724 [INFO] URL: https://www.larazon.es/economia/puerto-nador-cerca-melilla-prepara-suministrar-queroxeno-aviacion_202611036ae9a2a1025012321572101e.html?outputType=amp
+2026-11-03 14:53:39,870 [INFO] Text length: 1425 chars | source: full
+2026-11-03 14:53:39,870 [INFO] Text preview: Shell Trading Rotterdam, la filial neerlandesa de la gigante energética, ha anunciado la firma de un contrato a largo plazo con Green Sky Manara LLC, filial de Green Sky Capital especializada en energ...
+2026-11-03 14:53:39,871 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:53:53,653 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: El puerto de Nador, cerca de Melilla, se prepara para sumini
+2026-11-03 14:53:53,653 [INFO] LLM extracted 1 deals | El puerto de Nador, cerca de Melilla, se prepara p
+2026-11-03 14:53:53,655 [INFO] Not a signed deal — skipping: El puerto de Nador, cerca de Melilla, se prepara para sumini
+2026-11-03 14:53:53,655 [INFO] ------- Processing article n. 0: SMA e BYD siglano accordo per soluzioni congiunte nel mercato italiano delle BES -------
+2026-11-03 14:53:53,708 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxPSFRDMGxIaWp4d01oUi1BbDlDRXhyZk5uMV95VHhXSy1OX3p6LWlxa1EyOFpmaUE0aVNHSWhZVEU1elQ5VUpSLXpCa3k5Wl85dnRpTEp1dEdRS2M1akpDMmx1amVKV1d2UWZtUnhISVVmb1c2V0R1cEVXQUxYSi1KQV9ZWWFxUE5SeXU2QnE3WmpBakx4S2lra19mZzVWSTRzYTh5Si1BS3JwT2dwMzFXakRvZ25sZHNlVnBmdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:53:54,800 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:53:54,801 [INFO] Resolved Google News URL: https://www.pv-magazine.it/2026/11/03/sma-e-byd-siglano-accordo-per-soluzioni-congiunte-nel-mercato-
+2026-11-03 14:53:54,801 [INFO] URL: https://www.pv-magazine.it/2026/11/03/sma-e-byd-siglano-accordo-per-soluzioni-congiunte-nel-mercato-italiano-delle-bess/
+2026-11-03 14:53:55,152 [INFO] Text length: 1638 chars | source: full
+2026-11-03 14:53:55,152 [INFO] Text preview: SMA e BYD siglano accordo per soluzioni congiunte nel mercato italiano delle BESS
+SMA Italia e BYD Italia hanno siglato un accordo per sviluppare e offrire soluzioni che combinano le batterie BYD con ...
+2026-11-03 14:53:55,153 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:54:09,040 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: SMA e BYD siglano accordo per soluzioni congiunte nel mercat
+2026-11-03 14:54:09,040 [INFO] LLM extracted 1 deals | SMA e BYD siglano accordo per soluzioni congiunte 
+2026-11-03 14:54:09,042 [INFO] Not a signed deal — skipping: SMA e BYD siglano accordo per soluzioni congiunte nel mercat
+2026-11-03 14:54:09,042 [INFO] ------- Processing article n. 0: Legge di Bilancio 2027, bonus edilizi confermati, flat tax a 100mila euro - ACCA -------
+2026-11-03 14:54:09,101 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UU1dzbGROOEFKVmhXVWVqVkJBRGplSXU4RGlNNDk4NWlnTmR0NEdiM08xbThfeFNuTG9IeVdNdUR4a1lfUUQ2VDdERmxzMW12WUZBUzMtUUR0dw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:54:10,214 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:54:10,215 [INFO] Resolved Google News URL: https://biblus.acca.it/legge-di-bilancio-2027/
+2026-11-03 14:54:10,215 [INFO] URL: https://biblus.acca.it/legge-di-bilancio-2027/
+2026-11-03 14:54:10,783 [INFO] Full text fetch failed (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))): https://biblus.acca.it/legge-di-bilancio-2027/
+2026-11-03 14:54:10,783 [INFO] Text length: 191 chars | source: fallback
+2026-11-03 14:54:10,783 [INFO] Text preview: Legge di Bilancio 2027, bonus edilizi confermati, flat tax a 100mila euro - ACCA software
+
+Legge di Bilancio 2027, bonus edilizi confermati, flat tax a 100mila euro &nbsp;&nbsp; ACCA software...
+2026-11-03 14:54:10,783 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:54:23,600 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Legge di Bilancio 2027, bonus edilizi confermati, flat tax a
+2026-11-03 14:54:23,600 [INFO] LLM extracted 1 deals | Legge di Bilancio 2027, bonus edilizi confermati, 
+2026-11-03 14:54:23,602 [INFO] Not a signed deal — skipping: Legge di Bilancio 2027, bonus edilizi confermati, flat tax a
+2026-11-03 14:54:23,602 [INFO] ------- Processing article n. 0: Modifica della legge sull'energia elettrica: eliminare gli ostacoli istituzional -------
+2026-11-03 14:54:23,655 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNDJFS1VuRFB3bl9XNXljcG9HeWQ2cWZSYVRRZTcwbmxGeWRacGlZWm1lWFpNSWtlZm10QWhtMnJWb3pEYm1VdWxFYzhyTWlOQ1J3aExOT09qWGhQT2RDRDAzSGVKazNWaTNaNk1Da1NmcFVNOXlxaUR1UWs0QUNieGVEamtOZGdIS2FFVks4by1mQWNuWjNXTm9qMTd0QVJMTnROWnNQZjJTOWxHM1NVbWdIWHl5T3oy?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:54:24,775 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:54:24,776 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/sua-doi-luat-dien-luc-khoi-thong-diem-nghen-the-che-tao-dong-luc-phat-trie
+2026-11-03 14:54:24,776 [INFO] URL: https://www.vietnam.vn/it/sua-doi-luat-dien-luc-khoi-thong-diem-nghen-the-che-tao-dong-luc-phat-trien-thi-truong-dien
+2026-11-03 14:54:25,128 [INFO] Text length: 14914 chars | source: full
+2026-11-03 14:54:25,128 [INFO] Text preview: Modifica della legge sull'energia elettrica: eliminare gli ostacoli istituzionali e dare impulso allo sviluppo del mercato elettrico.
+La modifica e l'integrazione di diversi articoli della Legge sull'...
+2026-11-03 14:54:25,128 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:54:39,523 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Modifica della legge sull'energia elettrica: eliminare gli o
+2026-11-03 14:54:39,524 [INFO] LLM extracted 1 deals | Modifica della legge sull'energia elettrica: elimi
+2026-11-03 14:54:39,525 [INFO] Not a signed deal — skipping: Modifica della legge sull'energia elettrica: eliminare gli o
+2026-11-03 14:54:39,525 [INFO] ------- Processing article n. 0: Lucro da Lufthansa cai 35% para €715 milhões entre janeiro e setembro - Expresso -------
+2026-11-03 14:54:39,629 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgNBVV95cUxPaHpJa09acUQteTVCRWhTUG5SWG1qNUtkVjNXN1VoLUVhR19YTFB1NkV2aklBYmhvOG9MSUlxOUVHUTIzR3liQkpkM241ejdzTVdFSEloUzB4NWpaaUZxN1hMa255cmdCSU9TcnYtZ3gtLUJybnpXWUJ2NHdpak5qLUZyYlZnMDRSQkhIYzBQWmF6eFpLdGI5aVpIVEE5LUtJeVk3bEs0bzVES2lDNFhsZVk5Mnc4eV9VNHZJTjZiVkt0Rm1fM0IzV0dEVFhzTE1tQnotOVd0b0tzWVpuRkVZS0lpU3BVeDlrN3BaT0xzeXFOVy1VYXREMDdRN3UxdjBwLTBNWUpUMG5MTHVyM2F6UWljcTBVMjhEblAzTldYV0xCY3ZlZ29Mc2xTNzVINV9EbXFudHVqQ1ZPLVNha2cxQTY0LXljMVpXWmVuOFNrakNGZDV6UlVITGlldEpaUkktaUVHejhYZDZWWmpfZHBaY245Z24ydldFRHBWUkhPMUNJeThaQUQtcmNOZTBNX0thMHVwUEtQM3pTbW15VDhwSVdrTHFjbFZJWDZfcXJR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:54:40,728 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:54:40,728 [INFO] Resolved Google News URL: https://expresso.pt/empresas-negocios/2026-11-03-lucro-da-lufthansa-cai-35-para-715-milhoes-entre-ja
+2026-11-03 14:54:40,728 [INFO] URL: https://expresso.pt/empresas-negocios/2026-11-03-lucro-da-lufthansa-cai-35-para-715-milhoes-entre-janeiro-e-setembro-5c20e970?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/empresas-negocios/2026-11-03-lucro-da-lufthansa-cai-35-para-715-milhoes-entre-janeiro-e-setembro-5c20e970
+2026-11-03 14:54:40,931 [INFO] Full text skipped (status 403): https://expresso.pt/empresas-negocios/2026-11-03-lucro-da-lufthansa-cai-35-para-
+2026-11-03 14:54:40,932 [INFO] Text length: 173 chars | source: fallback
+2026-11-03 14:54:40,932 [INFO] Text preview: Lucro da Lufthansa cai 35% para €715 milhões entre janeiro e setembro - Expresso
+
+Lucro da Lufthansa cai 35% para €715 milhões entre janeiro e setembro &nbsp;&nbsp; Expresso...
+2026-11-03 14:54:40,932 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:54:53,510 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Lucro da Lufthansa cai 35% para €715 milhões entre janeiro e
+2026-11-03 14:54:53,510 [INFO] LLM extracted 1 deals | Lucro da Lufthansa cai 35% para €715 milhões entre
+2026-11-03 14:54:53,512 [INFO] Not a signed deal — skipping: Lucro da Lufthansa cai 35% para €715 milhões entre janeiro e
+2026-11-03 14:54:53,512 [INFO] ------- Processing article n. 0: Ministro Le Manh Hung: Os preços da eletricidade devem refletir custos razoáveis -------
+2026-11-03 14:54:53,569 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxPbmVvUkZoUE5LVmdjOXZTb0Q0VkRLMmNWeFljYTJEdlRRVnlPOXBCVUdNRHZZUGgzbEw1VlFPM3paQTY3SUF0eHlrZ3N3aDNfMWs4QURGQlpzS2pvcHo0VXdrSGdLWVZfX3JsNFRnQzFuaGRITGdZUjJtUFZ5N1hQUFN6N3k0aUZJaUUxeFlqSUxXVDRFNlQ1M2RwUTM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:54:54,664 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:54:54,665 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/bo-truong-le-manh-hung-gia-dien-phai-phan-anh-chi-phi-hop-ly-minh-bach
+2026-11-03 14:54:54,665 [INFO] URL: https://www.vietnam.vn/pt/bo-truong-le-manh-hung-gia-dien-phai-phan-anh-chi-phi-hop-ly-minh-bach
+2026-11-03 14:54:55,001 [INFO] Text length: 6276 chars | source: full
+2026-11-03 14:54:55,001 [INFO] Text preview: Na tarde de 3 de novembro, em resposta às opiniões dos deputados da Assembleia Nacional durante a sessão plenária sobre o projeto de lei que altera e complementa diversos artigos da Lei da Eletricidad...
+2026-11-03 14:54:55,001 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:55:08,571 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ministro Le Manh Hung: Os preços da eletricidade devem refle
+2026-11-03 14:55:08,571 [INFO] LLM extracted 1 deals | Ministro Le Manh Hung: Os preços da eletricidade d
+2026-11-03 14:55:08,573 [INFO] Not a signed deal — skipping: Ministro Le Manh Hung: Os preços da eletricidade devem refle
+2026-11-03 14:55:08,573 [INFO] ------- Processing article n. 0: Drax firma parceria para centro de dados de IA em local de geração de energia no -------
+2026-11-03 14:55:08,625 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxORFRuazYyVDdUZUJWSnAtWmJoSnY2TTRwdU1VRThMZkhma1hicGMtYk9iUGFMR0ZzUkJLT2xackpWOC1EeHJQdEFPdXNaalhHVFVYWUxzczRhUHZULUQ3ckFudE1DRHFkbG1vOVptajJzYkp4N0RMWGxVcHNDby11Y25ha0hiVUNvUU9lSzZHbTNNckhRdFowdA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-03 14:55:09,729 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-03 14:55:09,730 [INFO] Resolved Google News URL: https://www.unite.ai/pt/drax-signs-ai-data-center-partnership-for-north-yorkshire-power-site/
+2026-11-03 14:55:09,730 [INFO] URL: https://www.unite.ai/pt/drax-signs-ai-data-center-partnership-for-north-yorkshire-power-site/
+2026-11-03 14:55:09,865 [INFO] Text length: 5103 chars | source: full
+2026-11-03 14:55:09,865 [INFO] Text preview: A Drax anunciou, em 3 de novembro de 2026, que havia assinado um acordo com a Brookfield e a Radiant para desenvolver, entregar e operar capacidade para centros de dados de IA na central elétrica de D...
+2026-11-03 14:55:09,865 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-03 14:55:24,304 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Drax firma parceria para centro de dados de IA em local de g
+2026-11-03 14:55:24,305 [INFO] LLM extracted 1 deals | Drax firma parceria para centro de dados de IA em 
+2026-11-03 14:55:24,306 [INFO] Not a signed deal — skipping: Drax firma parceria para centro de dados de IA em local de g
+2026-11-03 14:55:24,307 [INFO] Run complete. New deals: 0, Updates: 0
+2026-11-03 14:55:24,323 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1520 deals)
+2026-11-03 14:55:38,357 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-11-03 14:55:38,357 [INFO] Email log summary generated by groq-120b
+2026-11-03 14:55:39,130 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
