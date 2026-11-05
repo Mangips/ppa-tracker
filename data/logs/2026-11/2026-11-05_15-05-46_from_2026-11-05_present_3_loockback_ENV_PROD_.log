@@ -1,0 +1,720 @@
+2026-11-05 15:05:46,955 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-11-05 15:05:46,966 [INFO] Loaded 1684 existing deals for dedup matching
+2026-11-05 15:05:46,966 [INFO] Searching from 2026-11-05 to present with 3 loockback days
+2026-11-05 15:05:47,047 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-11-05 15:05:48,114 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-11-05 15:05:49,180 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-11-05 15:05:50,647 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-11-05&hl=en&gl=US&ceid=US:en: 24 results
+2026-11-05 15:05:53,297 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-11-05&hl=en&gl=US&ceid=US:en: 7 results
+2026-11-05 15:05:55,580 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-11-05&hl=de&gl=DE&ceid=DE:de: 3 results
+2026-11-05 15:05:57,957 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-11-05&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-11-05 15:06:00,427 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-11-05&hl=fr&gl=FR&ceid=FR:fr: 7 results
+2026-11-05 15:06:02,760 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-11-05&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-11-05 15:06:05,001 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-11-05&hl=es&gl=ES&ceid=ES:es: 5 results
+2026-11-05 15:06:07,283 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-11-05&hl=es&gl=ES&ceid=ES:es: 6 results
+2026-11-05 15:06:09,681 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-11-05&hl=it&gl=IT&ceid=IT:it: 4 results
+2026-11-05 15:06:12,106 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-11-05&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-05 15:06:14,532 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-11-05&hl=pl&gl=PL&ceid=PL:pl: 2 results
+2026-11-05 15:06:16,734 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-11-05&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-05 15:06:19,031 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-11-05&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-05 15:06:21,386 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-11-05&hl=pt&gl=PT&ceid=PT:pt: 3 results
+2026-11-05 15:06:23,806 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-11-05&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-05 15:06:25,806 [INFO] Total raw articles collected: 62
+2026-11-05 15:06:26,033 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-11-05 15:06:27,585 [INFO] Extra RSS [elperiodicodelaenergia.com]: 7 results
+2026-11-05 15:06:28,594 [INFO] Unique unseen articles: 55
+2026-11-05 15:06:28,594 [INFO] ------- Processing article n. 0: Ahold Delhaize signs new Power Purchase Agreement, further supporting renewable  -------
+2026-11-05 15:06:28,802 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVnl5MmlocU8tZWFUWXhVR1lJR0JEaDRxSmJWTjJmWGxiaDB5S2kzaWhGOHBhYnpTRHlpeGVRSHNQcXFiY1ZRU2d1Vml4bndzdDhDUFpZbWFuOWRMYldlTlY5SERfaVNHQXIzM0QtRElyOXNLSEZIY21WY3FRb0hWUDM3NFZONFBZMktxMEVGaDk1Q0djQXhZTVZwWlQ2SVVoSHVmN1Fwc1pmUW5ubW5rSEY3OVFkdUFnTG85N3QtOFN3QzlWTk1MNWI4Ymd1ZERwTWlYUnNVTG44NXRL?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:06:29,945 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:06:29,946 [INFO] Resolved Google News URL: https://newsroom.aholddelhaize.com/ahold-delhaize-signs-new-power-purchase-agreement-further-support
+2026-11-05 15:06:29,946 [INFO] URL: https://newsroom.aholddelhaize.com/ahold-delhaize-signs-new-power-purchase-agreement-further-supporting-renewable-energy-development-in-romania/
+2026-11-05 15:06:30,655 [INFO] Text length: 4122 chars | source: full
+2026-11-05 15:06:30,656 [INFO] Text preview: Ahold Delhaize signs new Power Purchase Agreement, further supporting renewable energy development in Romania
+Zaandam, the Netherlands, November, 5, 2026 – Ahold Delhaize has signed another virtual Po...
+2026-11-05 15:06:30,656 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:06:31,888 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize signs new Power Purchase Agreement, further s
+2026-11-05 15:06:31,888 [INFO] LLM extracted 1 deals | Ahold Delhaize signs new Power Purchase Agreement,
+2026-11-05 15:06:31,904 [INFO] NEW: Ahold Delhaize / Rezolv Energy SA (Romania, None MW)
+2026-11-05 15:06:36,906 [INFO] ------- Processing article n. 1: Ahold Delhaize Reaches 100% Renewables Milestone with New Clean Energy Deal - ES -------
+2026-11-05 15:06:36,998 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxNN1dOWGJETDg2VEJad2dzRnZ4ZjBiWWI3SnpIeTh4S3RFNXF4dFpHMzBsQU1Md0tsR19iTE1oYkJ6Qld0WWpjbkVhUWdBWXBpODlJTGk1dEFNZ2ptTzJyT25uRE5IenRIdU5QR3NETGxTai1UWGFTYnlRNGJHQ0s2TmpiRm93cF9xVGxJM296MFN5QmhlR0gyMmhKOHh5VFNiaGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:06:38,277 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:06:38,278 [INFO] Resolved Google News URL: https://www.esgtoday.com/ahold-delhaize-reaches-100-renewables-milestone-with-new-clean-energy-deal/
+2026-11-05 15:06:38,278 [INFO] URL: https://www.esgtoday.com/ahold-delhaize-reaches-100-renewables-milestone-with-new-clean-energy-deal/
+2026-11-05 15:06:38,546 [INFO] Text length: 2643 chars | source: full
+2026-11-05 15:06:38,546 [INFO] Text preview: Netherlands-based international food retailer Ahold Delhaize announced today that it has signed a 10-year virtual Power Purchase Agreement (vPPA) with renewable energy producer Rezolv Energy, supporti...
+2026-11-05 15:06:38,546 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:06:46,759 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize Reaches 100% Renewables Milestone with New Cl
+2026-11-05 15:06:46,760 [INFO] LLM extracted 1 deals | Ahold Delhaize Reaches 100% Renewables Milestone w
+2026-11-05 15:06:46,775 [INFO] DUPLICATE skipped: Ahold Delhaize / Rezolv Energy (Romania) — same as ID: 2062
+2026-11-05 15:06:46,775 [INFO] ------- Processing article n. 1: American firms sign landmark deal to beam solar power from space as Europe faces -------
+2026-11-05 15:06:46,984 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdlZXaVl0cTRFWUVsWEJ5QkVGSzY3UmpDLWNydmJpTWZXcmVBekRPdmNvU0NXUVE0eDVjNHpGZ1doT291VE9ZNUVGWEFvU1VMYlZCV2hPQ3ctYUpjel9JdE9NQ1NhRGhLWGFLRm0waW9IcExHakgycUFBdDhJVUNqZm85OXJEcVNpRUdMTGNaN2hjLTlIQkpzb0VOSlZVWkx5SEFhMUpNZkpLZllPWHZjTURUOGZSeGFoWG50clBpcklqTFhuWVFQbkV2YlE1czhyeFNFVQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:06:48,113 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:06:48,113 [INFO] Resolved Google News URL: https://the-european.eu/story-68670/american-firms-sign-landmark-deal-to-beam-solar-power-from-space
+2026-11-05 15:06:48,114 [INFO] URL: https://the-european.eu/story-68670/american-firms-sign-landmark-deal-to-beam-solar-power-from-space-as-europe-faces-ai-energy-crunch.html
+2026-11-05 15:06:48,876 [INFO] Text length: 7278 chars | source: full
+2026-11-05 15:06:48,876 [INFO] Text preview: American firms sign landmark deal to beam solar power from space as Europe faces AI energy crunch
+Two US technology companies have agreed a 20-year contract to supply electricity from orbit to underwa...
+2026-11-05 15:06:48,876 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:07:01,856 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: American firms sign landmark deal to beam solar power from s
+2026-11-05 15:07:01,857 [INFO] LLM extracted 1 deals | American firms sign landmark deal to beam solar po
+2026-11-05 15:07:01,861 [INFO] Not a European deal — skipping: Brae Systems / Virtus Solis (United States, None MW)
+2026-11-05 15:07:01,861 [INFO] ------- Processing article n. 1: Ahold Delhaize & Rezolv Sign Major SE Europe Green Power Deal - The Romania Jour -------
+2026-11-05 15:07:02,186 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUUwZTJTN0dvbkU2VmNiQ1Rmek9FRExWSG1XdEdSTkI5M09FN0wzYWg0WnpnSF85ZUZ0Vy1mWFYzbzlPYmZzZlBBN0hjcUpNOW8xZVRXM2JISUNnYjlDR0dHV3daMXR4YVdYTDBNZXpaOEVLYkloUmh3eTZoMVZCaWw0R0syeG40bTloRDVSMHE5X1NYMEZvczljdGJ1bmpOcTRmcVBR0gGmAUFVX3lxTFAxRTBlMlM3R29uRTZWY2JDVGZ6T0VETFZIbVd0R1JOQjkzT0U3TDNhaDRaemdIXzllRnRXLWZYVjNvOU9iZnNmUEE3SGNxSk05bzFlVFczYkhJQ2diOUNHR0dXd1oxdHhhV1hMME1lelo4RUtiSWhSaHd5NmgxVkJpbDRHSzJ4bjRtOWhENVIwcTlfU1gwRm9zOWN0YnVuak5xNGZxUFE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:07:03,377 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:07:03,378 [INFO] Resolved Google News URL: https://www.romaniajournal.ro/amp/business/ahold-delhaize-rezolv-sign-major-se-europe-green-power-de
+2026-11-05 15:07:03,378 [INFO] URL: https://www.romaniajournal.ro/amp/business/ahold-delhaize-rezolv-sign-major-se-europe-green-power-deal/
+2026-11-05 15:07:03,520 [INFO] Full text skipped (status 403): https://www.romaniajournal.ro/amp/business/ahold-delhaize-rezolv-sign-major-se-e
+2026-11-05 15:07:03,520 [INFO] Text length: 179 chars | source: fallback
+2026-11-05 15:07:03,520 [INFO] Text preview: Ahold Delhaize & Rezolv Sign Major SE Europe Green Power Deal - The Romania Journal
+
+Ahold Delhaize & Rezolv Sign Major SE Europe Green Power Deal &nbsp;&nbsp; The Romania Journal...
+2026-11-05 15:07:03,520 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:07:16,487 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize & Rezolv Sign Major SE Europe Green Power Dea
+2026-11-05 15:07:16,487 [INFO] LLM extracted 1 deals | Ahold Delhaize & Rezolv Sign Major SE Europe Green
+2026-11-05 15:07:16,503 [INFO] NEW: Ahold Delhaize / Rezolv (Romania, None MW)
+2026-11-05 15:07:21,505 [INFO] ------- Processing article n. 2: U.S. solar PPA prices rose in Q3 as Section 232 tariffs began to take effect - p -------
+2026-11-05 15:07:21,770 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEtYQ0tjangxYU5wS0hoWTBtYS1TMDRzQ2NyMGJabDNTMnI0eXE0U0E5a0VSTm5yUGRHaFBRSjU4TTB6NlFVam1vQmgxV3V0ZXA0b285Vnp1ZzFhNksxRzI5OWp3Y2lESEtNVHdmQWlINkhfWVk1d0c2WkQ1d3pGUkkwZDlldEsxdnBBSE1WZGRkTzEya0taOUoyenVhckZuWkU1SHhDVXBYNmVOR2xCTWZEREY2R1RKSE9semxFLVZra3dxVWtj?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:07:22,913 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:07:22,914 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/11/05/solar-ppa-prices-rose-in-q3-as-section-232-tariffs-began-to-t
+2026-11-05 15:07:22,914 [INFO] URL: https://www.pv-magazine.com/2026/11/05/solar-ppa-prices-rose-in-q3-as-section-232-tariffs-began-to-take-effect-reports-levelten/
+2026-11-05 15:07:23,482 [INFO] Text length: 2945 chars | source: full
+2026-11-05 15:07:23,482 [INFO] Text preview: Power purchase agreement (PPA) prices for solar projects in North America experienced a 4.9% quarter over quarter increase in the third quarter of 2026, marking a return to an upward trend after a dec...
+2026-11-05 15:07:23,482 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:07:31,285 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: U.S. solar PPA prices rose in Q3 as Section 232 tariffs bega
+2026-11-05 15:07:31,285 [INFO] LLM extracted 1 deals | U.S. solar PPA prices rose in Q3 as Section 232 ta
+2026-11-05 15:07:31,287 [INFO] Not a signed deal — skipping: U.S. solar PPA prices rose in Q3 as Section 232 tariffs bega
+2026-11-05 15:07:31,287 [INFO] ------- Processing article n. 2: Rezolv Energy signs 10-year green energy deal with Ahold Delhaize in Romania - S -------
+2026-11-05 15:07:31,350 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxPaEVnYjJzakdxT0F0NXhwTjN5cXVwN3BJOVJQUUllX0xkV2VuN3JfUUNac1J5S2RKc3FWMlc5b2xOd1prZW1fM3lOUDhGYTRIaWpmWng0M2hSQ0dqN3BEdlBDVk81SVFucWNvcEhOdFFIM3NsX2xJMmZmb2ZmeHlDaFZxNWFrcWVtcktQODhyRG1xcVRBRUM0NzBXUWptcWVGN0IxeWxBakZ4dmpFSnc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:07:32,485 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:07:32,486 [INFO] Resolved Google News URL: https://seenews.com/news/rezolv-energy-signs-10-year-green-energy-deal-with-ahold-delhaize-in-romani
+2026-11-05 15:07:32,486 [INFO] URL: https://seenews.com/news/rezolv-energy-signs-10-year-green-energy-deal-with-ahold-delhaize-in-romania-1304389
+2026-11-05 15:07:32,542 [INFO] Full text skipped (status 403): https://seenews.com/news/rezolv-energy-signs-10-year-green-energy-deal-with-ahol
+2026-11-05 15:07:32,542 [INFO] Text length: 185 chars | source: fallback
+2026-11-05 15:07:32,542 [INFO] Text preview: Rezolv Energy signs 10-year green energy deal with Ahold Delhaize in Romania - SeeNews
+
+Rezolv Energy signs 10-year green energy deal with Ahold Delhaize in Romania &nbsp;&nbsp; SeeNews...
+2026-11-05 15:07:32,542 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:07:46,651 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rezolv Energy signs 10-year green energy deal with Ahold Del
+2026-11-05 15:07:46,652 [INFO] LLM extracted 1 deals | Rezolv Energy signs 10-year green energy deal with
+2026-11-05 15:07:46,667 [INFO] NEW: Ahold Delhaize / Rezolv Energy (Romania, None MW)
+2026-11-05 15:07:51,669 [INFO] ------- Processing article n. 3: “Scary” high Polish spot power prices boost PPA deals – Ikea - Montel News -------
+2026-11-05 15:07:51,808 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQNF9ndmJzZzVmMm9JMVMzWGYzTjlTTDN4Zy1TZG9PZ29Wbnk5SGJxZ1dZMHVDMjJ4M3pjUjZtd09yM3JJcUhxWWR2Y1lwbXB5Q1NQX0ZtYWgzTHVKLXNocDJBekpCVkZYTjlwMS0wV0s4cHZydEZpUzhDZ0tLaG5CUlFTU21FOVI4RF9kYVpqcVVvckRBSlBia2RwR0RoRGR2dzlHMTBoV29WcDk1MlpXZFFsMlBqXzQ0emFwX0FR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:07:52,951 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:07:52,952 [INFO] Resolved Google News URL: https://montelnews.com/news/2cac0321-8721-4189-a94b-6ae1a5ad3f6b/scary-high-polish-spot-power-prices
+2026-11-05 15:07:52,952 [INFO] URL: https://montelnews.com/news/2cac0321-8721-4189-a94b-6ae1a5ad3f6b/scary-high-polish-spot-power-prices-boost-ppa-deals-ikea
+2026-11-05 15:07:53,989 [INFO] Text length: 534 chars | source: full
+2026-11-05 15:07:53,989 [INFO] Text preview: “Scary” high Polish spot power prices boost PPA deals – Ikea
+(Montel) High wholesale power prices have made it increasingly attractive for large power consumers in Poland to sign up to long-term power...
+2026-11-05 15:07:53,989 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:08:01,523 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: “Scary” high Polish spot power prices boost PPA deals – Ikea
+2026-11-05 15:08:01,523 [INFO] LLM extracted 1 deals | “Scary” high Polish spot power prices boost PPA de
+2026-11-05 15:08:01,525 [INFO] Not a signed deal — skipping: “Scary” high Polish spot power prices boost PPA deals – Ikea
+2026-11-05 15:08:01,525 [INFO] ------- Processing article n. 3: Rezolv strikes major solar-wind PPA in Romania with Ahold Delhaize - Renewables  -------
+2026-11-05 15:08:01,790 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcXBUUHEzWC05bHA0Qy00V3ItcmktMUxDRVp2SVdpSkZYVGtZalJIUlhWQ3owSERHTXY3Q25UWXdwako4UXNUeGVlT2k0ZTlRcWQ5bVR6V3ZNcFdqTUpCMXQ2Y3cxdnNXdmphYjl4V1hNMTJENTVBd20xdHFvZWkwUWd5Q1lSN2EzTHprZ1l4OUpDeXR5TWtRYmNTeldGbm1sS0w2a3FYMDl4Zw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:08:02,911 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:08:02,912 [INFO] Resolved Google News URL: https://renewablesnow.com/news/rezolv-strikes-major-solar-wind-ppa-in-romania-with-ahold-delhaize-13
+2026-11-05 15:08:02,912 [INFO] URL: https://renewablesnow.com/news/rezolv-strikes-major-solar-wind-ppa-in-romania-with-ahold-delhaize-1304386/
+2026-11-05 15:08:02,961 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/rezolv-strikes-major-solar-wind-ppa-in-romania-wi
+2026-11-05 15:08:02,962 [INFO] Text length: 179 chars | source: fallback
+2026-11-05 15:08:02,962 [INFO] Text preview: Rezolv strikes major solar-wind PPA in Romania with Ahold Delhaize - Renewables Now
+
+Rezolv strikes major solar-wind PPA in Romania with Ahold Delhaize &nbsp;&nbsp; Renewables Now...
+2026-11-05 15:08:02,962 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:08:16,653 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rezolv strikes major solar-wind PPA in Romania with Ahold De
+2026-11-05 15:08:16,653 [INFO] LLM extracted 1 deals | Rezolv strikes major solar-wind PPA in Romania wit
+2026-11-05 15:08:16,669 [INFO] UPDATE: Ahold Delhaize / Rezolv (Romania, None MW) — canonical ID: 2064
+2026-11-05 15:08:21,671 [INFO] ------- Processing article n. 4: Essar signs PPA with NHPC for 300MW FDRE project in Andhra Pradesh - PV Tech -------
+2026-11-05 15:08:21,855 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxQNy1ZaW40clVHemQ4aFl1cm80eVhkZDgzakN4cXpLQzdvSmpfQlVOSmlfRDcweXlrUEZCQ1pacGtyNTM3Mi1meDdrNks2dlZVUFowRFU5cGV4RnpobWFuQU5QNFk0N2VYbURJSmZ1R2N4VVNOSmllalR2S1dOMS1jN1BVcVpaX3R3enoyLUtvOG9ndWt0TUE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:08:22,978 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:08:22,979 [INFO] Resolved Google News URL: https://www.pv-tech.org/essar-signs-ppa-with-nhpc-for-300mw-fdre-project-in-andhra-pradesh/
+2026-11-05 15:08:22,979 [INFO] URL: https://www.pv-tech.org/essar-signs-ppa-with-nhpc-for-300mw-fdre-project-in-andhra-pradesh/
+2026-11-05 15:08:23,225 [INFO] Full text skipped (status 403): https://www.pv-tech.org/essar-signs-ppa-with-nhpc-for-300mw-fdre-project-in-andh
+2026-11-05 15:08:23,225 [INFO] Text length: 165 chars | source: fallback
+2026-11-05 15:08:23,225 [INFO] Text preview: Essar signs PPA with NHPC for 300MW FDRE project in Andhra Pradesh - PV Tech
+
+Essar signs PPA with NHPC for 300MW FDRE project in Andhra Pradesh &nbsp;&nbsp; PV Tech...
+2026-11-05 15:08:23,225 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:08:31,380 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Essar signs PPA with NHPC for 300MW FDRE project in Andhra P
+2026-11-05 15:08:31,380 [INFO] LLM extracted 1 deals | Essar signs PPA with NHPC for 300MW FDRE project i
+2026-11-05 15:08:31,382 [INFO] Not a European deal — skipping: Essar / NHPC (India, 300 MW)
+2026-11-05 15:08:31,382 [INFO] ------- Processing article n. 4: Under the Chassis: Why Europe’s EV Boom Risks Running on Foreign Power - Technol -------
+2026-11-05 15:08:31,466 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdC1EOW1hVmJ6azJMdU5meUl4a2VzOUltQ0xtSWFwd2ZkR2M2WmE1SnNMNWg4SDZkcXo0SEtKY2Q3V1ZyNVZ4dXRxamhlMHU3ZzZYRmotWjllaG1uNnZ0aGlEczRJaTlzU21iUWRGeV85aTZLVVNTT2RsZ2VCZTRxQ0VCbzFTRW1rQXh2ekppaWZRZ3NmTnBESVNUQkxudE1ZV1pHRmdoc1FadFU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:08:32,560 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:08:32,561 [INFO] Resolved Google News URL: https://www.technology.org/2026/11/05/under-the-chassis-why-europes-ev-boom-risks-running-on-foreign
+2026-11-05 15:08:32,561 [INFO] URL: https://www.technology.org/2026/11/05/under-the-chassis-why-europes-ev-boom-risks-running-on-foreign-power/
+2026-11-05 15:08:32,609 [INFO] Full text skipped (status 403): https://www.technology.org/2026/11/05/under-the-chassis-why-europes-ev-boom-risk
+2026-11-05 15:08:32,609 [INFO] Text length: 187 chars | source: fallback
+2026-11-05 15:08:32,609 [INFO] Text preview: Under the Chassis: Why Europe’s EV Boom Risks Running on Foreign Power - Technology Org
+
+Under the Chassis: Why Europe’s EV Boom Risks Running on Foreign Power &nbsp;&nbsp; Technology Org...
+2026-11-05 15:08:32,609 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:08:46,816 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Under the Chassis: Why Europe’s EV Boom Risks Running on For
+2026-11-05 15:08:46,817 [INFO] LLM extracted 1 deals | Under the Chassis: Why Europe’s EV Boom Risks Runn
+2026-11-05 15:08:46,818 [INFO] Not a signed deal — skipping: Under the Chassis: Why Europe’s EV Boom Risks Running on For
+2026-11-05 15:08:46,818 [INFO] ------- Processing article n. 4: Rezolv signs 370GWh Romanian renewables deal - reNEWS -------
+2026-11-05 15:08:46,962 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxPNDBMNW1pUURLanNRV3BYX0czbGZxa3Z4OGs1SkNDaklxanZJaE95bVBMdXRWMldfaVcwTEJ5NlBfNmp1aG1nYnNndzRhZ3J5dW5yb3RVMkN3Z2Y3c0xXWHRJemhPY2JDOVc5TDZsdHkwQVQzaGcyWE02dlAyNWUyNjVHZFVBQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:08:48,086 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:08:48,086 [INFO] Resolved Google News URL: https://www.renews.biz/other-news/rezolv-signs-370gwh-romanian-renewables-deal/
+2026-11-05 15:08:48,087 [INFO] URL: https://www.renews.biz/other-news/rezolv-signs-370gwh-romanian-renewables-deal/
+2026-11-05 15:08:49,212 [INFO] Text length: 2880 chars | source: full
+2026-11-05 15:08:49,212 [INFO] Text preview: Rezolv Energy and Ahold Delhaize have signed a 10-year virtual power purchase agreement (VPPA) covering 370GWh of renewable electricity annually from two major solar and wind projects in Romania.
+Rezo...
+2026-11-05 15:08:49,212 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:09:01,730 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rezolv signs 370GWh Romanian renewables deal - reNEWS
+2026-11-05 15:09:01,730 [INFO] LLM extracted 1 deals | Rezolv signs 370GWh Romanian renewables deal - reN
+2026-11-05 15:09:01,746 [INFO] DUPLICATE skipped: Ahold Delhaize / Rezolv Energy (Romania) — same as ID: 2062
+2026-11-05 15:09:01,746 [INFO] ------- Processing article n. 4: UKEF considers support for Energy Valley hybrid solar power project in Egypt - T -------
+2026-11-05 15:09:02,029 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWlVLWFNVN09NaUwxbnh5WXFIWXdUZ0ZYSnZ6MGlXTzJnOWtWcFVBLWVvQ3pTdXowVy1CaUpSbmMxLTJMZXBDN05GcWdDQWJUSmo5eDFPdHc1cTFvNmNzTzdtNDlqQkZjNUlYc2txeUdZUkNVODVmdno3d2xMMGx2WUEyNmxPRHBWaVowSGRNbjFscXJOemJrNkszRTdyY2JrNjJER0pZYmZLYTFMSHJaT1dfbUFPaHcwZ2MzZjBoR0ZubW1ITlJoLV9kenl2WTAycXhzNzU0Q2dqeDRQazMtdmNFVVg0ajA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:09:03,126 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:09:03,127 [INFO] Resolved Google News URL: https://www.tradingview.com/news/reuters.com,2026-11-05:newsml_ZawbSNK78:0-ukef-considers-support-fo
+2026-11-05 15:09:03,127 [INFO] URL: https://www.tradingview.com/news/reuters.com,2026-11-05:newsml_ZawbSNK78:0-ukef-considers-support-for-energy-valley-hybrid-solar-power-project-in-egypt/
+2026-11-05 15:09:03,341 [INFO] Text length: 3132 chars | source: full
+2026-11-05 15:09:03,341 [INFO] Text preview: UKEF considers support for Energy Valley hybrid solar power project in Egypt
+By Anoop Menon
+UK Export Finance (UKEF) is considering support for Norwegian renewable energy developer Scatec's Energy Val...
+2026-11-05 15:09:03,341 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:09:16,856 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: UKEF considers support for Energy Valley hybrid solar power 
+2026-11-05 15:09:16,857 [INFO] LLM extracted 1 deals | UKEF considers support for Energy Valley hybrid so
+2026-11-05 15:09:16,859 [INFO] Not a European deal — skipping: Egyptian Electricity Transmission Company (EETC) / Scatec (Egypt, None MW)
+2026-11-05 15:09:16,859 [INFO] ------- Processing article n. 4: Mercedes-Benz exits European EV charging business with sale to Electra - drivete -------
+2026-11-05 15:09:17,146 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxNN0pFS3gzd2tFbHlTQnAxVFVZa01qa3ZlcGtIYkkydlRHY2RRTWRaaE5FWTh4WjZpa2FaQVlBeTFtV01OaHEtZm5kRmFnMEZZWjBQcFJ1aDFMa2hZSGowMjZvZXVrOG5OcVUzUVhJajdwZlpiYWJLS3FDSVJ6aVVpQTBMYm9tRDNaRGFCZ25HTU5KaWJk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:09:18,348 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:09:18,349 [INFO] Resolved Google News URL: https://driveteslacanada.ca/news/mercedes-benz-sells-european-ev-charging-network-electra/
+2026-11-05 15:09:18,349 [INFO] URL: https://driveteslacanada.ca/news/mercedes-benz-sells-european-ev-charging-network-electra/
+2026-11-05 15:09:18,544 [INFO] Text length: 1935 chars | source: full
+2026-11-05 15:09:18,544 [INFO] Text preview: Mercedes-Benz has sold its European fast-charging network to French operator Electra, transferring 47 locations and 374 charging points as part of a shift away from its own charging infrastructure in ...
+2026-11-05 15:09:18,544 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:09:31,496 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Mercedes-Benz exits European EV charging business with sale 
+2026-11-05 15:09:31,496 [INFO] LLM extracted 1 deals | Mercedes-Benz exits European EV charging business 
+2026-11-05 15:09:31,499 [INFO] Not a signed deal — skipping: Mercedes-Benz exits European EV charging business with sale 
+2026-11-05 15:09:31,499 [INFO] ------- Processing article n. 4: European Energy signs grant agreement for 150MW expansion of existing Danish gre -------
+2026-11-05 15:09:31,756 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWDhFQzAzUzYyamVyanRrR1p5cGRJaVdPMlhCSlVJaERtRF8xb1BUNnI2RXJnYzhtUHZ4aDZXVHBoU2ZrRzdmQ0lXUlFTR3E1QzAzRS1RVWd3LWlpay1mcUJNT25xQUxSU1hncFlGN2dEUEc3MF9rQXoxam1tZFp2dmh3eWRmY29LeHdpNjU0ZF8wMHc4dGIyU2I3LVdPQ3hmM1FjUHh3UjRZQlRKNWRmNlU0T3pPVkpUT2cxa01hZlM1VXpUTGJRbHltVW9xWk05em11OEk0RklDSFNYZmp3Y2MwRUpZQnN1Z1cwbzJjdXUwU0QwZzVV?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:09:32,875 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:09:32,876 [INFO] Resolved Google News URL: https://www.hydrogeninsight.com/production/european-energy-signs-grant-agreement-for-150mw-expansion
+2026-11-05 15:09:32,876 [INFO] URL: https://www.hydrogeninsight.com/production/european-energy-signs-grant-agreement-for-150mw-expansion-of-existing-danish-green-hydrogen-to-methanol-plant/2-1-2069748
+2026-11-05 15:09:33,557 [INFO] Text length: 295 chars | source: full
+2026-11-05 15:09:33,557 [INFO] Text preview: European Energy signs grant agreement for 150MW expansion of existing Danish green hydrogen-to-methanol plant
+The 52.5MW first phase of the Kassø e-methanol facility has been operational since last ye...
+2026-11-05 15:09:33,557 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:09:46,670 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: European Energy signs grant agreement for 150MW expansion of
+2026-11-05 15:09:46,670 [INFO] LLM extracted 1 deals | European Energy signs grant agreement for 150MW ex
+2026-11-05 15:09:46,672 [INFO] Not a signed deal — skipping: European Energy signs grant agreement for 150MW expansion of
+2026-11-05 15:09:46,672 [INFO] ------- Processing article n. 4: Moonshot AI Bypasses U.S. Chip Curbs Via Europe Neocloud Deal - The Tech Buzz -------
+2026-11-05 15:09:46,871 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ2aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:09:48,015 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:09:48,016 [INFO] Resolved Google News URL: https://www.techbuzz.ai/articles/moonshot-ai-bypasses-u-s-chip-curbs-via-europe-neocloud-deal
+2026-11-05 15:09:48,016 [INFO] URL: https://www.techbuzz.ai/articles/moonshot-ai-bypasses-u-s-chip-curbs-via-europe-neocloud-deal
+2026-11-05 15:09:48,739 [INFO] Text length: 6037 chars | source: full
+2026-11-05 15:09:48,740 [INFO] Text preview: Chinese AI startup Moonshot AI is sidestepping U.S. export restrictions by leasing Nvidia Blackwell chips through European neocloud providers, according to sources familiar with the arrangements. The ...
+2026-11-05 15:09:48,740 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:10:01,302 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Moonshot AI Bypasses U.S. Chip Curbs Via Europe Neocloud Dea
+2026-11-05 15:10:01,302 [INFO] LLM extracted 1 deals | Moonshot AI Bypasses U.S. Chip Curbs Via Europe Ne
+2026-11-05 15:10:01,304 [INFO] Not a signed deal — skipping: Moonshot AI Bypasses U.S. Chip Curbs Via Europe Neocloud Dea
+2026-11-05 15:10:01,304 [INFO] ------- Processing article n. 4: Harry Kane signs new Bayern Munich deal to become highest-paid player in Europe  -------
+2026-11-05 15:10:01,533 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxPVHM5eFBDbXZSZVU2QVprMXFtNEZhelI5Yk92VWhrZ3BPNHpZbVVOSW1UOFU4WFJwVGctQi1kdWFSZ1dGM3QtS2xpQzkwdHJobVN2bWhpOUFEdG9TMnlVMHRGSzVHeGl4b1ZJNUxiUURQdV9HZ2UtbnFSX1dYTDBIS2p6ZUZkTkJhejR4bE5jOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:10:02,643 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:10:02,644 [INFO] Resolved Google News URL: https://www.nytimes.com/athletic/7649297/2026/11/05/harry-kane-bayern-munich-contract/
+2026-11-05 15:10:02,644 [INFO] URL: https://www.nytimes.com/athletic/7649297/2026/11/05/harry-kane-bayern-munich-contract/
+2026-11-05 15:10:02,879 [INFO] Full text skipped (status 403): https://www.nytimes.com/athletic/7649297/2026/11/05/harry-kane-bayern-munich-con
+2026-11-05 15:10:02,879 [INFO] Text length: 243 chars | source: fallback
+2026-11-05 15:10:02,880 [INFO] Text preview: Harry Kane signs new Bayern Munich deal to become highest-paid player in Europe - The Athletic - The New York Times
+
+Harry Kane signs new Bayern Munich deal to become highest-paid player in Europe - T...
+2026-11-05 15:10:02,880 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:10:16,447 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Harry Kane signs new Bayern Munich deal to become highest-pa
+2026-11-05 15:10:16,447 [INFO] LLM extracted 1 deals | Harry Kane signs new Bayern Munich deal to become 
+2026-11-05 15:10:16,449 [INFO] Not a signed deal — skipping: Harry Kane signs new Bayern Munich deal to become highest-pa
+2026-11-05 15:10:16,449 [INFO] ------- Processing article n. 4: Ahold Delhaize Romania PPA Targets 2030 Power Goal - Grocery Trade News -------
+2026-11-05 15:10:16,619 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBzcWFReGphS3NSanVrNHpwcTBQR21wMGpTMDVqblVlT2t2c0g2b2tIRm5TdFRUazNscDdfTEhCdFl4SDlTS0E3SnpDbDZ4U21zcm4ybnAzQzg2MXhHU1dzX3ZfaHRtaFVwa2FOUA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:10:17,732 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:10:17,733 [INFO] Resolved Google News URL: https://www.grocerytradenews.com/ahold-delhaize-romania-ppa/
+2026-11-05 15:10:17,733 [INFO] URL: https://www.grocerytradenews.com/ahold-delhaize-romania-ppa/
+2026-11-05 15:10:18,967 [INFO] Text length: 2815 chars | source: full
+2026-11-05 15:10:18,967 [INFO] Text preview: Ahold Delhaize has signed a ten-year renewable electricity agreement with Rezolv Energy in Romania, supporting new wind and solar projects expected to begin operating in 2029.
+The deal, announced on 5...
+2026-11-05 15:10:18,967 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:10:31,694 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize Romania PPA Targets 2030 Power Goal - Grocery
+2026-11-05 15:10:31,694 [INFO] LLM extracted 1 deals | Ahold Delhaize Romania PPA Targets 2030 Power Goal
+2026-11-05 15:10:31,709 [INFO] DUPLICATE skipped: Ahold Delhaize / Rezolv Energy (Romania) — same as ID: 2062
+2026-11-05 15:10:31,710 [INFO] ------- Processing article n. 4: Emissions accounting shake-up is deterring PPAs – Amazon - Montel News -------
+2026-11-05 15:10:31,911 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUpsY254VkRSM1daWktIWDlnc21JaEpBcUFMNHIzRFJTQkVhd0VBWWtNb01fOFVqa3VTcEFaQWYxQnBITXc0ZEx0WG56MW84WUN0dzE5bzd3U3NRZWJBT3BSVnM0VEV0RTVNUHlpeW5LM29RZDN4WDcyR3phaU5RMlQ1WUVhV2JuVVgyam1KbWNyYzRGaDdKNlhaQm1hZmtuX2pDdGx2NVc3VjJSUUJxN2ROWEJld2Y4Ync?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:10:33,001 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:10:33,002 [INFO] Resolved Google News URL: https://montelnews.com/news/26f4fd0c-b4ad-403d-8983-6eac8c503628/emissions-accounting-shakeup-is-det
+2026-11-05 15:10:33,002 [INFO] URL: https://montelnews.com/news/26f4fd0c-b4ad-403d-8983-6eac8c503628/emissions-accounting-shakeup-is-deterring-ppas-amazon
+2026-11-05 15:10:34,042 [INFO] Text length: 500 chars | source: full
+2026-11-05 15:10:34,043 [INFO] Text preview: Emissions accounting shake-up is deterring PPAs – Amazon
+(Montel) Uncertainty over how corporations should voluntarily account for emissions in the future is deterring uptake of clean energy power pur...
+2026-11-05 15:10:34,043 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:10:46,202 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Emissions accounting shake-up is deterring PPAs – Amazon - M
+2026-11-05 15:10:46,203 [INFO] LLM extracted 1 deals | Emissions accounting shake-up is deterring PPAs – 
+2026-11-05 15:10:46,204 [INFO] Not a signed deal — skipping: Emissions accounting shake-up is deterring PPAs – Amazon - M
+2026-11-05 15:10:46,204 [INFO] ------- Processing article n. 4: European Energy cuts ribbon on 31-MW Aussie solar park - Renewables Now -------
+2026-11-05 15:10:46,573 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxQMGx5RUZvWUlmNWMzMWFrYWRCbDRESkcyR2pFSFduSTZHZ0J0eTdzVF9MSFVXRUpqNDJOdnJZMDh1OEVTNlpZQTVtNXhLSGxhV2l5SEU4WkJibEhFQ21Xc1lqMXZlRFphVjhVOTYyNkwyN3dOcjdlUWxHS2ZWdkJ4eDlrSEVnZDM5UExjNThmZDFsT0x4RjBtUmF3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:10:47,681 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:10:47,682 [INFO] Resolved Google News URL: https://renewablesnow.com/news/european-energy-cuts-ribbon-on-31-mw-aussie-solar-park-1304373/
+2026-11-05 15:10:47,682 [INFO] URL: https://renewablesnow.com/news/european-energy-cuts-ribbon-on-31-mw-aussie-solar-park-1304373/
+2026-11-05 15:10:47,718 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/european-energy-cuts-ribbon-on-31-mw-aussie-solar
+2026-11-05 15:10:47,718 [INFO] Text length: 155 chars | source: fallback
+2026-11-05 15:10:47,718 [INFO] Text preview: European Energy cuts ribbon on 31-MW Aussie solar park - Renewables Now
+
+European Energy cuts ribbon on 31-MW Aussie solar park &nbsp;&nbsp; Renewables Now...
+2026-11-05 15:10:47,718 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:11:01,615 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: European Energy cuts ribbon on 31-MW Aussie solar park - Ren
+2026-11-05 15:11:01,616 [INFO] LLM extracted 1 deals | European Energy cuts ribbon on 31-MW Aussie solar 
+2026-11-05 15:11:01,617 [INFO] Not a signed deal — skipping: European Energy cuts ribbon on 31-MW Aussie solar park - Ren
+2026-11-05 15:11:01,617 [INFO] ------- Processing article n. 4: A first Elong Power storage contract is set for January 2027, valued at no less  -------
+2026-11-05 15:11:01,778 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc0lXQWZ0aE1HekNRMmlPUzBLa1B5djlrU1JqcWJoay00dEdpNUtxNGlLU3RSUkh2WkJUd3R5b3VBUk55c2xqbWJpQXNrUXprN1VTbU9LWEpJN3ltcXR0b0NwdkJ3TVFIWVFQVWFvekhVUVUydHRTazFKVjFodDdkdDNyaHdRWDU5M292eV9yTjFoTjQtZkRJQUNQbGlMTzctclVwTTZlSGNxYWJ6b2Vha1hCYkNZN0lCQ2tRTE5RdUI?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:11:02,866 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:11:02,867 [INFO] Resolved Google News URL: https://www.stocktitan.net/news/ELPW/elong-power-holding-limited-nasdaq-elpw-announces-subsidiary-s-
+2026-11-05 15:11:02,867 [INFO] URL: https://www.stocktitan.net/news/ELPW/elong-power-holding-limited-nasdaq-elpw-announces-subsidiary-s-entry-djnsx5r1uq25.html
+2026-11-05 15:11:03,064 [INFO] Text length: 8574 chars | source: full
+2026-11-05 15:11:03,064 [INFO] Text preview: Elong Power Holding Limited (NASDAQ: ELPW) Announces Subsidiary’s Entry into a Three-Year Cooperation Agreement Worth at least RMB2 Billion (～US$300 Million), Achieving a Major Breakthrough in Domesti...
+2026-11-05 15:11:03,064 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:11:16,380 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: A first Elong Power storage contract is set for January 2027
+2026-11-05 15:11:16,380 [INFO] LLM extracted 1 deals | A first Elong Power storage contract is set for Ja
+2026-11-05 15:11:16,381 [INFO] Not a signed deal — skipping: A first Elong Power storage contract is set for January 2027
+2026-11-05 15:11:16,382 [INFO] ------- Processing article n. 4: Fortescue prices $2.15 billion notes, marks ammonia first - Mining.com.au -------
+2026-11-05 15:11:16,441 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxQN3BEME5xWEtqNFR3UnZscklpOEdjT2cyd3hXOFRraVMtQm12bnJIcElHSTZlWlBYYTJINDVUakJ3QzNXVGxGa0s4M1VkbkJQb0NpME5MQ0U0TGRKSzJCZVVlaUw4cjVhNTVFWTBNU0ZlaUVGclZvUVV5RElOWmZ0a2h2NFA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:11:17,566 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:11:17,567 [INFO] Resolved Google News URL: https://mining.com.au/fortescue-prices-2-15-billion-notes-marks-ammonia-first/
+2026-11-05 15:11:17,567 [INFO] URL: https://mining.com.au/fortescue-prices-2-15-billion-notes-marks-ammonia-first/
+2026-11-05 15:11:17,812 [INFO] Full text fetch failed (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))): https://mining.com.au/fortescue-prices-2-15-billion-notes-marks-ammonia-first/
+2026-11-05 15:11:17,812 [INFO] Text length: 159 chars | source: fallback
+2026-11-05 15:11:17,812 [INFO] Text preview: Fortescue prices $2.15 billion notes, marks ammonia first - Mining.com.au
+
+Fortescue prices $2.15 billion notes, marks ammonia first &nbsp;&nbsp; Mining.com.au...
+2026-11-05 15:11:17,812 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:11:31,438 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Fortescue prices $2.15 billion notes, marks ammonia first - 
+2026-11-05 15:11:31,438 [INFO] LLM extracted 1 deals | Fortescue prices $2.15 billion notes, marks ammoni
+2026-11-05 15:11:31,440 [INFO] Not a signed deal — skipping: Fortescue prices $2.15 billion notes, marks ammonia first - 
+2026-11-05 15:11:31,440 [INFO] ------- Processing article n. 4: ENGIE stock in focus as 9M EBIT excluding nuclear rises organically - ad-hoc-new -------
+2026-11-05 15:11:31,701 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxNSzhfWmdZYkVfU3V6alRFYUg2ckZIb2V0cHA1a3BEdVVac19CakZneEdwTkZISFVUYXVwcElReENyOGNVdzA4R3M5cTd0NEF4SlJNT2Z5Q1kwUjlPWWhfaU9BbDc0Rm4zekdydGJYN3pUMUVlVk84Tzk2NDlfSmhlc20yOTdmUHAxdGxBWGR6MHZveHM4WnhrNHlCcXVTX21BNGlHTHRHSjhhSHRibUZVQTlFcXNXdVE1WUVjZG5qT3RHLWI1OTJBWWVR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:11:32,793 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:11:32,793 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/engie-stock-in-focus-as-9m-ebit-excluding-nucl
+2026-11-05 15:11:32,793 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/engie-stock-in-focus-as-9m-ebit-excluding-nuclear-rises-organically/70462367
+2026-11-05 15:11:33,800 [INFO] Text length: 2973 chars | source: full
+2026-11-05 15:11:33,800 [INFO] Text preview: ENGIE reported solid operating performance for the first nine months of 2026 on Thursday, November 5, with management pointing to stronger organic growth in the last two quarters. In its 9M 2026 resul...
+2026-11-05 15:11:33,800 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:11:46,714 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ENGIE stock in focus as 9M EBIT excluding nuclear rises orga
+2026-11-05 15:11:46,714 [INFO] LLM extracted 1 deals | ENGIE stock in focus as 9M EBIT excluding nuclear 
+2026-11-05 15:11:46,716 [INFO] Not a signed deal — skipping: ENGIE stock in focus as 9M EBIT excluding nuclear rises orga
+2026-11-05 15:11:46,716 [INFO] ------- Processing article n. 4: CATL's European Storage Pact and Australian Delivery Put Strategy Under the Micr -------
+2026-11-05 15:11:46,851 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWHliTXdrWmpnU3Fpd1BJVkJ6OUppSGNwMDFhVXJGUk0xQlFOZk9xaUZ0VVhydWZkNGgyaVZub3Nyb0pCeUFUX3FnT0tBbTM2b2dHV05RRzJfVk9pRkE4eUhUWC1SVERUU0lPSnNnU0w1ZWtHS1g3dUR6UW00b3RTSVFjWkRVUnRZYnF6cUtiX0w3bjhwVzhYZHJscVFYNTBxVENNYk1jT1VDUm9hVmpRNUo5TWVsS0NXWWtEaWM4R0tnZTd6X1BKVTFxXy1LeXNwQlAwUTd6ZFV1bi1KWk9Bd1BXRUxzbnBGS1N5YjBXMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:11:47,933 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:11:47,933 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/catl-s-european-storage-pact-and-aust
+2026-11-05 15:11:47,933 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/catl-s-european-storage-pact-and-australian-delivery-put-strategy-under-the-microscope/70463576
+2026-11-05 15:11:48,799 [INFO] Text length: 5783 chars | source: full
+2026-11-05 15:11:48,799 [INFO] Text preview: CATL's shares climbed 4.4% on Wednesday, swept up in a broader rally across Chinese clean-technology names, but the gain rests on a political assumption rather than anything the company itself announc...
+2026-11-05 15:11:48,799 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:12:01,372 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: CATL's European Storage Pact and Australian Delivery Put Str
+2026-11-05 15:12:01,372 [INFO] LLM extracted 1 deals | CATL's European Storage Pact and Australian Delive
+2026-11-05 15:12:01,374 [INFO] Not a signed deal — skipping: CATL's European Storage Pact and Australian Delivery Put Str
+2026-11-05 15:12:01,374 [INFO] ------- Processing article n. 4: World Bank Lifts Lid On Deals Behind Kenya's High Electricity Bills - The Kenya  -------
+2026-11-05 15:12:01,541 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxOd3BtZ0ZfWUxCcDJtYlVZSmU3WTlIdU55RWwtcHlId0ZSQ0tlbjZDeGtMUy1NVmJOMnZoeUF0MU9pYTNQUzNCMXRnV1c1TzlSMFZmZjBzTzBFWERrV1J1N25qV2lWcExzVF8tMmladkJmSm5VcjZtcEZYdE1JWlRpekJHTVZqci1GeXpGVHg0U044MU9XSEI5Q3NfU1NZZEsySlU0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:12:02,637 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:12:02,638 [INFO] Resolved Google News URL: https://thekenyatimes.com/economy/world-bank-lifts-lid-on-deals-behind-kenyas-high-electricity-bills
+2026-11-05 15:12:02,638 [INFO] URL: https://thekenyatimes.com/economy/world-bank-lifts-lid-on-deals-behind-kenyas-high-electricity-bills/
+2026-11-05 15:12:02,768 [INFO] Text length: 10928 chars | source: full
+2026-11-05 15:12:02,768 [INFO] Text preview: The World Bank has exposed questionable electricity contracts, alleged bribery involving Kenya Power employees and undisclosed ownership of power generation companies, raising fresh concerns over the ...
+2026-11-05 15:12:02,768 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:12:16,594 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: World Bank Lifts Lid On Deals Behind Kenya's High Electricit
+2026-11-05 15:12:16,595 [INFO] LLM extracted 1 deals | World Bank Lifts Lid On Deals Behind Kenya's High 
+2026-11-05 15:12:16,596 [INFO] Not a signed deal — skipping: World Bank Lifts Lid On Deals Behind Kenya's High Electricit
+2026-11-05 15:12:16,596 [INFO] ------- Processing article n. 4: PPAYA launches UK renewable energy marketplace - reNEWS -------
+2026-11-05 15:12:16,646 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXB3RUdEZmNLZGk2WjFuZGpxYlhYM19kT3JjYkZiOEgwb0RwdHUzaUVZLVdfejl1dDZ3Vi1iRjR5NVFlQndTWVdjd3FsWER6MlA5a05lVFRHUDgyb3JlcmgwRnZ3eUl0V3lVdk41aGRCRFZsNFZhWjU2S211VkxfN1hCZHRyMVoy?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:12:17,748 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:12:17,748 [INFO] Resolved Google News URL: https://www.renews.biz/other-news/ppaya-launches-uk-renewable-energy-marketplace/
+2026-11-05 15:12:17,749 [INFO] URL: https://www.renews.biz/other-news/ppaya-launches-uk-renewable-energy-marketplace/
+2026-11-05 15:12:18,298 [INFO] Text length: 2937 chars | source: full
+2026-11-05 15:12:18,298 [INFO] Text preview: PPAYA has launched the UK’s first open renewable energy marketplace, connecting renewable generators directly with corporate electricity buyers through a single digital platform.
+The company said the ...
+2026-11-05 15:12:18,298 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:12:31,302 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: PPAYA launches UK renewable energy marketplace - reNEWS
+2026-11-05 15:12:31,303 [INFO] LLM extracted 1 deals | PPAYA launches UK renewable energy marketplace - r
+2026-11-05 15:12:31,304 [INFO] Not a signed deal — skipping: PPAYA launches UK renewable energy marketplace - reNEWS
+2026-11-05 15:12:31,304 [INFO] ------- Processing article n. 4: Infineon Aktie: SOLUM will beim KI-Strom enger ran - Börse Express -------
+2026-11-05 15:12:31,356 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxQVG1aRWJUZ0JuUUNPYm5NT01HYXBMTS11Q2NUZTQ0ZGtOQl9YbjNQMFYwR1lhUjFSWEQ4dzdlNS1vMnpSRzJ4aS1hY0FhT0JqUmNQZk84bUowZ01jNk9pS1dhMEdwTWZ0TlBkSW95dEdubGhMSjdBdVJ3VXF5Q1BFMThldGNGYUZ6WWM4aTdVcHpBcVozbnF6WXFjQjJQVEhSMkdV?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:12:32,462 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:12:32,463 [INFO] Resolved Google News URL: https://www.boerse-express.com/news/articles/infineon-aktie-solum-will-beim-ki-strom-enger-ran-95953
+2026-11-05 15:12:32,463 [INFO] URL: https://www.boerse-express.com/news/articles/infineon-aktie-solum-will-beim-ki-strom-enger-ran-959532
+2026-11-05 15:12:32,974 [INFO] Text length: 5900 chars | source: full
+2026-11-05 15:12:32,974 [INFO] Text preview: Infineon Aktie: SOLUM will beim KI-Strom enger ran
+Das Wichtigste in Kürze
+Neu- Infineon-Aktie verliert heute 4,2 Prozent
+- Absichtserklärung zu KI-Rechenzentrumsstromversorgung unterzeichnet
+- OptiMO...
+2026-11-05 15:12:32,974 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:12:46,538 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Infineon Aktie: SOLUM will beim KI-Strom enger ran - Börse E
+2026-11-05 15:12:46,539 [INFO] LLM extracted 1 deals | Infineon Aktie: SOLUM will beim KI-Strom enger ran
+2026-11-05 15:12:46,540 [INFO] Not a signed deal — skipping: Infineon Aktie: SOLUM will beim KI-Strom enger ran - Börse E
+2026-11-05 15:12:46,540 [INFO] ------- Processing article n. 4: Sealsq Aktie: Wellenstrom trifft Quantenschutz - ad-hoc-news.de -------
+2026-11-05 15:12:46,780 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY3JEVmNlV0kyUDk4RWZoa0d2YlFwSWhReGVTYUtoWXQ3ZFlGWk54SkVtN0JxRUFRZTlXYVBYbEhBYmJZMW9ZOGd0NHNwY1ZRdHJBUkZSeDYxWTJ0TTlvcktWWlZJYWg5QW1UTkp1NEw4Q0dac1N3dVZhQVdHVFhTUUFMLUNjYi1yc29zSEs0bkk2d3hfTEFjVjhvZFUwbVZyY0hWSER3OFNLdC1yOGRMdXV0bUQ5dFJp?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:12:47,892 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:12:47,892 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/sealsq-aktie-wellenstrom-trifft-quant
+2026-11-05 15:12:47,892 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/sealsq-aktie-wellenstrom-trifft-quantenschutz/70464411
+2026-11-05 15:12:48,743 [INFO] Text length: 3001 chars | source: full
+2026-11-05 15:12:48,744 [INFO] Text preview: Kann ein Chip-Spezialist vom Strombedarf der KI-Rechenzentren profitieren? Sealsq versucht es mit einem ungewöhnlichen Partner: Gemeinsam mit der Muttergesellschaft WISeQey und der Schwesterfirma Seal...
+2026-11-05 15:12:48,744 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:13:01,405 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Sealsq Aktie: Wellenstrom trifft Quantenschutz - ad-hoc-news
+2026-11-05 15:13:01,406 [INFO] LLM extracted 1 deals | Sealsq Aktie: Wellenstrom trifft Quantenschutz - a
+2026-11-05 15:13:01,408 [INFO] Not a signed deal — skipping: Sealsq Aktie: Wellenstrom trifft Quantenschutz - ad-hoc-news
+2026-11-05 15:13:01,408 [INFO] ------- Processing article n. 4: PLS Group Aktie: Stromvertrag mit Fortescue-Tochter unterzeichnet - ad-hoc-news. -------
+2026-11-05 15:13:01,457 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY2xzYWN5YTMyRS16cVFfRzNPTHpRNnVzQmgtMktqM0pqU1FlNFRGWEZKX1JhTEJQbHVvb1VVbWM4S3l4eDJ4cVZ4QjluQkd1ZXhnTklpQW1EQktOTTZud1g3MDZ1VWxIbXVLX0owQ3VSZDFRQUpucXV3aXhDNEtBbEZWNERUQXZpaWpVN0NGeGd6bkEyRUhoWHdxdWUwX3dRLUFmSkJWVlk4VHhmV3NvMDhSZDFIVmdNTW9abVVwaHRqaUVHNVd2TVl6azFld0N3MkE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:13:02,559 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:13:02,559 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/pls-group-aktie-stromvertrag-mit-fort
+2026-11-05 15:13:02,559 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/pls-group-aktie-stromvertrag-mit-fortescue-tochter-unterzeichnet/70462129
+2026-11-05 15:13:03,160 [INFO] Text length: 2337 chars | source: full
+2026-11-05 15:13:03,160 [INFO] Text preview: PLS Group gewinnt heute im Umfeld einer breiten Erholung australischer Lithiumaktien 2,4%. Medienberichten zufolge gehört das Papier zu den Gewinnern des wieder anziehenden Rohstoffsektors. Auf Untern...
+2026-11-05 15:13:03,160 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:13:16,831 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: PLS Group Aktie: Stromvertrag mit Fortescue-Tochter unterzei
+2026-11-05 15:13:16,831 [INFO] LLM extracted 1 deals | PLS Group Aktie: Stromvertrag mit Fortescue-Tochte
+2026-11-05 15:13:16,833 [INFO] Not a European deal — skipping: FMG Clean Energy / PLS Group (Australia, None MW)
+2026-11-05 15:13:16,833 [INFO] ------- Processing article n. 4: PPA-Preisindex: Erstmals seit 2022 dreistellige PPA-Preise erzielbar - Energie & -------
+2026-11-05 15:13:16,881 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQVjZURXA4NjgxQnFEcFpNZFUzZmpLNE5JbzV4R2tONTYzeExkQl9rRkdITTYzTFRzM3JfYTZCUmRubzBCVkppM21QeC1ocUdyNmN0WW56RmR2YzBpMVNSUklaRFlkNm5wVGZZWGt4MWlTT3F5elE5blQzZ3dqbkJlQm5XRjVoNHRxd3Nzb0RqalluRUx4VjdEVGd1VGZ1bHFVak96LWtlX1dxUWNFQ0I5MFVaYWFEWVY1Tmw3WGJR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:13:17,982 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:13:17,982 [INFO] Resolved Google News URL: https://www.energie-und-management.de/nachrichten/alle/detail/erstmals-seit-2022-dreistellige-ppa-pr
+2026-11-05 15:13:17,982 [INFO] URL: https://www.energie-und-management.de/nachrichten/alle/detail/erstmals-seit-2022-dreistellige-ppa-preise-erzielbar-384040
+2026-11-05 15:13:19,202 [INFO] Text length: 3640 chars | source: full
+2026-11-05 15:13:19,202 [INFO] Text preview: Cookies helfen uns bei der Bereitstellung unserer Dienste. Durch die Nutzung unseres Angebots
+erklären Sie sich
+damit einverstanden, dass wir Cookies setzen.
+Details zu Werbe- und Analyse-Trackern sow...
+2026-11-05 15:13:19,203 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:13:31,391 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: PPA-Preisindex: Erstmals seit 2022 dreistellige PPA-Preise e
+2026-11-05 15:13:31,392 [INFO] LLM extracted 1 deals | PPA-Preisindex: Erstmals seit 2022 dreistellige PP
+2026-11-05 15:13:31,394 [INFO] Not a signed deal — skipping: PPA-Preisindex: Erstmals seit 2022 dreistellige PPA-Preise e
+2026-11-05 15:13:31,394 [INFO] ------- Processing article n. 4: Ahold Delhaize signe un accord d'achat d'électricité en Roumanie - Zonebourse Su -------
+2026-11-05 15:13:31,585 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOUZ0OG5IVFZxbmRWZnQ5Vmp3V1RxTVJ0T0wwTHgzbzRjcEJ3N2dycG1OMXhBbGFyZ0lTUjN5dHRCX3NSSmpNcGVjTThNLVY1dHY3TEF2YkJzYzdPTFE1SkJ5UDBROXg2WHd0ZUI1UHhjWjQ2QVpEaTZIZ3Zuaktrd09xMVZFbDBQMm1ibG90bjBBUmhURHMyMHZnTUh5MkRyaDgyYmNReHloNUtmLXZIOVMwX3lkLVpUZHd5aWRQY3N1Zw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:13:32,755 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:13:32,756 [INFO] Resolved Google News URL: https://ch.zonebourse.com/actualite-bourse/ahold-delhaize-signe-un-accord-d-achat-d-electricite-en-r
+2026-11-05 15:13:32,756 [INFO] URL: https://ch.zonebourse.com/actualite-bourse/ahold-delhaize-signe-un-accord-d-achat-d-electricite-en-roumanie-ce785fdcde89f622
+2026-11-05 15:13:32,999 [INFO] Full text skipped (status 403): https://ch.zonebourse.com/actualite-bourse/ahold-delhaize-signe-un-accord-d-acha
+2026-11-05 15:13:32,999 [INFO] Text length: 181 chars | source: fallback
+2026-11-05 15:13:33,000 [INFO] Text preview: Ahold Delhaize signe un accord d'achat d'électricité en Roumanie - Zonebourse Suisse
+
+Ahold Delhaize signe un accord d'achat d'électricité en Roumanie &nbsp;&nbsp; Zonebourse Suisse...
+2026-11-05 15:13:33,000 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:13:46,544 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize signe un accord d'achat d'électricité en Roum
+2026-11-05 15:13:46,545 [INFO] LLM extracted 1 deals | Ahold Delhaize signe un accord d'achat d'électrici
+2026-11-05 15:13:46,547 [INFO] NEW: Ahold Delhaize / None (Romania, None MW)
+2026-11-05 15:13:51,548 [INFO] ------- Processing article n. 5: « Un contrat signé aujourd’hui doit tenir compte des usages de demain » : commen -------
+2026-11-05 15:13:51,669 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigAJBVV95cUxPMWpET0R4YXEwV1Q3U3d0ZWVrVHNmX3hyeWNJbk9Ea050eHR5R2dVSTZXNl9PXzhWMHJlUU8ydFUtX01LM19TQnhOeXJuRXlUTnVmcGw2a0REMHJfaUF4Z1Jqc2xCbmU4cmJCcFV6cGlPNXFucnpSdFJ4X3lLbnJLRURxWGpZVUJoVUFBeVNBeVk4TG5iVk5PcTRDUkRoTzhFT2tUSEl1WnVWZmp4cXVSTzRoYndRajJiVnR3M0xhdzRWWXRkd2Zva3lKSTNyTHFveVo5ME5jRjdYNnlrdlFJYWF1cjBqZ0pwTUlQRGhXQ3VsTWFsQ3VWZUdqcmo1RXFu?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:13:52,803 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:13:52,803 [INFO] Resolved Google News URL: https://www.lefigaro.fr/entrepreneur/un-contrat-signe-aujourd-hui-doit-tenir-compte-des-usages-de-de
+2026-11-05 15:13:52,803 [INFO] URL: https://www.lefigaro.fr/entrepreneur/un-contrat-signe-aujourd-hui-doit-tenir-compte-des-usages-de-demain-comment-cette-pme-vosgienne-maitrise-sa-facture-d-energie-20261105
+2026-11-05 15:13:53,157 [INFO] Text length: 1239 chars | source: full
+2026-11-05 15:13:53,157 [INFO] Text preview: « Un contrat signé aujourd’hui doit tenir compte des usages de demain » : comment cette PME vosgienne maîtrise sa facture d’énergie
+Chez Framatec, le dossier énergie est mûrement réfléchi, avec plusie...
+2026-11-05 15:13:53,158 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:14:01,238 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: « Un contrat signé aujourd’hui doit tenir compte des usages 
+2026-11-05 15:14:01,239 [INFO] LLM extracted 1 deals | « Un contrat signé aujourd’hui doit tenir compte d
+2026-11-05 15:14:01,241 [INFO] Not a signed deal — skipping: « Un contrat signé aujourd’hui doit tenir compte des usages 
+2026-11-05 15:14:01,241 [INFO] ------- Processing article n. 5: Engie boucle le refinancement des centrales à gaz de Barka 3 et Sohar 2 à Oman - -------
+2026-11-05 15:14:01,300 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxPMkZKTUR6RDQ1cmtrUzktVk0zUzhFWHpQMzk2eFFXdTVOR19YaFdQUG5hbXBjRjNQampiN2daNDcycms5WEkwb0RtQWFEWEN2dVFWOHJFRmlTQXJIeGhvNm9RTHowSnFZejZQNWRhZFdydXBNN0FhT0c3YVVBLUozQUlDNldyaERSZVgtcXlFWUVOSzl6T01sYnZOV1VKeXF0?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:14:02,406 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:14:02,407 [INFO] Resolved Google News URL: https://www.indexbox.io/fr/blog/engie-closes-refinancing-of-barka-3-and-sohar-2-gas-plants-in-oman/
+2026-11-05 15:14:02,407 [INFO] URL: https://www.indexbox.io/fr/blog/engie-closes-refinancing-of-barka-3-and-sohar-2-gas-plants-in-oman/
+2026-11-05 15:14:02,829 [INFO] Text length: 1796 chars | source: full
+2026-11-05 15:14:02,829 [INFO] Text preview: Engie boucle le refinancement des centrales à gaz de Barka 3 et Sohar 2 à Oman
+Engie a atteint la clôture financière du refinancement des centrales à turbine à gaz à cycle combiné de Barka 3 et Sohar ...
+2026-11-05 15:14:02,829 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:14:17,148 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Engie boucle le refinancement des centrales à gaz de Barka 3
+2026-11-05 15:14:17,148 [INFO] LLM extracted 2 deals | Engie boucle le refinancement des centrales à gaz 
+2026-11-05 15:14:17,149 [INFO] Not a European deal — skipping: Nama Power and Water Procurement Company / Engie (Oman, 744 MW)
+2026-11-05 15:14:17,149 [INFO] Not a European deal — skipping: Nama Power and Water Procurement Company / Engie (Oman, 744 MW)
+2026-11-05 15:14:17,149 [INFO] ------- Processing article n. 5: Elong Power signe un accord de stockage d’énergie de 300M$ - Investing.com Franc -------
+2026-11-05 15:14:17,399 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxPQVo3QkZrRm5PblczRXRzaExBQmp3ODlMRHhKRlB5M3dJOUhNMXpvU1VSSWpkcF8zdm05V1pXclYxZ3VCbGVRNDBQSVZCQVFwdTdmbXBwV2NjUVNqTHBidzl6TkF3bDBKaDB0OXdiMlZINm9lRFpIT2dzM3ZNeExRMVAzNlF0QTdZUURvb3I0eGJqV0xEVVMzT0Y0SFU2c3VvVHRQUGFVSjR2bkI0cGFrYlRB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:14:18,497 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:14:18,497 [INFO] Resolved Google News URL: https://fr.investing.com/news/company-news/elong-power-signe-un-accord-de-stockage-denergie-de-300m-
+2026-11-05 15:14:18,498 [INFO] URL: https://fr.investing.com/news/company-news/elong-power-signe-un-accord-de-stockage-denergie-de-300m-93CH-3677641
+2026-11-05 15:14:18,556 [INFO] Full text skipped (status 403): https://fr.investing.com/news/company-news/elong-power-signe-un-accord-de-stocka
+2026-11-05 15:14:18,557 [INFO] Text length: 175 chars | source: fallback
+2026-11-05 15:14:18,557 [INFO] Text preview: Elong Power signe un accord de stockage d’énergie de 300M$ - Investing.com France
+
+Elong Power signe un accord de stockage d’énergie de 300M$ &nbsp;&nbsp; Investing.com France...
+2026-11-05 15:14:18,557 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:14:31,940 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Elong Power signe un accord de stockage d’énergie de 300M$ -
+2026-11-05 15:14:31,941 [INFO] LLM extracted 1 deals | Elong Power signe un accord de stockage d’énergie 
+2026-11-05 15:14:31,942 [INFO] Not a signed deal — skipping: Elong Power signe un accord de stockage d’énergie de 300M$ -
+2026-11-05 15:14:31,942 [INFO] ------- Processing article n. 5: Engie : EBIT hors nucléaire en hausse organique de 10,9 % au troisième trimestre -------
+2026-11-05 15:14:31,995 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiigJBVV95cUxPVG1TWllJU01CWVdRd3J5UGRGN1ZGZkQ3S0lvdGpvLTVNdlo2b2ZqeC1WZXdyY3R5RVZDd3haaW1oYWVZNjJXRXQ4Um1IRGluZy1CX21ZNVZDLTRXWi0wYWpyM3RkbDhjbVlEM3NQVEo2QU50cDNJOUJiSm9mVVNPZkJ3cGpaMU5BOFJsV2ZkM2h1RWdFUHhtc3pvZXFDeGN1YjR3RzU0cDk4dHZ0LVdoN2RBNVVvTjFBNzJMb0gySkdnVmxCS2xYcTFldmp6SUpqdlYzMy1wcnZBd2JhYVFtVTVMUUtUVTZ3b1VRN0lqU2VsTUpsU2F6Qllsd2FpOC1uWDdQYzlwNXRLdw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:14:33,086 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:14:33,086 [INFO] Resolved Google News URL: https://www.ideal-investisseur.fr/actions-b/engie-ebit-hors-nucleaire-en-hausse-organique-de-109-au-
+2026-11-05 15:14:33,086 [INFO] URL: https://www.ideal-investisseur.fr/actions-b/engie-ebit-hors-nucleaire-en-hausse-organique-de-109-au-troisieme-trimestre-perspectives-2026-dans-le-haut-de-la-fourchette/28733.html
+2026-11-05 15:14:34,078 [INFO] Text length: 3168 chars | source: full
+2026-11-05 15:14:34,078 [INFO] Text preview: UK Power Networks porte la hausse publiée, l'organique accélère au troisième trimestre
+La contribution de UK Power Networks à l'EBIT atteint 452 M€ depuis mai 2026. La lecture publiée de l'EBIT hors n...
+2026-11-05 15:14:34,078 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:14:46,541 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Engie : EBIT hors nucléaire en hausse organique de 10,9 % au
+2026-11-05 15:14:46,541 [INFO] LLM extracted 1 deals | Engie : EBIT hors nucléaire en hausse organique de
+2026-11-05 15:14:46,543 [INFO] Not a signed deal — skipping: Engie : EBIT hors nucléaire en hausse organique de 10,9 % au
+2026-11-05 15:14:46,543 [INFO] ------- Processing article n. 5: NextNRG signe un accord pour acquérir une propriété en Indiana pour 22 millions  -------
+2026-11-05 15:14:46,631 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcElIcV9LclBEdGZvWkRZbHZtMlBybExncTNWcFVTY0Z0dVBsWXlvaTJ6ZGxsNWxBRk5jYzNONXE5V3FIX0Yyd2xNR0xfaHZoY1ZzS1hOX2k4bzBwekMwRWdCWEFqcFlhVHVUbE96WEt1cmUtbHB4cEJjdVRwTThTTldLTmk2NUFuM2FsU2E3MkFMRmtxNS1KUDhJQkhJSkxYQm9hX1pDNmhldmxod3drYWlyTjNWM3oxUjFCd3FUZ1pOSUVpcy1XZ3FSSFZhdGNqa0E?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:14:47,711 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:14:47,712 [INFO] Resolved Google News URL: https://fr.investing.com/news/company-news/nextnrg-signe-un-accord-pour-acquerir-une-propriete-en-in
+2026-11-05 15:14:47,712 [INFO] URL: https://fr.investing.com/news/company-news/nextnrg-signe-un-accord-pour-acquerir-une-propriete-en-indiana-pour-22-millions--93CH-3679209
+2026-11-05 15:14:47,736 [INFO] Full text skipped (status 403): https://fr.investing.com/news/company-news/nextnrg-signe-un-accord-pour-acquerir
+2026-11-05 15:14:47,737 [INFO] Text length: 221 chars | source: fallback
+2026-11-05 15:14:47,737 [INFO] Text preview: NextNRG signe un accord pour acquérir une propriété en Indiana pour 22 millions $ - Investing.com France
+
+NextNRG signe un accord pour acquérir une propriété en Indiana pour 22 millions $ &nbsp;&nbsp;...
+2026-11-05 15:14:47,737 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:15:01,365 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: NextNRG signe un accord pour acquérir une propriété en India
+2026-11-05 15:15:01,365 [INFO] LLM extracted 1 deals | NextNRG signe un accord pour acquérir une propriét
+2026-11-05 15:15:01,367 [INFO] Not a signed deal — skipping: NextNRG signe un accord pour acquérir une propriété en India
+2026-11-05 15:15:01,367 [INFO] ------- Processing article n. 5: Bayer utilise déjà de la vapeur 100% renouvelable pour produire le principe acti -------
+2026-11-05 15:15:01,543 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVDd1NXpVRndHT0V2aWJpU1hUYWlQVEpPa3VpYktNaEg4NWFlWW50aHBMbTFOd3cwS1RoODdLTHpnWkE0al9lYUQ4MWJ4V3VrSHJ5SW1UVmQ0S3RhRzUySk1DOTVSQlpGcHVURVZVZXRSdmdsaS1CWXJzYlFMM0duUHk5QTkyc0diNzI5Y3hBMDk3OHJ1SEQ2eVh5Rm1fUWY0cFJmTm1lU3RsSldwUnJvSk45MVZGR3BLNjI1ZTJtbUV1LUFxREtJNjhhRndESl9FXzRWYUJhMW1OTFRocU9N0gHkAUFVX3lxTFBINWJjVzVjaWxqS3hpc1hBUDdNM2Q0Q1cwMlZsNTBsTVNJRDN0eXlKRE5rUWpUbkdLU2lLemU5UmtubXhMUWZOR2ZxNnJpZVhrWmtlcDU0dHhDdFQ1cmRFUVZWRllLSDc1NzRsRmN2UWdWbl9lS25KTUgxRTV3VFpBRGpjblQ5ZlVTRHZqRVdjaTJ3VkpTVGF3aTBUdENVcFJQaGQycTdoajhiZWR1WUZVcTFEM05qQXFmYURIWm5RT0pzQlh3NFNoMTNDLXJyV055d3pvdmJuakIzN3p3eUhvb2hUbQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:15:02,664 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:15:02,665 [INFO] Resolved Google News URL: https://www.democrata.es/fr/economie/bayer-utilise-deja-de-la-vapeur-100-renouvelable-pour-produire-
+2026-11-05 15:15:02,665 [INFO] URL: https://www.democrata.es/fr/economie/bayer-utilise-deja-de-la-vapeur-100-renouvelable-pour-produire-le-principe-actif-de-l-aspirine-a-la-felguera/
+2026-11-05 15:15:02,731 [INFO] Full text skipped (status 403): https://www.democrata.es/fr/economie/bayer-utilise-deja-de-la-vapeur-100-renouve
+2026-11-05 15:15:02,732 [INFO] Text length: 255 chars | source: fallback
+2026-11-05 15:15:02,732 [INFO] Text preview: Bayer utilise déjà de la vapeur 100% renouvelable pour produire le principe actif de l’Aspirine à La Felguera - Demócrata
+
+Bayer utilise déjà de la vapeur 100% renouvelable pour produire le principe a...
+2026-11-05 15:15:02,732 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:15:16,675 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Bayer utilise déjà de la vapeur 100% renouvelable pour produ
+2026-11-05 15:15:16,676 [INFO] LLM extracted 1 deals | Bayer utilise déjà de la vapeur 100% renouvelable 
+2026-11-05 15:15:16,678 [INFO] Not a signed deal — skipping: Bayer utilise déjà de la vapeur 100% renouvelable pour produ
+2026-11-05 15:15:16,678 [INFO] ------- Processing article n. 5: Ahold Delhaize firma un acuerdo de compra de electricidad en Rumanía - MarketScr -------
+2026-11-05 15:15:16,929 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcWFuVTl0ZWdsUGprQ1pHdmd3blZPSTM1cVFId25QYjlKM29rcDJ3UFhpZ09SV2tOQzJFanJwSzRWeXozOS1DclQ0SUhhYjM2aVhWWGp6Zm9BZFk1Qk1oYnFHOXE5STUwSG02a1ZxUXBMdmE1RVIzT3lRU3dWdU15WS1xcUlhbl96Y2o3eFpmbW5OU3NMSVRTRkNYbHpSSjRhd25IS3NvRXRoM2dndlktdXc0YUFRQVJ5NTJTbHp6NGZIUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:15:18,025 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:15:18,026 [INFO] Resolved Google News URL: https://es.marketscreener.com/noticias/ahold-delhaize-firma-un-acuerdo-de-compra-de-electricidad-en-
+2026-11-05 15:15:18,026 [INFO] URL: https://es.marketscreener.com/noticias/ahold-delhaize-firma-un-acuerdo-de-compra-de-electricidad-en-ruman-a-ce785fdcde89f622
+2026-11-05 15:15:18,198 [INFO] Full text skipped (status 403): https://es.marketscreener.com/noticias/ahold-delhaize-firma-un-acuerdo-de-compra
+2026-11-05 15:15:18,198 [INFO] Text length: 197 chars | source: fallback
+2026-11-05 15:15:18,198 [INFO] Text preview: Ahold Delhaize firma un acuerdo de compra de electricidad en Rumanía - MarketScreener España
+
+Ahold Delhaize firma un acuerdo de compra de electricidad en Rumanía &nbsp;&nbsp; MarketScreener España...
+2026-11-05 15:15:18,198 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:15:31,841 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize firma un acuerdo de compra de electricidad en
+2026-11-05 15:15:31,841 [INFO] LLM extracted 1 deals | Ahold Delhaize firma un acuerdo de compra de elect
+2026-11-05 15:15:31,843 [INFO] NEW: Ahold Delhaize / None (Romania, None MW)
+2026-11-05 15:15:36,844 [INFO] ------- Processing article n. 6: Solaris Energy Infrastructure amplía contratos eléctricos - Inspenet -------
+2026-11-05 15:15:36,912 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTE1ZTW1WRjl2N2p1S1BycVFOLXA2SG9HSVJOS2NwQmYzVVBOdE1Cb1JHR1FaMHFLc2RPZ2FDQ1B2MGl0YUpoMmF3WmpBbVVHMHJIRzVCTFRNWGNleGItWHBQajVnRWdJeEljdldGTm5vN1JVdDYzMkJ2NldzT3A3QQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:15:38,027 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:15:38,028 [INFO] Resolved Google News URL: https://inspenet.com/noticias/solaris-energy-amplia-contratos-electricos/
+2026-11-05 15:15:38,028 [INFO] URL: https://inspenet.com/noticias/solaris-energy-amplia-contratos-electricos/
+2026-11-05 15:15:38,133 [INFO] Text length: 5255 chars | source: full
+2026-11-05 15:15:38,133 [INFO] Text preview: Solaris Energy Infrastructure anunció la firma de un contrato para suministrar 900 MW de capacidad de generación eléctrica durante 15 años, como parte de su expansión en el mercado energético. El acue...
+2026-11-05 15:15:38,133 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:15:46,783 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Solaris Energy Infrastructure amplía contratos eléctricos - 
+2026-11-05 15:15:46,783 [INFO] LLM extracted 1 deals | Solaris Energy Infrastructure amplía contratos elé
+2026-11-05 15:15:46,785 [INFO] Not a European deal — skipping: None / Solaris Energy Infrastructure (None, 900 MW)
+2026-11-05 15:15:46,785 [INFO] ------- Processing article n. 6: Elong Power asegura un acuerdo de almacenamiento de energía por 300 millones de  -------
+2026-11-05 15:15:46,893 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRXhOSVVsUms5aDFoNjMxcXFVNkxsY29OT2pxeUpZRVhBaUlwM3VJamxsY3FwcjFoN0Z1Vll2dUVOWXY0bDd4U2lOUWV4YWtibzlRYXFBcWRNT1BTMy1vYXJEV25nbWJkR09lNGhteEYzV2pfcWVwdUhhOGFBU3B6ZWdmUkJFUjhuSTR3U25ma3Zyay00QmQwM1FlLTIyd1I1aF92RzRZYWg0MC0zNzViVXA1UDdHNVZOaU5fdTc0SmJ4SkpvbGthS2JEaGRDYkpJSDVqb3ZuUjRyWGs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:15:48,011 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:15:48,012 [INFO] Resolved Google News URL: https://es.investing.com/news/company-news/elong-power-asegura-un-acuerdo-de-almacenamiento-de-energ
+2026-11-05 15:15:48,012 [INFO] URL: https://es.investing.com/news/company-news/elong-power-asegura-un-acuerdo-de-almacenamiento-de-energia-por-300-millones-de-dolares-93CH-3911914
+2026-11-05 15:15:48,057 [INFO] Full text skipped (status 403): https://es.investing.com/news/company-news/elong-power-asegura-un-acuerdo-de-alm
+2026-11-05 15:15:48,057 [INFO] Text length: 233 chars | source: fallback
+2026-11-05 15:15:48,057 [INFO] Text preview: Elong Power asegura un acuerdo de almacenamiento de energía por 300 millones de dólares - Investing.com España
+
+Elong Power asegura un acuerdo de almacenamiento de energía por 300 millones de dólares ...
+2026-11-05 15:15:48,057 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:16:01,348 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Elong Power asegura un acuerdo de almacenamiento de energía 
+2026-11-05 15:16:01,349 [INFO] LLM extracted 1 deals | Elong Power asegura un acuerdo de almacenamiento d
+2026-11-05 15:16:01,351 [INFO] Not a signed deal — skipping: Elong Power asegura un acuerdo de almacenamiento de energía 
+2026-11-05 15:16:01,351 [INFO] ------- Processing article n. 6: Ahold Delhaize firma un acuerdo virtual de compra de energía para proyectos reno -------
+2026-11-05 15:16:01,466 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQnpCM1pnV0lYTkN3bXNwTU9EZmhMT1ZUZzNvVHcwaUNqbGJ1bVJJMWM3WDFSNmtqeWN3ZVY0b0RqMjFpYWVHTVVGUjFXazhxUDl5LVQ2Ynkzd1lSX0tmQ2JlQ3VIYWpRanJwVVJDbzlfcmljLUZHaXRuVXZqSGgtU2dfMjRGRGZ1SnpPdlAxVklIelpUQlhURENwRXJtQlhPMGdnRnhXd05nZ2E3d01oV2ozVWc1ZnR4emIzSElVNHNwS2tnV0dJMy1FeC14X1Q2b0lzaVBGcXBVRHFiRWpxcmd4U1pCSlNv?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:16:02,542 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:16:02,543 [INFO] Resolved Google News URL: https://es.marketscreener.com/noticias/ahold-delhaize-firma-un-acuerdo-virtual-de-compra-de-energ-a-
+2026-11-05 15:16:02,543 [INFO] URL: https://es.marketscreener.com/noticias/ahold-delhaize-firma-un-acuerdo-virtual-de-compra-de-energ-a-para-proyectos-renovables-en-ruman-a-ce785fdcdd81f425
+2026-11-05 15:16:02,741 [INFO] Full text skipped (status 403): https://es.marketscreener.com/noticias/ahold-delhaize-firma-un-acuerdo-virtual-d
+2026-11-05 15:16:02,741 [INFO] Text length: 255 chars | source: fallback
+2026-11-05 15:16:02,741 [INFO] Text preview: Ahold Delhaize firma un acuerdo virtual de compra de energía para proyectos renovables en Rumanía - MarketScreener España
+
+Ahold Delhaize firma un acuerdo virtual de compra de energía para proyectos r...
+2026-11-05 15:16:02,742 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:16:16,328 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize firma un acuerdo virtual de compra de energía
+2026-11-05 15:16:16,329 [INFO] LLM extracted 1 deals | Ahold Delhaize firma un acuerdo virtual de compra 
+2026-11-05 15:16:16,330 [INFO] NEW: Ahold Delhaize / None (Romania, None MW)
+2026-11-05 15:16:21,332 [INFO] ------- Processing article n. 7: Elong Power asegura contrato de almacenamiento de energía por $300M - Investing. -------
+2026-11-05 15:16:21,410 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxQWEtDdEJkSzkzNVh1Q2lFazZwNVRQcVEyYXdqY2dNWFZzWEZpM3A1UURZWlpwalItM0hmMlZ0RU9uMlctanJxZlRrOU10WkJVUHNYd0lMSkstVGxsR3NYT1JYb2ZncjNvNXFWTVo5Vm9ValZiX3Mtc0RudEpmY2Rua1BCazlZSkdRUXNLNmQ1SjBmODJRN01hWGJIV3M5MU9Wd0FNczZlTlpHQ01ETU8tc0FDdXF6eFNOUmViQkRKOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:16:22,501 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:16:22,502 [INFO] Resolved Google News URL: https://mx.investing.com/news/company-news/elong-power-asegura-contrato-de-almacenamiento-de-energia
+2026-11-05 15:16:22,502 [INFO] URL: https://mx.investing.com/news/company-news/elong-power-asegura-contrato-de-almacenamiento-de-energia-por-300m-93CH-3833685
+2026-11-05 15:16:22,555 [INFO] Full text skipped (status 403): https://mx.investing.com/news/company-news/elong-power-asegura-contrato-de-almac
+2026-11-05 15:16:22,555 [INFO] Text length: 245 chars | source: fallback
+2026-11-05 15:16:22,555 [INFO] Text preview: Elong Power asegura contrato de almacenamiento de energía por $300M - Investing.com México - Finanzas, Bolsa y Forex
+
+Elong Power asegura contrato de almacenamiento de energía por $300M &nbsp;&nbsp; I...
+2026-11-05 15:16:22,555 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:16:31,449 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Elong Power asegura contrato de almacenamiento de energía po
+2026-11-05 15:16:31,449 [INFO] LLM extracted 1 deals | Elong Power asegura contrato de almacenamiento de 
+2026-11-05 15:16:31,450 [INFO] Not a signed deal — skipping: Elong Power asegura contrato de almacenamiento de energía po
+2026-11-05 15:16:31,451 [INFO] ------- Processing article n. 7: Iberdrola inicia las pruebas para electrificar con vapor 100% renovable el proce -------
+2026-11-05 15:16:31,696 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMU16TVJFdTRoa0o5MVlpU1RoM2dWUWxfTmxvWUQ3WXZiSl9GRGhlTVE2cHd5V0ZtdEp3c1MyNUt1YzBzdUtlMDhRbm5WM25JaG15dHRaeGp2Z2g5bkFSVno3cGJVLVBFSHk2b2RYQTE5NFkzcy1mSU5xS1h5cTd4aUU1Y2FsR094dThrcXJPZmlFNUZyNFlJaVltRlVsV2xzeVFvbXZMMzExZVFOcHpfcDk3LVJaVkhLMUt6LWZZeXNDRDFtdWpaMGlhZzV3ZFlaR3A2Z3FzajRHdEVBd3BzZmhSOA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:16:32,804 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:16:32,805 [INFO] Resolved Google News URL: https://elperiodicodelaenergia.com/iberdrola-inicia-las-pruebas-para-electrificar-con-vapor-100-reno
+2026-11-05 15:16:32,805 [INFO] URL: https://elperiodicodelaenergia.com/iberdrola-inicia-las-pruebas-para-electrificar-con-vapor-100-renovable-el-proceso-productivo-de-bayer-en-asturias/
+2026-11-05 15:16:33,270 [INFO] Text length: 5652 chars | source: full
+2026-11-05 15:16:33,270 [INFO] Text preview: Bayer producirá 'aspirinas' en Asturias con vapor 100% renovable gracias a Iberdrola
+La iniciativa incluye un PPA de 15 MW de energía renovable y permitirá eliminar unas 6.500 toneladas de CO2, posici...
+2026-11-05 15:16:33,270 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:16:46,739 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola inicia las pruebas para electrificar con vapor 100
+2026-11-05 15:16:46,739 [INFO] LLM extracted 1 deals | Iberdrola inicia las pruebas para electrificar con
+2026-11-05 15:16:46,754 [INFO] NEW: Bayer / Iberdrola (Spain, 15 MW)
+2026-11-05 15:16:51,756 [INFO] ------- Processing article n. 8: Iberdrola inicia las pruebas para sustituir el gas por vapor renovable en la pla -------
+2026-11-05 15:16:51,834 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxOUldSSktwSFlZZ1AzbERFTTI2NTRobndObmRMLU9QNDlRd09Gb21aWGtfT2dLNjZNeFN6MUwtdlozSFp4aEw0X0dLclFydTVoQ2pKLXFScFNlSURSRWw1ZHFTOUJUc0YwRTNtN2dIWlpqa0pQQXYzb2RHNHhVNTZJMHFCcEpLeHZiVkhMcFhpQkh6b1NoaUNoTNIBmAFBVV95cUxOUldSSktwSFlZZ1AzbERFTTI2NTRobndObmRMLU9QNDlRd09Gb21aWGtfT2dLNjZNeFN6MUwtdlozSFp4aEw0X0dLclFydTVoQ2pKLXFScFNlSURSRWw1ZHFTOUJUc0YwRTNtN2dIWlpqa0pQQXYzb2RHNHhVNTZJMHFCcEpLeHZiVkhMcFhpQkh6b1NoaUNoTA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:16:52,952 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:16:52,953 [INFO] Resolved Google News URL: https://www.elconciso.es/energia/iberdrola-inicia-pruebas-sustituir-gas_0_2008429483.amp.html
+2026-11-05 15:16:52,953 [INFO] URL: https://www.elconciso.es/energia/iberdrola-inicia-pruebas-sustituir-gas_0_2008429483.amp.html
+2026-11-05 15:16:54,255 [INFO] Text length: 3320 chars | source: full
+2026-11-05 15:16:54,255 [INFO] Text preview: La planta de Bayer en La Felguera, en el municipio asturiano de Langreo, ha comenzado a recibir vapor generado íntegramente con electricidad de origen renovable para fabricar ácido acetilsalicílico, e...
+2026-11-05 15:16:54,255 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:17:01,607 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola inicia las pruebas para sustituir el gas por vapor
+2026-11-05 15:17:01,607 [INFO] LLM extracted 1 deals | Iberdrola inicia las pruebas para sustituir el gas
+2026-11-05 15:17:01,623 [INFO] UPDATE: Bayer / Iberdrola (Spain, 15 MW) — canonical ID: 2069
+2026-11-05 15:17:06,625 [INFO] ------- Processing article n. 9: Iberdrola inicia las pruebas para producir vapor 100 % renovable en la planta de -------
+2026-11-05 15:17:06,684 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAFBVV95cUxNR1kwSENqb0k2bXlsSTVpQkhEY3VPUWtJVHpIWkxzbHU5bWhrMGxqN1pmVnhrSzQ5dEYtVnNhS3l6NHF2a1FXZXV5d19LOEY0STdqT3kzMjR3cnp2YmVYTlJCSzB6Yi1kZWt0YWtCRG9zaFphX0prNlM4dDh0NndCcDlfY2dYajZtS3YyYkVKVVNhOHd2aFVlTHpMbGt6ZmVGaUI1eFl3bHdNMzFCdGpNbHVsZUNkR3p6QVAxcGI4ZTZadUlYeVJpR0RobGk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:17:07,767 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:17:07,767 [INFO] Resolved Google News URL: https://www.industriambiente.com/noticias/20261105/iberdrola-inicia-pruebas-producir-vapor-100-renov
+2026-11-05 15:17:07,768 [INFO] URL: https://www.industriambiente.com/noticias/20261105/iberdrola-inicia-pruebas-producir-vapor-100-renovable-en-planta-bayer-en-asturias
+2026-11-05 15:17:08,622 [INFO] Text length: 4860 chars | source: full
+2026-11-05 15:17:08,622 [INFO] Text preview: La planta de Bayer en La Felguera, Langreo, ha comenzado a recibir vapor de origen 100 % renovable generado por Iberdrola para la producción de ácido acetilsalicílico, principio activo de Aspirina®. L...
+2026-11-05 15:17:08,622 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:17:16,820 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola inicia las pruebas para producir vapor 100 % renov
+2026-11-05 15:17:16,820 [INFO] LLM extracted 1 deals | Iberdrola inicia las pruebas para producir vapor 1
+2026-11-05 15:17:16,836 [INFO] UPDATE: Bayer / Iberdrola (Spain, 15.0 MW) — canonical ID: 2069
+2026-11-05 15:17:21,837 [INFO] ------- Processing article n. 10: Bayer e Iberdrola impulsan en Asturias un proyecto pionero que evitará 6.500 ton -------
+2026-11-05 15:17:21,892 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxPcENnb2syZXVoc0FMZlg5X1AwcklSTDRVY2FrUE9xcjBRUjNmRkdaRERyZTVmNjZsVXZfZDNOYmItM1VkZ1Q1LUJEZHo4WHRkbmJwQXFTN0Q5aHZFM0s2ZV81ZXlYcTQxcm9KNUNtbGFRcXlONlJDTHFNOUF6d3NWeXdkRWxYeWRzVnBVaDc3MUtua1FSRWlVYUxZODRFaTRsUDgzT2FDZTJIdzE3aXJJSUZGdnF2WmhyYVRXa2p5N1cxYVRLdEw0U0VnUVgzQdIBzgFBVV95cUxPcENnb2syZXVoc0FMZlg5X1AwcklSTDRVY2FrUE9xcjBRUjNmRkdaRERyZTVmNjZsVXZfZDNOYmItM1VkZ1Q1LUJEZHo4WHRkbmJwQXFTN0Q5aHZFM0s2ZV81ZXlYcTQxcm9KNUNtbGFRcXlONlJDTHFNOUF6d3NWeXdkRWxYeWRzVnBVaDc3MUtua1FSRWlVYUxZODRFaTRsUDgzT2FDZTJIdzE3aXJJSUZGdnF2WmhyYVRXa2p5N1cxYVRLdEw0U0VnUVgzQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:17:23,004 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:17:23,005 [INFO] Resolved Google News URL: https://www.elplural.com/economia/empresas/bayer-iberdrola-impulsan-asturias-proyecto-pionero-evitar
+2026-11-05 15:17:23,005 [INFO] URL: https://www.elplural.com/economia/empresas/bayer-iberdrola-impulsan-asturias-proyecto-pionero-evitara-toneladas-co2-ano_803361102_amp
+2026-11-05 15:17:23,158 [INFO] Text length: 6437 chars | source: full
+2026-11-05 15:17:23,158 [INFO] Text preview: La planta de Bayer en La Felguera (Langreo) ha comenzado a utilizar vapor de origen 100% renovable, generado por Iberdrola, para la producción de ácido acetilsalicílico. La compañía energética ha elec...
+2026-11-05 15:17:23,158 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:17:31,593 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Bayer e Iberdrola impulsan en Asturias un proyecto pionero q
+2026-11-05 15:17:31,593 [INFO] LLM extracted 1 deals | Bayer e Iberdrola impulsan en Asturias un proyecto
+2026-11-05 15:17:31,608 [INFO] DUPLICATE skipped: Bayer / Iberdrola (Spain) — same as ID: 2069
+2026-11-05 15:17:31,608 [INFO] ------- Processing article n. 10: Bayer comienza a recibir vapor 100% renovable para fabricar el principio activo  -------
+2026-11-05 15:17:31,699 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSEc2eGJMc3h6eW9JemZUeEI5cTFGM3d3Y3ctZnVfckowS19oQWUxYUV2Q09UWmhYV0ZST0MtYXE2Y25vZDczNUpYT0o0RlR4X1BiMi1Pc3RsVUVEMmttQ0tMX2ZvRGc1M0FVR0daNllobE15anFSWlhnVGRYbzIycHVSUjVaYTU1aVZqbDBia0xlRnBvSjlUTklqNS03NWhPTXg5bWk1MlgzdlAxMFhkNDlzNzlhc0Q4eUM2UlJtVVhRcnRqVFI2VERGbjIzaTUtdFRuRWl1SFY4Qm9TWndBNFlaQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:17:32,787 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:17:32,788 [INFO] Resolved Google News URL: https://www.diariosigloxxi.com/texto-ep/mostrar/20261105131957/bayer-comienza-recibir-vapor-100-reno
+2026-11-05 15:17:32,788 [INFO] URL: https://www.diariosigloxxi.com/texto-ep/mostrar/20261105131957/bayer-comienza-recibir-vapor-100-renovable-fabricar-principio-activo-aspirina-felguera
+2026-11-05 15:17:33,642 [INFO] Text length: 1272 chars | source: full
+2026-11-05 15:17:33,643 [INFO] Text preview: Recogerse y acogerse es un níveo concentrado de bondad y pasión que precisamos como jamás, poner en acción, con reposición contemplativa. Sus efectos benignos y sus afectos generosos, es lo que verdad...
+2026-11-05 15:17:33,643 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:17:46,219 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Bayer comienza a recibir vapor 100% renovable para fabricar 
+2026-11-05 15:17:46,219 [INFO] LLM extracted 1 deals | Bayer comienza a recibir vapor 100% renovable para
+2026-11-05 15:17:46,221 [INFO] Not a signed deal — skipping: Bayer comienza a recibir vapor 100% renovable para fabricar 
+2026-11-05 15:17:46,221 [INFO] ------- Processing article n. 10: Iberdrola suministra vapor renovable a Bayer y recorta 6.500 toneladas de CO2 -  -------
+2026-11-05 15:17:46,412 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiigFBVV95cUxPYm1XSS1vNUFjQXBsT3RyZEgxVUs5SkEyM2RjM0wwd1F6OG51RHNDbTRNQVlPY2lZZjNmX0xiSUpQT2JIWGk2Y01mTjRXNThCVExuMmM2NGZHZmVCbjBpU2VKbURFbFhfcnUyUU9uUGFaUUJId2sxTEJVaEtVZUhfbDlNR0pWR3BnVXc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:17:47,512 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:17:47,513 [INFO] Resolved Google News URL: https://www.merca2.es/2026/11/05/vapor-renovable-bayer-iberdrola-asturias-2496068/
+2026-11-05 15:17:47,513 [INFO] URL: https://www.merca2.es/2026/11/05/vapor-renovable-bayer-iberdrola-asturias-2496068/
+2026-11-05 15:17:47,707 [INFO] Text length: 8511 chars | source: full
+2026-11-05 15:17:47,707 [INFO] Text preview: El vapor renovable de Bayer en Langreo ya sustituye al gas y evita 6.500 toneladas de CO2 al año.
+La factoría que la farmacéutica alemana tiene en La Felguera, en el concejo asturiano de Langreo, fabr...
+2026-11-05 15:17:47,707 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:18:02,686 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Iberdrola suministra vapor renovable a Bayer y recorta 6.500
+2026-11-05 15:18:02,687 [INFO] LLM extracted 1 deals | Iberdrola suministra vapor renovable a Bayer y rec
+2026-11-05 15:18:02,702 [INFO] NEW: Bayer / Iberdrola (Spain, 15 MW)
+2026-11-05 15:18:07,704 [INFO] ------- Processing article n. 11: Ahold Delhaize sigla un accordo virtuale di acquisto di energia per progetti rin -------
+2026-11-05 15:18:07,795 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi6gFBVV95cUxQajg5NERvQWNzSTQ3LVRuWnhHZEVwMmJfcXJXWGdwTkxzRHBOcUM1dGdqMVFmNmNaR3AwbTZid0YzWnFFTHU0eFdvWHlGLWRVdTY2LXNhOWVmdTBvQjlFajZ2V0dUOXdJVkxTb055QUxwTkVuc2hia2I0T3Nkc0VIN0lYV1pHbE9WdUhzMUFqc2hXcUUxM05IZkM2eEZWZ3luNTg2aXUzSzBSSUdGdTE4YVRVQmVYRDVHbU01ZWZQb1g2N19DOTl1TTdJMlpYZm40b2RoQ3ZzbXB2UFZLaWpWR1ZZS2xTbU1reGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:18:08,882 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:18:08,883 [INFO] Resolved Google News URL: https://it.marketscreener.com/notizie/ahold-delhaize-sigla-un-accordo-virtuale-di-acquisto-di-energi
+2026-11-05 15:18:08,883 [INFO] URL: https://it.marketscreener.com/notizie/ahold-delhaize-sigla-un-accordo-virtuale-di-acquisto-di-energia-per-progetti-rinnovabili-in-romania-ce785fdcdd81f425
+2026-11-05 15:18:09,090 [INFO] Full text skipped (status 403): https://it.marketscreener.com/notizie/ahold-delhaize-sigla-un-accordo-virtuale-d
+2026-11-05 15:18:09,091 [INFO] Text length: 259 chars | source: fallback
+2026-11-05 15:18:09,091 [INFO] Text preview: Ahold Delhaize sigla un accordo virtuale di acquisto di energia per progetti rinnovabili in Romania - MarketScreener Italia
+
+Ahold Delhaize sigla un accordo virtuale di acquisto di energia per progett...
+2026-11-05 15:18:09,091 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:18:16,618 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize sigla un accordo virtuale di acquisto di ener
+2026-11-05 15:18:16,618 [INFO] LLM extracted 1 deals | Ahold Delhaize sigla un accordo virtuale di acquis
+2026-11-05 15:18:16,619 [INFO] NEW: Ahold Delhaize / None (Romania, None MW)
+2026-11-05 15:18:21,621 [INFO] ------- Processing article n. 12: Ahold Delhaize firma un accordo per l'acquisto di energia elettrica in Romania - -------
+2026-11-05 15:18:21,685 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxQT1hpU0tuUkQxajJXa0loRmlpQll5aWhiTWZUVmQ0RjZjaEJza0RYU09OR2VwOHZuejgxdl8ya1E4QXN1SWlYd0ItSDlGVG1CeXlsa1BSS01LQV9ZTUs3MzhTMFJ6QlJJd28tcVBYMXp6Z2lHQ0pSN0NvZF8tczdiZDJJUDZqanZyTFR2RHFYSVVDVDBHQjNJTGhSQTFOWnRFVDdIekVfVmVKa3JkaEJ3SDE0MlRIRVV4NmwtOTRZYmtLQmdpUWlmN0g1ZnRmZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:18:22,780 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:18:22,781 [INFO] Resolved Google News URL: https://it.marketscreener.com/notizie/ahold-delhaize-firma-un-accordo-per-l-acquisto-di-energia-elet
+2026-11-05 15:18:22,781 [INFO] URL: https://it.marketscreener.com/notizie/ahold-delhaize-firma-un-accordo-per-l-acquisto-di-energia-elettrica-in-romania-ce785fdcde89f622
+2026-11-05 15:18:22,881 [INFO] Full text skipped (status 403): https://it.marketscreener.com/notizie/ahold-delhaize-firma-un-accordo-per-l-acqu
+2026-11-05 15:18:22,882 [INFO] Text length: 217 chars | source: fallback
+2026-11-05 15:18:22,882 [INFO] Text preview: Ahold Delhaize firma un accordo per l'acquisto di energia elettrica in Romania - MarketScreener Italia
+
+Ahold Delhaize firma un accordo per l'acquisto di energia elettrica in Romania &nbsp;&nbsp; Mark...
+2026-11-05 15:18:22,882 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:18:31,516 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ahold Delhaize firma un accordo per l'acquisto di energia el
+2026-11-05 15:18:31,517 [INFO] LLM extracted 1 deals | Ahold Delhaize firma un accordo per l'acquisto di 
+2026-11-05 15:18:31,519 [INFO] NEW: Ahold Delhaize / None (Romania, None MW)
+2026-11-05 15:18:36,520 [INFO] ------- Processing article n. 13: Prima di estendere la vendita di energia elettrica a tariffa oraria, è necessari -------
+2026-11-05 15:18:36,611 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxQZmxjeGxGSmRZdXRUOFJjV0JEeTM1NHZhdnZNeUVLWWU0Ml82ZnMtTzg3Rkd0azNRakRfSE9Pbzh5RXBLd3VJY05Eb0xjUE5COGlqNWdfMmROdjBtVGRkUE1vUVZnRERBREZQUkt0QTV1NGNFZDhPOUdSYVY2OHFLdkNVSm1lblVLTE52MEJJS3AyTHVRbDMxcmg2Qk1wbllaQlE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:18:37,725 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:18:37,726 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/can-thi-diem-danh-gia-tac-dong-truoc-khi-nhan-rong-ban-dien-theo-khung-gio
+2026-11-05 15:18:37,726 [INFO] URL: https://www.vietnam.vn/it/can-thi-diem-danh-gia-tac-dong-truoc-khi-nhan-rong-ban-dien-theo-khung-gio
+2026-11-05 15:18:39,129 [INFO] Text length: 6987 chars | source: full
+2026-11-05 15:18:39,129 [INFO] Text preview: Prima di estendere la vendita di energia elettrica a tariffa oraria, è necessario un programma pilota per valutarne l'impatto.
+(DTTC) - Durante le discussioni sulla legge di modifica e integrazione di...
+2026-11-05 15:18:39,129 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:18:46,274 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Prima di estendere la vendita di energia elettrica a tariffa
+2026-11-05 15:18:46,275 [INFO] LLM extracted 1 deals | Prima di estendere la vendita di energia elettrica
+2026-11-05 15:18:46,276 [INFO] Not a signed deal — skipping: Prima di estendere la vendita di energia elettrica a tariffa
+2026-11-05 15:18:46,276 [INFO] ------- Processing article n. 13: Umowa na termomodernizację siedziby Komendy Stołecznej Policji podpisana! - Port -------
+2026-11-05 15:18:46,473 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUXZoSFUtcTJuUldaQ19HZXVJenNKaHpSX0tOX2U5bldZU3hrbGhTR3owa3pPNWlid194aGxfVUx5SDBqbVlWWWlYMlJFOU5ZVld4NUhpQUZKeWFIVXhLeC1wdFB5WHpwc0t0cFZlN2luNVNtMmxsLTZpMmNIX2J0bkNfU3BtdnByb3NoN3Ixc1p3Mlp6bWQ3OThxdEZvOVZ3cWdmeFRINEJOV0dpUjhOX05YRUtPUkpyc1RR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:18:47,564 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:18:47,565 [INFO] Resolved Google News URL: https://funduszeeuropejskie.gov.pl/aktualnosci/umowa-na-termomodernizacje-siedziby-komendy-stoleczne
+2026-11-05 15:18:47,565 [INFO] URL: https://funduszeeuropejskie.gov.pl/aktualnosci/umowa-na-termomodernizacje-siedziby-komendy-stolecznej-policji-podpisana
+2026-11-05 15:18:49,108 [INFO] Text length: 1459 chars | source: full
+2026-11-05 15:18:49,109 [INFO] Text preview: Pałac Mostowskich przejdzie gruntowną termomodernizację z pomocą środków unijnych z programu Fundusze Europejskie na Infrastrukturę, Klimat, Środowisko. Komenda Stołeczna Policji, która ma tam swoją s...
+2026-11-05 15:18:49,109 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:19:01,631 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Umowa na termomodernizację siedziby Komendy Stołecznej Polic
+2026-11-05 15:19:01,631 [INFO] LLM extracted 1 deals | Umowa na termomodernizację siedziby Komendy Stołec
+2026-11-05 15:19:01,633 [INFO] Not a signed deal — skipping: Umowa na termomodernizację siedziby Komendy Stołecznej Polic
+2026-11-05 15:19:01,633 [INFO] ------- Processing article n. 13: Droga do tańszego ciepła w Rudzie Śląskiej prowadzi przez Warszawę - Urząd Miast -------
+2026-11-05 15:19:01,698 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxOTDluWFFyS3VWUk42SEg4T3k1TXVVVDhSMklabFNaY0Y5bjFQQmpTbFRYSVVfeVdVUmFodzdZNDdtVlVMeVdNRThJQjYzTENiaTZZZUdvZ2hVVDNIZkxLR3diZjFERHdya2NjUmRka3FOdXhuckV3bUFKMlk4cUZUbVRvZzhpaHRDOE9iMnhMakNBNW1jM1lGWmZUcUhvUWRxSzBJc0IxNXlaaVRLRVp6dmw1Ty1oWVU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:19:02,788 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:19:02,788 [INFO] Resolved Google News URL: https://www.rudaslaska.pl/ruda-slaska/aktualnosci/droga-do-tanszego-ciepla-w-rudzie-slaskiej-prowadz
+2026-11-05 15:19:02,789 [INFO] URL: https://www.rudaslaska.pl/ruda-slaska/aktualnosci/droga-do-tanszego-ciepla-w-rudzie-slaskiej-prowadzi-przez-warszawe
+2026-11-05 15:19:03,344 [INFO] Text length: 6128 chars | source: full
+2026-11-05 15:19:03,344 [INFO] Text preview: Droga do tańszego ciepła w Rudzie Śląskiej prowadzi przez Warszawę
+Władze miasta, wspólnie z przedstawicielami rudzkich spółdzielni mieszkaniowych, skierowały do Ministra Aktywów Państwowych oraz Mini...
+2026-11-05 15:19:03,344 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:19:16,439 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Droga do tańszego ciepła w Rudzie Śląskiej prowadzi przez Wa
+2026-11-05 15:19:16,440 [INFO] LLM extracted 1 deals | Droga do tańszego ciepła w Rudzie Śląskiej prowadz
+2026-11-05 15:19:16,441 [INFO] Not a signed deal — skipping: Droga do tańszego ciepła w Rudzie Śląskiej prowadzi przez Wa
+2026-11-05 15:19:16,441 [INFO] ------- Processing article n. 13: Energia solar por assinatura no radar da Aneel; o que pode mudar? - Brazil Journ -------
+2026-11-05 15:19:16,505 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxPV2dobmtzV1JLWUxqdHRBbktEd01ZS0lnMllQVmZmcjY5WFZBQkROOTNsU0VMZGREM2FZX2pPOVlidFVUZ3Bkci00Q01pelVTLUlFTXFGeE5BN1RhRC1ZSklGUGZaNGJaTl81R01Sd1VZWjRsQkZpLWMyS2RjQWNYOUxBOWtlSjZ0dElTaDBuTUd5LUk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:19:17,588 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:19:17,588 [INFO] Resolved Google News URL: https://braziljournal.com/energia-solar-por-assinatura-no-radar-da-aneel-o-que-pode-mudar
+2026-11-05 15:19:17,588 [INFO] URL: https://braziljournal.com/energia-solar-por-assinatura-no-radar-da-aneel-o-que-pode-mudar
+2026-11-05 15:19:19,222 [INFO] Text length: 5814 chars | source: full
+2026-11-05 15:19:19,222 [INFO] Text preview: O modelo de energia solar por assinatura, que se difundiu no País nos últimos anos, está sendo questionado pela Agência Nacional de Energia Elétrica (Aneel), que começou a debater internamente um aper...
+2026-11-05 15:19:19,222 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:19:31,347 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Energia solar por assinatura no radar da Aneel; o que pode m
+2026-11-05 15:19:31,347 [INFO] LLM extracted 1 deals | Energia solar por assinatura no radar da Aneel; o 
+2026-11-05 15:19:31,348 [INFO] Not a signed deal — skipping: Energia solar por assinatura no radar da Aneel; o que pode m
+2026-11-05 15:19:31,349 [INFO] ------- Processing article n. 13: Elong Power fecha acordo de US$ 300 milhões em equipamentos de armazenamento de  -------
+2026-11-05 15:19:31,411 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQWRxSGI1M2JLMzBIbmZiZEdPVEhVbHlnc0FpZjZTTTFYV05pUENxMlA0bUlDZlN3UkFTbVZtY0lEN0J6T2ZuUExNRzUwZnlqZVpmQWtnZlNwaERDS3lrODZsYUpFaEUxY295cWxBb2ZqVXBsWGVhVUFScm1TbmhHNWVGM3lsZ3V6TDBndVlrUVRHR3YxT2tRZUJNUExFTVc5VE5BYTZGRmZEVVdMd29Qem9mRlhUOU11eG1mZnl0N3ZDUmtmbDl1YTY2QjBfMVJ4cHVCbnB2aFpadw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:19:32,503 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:19:32,504 [INFO] Resolved Google News URL: https://br.investing.com/news/company-news/elong-power-fecha-acordo-de-us-300-milhoes-em-equipamento
+2026-11-05 15:19:32,504 [INFO] URL: https://br.investing.com/news/company-news/elong-power-fecha-acordo-de-us-300-milhoes-em-equipamentos-de-armazenamento-de-energia-93CH-2116673
+2026-11-05 15:19:32,528 [INFO] Full text skipped (status 403): https://br.investing.com/news/company-news/elong-power-fecha-acordo-de-us-300-mi
+2026-11-05 15:19:32,529 [INFO] Text length: 303 chars | source: fallback
+2026-11-05 15:19:32,529 [INFO] Text preview: Elong Power fecha acordo de US$ 300 milhões em equipamentos de armazenamento de energia - Investing.com Brasil - Finanças, Câmbio e Investimentos
+
+Elong Power fecha acordo de US$ 300 milhões em equipa...
+2026-11-05 15:19:32,529 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:19:46,862 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Elong Power fecha acordo de US$ 300 milhões em equipamentos 
+2026-11-05 15:19:46,863 [INFO] LLM extracted 1 deals | Elong Power fecha acordo de US$ 300 milhões em equ
+2026-11-05 15:19:46,864 [INFO] Not a signed deal — skipping: Elong Power fecha acordo de US$ 300 milhões em equipamentos 
+2026-11-05 15:19:46,864 [INFO] ------- Processing article n. 13: Hub Espírito Santo: Eneva e Vports firmam contrato em Barra do Riacho - Data Por -------
+2026-11-05 15:19:47,113 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxONjJnNmxHMjVEczFObjlXckRKaWZRY0FaR09QekNIVDRiX1g4T3JzUVJjb1kyU3hxSnhLYlBVQWJwY0VwRk5DMVNJaDNHUnpDRDA2MjBadkZtc0J4SFphZUxpUnZHcllHdVVHMmNSdTNWNXRZVGNZOEN6Y1pSUGNfNkgydnJOM3FrelV6TmZHb1o5SnM0dTExcHhMY2dVOUtvTnBwZlpXbkZpY2RadXBFbG1WQzVlV2sxR3c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-05 15:19:48,206 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-05 15:19:48,207 [INFO] Resolved Google News URL: https://dataportuaria.com/pt/brasil/portos/hub-espirito-santo-eneva-e-vports-firmam-contrato-em-barr
+2026-11-05 15:19:48,207 [INFO] URL: https://dataportuaria.com/pt/brasil/portos/hub-espirito-santo-eneva-e-vports-firmam-contrato-em-barra-do-riacho-cc1bd3
+2026-11-05 15:19:48,304 [INFO] Full text skipped (status 429): https://dataportuaria.com/pt/brasil/portos/hub-espirito-santo-eneva-e-vports-fir
+2026-11-05 15:19:48,304 [INFO] Text length: 185 chars | source: fallback
+2026-11-05 15:19:48,304 [INFO] Text preview: Hub Espírito Santo: Eneva e Vports firmam contrato em Barra do Riacho - Data Portuaria
+
+Hub Espírito Santo: Eneva e Vports firmam contrato em Barra do Riacho &nbsp;&nbsp; Data Portuaria...
+2026-11-05 15:19:48,304 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-05 15:20:02,488 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Hub Espírito Santo: Eneva e Vports firmam contrato em Barra 
+2026-11-05 15:20:02,488 [INFO] LLM extracted 1 deals | Hub Espírito Santo: Eneva e Vports firmam contrato
+2026-11-05 15:20:02,490 [INFO] Non-electricity energy deal — skipping: Hub Espírito Santo: Eneva e Vports firmam contrato em Barra 
+2026-11-05 15:20:02,490 [INFO] Run complete. New deals: 10, Updates: 3
+2026-11-05 15:20:02,508 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1528 deals)
+2026-11-05 15:20:16,166 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-11-05 15:20:16,166 [INFO] Email log summary generated by groq-120b
+2026-11-05 15:20:16,814 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
