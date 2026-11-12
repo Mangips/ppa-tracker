@@ -1,0 +1,530 @@
+2026-11-12 15:42:57,508 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-11-12 15:42:57,518 [INFO] Loaded 1708 existing deals for dedup matching
+2026-11-12 15:42:57,518 [INFO] Searching from 2026-11-12 to present with 3 loockback days
+2026-11-12 15:42:57,713 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-11-12 15:42:58,804 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-11-12 15:42:59,920 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-11-12 15:43:01,401 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-11-12&hl=en&gl=US&ceid=US:en: 26 results
+2026-11-12 15:43:03,746 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-11-12&hl=en&gl=US&ceid=US:en: 10 results
+2026-11-12 15:43:06,014 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-11-12&hl=de&gl=DE&ceid=DE:de: 1 results
+2026-11-12 15:43:08,309 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-11-12&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-11-12 15:43:10,678 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-11-12&hl=fr&gl=FR&ceid=FR:fr: 3 results
+2026-11-12 15:43:12,920 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-11-12&hl=fr&gl=FR&ceid=FR:fr: 1 results
+2026-11-12 15:43:15,187 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-11-12&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-11-12 15:43:17,485 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-11-12&hl=es&gl=ES&ceid=ES:es: 2 results
+2026-11-12 15:43:19,783 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-11-12&hl=it&gl=IT&ceid=IT:it: 2 results
+2026-11-12 15:43:22,041 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-11-12&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-12 15:43:24,296 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-11-12&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-11-12 15:43:26,532 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-11-12&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-12 15:43:28,771 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-11-12&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-12 15:43:31,114 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-11-12&hl=pt&gl=PT&ceid=PT:pt: 2 results
+2026-11-12 15:43:33,391 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-11-12&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-12 15:43:35,391 [INFO] Total raw articles collected: 49
+2026-11-12 15:43:35,639 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-11-12 15:43:37,147 [WARNING] Extra RSS error [https://elperiodicodelaenergia.com/feed/]: not well-formed (invalid token): line 159, column 3
+2026-11-12 15:43:38,156 [INFO] Unique unseen articles: 41
+2026-11-12 15:43:38,156 [INFO] ------- Processing article n. 0: Kazakhstan proposes new PPA mechanism to reduce offtake risks, plans storage auc -------
+2026-11-12 15:43:38,265 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxNVDF2Ui1oTnVGd01lRUxfNjVvbFVxRHRYRTZVcU5fRFJqOW9TOXhybXMwYi1udmphTjl6QnRBV0U0cXRwcWNxNlpDeHh4TGduYS1yem5jLURBWUFoNGZsV184UGRzOWhkTkVMX1luQ0VKYmtuR0k2MVlJSVZpVFRxN1JHOWxuQ1J6d0czbTExV3plREJFRXlQYlAxWTFHaDBvV2E5MDlSTWJrWWY4d1BtZDVWVFRBeTBpVXgwY0t3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:43:39,366 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:43:39,367 [INFO] Resolved Google News URL: https://www.ess-news.com/2026/11/12/kazakhstan-proposes-new-ppa-mechanism-to-reduce-offtake-risks-pl
+2026-11-12 15:43:39,367 [INFO] URL: https://www.ess-news.com/2026/11/12/kazakhstan-proposes-new-ppa-mechanism-to-reduce-offtake-risks-plans-storage-auctions/
+2026-11-12 15:43:39,822 [INFO] Text length: 2113 chars | source: full
+2026-11-12 15:43:39,822 [INFO] Text preview: Kazakhstan is working to improve its regulatory framework for renewable energy power purchase agreements (PPAs) in a bid to attract more investors and lenders. The proposed changes aim to increase con...
+2026-11-12 15:43:39,823 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:43:40,340 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Kazakhstan proposes new PPA mechanism to reduce offtake risk
+2026-11-12 15:43:40,340 [INFO] LLM extracted 1 deals | Kazakhstan proposes new PPA mechanism to reduce of
+2026-11-12 15:43:40,344 [INFO] Not a signed deal — skipping: Kazakhstan proposes new PPA mechanism to reduce offtake risk
+2026-11-12 15:43:40,344 [INFO] ------- Processing article n. 0: WindEurope and RenewableUK call for closer UK-EU energy cooperation - Windtech I -------
+2026-11-12 15:43:40,408 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxNeXJYRVAxenJSdW9tMUpWNzgyTG9OMDYwRXNwQmhFNU5nU0NtMWxWVk9oNnJRODdXWjBrUXh3emMtbzcyQm1kOFMza1BWRnFtelVQalZDWmo4NXIweldBNVNFODl1VUlhUS1VbkoyUmpvNGg1MF9RVFltY191RjNzZFRfSy1IQXl3SlFFaHNaa0psSFNQUm5CODkxWFV3YXdJNHN4bzNWZE5maXYxalUtRHBGakdTMWk3SUxxYQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:43:41,504 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:43:41,504 [INFO] Resolved Google News URL: https://www.windtech-international.com/industry-news/windeurope-and-renewableuk-call-for-closer-uk-e
+2026-11-12 15:43:41,504 [INFO] URL: https://www.windtech-international.com/industry-news/windeurope-and-renewableuk-call-for-closer-uk-eu-energy-cooperation
+2026-11-12 15:43:42,325 [INFO] Text length: 1736 chars | source: full
+2026-11-12 15:43:42,325 [INFO] Text preview: WindEurope and RenewableUK have joined more than 30 companies and industry organisations in calling for a closer energy partnership between the UK and the EU. The aim is to reduce electricity costs, s...
+2026-11-12 15:43:42,325 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:43:55,677 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: WindEurope and RenewableUK call for closer UK-EU energy coop
+2026-11-12 15:43:55,677 [INFO] LLM extracted 1 deals | WindEurope and RenewableUK call for closer UK-EU e
+2026-11-12 15:43:55,679 [INFO] Not a signed deal — skipping: WindEurope and RenewableUK call for closer UK-EU energy coop
+2026-11-12 15:43:55,679 [INFO] ------- Processing article n. 0: From 'how green' to 'what's the risk?': Engie's PPA conversations have changed - -------
+2026-11-12 15:43:55,754 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxQUUh0LVVzSmw2ZDFncGk0NkF6Qm0ySTlDWHZrQTl1NVJJQ0xENEM4UGwtYWhlX1pYRnVOenRfYWlfcUFkX2MzNXNyOGdDVmx5RzVVVDIyekNuVjR1TG5EM1FBT3pVRmE2LTRhY3dCRDJCNC1MTHZXem51OVpoQjV3NElUY205Tnp2d2xRSGMyVDBTZ2tRU01hSmhhSVpMa1pfSlE5MW8tdy1tLW5Ba24xdGxFNXVVMFU4QkhySEhZZmo0cWszUWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:43:56,845 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:43:56,845 [INFO] Resolved Google News URL: https://www.rechargenews.com/corporate-power/from-how-green-to-whats-the-risk-engies-ppa-conversatio
+2026-11-12 15:43:56,845 [INFO] URL: https://www.rechargenews.com/corporate-power/from-how-green-to-whats-the-risk-engies-ppa-conversations-have-changed/2-1-2071538
+2026-11-12 15:43:57,508 [INFO] Text length: 339 chars | source: full
+2026-11-12 15:43:57,509 [INFO] Text preview: Offshore wind deals can't spark sluggish PPA market
+In another sluggish year for corporate power deals, the global energy giant says buyers are looking for certainty as well as carbon credentials
+In a...
+2026-11-12 15:43:57,509 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:44:10,299 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: From 'how green' to 'what's the risk?': Engie's PPA conversa
+2026-11-12 15:44:10,299 [INFO] LLM extracted 1 deals | From 'how green' to 'what's the risk?': Engie's PP
+2026-11-12 15:44:10,301 [INFO] Not a signed deal — skipping: From 'how green' to 'what's the risk?': Engie's PPA conversa
+2026-11-12 15:44:10,301 [INFO] ------- Processing article n. 0: Data centre operator AirTrunk secures exclusivity on 1GW Hunter solar, wind and  -------
+2026-11-12 15:44:10,406 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxNV3E3SHVKcF9rOFRlbkNTekFaUlRGenNqTXJJZUF5dU9mZnM3Rk51eUtSa3VhanJUcW50VGdSVURYQXo1VzJiQXB3N2FXbkgtZk5HUzZPZ1ZBYzdTdll0X3JSLWltSWxsbUNhYm1XZ1FBdnNTR1BTTDkyOWg0VXZ4bjZvV1dJWkZUYk4xdklya1VoTFB2VjFWWHpvNEQ4N3diRHdFSUtwbi0tTDVqMENBNEp2cElKQzVld0JKY0sySjg4M1ZENXl5MG1HVzlMZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:44:11,714 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:44:11,715 [INFO] Resolved Google News URL: https://www.pv-tech.org/data-centre-operator-airtrunk-secures-exclusivity-on-1gw-hunter-solar-wind-a
+2026-11-12 15:44:11,715 [INFO] URL: https://www.pv-tech.org/data-centre-operator-airtrunk-secures-exclusivity-on-1gw-hunter-solar-wind-and-storage-projects-in-australia/
+2026-11-12 15:44:11,962 [INFO] Full text skipped (status 403): https://www.pv-tech.org/data-centre-operator-airtrunk-secures-exclusivity-on-1gw
+2026-11-12 15:44:11,963 [INFO] Text length: 251 chars | source: fallback
+2026-11-12 15:44:11,963 [INFO] Text preview: Data centre operator AirTrunk secures exclusivity on 1GW Hunter solar, wind and storage projects in Australia - PV Tech
+
+Data centre operator AirTrunk secures exclusivity on 1GW Hunter solar, wind and...
+2026-11-12 15:44:11,963 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:44:25,569 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Data centre operator AirTrunk secures exclusivity on 1GW Hun
+2026-11-12 15:44:25,570 [INFO] LLM extracted 1 deals | Data centre operator AirTrunk secures exclusivity 
+2026-11-12 15:44:25,572 [INFO] Not a signed deal — skipping: Data centre operator AirTrunk secures exclusivity on 1GW Hun
+2026-11-12 15:44:25,572 [INFO] ------- Processing article n. 0: Acwa secures lender support for 2 GW of solar in Turkey - Renewables Now -------
+2026-11-12 15:44:25,634 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxQQWF2NmpYNmtBMTZWb2tXSUhsOGdIa1loeS1WYnczOFNPNTRSU29CWTJrTThIWVNadUM5Y1JZZEpnYmtubEJuZzdPRnVNdXYxREhWdjd2SjZha2RkVjd4YXVYTHdmUFNRRFhMUmNJS1l0X2Zvd0xmbWsxVExoa3R5VUJ2dWZyMHhralBYSjV0T1cwRVRkRGc4YTBaVQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:44:26,743 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:44:26,743 [INFO] Resolved Google News URL: https://renewablesnow.com/news/acwa-secures-lender-support-for-2-gw-of-solar-in-turkey-1304810/
+2026-11-12 15:44:26,743 [INFO] URL: https://renewablesnow.com/news/acwa-secures-lender-support-for-2-gw-of-solar-in-turkey-1304810/
+2026-11-12 15:44:26,846 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/acwa-secures-lender-support-for-2-gw-of-solar-in-
+2026-11-12 15:44:26,846 [INFO] Text length: 157 chars | source: fallback
+2026-11-12 15:44:26,846 [INFO] Text preview: Acwa secures lender support for 2 GW of solar in Turkey - Renewables Now
+
+Acwa secures lender support for 2 GW of solar in Turkey &nbsp;&nbsp; Renewables Now...
+2026-11-12 15:44:26,846 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:44:40,540 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Acwa secures lender support for 2 GW of solar in Turkey - Re
+2026-11-12 15:44:40,540 [INFO] LLM extracted 1 deals | Acwa secures lender support for 2 GW of solar in T
+2026-11-12 15:44:40,542 [INFO] Not a signed deal — skipping: Acwa secures lender support for 2 GW of solar in Turkey - Re
+2026-11-12 15:44:40,543 [INFO] ------- Processing article n. 0: BASF to Shift European Polyisobutene Production to 100% Renewable Power by 2027  -------
+2026-11-12 15:44:40,607 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTXVqOGZMbjUxWFI4M2VYQld5TUh0VFFBdDhrQXNHbHRVUVFyaDNIcjd1bWIzNEJMZU5Nd0xPUGtwbTVKTWx3YVJrQUQxUmUwYWpyaU9hMlU0eE9MUnkxcWJqOEZLYjBIY2VzNU45Sk9xTGpxT01uUm9rVmtoanVELUlFTk9JUlZjeXBGajg3MnBscVp3SkZFd3hvVmxOWTdrLXc5dlh5LXpEUjJLSTdWdTdQdEFyZlgwWmJROVpnQ1c1R09hV3F1TDNRNGNyZWhpRm5R?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:44:41,695 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:44:41,695 [INFO] Resolved Google News URL: https://www.chemanalyst.com/NewsAndDeals/NewsDetails/basf-to-shift-european-polyisobutene-production
+2026-11-12 15:44:41,695 [INFO] URL: https://www.chemanalyst.com/NewsAndDeals/NewsDetails/basf-to-shift-european-polyisobutene-production-to-100-renewable-power-by-2027-45415
+2026-11-12 15:44:41,923 [INFO] Text length: 4349 chars | source: full
+2026-11-12 15:44:41,923 [INFO] Text preview: Welcome To ChemAnalyst
+BASF is accelerating its sustainability drive by announcing plans to transition its eligible European polyisobutene (PIB) production for external customers entirely to renewable...
+2026-11-12 15:44:41,923 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:44:55,687 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: BASF to Shift European Polyisobutene Production to 100% Rene
+2026-11-12 15:44:55,688 [INFO] LLM extracted 1 deals | BASF to Shift European Polyisobutene Production to
+2026-11-12 15:44:55,690 [INFO] Not a signed deal — skipping: BASF to Shift European Polyisobutene Production to 100% Rene
+2026-11-12 15:44:55,690 [INFO] ------- Processing article n. 0: Rezolv taps seven cos to build 1.36 GWp Dama Solar plant in Romania - SeeNews -------
+2026-11-12 15:44:55,757 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiogFBVV95cUxQejVlSHJJR21SNlgyOFVJZURyVzdYSTY5alRWTWZscVFrUE94aVF3V1FzRlNvSmxtWU5BaktTbWlxWDlnRjl1VmZNTFhxSEVDdEFWdDd5Tm9TUlB5LWdpRFU2aWFFeUZ1X282aGl5REJna3JBU1JlOFVUQ1d0dW85X21tU21IT1dULVBnTTQ5MUFyTTN3VG9faUh0QjhsY0FxNVE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:44:56,852 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:44:56,852 [INFO] Resolved Google News URL: https://seenews.com/news/rezolv-taps-seven-cos-to-build-1-36-gwp-dama-solar-plant-in-romania-1304833
+2026-11-12 15:44:56,852 [INFO] URL: https://seenews.com/news/rezolv-taps-seven-cos-to-build-1-36-gwp-dama-solar-plant-in-romania-1304833
+2026-11-12 15:44:56,923 [INFO] Full text skipped (status 403): https://seenews.com/news/rezolv-taps-seven-cos-to-build-1-36-gwp-dama-solar-plan
+2026-11-12 15:44:56,923 [INFO] Text length: 167 chars | source: fallback
+2026-11-12 15:44:56,923 [INFO] Text preview: Rezolv taps seven cos to build 1.36 GWp Dama Solar plant in Romania - SeeNews
+
+Rezolv taps seven cos to build 1.36 GWp Dama Solar plant in Romania &nbsp;&nbsp; SeeNews...
+2026-11-12 15:44:56,923 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:45:10,834 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rezolv taps seven cos to build 1.36 GWp Dama Solar plant in 
+2026-11-12 15:45:10,834 [INFO] LLM extracted 1 deals | Rezolv taps seven cos to build 1.36 GWp Dama Solar
+2026-11-12 15:45:10,846 [INFO] Not a signed deal — skipping: Rezolv taps seven cos to build 1.36 GWp Dama Solar plant in 
+2026-11-12 15:45:10,847 [INFO] ------- Processing article n. 0: Rezolv Energy appoints seven companies to build the EU’s largest onshore renewab -------
+2026-11-12 15:45:10,990 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQlBzaS0wcFc4clN6WkQ0OW14QUVzWXZKRXBySVNpa3pwU2V0b1FkT0N0dEd0UmtsMzVjUGJNYWhaTGRScTVGYnJSZlA2RUp6Qms5aGdpSGx5bVpxQVJrV2VvSjkzT3hzTWJ6S1FFaGdiUkFXX1FyeTRGUVNXR3VHVERnU2M2REdOUnlkSkw2cHlvVklQWjh1N0VZUkRXNkllUjJvN2FnTGpMRUJseWV6UUowT2Q3UjBOMU9kVjUxblBHVmh1dTBtcmctN2pXMnZn?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:45:12,266 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:45:12,266 [INFO] Resolved Google News URL: https://www.thediplomat.ro/2026/11/12/rezolv-energy-appoints-seven-companies-to-build-the-eus-larges
+2026-11-12 15:45:12,267 [INFO] URL: https://www.thediplomat.ro/2026/11/12/rezolv-energy-appoints-seven-companies-to-build-the-eus-largest-onshore-renewable-energy-project/
+2026-11-12 15:45:14,492 [INFO] Text length: 3180 chars | source: full
+2026-11-12 15:45:14,493 [INFO] Text preview: Rezolv Energy has appointed seven companies to build Dama Solar, a 1.36 GWp solar project in Arad County. Once operational, Dama Solar will be the largest onshore renewable energy project in the Europ...
+2026-11-12 15:45:14,493 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:45:25,964 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rezolv Energy appoints seven companies to build the EU’s lar
+2026-11-12 15:45:25,964 [INFO] LLM extracted 1 deals | Rezolv Energy appoints seven companies to build th
+2026-11-12 15:45:25,979 [INFO] UPDATE: Ahold Delhaize / Rezolv Energy (Romania, 1660 MW) — canonical ID: 2062
+2026-11-12 15:45:30,982 [INFO] ------- Processing article n. 1: 【SMM Analysis】 CBAM Green Power Proof Goes Beyond Certificates as Hourly Traceab -------
+2026-11-12 15:45:31,089 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihAJBVV95cUxNYWsyQ2pCNDk0MWJ1OXZ3dDBkS0lOS3lDeTBSX2k5R3gtNnV6NjF5cG03Z0N0RDZOLURsYUd4blZfN2RKVmNXWDJVNTZqZ1ZOQVRYOWRTcWxrUmxjc09YcFU5S3hEd0xGajBZbTRSRnlKUElSWXI3eUw5S19OUlNqQXh2U3Zibk95RmlVUWU4czVKaU53YWpqbzI5NXBFYXFOUTlWYjNSRVJhZnRJMktiWjdyNzFWT3ZZNWpiZFgxMkdPUGt5bGtUUTRHSUxaLUNJdXR3SnNZbndfd1c0eVVucG9CNzFrMzBweDhKOXJQZ2o5SDZmcEk0WjVhcU5SWERLeXRsWQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:45:32,194 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:45:32,195 [INFO] Resolved Google News URL: https://news.metal.com/en/newscontent/YHNF2CXLTRK24UPQXU7KPZNAHAUYKTO3RP6PR3Q-smm-analysis-cbam-gree
+2026-11-12 15:45:32,195 [INFO] URL: https://news.metal.com/en/newscontent/YHNF2CXLTRK24UPQXU7KPZNAHAUYKTO3RP6PR3Q-smm-analysis-cbam-green-power-proof-goes-beyond-certificates-as-hourly-traceability-gains-weight
+2026-11-12 15:45:33,866 [INFO] Text length: 10380 chars | source: full
+2026-11-12 15:45:33,867 [INFO] Text preview: The EU Carbon Border Adjustment Mechanism (CBAM) entered its definitive regime on January 1, 2026. For Chinese exporters, power decarbonisation is no longer only about how much green electricity they ...
+2026-11-12 15:45:33,867 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:45:41,696 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: 【SMM Analysis】 CBAM Green Power Proof Goes Beyond Certificat
+2026-11-12 15:45:41,696 [INFO] LLM extracted 2 deals | 【SMM Analysis】 CBAM Green Power Proof Goes Beyond 
+2026-11-12 15:45:41,699 [INFO] Not a European deal — skipping: Tianjin industrial/offtaker entity / Chinese renewable electricity producer (China, None MW)
+2026-11-12 15:45:41,699 [INFO] Not a European deal — skipping: Xinjiang industrial/offtaker entity / Chinese renewable electricity producer (China, None MW)
+2026-11-12 15:45:41,699 [INFO] ------- Processing article n. 1: DayOne & Sembcorp explore power deals for Asia data centres - IT Brief Asia -------
+2026-11-12 15:45:41,766 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijAFBVV95cUxQZTV5ZkM4c0txYmt0T2JFeG1KSlVKS0xHcjc1aDdiSjRXdkRnNk5UUmg2Ujd6RXhjYmxOajhRWHRfYjVPbkNnaGkyN1B2UENMNnJuZERiQnZHQnc0bWVkSi0yRlMzTFlZY1dfZWl4WEQ5STJaVGUxaGZSLTh6MzVob1JGd3VoWDlSdDNXMw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:45:42,923 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:45:42,924 [INFO] Resolved Google News URL: https://itbrief.asia/story/dayone-sembcorp-explore-power-deals-for-asia-data-centres
+2026-11-12 15:45:42,924 [INFO] URL: https://itbrief.asia/story/dayone-sembcorp-explore-power-deals-for-asia-data-centres
+2026-11-12 15:45:43,918 [INFO] Text length: 4926 chars | source: full
+2026-11-12 15:45:43,918 [INFO] Text preview: DayOne Data Centres and Sembcorp Utilities have signed a memorandum of understanding to explore power and energy solutions for data centre developments in Asia, centred on DayOne's regional expansion....
+2026-11-12 15:45:43,918 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:45:55,442 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: DayOne & Sembcorp explore power deals for Asia data centres 
+2026-11-12 15:45:55,442 [INFO] LLM extracted 1 deals | DayOne & Sembcorp explore power deals for Asia dat
+2026-11-12 15:45:55,444 [INFO] Not a signed deal — skipping: DayOne & Sembcorp explore power deals for Asia data centres 
+2026-11-12 15:45:55,444 [INFO] ------- Processing article n. 1: Rezolv appoints key contractors for 1.36-GWp Dama Solar in Romania - Renewables  -------
+2026-11-12 15:45:55,515 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbDJnZEJNNlZ2Zl9Za3NRSzNJaFo5WGUtaEx1elVsTHpwWUcwWDNLLWl5cktzVzVmOE1DZDh4dkF3TmFjRUVpQVQ5em9HWUtpajdRNTV3TFc4cGw1NF9HUUkxYkZaVE1WR09ZQ2RWTEFUMkhRVzhXYmFoclBCOTlVYkE4RGxoTDl2NUNUSnptMWIzSElPMjIwZ3VPLV9NOWEwSlFYSDMwNzdydw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:45:56,620 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:45:56,620 [INFO] Resolved Google News URL: https://renewablesnow.com/news/rezolv-appoints-key-contractors-for-1-36-gwp-dama-solar-in-romania-13
+2026-11-12 15:45:56,620 [INFO] URL: https://renewablesnow.com/news/rezolv-appoints-key-contractors-for-1-36-gwp-dama-solar-in-romania-1304814/
+2026-11-12 15:45:56,670 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/rezolv-appoints-key-contractors-for-1-36-gwp-dama
+2026-11-12 15:45:56,670 [INFO] Text length: 179 chars | source: fallback
+2026-11-12 15:45:56,670 [INFO] Text preview: Rezolv appoints key contractors for 1.36-GWp Dama Solar in Romania - Renewables Now
+
+Rezolv appoints key contractors for 1.36-GWp Dama Solar in Romania &nbsp;&nbsp; Renewables Now...
+2026-11-12 15:45:56,670 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:46:10,654 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Rezolv appoints key contractors for 1.36-GWp Dama Solar in R
+2026-11-12 15:46:10,654 [INFO] LLM extracted 1 deals | Rezolv appoints key contractors for 1.36-GWp Dama 
+2026-11-12 15:46:10,656 [INFO] Not a signed deal — skipping: Rezolv appoints key contractors for 1.36-GWp Dama Solar in R
+2026-11-12 15:46:10,656 [INFO] ------- Processing article n. 1: Salzgitter urges Berlin, Brussels to tackle high electricity costs - Reuters -------
+2026-11-12 15:46:10,725 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxQNXVPeFhIWVlGS3VQSWpoSTRZZy1Rc0xRdjZfZ3BuUWpQb09lN1JQY1NaMFFscnUwN3RiWGpwRmppOVBmXzJwd2RfaU9iMTRrTlJILUk2aDNfS3lKRzNFMXY4ZVpWd3Btbk5mVEJOWDFsam1KTXlqaU5jWVB3ajhtSmpnUnBselluaFZ0b0hiRFR5aXM3d1Z4ZU52V3c5WEowVWFJd3FUV3FhVWNqRkJKdTVqSjM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:46:11,808 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:46:11,809 [INFO] Resolved Google News URL: https://www.reuters.com/business/energy/salzgitter-urges-berlin-brussels-tackle-high-electricity-cos
+2026-11-12 15:46:11,809 [INFO] URL: https://www.reuters.com/business/energy/salzgitter-urges-berlin-brussels-tackle-high-electricity-costs-2026-11-12/
+2026-11-12 15:46:11,964 [INFO] Full text skipped (status 401): https://www.reuters.com/business/energy/salzgitter-urges-berlin-brussels-tackle-
+2026-11-12 15:46:11,964 [INFO] Text length: 165 chars | source: fallback
+2026-11-12 15:46:11,964 [INFO] Text preview: Salzgitter urges Berlin, Brussels to tackle high electricity costs - Reuters
+
+Salzgitter urges Berlin, Brussels to tackle high electricity costs &nbsp;&nbsp; Reuters...
+2026-11-12 15:46:11,964 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:46:25,535 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Salzgitter urges Berlin, Brussels to tackle high electricity
+2026-11-12 15:46:25,536 [INFO] LLM extracted 1 deals | Salzgitter urges Berlin, Brussels to tackle high e
+2026-11-12 15:46:25,538 [INFO] Not a signed deal — skipping: Salzgitter urges Berlin, Brussels to tackle high electricity
+2026-11-12 15:46:25,538 [INFO] ------- Processing article n. 1: EU and Australia deepen science and innovation ties with Horizon Europe Agreemen -------
+2026-11-12 15:46:25,603 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOXVEV3R2QlpXRkpucC1DdGx0YncySVhpMG9ZOWgtZEpLejg0cmhpbG0yUDFlV19KUXVuc0lBQXg0WC12ckNUUGJGTlhHT3ZHUC1OTE5kTVRzOG9XWWN1TFM3SWVGbXQtdi0tTzIyc0hIYi14VU1fQ2pOVVNaTHplbEI5d3pZbE93Y18wbXlJaVBPakY2dnFtaHNneGpwdG5qTEtua0liWTBNT3NNSGVkYjZqcTNRd2tGZ0s4?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:46:26,762 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:46:26,763 [INFO] Resolved Google News URL: https://europeansting.com/2026/11/12/eu-and-australia-deepen-science-and-innovation-ties-with-horizo
+2026-11-12 15:46:26,763 [INFO] URL: https://europeansting.com/2026/11/12/eu-and-australia-deepen-science-and-innovation-ties-with-horizon-europe-agreement/
+2026-11-12 15:46:26,859 [INFO] Text length: 2646 chars | source: full
+2026-11-12 15:46:26,859 [INFO] Text preview: This article is brought to you in association with the European Commission.
+The European Union and Australia have signed an agreement paving the way for Australian researchers and organisations to joi...
+2026-11-12 15:46:26,859 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:46:40,680 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EU and Australia deepen science and innovation ties with Hor
+2026-11-12 15:46:40,680 [INFO] LLM extracted 1 deals | EU and Australia deepen science and innovation tie
+2026-11-12 15:46:40,683 [INFO] Not a signed deal — skipping: EU and Australia deepen science and innovation ties with Hor
+2026-11-12 15:46:40,683 [INFO] ------- Processing article n. 1: Energy prices: Futures markets ease – winter risks remain - ASSETPHYSICS -------
+2026-11-12 15:46:40,748 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxQVXFWZ3J4VzZhV0R4R09QVWd5ZnYyU2FGOWN5bThWcWwyUU44dlZnU2FXR3VDTXlmbzJzZjdkUi11REt5S2RvaUpmZ2ZCWFJtNVFOc25MRFVkekYwMG80d0M5XzdGZjF0RnBXSENNZUJ2eVduMTNOV1plWlhzRXBNWU9rRE9UQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:46:41,869 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:46:41,870 [INFO] Resolved Google News URL: https://assetphysics.com/energy-prices-futures-markets-ease-winter-risks-remain
+2026-11-12 15:46:41,870 [INFO] URL: https://assetphysics.com/energy-prices-futures-markets-ease-winter-risks-remain
+2026-11-12 15:46:42,383 [INFO] Text length: 3335 chars | source: full
+2026-11-12 15:46:42,383 [INFO] Text preview: The European electricity and gas markets saw significant price rises in October, particularly for the 2027 delivery year. At the beginning of November, forward prices retreated slightly from these gai...
+2026-11-12 15:46:42,384 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:46:55,402 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Energy prices: Futures markets ease – winter risks remain - 
+2026-11-12 15:46:55,403 [INFO] LLM extracted 1 deals | Energy prices: Futures markets ease – winter risks
+2026-11-12 15:46:55,406 [INFO] Not a signed deal — skipping: Energy prices: Futures markets ease – winter risks remain - 
+2026-11-12 15:46:55,406 [INFO] ------- Processing article n. 1: Diversified portfolios, rather than hybrid projects, offer promise for European  -------
+2026-11-12 15:46:55,473 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVkpXZ3ZGUVl6bTM4dm5ZOE40UnF4NWE2SXFrUmhBa05SaHV1TUktQmN0c2daN3VEQU96TU9VZVdVS21JWlNuM0lIV0xVVzVjZm9wbE1uVFpFcVJCYmU1bHJ1MjlVMUxJY0ZXTUxSa2dmaXlCc2YxbTBKOThxcjRMRzJVM3FRVE85b0hoOWRYSkhaRWlvWXg0YzJZU2RhaTV3UlkxUkgtUFY?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:46:56,570 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:46:56,570 [INFO] Resolved Google News URL: https://www.pv-tech.org/diversified-portfolios-hybrid-projects-promise-european-renewable-energy-tra
+2026-11-12 15:46:56,570 [INFO] URL: https://www.pv-tech.org/diversified-portfolios-hybrid-projects-promise-european-renewable-energy-traders/
+2026-11-12 15:46:56,637 [INFO] Full text skipped (status 403): https://www.pv-tech.org/diversified-portfolios-hybrid-projects-promise-european-
+2026-11-12 15:46:56,637 [INFO] Text length: 251 chars | source: fallback
+2026-11-12 15:46:56,638 [INFO] Text preview: Diversified portfolios, rather than hybrid projects, offer promise for European renewables traders - Pexapark - PV Tech
+
+Diversified portfolios, rather than hybrid projects, offer promise for European...
+2026-11-12 15:46:56,638 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:47:10,494 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Diversified portfolios, rather than hybrid projects, offer p
+2026-11-12 15:47:10,495 [INFO] LLM extracted 1 deals | Diversified portfolios, rather than hybrid project
+2026-11-12 15:47:10,496 [INFO] Not a signed deal — skipping: Diversified portfolios, rather than hybrid projects, offer p
+2026-11-12 15:47:10,497 [INFO] ------- Processing article n. 1: Eight International Lenders Back ACWA’s €1.6 Billion 2 GW Solar Projects In Türk -------
+2026-11-12 15:47:10,562 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc2drTmZMZVU0QlpxNHpqU2hKenA0bXVEd1czdm5BUzZKZHFNempQcHB2Zy0wYU9XSzRzWl9uVUR2cjdTWDdBU2p6Z2xiWkhHRmE4elg4Y0xyLV9xQ01CZDFsaGlnVVN2T0J5YVJTTk5YOTJXblBRNXpfWkRoTUNCU2VoU2RmYmIxSURDVjRfVk9kU19FVnhUY0VIdHNRWW9kU2JURlBVWjdDb3hwa0Z1RTN4Y2pkZmo3cllN?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:47:11,659 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:47:11,659 [INFO] Resolved Google News URL: https://solarquarter.com/2026/11/12/eight-international-lenders-back-acwas-e1-6-billion-2-gw-solar-p
+2026-11-12 15:47:11,659 [INFO] URL: https://solarquarter.com/2026/11/12/eight-international-lenders-back-acwas-e1-6-billion-2-gw-solar-projects-in-turkiye/
+2026-11-12 15:47:11,807 [INFO] Text length: 3235 chars | source: full
+2026-11-12 15:47:11,807 [INFO] Text preview: Saudi Arabia-based renewable energy developer Acwa has secured support from eight international development and commercial lenders for financing its 2 GW Sivas and Taşeli solar photovoltaic (PV) proje...
+2026-11-12 15:47:11,807 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:47:26,036 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Eight International Lenders Back ACWA’s €1.6 Billion 2 GW So
+2026-11-12 15:47:26,036 [INFO] LLM extracted 2 deals | Eight International Lenders Back ACWA’s €1.6 Billi
+2026-11-12 15:47:26,039 [INFO] Not a European deal — skipping: Elektrik Üretim Anonim Şirketi (EÜAŞ) / Acwa (Turkey, 1000 MW)
+2026-11-12 15:47:26,039 [INFO] Not a European deal — skipping: Elektrik Üretim Anonim Şirketi (EÜAŞ) / Acwa (Turkey, 1000 MW)
+2026-11-12 15:47:26,039 [INFO] ------- Processing article n. 1: Mutares advances growth and portfolio transformation in the first nine months of -------
+2026-11-12 15:47:26,104 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgJBVV95cUxOR1ZNMWtHTkJkTHRPaEdubjk5bzNfaGR4Y1JqeENFZnVhN0ZydHA1aUo3TTl6OHBLSFhFU0owblpWQ3lJcHNxdjUxNVRndzdDZ2RyajdfN2Q4eV9iRm5HWHhNV0NqRjNWa2NldWZLby1SMU43c3NSQnpXcmd6MGhIVlVBVGMzUEVoSkhzVWpWS1l4eWtIT2hpMWVjUThQb2RkR3VCWDZvWTBpbmRKOWRwUm9lRExfNTlVVU8xOVVMWm5YemxMV3ZKSXNJNk5MR3lNVU95LTRfaFVreUNpZ2I2TW1oYmhocE5nS0Z6SEFiYUVZSGxxS0djMHJWMDRBMXdRbngtYnl4MlJVbTZTQ2k4ejNUNXB2UWRFMFlrSXVfZUpXVzR4SWVnS3liTHp3QUNMRHVfVDZ4VGRyVmppb0d2SVBWOXdlUQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:47:27,207 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:47:27,208 [INFO] Resolved Google News URL: https://www.tradingview.com/news/eqs:f0486abe3094b:0-mutares-advances-growth-and-portfolio-transform
+2026-11-12 15:47:27,208 [INFO] URL: https://www.tradingview.com/news/eqs:f0486abe3094b:0-mutares-advances-growth-and-portfolio-transformation-in-the-first-nine-months-of-2026-record-acquisition-dynamic-exit-activity-with-strong-outlook-and-guidance-confirmed/
+2026-11-12 15:47:27,414 [INFO] Text length: 25014 chars | source: full
+2026-11-12 15:47:27,414 [INFO] Text preview: Mutares advances growth and portfolio transformation in the first nine months of 2026: record acquisition, dynamic exit activity with strong outlook and guidance confirmed
+Mutares SE & Co. KGaA/ Key w...
+2026-11-12 15:47:27,414 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:47:40,709 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Mutares advances growth and portfolio transformation in the 
+2026-11-12 15:47:40,710 [INFO] LLM extracted 1 deals | Mutares advances growth and portfolio transformati
+2026-11-12 15:47:40,712 [INFO] Not a signed deal — skipping: Mutares advances growth and portfolio transformation in the 
+2026-11-12 15:47:40,712 [INFO] ------- Processing article n. 1: Indonesia, Norway sign first carbon credit deal under Paris Agreement - tanahair -------
+2026-11-12 15:47:40,772 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAFBVV95cUxQUW96am9DUEV5ZU5aY3MxNXlYYVIydTl1YmhWXzZCSV9Xd3EybWZ2UUVEMzFac2V4OTN1QkZxYTdRdmFHaGRqN2NtTTVoSF9sWWFWZEszam5BQk1zNUx4eXkxWUhQc0RBdHF3QTVGMG9DZVFNbU82ZTdWTm1sTFJ6RDZySWszX0FvamdrY0tmazNpSjBi?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:47:41,861 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:47:41,861 [INFO] Resolved Google News URL: https://tanahair.net/indonesia-norway-sign-first-carbon-credit-deal-under-paris-agreement/
+2026-11-12 15:47:41,862 [INFO] URL: https://tanahair.net/indonesia-norway-sign-first-carbon-credit-deal-under-paris-agreement/
+2026-11-12 15:47:43,998 [INFO] Text length: 2153 chars | source: full
+2026-11-12 15:47:43,998 [INFO] Text preview: Indonesia and Norway have signed Indonesia’s first Mitigation Outcome Purchase Agreement (MOPA) under Article 6.2 of the Paris Agreement, paving the way for up to 12 million tonnes of carbon credits f...
+2026-11-12 15:47:43,998 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:47:56,132 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Indonesia, Norway sign first carbon credit deal under Paris 
+2026-11-12 15:47:56,133 [INFO] LLM extracted 1 deals | Indonesia, Norway sign first carbon credit deal un
+2026-11-12 15:47:56,135 [INFO] Not a signed deal — skipping: Indonesia, Norway sign first carbon credit deal under Paris 
+2026-11-12 15:47:56,135 [INFO] ------- Processing article n. 1: China enters $15bn pact to build wind and solar farms in Turkey - Recharge News -------
+2026-11-12 15:47:56,197 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPLU5ELXVweHd4OXU2M29VWVVnaS1acFN0Q1pNbnlRdGRwRlhnU2tsT1lxWE9sZ3NodFAzcE12TEpTSHV4Nk13QmJWam1RdXNkdGpGeGdFQVBhY29NOVZWWXc0TkYyajJrckIwZVlPRHZyTlhNcG52X1lPb0pXb3d1ZHJ1cE5NOGJwS1ZhLWVwN284VDJndkhVTTZ0OWZuUkNrMVV1Uzk5cnRGLWZfeGJJWQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:47:57,278 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:47:57,278 [INFO] Resolved Google News URL: https://www.rechargenews.com/finance/china-enters-15bn-pact-to-build-wind-and-solar-farms-in-turkey/
+2026-11-12 15:47:57,279 [INFO] URL: https://www.rechargenews.com/finance/china-enters-15bn-pact-to-build-wind-and-solar-farms-in-turkey/2-1-2073236
+2026-11-12 15:47:58,040 [INFO] Text length: 213 chars | source: full
+2026-11-12 15:47:58,040 [INFO] Text preview: China enters $15bn pact to build wind and solar farms in Turkey
+Turkey also signed financing agreements to boost renewable energy capacity with Saudi Arabia and the European Bank for Reconstruction an...
+2026-11-12 15:47:58,040 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:48:10,594 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: China enters $15bn pact to build wind and solar farms in Tur
+2026-11-12 15:48:10,595 [INFO] LLM extracted 1 deals | China enters $15bn pact to build wind and solar fa
+2026-11-12 15:48:10,597 [INFO] Not a signed deal — skipping: China enters $15bn pact to build wind and solar farms in Tur
+2026-11-12 15:48:10,597 [INFO] ------- Processing article n. 1: Will community lawsuits defy Europe’s AI build-out? - ENDS Europe -------
+2026-11-12 15:48:10,688 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkRSOXJHZ2lRNXI2LVRFdjF2UjN6UmV6LWt5d2FLRDRaZjlfT3VSa1cwaUt4bzlKYzFPY1VscE9aZ2NIOGVtdmpYT2kzMm9RdEY2cEw2MURPdVg0VV9KU1lSWXVyUDNwQjBNLVB3WkdEc0ZsOHI0VUhQRURzT2ZoOGh6UFlSWVhJN3dFY2haVlVobnNpam9J?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:48:11,787 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:48:11,788 [INFO] Resolved Google News URL: https://www.endseurope.com/article/1974429/will-community-lawsuits-defy-europes-ai-build-out
+2026-11-12 15:48:11,788 [INFO] URL: https://www.endseurope.com/article/1974429/will-community-lawsuits-defy-europes-ai-build-out
+2026-11-12 15:48:12,764 [WARNING] discarding data: https://www.endseurope.com/article/1974429/will-community-lawsuits-defy-europes-ai-build-out
+2026-11-12 15:48:12,764 [INFO] Full text extraction empty: https://www.endseurope.com/article/1974429/will-community-lawsuits-defy-europes-
+2026-11-12 15:48:12,765 [INFO] Text length: 143 chars | source: fallback
+2026-11-12 15:48:12,765 [INFO] Text preview: Will community lawsuits defy Europe’s AI build-out? - ENDS Europe
+
+Will community lawsuits defy Europe’s AI build-out? &nbsp;&nbsp; ENDS Europe...
+2026-11-12 15:48:12,765 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:48:26,139 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Will community lawsuits defy Europe’s AI build-out? - ENDS E
+2026-11-12 15:48:26,139 [INFO] LLM extracted 1 deals | Will community lawsuits defy Europe’s AI build-out
+2026-11-12 15:48:26,141 [INFO] Not a signed deal — skipping: Will community lawsuits defy Europe’s AI build-out? - ENDS E
+2026-11-12 15:48:26,141 [INFO] ------- Processing article n. 1: Türkiye, Canada sign deal to assess CANDU reactor technology for new nuclear pow -------
+2026-11-12 15:48:26,208 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxNdUdLM09qXzZ6aFhNYjRTQVJ5X0hBbVctMm9RRTFOM3VscWF3OG5DemZCc2pJMVROcXBpX2xXd2lTeVNTM2hITTRJSTJ0ZzFxZDMtNm4zME9wMUFSeUpzZV9PVnVjdUM0cWF0WFBzOVBhalFSczI3b21haFBFMWVfQ2cxMzJWNU9HTWtMbkZYYVJzaml1alFFSF9NWWpaRVdTNGdYeTB3WTUybXJpd1ExbjZ4cl9fdGUwWk5scExRN1V2eXlqV2lhMDlMLVhuUdIB1gFBVV95cUxNOHFBdGw2UjRET0VqbHlUOGZhM2hKeFFlS2xRbWRkYlYzYk9YdXRjMmQ5dmJqZlQzeHB2cV9VbW9BSWQ3RjhyaVU3cUx0SnpLbEowOVZkRzE4TGk1QmczMnhUNFI5UHozQjR6eDR2UFdCeks1eHlycFNtemFneFI0cW56Ri1FbjgtQ1p5ZWdkVE9ZR296X2FKQ2dwbnhkY1k5ZUJodGJDbkxFVEpfbkxDR25mNDRteVNfUk1DWDFLd1hiRmlWcjVJLTM4a3pBMnZiQ3JUOTB3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:48:27,327 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:48:27,328 [INFO] Resolved Google News URL: https://www.aa.com.tr/en/energy/nuclear/turkiye-canada-sign-deal-to-assess-candu-reactor-technology-
+2026-11-12 15:48:27,328 [INFO] URL: https://www.aa.com.tr/en/energy/nuclear/turkiye-canada-sign-deal-to-assess-candu-reactor-technology-for-new-nuclear-power-plant/60951
+2026-11-12 15:48:30,082 [INFO] Text length: 1898 chars | source: full
+2026-11-12 15:48:30,082 [INFO] Text preview: Türkiye Nuclear Energy Company (TUNAS) signed an agreement with Canada's AtkinsRealis to assess CANDU reactor technology for a potential new nuclear power plant in Türkiye, according to a press releas...
+2026-11-12 15:48:30,082 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:48:40,495 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Türkiye, Canada sign deal to assess CANDU reactor technology
+2026-11-12 15:48:40,495 [INFO] LLM extracted 1 deals | Türkiye, Canada sign deal to assess CANDU reactor 
+2026-11-12 15:48:40,497 [INFO] Not a signed deal — skipping: Türkiye, Canada sign deal to assess CANDU reactor technology
+2026-11-12 15:48:40,497 [INFO] ------- Processing article n. 1: Divergence Under Offtake Gap: A Comparison of Green Hydrogen Absorption Pathways -------
+2026-11-12 15:48:40,583 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMigwJBVV95cUxOUVRQV3NYaXdjVGZmS1A2eFR5WDRsVFQ0ZHdUdUtodEQ2cFlaODVVeUg5MUJVU0ViTFAtSkpFUC1XZzc3M3BYSEdVMU9ZWXlsVnB3LVVlSHJyNEt6Q0x4enBfbUFqUmgwTnNYaTFzdmFkd1ZvQXB3TGtRcHNwRVV0X0ZHNUhqNHdiVEdrSEFOUHVfaDJGU21ReTVQYXVLcnNISVdrT09PS3RzTDZydE91RE9aQjJRd29YU1A3YTFfLW8wZ0FuSW1rVmZtdEpqcm05QTZfSzFNTktpSGVDRjVtSEl0ckdsNVJYS1M4TG5USXRvV0JMVjZ1VTc0UWI3VGFUc3Rj?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:48:41,703 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:48:41,704 [INFO] Resolved Google News URL: https://news.metal.com/newscontent/RCQHVEOBRFPXMFARJMT7W4AUZNSPVL7ZSN6XFDQ-divergence-under-offtake-
+2026-11-12 15:48:41,704 [INFO] URL: https://news.metal.com/newscontent/RCQHVEOBRFPXMFARJMT7W4AUZNSPVL7ZSN6XFDQ-divergence-under-offtake-gap-a-comparison-of-green-hydrogen-absorption-pathways-at-home-and-abroad
+2026-11-12 15:48:43,302 [INFO] Text length: 14065 chars | source: full
+2026-11-12 15:48:43,302 [INFO] Text preview: Most green hydrogen research focuses on hydrogen production capacity and electrolyzer shipment volumes, yet end-use absorption is the core determinant of whether a project can achieve commercial viabi...
+2026-11-12 15:48:43,302 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:48:55,593 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Divergence Under Offtake Gap: A Comparison of Green Hydrogen
+2026-11-12 15:48:55,594 [INFO] LLM extracted 1 deals | Divergence Under Offtake Gap: A Comparison of Gree
+2026-11-12 15:48:55,596 [INFO] Not a signed deal — skipping: Divergence Under Offtake Gap: A Comparison of Green Hydrogen
+2026-11-12 15:48:55,596 [INFO] ------- Processing article n. 1: Seventeen years on, Ethiopia’s private geothermal push is still stuck, and the m -------
+2026-11-12 15:48:55,668 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMGdQMnhBd0FPbnIzR1k5YUlBLVFhNDY0ZF9XTkZ5SEVicmJrMUd0V0ltYlhBNkJDandJVnZzbHpzeFZTb1lHSkdjTHVjYUJCOWxKbVFCM0NERVVIWGxZeXh6SHJ6ZXFQR0hNSTRQVHV2WTRZUkxteHBOeVJ1emo4M1VuWHVFc05OQzQ0RWJ6M2ZXSy0yWTJBY2oyYkwzYy12TGptT0wwLU1LQ0ZRckxQUHhPZ09kbUdpMUU2U2l2RlUyQnBsRlRUV2IyVDgxSzAyVWQ3cmREcm0tMnBNYmV6UjhHNVVMZGJPNHc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:48:56,763 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:48:56,763 [INFO] Resolved Google News URL: https://ethiopianbusinessreview.net/seventeen-years-on-ethiopias-private-geothermal-push-is-still-st
+2026-11-12 15:48:56,764 [INFO] URL: https://ethiopianbusinessreview.net/seventeen-years-on-ethiopias-private-geothermal-push-is-still-stuck-and-the-market-design-is-partly-to-blame-iea-says/
+2026-11-12 15:48:57,184 [INFO] Text length: 6106 chars | source: full
+2026-11-12 15:48:57,184 [INFO] Text preview: Betegbar Yaregal
+#EBR_News Nov 12, 2026
+Ethiopia’s flagship private geothermal project is moving again, but the country still has just one operating geothermal plant and no private project producing p...
+2026-11-12 15:48:57,184 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:49:11,596 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Seventeen years on, Ethiopia’s private geothermal push is st
+2026-11-12 15:49:11,597 [INFO] LLM extracted 2 deals | Seventeen years on, Ethiopia’s private geothermal 
+2026-11-12 15:49:11,599 [INFO] Not a European deal — skipping: Ethiopian Electric Power (EEP) / Corbetti HoldCo Limited (Ethiopia, None MW)
+2026-11-12 15:49:11,599 [INFO] Not a European deal — skipping: Ethiopian Electric Power (EEP) / Tulu Moye project developer (Ethiopia, None MW)
+2026-11-12 15:49:11,599 [INFO] ------- Processing article n. 1: Türkiye CANDU reactor deal for potential nuclear plant | America News - Yeni Saf -------
+2026-11-12 15:49:11,749 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGk0aDZVcnZzajlhRlRFbS10TEI0Q2ZURWx5cVdSLWMtUjBZV1J1WDNCZE5XdTNmV2R1dTdsZ2FLYTBYd2NBRFkzdVBna3hpQW50WndHQ2ZmbWl1YUhUdUhtVnFvdlJoZnFIWVVxaXNENFhzOUUyamF1Vkw4ZEFmTnJUeDNyd0g4Zll6b19pajR3THRfLVE5bQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:49:12,886 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:49:12,886 [INFO] Resolved Google News URL: https://en.yenisafak.com/world/turkiye-candu-reactor-deal-for-potential-nuclear-plant-3725500
+2026-11-12 15:49:12,886 [INFO] URL: https://en.yenisafak.com/world/turkiye-candu-reactor-deal-for-potential-nuclear-plant-3725500
+2026-11-12 15:49:14,005 [INFO] Text length: 2172 chars | source: full
+2026-11-12 15:49:14,006 [INFO] Text preview: Agreement signed at COP31
+TÃ¼rkiye Nuclear Energy Company (TUNAS) on Nov. 12, 2026, signed with Canada's AtkinsRealis an agreement to assess CANDU reactor technology for a potential new nuclear power ...
+2026-11-12 15:49:14,006 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:49:25,698 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Türkiye CANDU reactor deal for potential nuclear plant | Ame
+2026-11-12 15:49:25,699 [INFO] LLM extracted 1 deals | Türkiye CANDU reactor deal for potential nuclear p
+2026-11-12 15:49:25,701 [INFO] Not a signed deal — skipping: Türkiye CANDU reactor deal for potential nuclear plant | Ame
+2026-11-12 15:49:25,701 [INFO] ------- Processing article n. 1: $1.5bn Hunter Renewable Energy Project: AirTrunk Advances 1GW Clean Power Constr -------
+2026-11-12 15:49:25,772 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT0tibjRVRmttbzl3dFpPU0cyZjlJWDdoLW56azdqakJURUVDTzNyd3B1WnNaTVFVZEgzWDZYNHk5WkhicVpaMTl2OU5EeXB2VkRzY3M1dDR1NUJPTm9CNnA5azlseGZBV3BMa21BTFZ6cVdsc1otWjVBVzhFTkhyLWFrekZMRmR2US0tYWRoM1A3RzkzUlYwdzhpUmZfSndiNDRXa0ZrUi15dERQdEo1Q04yNnBJd2ZNMHNiaTF3M0s1RFV4WnhKRA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:49:26,870 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:49:26,871 [INFO] Resolved Google News URL: https://constructionreviewonline.com/1-5bn-hunter-renewable-energy-project-airtrunk-advances-1gw-cle
+2026-11-12 15:49:26,871 [INFO] URL: https://constructionreviewonline.com/1-5bn-hunter-renewable-energy-project-airtrunk-advances-1gw-clean-power-construction-in-nsw/
+2026-11-12 15:49:26,992 [INFO] Text length: 8272 chars | source: full
+2026-11-12 15:49:26,992 [INFO] Text preview: The Hunter renewable energy project could deliver more than 1GW of new generation and storage capacity in New South Wales, Australia. The proposed development represents a major clean-energy investmen...
+2026-11-12 15:49:26,992 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:49:40,668 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: $1.5bn Hunter Renewable Energy Project: AirTrunk Advances 1G
+2026-11-12 15:49:40,668 [INFO] LLM extracted 1 deals | $1.5bn Hunter Renewable Energy Project: AirTrunk A
+2026-11-12 15:49:40,671 [INFO] Not a signed deal — skipping: $1.5bn Hunter Renewable Energy Project: AirTrunk Advances 1G
+2026-11-12 15:49:40,671 [INFO] ------- Processing article n. 1: Astronergy to Supply Modules for 1.36 GWp Dama Solar Project - Securities.io -------
+2026-11-12 15:49:40,740 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMikAFBVV95cUxPYW1GYnlOMkdjUldPRzU3N3A5NWxORllGYUNicmFnMHkzSlEwdFNvZ1lJUk1VRkN0MVBReGRwZVhwWU9qOHUxRkM4c1ljRjNrenB1d0NEdnhJZnctbHNJYnhaN0JGTG5lVk0tbkxONklMSk0zUUh0VmtBbzU4VHlVVTBIcW5ZNUt2RklyWWE3MWM?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:49:41,870 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:49:41,870 [INFO] Resolved Google News URL: https://www.securities.io/astronergy-to-supply-modules-for-1-36-gwp-dama-solar-project/
+2026-11-12 15:49:41,870 [INFO] URL: https://www.securities.io/astronergy-to-supply-modules-for-1-36-gwp-dama-solar-project/
+2026-11-12 15:49:42,242 [INFO] Text length: 3322 chars | source: full
+2026-11-12 15:49:42,243 [INFO] Text preview: Astronergy announced on November 12, 2026 that it is supplying its flagship ASTRO N7 Pro photovoltaic modules for Rezolv Energy’s 1.36 GWp Dama Solar project in western Romania. CHINT Green Energy is ...
+2026-11-12 15:49:42,243 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:49:56,009 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Astronergy to Supply Modules for 1.36 GWp Dama Solar Project
+2026-11-12 15:49:56,009 [INFO] LLM extracted 1 deals | Astronergy to Supply Modules for 1.36 GWp Dama Sol
+2026-11-12 15:49:56,012 [INFO] Not a signed deal — skipping: Astronergy to Supply Modules for 1.36 GWp Dama Solar Project
+2026-11-12 15:49:56,012 [INFO] ------- Processing article n. 1: Disappointment after Germany’s first capacity auctions – what’s next? - Montel N -------
+2026-11-12 15:49:56,081 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxNdkJfeVppblJ5Nkp0bzVjejRMSy0wUTk1aUJ3ZjhBX25FOHgwRmZnTjY2U1lHbHlEOVlTaU5rVnR4ME4yQUd2cHpyeG43bWR4MHY5WFI2UHVIeWdaaGtxNlJ2cFVJOXZ3Z1l3MWRWZXF1aWlrU3VFcWk2d0NTZDlVQWswOU9PWm1MdDZBbzNB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:49:57,197 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:49:57,198 [INFO] Resolved Google News URL: https://montelnews.com/nordic/videos/92593299/montel-news-energy-insights?v=134059358
+2026-11-12 15:49:57,198 [INFO] URL: https://montelnews.com/nordic/videos/92593299/montel-news-energy-insights?v=134059358
+2026-11-12 15:49:58,020 [INFO] Text length: 801 chars | source: full
+2026-11-12 15:49:58,020 [INFO] Text preview: Disappointment after Germany’s first capacity auctions – what’s next?
+On Tuesday night, the German regulator BNA published details of the final long‑term capacity auction, scheduled for December — and...
+2026-11-12 15:49:58,020 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:50:10,508 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Disappointment after Germany’s first capacity auctions – wha
+2026-11-12 15:50:10,508 [INFO] LLM extracted 1 deals | Disappointment after Germany’s first capacity auct
+2026-11-12 15:50:10,510 [INFO] Not a signed deal — skipping: Disappointment after Germany’s first capacity auctions – wha
+2026-11-12 15:50:10,511 [INFO] ------- Processing article n. 1: Aeolus enters 900-MW wind power IPP project in Egypt - Renewables Now -------
+2026-11-12 15:50:10,592 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxNekJzVDMzWDV1eTlQZ3RjMVAwUmx6R3NpTDJxNEppSWxmSlNfV2dkV1Zjb1JwSndpTGxwdUFpaFBzV0pjaVN5T3YyZEJqUG9EU0xOVUxXY0JydEw4aUhzc25VcUJFX0d0S0duOHBBeHgyTzRnZmZlczIxZEdpcnU5YXVVdXN2SWlCRTV4MHdEYk1sTjNjQTcw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:50:11,715 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:50:11,715 [INFO] Resolved Google News URL: https://renewablesnow.com/news/aeolus-enters-900-mw-wind-power-ipp-project-in-egypt-1304830/
+2026-11-12 15:50:11,715 [INFO] URL: https://renewablesnow.com/news/aeolus-enters-900-mw-wind-power-ipp-project-in-egypt-1304830/
+2026-11-12 15:50:11,897 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/aeolus-enters-900-mw-wind-power-ipp-project-in-eg
+2026-11-12 15:50:11,897 [INFO] Text length: 151 chars | source: fallback
+2026-11-12 15:50:11,897 [INFO] Text preview: Aeolus enters 900-MW wind power IPP project in Egypt - Renewables Now
+
+Aeolus enters 900-MW wind power IPP project in Egypt &nbsp;&nbsp; Renewables Now...
+2026-11-12 15:50:11,897 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:50:25,421 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Aeolus enters 900-MW wind power IPP project in Egypt - Renew
+2026-11-12 15:50:25,421 [INFO] LLM extracted 1 deals | Aeolus enters 900-MW wind power IPP project in Egy
+2026-11-12 15:50:25,424 [INFO] Not a signed deal — skipping: Aeolus enters 900-MW wind power IPP project in Egypt - Renew
+2026-11-12 15:50:25,424 [INFO] ------- Processing article n. 1: Japan's Eurus starts up 13.5-MW wind park in South Korea - Renewables Now -------
+2026-11-12 15:50:25,499 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxQVEJESi1MMDZpRHdLVVhDRkZQaUtBcU1tTERic01Gb2xxVlZFZDdvN05kWWJQbzM2VXZveThOZFZTSEU3Zy1RaUkweTVOWmJWd19Wd2R5NjRZZkxxX3U3dmV4ODFxbzM3TEJrZWUxWUJhUDFuc0FOS09XMUtlTENiODhfNTBLNlNZR3g5TU82ZWVtZ1NfZmI2WlNETQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:50:26,637 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:50:26,638 [INFO] Resolved Google News URL: https://renewablesnow.com/news/japans-eurus-starts-up-13-5-mw-wind-park-in-south-korea-1304822/
+2026-11-12 15:50:26,638 [INFO] URL: https://renewablesnow.com/news/japans-eurus-starts-up-13-5-mw-wind-park-in-south-korea-1304822/
+2026-11-12 15:50:26,698 [INFO] Full text skipped (status 403): https://renewablesnow.com/news/japans-eurus-starts-up-13-5-mw-wind-park-in-south
+2026-11-12 15:50:26,698 [INFO] Text length: 159 chars | source: fallback
+2026-11-12 15:50:26,698 [INFO] Text preview: Japan's Eurus starts up 13.5-MW wind park in South Korea - Renewables Now
+
+Japan's Eurus starts up 13.5-MW wind park in South Korea &nbsp;&nbsp; Renewables Now...
+2026-11-12 15:50:26,698 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:50:40,606 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Japan's Eurus starts up 13.5-MW wind park in South Korea - R
+2026-11-12 15:50:40,607 [INFO] LLM extracted 1 deals | Japan's Eurus starts up 13.5-MW wind park in South
+2026-11-12 15:50:40,609 [INFO] Not a signed deal — skipping: Japan's Eurus starts up 13.5-MW wind park in South Korea - R
+2026-11-12 15:50:40,609 [INFO] ------- Processing article n. 1: Ab dem 11. November 2026 wird der Preis für Strom aus Batteriespeichersystemen 3 -------
+2026-11-12 15:50:40,686 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxQYWxEaDRybXdWcFRKYVhBN2ZCVkdvV2I2SktUeFVfc0oxYU1acWNtUV9BVnhHMEtMYURIdjNHR1ZBOW16SGhjNzZqQjV4SWprRG1KemliYzdoQS1ja0xKMXJRQVdac0FRRVlJOTlaRVNmUTBiaWxGMC0xSnhTVHlHN1E2SE1MUUFTS0VrSkZpWUVUdGtpM3oyRGVwT1phQVBWSnBVSUc4N1FUMFoyLUE?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:50:41,810 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:50:41,811 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/tu-11-11-2026-gia-phat-dien-tu-he-thong-pin-luu-tru-nang-luong-la-3-209-98
+2026-11-12 15:50:41,811 [INFO] URL: https://www.vietnam.vn/de/tu-11-11-2026-gia-phat-dien-tu-he-thong-pin-luu-tru-nang-luong-la-3-209-98-dong-kwh
+2026-11-12 15:50:42,376 [INFO] Text length: 1930 chars | source: full
+2026-11-12 15:50:42,376 [INFO] Text preview: Der Minister für Industrie und Handel hat soeben den Beschluss Nr. 2987 unterzeichnet, mit dem der Preisrahmen für die Stromerzeugung aus Energiespeicherbatteriesystemen im Jahr 2026 genehmigt wird. D...
+2026-11-12 15:50:42,376 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:50:55,972 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ab dem 11. November 2026 wird der Preis für Strom aus Batter
+2026-11-12 15:50:55,973 [INFO] LLM extracted 1 deals | Ab dem 11. November 2026 wird der Preis für Strom 
+2026-11-12 15:50:55,975 [INFO] Not a signed deal — skipping: Ab dem 11. November 2026 wird der Preis für Strom aus Batter
+2026-11-12 15:50:55,975 [INFO] ------- Processing article n. 1: L’éolien gagne du terrain dans la stratégie égyptienne de diversification énergé -------
+2026-11-12 15:50:56,043 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdG1XcjZmMC1VeWRZa2c4QkNjSnJiT05oVVd4UXpFUFozdVRJUkZlWnlkeGo1TnJIT3VKaXFyOHMyc0UzN3Vtck5XWWZ3QUtuRkFHNndzSFhVMUZSQ1puYVozSEU0U1h3cm16cjBKWmotcVVaSld5elRleU1DWmVXc2VaZnFvZEppMWlNaG8yU19xdHN3NHZXV2R3ejJQUEVPMVU5VHdvNjRjeEszVUk5SWFGRHluQWRTcDdHdm1wbThKbUhQVmFWeTlkajR6NGkyMXpTZWVXckxfakVWMThfamJ3?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:50:57,151 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:50:57,152 [INFO] Resolved Google News URL: https://www.agenceecofin.com/actualites-industries/1211-143374-l-eolien-gagne-du-terrain-dans-la-str
+2026-11-12 15:50:57,152 [INFO] URL: https://www.agenceecofin.com/actualites-industries/1211-143374-l-eolien-gagne-du-terrain-dans-la-strategie-egyptienne-de-diversification-energetique
+2026-11-12 15:50:58,168 [INFO] Text length: 4830 chars | source: full
+2026-11-12 15:50:58,168 [INFO] Text preview: (Agence Ecofin) - Face aux difficultés d’approvisionnement en gaz et à la volatilité des prix des combustibles, l’Égypte accélère le développement des énergies renouvelables pour diversifier son mix é...
+2026-11-12 15:50:58,168 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:51:11,349 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: L’éolien gagne du terrain dans la stratégie égyptienne de di
+2026-11-12 15:51:11,349 [INFO] LLM extracted 2 deals | L’éolien gagne du terrain dans la stratégie égypti
+2026-11-12 15:51:11,351 [INFO] Not a European deal — skipping: Egyptian Electricity Transmission Company (EETC) / Alcazar Energy Partners (developer) (Egypt, 500 MW)
+2026-11-12 15:51:11,351 [INFO] Not a European deal — skipping: Egyptian Electricity Transmission Company (EETC) / Infinity Power and Hassan Allam Utilities (developers) (Egypt, 1000 MW)
+2026-11-12 15:51:11,351 [INFO] ------- Processing article n. 1: Créteil : achat groupé d'électricité, une offre moins chère - laclepublique.fr -------
+2026-11-12 15:51:11,437 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxQM0R6aGlaZi1lTnlDaVM4OWZpZ3R6TWVLcXVYU1gwSmUtaWZLaTZyNEtNSDR1dkFieElyWHcxeGtOVHVRcE5Mb2Q4YVRqUGZQY3BUMFZRaUFabXlKYzI2NVJWcDVYcXdCME9wdFRKaUNDdE5iOEhHT0pqUUlyU0hGcHRYQ0NpWURaYTkwclJ1RQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:51:12,548 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:51:12,548 [INFO] Resolved Google News URL: https://laclepublique.fr/val-de-marne/articles/2026/2026-11-12-creteil-offres-energie/
+2026-11-12 15:51:12,548 [INFO] URL: https://laclepublique.fr/val-de-marne/articles/2026/2026-11-12-creteil-offres-energie/
+2026-11-12 15:51:12,885 [INFO] Text length: 4801 chars | source: full
+2026-11-12 15:51:12,885 [INFO] Text preview: À Créteil, l’achat groupé d’énergie a désormais ses fournisseurs : Gaz de Bordeaux pour l’électricité, Engie pour le gaz. Les remises annoncées atteignent 7 % et 12 % en moyenne. Mais les grilles tari...
+2026-11-12 15:51:12,885 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:51:25,910 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Créteil : achat groupé d'électricité, une offre moins chère 
+2026-11-12 15:51:25,911 [INFO] LLM extracted 1 deals | Créteil : achat groupé d'électricité, une offre mo
+2026-11-12 15:51:25,913 [INFO] Not a signed deal — skipping: Créteil : achat groupé d'électricité, une offre moins chère 
+2026-11-12 15:51:25,913 [INFO] ------- Processing article n. 1: Supprimer les obstacles aux projets de production d'énergie. - Vietnam.vn -------
+2026-11-12 15:51:25,991 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMid0FVX3lxTFBMNlBEQjBQQWswMVo2Qk5BRjZkLUNpbWtEOS1PZktUWVlpcFc3UzVXQ3VJeVhUbmRKYzAtRjBwZzg1a1Y4dFo3VVFJNnpuX3doVVVYTG9WbE5mZ21Dd2NXZzA1QWt6bjF6SVFqbGtyYlRicFBJcXQw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:51:27,093 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:51:27,094 [INFO] Resolved Google News URL: https://www.vietnam.vn/fr/thao-go-vuong-mac-cho-cac-du-an-nguon-dien
+2026-11-12 15:51:27,094 [INFO] URL: https://www.vietnam.vn/fr/thao-go-vuong-mac-cho-cac-du-an-nguon-dien
+2026-11-12 15:51:28,067 [INFO] Text length: 6840 chars | source: full
+2026-11-12 15:51:28,067 [INFO] Text preview: Selon le Département de l'industrie et du commerce, cinq projets de production d'électricité sont actuellement en cours : la centrale électrique au GNL de Quang Ninh, les parcs éoliens de Quang Ninh 1...
+2026-11-12 15:51:28,067 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:51:40,424 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Supprimer les obstacles aux projets de production d'énergie.
+2026-11-12 15:51:40,424 [INFO] LLM extracted 1 deals | Supprimer les obstacles aux projets de production 
+2026-11-12 15:51:40,427 [INFO] Not a signed deal — skipping: Supprimer les obstacles aux projets de production d'énergie.
+2026-11-12 15:51:40,427 [INFO] ------- Processing article n. 1: La Turquie atteint un record de 9,9 milliards de kWh solaire et éolien - energyn -------
+2026-11-12 15:51:40,517 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxPSERoYXI3NjhCQS1qb29VbFduQUcxLXR3X2JpZDlWNFZlaERJT3BhdVlVWWFOcGw2Mk5lUlpvRTlUazZQUWJzSHBMTGM4VzN3V1IxVWtwbE13UTZYY1BSNUFEUXFaaDAtR3g2YzZZcVNleklrZHN1WXpZcUxCd3VKWVJGcXRDbWt2dWZYbG5YaWxxekVObjVB?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:51:41,621 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:51:41,622 [INFO] Resolved Google News URL: https://energynews.pro/la-turquie-atteint-un-record-de-99-milliards-de-kwh-solaire-et-eolien
+2026-11-12 15:51:41,622 [INFO] URL: https://energynews.pro/la-turquie-atteint-un-record-de-99-milliards-de-kwh-solaire-et-eolien
+2026-11-12 15:51:42,314 [INFO] Text length: 2474 chars | source: full
+2026-11-12 15:51:42,314 [INFO] Text preview: Electricity generation from solar and wind sources reached an unprecedented level in August in Turkey. Solar generated 5.16 billion kilowatt-hours (kWh) and wind 4.74 billion kWh, according to data fr...
+2026-11-12 15:51:42,314 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:51:55,446 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: La Turquie atteint un record de 9,9 milliards de kWh solaire
+2026-11-12 15:51:55,446 [INFO] LLM extracted 1 deals | La Turquie atteint un record de 9,9 milliards de k
+2026-11-12 15:51:55,448 [INFO] Not a signed deal — skipping: La Turquie atteint un record de 9,9 milliards de kWh solaire
+2026-11-12 15:51:55,448 [INFO] ------- Processing article n. 1: El viceprimer ministro Pham Gia Tuc presenció la firma del contrato BOT (Constru -------
+2026-11-12 15:51:55,531 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQVTRIWmxUb0Y1RUFwQ1gtMkJqWTRVdmZpbVF1M05GOURZeVNtZkJ3Q2tLRkJPRVdIbHpHbzY3bjZPQXFHMkcwSnJXUzlDZjBTTGRyYmlQWTZkekliS29DLUJsYUdGR1BiRVBlbmJSbURiM1R5LUh1RXhGMEwzTFZPeUZWRlZmWWJ2NExLSThLLUhkOC1TWG1tcnVSdjNOZXVUZEF2dG5iZVJTYnM0d3hCLVhZaEh3aUc3TkV1WENR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:51:56,629 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:51:56,630 [INFO] Resolved Google News URL: https://www.vietnam.vn/es/pho-thu-tuong-thuong-truc-pham-gia-tuc-chung-kien-ky-hop-dong-bot-nha-may-
+2026-11-12 15:51:56,630 [INFO] URL: https://www.vietnam.vn/es/pho-thu-tuong-thuong-truc-pham-gia-tuc-chung-kien-ky-hop-dong-bot-nha-may-nhiet-dien-nam-dinh-i
+2026-11-12 15:51:56,735 [INFO] Text length: 4377 chars | source: full
+2026-11-12 15:51:56,735 [INFO] Text preview: El viceprimer ministro Pham Gia Tuc presenció la firma del contrato BOT (Construcción, Operación y Transferencia) para la central termoeléctrica Nam Dinh I.
+(Chinhphu.vn) - En la tarde del 12 de novie...
+2026-11-12 15:51:56,735 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:52:10,617 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: El viceprimer ministro Pham Gia Tuc presenció la firma del c
+2026-11-12 15:52:10,618 [INFO] LLM extracted 1 deals | El viceprimer ministro Pham Gia Tuc presenció la f
+2026-11-12 15:52:10,620 [INFO] Not a signed deal — skipping: El viceprimer ministro Pham Gia Tuc presenció la firma del c
+2026-11-12 15:52:10,620 [INFO] ------- Processing article n. 1: Cox apuesta por Colombia con un nuevo contrato de venta de energía de largo plaz -------
+2026-11-12 15:52:10,695 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi4wFBVV95cUxPc1pVUG92YmtNTERGZktCc0NMbUl3SzFCVFlXbGE5TU1HVDRQZGcwYTg0b0FQZU1zbG5OVzVvNkJOOThvVnNiQnJPbUV0ZGUyVkhGMlVRNE5nYXBFLUlEX1Raby1RYU1IQmVvMi10TnppRHl2WDY0MTJkQkJHbHZITU5xb3d6azJUQWtZS3d1b2d5RnZ1Y0xrUVUtcDhJbDNpRnVRa0UxMkFvSlp0TVVMXzBZS2FXelVRcXRLLVo1OW12b2EzVENxRjlPYzFDNEZqSWxLVEZwOHc2LXRoRHJHVE9yaw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:52:11,793 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:52:11,793 [INFO] Resolved Google News URL: https://andaluciaeconomica.com/cox-apuesta-por-colombia-con-un-nuevo-contrato-de-venta-de-energia-de
+2026-11-12 15:52:11,793 [INFO] URL: https://andaluciaeconomica.com/cox-apuesta-por-colombia-con-un-nuevo-contrato-de-venta-de-energia-de-largo-plazo-a-empresas-publicas-de-medellin-epm/
+2026-11-12 15:52:12,276 [INFO] Text length: 4040 chars | source: full
+2026-11-12 15:52:12,276 [INFO] Text preview: Cox, utility global de agua y energía, ha firmado un nuevo contrato de compraventa de energía a largo plazo (PPA, por sus siglas en inglés) en Colombia con Empresas Públicas de Medellín (EPM), la util...
+2026-11-12 15:52:12,277 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:52:26,164 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Cox apuesta por Colombia con un nuevo contrato de venta de e
+2026-11-12 15:52:26,164 [INFO] LLM extracted 1 deals | Cox apuesta por Colombia con un nuevo contrato de 
+2026-11-12 15:52:26,166 [INFO] Not a European deal — skipping: Empresas Públicas de Medellín (EPM) / Cox (Colombia, 58 MW)
+2026-11-12 15:52:26,166 [INFO] ------- Processing article n. 1: ACS descarta riesgos por las elecciones del 29-N y anticipa nuevas inversiones e -------
+2026-11-12 15:52:26,236 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwJBVV95cUxPLTloV05QaHEwS2RpTXJKV010UzRwUEdvcVV4NWVsOUI0anF1LWlLakdmOHdKOVhMb0IzWW9HMjVuLTF4SjVCVWsydTBNSmYycUJZVWR4TUlfS3RLc2w5Q3lZMWNKdGtfS0Jpa3kwUDk0b2RHbnBnczR1OEFPdWZkV09leXk2elZuOFJVNGtiak9QREZPdVdVTDdpek5FZlNBQlBqQ1AzN0xocHg5NmNkNV9HZk90VmFxdDhZeER4LTVtRXYybk11NmlsXzhKck5DT1NCMDZxQmlqVDVtRnBJSFNkejFLMjJwTWNoRzBfV3ZseVJvMGZlaDlfeWpFWXFsdmJwN29SeGQ5SHoyS2VSZFJEX0VickpCbUxn0gGbAkFVX3lxTE8tOWhXTlBocTBLZGlNckpXTXRTNHBQR29xVXg1ZWw5QjRqcXUtaUtqR2Y4d0o5WExvQjNZb0cyNW4tMXhKNUJVazJ1ME1KZjJxQllVZHhNSV9LdEtzbDlDeVkxY0p0a19LQmlreTBQOTRvZEducGdzNHU4QU91ZmRXT2V5eTZ6Vm44UlU0a2JqT1BERk91V1VMN2l6TkVmU0FCUGpDUDM3TGhweDk2Y2Q1X0dmT3RWYXF0OFl4RHgtNW1FdjJuTXU2aWxfOEpyTkNPU0IwNnFCaWpUNW1GcElIU2R6MUsyMnBNY2hHMF9Xdmx5Um8wZmVoOV95akVZcWx2YnA3b1J4ZDlIejJLZVJkUkRfRWJySkJtTGc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:52:27,433 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:52:27,433 [INFO] Resolved Google News URL: https://www.elespanol.com/invertia/empresas/construccion-infraestructuras/20261112/acs-descarta-ries
+2026-11-12 15:52:27,434 [INFO] URL: https://www.elespanol.com/invertia/empresas/construccion-infraestructuras/20261112/acs-descarta-riesgos-elecciones-anticipa-nuevas-inversiones-infraestructuras-espana/1003744455498_0.amp.html
+2026-11-12 15:52:28,070 [INFO] Text length: 7768 chars | source: full
+2026-11-12 15:52:28,071 [INFO] Text preview: ¿Por qué dice Juan Santamaría que las elecciones del 29‑N no frenarán las inversiones de ACS en España?
+Santamaría afirma que no observa riesgos electorales y confía en que Europa mantenga un fuerte r...
+2026-11-12 15:52:28,071 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:52:40,417 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: ACS descarta riesgos por las elecciones del 29-N y anticipa 
+2026-11-12 15:52:40,418 [INFO] LLM extracted 1 deals | ACS descarta riesgos por las elecciones del 29-N y
+2026-11-12 15:52:40,420 [INFO] Not a signed deal — skipping: ACS descarta riesgos por las elecciones del 29-N y anticipa 
+2026-11-12 15:52:40,420 [INFO] ------- Processing article n. 1: Il vice primo ministro Pham Gia Tuc ha presenziato alla firma del contratto BOT  -------
+2026-11-12 15:52:40,487 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxNLS1ZU3NITDdZeUxOR2d0TnJqaUp4NWJRTGRCQmdnWmdUdFIwM0dPZXBFcDdPUWpIQ0V3YTdHMFM1NFE4dzlyRnFMaXMwd1E1Vzl3YkRlYk9fNk9Cd0MyS3dtQ3NoeldVRlI5RURYUjZwSEh5OFMweGpyQlhleXRZVlI3bXdBb0FGa2Z4ck9ZQjlCQjlvTWRMWnBRS2RSV055dmxYazJQclotYmx4TENzYzQ1a21pbWVDWmRzSHlR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:52:41,633 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:52:41,634 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/pho-thu-tuong-thuong-truc-pham-gia-tuc-chung-kien-ky-hop-dong-bot-nha-may-
+2026-11-12 15:52:41,634 [INFO] URL: https://www.vietnam.vn/it/pho-thu-tuong-thuong-truc-pham-gia-tuc-chung-kien-ky-hop-dong-bot-nha-may-nhiet-dien-nam-dinh-i
+2026-11-12 15:52:41,732 [INFO] Text length: 4501 chars | source: full
+2026-11-12 15:52:41,732 [INFO] Text preview: Il vice primo ministro Pham Gia Tuc ha presenziato alla firma del contratto BOT (Build-Operate-Transfer) per la centrale termoelettrica di Nam Dinh I.
+(Chinhphu.vn) - Nel pomeriggio del 12 novembre, p...
+2026-11-12 15:52:41,732 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:52:55,399 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Il vice primo ministro Pham Gia Tuc ha presenziato alla firm
+2026-11-12 15:52:55,400 [INFO] LLM extracted 1 deals | Il vice primo ministro Pham Gia Tuc ha presenziato
+2026-11-12 15:52:55,403 [INFO] Not a signed deal — skipping: Il vice primo ministro Pham Gia Tuc ha presenziato alla firm
+2026-11-12 15:52:55,403 [INFO] ------- Processing article n. 1: Petrobras acquista il 70% di Logum Logística che le mancava ancora per 99,8 mili -------
+2026-11-12 15:52:55,479 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMizAFBVV95cUxQV1VjSGtoN0Z1ZEYtVUpXWHhKMzNzUHI4aFFBUmlfZ2ZtV2h6bHhMdUV2VHlvYmZFTVE3QkJmUlMweFBoRV83eGdfbFBRaFVtQmZDeU9YRkZOZlF5LW5JajJaaGFnVHBKMjVOTzRISG10bENTdV9Xd0FDdlo0R3BsS0NfNEhid3lYemxFNkxIS3B0TmgzeF95aDBzUDcyaGprWWx2cnJjeTI5LWVWd3ctcGJuMk5Cczl0Wkc3WUQtZk9YbG9zX3ZFa3hwb1_SAcwBQVVfeXFMUFdVY0hraDdGdWRGLVVKV1h4SjMzc1ByOGhRQVJpX2dmbVdoemx4THVFdlR5b2JmRU1RN0JCZlJTMHhQaEVfN3hnX2xQUWhVbUJmQ3lPWEZGTmZReS1uSWoyWmhhZ1RwSjI1Tk80SEhtdGxDU3VfV3dBQ3ZaNEdwbEtDXzRIYnd5WHpsRTZMSEtwdE5oM3hfeWgwc1A3Mmhqa1lsdnJyY3kyOS1lVnd3LXBibjJOQnM5dFpHN1lELWZPWGxvc192RWt4cG9f?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:52:56,583 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:52:56,583 [INFO] Resolved Google News URL: https://www.democrata.es/it/economia/petrobras-acquista-il-70-di-logum-logistica-che-le-mancava-anco
+2026-11-12 15:52:56,584 [INFO] URL: https://www.democrata.es/it/economia/petrobras-acquista-il-70-di-logum-logistica-che-le-mancava-ancora-per-99-8-milioni-di-euro/amp/
+2026-11-12 15:52:56,688 [INFO] Full text skipped (status 403): https://www.democrata.es/it/economia/petrobras-acquista-il-70-di-logum-logistica
+2026-11-12 15:52:56,689 [INFO] Text length: 219 chars | source: fallback
+2026-11-12 15:52:56,689 [INFO] Text preview: Petrobras acquista il 70% di Logum Logística che le mancava ancora per 99,8 milioni di euro - Demócrata
+
+Petrobras acquista il 70% di Logum Logística che le mancava ancora per 99,8 milioni di euro &nb...
+2026-11-12 15:52:56,689 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:53:10,491 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Petrobras acquista il 70% di Logum Logística che le mancava 
+2026-11-12 15:53:10,491 [INFO] LLM extracted 1 deals | Petrobras acquista il 70% di Logum Logística che l
+2026-11-12 15:53:10,494 [INFO] Not a signed deal — skipping: Petrobras acquista il 70% di Logum Logística che le mancava 
+2026-11-12 15:53:10,494 [INFO] ------- Processing article n. 1: Austrália assina acordo para participar no Horizonte Europa - Notícias ao Minuto -------
+2026-11-12 15:53:10,582 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV3A2SDNnUmVQR0M5M0pYM2xnc3hpTzZja290YjBiX0dmQWJ1bXBkN2JGVTIwbGk5bzVvM3JIWktsRkFFd0tsby1iTnF1TDFORGxfc2ZvSHVEbVV2RXRXWWJVdTU1ckMxd1BvT3ZxekxKeFlxRnM2dEcwRGVaTjNONjI5RjhlUnY1LTBxRndVN3JIbGpNRlNpRVpObFNyckZXX21MeFVGYUMyZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:53:11,750 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:53:11,751 [INFO] Resolved Google News URL: https://www.noticiasaominuto.com/mundo/3083013/australia-assina-acordo-para-participar-no-horizonte-
+2026-11-12 15:53:11,751 [INFO] URL: https://www.noticiasaominuto.com/mundo/3083013/australia-assina-acordo-para-participar-no-horizonte-europa
+2026-11-12 15:53:12,068 [INFO] Text length: 1852 chars | source: full
+2026-11-12 15:53:12,068 [INFO] Text preview: A Austrália vai poder participar no programa de investigação e inovação Horizonte Europa, tendo assinado hoje em Bruxelas um acordo com a União Europeia (UE).
+O acordo foi assinado pela comissária eur...
+2026-11-12 15:53:12,068 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:53:26,067 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Austrália assina acordo para participar no Horizonte Europa 
+2026-11-12 15:53:26,068 [INFO] LLM extracted 1 deals | Austrália assina acordo para participar no Horizon
+2026-11-12 15:53:26,070 [INFO] Not a signed deal — skipping: Austrália assina acordo para participar no Horizonte Europa 
+2026-11-12 15:53:26,070 [INFO] ------- Processing article n. 1: Petrobras compra participação restante de 70% na Logum Logística - Valor Econômi -------
+2026-11-12 15:53:26,181 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX0tLMXJOYnNXLVg2bnpWekx5TFY1MlRVV1ExNS1CcUpVeGMxTzMweklKOWNyVTRsZTZ5bGthc3AwbW1VOFc2Y0VkR2x1OGVvb1ZrQjNSUS1lV3ZkY2pIZEFfS1paREV6NGdCMTlCOEZZLUFVUUkxbmZ2WFZuaXlQd1F3NTM1UFY5VGFGVGtCVWlaZmVEZk9OWHJ6bzZqb0JzR0ZKZTJacFRydkRzbGJVSFNuczNnTjNOTUl2T3pYQUZiVGtQU1ZGRDFsb0JwQ2V5LWhrS3dn0gHWAUFVX3lxTE1fS0sxck5ic1ctWDZuelZ6THlMVjUyVFVXUTE1LUJxSlV4YzFPMzB6SUo5Y3JVNGxlNnlsa2FzcDBtbVU4VzZjRWRHbHU4ZW9vVmtCM1JRLWVXdmRjakhkQV9LWlpERXo0Z0IxOUI4RlktQVVRSTFuZnZYVm5peVB3UXc1MzVQVjlUYUZUa0JVaVpmZURmT05YcnpvNmpvQnNHRkplMlpwVHJ2RHNsYlVIU25zM2dOM05NSXZPelhBRmJUa1BTVkZEMWxvQnBDZXktaGtLd2c?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-12 15:53:27,303 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-12 15:53:27,303 [INFO] Resolved Google News URL: https://valor.globo.com/google/amp/empresas/noticia/2026/11/12/petrobras-compra-participacao-restant
+2026-11-12 15:53:27,303 [INFO] URL: https://valor.globo.com/google/amp/empresas/noticia/2026/11/12/petrobras-compra-participacao-restante-de-70percent-na-logum-logistica.ghtml
+2026-11-12 15:53:28,496 [INFO] Text length: 2012 chars | source: full
+2026-11-12 15:53:28,496 [INFO] Text preview: A Petrobras assinou hoje um acordo para comprar 70% da Logum Logística por R$ 620 milhões. A estatal já possui 30% da empresa de transporte de biodiesel e comprará as participações de 30% detidas por ...
+2026-11-12 15:53:28,496 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-12 15:53:40,799 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Petrobras compra participação restante de 70% na Logum Logís
+2026-11-12 15:53:40,800 [INFO] LLM extracted 1 deals | Petrobras compra participação restante de 70% na L
+2026-11-12 15:53:40,802 [INFO] Not a signed deal — skipping: Petrobras compra participação restante de 70% na Logum Logís
+2026-11-12 15:53:40,802 [INFO] Run complete. New deals: 0, Updates: 1
+2026-11-12 15:53:40,819 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1540 deals)
+2026-11-12 15:53:55,752 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-11-12 15:53:55,753 [INFO] Email log summary generated by groq-120b
+2026-11-12 15:53:56,791 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
