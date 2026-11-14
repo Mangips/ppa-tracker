@@ -1,0 +1,129 @@
+2026-11-14 13:54:20,084 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-11-14 13:54:20,094 [INFO] Loaded 1709 existing deals for dedup matching
+2026-11-14 13:54:20,094 [INFO] Searching from 2026-11-14 to present with 3 loockback days
+2026-11-14 13:54:20,242 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-11-14 13:54:21,370 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-11-14 13:54:22,515 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-11-14 13:54:23,857 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-11-14&hl=en&gl=US&ceid=US:en: 6 results
+2026-11-14 13:54:26,135 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-11-14&hl=en&gl=US&ceid=US:en: 0 results
+2026-11-14 13:54:28,344 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-11-14&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-11-14 13:54:30,547 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-11-14&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-11-14 13:54:32,811 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-11-14&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-11-14 13:54:35,035 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-11-14&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-11-14 13:54:37,248 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-11-14&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-11-14 13:54:39,474 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-11-14&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-11-14 13:54:41,687 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-11-14&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-14 13:54:43,902 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-11-14&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-14 13:54:46,135 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-11-14&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-11-14 13:54:48,327 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-11-14&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-14 13:54:50,548 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-11-14&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-14 13:54:52,786 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-11-14&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-14 13:54:55,023 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-11-14&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-14 13:54:57,023 [INFO] Total raw articles collected: 8
+2026-11-14 13:54:57,221 [INFO] Extra RSS [energymonitor.ai]: 0 results
+2026-11-14 13:54:59,055 [INFO] Extra RSS [elperiodicodelaenergia.com]: 3 results
+2026-11-14 13:55:00,064 [INFO] Unique unseen articles: 8
+2026-11-14 13:55:00,064 [INFO] ------- Processing article n. 0: The Nuclear Investment Boom in Eastern Europe Picks Up Pace - Bloomberg -------
+2026-11-14 13:55:00,164 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxQOWQwcXRFcjNJbUJFOUFVQkY0WFB2NEdKcXhvcjNZMHo4UjZuS2M2RHBnRkRhd09WS1NKdldnYjJRRlcyOVZUTl93Rnp5Z2dMa1F1QXd2NlVPZVNDa2VWTVROd1EtZGlDYnh5Z1dHRGtKOXloelpaY2JiZlZ2QnlsWml3Qjgzc1JGUk51MXhnT3Bxd2wwTVluTTVpUkJpN0NWcWVoSjB5OGFsSWF3Um1v?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:55:01,255 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:55:01,256 [INFO] Resolved Google News URL: https://www.bloomberg.com/news/articles/2026-11-14/the-nuclear-investment-boom-in-eastern-europe-pic
+2026-11-14 13:55:01,256 [INFO] URL: https://www.bloomberg.com/news/articles/2026-11-14/the-nuclear-investment-boom-in-eastern-europe-picks-up-pace
+2026-11-14 13:55:01,421 [INFO] Full text skipped (status 403): https://www.bloomberg.com/news/articles/2026-11-14/the-nuclear-investment-boom-i
+2026-11-14 13:55:01,422 [INFO] Text length: 155 chars | source: fallback
+2026-11-14 13:55:01,422 [INFO] Text preview: The Nuclear Investment Boom in Eastern Europe Picks Up Pace - Bloomberg
+
+The Nuclear Investment Boom in Eastern Europe Picks Up Pace &nbsp;&nbsp; Bloomberg...
+2026-11-14 13:55:01,422 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:55:02,376 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: The Nuclear Investment Boom in Eastern Europe Picks Up Pace 
+2026-11-14 13:55:02,376 [INFO] LLM extracted 1 deals | The Nuclear Investment Boom in Eastern Europe Pick
+2026-11-14 13:55:02,379 [INFO] Not a signed deal — skipping: The Nuclear Investment Boom in Eastern Europe Picks Up Pace 
+2026-11-14 13:55:02,379 [INFO] ------- Processing article n. 0: Masdar completes $950 million solar and battery storage project in California -  -------
+2026-11-14 13:55:02,438 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitwFBVV95cUxQYXhFa0RlVzV5S0xldXFwcl93MVhucDd2aWVtczlydUNoTElmOVZXekZyZVNvbHVLU08wUXdjYU9UZDNPbURQQjVQaUhteGxyN0RXSDljRUhWZTVWVE1xQ05KZXBVLWdpcmdUVjdJQnM3MGNVQXVYU0RxeDlvWkNub0VTVUpjQjBPWjRTcllhRHppNXJ1X1lPeWFLajNNT3Z2R3FENVkxX1NDZkRYZGZsMDRwT1p0UHc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:55:03,516 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:55:03,517 [INFO] Resolved Google News URL: https://www.pv-magazine.com/2026/11/14/masdar-completes-950-million-solar-and-battery-storage-projec
+2026-11-14 13:55:03,517 [INFO] URL: https://www.pv-magazine.com/2026/11/14/masdar-completes-950-million-solar-and-battery-storage-project-in-california/
+2026-11-14 13:55:03,836 [INFO] Text length: 2072 chars | source: full
+2026-11-14 13:55:03,837 [INFO] Text preview: Masdar completes $950 million solar and battery storage project in California
+Abu Dhabi clean energy company Masdar has announced the completion of its $950 million Lockhart Solar and Storage complex ...
+2026-11-14 13:55:03,837 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:55:17,296 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Masdar completes $950 million solar and battery storage proj
+2026-11-14 13:55:17,296 [INFO] LLM extracted 1 deals | Masdar completes $950 million solar and battery st
+2026-11-14 13:55:17,298 [INFO] Not a signed deal — skipping: Masdar completes $950 million solar and battery storage proj
+2026-11-14 13:55:17,298 [INFO] ------- Processing article n. 0: Electric bus production could begin at former Maserati plant – CRRC may be the p -------
+2026-11-14 13:55:17,351 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaW9pZV9mellLcFZSTzA0VGRNaEVSbV95ckR4b2hiZHVKb0tpLVBoanN5bVVYamxEVzROTEVnUkd3aHVmWlFjbG40ZndSVmUyR1NROEwzZkdiakRvcGhua2FQWEdmWTNuZ2JjVGlpNF91aGN5VDB1OHJBTHpQTXR0TEt2MnZOekp6TlpaTGZOSlgzM2U2b3JOb2NMWE9BNldvdDBBTzgxMnl4d3BiTjFzMXZUcUpBaDZuVy1ac0FUX0U?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:55:18,429 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:55:18,430 [INFO] Resolved Google News URL: https://magyarbusz.info/en/2026/11/14/electric-bus-production-could-begin-at-former-maserati-plant-c
+2026-11-14 13:55:18,430 [INFO] URL: https://magyarbusz.info/en/2026/11/14/electric-bus-production-could-begin-at-former-maserati-plant-crrc-may-be-the-partner/
+2026-11-14 13:55:19,974 [INFO] Text length: 4770 chars | source: full
+2026-11-14 13:55:19,974 [INFO] Text preview: Maserati’s former plant in Grugliasco, northern Italy, which has been unused since the end of 2023, could be converted for the production of electric buses and minibuses. The Swiss YES-EU Group has si...
+2026-11-14 13:55:19,974 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:55:32,256 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Electric bus production could begin at former Maserati plant
+2026-11-14 13:55:32,256 [INFO] LLM extracted 1 deals | Electric bus production could begin at former Mase
+2026-11-14 13:55:32,258 [INFO] Not a signed deal — skipping: Electric bus production could begin at former Maserati plant
+2026-11-14 13:55:32,258 [INFO] ------- Processing article n. 0: Azerbaijani gas creates new opportunities for Europe's energy security - US anal -------
+2026-11-14 13:55:32,321 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiV0FVX3lxTE03bEhVUXJ1dWU1c2pvdENaajl6YVRWT3BUWGotMmFUejZtRU02NC1MQ0tHd3FWU2wtaFJBTlRLNHJPWjlLWlc2NWxhOU9jb0xoZ0MwckZqWQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:55:33,422 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:55:33,424 [INFO] Resolved Google News URL: https://www.trend.az/azerbaijan/4246526.html
+2026-11-14 13:55:33,424 [INFO] URL: https://www.trend.az/azerbaijan/4246526.html
+2026-11-14 13:55:33,947 [INFO] Text length: 6051 chars | source: full
+2026-11-14 13:55:33,947 [INFO] Text preview: BAKU, Azerbaijan, November 14. Azerbaijani gas creates new opportunities for Europe's energy security, US analyst Irina Tsukerman told Trend.
+She said that Azerbaijan has become an important energy pa...
+2026-11-14 13:55:33,947 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:55:47,256 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Azerbaijani gas creates new opportunities for Europe's energ
+2026-11-14 13:55:47,256 [INFO] LLM extracted 1 deals | Azerbaijani gas creates new opportunities for Euro
+2026-11-14 13:55:47,258 [INFO] Not a signed deal — skipping: Azerbaijani gas creates new opportunities for Europe's energ
+2026-11-14 13:55:47,258 [INFO] ------- Processing article n. 0: INSIDE MOLDOVA/ Moldova could conclude EU talks by 2028 | Citizens attracted by  -------
+2026-11-14 13:55:47,314 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilAJBVV95cUxOcG5fQnd2WmhZSHN3UjRwRUNxX211TU9vTEtNc25KY0k4RlNSbjFaMFkzdTV4djRMSDNmWjFjWl9IWXlpRExvZWc5YmRRNG9zWWpDRHRld1N6YjRuZ2pTYUR6LWkzME14eXl2ZG5yWno2V2FZU3U3eW96d09NYUJmR1BBd0xxUmQ1WmZRbEIyV01hNHNuVko5dHJWUUNVQ0dDbnlQU01pZjFfSHI1SXVlNDBZVEVVTENDRDRsaUdKOWRoMGloLTk4VDUyNHZmcllnUlB6R2FDT0hhb09kbktTbS00YlZWbFZINUZEY3lQTmpyNnpvQlVnWk5IZ0VkR3R6cmhaTDR2YjlxaTdnLVdkLURtbWs?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:55:48,404 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:55:48,404 [INFO] Resolved Google News URL: https://www.zdg.md/en/inside-moldova-moldova-could-conclude-eu-talks-by-2028-citizens-attracted-by-r
+2026-11-14 13:55:48,404 [INFO] URL: https://www.zdg.md/en/inside-moldova-moldova-could-conclude-eu-talks-by-2028-citizens-attracted-by-russian-online-recruitment-networks-fatal-chisinau-crash-exposes-drivers-criminal-past/
+2026-11-14 13:55:48,605 [INFO] Full text skipped (status 403): https://www.zdg.md/en/inside-moldova-moldova-could-conclude-eu-talks-by-2028-cit
+2026-11-14 13:55:48,605 [INFO] Text length: 387 chars | source: fallback
+2026-11-14 13:55:48,605 [INFO] Text preview: INSIDE MOLDOVA/ Moldova could conclude EU talks by 2028 | Citizens attracted by Russian online recruitment networks | Fatal Chișinău crash exposes driver's criminal past - Ziarul de Gardă
+
+INSIDE MOLD...
+2026-11-14 13:55:48,605 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:56:01,977 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: INSIDE MOLDOVA/ Moldova could conclude EU talks by 2028 | Ci
+2026-11-14 13:56:01,978 [INFO] LLM extracted 1 deals | INSIDE MOLDOVA/ Moldova could conclude EU talks by
+2026-11-14 13:56:01,979 [INFO] Not a signed deal — skipping: INSIDE MOLDOVA/ Moldova could conclude EU talks by 2028 | Ci
+2026-11-14 13:56:01,979 [INFO] ------- Processing article n. 0: BASF stock: Renewable-power shift marks busy week - ad-hoc-news.de -------
+2026-11-14 13:56:02,042 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxQMXlLYUhUX240b29fZk16ck9VT0hTRG5RRWpqdHBhOEtXZUpZZkJQYTVmUW04U0htX3RCVGcza3JQMzZFSFpGQXk4Z1JaYWVpZHVyT2toZnVNcno0cG1ESC03RTJwU21UbXV2ZlJIdDBxZmR6Z2Z1SXR6eEoxWUZGSkhPS0RzdTUyaC11QVd6V0ZOWDkyQjlkZEktUERMVHpnanoyMXZZdUFXZjNvcnNuZA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:56:03,137 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:56:03,138 [INFO] Resolved Google News URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/basf-stock-renewable-power-shift-marks-busy-we
+2026-11-14 13:56:03,138 [INFO] URL: https://www.ad-hoc-news.de/boerse/news/corporate-news/basf-stock-renewable-power-shift-marks-busy-week/70510270
+2026-11-14 13:56:04,139 [INFO] Text length: 1737 chars | source: full
+2026-11-14 13:56:04,139 [INFO] Text preview: BASF outlined a lower-carbon production step on November 10, 2026, saying selected European polyisobutene products will run entirely on renewable electricity from January 2027. The announcement covers...
+2026-11-14 13:56:04,139 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:56:17,193 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: BASF stock: Renewable-power shift marks busy week - ad-hoc-n
+2026-11-14 13:56:17,194 [INFO] LLM extracted 1 deals | BASF stock: Renewable-power shift marks busy week 
+2026-11-14 13:56:17,195 [INFO] Not a signed deal — skipping: BASF stock: Renewable-power shift marks busy week - ad-hoc-n
+2026-11-14 13:56:17,195 [INFO] ------- Processing article n. 0: Les géants de la tech américains veulent sécuriser leur futur accès à la source  -------
+2026-11-14 13:56:17,245 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdzJzWUdUU09vWklraHctRUMxdm1Cay1jamk4RFRNSG5waDBuamxSYWtlb25INlFTaENseUpsbExDZ3N3OEZWeFZnSzJhX1BGUldIc0JWNnZfSzd6UkszWDJaTG1hNXliY2tIeHR2M3U5RGxZekZCbWRyTUFQa3VKT2cyTUF4ZGRmWlhNbUVHQUhMN0w1WjB6TElUQ2pPUFhER2VkUC1DVjlIVVRTaTRJSjh3MUVCXzVKS1FHeE9zdFRfTHVYOUl0MlJ2WDdhWllFbktCVUdiN2FkMzZESFNwYnY1OVg3Yy13emVlcVdrcnR4UFZHWVpQM2lR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:56:18,370 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:56:18,371 [INFO] Resolved Google News URL: https://media24.fr/2026/11/14/les-geants-de-la-tech-americains-veulent-securiser-leur-futur-acces-a-
+2026-11-14 13:56:18,371 [INFO] URL: https://media24.fr/2026/11/14/les-geants-de-la-tech-americains-veulent-securiser-leur-futur-acces-a-la-source-denergie-la-plus-puissante-du-monde-la-fusion-nucleaire/
+2026-11-14 13:56:18,550 [INFO] Text length: 12058 chars | source: full
+2026-11-14 13:56:18,550 [INFO] Text preview: À Vienne, le 12 novembre 2026, l’Agence internationale de l’énergie atomique (AIEA) a publié la 4ᵉ édition de son World Fusion Outlook.
+En 128 pages, le document chiffre pour la première fois en détai...
+2026-11-14 13:56:18,550 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:56:32,437 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Les géants de la tech américains veulent sécuriser leur futu
+2026-11-14 13:56:32,437 [INFO] LLM extracted 2 deals | Les géants de la tech américains veulent sécuriser
+2026-11-14 13:56:32,439 [INFO] Not a European deal — skipping: Microsoft / Helion Energy (United States, 50 MW)
+2026-11-14 13:56:32,439 [INFO] Not a European deal — skipping: Google / Commonwealth Fusion Systems (United States, 200 MW)
+2026-11-14 13:56:32,439 [INFO] ------- Processing article n. 0: Le ministère de l'Industrie et du Commerce approuve le cadre tarifaire de la pro -------
+2026-11-14 13:56:32,525 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmJWcGJOcVpUc004dDJEXzE1cU1LNjJ6Tjh3QXA4OF93a0p0SFdGLXd0aTh2djVadEN1cG9HeDNjZ2xwWWxtWWdjanNSZGJ6NEU5eGYtUFVjV1BOMzhKOFhfd1RUa3VwNlBoSDlIOElvWFRrbE5ycklzUW10Z3AzQUlmbW5jWVZ4UW1sTVJLcUVndmM2RXFHVTBJWGlpZzVmX2lvUW9XSXZwSFh2TE90Sw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-14 13:56:33,606 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-14 13:56:33,607 [INFO] Resolved Google News URL: https://www.vietnam.vn/fr/bo-cong-thuong-phe-duyet-khung-gia-phat-dien-he-thong-pin-luu-tru-nang-luo
+2026-11-14 13:56:33,607 [INFO] URL: https://www.vietnam.vn/fr/bo-cong-thuong-phe-duyet-khung-gia-phat-dien-he-thong-pin-luu-tru-nang-luong-nam-2026
+2026-11-14 13:56:34,134 [INFO] Text length: 2359 chars | source: full
+2026-11-14 13:56:34,134 [INFO] Text preview: Le ministère de l'Industrie et du Commerce approuve le cadre tarifaire de la production d'électricité à partir de systèmes de stockage par batteries en 2026.
+Le vice-ministre de l'Industrie et du Comm...
+2026-11-14 13:56:34,135 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-14 13:56:47,027 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Le ministère de l'Industrie et du Commerce approuve le cadre
+2026-11-14 13:56:47,028 [INFO] LLM extracted 1 deals | Le ministère de l'Industrie et du Commerce approuv
+2026-11-14 13:56:47,029 [INFO] Not a signed deal — skipping: Le ministère de l'Industrie et du Commerce approuve le cadre
+2026-11-14 13:56:47,029 [INFO] Run complete. New deals: 0, Updates: 0
+2026-11-14 13:56:47,052 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1540 deals)
+2026-11-14 13:57:01,829 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-11-14 13:57:01,830 [INFO] Email log summary generated by groq-120b
+2026-11-14 13:57:03,705 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
