@@ -1,0 +1,277 @@
+2026-11-21 15:01:47,247 [INFO] === PPA Tracker pipeline starting (env: PROD) ===
+2026-11-21 15:01:47,260 [INFO] Loaded 1732 existing deals for dedup matching
+2026-11-21 15:01:47,260 [INFO] Searching from 2026-11-21 to present with 3 loockback days
+2026-11-21 15:01:47,371 [INFO] NewsAPI 'PPA signed Europe renewable': 0 results
+2026-11-21 15:01:48,475 [INFO] NewsAPI 'power purchase agreement signed Europe': 0 results
+2026-11-21 15:01:49,577 [INFO] NewsAPI 'corporate PPA Europe signed deal': 0 results
+2026-11-21 15:01:50,921 [INFO] Google News RSS [en] https://news.google.com/rss/search?q=power%20purchase%20agreement%20signed%20Europe%20after%3A2026-11-21&hl=en&gl=US&ceid=US:en: 8 results
+2026-11-21 15:01:53,280 [WARNING] Google News RSS error [en] 'corporate PPA Europe renewable energy': 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=corporate%20PPA%20Europe%20renewable%20energy%20after%3A2026-11-21&hl=en&gl=US&ceid=US:en
+2026-11-21 15:01:55,489 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=Stromliefervertrag%20unterzeichnet%20after%3A2026-11-21&hl=de&gl=DE&ceid=DE:de: 2 results
+2026-11-21 15:01:57,702 [INFO] Google News RSS [de] https://news.google.com/rss/search?q=PPA%20erneuerbare%20Energie%20Deutschland%20after%3A2026-11-21&hl=de&gl=DE&ceid=DE:de: 0 results
+2026-11-21 15:01:59,941 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=contrat%20d%27achat%20d%27%C3%A9lectricit%C3%A9%20sign%C3%A9%20after%3A2026-11-21&hl=fr&gl=FR&ceid=FR:fr: 2 results
+2026-11-21 15:02:02,184 [INFO] Google News RSS [fr] https://news.google.com/rss/search?q=PPA%20%C3%A9nergie%20renouvelable%20France%20after%3A2026-11-21&hl=fr&gl=FR&ceid=FR:fr: 0 results
+2026-11-21 15:02:04,421 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=acuerdo%20de%20compra%20de%20energ%C3%ADa%20firmado%20after%3A2026-11-21&hl=es&gl=ES&ceid=ES:es: 1 results
+2026-11-21 15:02:06,638 [INFO] Google News RSS [es] https://news.google.com/rss/search?q=PPA%20energ%C3%ADa%20renovable%20Espa%C3%B1a%20after%3A2026-11-21&hl=es&gl=ES&ceid=ES:es: 0 results
+2026-11-21 15:02:08,851 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=accordo%20di%20acquisto%20energia%20rinnovabile%20after%3A2026-11-21&hl=it&gl=IT&ceid=IT:it: 3 results
+2026-11-21 15:02:11,108 [INFO] Google News RSS [it] https://news.google.com/rss/search?q=PPA%20firmato%20energia%20rinnovabile%20Italia%20after%3A2026-11-21&hl=it&gl=IT&ceid=IT:it: 0 results
+2026-11-21 15:02:13,321 [INFO] Google News RSS [pl] https://news.google.com/rss/search?q=umowa%20zakupu%20energii%20podpisana%20after%3A2026-11-21&hl=pl&gl=PL&ceid=PL:pl: 0 results
+2026-11-21 15:02:15,506 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=stroomafnameovereenkomst%20ondertekend%20after%3A2026-11-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-21 15:02:17,720 [INFO] Google News RSS [nl] https://news.google.com/rss/search?q=PPA%20hernieuwbare%20energie%20Nederland%20after%3A2026-11-21&hl=nl&gl=NL&ceid=NL:nl: 0 results
+2026-11-21 15:02:19,990 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=acordo%20de%20compra%20de%20energia%20assinado%20after%3A2026-11-21&hl=pt&gl=PT&ceid=PT:pt: 4 results
+2026-11-21 15:02:22,241 [INFO] Google News RSS [pt] https://news.google.com/rss/search?q=PPA%20energia%20renov%C3%A1vel%20Portugal%20after%3A2026-11-21&hl=pt&gl=PT&ceid=PT:pt: 0 results
+2026-11-21 15:02:24,242 [INFO] Total raw articles collected: 20
+2026-11-21 15:02:24,406 [INFO] Extra RSS [energymonitor.ai]: 1 results
+2026-11-21 15:02:26,488 [INFO] Extra RSS [elperiodicodelaenergia.com]: 2 results
+2026-11-21 15:02:27,495 [INFO] Unique unseen articles: 20
+2026-11-21 15:02:27,495 [INFO] ------- Processing article n. 0: Europe’s Power Market Is Flashing a Warning to Its Economy - Bloomberg.com -------
+2026-11-21 15:02:27,589 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxOY2JUaUg3RElPRWI1WkdTa1FyT3lNSUJEYkMxb0lmZWwzNF9ka2pFYWJVaGhMZUZ6aFEwb1VqMmJVWTNqZ1J6NmRYTDFzbkQwcHhkQU1WT1NPQTN4QlFrc2ZXRGR2YzBDOEZQNE5pNXlZS0l6OXNRaTZ4dkc2b29JNi1NbUZOYWJST0lWS0RuMEtPY0RQOHdHeUJOeGh0WEZRMnE5Qy1icnRVaXc4dWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:02:28,688 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:02:28,688 [INFO] Resolved Google News URL: https://www.bloomberg.com/news/articles/2026-11-21/europe-s-power-market-is-flashing-a-warning-to-it
+2026-11-21 15:02:28,688 [INFO] URL: https://www.bloomberg.com/news/articles/2026-11-21/europe-s-power-market-is-flashing-a-warning-to-its-economy
+2026-11-21 15:02:28,789 [INFO] Full text skipped (status 403): https://www.bloomberg.com/news/articles/2026-11-21/europe-s-power-market-is-flas
+2026-11-21 15:02:28,789 [INFO] Text length: 161 chars | source: fallback
+2026-11-21 15:02:28,789 [INFO] Text preview: Europe’s Power Market Is Flashing a Warning to Its Economy - Bloomberg.com
+
+Europe’s Power Market Is Flashing a Warning to Its Economy &nbsp;&nbsp; Bloomberg.com...
+2026-11-21 15:02:28,789 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:02:29,392 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Europe’s Power Market Is Flashing a Warning to Its Economy -
+2026-11-21 15:02:29,393 [INFO] LLM extracted 1 deals | Europe’s Power Market Is Flashing a Warning to Its
+2026-11-21 15:02:29,394 [INFO] Not a signed deal — skipping: Europe’s Power Market Is Flashing a Warning to Its Economy -
+2026-11-21 15:02:29,394 [INFO] ------- Processing article n. 0: Amazon, EDF & IEA: This Week's Top Five Energy Stories - Energy Digital Magazine -------
+2026-11-21 15:02:29,458 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMihwFBVV95cUxPa0tlR1FSUDd1Q2V0N01RdEJsUVpESWRfTXdPcWpuYW5lN0dwOFBScDN2d2Q5YncxNUJlNFZyazNBUERWQ3hWUHEyRGVyMm5INW9DckhSNnh4MUoyaUh5d2RlQ0RkMEVYR1I3OHNrajUwNnhvR0tjOXFfUkVPN1NBUGx3N1NUZ00?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:02:30,544 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:02:30,544 [INFO] Resolved Google News URL: https://energydigital.com/news/amazon-edf-iea-this-weeks-top-five-energy-stories
+2026-11-21 15:02:30,544 [INFO] URL: https://energydigital.com/news/amazon-edf-iea-this-weeks-top-five-energy-stories
+2026-11-21 15:02:31,533 [INFO] Text length: 6127 chars | source: full
+2026-11-21 15:02:31,533 [INFO] Text preview: HSBC’s Trade Pulse survey of 10,000 senior leaders puts energy ahead of tariffs and freight as the top cost pressure, while AI adoption outpaces governance
+For much of the past two years, the debate o...
+2026-11-21 15:02:31,533 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:02:45,836 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Amazon, EDF & IEA: This Week's Top Five Energy Stories - Ene
+2026-11-21 15:02:45,836 [INFO] LLM extracted 4 deals | Amazon, EDF & IEA: This Week's Top Five Energy Sto
+2026-11-21 15:02:45,838 [INFO] Not a European deal — skipping: Amazon / None (India, 234 MW)
+2026-11-21 15:02:45,838 [INFO] Not a European deal — skipping: Amazon / None (India, 200 MW)
+2026-11-21 15:02:45,838 [INFO] Not a European deal — skipping: Amazon / None (India, 300 MW)
+2026-11-21 15:02:45,838 [INFO] Not a European deal — skipping: Amazon / None (India, 200 MW)
+2026-11-21 15:02:45,838 [INFO] ------- Processing article n. 0: Energy Dominance, Measured in Exports: America’s $50 Billion Nuclear Bet in Pola -------
+2026-11-21 15:02:45,905 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxNdk00SVRqT1A0Uk1tcFZIYk81SmJJckRVYlR0R2QyajFMSExkZWN2QVhDdjFFY3EwR3NJWnNvLTNmeXJ2RXFZQWlzZmVzNXJEVWZtc0ZmUVhiWVd1Z1RON0hBRDg1R2ZKN1FPeDhQVi1DYWZfbnRfZlhBeEc4OWFTWldIYmNuMjczRGliSDl5WmZEQ19EWXZnYjNtMlZfbmJVazBuUXNDX1hfejFlUEJ1bFFIMA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:02:46,994 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:02:46,994 [INFO] Resolved Google News URL: https://energynewsbeat.co/nuclear/energy-dominance-measured-in-exports-americas-50-billion-nuclear-b
+2026-11-21 15:02:46,994 [INFO] URL: https://energynewsbeat.co/nuclear/energy-dominance-measured-in-exports-americas-50-billion-nuclear-bet-in-poland/
+2026-11-21 15:02:47,163 [INFO] Text length: 26445 chars | source: full
+2026-11-21 15:02:47,163 [INFO] Text preview: Poland expects to sign a Westinghouse–Bechtel contract for three AP1000 reactors by the end of the first quarter of 2027. The official investment figure is about EUR 42 billion. U.S. export credit is ...
+2026-11-21 15:02:47,163 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:02:59,467 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Energy Dominance, Measured in Exports: America’s $50 Billion
+2026-11-21 15:02:59,467 [INFO] LLM extracted 1 deals | Energy Dominance, Measured in Exports: America’s $
+2026-11-21 15:02:59,468 [INFO] Not a signed deal — skipping: Energy Dominance, Measured in Exports: America’s $50 Billion
+2026-11-21 15:02:59,468 [INFO] ------- Processing article n. 0: Ukraine lacks transformers for the reconstruction of its energy sector - UkrMedi -------
+2026-11-21 15:02:59,535 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMif0FVX3lxTFBpWUpwWFRYVFlLanRSNW5BbzIwTW5DUnE2QjVZTGQ2bHVMZFVDdHU0UTRBcFhKN3pIUjFuQ0hZcWVNUUNhajRwT3pfYWdwSHRpNHotcG1hc3dLUmphdGxEV3ZyMzFHaUhMakNGTEZHMU1aeTVaelJCWUM3TndsQUk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:03:00,634 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:03:00,635 [INFO] Resolved Google News URL: https://ukrmedia.news/en/economics/defitsyt-transformatoriv-ukraina-kytai/
+2026-11-21 15:03:00,635 [INFO] URL: https://ukrmedia.news/en/economics/defitsyt-transformatoriv-ukraina-kytai/
+2026-11-21 15:03:06,696 [INFO] Text length: 2488 chars | source: full
+2026-11-21 15:03:06,697 [INFO] Text preview: Ukraine is facing a shortage of transformers needed to restore its energy infrastructure following Russian shelling. According to MP Viktoria Hryb, available stocks of the necessary equipment in Europ...
+2026-11-21 15:03:06,697 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:03:14,360 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ukraine lacks transformers for the reconstruction of its ene
+2026-11-21 15:03:14,360 [INFO] LLM extracted 1 deals | Ukraine lacks transformers for the reconstruction 
+2026-11-21 15:03:14,361 [INFO] Not a signed deal — skipping: Ukraine lacks transformers for the reconstruction of its ene
+2026-11-21 15:03:14,361 [INFO] ------- Processing article n. 0: EDA says six EU countries explore joint purchase of CBRN surveillance equipment  -------
+2026-11-21 15:03:14,424 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQbV8tdEpObTc1QlpJM21zMHJyV19CeThqMVVORi1USHRyUU5IeV9MR1laOFpZZ0VWQkpGMGlDcGJXeGFNdGlHRlVZUFFKLXk1Y3BHeDVPa3cwV2drTTRLbVViNF9NbndDUERRN29VdC15Wl9TeFVPV1VidHNiZlJqaldLdE15eTYxMkxBckticmFFZTVKRHpGRzhXYXYybVZsQk5zYlU1Q21sbGNLTG5kSUd3VjJfYjAwSjF2MVJR?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:03:15,524 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:03:15,524 [INFO] Resolved Google News URL: https://defence-industry.eu/eda-says-six-eu-countries-explore-joint-purchase-of-cbrn-surveillance-eq
+2026-11-21 15:03:15,524 [INFO] URL: https://defence-industry.eu/eda-says-six-eu-countries-explore-joint-purchase-of-cbrn-surveillance-equipment-and-services/
+2026-11-21 15:03:15,645 [INFO] Text length: 2721 chars | source: full
+2026-11-21 15:03:15,645 [INFO] Text preview: The six countries signed a declaration of political intent on 17 November 2026 alongside EDA’s Ministerial Steering Board meeting. It opens the way to possible common procurement under the next phase ...
+2026-11-21 15:03:15,645 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:03:29,366 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EDA says six EU countries explore joint purchase of CBRN sur
+2026-11-21 15:03:29,367 [INFO] LLM extracted 1 deals | EDA says six EU countries explore joint purchase o
+2026-11-21 15:03:29,368 [INFO] Not a signed deal — skipping: EDA says six EU countries explore joint purchase of CBRN sur
+2026-11-21 15:03:29,368 [INFO] ------- Processing article n. 0: Armenia's constitutional changes crucial for finalising peace agreement, German  -------
+2026-11-21 15:03:29,430 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiVEFVX3lxTE45Q19UNlBkR2RVdHNIc0hCRzNHZDk2RG1mTlVIYU1Zc1FsTUZlQXZUVTE3ZUNpS1Q3ZkNKOVJMTk9ISlQ3RzAzRmF2aWlGYzAza3BxNA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:03:30,500 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:03:30,501 [INFO] Resolved Google News URL: https://www.azernews.az/region/267840.html
+2026-11-21 15:03:30,501 [INFO] URL: https://www.azernews.az/region/267840.html
+2026-11-21 15:03:31,579 [INFO] Text length: 3355 chars | source: full
+2026-11-21 15:03:31,579 [INFO] Text preview: Armenia's constitutional changes crucial for finalising peace agreement, German FM says
+German Foreign Minister Johann Wadephul has described Azerbaijan as a reliable energy partner for Germany and Eu...
+2026-11-21 15:03:31,579 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:03:44,326 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Armenia's constitutional changes crucial for finalising peac
+2026-11-21 15:03:44,327 [INFO] LLM extracted 1 deals | Armenia's constitutional changes crucial for final
+2026-11-21 15:03:44,327 [INFO] Not a signed deal — skipping: Armenia's constitutional changes crucial for finalising peac
+2026-11-21 15:03:44,328 [INFO] ------- Processing article n. 0: Nordic Ren-Gas secures €300 million investment for e-methane project in Finland, -------
+2026-11-21 15:03:44,391 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa25RUndndnpRU3VjQlZFNTdBaWliYVFqOFNVTVVmZ1ZfM21XYTJGRW9BdENqaDcxWjdBdU5LRmV1OEhfX3VkSlFGSzJJcVZfX3RYZkw1blR3N0FxVXJBbV9fS0VZUlcyeWxuc2psanpHVkczYndBRUg2V01qTHhOdUpLTmtUalJhMG5TWVhfMmZkelp2dlM3RF9tS2otZl9EWEdXS2pZS29fTWpsQjlwTFRzck5NVkRNaWc4MklGSmJDSE5qRnNlVg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:03:45,471 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:03:45,471 [INFO] Resolved Google News URL: https://bioenergytimes.com/nordic-ren-gas-secures-e300-million-investment-for-e-methane-project-in-f
+2026-11-21 15:03:45,471 [INFO] URL: https://bioenergytimes.com/nordic-ren-gas-secures-e300-million-investment-for-e-methane-project-in-finland-construction-to-begin/
+2026-11-21 15:03:46,761 [INFO] Text length: 2713 chars | source: full
+2026-11-21 15:03:46,761 [INFO] Text preview: Nordic Ren-Gas has reached the final investment decision (FID) for its renewable e-methane production facility in Tampere, Finland, backed by an investment of more than €300 million. With financing se...
+2026-11-21 15:03:46,761 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:03:59,440 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Nordic Ren-Gas secures €300 million investment for e-methane
+2026-11-21 15:03:59,440 [INFO] LLM extracted 1 deals | Nordic Ren-Gas secures €300 million investment for
+2026-11-21 15:03:59,442 [INFO] Not a signed deal — skipping: Nordic Ren-Gas secures €300 million investment for e-methane
+2026-11-21 15:03:59,442 [INFO] ------- Processing article n. 0: 3 European Gas Stocks Retail Investors Are Watching As Winter Supply Risks Retur -------
+2026-11-21 15:03:59,502 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVVdPVlhFeWFlTXlXVTc2X0I5dEwzb1pYa3pLSGlrSkxQSlh6REN1a2NpVG4xdmlVZDMwZ1k4Zk1lR2d0YnJCMDBJbHV6LVlRRE00M2l3YWdMd25sTm5kYng4WkplSWdBSlBOZGFjVXBGU0lLVWc0YkZMUHQ2U0NoRW9sVEhDUElta2JQQWhma3JZTC1DVjFmM2JMR2Z4MjRqTzFnSkRLbkpvQjFxZ1BvN0RseHVkbHdoa0ZJYmRpT0ViSGVpS1VBN2d0ck8xemk10gHQAUFVX3lxTE9VV09WWEV5YWVNeVdVNzZfQjl0TDNvWlhrektIaWtKTFBKWHpEQ3VrY2lUbjF2aVVkMzBnWThmTWVHZ3RickIwMElsdXotWVFETTQzaXdhZ0x3bmxObmRieDhaSmVJZ0FKUE5kYWNVcEZTSUtVZzRiRkxQdDZTQ2hFb2xUSENQSW1rYlBBaGZrcllMLUNWMWYzYkxHZngyNGpPMWdKREtuSm9CMXFnUG83RGx4dWRsd2hrRkliZGlPRWJIZWlLVUE3Z3RyTzF6aTU?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:04:00,589 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:04:00,590 [INFO] Resolved Google News URL: https://simplywall.st/stocks/gb/utilities/aim-yu./yu-group-shares/news/3-european-gas-stocks-retail-
+2026-11-21 15:04:00,590 [INFO] URL: https://simplywall.st/stocks/gb/utilities/aim-yu./yu-group-shares/news/3-european-gas-stocks-retail-investors-are-watching-as-winte/amp
+2026-11-21 15:04:01,098 [INFO] Text length: 5783 chars | source: full
+2026-11-21 15:04:01,098 [INFO] Text preview: European gas markets are back in the spotlight as a rare mix of early polar vortex disruption, El Niño and thin storage cushions raises fresh questions about how secure winter energy really looks. Sud...
+2026-11-21 15:04:01,098 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:04:14,856 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: 3 European Gas Stocks Retail Investors Are Watching As Winte
+2026-11-21 15:04:14,856 [INFO] LLM extracted 1 deals | 3 European Gas Stocks Retail Investors Are Watchin
+2026-11-21 15:04:14,866 [WARNING] Matched row ID 1868 has no valid original N record; not linking a new update to a broken canonical chain
+2026-11-21 15:04:14,866 [INFO] NEW: Google / Fortum Oyj (Finland, None MW)
+2026-11-21 15:04:19,867 [INFO] ------- Processing article n. 1: Trungnam unterzeichnet Vertrag zur Lieferung von Gasturbinen für das Ca Na LNG-P -------
+2026-11-21 15:04:19,924 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxOTFVjUlpjZE94VmZzd3hnMlR3UThEdDZQUUxYdXItczZBVWtQanFidGlzdEJTelVfdjhfMWpBQUtfWU1Eb2wxdEs1UDh4VzFXaTNnZ1Q4WWVTb1hyOWY5LTEwYXJjS0ttR2ZjR1hIM2J2ams4eWZHVWJ1ak5tZDBoNm1XWjJwRG9QZThmVV9fdFc4MGN0UG9mRG5pb3RXSm5SOWFv?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:04:21,009 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:04:21,010 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/trungnam-ky-hop-dong-cung-cap-tuabin-khi-cho-du-an-lng-ca-na-gan-2-2-ty-us
+2026-11-21 15:04:21,010 [INFO] URL: https://www.vietnam.vn/de/trungnam-ky-hop-dong-cung-cap-tuabin-khi-cho-du-an-lng-ca-na-gan-2-2-ty-usd
+2026-11-21 15:04:21,282 [INFO] Text length: 6932 chars | source: full
+2026-11-21 15:04:21,282 [INFO] Text preview: Trungnam unterzeichnet Vertrag zur Lieferung von Gasturbinen für das Ca Na LNG-Projekt im Wert von fast 2,2 Milliarden Dollar.
+Das von der Trungnam Group angeführte Konsortium hat soeben einen Vertrag...
+2026-11-21 15:04:21,282 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:04:29,537 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Trungnam unterzeichnet Vertrag zur Lieferung von Gasturbinen
+2026-11-21 15:04:29,538 [INFO] LLM extracted 1 deals | Trungnam unterzeichnet Vertrag zur Lieferung von G
+2026-11-21 15:04:29,538 [INFO] Not a signed deal — skipping: Trungnam unterzeichnet Vertrag zur Lieferung von Gasturbinen
+2026-11-21 15:04:29,538 [INFO] ------- Processing article n. 1: Ein neuer Meilenstein für das fast 2,2 Milliarden Dollar teure Ca Na LNG-Kraftwe -------
+2026-11-21 15:04:29,596 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUxRUHlSTDU0UmxsVWlzWHNfUWotb2NiWkh5bU95MjhSVEhZQlljako5ZzVFZm5XSEEyMXhHejhGRGROT3BuSnN6VUwxS2h2WDc5ZW53Z3N5OGQ4NUVkS05EbTRpcVltTXRpWXl5SGJqbnZ2OF9LcVVRSHk5eTFBU1NsR3psQ1JOdm1ZVExfRkdzc2hLanc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:04:30,670 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:04:30,674 [INFO] Resolved Google News URL: https://www.vietnam.vn/de/buoc-tien-moi-cua-du-an-dien-khi-lng-ca-na-tri-gia-gan-2-2-ty-usd
+2026-11-21 15:04:30,674 [INFO] URL: https://www.vietnam.vn/de/buoc-tien-moi-cua-du-an-dien-khi-lng-ca-na-tri-gia-gan-2-2-ty-usd
+2026-11-21 15:04:42,703 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.vietnam.vn', port=443): Read timed out. (read timeout=12)): https://www.vietnam.vn/de/buoc-tien-moi-cua-du-an-dien-khi-lng-ca-na-tri-gia-gan
+2026-11-21 15:04:42,703 [INFO] Text length: 221 chars | source: fallback
+2026-11-21 15:04:42,703 [INFO] Text preview: Ein neuer Meilenstein für das fast 2,2 Milliarden Dollar teure Ca Na LNG-Kraftwerksprojekt. - Vietnam.vn
+
+Ein neuer Meilenstein für das fast 2,2 Milliarden Dollar teure Ca Na LNG-Kraftwerksprojekt. &n...
+2026-11-21 15:04:42,703 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:04:44,461 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Ein neuer Meilenstein für das fast 2,2 Milliarden Dollar teu
+2026-11-21 15:04:44,461 [INFO] LLM extracted 1 deals | Ein neuer Meilenstein für das fast 2,2 Milliarden 
+2026-11-21 15:04:44,462 [INFO] Not a signed deal — skipping: Ein neuer Meilenstein für das fast 2,2 Milliarden Dollar teu
+2026-11-21 15:04:44,462 [INFO] ------- Processing article n. 1: Courtier en energie : rôle, rémunération et critères de choix pour les entrepris -------
+2026-11-21 15:04:44,527 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxQRVRLc1ZGaDFwYWNvcklUSmZJNzZZUVBkTDBGamNyNmtka3czR0czaVYxcW5uZUx4YS1XdGxfWnMzeEM5TTlLTjRfYmxJNmNZUWMyd0xHaGFiZGtXdzNIb0VrSlg4TThIVVp6QWhjMThoMkhRUDZua2ozblZaZEd1N2F0a0hOV0VuYV9vQkxUQjdxbVhHSGdMMVFxVHh5Qk5nY0JMYUZBRF95M192V21jbmhRY3V3OEJ3ai1oYWJiTzZSa0pKNWc?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:04:45,608 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:04:45,610 [INFO] Resolved Google News URL: https://www.enerzine.com/courtier-en-energie-role-remuneration-et-criteres-de-choix-pour-les-entrepr
+2026-11-21 15:04:45,610 [INFO] URL: https://www.enerzine.com/courtier-en-energie-role-remuneration-et-criteres-de-choix-pour-les-entreprises-en-2026/200911-2026-11
+2026-11-21 15:04:47,118 [INFO] Text length: 765 chars | source: full
+2026-11-21 15:04:47,118 [INFO] Text preview: Enerzine.com propose une couverture approfondie des innovations technologiques et scientifiques, avec un accent particulier sur : - Les énergies renouvelables et le stockage énergétique - Les avancées...
+2026-11-21 15:04:47,118 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:04:59,237 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Courtier en energie : rôle, rémunération et critères de choi
+2026-11-21 15:04:59,237 [INFO] LLM extracted 1 deals | Courtier en energie : rôle, rémunération et critèr
+2026-11-21 15:04:59,238 [INFO] Not a signed deal — skipping: Courtier en energie : rôle, rémunération et critères de choi
+2026-11-21 15:04:59,238 [INFO] ------- Processing article n. 1: NuScale Is Down 40% in a Month and Just Hit a New 52-Week Low. Is the Selling Ov -------
+2026-11-21 15:04:59,299 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxPWXNvaU5uSnRYVTF1M0JyUnJmVVdQRVVCLXVCS1dKR0tTU0ttems4U3B3MThuMHJPdzRLd3VQNl9PR2NUQ1dUVkJ4Qm5DeElRbzR1YmM2MGVrVExfWHFKTHJ5dTVpR1dJVlVSbTZXZFd6S0o4T0RZX05UZ3hBWnZJOUszODFlUjZCbkwtdnUxalozSjk0VlBiLWZybmplT0gtWW1VUHhjTmJBWENFSTNBRzljWHA?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:05:00,387 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:05:00,388 [INFO] Resolved Google News URL: https://www.tikr.com/fr/blog/nuscale-is-down-40-in-a-month-and-just-hit-a-new-52-week-low-is-the-sel
+2026-11-21 15:05:00,388 [INFO] URL: https://www.tikr.com/fr/blog/nuscale-is-down-40-in-a-month-and-just-hit-a-new-52-week-low-is-the-selling-overdone?
+2026-11-21 15:05:00,712 [INFO] Text length: 7131 chars | source: full
+2026-11-21 15:05:00,712 [INFO] Text preview: Points clés
+- L'action NuScale a chuté de 40% sur le dernier mois pour atteindre un nouveau plus bas sur 52 semaines, reculant plus qu'Oklo alors que les valeurs de l'IA-énergie et du nucléaire ont ét...
+2026-11-21 15:05:00,713 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:05:14,604 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: NuScale Is Down 40% in a Month and Just Hit a New 52-Week Lo
+2026-11-21 15:05:14,604 [INFO] LLM extracted 1 deals | NuScale Is Down 40% in a Month and Just Hit a New 
+2026-11-21 15:05:14,605 [INFO] Not a signed deal — skipping: NuScale Is Down 40% in a Month and Just Hit a New 52-Week Lo
+2026-11-21 15:05:14,605 [INFO] ------- Processing article n. 1: EDP inicia planta solar Cypress Knee de 250 MW en Arkansas, respaldada por Meta, -------
+2026-11-21 15:05:14,663 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVTYyUXZ0VVZtQVhIZ2FfNUVSREN6LU8xRGdnaEV6dTJ1eE5pampkcTY5S3dpd0FSeEZaN2NVQUllbmp2ZmstVV9sRDFycTJ3RDNlbHdBOThpdzBkc1l6WE1pQUxFeVZ3VnpCS3Y0WXZvU0FHUTdURTZPT3h2djhMT19FZGpVbHN1ZjlybGpyTnNLc0IyQTRvMjZwTE95c2Z6VWxDTGVYaFhDX0hCS0Z2OUQ0RGtNQ2dSN0hncEpOWnBxdVF0aUpXNDcwVGtMQXNibmlPS1dtVW1tMzFxZ21qZEpGdGZ0M2VsRG1vTGJSQVAyLTg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:05:15,748 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:05:15,749 [INFO] Resolved Google News URL: https://prensamercosur.org/2026/11/21/edp-inicia-planta-solar-cypress-knee-de-250-mw-en-arkansas-res
+2026-11-21 15:05:15,749 [INFO] URL: https://prensamercosur.org/2026/11/21/edp-inicia-planta-solar-cypress-knee-de-250-mw-en-arkansas-respaldada-por-meta-con-una-inversion-de-400-millones-para-2028/
+2026-11-21 15:05:27,788 [INFO] Full text fetch failed (HTTPSConnectionPool(host='prensamercosur.org', port=443): Read timed out. (read timeout=12)): https://prensamercosur.org/2026/11/21/edp-inicia-planta-solar-cypress-knee-de-25
+2026-11-21 15:05:27,788 [INFO] Text length: 299 chars | source: fallback
+2026-11-21 15:05:27,788 [INFO] Text preview: EDP inicia planta solar Cypress Knee de 250 MW en Arkansas, respaldada por Meta, con una inversión de $400 millones para 2028 - Prensa Mercosur
+
+EDP inicia planta solar Cypress Knee de 250 MW en Arkan...
+2026-11-21 15:05:27,788 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:05:29,384 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: EDP inicia planta solar Cypress Knee de 250 MW en Arkansas, 
+2026-11-21 15:05:29,384 [INFO] LLM extracted 1 deals | EDP inicia planta solar Cypress Knee de 250 MW en 
+2026-11-21 15:05:29,385 [INFO] Not a signed deal — skipping: EDP inicia planta solar Cypress Knee de 250 MW en Arkansas, 
+2026-11-21 15:05:29,385 [INFO] ------- Processing article n. 1: Decreto Bollette: dal testo di febbraio al correttivo ora in vigore, entro il 30 -------
+2026-11-21 15:05:29,453 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMi5gFBVV95cUxPekdlQ2YzbFgwOTFaTmpIVVpzYjkyS1kxaGZsRmFaall6Y3VzVFBCZ2tsZGhLbFVhSkx4ZjZ2NVBTb2JUTXlWa1FWTHByLW5Eb0J4eGpVMkVEX3RqZENSS3JfVXpRckNNMHpET3VJUFE2UlplZC1oTVVhOWpNX2V2ZTJyUE9uNmZQSXpLQnp1SkdBaVNpbDhlUUlUTk5kenpoWERXMXBnUWdjVlhaUGVUSkRQTnZkN2llUU1BVVBOT1ZsejUtRUY4elR6OG5TaWJQTkFaZ0U0YVQzT3BOSVhfdEdTaUhRZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:05:30,537 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:05:30,538 [INFO] Resolved Google News URL: https://www.lamiafinanza.it/2026/11/decreto-bollette-dal-testo-di-febbraio-al-correttivo-ora-in-vigo
+2026-11-21 15:05:30,538 [INFO] URL: https://www.lamiafinanza.it/2026/11/decreto-bollette-dal-testo-di-febbraio-al-correttivo-ora-in-vigore-entro-il-30-novembre-i-dettagli-per-le-bollette/
+2026-11-21 15:05:30,674 [INFO] Text length: 4075 chars | source: full
+2026-11-21 15:05:30,674 [INFO] Text preview: Il correttivo punta a ridurre il prezzo dell’elettricità intervenendo sui costi delle centrali a gas e sulle loro offerte all’ingrosso, non introducendo uno sconto automatico in bolletta. Approvato da...
+2026-11-21 15:05:30,674 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:05:44,362 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Decreto Bollette: dal testo di febbraio al correttivo ora in
+2026-11-21 15:05:44,363 [INFO] LLM extracted 1 deals | Decreto Bollette: dal testo di febbraio al corrett
+2026-11-21 15:05:44,364 [INFO] Not a signed deal — skipping: Decreto Bollette: dal testo di febbraio al correttivo ora in
+2026-11-21 15:05:44,364 [INFO] ------- Processing article n. 1: Eliminare gradualmente i sussidi incrociati ai prezzi dell'energia elettrica e p -------
+2026-11-21 15:05:44,424 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxOZ1hOR2drUjg4SllRb2lOMjg4N1A3ckR4QkROX01tV2pSR2FnWnJ5OE5zd1R4bjdoYmUwNHBuSG44V1B3amZfRTh5Vlg4QndLT2c5V2JvSTBGRHNYOEozUDF2aWtzOUFoTUJEYlZta01EZDFhOFFQVFI1UDVfeU5FQ1BwZ0RjMEtXZFd0bXYzbkRWUElkYV85TWRSemliZw?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:05:45,519 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:05:45,519 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/tung-buoc-xoa-bo-bu-cheo-gia-dien-hoan-thien-co-che-gia-theo-thi-truong
+2026-11-21 15:05:45,519 [INFO] URL: https://www.vietnam.vn/it/tung-buoc-xoa-bo-bu-cheo-gia-dien-hoan-thien-co-che-gia-theo-thi-truong
+2026-11-21 15:05:57,538 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.vietnam.vn', port=443): Read timed out. (read timeout=12)): https://www.vietnam.vn/it/tung-buoc-xoa-bo-bu-cheo-gia-dien-hoan-thien-co-che-gi
+2026-11-21 15:05:57,538 [INFO] Text length: 347 chars | source: fallback
+2026-11-21 15:05:57,538 [INFO] Text preview: Eliminare gradualmente i sussidi incrociati ai prezzi dell'energia elettrica e perfezionare il meccanismo di determinazione dei prezzi basato sul mercato. - Vietnam.vn
+
+Eliminare gradualmente i sussid...
+2026-11-21 15:05:57,539 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:05:59,498 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Eliminare gradualmente i sussidi incrociati ai prezzi dell'e
+2026-11-21 15:05:59,499 [INFO] LLM extracted 1 deals | Eliminare gradualmente i sussidi incrociati ai pre
+2026-11-21 15:05:59,499 [INFO] Not a signed deal — skipping: Eliminare gradualmente i sussidi incrociati ai prezzi dell'e
+2026-11-21 15:05:59,500 [INFO] ------- Processing article n. 1: Legge sull'energia elettrica modificata: sette importanti cambiamenti che spazia -------
+2026-11-21 15:05:59,572 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUNiQlUzdmotTDZBRC1xVmhkWW1uV2FBeXNHbWd3ZGJnY2dvY2JBTmxnSFRDNmJJRGZhbkJDSTlBdWVtRzF3Q2RaYV9QcXNkYlJ1WXgtMU1sSm80cDZqcG85b1dSektidEJOQ3pOb0Z2aEdUMzZoVlNPaUdmY3V1Mk9fR1FTQlZ1ZVVzQ01RU3IxX3pZdlpubE5kRQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:06:00,660 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:06:00,661 [INFO] Resolved Google News URL: https://www.vietnam.vn/it/luat-dien-luc-sua-doi-bay-nhom-thay-doi-lon-tu-quy-hoach-toi-gia-dien
+2026-11-21 15:06:00,661 [INFO] URL: https://www.vietnam.vn/it/luat-dien-luc-sua-doi-bay-nhom-thay-doi-lon-tu-quy-hoach-toi-gia-dien
+2026-11-21 15:06:00,938 [INFO] Text length: 21367 chars | source: full
+2026-11-21 15:06:00,938 [INFO] Text preview: Legge sull'energia elettrica modificata: sette importanti cambiamenti che spaziano dalla pianificazione ai prezzi dell'energia elettrica.
+La mattina del 21 novembre 2026, l'Assemblea Nazionale ha appr...
+2026-11-21 15:06:00,938 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:06:14,733 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Legge sull'energia elettrica modificata: sette importanti ca
+2026-11-21 15:06:14,734 [INFO] LLM extracted 1 deals | Legge sull'energia elettrica modificata: sette imp
+2026-11-21 15:06:14,735 [INFO] Not a signed deal — skipping: Legge sull'energia elettrica modificata: sette importanti ca
+2026-11-21 15:06:14,735 [INFO] ------- Processing article n. 1: O Grupo ROX colabora no desenvolvimento de energia limpa no Azerbaijão. - Vietna -------
+2026-11-21 15:06:14,795 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxNd0JJWTFWRFpXNWUybGFyQ1hrVG5EM3R3c1JETmIxQWpjYmxtNmpZei01NXdiTXZISmdOeDRNSHpqS2ctYUt1QzQ1emwwZ2ZyWUU5dS0tanlXck1QT1pYdlRnVWxZLUswWm92VFZ1cGZXMmk1elo0alVnWDlWaXdHTFNraVByYVdVTzNmU29R?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:06:15,870 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:06:15,871 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/rox-group-hop-tac-phat-trien-nang-luong-sach-tai-azerbaijan
+2026-11-21 15:06:15,871 [INFO] URL: https://www.vietnam.vn/pt/rox-group-hop-tac-phat-trien-nang-luong-sach-tai-azerbaijan
+2026-11-21 15:06:16,119 [INFO] Text length: 4986 chars | source: full
+2026-11-21 15:06:16,119 [INFO] Text preview: O Grupo ROX colabora no desenvolvimento de energia limpa no Azerbaijão.
+(Jornal Dan Tri) - O Grupo ROX e o Ministério da Energia do Azerbaijão acabam de assinar um Acordo de Implementação para a avali...
+2026-11-21 15:06:16,120 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:06:29,461 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: O Grupo ROX colabora no desenvolvimento de energia limpa no 
+2026-11-21 15:06:29,461 [INFO] LLM extracted 1 deals | O Grupo ROX colabora no desenvolvimento de energia
+2026-11-21 15:06:29,462 [INFO] Not a signed deal — skipping: O Grupo ROX colabora no desenvolvimento de energia limpa no 
+2026-11-21 15:06:29,462 [INFO] ------- Processing article n. 1: NuScale Is Down 40% in a Month and Just Hit a New 52-Week Low. Is the Selling Ov -------
+2026-11-21 15:06:29,531 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxObENlQjFXLXROZHJrLS1IS21rTk8yMjBNRDNIcU1HRWd5VXhwTUVNVVpJYnZFMzVIQjRybXk5SW85cDZYeGRYYnJwRXJJS3FQY2taMjJQekgxcG12QkNxclVYNEpFX3JOLWVIREhXZlZ0V3B0amdNdDhaSllCMDU1WWEyMFFRTWRaVUVUekd4UHVlUGZRSXItQlZ5dXdvNGxuUTBfYk4xckg1UldJeVYyYkk0Wmk?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:06:30,636 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:06:30,637 [INFO] Resolved Google News URL: https://www.tikr.com/pt/blog/nuscale-is-down-40-in-a-month-and-just-hit-a-new-52-week-low-is-the-sel
+2026-11-21 15:06:30,637 [INFO] URL: https://www.tikr.com/pt/blog/nuscale-is-down-40-in-a-month-and-just-hit-a-new-52-week-low-is-the-selling-overdone?
+2026-11-21 15:06:30,921 [INFO] Text length: 6451 chars | source: full
+2026-11-21 15:06:30,921 [INFO] Text preview: Principais Conclusões
+- As ações da NuScale caíram 40% no último mês, atingindo uma nova mínima de 52 semanas, recuando mais do que a Oklo, à medida que as ações de energia para IA e nucleares foram v...
+2026-11-21 15:06:30,921 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:06:44,413 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: NuScale Is Down 40% in a Month and Just Hit a New 52-Week Lo
+2026-11-21 15:06:44,413 [INFO] LLM extracted 1 deals | NuScale Is Down 40% in a Month and Just Hit a New 
+2026-11-21 15:06:44,414 [INFO] Not a signed deal — skipping: NuScale Is Down 40% in a Month and Just Hit a New 52-Week Lo
+2026-11-21 15:06:44,414 [INFO] ------- Processing article n. 1: Eliminar gradualmente a subsidiação cruzada dos preços da eletricidade e aperfei -------
+2026-11-21 15:06:44,493 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMingFBVV95cUxPUFZRVTRtNlZvcENBWkRjVUE1dUVTd3g5cDA5YXFuVVJHdmgwY3V2RzRsdzNXakJEcFoxM3RSMktIZlBGZjlZZ2ZjVi1VUjJkT3BIR1gzUkFqLWxwSGoxczkydGd5QTlrZktBZmJHNUppbnYxcnVkTVhDMmhpVV9iVWViZG1LWGdieGJma2huZjZqTmlPOUhHS3hGOTUxQQ?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:06:45,572 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:06:45,573 [INFO] Resolved Google News URL: https://www.vietnam.vn/pt/tung-buoc-xoa-bo-bu-cheo-gia-dien-hoan-thien-co-che-gia-theo-thi-truong
+2026-11-21 15:06:45,573 [INFO] URL: https://www.vietnam.vn/pt/tung-buoc-xoa-bo-bu-cheo-gia-dien-hoan-thien-co-che-gia-theo-thi-truong
+2026-11-21 15:06:57,603 [INFO] Full text fetch failed (HTTPSConnectionPool(host='www.vietnam.vn', port=443): Read timed out. (read timeout=12)): https://www.vietnam.vn/pt/tung-buoc-xoa-bo-bu-cheo-gia-dien-hoan-thien-co-che-gi
+2026-11-21 15:06:57,603 [INFO] Text length: 291 chars | source: fallback
+2026-11-21 15:06:57,603 [INFO] Text preview: Eliminar gradualmente a subsidiação cruzada dos preços da eletricidade e aperfeiçoar o mecanismo de preços baseado no mercado. - Vietnam.vn
+
+Eliminar gradualmente a subsidiação cruzada dos preços da e...
+2026-11-21 15:06:57,603 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:06:59,334 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Eliminar gradualmente a subsidiação cruzada dos preços da el
+2026-11-21 15:06:59,334 [INFO] LLM extracted 1 deals | Eliminar gradualmente a subsidiação cruzada dos pr
+2026-11-21 15:06:59,335 [INFO] Not a signed deal — skipping: Eliminar gradualmente a subsidiação cruzada dos preços da el
+2026-11-21 15:06:59,335 [INFO] ------- Processing article n. 1: Trump quer que Filipinas deixem de comprar produtos agrícolas do Brasil - Francê -------
+2026-11-21 15:06:59,395 [INFO] HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxPdmprenlXUlBQckU1WGVDY3FwbEUzOWdQWWVDamFZSTdzUjVsa3VucXg4a1RiSTZBenozZzJMWDk1S2JaWEFjbGstc0JPeGF1aUZfZEFlYV9CaDBNcWYzeXFPZ04yUHJmdzM0ZmRZQWNaVnlIX3lhMDVWYlpTSElHdnRHS25ocTVKNVVHV1hqQzlMWlkxSkQwRTNtcXJ5MlMzMDFIVjhQeC1TSEVuT2tvR2dNQnpHTl9fTWRINg?hl=en-US&gl=US&ceid=US%3Aen "HTTP/2 200 OK"
+2026-11-21 15:07:00,486 [INFO] HTTP Request: POST https://news.google.com/_/DotsSplashUi/data/batchexecute "HTTP/2 200 OK"
+2026-11-21 15:07:00,486 [INFO] Resolved Google News URL: https://francesnews.com.br/post/2026/11/21/46804-trump-quer-que-filipinas-deixem-de-comprar-produtos
+2026-11-21 15:07:00,487 [INFO] URL: https://francesnews.com.br/post/2026/11/21/46804-trump-quer-que-filipinas-deixem-de-comprar-produtos-agricolas-do-brasil
+2026-11-21 15:07:00,652 [INFO] Text length: 2971 chars | source: full
+2026-11-21 15:07:00,652 [INFO] Text preview: Publicado em
+O presidente dos Estados Unidos, Donald Trump, afirmou que pretende fazer das empresas americanas as principais fornecedoras de produtos agrícolas das Filipinas, substituindo países que a...
+2026-11-21 15:07:00,652 [INFO] Trying LLM provider: groq-120b (model=openai/gpt-oss-120b)
+2026-11-21 15:07:14,224 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: Trump quer que Filipinas deixem de comprar produtos agrícola
+2026-11-21 15:07:14,225 [INFO] LLM extracted 1 deals | Trump quer que Filipinas deixem de comprar produto
+2026-11-21 15:07:14,226 [INFO] Not a signed deal — skipping: Trump quer que Filipinas deixem de comprar produtos agrícola
+2026-11-21 15:07:14,226 [INFO] Run complete. New deals: 1, Updates: 0
+2026-11-21 15:07:14,242 [INFO] CSV exported: /home/runner/work/ppa-tracker/ppa-tracker/data/ppa_deals.csv (1558 deals)
+2026-11-21 15:07:29,320 [INFO] LLM [groq-120b/openai/gpt-oss-120b] HTTP 200 for: daily email log summary
+2026-11-21 15:07:29,320 [INFO] Email log summary generated by groq-120b
+2026-11-21 15:07:31,016 [INFO] Run summary email sent to andrea.mangipinto@gmail.com
